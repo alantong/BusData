@@ -35,9 +35,18 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
+            file-path: |
+              output/CTB_Route.json
+              output/CTB_Stop.json
+              output/GMB_Route.json
+              output/GMB_Stop.json
+              output/KMB_Route.json
+              output/KMB_Stop.json
+              output/NLB_Route.json
+              output/NLB_Stop.json
+            commit-msg: Update resources
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            branch: main
