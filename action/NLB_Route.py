@@ -5,6 +5,8 @@ import logging
 import asyncio  
 import httpx
 import operator
+import traceback
+import time
 
 from requests.exceptions import HTTPError
 
@@ -18,6 +20,8 @@ nlb_stop_json = 'NLB_Stop'
 
 log_dir = 'log'
 output_dir = 'output'
+
+nlbStops = list()
 
 def writeToJson(content, filename) :
     outputDir = os.path.join(os.getcwd(), output_dir)
@@ -33,7 +37,6 @@ def writeToJson(content, filename) :
         json.dump(content, write_file, indent=4, ensure_ascii=False)
 
 
-nlbStops = list()
 
 async def getStopList(client, route):
     stopList = []
@@ -93,6 +96,7 @@ async def main():
             tasks = []
             nlbList = list()
             for r in routeList:
+                time.sleep(0.005)
                 nr = dict()
                 nr['co'] = 'NLB'
                 nr['routeId'] = r['routeId']
@@ -113,17 +117,24 @@ async def main():
        
 
         nlbStopList = list({v['stop']:v for v in nlbStops}.values())
-        nlbStopList= sorted(nlbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
+        _nlbStopList= sorted(nlbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
-        writeToJson(nlbStopList, nlb_stop_json)
+        writeToJson(_nlbStopList, nlb_stop_json)
 
         logging.info("Finish getting NLB route")
 
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
             logging.error(f'HTTP error occurred: {http_err}')
+            print(http_err)
+            logging.error(http_err, exc_info=True)
+            traceback.print_exc()
+
     except Exception as err:
             print(f'Other error occurred: {err}')
             logging.error(f'Other error occurred: {err}')
+            print(err)
+            logging.error(err, exc_info=True)
+            traceback.print_exc()
     
 asyncio.run(main())

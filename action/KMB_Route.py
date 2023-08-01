@@ -3,7 +3,9 @@ import json
 import os
 import logging
 import asyncio
+import time
 import httpx
+import traceback
 
 from requests.exceptions import HTTPError
 
@@ -83,6 +85,7 @@ async def main():
         async with httpx.AsyncClient() as client:
             tasks = []
             for r in routeList:
+                time.sleep(0.005)
                 tasks.append(getStopList(client, r))
             
             newRouteList += await asyncio.gather(*tasks)
@@ -104,10 +107,17 @@ async def main():
         logging.info("Finish getting KMB route")
         
     except HTTPError as http_err:
-        print(f'HTTP error occurred: {http_err}')
-        logging.error(f'HTTP error occurred: {http_err}')
+            print(f'HTTP error occurred: {http_err}')
+            logging.error(f'HTTP error occurred: {http_err}')
+            print(http_err)
+            logging.error(http_err, exc_info=True)
+            traceback.print_exc()
+
     except Exception as err:
-        print(f'Other error occurred: {err}')
-        logging.error(f'Other error occurred: {err}')
+            print(f'Other error occurred: {err}')
+            logging.error(f'Other error occurred: {err}')
+            print(err)
+            logging.error(err, exc_info=True)
+            traceback.print_exc()
 
 asyncio.run(main())

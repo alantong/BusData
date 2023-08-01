@@ -2,8 +2,10 @@ import requests
 import json
 import os
 import logging
-import asyncio  
+import asyncio 
+import time 
 import httpx
+import traceback
 
 from requests.exceptions import HTTPError
 
@@ -99,6 +101,7 @@ async def main():
             for r in routeList :
                 #print(r['route'], ' :', r['bound'], ':', r['orig_tc'], ":", r["dest_tc"])
                 for b in ('outbound', 'inbound') :
+                    time.sleep(0.005)
                     tasks.append(getStopList(client, r, b))
             ctbList += await asyncio.gather(*tasks)                
 
@@ -119,6 +122,7 @@ async def main():
         async with httpx.AsyncClient() as client:
             tasks = []
             for c in ctbStopList :
+                time.sleep(0.005)
                 tasks.append(getStopInfo(client, c))
             ctbStopInfoList += await asyncio.gather(*tasks) 
 
@@ -129,9 +133,16 @@ async def main():
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
             logging.error(f'HTTP error occurred: {http_err}')
+            print(http_err)
+            logging.error(http_err, exc_info=True)
+            traceback.print_exc()
+
     except Exception as err:
             print(f'Other error occurred: {err}')
             logging.error(f'Other error occurred: {err}')
+            print(err)
+            logging.error(err, exc_info=True)
+            traceback.print_exc()
 
 
 asyncio.run(main())

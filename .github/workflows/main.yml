@@ -26,6 +26,7 @@ jobs:
           python action/KMB_Route.py
           python action/CTB_Route.py
           python action/NLB_Route.py
+          python action/GMB_Route.py
 
       - name: commit files
         run: |
