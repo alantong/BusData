@@ -42,19 +42,22 @@ def writeToJson(content, filename) :
 async def getStopList(client, gr) :
     stopListUrl = f"{stopListBaseUrl}{gr['routeId']}/{gr['routeSeq']}"
     stopListResponse = await client.get(stopListUrl)
+    stopListObject = stopListResponse.json()
 
     stopList = list()
 
-    st = dict()
+    
     _gr = gr.copy()
-    for s in stopListResponse.json()['data']['route_stops']:
+    for s in stopListObject['data']['route_stops']:
         stopList.append(s['stop_id'])
+        st = dict()
         st['co'] = 'GMB'
         st['stop'] = s['stop_id']
         st['name_tc'] = s['name_tc']
         st['name_sc'] = s['name_sc']
         st['name_en'] = s['name_en']
         gmbStops.append(st)
+
     _gr['stops'] = stopList
     return _gr
     
@@ -133,7 +136,9 @@ async def main():
         writeToJson(_gmbRouteStop, gmb_route_json)
         print("GMB Route List done")
 
+
         gmbStopList = list({v['stop']:v for v in gmbStops}.values())
+
         _gmbStopList= sorted(gmbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
         gmbStopLoc = list()
@@ -145,6 +150,7 @@ async def main():
             gmbStopLoc += await asyncio.gather(*tasks)
 
         writeToJson(gmbStopLoc, gmb_stop_json)
+
         print("GMB Stop List done")
 
         logging.info("Finish getting GMB route")
