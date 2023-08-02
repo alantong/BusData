@@ -28,16 +28,20 @@ jobs:
           python action/NLB_Route.py
           python action/GMB_Route.py
 
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
+      
+      #- name: commit files
+      #  run: |
+      #    git config --local user.email "action@github.com"
+      #    git config --local user.name "GitHub Action"
+      #    git add -A
+      #    git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          file-path: |
+            output/*.json
+            log/*.log
+          commit-msg: Update resources
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-          force: true
