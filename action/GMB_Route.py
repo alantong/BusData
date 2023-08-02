@@ -83,12 +83,12 @@ async def getRouteName(client, region, routeNo) :
             gr['route'] = rId['route_code']
             gr['routeId'] = rId['route_id']
             gr['routeSeq'] = d['route_seq']
-            gr['origTc'] = d['orig_tc']
-            gr['destTc'] = d['dest_tc']
-            gr['origSc'] = d['orig_sc']
-            gr['destSc'] = d['dest_sc']
-            gr['origEn'] = d['orig_en']
-            gr['destEn'] = d['dest_en']
+            gr['orig_tc'] = d['orig_tc']
+            gr['dest_tc'] = d['dest_tc']
+            gr['orig_sc'] = d['orig_sc']
+            gr['dest_sc'] = d['dest_sc']
+            gr['orig_en'] = d['orig_en']
+            gr['dest_en'] = d['dest_en']
             gmbRoutes.append(gr)
 
 async def main():
