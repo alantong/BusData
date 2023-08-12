@@ -74,7 +74,7 @@ async def main():
         if os.path.exists(outputDir) == False:
             os.mkdir(outputDir)
 
-        routeResponse = requests.get(allRouteBaseUrl)
+        routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
         # access Json content
         routeObject = routeResponse.json()
@@ -93,7 +93,7 @@ async def main():
 
         writeToJson(newRouteList, kmb_route_json)
 
-        allStopResponse = requests.get(allStopBaseUrl)
+        allStopResponse = requests.get(allStopBaseUrl, timeout=30.0)
         allStopResponse.raise_for_status()
         # access Json content
         allStopObject = allStopResponse.json()

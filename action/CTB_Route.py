@@ -87,7 +87,7 @@ async def main():
 
     try:
 
-        routeResponse = requests.get(allRouteBaseUrl)
+        routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
         # access Json content
         routeObject = routeResponse.json()
