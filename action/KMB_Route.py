@@ -38,7 +38,7 @@ async def getStopList(client, route) :
     bound = 'outbound' if(route['bound'] == 'O')  else 'inbound'
     stopListUrl = stopListBaseUrl + route['route'] + '/' + bound + '/' + route['service_type'] 
 
-    stopListResponse = await client.get(stopListUrl)
+    stopListResponse = await client.get(stopListUrl, timeout=30.0)
     stopListObject = stopListResponse.json()
     stopList = []
     for s in stopListObject['data']:
