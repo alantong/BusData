@@ -1,0 +1,92 @@
+12-Aug-23 20:11:28 | root - INFO - Start getting KMB route
+12-Aug-23 20:11:39 | httpx - INFO - HTTP Request: GET https://data.etabus.gov.hk/v1/transport/kmb/route-stop/5A/outbound/1 "HTTP/1.1 200 OK"
+12-Aug-23 20:11:39 | root - ERROR - Other error occurred: 
+12-Aug-23 20:11:39 | root - ERROR - 
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/asyncio/selector_events.py", line 995, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
+    yield
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 78, in start_tls
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 69, in start_tls
+    ssl_stream = await anyio.streams.tls.TLSStream.wrap(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/anyio/streams/tls.py", line 123, in wrap
+    await wrapper._call_sslobject_method(ssl_object.do_handshake)
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/anyio/streams/tls.py", line 138, in _call_sslobject_method
+    data = await self.transport_stream.receive()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1212, in receive
+    raise self._protocol.exception
+anyio.BrokenResourceError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 262, in handle_async_request
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 245, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_async/connection.py", line 92, in handle_async_request
+    raise exc
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_async/connection.py", line 69, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_async/connection.py", line 149, in _connect
+    stream = await stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 66, in start_tls
+    with map_exceptions(exc_map):
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/BusData/BusData/action/KMB_Route.py", line 91, in main
+    newRouteList += await asyncio.gather(*tasks)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/KMB_Route.py", line 41, in getStopList
+    stopListResponse = await client.get(stopListUrl)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1757, in get
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/hostedtoolcache/Python/3.11.4/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError
