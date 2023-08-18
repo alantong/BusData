@@ -106,7 +106,7 @@ async def main():
         routeList = routeObject['data']
 
         newRouteList = []
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for r in routeList:
                 time.sleep(0.005)
