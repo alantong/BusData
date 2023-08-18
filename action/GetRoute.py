@@ -15,7 +15,7 @@ def main() :
 def capWords(s) :
     r = s.title()
     r = re.sub(r'\'[A-Z]', lambda p: p.group(0).lower(), r)
-    r = re.sub(r'\sBbi\s', ' BBI ', r)
+    r = re.sub(r'Bbi', 'BBI', r)
     r = re.sub(r'Mtr\s', 'MTR ', r)
     r = re.sub(r'Plb\s', 'PLB ', r)
     r = re.sub(r'Hku\s', 'HKU ', r)
