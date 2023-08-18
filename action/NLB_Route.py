@@ -107,6 +107,9 @@ async def main():
                 nr['dest_sc'] = r['routeName_s'].split('>')[1].strip()
                 nr['orig_en'] = r['routeName_e'].split('>')[0].strip()
                 nr['dest_en'] = r['routeName_e'].split('>')[1].strip()
+
+                nr['overnightRoute'] = r['overnightRoute']
+                nr['specialRoute'] = r['specialRoute']
                  
                 tasks.append(getStopList(client, nr))
             nlbList += await asyncio.gather(*tasks)

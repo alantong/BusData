@@ -7,6 +7,7 @@ import httpx
 import operator
 import time
 import traceback
+import re
 
 from requests.exceptions import HTTPError
 
@@ -39,6 +40,26 @@ def writeToJson(content, filename) :
     with open(outputJson, 'w', encoding='UTF-8') as write_file:
         json.dump(content, write_file, indent=4, ensure_ascii=False)
 
+def capWords(s) :
+    r = s.title()
+    r = re.sub(r'\'[A-Z]', lambda p: p.group(0).lower(), r)
+    r = re.sub(r'\sBbi\s', ' BBI ', r)
+    r = re.sub(r'Mtr\s', 'MTR ', r)
+    r = re.sub(r'Plb\s', 'PLB ', r)
+    r = re.sub(r'Hku\s', 'HKU ', r)
+    r = re.sub(r'Near\s', 'near ', r)
+    r = re.sub(r'\sAnd\s', ' and ', r)
+    r = re.sub(r'Outside', 'outside', r)
+    r = re.sub(r'Opposite', 'opposite', r)
+    r = re.sub(r'Via', 'via', r)
+    r = re.sub(r'\sOf\s', ' of ', r)
+    #r = re.sub(r'By The', 'by the', r)
+    #r = re.sub(r'On The', 'on the', r)
+    r = re.sub(r'\bIi\b', 'II', r)
+    r = re.sub(r'\bIii\b', 'III', r)
+    r = re.sub(r'\(Gtc\)', '(GTC)', r)
+    return r
+
 async def getStopList(client, gr) :
     stopListUrl = f"{stopListBaseUrl}{gr['routeId']}/{gr['routeSeq']}"
     stopListResponse = await client.get(stopListUrl)
@@ -55,7 +76,7 @@ async def getStopList(client, gr) :
         st['stop'] = s['stop_id']
         st['name_tc'] = s['name_tc']
         st['name_sc'] = s['name_sc']
-        st['name_en'] = s['name_en']
+        st['name_en'] = capWords(s['name_en'])
         gmbStops.append(st)
 
     _gr['stops'] = stopList
@@ -87,8 +108,8 @@ async def getRouteName(client, region, routeNo) :
             gr['dest_tc'] = d['dest_tc']
             gr['orig_sc'] = d['orig_sc']
             gr['dest_sc'] = d['dest_sc']
-            gr['orig_en'] = d['orig_en']
-            gr['dest_en'] = d['dest_en']
+            gr['orig_en'] = capWords(d['orig_en'])
+            gr['dest_en'] = capWords(d['dest_en'])
             gmbRoutes.append(gr)
 
 async def main():
