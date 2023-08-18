@@ -43,6 +43,7 @@ def capWords(s) :
     r = re.sub(r'Mtr\s', 'MTR ', r)
     r = re.sub(r'Plb\s', 'PLB ', r)
     r = re.sub(r'Hku\s', 'HKU ', r)
+    r = re.sub(r'Hzmb\s', 'HZMB ', r)
     r = re.sub(r'Near\s', 'near ', r)
     r = re.sub(r'\sAnd\s', ' and ', r)
     r = re.sub(r'Outside', 'outside', r)
