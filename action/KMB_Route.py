@@ -6,8 +6,7 @@ import asyncio
 import time
 import httpx
 import traceback
-import re
-import string
+import GetRoute
 
 from requests.exceptions import HTTPError
 
@@ -36,26 +35,7 @@ def writeToJson(content, filename) :
         json.dump(content, write_file, indent=4, ensure_ascii=False)
 
 
-def capWords(s) :
-    r = s.title()
-    r = re.sub(r'\'[A-Z]', lambda p: p.group(0).lower(), r)
-    r = re.sub(r'\sBbi\s', ' BBI ', r)
-    r = re.sub(r'Mtr\s', 'MTR ', r)
-    r = re.sub(r'Plb\s', 'PLB ', r)
-    r = re.sub(r'Hku\s', 'HKU ', r)
-    r = re.sub(r'Hzmb\s', 'HZMB ', r)
-    r = re.sub(r'Near\s', 'near ', r)
-    r = re.sub(r'\sAnd\s', ' and ', r)
-    r = re.sub(r'Outside', 'outside', r)
-    r = re.sub(r'Opposite', 'opposite', r)
-    r = re.sub(r'Via', 'via', r)
-    r = re.sub(r'\sOf\s', ' of ', r)
-    #r = re.sub(r'By The', 'by the', r)
-    #r = re.sub(r'On The', 'on the', r)
-    r = re.sub(r'\bIi\b', 'II', r)
-    r = re.sub(r'\bIii\b', 'III', r)
-    r = re.sub(r'\(Gtc\)', '(GTC)', r)
-    return r
+
 
 async def getStopList(client, route) :
     bound = 'outbound' if(route['bound'] == 'O')  else 'inbound'
@@ -68,8 +48,8 @@ async def getStopList(client, route) :
         stopList.append(s['stop'])
     r = route.copy()
     r['co'] = "KMB"
-    r['orig_en'] = capWords(r['orig_en'])
-    r['dest_en'] = capWords(r['dest_en'])
+    r['orig_en'] = GetRoute.capWords(r['orig_en'])
+    r['dest_en'] = GetRoute.capWords(r['dest_en'])
     r['stops'] = stopList
     return r
 
@@ -91,7 +71,8 @@ async def main():
     # Setting the threshold of logger to DEBUG
     logger.setLevel(logging.INFO)
 
-    logging.info("Start getting KMB route")
+    print("Start getting KMB routes")
+    logging.info("Start getting KMB routes")
 
     try:
         
@@ -118,6 +99,9 @@ async def main():
 
         writeToJson(newRouteList, kmb_route_json)
 
+        print("Finish getting KMB routes")
+        logging.info("Finish getting KMB rotues")
+
         allStopResponse = requests.get(allStopBaseUrl, timeout=30.0)
         allStopResponse.raise_for_status()
         # access Json content
@@ -126,11 +110,12 @@ async def main():
         allStopList = allStopObject['data']
         for s in allStopList:
             s['co'] = 'KMB'
-            s['name_en'] = capWords(s['name_en'])
+            s['name_en'] = GetRoute.capWords(s['name_en'])
             
         writeToJson(allStopList, kmb_stop_json)
 
-        logging.info("Finish getting KMB route")
+        print("Finish getting KMB stops")
+        logging.info("Finish getting KMB stops")
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')

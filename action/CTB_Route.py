@@ -83,8 +83,9 @@ async def main():
     # Setting the threshold of logger to DEBUG
     logger.setLevel(logging.INFO)
 
-    logging.info("Start getting CTB route")
-
+    print("Start getting CTB routes")
+    logging.info("Start getting CTB routes")
+        
     try:
 
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
@@ -108,6 +109,9 @@ async def main():
         ctbList = list(filter(None, ctbList))    
 
         writeToJson(ctbList, ctb_route_json)
+        
+        print("Finish getting CTB routes")
+        logging.info("Finish getting CTB routes")
 
         ctbStops = set()
 
@@ -128,7 +132,8 @@ async def main():
 
         writeToJson(ctbStopInfoList, ctb_stop_json)
 
-        logging.info("Finish getting CTB route")
+        print("Finish getting CTB stops")
+        logging.info("Finish getting CTB stops")
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')

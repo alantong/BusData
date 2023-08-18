@@ -81,7 +81,8 @@ async def main():
     # Setting the threshold of logger to DEBUG
     logger.setLevel(logging.INFO)
 
-    logging.info("Start getting NLB route")
+    print("Start getting NLB routes")
+    logging.info("Start getting NLB routes")
 
     try:
 
@@ -118,13 +119,16 @@ async def main():
 
         writeToJson(nlbList, nlb_route_json)
        
+        print("Finish getting NLB routes")
+        logging.info("Finish getting NLB routes")
 
         nlbStopList = list({v['stop']:v for v in nlbStops}.values())
         _nlbStopList= sorted(nlbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
         writeToJson(_nlbStopList, nlb_stop_json)
 
-        logging.info("Finish getting NLB route")
+        print("Finish getting NLB stops")
+        logging.info("Finish getting NLB stops")
 
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
