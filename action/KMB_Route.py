@@ -41,15 +41,14 @@ async def getStopList(client, route) :
     bound = 'outbound' if(route['bound'] == 'O')  else 'inbound'
     stopListUrl = stopListBaseUrl + route['route'] + '/' + bound + '/' + route['service_type'] 
 
+    print("Getting stoplist of " + stopListUrl)
+
     stopListResponse = await client.get(stopListUrl, timeout=30.0)
     stopListObject = stopListResponse.json()
     stopList = []
     for s in stopListObject['data']:
         stopList.append(s['stop'])
     r = route.copy()
-    r['co'] = "KMB"
-    r['orig_en'] = GetRoute.capWords(r['orig_en'])
-    r['dest_en'] = GetRoute.capWords(r['dest_en'])
     r['stops'] = stopList
     return r
 
@@ -80,6 +79,25 @@ async def main():
         if os.path.exists(outputDir) == False:
             os.mkdir(outputDir)
 
+
+        allStopListResponse = requests.get(stopListBaseUrl, timeout=30.0)
+        allStopListResponse.raise_for_status()
+        # access Json content
+        allStopListObject = allStopListResponse.json()
+
+        allStopList = allStopListObject['data']
+
+        stopListDict = {}
+        for sl in allStopList:
+            sl_r = sl['route']
+            sl_b = sl['bound']
+            sl_st = sl['service_type']
+            #.setdefault(k, []).append(v)
+            stopListDict.setdefault((sl_r, sl_b, sl_st), []).append(sl['stop'])
+            #stopListDict[str(sl_r)][str(sl_b)][str(sl_st)]['stops'].append(sl['stop'])
+
+        #print(stopListDict)
+
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
         # access Json content
@@ -87,17 +105,30 @@ async def main():
         
         routeList = routeObject['data']
 
+        for r in routeList:
+            r['co'] = "KMB"
+            r['orig_en'] = GetRoute.capWords(r['orig_en'])
+            r['dest_en'] = GetRoute.capWords(r['dest_en'])
+            r['stops'] = stopListDict[(r['route'], r['bound'], r['service_type'])]
+        
+        writeToJson(routeList, kmb_route_json)
+
+        """
         newRouteList = []
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for r in routeList:
+                r['co'] = "KMB"
+                r['orig_en'] = GetRoute.capWords(r['orig_en'])
+                r['dest_en'] = GetRoute.capWords(r['dest_en'])
                 time.sleep(0.005)
                 tasks.append(getStopList(client, r))
             
             newRouteList += await asyncio.gather(*tasks)
+        """
 
 
-        writeToJson(newRouteList, kmb_route_json)
+
 
         print("Finish getting KMB routes")
         logging.info("Finish getting KMB rotues")
