@@ -43,6 +43,7 @@ async def getStopInfo(client, stopId):
     if(len(stopInfoObject['data']) > 0):
         stopInfo = stopInfoObject['data']
         stopInfo['co'] = 'CTB'
+        stopInfo.pop('data_timestamp')
     return stopInfo
 
 async def getStopList(client, route, bound):
@@ -62,6 +63,7 @@ async def getStopList(client, route, bound):
             stopList.append(s['stop'])
         newRoute['stops'] = stopList
         newRoute['bound'] = 'I' if(bound == 'inbound') else 'O'
+        newRoute.pop('data_timestamp')
         return newRoute
     else :
         return []
