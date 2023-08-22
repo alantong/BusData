@@ -114,9 +114,9 @@ async def main():
                  
                 tasks.append(getStopList(client, nr))
             nlbList += await asyncio.gather(*tasks)
-        
-        nlbList = list(filter(None, nlbList))  
 
+        nlbList = list(filter(None, nlbList))  
+        nlbList.sort(key=lambda x: int(x.get('routeId')))
         writeToJson(nlbList, nlb_route_json)
        
         print("Finish getting NLB routes")
