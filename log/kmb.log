@@ -1,6 +1,6 @@
-26-Aug-23 21:10:43 | root - INFO - Start getting KMB routes
-26-Aug-23 21:10:47 | root - ERROR - Other error occurred: sub() missing 1 required positional argument: 'string'
-26-Aug-23 21:10:47 | root - ERROR - sub() missing 1 required positional argument: 'string'
+27-Aug-23 21:10:54 | root - INFO - Start getting KMB routes
+27-Aug-23 21:10:59 | root - ERROR - Other error occurred: sub() missing 1 required positional argument: 'string'
+27-Aug-23 21:10:59 | root - ERROR - sub() missing 1 required positional argument: 'string'
 Traceback (most recent call last):
   File "/home/runner/work/BusData/BusData/action/KMB_Route.py", line 110, in main
     r['orig_en'] = GetRoute.capWords(r['orig_en'])
