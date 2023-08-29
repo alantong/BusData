@@ -33,7 +33,7 @@ def capWords(s) :
     r = re.sub(r'\bIii\b', 'III', r)
     r = re.sub(r'\(Gtc\)', '(GTC)', r)
     r = re.sub(r'\bHk\b', 'HK', r)
-    r = re.sub(r'\bHkust\b' 'HKUST', r)
+    r = re.sub(r'\bHkust\b', 'HKUST', r)
     return r
 
 # Using the special variable 
