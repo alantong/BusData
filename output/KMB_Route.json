@@ -17351,7 +17351,39 @@
             "650809D260BC7C6E",
             "68C7CBB4CAB9FE69",
             "9CD9BFAE2BC91336",
-            "1BA6858FEF337645"
+            "1BA6858FEF337645",
+            "4E655B25ABAE103A",
+            "18785E68EAD3D9B8"
+        ]
+    },
+    {
+        "route": "78B",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Sheung Shui (Choi Yuen)",
+        "orig_tc": "上水(彩園)",
+        "orig_sc": "上水(彩园)",
+        "dest_en": "Queen's Hill",
+        "dest_tc": "皇后山",
+        "dest_sc": "皇后山",
+        "co": "KMB",
+        "stops": [
+            "18785E68EAD3D9B8",
+            "F8C20FE9111D486A",
+            "CF94083CB24CF4E5",
+            "4A76CDB32FA69BC6",
+            "6F11F73C749338DB",
+            "98EBAB9468C80DD2",
+            "6DD6B837EF1FA76C",
+            "AFD29CB1A4F71AB9",
+            "65ECD19EFD09FB74",
+            "D67917549F3DC8A3",
+            "6633B4885C8A3EE7",
+            "0F3FA9B7D07A91F3",
+            "E5F082F4C7300273",
+            "91E946260F8BCBE8",
+            "A911ACA189669DB4",
+            "91E946260F8BCBE8"
         ]
     },
     {
@@ -17674,6 +17706,45 @@
             "45924F2D86BEC3B4",
             "89D8AA4F45165FB6",
             "60AEF6D3AA7AAC41"
+        ]
+    },
+    {
+        "route": "79K",
+        "bound": "I",
+        "service_type": "3",
+        "orig_en": "Ta Kwu Ling(Tsung Yuen Ha)",
+        "orig_tc": "打鼓嶺(松園下)",
+        "orig_sc": "打鼓岭(松园下)",
+        "dest_en": "Fanling Station",
+        "dest_tc": "粉嶺站",
+        "dest_sc": "粉岭站",
+        "co": "KMB",
+        "stops": [
+            "588FC84C44F8634E",
+            "F6E8C31978660583",
+            "847C4E80D7B7626C",
+            "39869847FC2F32FD",
+            "F0B64A8CE14CB134",
+            "34D946B93F15A107",
+            "81C22E9A11BF812A",
+            "EA0FE520B3A369D5",
+            "4B9EF47430525B8D",
+            "FAEFD32F26E272A9",
+            "28C5D7C867E7366D",
+            "27E3CED51F22B6D4",
+            "82ECAD2CBD691FCF",
+            "42ED36AA029A4A02",
+            "9B34AB32A84DDC7C",
+            "4839FC604C173D01",
+            "13F0ABE0E45457F0",
+            "236DC08C08327ADB",
+            "D5918A3A6192208D",
+            "E173CF981835B7A1",
+            "A088D19226D59E98",
+            "6573811D015A0818",
+            "A22E315AD21129EB",
+            "EF78DD9F765C6565",
+            "D4A97E2A758EDC64"
         ]
     },
     {
@@ -47817,6 +47888,23 @@
     },
     {
         "route": "B9",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Yuen Long (Long Yat Road)",
+        "orig_tc": "元朗(朗日路)",
+        "orig_sc": "元朗(朗日路)",
+        "dest_en": "Heung Yuen Wai Control Point",
+        "dest_tc": "香園圍口岸",
+        "dest_sc": "香园围口岸",
+        "co": "KMB",
+        "stops": [
+            "4E2EC89B41600D7E",
+            "633840EFCF738514",
+            "20B3D40097A05769"
+        ]
+    },
+    {
+        "route": "B9",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Heung Yuen Wai Control Point",
@@ -47831,6 +47919,23 @@
             "6A4B371546D489BF",
             "445A166A348A82DB",
             "DBD6820299653B4E"
+        ]
+    },
+    {
+        "route": "B9",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Heung Yuen Wai Control Point",
+        "orig_tc": "香園圍口岸",
+        "orig_sc": "香园围口岸",
+        "dest_en": "Yuen Long (Yoho Mall)",
+        "dest_tc": "元朗(形點)",
+        "dest_sc": "元朗(形点)",
+        "co": "KMB",
+        "stops": [
+            "3ED28170B05A236E",
+            "6A4B371546D489BF",
+            "445A166A348A82DB"
         ]
     },
     {
