@@ -37,7 +37,7 @@ async def getStopInfo(client, stopId):
     stopInfo = []
     stopInfoUrl = stopInfoBaseUrl + stopId
 
-    stopInfoResponse = await client.get(stopInfoUrl)
+    stopInfoResponse = await client.get(stopInfoUrl, timeout=30.0)
     stopInfoObject = stopInfoResponse.json()
 
     if(len(stopInfoObject['data']) > 0):
@@ -55,7 +55,7 @@ async def getStopList(client, route, bound):
         newRoute['orig_en'], newRoute['dest_en'] = newRoute['dest_en'], newRoute['orig_en']
         newRoute['orig_sc'], newRoute['dest_sc'] = newRoute['dest_sc'], newRoute['orig_sc']
 
-    stopListResponse = await client.get(stopListUrl)
+    stopListResponse = await client.get(stopListUrl, timeout=30.0)
     stopListObject = stopListResponse.json()
     
     if(len(stopListObject['data']) > 0) :
