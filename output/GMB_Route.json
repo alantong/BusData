@@ -1641,6 +1641,32 @@
     },
     {
         "co": "GMB",
+        "route": "116",
+        "routeId": 2009609,
+        "routeSeq": 1,
+        "orig_tc": "百勝角",
+        "dest_tc": "將軍澳站 (循環線)",
+        "orig_sc": "百胜角",
+        "dest_sc": "将军澳站 (循环线)",
+        "orig_en": "Pak Shing Kok",
+        "dest_en": "Tseung Kwan O Station (Circular)",
+        "stops": [
+            20018775,
+            20002650,
+            20002652,
+            20015238,
+            20018776,
+            20015627,
+            20018777,
+            20015622,
+            20018778,
+            20007713,
+            20002648,
+            20018775
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "11A",
         "routeId": 2004824,
         "routeSeq": 1,

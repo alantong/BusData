@@ -17333,6 +17333,28 @@
         ]
     },
     {
+        "route": "78B",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Queen's Hill",
+        "orig_tc": "皇后山",
+        "orig_sc": "皇后山",
+        "dest_en": "Sheung Shui (Choi Yuen)",
+        "dest_tc": "上水(彩園)",
+        "dest_sc": "上水(彩园)",
+        "co": "KMB",
+        "stops": [
+            "E284CEE504CCDFB1",
+            "A911ACA189669DB4",
+            "A088D19226D59E98",
+            "FEC59562CBC99F5E",
+            "650809D260BC7C6E",
+            "68C7CBB4CAB9FE69",
+            "9CD9BFAE2BC91336",
+            "1BA6858FEF337645"
+        ]
+    },
+    {
         "route": "78K",
         "bound": "O",
         "service_type": "1",
@@ -27564,36 +27586,6 @@
             "452AD79BA74CF8F3",
             "576538E1395C8508",
             "9E376227A51AB6BE"
-        ]
-    },
-    {
-        "route": "203X",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Choi Hung",
-        "orig_tc": "彩虹",
-        "orig_sc": "彩虹",
-        "dest_en": "Jordan (Battery Street)",
-        "dest_tc": "佐敦(炮台街)",
-        "dest_sc": "佐敦(炮台街)",
-        "co": "KMB",
-        "stops": [
-            "55DFA7DF300865AF",
-            "DB6981B82045B45C",
-            "ACE23D880D07ABB1",
-            "1DA57A1376E99AC6",
-            "D4E2DC0F24A22589",
-            "0D39977C225DD2D5",
-            "AC30AF0DFC95D507",
-            "17EB4B9A9DE2FAF6",
-            "BAA5C48341F400C8",
-            "401EAF24B736C5B6",
-            "9B1BE296C2AC5F97",
-            "7BE18698D0E8FDCE",
-            "8748720365CEA134",
-            "25B94D808EC232D8",
-            "E049C81469E2B3C0",
-            "FD1B403FD4EC3E8D"
         ]
     },
     {
