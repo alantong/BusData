@@ -10,7 +10,7 @@ def main() :
     subprocess.run(["python", os.path.join(actionDir, "CTB_Route.py")])
     subprocess.run(["python", os.path.join(actionDir, "NLB_Route.py")])
     subprocess.run(["python", os.path.join(actionDir, "GMB_Route.py")])
-
+    subprocess.run(["python", os.path.join(actionDir, "MTR_BUS_Route.py")])
 
 def capWords(s) :
     r = s.title()

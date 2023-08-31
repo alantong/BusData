@@ -28,6 +28,7 @@ jobs:
           python action/CTB_Route.py
           python action/NLB_Route.py
           python action/GMB_Route.py
+          python action/MTR_BUS_Route.py
 
       
       #- name: commit files
