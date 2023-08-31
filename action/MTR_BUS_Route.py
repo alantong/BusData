@@ -90,7 +90,7 @@ async def main():
                 stop['route'] = row[0]
                 stop['bound'] = row[1]
                 stop['stopSeq'] = row[2]
-                stop['stopId'] = row[3]
+                stop['stop'] = row[3]
                 stop['lat'] = row[4]
                 stop['long'] = row[5]
                 stop['name_tc'] = row[6]
