@@ -1,8 +1,8 @@
-31-Aug-23 05:25:12 | root - INFO - Start getting MTR Bus stops
-31-Aug-23 05:25:13 | root - INFO - Finish getting MTR Bus stops
-31-Aug-23 05:25:13 | root - INFO - Start getting MTR Bus routes
-31-Aug-23 05:25:14 | root - ERROR - Other error occurred: 'stopId'
-31-Aug-23 05:25:14 | root - ERROR - 'stopId'
+31-Aug-23 21:14:22 | root - INFO - Start getting MTR Bus stops
+31-Aug-23 21:14:23 | root - INFO - Finish getting MTR Bus stops
+31-Aug-23 21:14:23 | root - INFO - Start getting MTR Bus routes
+31-Aug-23 21:14:23 | root - ERROR - Other error occurred: 'stopId'
+31-Aug-23 21:14:23 | root - ERROR - 'stopId'
 Traceback (most recent call last):
   File "/home/runner/work/BusData/BusData/action/MTR_BUS_Route.py", line 131, in main
     route['stops'] = list(stops)
