@@ -17,8 +17,8 @@ allStopBaseUrl = 'https://opendata.mtr.com.hk/data/mtr_bus_stops.csv'
 log_dir = 'log'
 output_dir = 'output'
 
-MTRBus_route_json = 'MTR_Bus_Route'
-MTRBus_stop_json = 'MTR_Bus_Stop'
+MTRBus_route_json = 'MTR_BUS_Route'
+MTRBus_stop_json = 'MTR_BUS_Stop'
  
 log_dir = 'log'
 output_dir = 'output'
