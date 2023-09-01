@@ -127,7 +127,7 @@ async def main():
                     route['dest_tc'] = row[1].split('至')[1] 
                     route['orig_en'] = row[2].split(' to ')[0] 
                     route['dest_en'] = row[2].split(' to ')[1] 
-                    stops = map(lambda x:  x['stopId'] , routeStopList)
+                    stops = map(lambda x:  x['stop'] , routeStopList)
                     route['stops'] = list(stops)
                     
                     routeList.append(route)
@@ -142,7 +142,7 @@ async def main():
                     route['dest_tc'] = row[1].split('至')[0] 
                     route['orig_en'] = row[2].split(' to ')[1] 
                     route['dest_en'] = row[2].split(' to ')[0] 
-                    stops = map(lambda x:  x['stopId'] , routeStopList)
+                    stops = map(lambda x:  x['stop'] , routeStopList)
                     route['stops'] = list(stops)
 
                     routeList.append(route)
