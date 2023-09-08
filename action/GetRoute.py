@@ -35,6 +35,7 @@ def capWords(s) :
     r = re.sub(r'\bHk\b', 'HK', r)
     r = re.sub(r'\bHkust\b', 'HKUST', r)
     r = re.sub(r'\bHkcece\b', 'HKCECE', r)
+    r = re.sub(r'\bHsbc\b', 'HSBC', r)
     return r
 
 # Using the special variable 
