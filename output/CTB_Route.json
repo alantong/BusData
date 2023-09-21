@@ -21695,6 +21695,53 @@
     },
     {
         "co": "CTB",
+        "route": "H1S",
+        "orig_tc": "中環 (天星碼頭)",
+        "orig_en": "Central (Star Ferry)",
+        "dest_tc": "尖沙咀",
+        "dest_en": "Tsim Sha Tsui",
+        "orig_sc": "中环 (天星码头)",
+        "dest_sc": "尖沙咀",
+        "stops": [
+            "001171",
+            "002765",
+            "001136",
+            "002431",
+            "001769",
+            "002819",
+            "003301",
+            "001589",
+            "001588",
+            "003445"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "H1S",
+        "orig_tc": "尖沙咀",
+        "orig_en": "Tsim Sha Tsui",
+        "dest_tc": "中環 (天星碼頭)",
+        "dest_en": "Central (Star Ferry)",
+        "orig_sc": "尖沙咀",
+        "dest_sc": "中环 (天星码头)",
+        "stops": [
+            "003445",
+            "001402",
+            "001587",
+            "001476",
+            "001215",
+            "002442",
+            "002446",
+            "001140",
+            "001073",
+            "001033",
+            "001171"
+        ],
+        "bound": "I"
+    },
+    {
+        "co": "CTB",
         "route": "H2",
         "orig_tc": "尖沙咀",
         "orig_en": "Tsim Sha Tsui",
