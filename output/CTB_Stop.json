@@ -22364,7 +22364,15 @@
         "name_sc": "裕雅商场, 怡东路",
         "co": "CTB"
     },
-    [],
+    {
+        "stop": "003818",
+        "name_tc": "天平邨天明樓, 馬會道",
+        "name_en": "Tin Ming House Tin Ping Estate, Jockey Club Road",
+        "lat": "22.502020182091",
+        "long": "114.13297081053",
+        "name_sc": "天平邨天明楼, 马会道",
+        "co": "CTB"
+    },
     {
         "stop": "003819",
         "name_tc": "邁亞美海灣, 湖翠路",
@@ -22383,5 +22391,13 @@
         "name_sc": "成业街休憩公园, 茶果岭道",
         "co": "CTB"
     },
-    []
+    {
+        "stop": "003821",
+        "name_tc": "上水站 (B2出口), 新運路",
+        "name_en": "Sheung Shui Station (Exit B2), San Wan Road",
+        "lat": "22.500805732091",
+        "long": "114.12884544053",
+        "name_sc": "上水站 (B2出口), 新运路",
+        "co": "CTB"
+    }
 ]
