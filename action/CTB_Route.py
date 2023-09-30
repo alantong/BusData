@@ -132,6 +132,7 @@ async def main():
                 tasks.append(getStopInfo(client, c))
             ctbStopInfoList += await asyncio.gather(*tasks) 
 
+        ctbStopInfoList = list(filter(None, ctbStopInfoList))
         writeToJson(ctbStopInfoList, ctb_stop_json)
 
         print("Finish getting CTB stops")
