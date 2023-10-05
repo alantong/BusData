@@ -28312,6 +28312,48 @@
     },
     {
         "co": "GMB",
+        "route": "N59A",
+        "routeId": 2002877,
+        "routeSeq": 1,
+        "orig_tc": "香港仔(東勝道)",
+        "dest_tc": "深灣道公共交通總站",
+        "orig_sc": "香港仔(东胜道)",
+        "dest_sc": "深湾道公共交通总站",
+        "orig_en": "Aberdeen (Tung Sing Road)",
+        "dest_en": "Shum Wan Road Public Transport Terminus",
+        "stops": [
+            20000341,
+            20009832,
+            20000239,
+            20009804,
+            20000342,
+            20000343,
+            20000160
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "N59A",
+        "routeId": 2002877,
+        "routeSeq": 2,
+        "orig_tc": "深灣道公共交通總站",
+        "dest_tc": "香港仔(東勝道)",
+        "orig_sc": "深湾道公共交通总站",
+        "dest_sc": "香港仔(东胜道)",
+        "orig_en": "Shum Wan Road Public Transport Terminus",
+        "dest_en": "Aberdeen (Tung Sing Road)",
+        "stops": [
+            20000160,
+            20002734,
+            20000161,
+            20002735,
+            20000361,
+            20000169,
+            20000341
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "N69X",
         "routeId": 2000802,
         "routeSeq": 1,
