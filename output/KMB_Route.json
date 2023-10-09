@@ -37113,6 +37113,43 @@
         ]
     },
     {
+        "route": "285A",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Fo Tan Station",
+        "orig_tc": "火炭站",
+        "orig_sc": "火炭站",
+        "dest_en": "Fo Tan Chun Yeung Estate (Circular)",
+        "dest_tc": "火炭駿洋邨 (循環線)",
+        "dest_sc": "火炭骏洋邨 (循环线)",
+        "co": "KMB",
+        "stops": [
+            "C8F8183B3AFC9383",
+            "032E4C7E0B1B7298",
+            "61A21B70C10E9722",
+            "B50DB83AC82D3C44",
+            "C8F8183B3AFC9383"
+        ]
+    },
+    {
+        "route": "285A",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Fo Tan Station",
+        "orig_tc": "火炭站",
+        "orig_sc": "火炭站",
+        "dest_en": "Fo Tan Chun Yeung Estate",
+        "dest_tc": "火炭駿洋邨",
+        "dest_sc": "火炭骏洋邨",
+        "co": "KMB",
+        "stops": [
+            "C8F8183B3AFC9383",
+            "032E4C7E0B1B7298",
+            "61A21B70C10E9722",
+            "B50DB83AC82D3C44"
+        ]
+    },
+    {
         "route": "286C",
         "bound": "O",
         "service_type": "1",
