@@ -27991,33 +27991,24 @@
     {
         "co": "GMB",
         "route": "CX1",
-        "routeId": 2002847,
+        "routeId": 2009642,
         "routeSeq": 1,
-        "orig_tc": "九龍站",
-        "dest_tc": "西九文化區藝術公園",
-        "orig_sc": "九龙站",
-        "dest_sc": "西九文化区艺术公园",
-        "orig_en": "Kowloon Station",
-        "dest_en": "West Kowloon Cultural District Art Park",
+        "orig_tc": "柯士甸站",
+        "dest_tc": "香港故宮文化博物館 (循環線)",
+        "orig_sc": "柯士甸站",
+        "dest_sc": "香港故宫文化博物馆 (循环线)",
+        "orig_en": "Austin Station ",
+        "dest_en": "Hong Kong Palace Museum",
         "stops": [
+            20014313,
             20014023,
-            20016267
-        ]
-    },
-    {
-        "co": "GMB",
-        "route": "CX1",
-        "routeId": 2002847,
-        "routeSeq": 2,
-        "orig_tc": "西九文化區藝術公園",
-        "dest_tc": "九龍站",
-        "orig_sc": "西九文化区艺术公园",
-        "dest_sc": "九龙站",
-        "orig_en": "West Kowloon Cultural District Art Park",
-        "dest_en": "Kowloon Station",
-        "stops": [
+            20018841,
             20016267,
-            20014023
+            20018842,
+            20018843,
+            20018844,
+            20018875,
+            20014313
         ]
     },
     {

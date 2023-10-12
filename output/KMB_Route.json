@@ -21821,6 +21821,32 @@
         ]
     },
     {
+        "route": "91P",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "H.K.U.S.T. (South)",
+        "orig_tc": "香港科技大學(南)",
+        "orig_sc": "香港科技大学(南)",
+        "dest_en": "Ping Shek / Choi Hung Station",
+        "dest_tc": "坪石 / 彩虹站",
+        "dest_sc": "坪石 / 彩虹站",
+        "co": "KMB",
+        "stops": [
+            "E9018F8A7E096544",
+            "A79D111EB948F013",
+            "C1AAFE0EB8BD89C7",
+            "298847E9FCC94FD9",
+            "86DF43320DF0F596",
+            "36F2D783428B6307",
+            "EBA1C02EA9906C96",
+            "47B8E78BAB4FEB5D",
+            "0BE9DE9BA299E126",
+            "4D55F6240E2AAFB8",
+            "3BA9C90738A8600D",
+            "5D77A5CBE41F2984"
+        ]
+    },
+    {
         "route": "91R",
         "bound": "O",
         "service_type": "1",
@@ -25452,10 +25478,7 @@
         "stops": [
             "35AEEA90C71121F0",
             "B404A065F58A5F64",
-            "4FC7150518C5234A",
-            "3FB2109BF5E57DDB",
-            "455FC1E8B39E3D16",
-            "F01C5503A89517B4",
+            "3FD67C010BBA54DA",
             "88461293F994CB07",
             "7FC94FB715BB85C6",
             "08A237AE35DF8A35",
@@ -25493,9 +25516,6 @@
             "35828A8106C380D1",
             "CC79602DDE23374F",
             "3FD67C010BBA54DA",
-            "F627BC7B0387FA39",
-            "B1171B2BB00E5894",
-            "DFF959D9A2B5E03E",
             "35AEEA90C71121F0"
         ]
     },
@@ -25513,10 +25533,7 @@
         "stops": [
             "35AEEA90C71121F0",
             "B404A065F58A5F64",
-            "4FC7150518C5234A",
-            "3FB2109BF5E57DDB",
-            "455FC1E8B39E3D16",
-            "F01C5503A89517B4",
+            "3FD67C010BBA54DA",
             "88461293F994CB07",
             "7FC94FB715BB85C6",
             "08A237AE35DF8A35",
@@ -32000,6 +32017,7 @@
             "73FE2D32F218DA9C",
             "A264255E81F51111",
             "4C86E1F44AE9C25B",
+            "A6C169DA579FC45B",
             "308112BE50081258",
             "D2425B7147B58E1D",
             "A4607B71730E8F46",
@@ -32016,8 +32034,7 @@
             "45628FA7B8D7C5D2",
             "13E458C819D90940",
             "3FD481FB9B9DC36C",
-            "46604706EE6CC765",
-            "8581908CE476D2CF"
+            "46604706EE6CC765"
         ]
     },
     {
@@ -38409,6 +38426,34 @@
         "stops": [
             "E9018F8A7E096544",
             "A79D111EB948F013",
+            "298847E9FCC94FD9",
+            "86DF43320DF0F596",
+            "36F2D783428B6307",
+            "EBA1C02EA9906C96",
+            "47B8E78BAB4FEB5D",
+            "0BE9DE9BA299E126",
+            "4D55F6240E2AAFB8",
+            "3BA9C90738A8600D",
+            "5D77A5CBE41F2984",
+            "300D1812E3A085C3",
+            "9B1BE296C2AC5F97"
+        ]
+    },
+    {
+        "route": "291P",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "H.K.U.S.T. (South)",
+        "orig_tc": "香港科技大學(南)",
+        "orig_sc": "香港科技大学(南)",
+        "dest_en": "Mong Kok",
+        "dest_tc": "旺角",
+        "dest_sc": "旺角",
+        "co": "KMB",
+        "stops": [
+            "E9018F8A7E096544",
+            "A79D111EB948F013",
+            "C1AAFE0EB8BD89C7",
             "298847E9FCC94FD9",
             "86DF43320DF0F596",
             "36F2D783428B6307",
