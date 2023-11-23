@@ -2217,5 +2217,48 @@
             "278",
             "81"
         ]
+    },
+    {
+        "co": "NLB",
+        "routeId": "108",
+        "route": "X11R",
+        "orig_tc": "東涌世茂喜來登酒店",
+        "dest_tc": "大澳",
+        "orig_sc": "东涌世茂喜来登酒店",
+        "dest_sc": "大澳",
+        "orig_en": "Sheraton Hong Kong Tung Chung Hotel",
+        "dest_en": "Tai O",
+        "overnightRoute": 0,
+        "specialRoute": 1,
+        "stops": [
+            "333",
+            "77",
+            "288",
+            "26",
+            "41",
+            "55"
+        ]
+    },
+    {
+        "co": "NLB",
+        "routeId": "109",
+        "route": "X11R",
+        "orig_tc": "大澳",
+        "dest_tc": "東涌世茂喜來登酒店",
+        "orig_sc": "大澳",
+        "dest_sc": "东涌世茂喜来登酒店",
+        "orig_en": "Tai O",
+        "dest_en": "Sheraton Hong Kong Tung Chung Hotel",
+        "overnightRoute": 0,
+        "specialRoute": 1,
+        "stops": [
+            "221",
+            "235",
+            "247",
+            "65",
+            "77",
+            "78",
+            "334"
+        ]
     }
 ]
