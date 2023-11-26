@@ -2368,24 +2368,6 @@
     },
     {
         "co": "NLB",
-        "stop": "311",
-        "name_en": "AsiaWorld-Expo, AsiaWorld-Expo",
-        "name_tc": "機場博覽館, 機場博覽館",
-        "name_sc": "机场博览馆, 机场博览馆",
-        "lat": "22.31932300",
-        "long": "113.94044600"
-    },
-    {
-        "co": "NLB",
-        "stop": "312",
-        "name_en": "Hong Kong SkyCity Marriott Hotel, Sky City Road East",
-        "name_tc": "香港天際萬豪酒店, 航天城東路",
-        "name_sc": "香港天际万豪酒店, 航天城东路",
-        "lat": "22.31777700",
-        "long": "113.94331700"
-    },
-    {
-        "co": "NLB",
         "stop": "313",
         "name_en": "HZMB Hong Kong Port, HZMB Hong Kong Port (Arrival Level)",
         "name_tc": "大橋香港口岸, 大橋香港口岸 (抵港層)",
@@ -2527,5 +2509,14 @@
         "name_sc": "东涌世茂喜来登酒店, 怡东路",
         "lat": "22.29547400",
         "long": "113.94672800"
+    },
+    {
+        "co": "NLB",
+        "stop": "335",
+        "name_en": "Skycity Transport Terminal, 航天城",
+        "name_tc": "航天城交通總匯, 航天城",
+        "name_sc": "航天城交通总汇, 航天城",
+        "lat": "22.31681100",
+        "long": "113.94162700"
     }
 ]
