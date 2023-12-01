@@ -9819,21 +9819,6 @@
         "dest_sc": "葵芳站(循环线)",
         "co": "KMB",
         "stops": [
-            "5C63A2B4F457D344",
-            "C8A9DAB5E9051324",
-            "924D67DD8AB7683D",
-            "E7BFF1027930CCCD",
-            "E68FF6CC803A14A2",
-            "620E14F31DA31490",
-            "32F5F33FA68B77D6",
-            "0A1DAEAFFDFF0B66",
-            "3A2924B2461D053B",
-            "066AA1A504714A20",
-            "1423FCFF61709EAC",
-            "0E65D3EC41A1D34B",
-            "4E3FEA4E559A5D16",
-            "DA17B01A4A61A358",
-            "6C11A9780213BBBB",
             "7EA4C557505395EF",
             "FDBDDCF779540C82",
             "D6A21211E4788F7B",
@@ -18629,7 +18614,7 @@
         "dest_sc": "弥敦道(众坊街)",
         "co": "KMB",
         "stops": [
-            "6D76E141FB820044",
+            "737E4D696E371271",
             "C8A9DAB5E9051324",
             "924D67DD8AB7683D",
             "E7BFF1027930CCCD",
@@ -18788,6 +18773,7 @@
         "dest_sc": "黄泥头",
         "co": "KMB",
         "stops": [
+            "737E4D696E371271",
             "460D29054B1D54B1",
             "1276AEF95F6564A2",
             "2E299F1E89BC57CE",
@@ -18806,13 +18792,7 @@
             "72936E1AD7A19462",
             "48AEC9FC61C77E03",
             "860026BE357B5462",
-            "CF75BC81CDF3D411",
-            "897A9E7D8CD62D44",
-            "82F22BA7623AA4CB",
-            "2223D64E9ED2E1A7",
-            "69E4C417312C10C0",
-            "C1E1199805BCC92D",
-            "087306F640B68E9F"
+            "8D82ADED87CAB66C"
         ]
     },
     {
@@ -37188,7 +37168,7 @@
             "61CB41A4FE2AD8E5",
             "363957ECE0924AC4",
             "6DE243D2C36B9C6A",
-            "737E4D696E371271",
+            "6D76E141FB820044",
             "02D4D2C0C430EAD0",
             "C8A9DAB5E9051324",
             "924D67DD8AB7683D",
@@ -47185,35 +47165,6 @@
     {
         "route": "A41",
         "bound": "O",
-        "service_type": "2",
-        "orig_en": "Wong Nai Tau",
-        "orig_tc": "黃泥頭",
-        "orig_sc": "黄泥头",
-        "dest_en": "Airport (Ground Transportation Centre)",
-        "dest_tc": "機場(地面運輸中心)",
-        "dest_sc": "机场(地面运输中心)",
-        "co": "KMB",
-        "stops": [
-            "3DA2B5ABEA985788",
-            "51B9CE80774449E9",
-            "16E1175180DCF777",
-            "5DA6860E45D1384C",
-            "459C4588BE4A2105",
-            "EFB9F85F98113CB0",
-            "55B5E2A727CAA86D",
-            "E757600B79B0B2AC",
-            "4039C75BB85BF238",
-            "FCCAC3FC3C8A66E2",
-            "197315C40E767929",
-            "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
-        ]
-    },
-    {
-        "route": "A41",
-        "bound": "O",
         "service_type": "3",
         "orig_en": "Yu Chui Court",
         "orig_tc": "愉翠苑",
@@ -48144,6 +48095,23 @@
     },
     {
         "route": "B9",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Yuen Long (Long Yat Road)",
+        "orig_tc": "元朗(朗日路)",
+        "orig_sc": "元朗(朗日路)",
+        "dest_en": "Heung Yuen Wai Control Point",
+        "dest_tc": "香園圍口岸",
+        "dest_sc": "香园围口岸",
+        "co": "KMB",
+        "stops": [
+            "4E2EC89B41600D7E",
+            "633840EFCF738514",
+            "20B3D40097A05769"
+        ]
+    },
+    {
+        "route": "B9",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Heung Yuen Wai Control Point",
@@ -48158,6 +48126,23 @@
             "14157BA5C06B0B6B",
             "445A166A348A82DB",
             "DBD6820299653B4E"
+        ]
+    },
+    {
+        "route": "B9",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Heung Yuen Wai Control Point",
+        "orig_tc": "香園圍口岸",
+        "orig_sc": "香园围口岸",
+        "dest_en": "Yuen Long (Yoho Mall)",
+        "dest_tc": "元朗(形點)",
+        "dest_sc": "元朗(形点)",
+        "co": "KMB",
+        "stops": [
+            "3ED28170B05A236E",
+            "14157BA5C06B0B6B",
+            "445A166A348A82DB"
         ]
     },
     {
