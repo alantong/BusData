@@ -17460,6 +17460,42 @@
         "co": "KMB"
     },
     {
+        "stop": "FDBDDCF779540C82",
+        "name_en": "Kwai Fong Estate",
+        "name_tc": "葵芳邨",
+        "name_sc": "葵芳邨",
+        "lat": "22.360075",
+        "long": "114.130954",
+        "co": "KMB"
+    },
+    {
+        "stop": "E919C0B67C6ACF3F",
+        "name_en": "Cheung Wing Road",
+        "name_tc": "昌榮路",
+        "name_sc": "昌荣路",
+        "lat": "22.370598",
+        "long": "114.134320",
+        "co": "KMB"
+    },
+    {
+        "stop": "F889BD772B8E7F19",
+        "name_en": "Tai Wai Road",
+        "name_tc": "大圍道",
+        "name_sc": "大围道",
+        "lat": "22.376018",
+        "long": "114.176456",
+        "co": "KMB"
+    },
+    {
+        "stop": "6DE243D2C36B9C6A",
+        "name_en": "Mei Chuen House",
+        "name_tc": "美全樓",
+        "name_sc": "美全楼",
+        "lat": "22.377180",
+        "long": "114.172547",
+        "co": "KMB"
+    },
+    {
         "stop": "6A46C83B59AAB8E0",
         "name_en": "Tai Wai Station Bus Terminus",
         "name_tc": "大圍站總站",
@@ -17568,15 +17604,6 @@
         "co": "KMB"
     },
     {
-        "stop": "F889BD772B8E7F19",
-        "name_en": "Tai Wai Road",
-        "name_tc": "大圍道",
-        "name_sc": "大围道",
-        "lat": "22.376018",
-        "long": "114.176456",
-        "co": "KMB"
-    },
-    {
         "stop": "1276AEF95F6564A2",
         "name_en": "Tai Wai Market",
         "name_tc": "大圍街市",
@@ -17646,24 +17673,6 @@
         "name_sc": "美孚巴士总站 (T8)",
         "lat": "22.337146",
         "long": "114.140518",
-        "co": "KMB"
-    },
-    {
-        "stop": "FDBDDCF779540C82",
-        "name_en": "Kwai Fong Estate",
-        "name_tc": "葵芳邨",
-        "name_sc": "葵芳邨",
-        "lat": "22.360075",
-        "long": "114.130954",
-        "co": "KMB"
-    },
-    {
-        "stop": "E919C0B67C6ACF3F",
-        "name_en": "Cheung Wing Road",
-        "name_tc": "昌榮路",
-        "name_sc": "昌荣路",
-        "lat": "22.370598",
-        "long": "114.134320",
         "co": "KMB"
     },
     {
@@ -30969,15 +30978,6 @@
         "co": "KMB"
     },
     {
-        "stop": "6DE243D2C36B9C6A",
-        "name_en": "Mei Chuen House",
-        "name_tc": "美全樓",
-        "name_sc": "美全楼",
-        "lat": "22.377180",
-        "long": "114.172547",
-        "co": "KMB"
-    },
-    {
         "stop": "6D76E141FB820044",
         "name_en": "Mei Tin Bus Terminus",
         "name_tc": "美田巴士總站",
@@ -31698,6 +31698,15 @@
         "co": "KMB"
     },
     {
+        "stop": "737E4D696E371271",
+        "name_en": "Mei Tin Bus Terminus",
+        "name_tc": "美田巴士總站",
+        "name_sc": "美田巴士总站",
+        "lat": "22.376324",
+        "long": "114.170565",
+        "co": "KMB"
+    },
+    {
         "stop": "4654E57A8E9D32EB",
         "name_en": "Mei Lam Bus Terminus",
         "name_tc": "美林巴士總站",
@@ -31932,66 +31941,12 @@
         "co": "KMB"
     },
     {
-        "stop": "897A9E7D8CD62D44",
-        "name_en": "Fortune City One",
-        "name_tc": "置富第一城",
-        "name_sc": "置富第一城",
-        "lat": "22.386855",
-        "long": "114.203332",
-        "co": "KMB"
-    },
-    {
-        "stop": "087306F640B68E9F",
-        "name_en": "Wong Nai Tau Bus Terminus",
-        "name_tc": "黃泥頭巴士總站",
-        "name_sc": "黄泥头巴士总站",
-        "lat": "22.382367",
-        "long": "114.217715",
-        "co": "KMB"
-    },
-    {
-        "stop": "260B43921BAFD8CB",
-        "name_en": "Kwong Yuen Estate",
-        "name_tc": "廣源邨",
-        "name_sc": "广源邨",
-        "lat": "22.382987",
-        "long": "114.214518",
-        "co": "KMB"
-    },
-    {
-        "stop": "75D57F5A5891A1C2",
-        "name_en": "Siu Lek Yuen",
-        "name_tc": "小瀝源",
-        "name_sc": "小沥源",
-        "lat": "22.383075",
-        "long": "114.212984",
-        "co": "KMB"
-    },
-    {
-        "stop": "02CF8D1FE31E9A09",
-        "name_en": "Alva Hotel By Royal",
-        "name_tc": "帝逸酒店",
-        "name_sc": "帝逸酒店",
-        "lat": "22.383660",
-        "long": "114.208940",
-        "co": "KMB"
-    },
-    {
-        "stop": "B8E228521E55C7C5",
-        "name_en": "Po Shing Street City One Shatin",
-        "name_tc": "第一城寶城街",
-        "name_sc": "第一城宝城街",
-        "lat": "22.386360",
-        "long": "114.205960",
-        "co": "KMB"
-    },
-    {
-        "stop": "C305A8135A09C094",
-        "name_en": "Fortune City One",
-        "name_tc": "置富第一城",
-        "name_sc": "置富第一城",
-        "lat": "22.386857",
-        "long": "114.203657",
+        "stop": "8D82ADED87CAB66C",
+        "name_en": "Yuen Chau Kok Bus Terminus",
+        "name_tc": "圓洲角總站",
+        "name_sc": "圆洲角总站",
+        "lat": "22.381092",
+        "long": "114.201691",
         "co": "KMB"
     },
     {
@@ -32037,6 +31992,24 @@
         "name_sc": "广源巴士总站",
         "lat": "22.381401",
         "long": "114.216227",
+        "co": "KMB"
+    },
+    {
+        "stop": "260B43921BAFD8CB",
+        "name_en": "Kwong Yuen Estate",
+        "name_tc": "廣源邨",
+        "name_sc": "广源邨",
+        "lat": "22.382987",
+        "long": "114.214518",
+        "co": "KMB"
+    },
+    {
+        "stop": "75D57F5A5891A1C2",
+        "name_en": "Siu Lek Yuen",
+        "name_tc": "小瀝源",
+        "name_sc": "小沥源",
+        "lat": "22.383075",
+        "long": "114.212984",
         "co": "KMB"
     },
     {
@@ -32154,6 +32127,15 @@
         "name_sc": "广榕楼",
         "lat": "22.381391",
         "long": "114.213811",
+        "co": "KMB"
+    },
+    {
+        "stop": "B8E228521E55C7C5",
+        "name_en": "Po Shing Street City One Shatin",
+        "name_tc": "第一城寶城街",
+        "name_sc": "第一城宝城街",
+        "lat": "22.386360",
+        "long": "114.205960",
         "co": "KMB"
     },
     {
@@ -32856,6 +32838,15 @@
         "name_sc": "香港家庭计划指导会",
         "lat": "22.323904",
         "long": "114.188214",
+        "co": "KMB"
+    },
+    {
+        "stop": "02CF8D1FE31E9A09",
+        "name_en": "Alva Hotel By Royal",
+        "name_tc": "帝逸酒店",
+        "name_sc": "帝逸酒店",
+        "lat": "22.383660",
+        "long": "114.208940",
         "co": "KMB"
     },
     {
@@ -33885,6 +33876,15 @@
         "co": "KMB"
     },
     {
+        "stop": "C305A8135A09C094",
+        "name_en": "Fortune City One",
+        "name_tc": "置富第一城",
+        "name_sc": "置富第一城",
+        "lat": "22.386857",
+        "long": "114.203657",
+        "co": "KMB"
+    },
+    {
         "stop": "18B68D9237896791",
         "name_en": "Yu Chui Court",
         "name_tc": "愉翠苑",
@@ -33900,6 +33900,15 @@
         "name_sc": "观塘(翠屏道)总站",
         "lat": "22.315692",
         "long": "114.229453",
+        "co": "KMB"
+    },
+    {
+        "stop": "897A9E7D8CD62D44",
+        "name_en": "Fortune City One",
+        "name_tc": "置富第一城",
+        "name_sc": "置富第一城",
+        "lat": "22.386855",
+        "long": "114.203332",
         "co": "KMB"
     },
     {
@@ -44649,15 +44658,6 @@
         "co": "KMB"
     },
     {
-        "stop": "737E4D696E371271",
-        "name_en": "Mei Tin Bus Terminus",
-        "name_tc": "美田巴士總站",
-        "name_sc": "美田巴士总站",
-        "lat": "22.376324",
-        "long": "114.170565",
-        "co": "KMB"
-    },
-    {
         "stop": "F2E381299EA74E3E",
         "name_en": "Mei Lam Bus Terminus",
         "name_tc": "美林巴士總站",
@@ -53469,12 +53469,39 @@
         "co": "KMB"
     },
     {
-        "stop": "B7A9E1A243516288",
-        "name_en": "Yu Chui Court Bus Terminus",
-        "name_tc": "愉翠苑巴士總站",
-        "name_sc": "愉翠苑巴士总站",
-        "lat": "22.381785",
-        "long": "114.205578",
+        "stop": "24F7097D1D913EC5",
+        "name_en": "Shek Mun Bus Terminus",
+        "name_tc": "石門總站",
+        "name_sc": "石门总站",
+        "lat": "22.387499",
+        "long": "114.208580",
+        "co": "KMB"
+    },
+    {
+        "stop": "F0B624403EB4108C",
+        "name_en": "Alva Hotel By Royal",
+        "name_tc": "帝逸酒店",
+        "name_sc": "帝逸酒店",
+        "lat": "22.383874",
+        "long": "114.209102",
+        "co": "KMB"
+    },
+    {
+        "stop": "4C236D0FBDFDDA6E",
+        "name_en": "Hong Kong School of Motoring",
+        "name_tc": "香港駕駛學院",
+        "name_sc": "香港驾驶学院",
+        "lat": "22.381322",
+        "long": "114.208520",
+        "co": "KMB"
+    },
+    {
+        "stop": "9F527C21FE33EF58",
+        "name_en": "Yu Chui Court",
+        "name_tc": "愉翠苑",
+        "name_sc": "愉翠苑",
+        "lat": "22.382142",
+        "long": "114.205632",
         "co": "KMB"
     },
     {
@@ -53523,21 +53550,12 @@
         "co": "KMB"
     },
     {
-        "stop": "E3B8D0FF5C269463",
-        "name_en": "Jat Min Chuen",
-        "name_tc": "乙明邨",
-        "name_sc": "乙明邨",
-        "lat": "22.377570",
-        "long": "114.191287",
-        "co": "KMB"
-    },
-    {
-        "stop": "A6631CAD2E2DE2A6",
-        "name_en": "Hong Kong Heritage Museum",
-        "name_tc": "文化博物館",
-        "name_sc": "文化博物馆",
-        "lat": "22.377601",
-        "long": "114.186323",
+        "stop": "197315C40E767929",
+        "name_en": "Sha Tin Central B/T",
+        "name_tc": "沙田市中心巴士總站",
+        "name_sc": "沙田市中心巴士总站",
+        "lat": "22.381943",
+        "long": "114.188103",
         "co": "KMB"
     },
     {
@@ -53550,30 +53568,57 @@
         "co": "KMB"
     },
     {
-        "stop": "84FC122EC64D8885",
-        "name_en": "Hilton Centre",
-        "name_tc": "希爾頓中心",
-        "name_sc": "希尔顿中心",
-        "lat": "22.379622",
-        "long": "114.187141",
+        "stop": "CA89494AD121A8DC",
+        "name_en": "Hong Kong Heritage Museum",
+        "name_tc": "文化博物館",
+        "name_sc": "文化博物馆",
+        "lat": "22.377762",
+        "long": "114.186539",
         "co": "KMB"
     },
     {
-        "stop": "197315C40E767929",
-        "name_en": "Sha Tin Central B/T",
-        "name_tc": "沙田市中心巴士總站",
-        "name_sc": "沙田市中心巴士总站",
-        "lat": "22.381943",
-        "long": "114.188103",
+        "stop": "FCA7A9D99D36338B",
+        "name_en": "Chun Shek Estate",
+        "name_tc": "秦石邨",
+        "name_sc": "秦石邨",
+        "lat": "22.374252",
+        "long": "114.186633",
         "co": "KMB"
     },
     {
-        "stop": "225D34B4D891AFB1",
-        "name_en": "Lucky Plaza",
-        "name_tc": "好運中心",
-        "name_sc": "好运中心",
-        "lat": "22.383045",
-        "long": "114.190303",
+        "stop": "2E0FD54FCF000E13",
+        "name_en": "Che Kung Temple",
+        "name_tc": "車公廟",
+        "name_sc": "车公庙",
+        "lat": "22.374416",
+        "long": "114.184036",
+        "co": "KMB"
+    },
+    {
+        "stop": "4F09976CA4CF80C9",
+        "name_en": "Tai Wai BBI - Sun Ming House, Sun Chui Estate",
+        "name_tc": "大圍轉車站 - 新翠邨新明樓",
+        "name_sc": "大围转车站 - 新翠邨新明楼",
+        "lat": "22.372094",
+        "long": "114.180196",
+        "co": "KMB"
+    },
+    {
+        "stop": "F01D5D94B03AA8A2",
+        "name_en": "Tai Wai BBI - Chik Wan Street",
+        "name_tc": "大圍轉車站 - 積運街",
+        "name_sc": "大围转车站 - 积运街",
+        "lat": "22.371958",
+        "long": "114.178141",
+        "co": "KMB"
+    },
+    {
+        "stop": "1983BD4319FB2713",
+        "name_en": "Holford Garden",
+        "name_tc": "海福花園",
+        "name_sc": "海福花园",
+        "lat": "22.373605",
+        "long": "114.176824",
         "co": "KMB"
     },
     {
@@ -53604,6 +53649,60 @@
         "co": "KMB"
     },
     {
+        "stop": "AB52CEC256B299BE",
+        "name_en": "Tai Wai Market",
+        "name_tc": "大圍街市",
+        "name_sc": "大围街市",
+        "lat": "22.373557",
+        "long": "114.177258",
+        "co": "KMB"
+    },
+    {
+        "stop": "156FFE36D7D42EFE",
+        "name_en": "Tai Wai BBI - Tai Wai Station",
+        "name_tc": "大圍轉車站 - 大圍站",
+        "name_sc": "大围转车站 - 大围站",
+        "lat": "22.372631",
+        "long": "114.180352",
+        "co": "KMB"
+    },
+    {
+        "stop": "65F5585B72A99D7F",
+        "name_en": "Che Kung Temple",
+        "name_tc": "車公廟",
+        "name_sc": "车公庙",
+        "lat": "22.374684",
+        "long": "114.184147",
+        "co": "KMB"
+    },
+    {
+        "stop": "94BA372E9FDC87C4",
+        "name_en": "Chun Shek Estate",
+        "name_tc": "秦石邨",
+        "name_sc": "秦石邨",
+        "lat": "22.374476",
+        "long": "114.186187",
+        "co": "KMB"
+    },
+    {
+        "stop": "A6631CAD2E2DE2A6",
+        "name_en": "Hong Kong Heritage Museum",
+        "name_tc": "文化博物館",
+        "name_sc": "文化博物馆",
+        "lat": "22.377601",
+        "long": "114.186323",
+        "co": "KMB"
+    },
+    {
+        "stop": "84FC122EC64D8885",
+        "name_en": "Hilton Centre",
+        "name_tc": "希爾頓中心",
+        "name_sc": "希尔顿中心",
+        "lat": "22.379622",
+        "long": "114.187141",
+        "co": "KMB"
+    },
+    {
         "stop": "04EA3349BDD260C8",
         "name_en": "Sha Tin Central B/T",
         "name_tc": "沙田市中心巴士總站",
@@ -53613,39 +53712,12 @@
         "co": "KMB"
     },
     {
-        "stop": "110E1A65A0670D0F",
-        "name_en": "Royal Park Hotel",
-        "name_tc": "帝都酒店",
-        "name_sc": "帝都酒店",
-        "lat": "22.379938",
-        "long": "114.188051",
-        "co": "KMB"
-    },
-    {
-        "stop": "CA89494AD121A8DC",
-        "name_en": "Hong Kong Heritage Museum",
-        "name_tc": "文化博物館",
-        "name_sc": "文化博物馆",
-        "lat": "22.377762",
-        "long": "114.186539",
-        "co": "KMB"
-    },
-    {
-        "stop": "3236114A2BB68ACC",
-        "name_en": "Tsang Tai Uk",
-        "name_tc": "曾大屋",
-        "name_sc": "曾大屋",
-        "lat": "22.375708",
-        "long": "114.188925",
-        "co": "KMB"
-    },
-    {
-        "stop": "93BA278DCD263EF8",
-        "name_en": "Jat Min Chuen",
-        "name_tc": "乙明邨",
-        "name_sc": "乙明邨",
-        "lat": "22.378484",
-        "long": "114.191804",
+        "stop": "225D34B4D891AFB1",
+        "name_en": "Lucky Plaza",
+        "name_tc": "好運中心",
+        "name_sc": "好运中心",
+        "lat": "22.383045",
+        "long": "114.190303",
         "co": "KMB"
     },
     {
@@ -53691,6 +53763,15 @@
         "name_sc": "第一城站",
         "lat": "22.382856",
         "long": "114.203755",
+        "co": "KMB"
+    },
+    {
+        "stop": "73F1F8AA0F9077D2",
+        "name_en": "Yu Chui Court",
+        "name_tc": "愉翠苑",
+        "name_sc": "愉翠苑",
+        "lat": "22.382525",
+        "long": "114.205475",
         "co": "KMB"
     },
     {
@@ -54006,6 +54087,240 @@
         "name_sc": "利安邨",
         "lat": "22.427591",
         "long": "114.240211",
+        "co": "KMB"
+    },
+    {
+        "stop": "3DA2B5ABEA985788",
+        "name_en": "Wong Nai Tau B/T",
+        "name_tc": "黃泥頭巴士總站",
+        "name_sc": "黄泥头巴士总站",
+        "lat": "22.382384",
+        "long": "114.217715",
+        "co": "KMB"
+    },
+    {
+        "stop": "51B9CE80774449E9",
+        "name_en": "Kwong Yuen Estate",
+        "name_tc": "廣源邨",
+        "name_sc": "广源邨",
+        "lat": "22.383066",
+        "long": "114.214363",
+        "co": "KMB"
+    },
+    {
+        "stop": "16E1175180DCF777",
+        "name_en": "Banyan House",
+        "name_tc": "廣榕樓",
+        "name_sc": "广榕楼",
+        "lat": "22.381354",
+        "long": "114.213807",
+        "co": "KMB"
+    },
+    {
+        "stop": "5DA6860E45D1384C",
+        "name_en": "The Hang Seng University of Hong Kong",
+        "name_tc": "香港恒生大學",
+        "name_sc": "香港恒生大学",
+        "lat": "22.380566",
+        "long": "114.211770",
+        "co": "KMB"
+    },
+    {
+        "stop": "459C4588BE4A2105",
+        "name_en": "Ngau Pei Sha New Village",
+        "name_tc": "牛皮沙新村",
+        "name_sc": "牛皮沙新村",
+        "lat": "22.379585",
+        "long": "114.208947",
+        "co": "KMB"
+    },
+    {
+        "stop": "6B0535DA4880425B",
+        "name_en": "To Shek Street",
+        "name_tc": "多石街",
+        "name_sc": "多石街",
+        "lat": "22.377441",
+        "long": "114.202092",
+        "co": "KMB"
+    },
+    {
+        "stop": "B93951057E6B1BB1",
+        "name_en": "Yuet Chuen House",
+        "name_tc": "月泉樓",
+        "name_sc": "月泉楼",
+        "lat": "22.372738",
+        "long": "114.196735",
+        "co": "KMB"
+    },
+    {
+        "stop": "FA655954F0EFD491",
+        "name_en": "Pok Hong Estate",
+        "name_tc": "博康邨",
+        "name_sc": "博康邨",
+        "lat": "22.377335",
+        "long": "114.195146",
+        "co": "KMB"
+    },
+    {
+        "stop": "E00F663184A45549",
+        "name_en": "Tin Ka Ping Primary School",
+        "name_tc": "田家炳學校",
+        "name_sc": "田家炳学校",
+        "lat": "22.375544",
+        "long": "114.192239",
+        "co": "KMB"
+    },
+    {
+        "stop": "F2DB3CC396A8FB3D",
+        "name_en": "Tsang Tai Uk",
+        "name_tc": "曾大屋",
+        "name_sc": "曾大屋",
+        "lat": "22.375411",
+        "long": "114.189055",
+        "co": "KMB"
+    },
+    {
+        "stop": "2D4CD0F067CD78B1",
+        "name_en": "Sun Tin Wai Estate",
+        "name_tc": "新田圍邨",
+        "name_sc": "新田围邨",
+        "lat": "22.370698",
+        "long": "114.189159",
+        "co": "KMB"
+    },
+    {
+        "stop": "F6E2F51B9F92CCE0",
+        "name_en": "World Wide Gardens",
+        "name_tc": "世界花園",
+        "name_sc": "世界花园",
+        "lat": "22.366222",
+        "long": "114.180516",
+        "co": "KMB"
+    },
+    {
+        "stop": "E1FF74B455D86144",
+        "name_en": "Lung Hang Estate",
+        "name_tc": "隆亨邨",
+        "name_sc": "隆亨邨",
+        "lat": "22.368414",
+        "long": "114.178154",
+        "co": "KMB"
+    },
+    {
+        "stop": "CE2545F39BA3DAC8",
+        "name_en": "Ha Keng Hau Village",
+        "name_tc": "下徑口村",
+        "name_sc": "下径口村",
+        "lat": "22.365536",
+        "long": "114.175431",
+        "co": "KMB"
+    },
+    {
+        "stop": "4B165F73BB317EEB",
+        "name_en": "Hin Tin Village",
+        "name_tc": "顯田村",
+        "name_sc": "显田村",
+        "lat": "22.362851",
+        "long": "114.172557",
+        "co": "KMB"
+    },
+    {
+        "stop": "59873477A008D101",
+        "name_en": "Hin Tin Playground",
+        "name_tc": "顯田遊樂場",
+        "name_sc": "显田游乐场",
+        "lat": "22.365231",
+        "long": "114.172634",
+        "co": "KMB"
+    },
+    {
+        "stop": "F000F70B07474BD2",
+        "name_en": "Festival City",
+        "name_tc": "名城",
+        "name_sc": "名城",
+        "lat": "22.368715",
+        "long": "114.174948",
+        "co": "KMB"
+    },
+    {
+        "stop": "FC48D23E87345ABF",
+        "name_en": "Tai Wai BBI - Tin Sam Village",
+        "name_tc": "大圍轉車站 - 田心村",
+        "name_sc": "大围转车站 - 田心村",
+        "lat": "22.370674",
+        "long": "114.177940",
+        "co": "KMB"
+    },
+    {
+        "stop": "829C1171F750F675",
+        "name_en": "Carado Garden",
+        "name_tc": "雲叠花園",
+        "name_sc": "云叠花园",
+        "lat": "22.368922",
+        "long": "114.175483",
+        "co": "KMB"
+    },
+    {
+        "stop": "6134166F9BD67294",
+        "name_en": "Hin Yeung House Hin Keng Estate",
+        "name_tc": "顯徑邨顯揚樓",
+        "name_sc": "显径邨显扬楼",
+        "lat": "22.365605",
+        "long": "114.173333",
+        "co": "KMB"
+    },
+    {
+        "stop": "FB8BC2A525782A89",
+        "name_en": "Hin Keng Shopping Centre",
+        "name_tc": "顯徑商場",
+        "name_sc": "显径商场",
+        "lat": "22.364228",
+        "long": "114.171960",
+        "co": "KMB"
+    },
+    {
+        "stop": "8A7BE4178A2816EE",
+        "name_en": "Jat Min Chuen Street",
+        "name_tc": "乙明邨街",
+        "name_sc": "乙明邨街",
+        "lat": "22.376165",
+        "long": "114.191545",
+        "co": "KMB"
+    },
+    {
+        "stop": "F49465D014D12FF8",
+        "name_en": "Ngau Pei Sha New Village",
+        "name_tc": "牛皮沙新村",
+        "name_sc": "牛皮沙新村",
+        "lat": "22.380184",
+        "long": "114.207696",
+        "co": "KMB"
+    },
+    {
+        "stop": "9810513BAAA31230",
+        "name_en": "The Hang Seng University of Hong Kong",
+        "name_tc": "香港恒生大學",
+        "name_sc": "香港恒生大学",
+        "lat": "22.380733",
+        "long": "114.211916",
+        "co": "KMB"
+    },
+    {
+        "stop": "1B7F0748C4D6458E",
+        "name_en": "Cypress House",
+        "name_tc": "廣柏樓",
+        "name_sc": "广柏楼",
+        "lat": "22.381786",
+        "long": "114.213729",
+        "co": "KMB"
+    },
+    {
+        "stop": "3A28F5D362EB2111",
+        "name_en": "Castello",
+        "name_tc": "帝堡城",
+        "name_sc": "帝堡城",
+        "lat": "22.382838",
+        "long": "114.215121",
         "co": "KMB"
     },
     {
@@ -54357,6 +54672,123 @@
         "name_sc": "祥华邨祥颂楼 (A1)",
         "lat": "22.492360",
         "long": "114.140507",
+        "co": "KMB"
+    },
+    {
+        "stop": "666187E9CF307E3D",
+        "name_en": "Royal Ascot Bus Terminus",
+        "name_tc": "駿景園巴士總站",
+        "name_sc": "骏景园巴士总站",
+        "lat": "22.400429",
+        "long": "114.201282",
+        "co": "KMB"
+    },
+    {
+        "stop": "23423275AF3D7EE5",
+        "name_en": "Jubilee Garden",
+        "name_tc": "銀禧花園",
+        "name_sc": "银禧花园",
+        "lat": "22.397035",
+        "long": "114.199429",
+        "co": "KMB"
+    },
+    {
+        "stop": "E540860990B03748",
+        "name_en": "Fo Tan Station",
+        "name_tc": "火炭站",
+        "name_sc": "火炭站",
+        "lat": "22.395851",
+        "long": "114.198842",
+        "co": "KMB"
+    },
+    {
+        "stop": "5E70E7D7AB0F41DE",
+        "name_en": "Wo Che Estate",
+        "name_tc": "禾輋邨",
+        "name_sc": "禾輋邨",
+        "lat": "22.387544",
+        "long": "114.196445",
+        "co": "KMB"
+    },
+    {
+        "stop": "1179478DCE94A5C6",
+        "name_en": "Lek Yuen Estate",
+        "name_tc": "瀝源邨",
+        "name_sc": "沥源邨",
+        "lat": "22.384248",
+        "long": "114.193347",
+        "co": "KMB"
+    },
+    {
+        "stop": "AAFC135FEECBEFA8",
+        "name_en": "Tung Lo Wan Village",
+        "name_tc": "銅鑼灣村",
+        "name_sc": "铜锣湾村",
+        "lat": "22.377253",
+        "long": "114.180817",
+        "co": "KMB"
+    },
+    {
+        "stop": "D0310E4F70D963A4",
+        "name_en": "Mei Lam Estate",
+        "name_tc": "美林邨",
+        "name_sc": "美林邨",
+        "lat": "22.377226",
+        "long": "114.178845",
+        "co": "KMB"
+    },
+    {
+        "stop": "B22D53E1FE805F7A",
+        "name_en": "Mei Fai Street",
+        "name_tc": "美輝街",
+        "name_sc": "美辉街",
+        "lat": "22.376710",
+        "long": "114.174167",
+        "co": "KMB"
+    },
+    {
+        "stop": "4ECC890698B17056",
+        "name_en": "Mei Lam Bus Terminus",
+        "name_tc": "美林巴士總站",
+        "name_sc": "美林巴士总站",
+        "lat": "22.377762",
+        "long": "114.174960",
+        "co": "KMB"
+    },
+    {
+        "stop": "142122D77C7F92B3",
+        "name_en": "HZMB Hong Kong Port (E5)",
+        "name_tc": "港珠澳大橋香港口岸 (E5)",
+        "name_sc": "港珠澳大桥香港口岸 (E5)",
+        "lat": "22.315761",
+        "long": "113.950402",
+        "co": "KMB"
+    },
+    {
+        "stop": "110E1A65A0670D0F",
+        "name_en": "Royal Park Hotel",
+        "name_tc": "帝都酒店",
+        "name_sc": "帝都酒店",
+        "lat": "22.379938",
+        "long": "114.188051",
+        "co": "KMB"
+    },
+    {
+        "stop": "452DC333DCAD8464",
+        "name_en": "Lek Yuen Estate",
+        "name_tc": "瀝源邨",
+        "name_sc": "沥源邨",
+        "lat": "22.384532",
+        "long": "114.193274",
+        "co": "KMB"
+    },
+    {
+        "stop": "95974C5D780AB509",
+        "name_en": "Wo Che Estate",
+        "name_tc": "禾輋邨",
+        "name_sc": "禾輋邨",
+        "lat": "22.387846",
+        "long": "114.196375",
         "co": "KMB"
     },
     {
@@ -56259,51 +56691,6 @@
         "co": "KMB"
     },
     {
-        "stop": "FCA7A9D99D36338B",
-        "name_en": "Chun Shek Estate",
-        "name_tc": "秦石邨",
-        "name_sc": "秦石邨",
-        "lat": "22.374252",
-        "long": "114.186633",
-        "co": "KMB"
-    },
-    {
-        "stop": "2E0FD54FCF000E13",
-        "name_en": "Che Kung Temple",
-        "name_tc": "車公廟",
-        "name_sc": "车公庙",
-        "lat": "22.374416",
-        "long": "114.184036",
-        "co": "KMB"
-    },
-    {
-        "stop": "4F09976CA4CF80C9",
-        "name_en": "Tai Wai BBI - Sun Ming House, Sun Chui Estate",
-        "name_tc": "大圍轉車站 - 新翠邨新明樓",
-        "name_sc": "大围转车站 - 新翠邨新明楼",
-        "lat": "22.372094",
-        "long": "114.180196",
-        "co": "KMB"
-    },
-    {
-        "stop": "F01D5D94B03AA8A2",
-        "name_en": "Tai Wai BBI - Chik Wan Street",
-        "name_tc": "大圍轉車站 - 積運街",
-        "name_sc": "大围转车站 - 积运街",
-        "lat": "22.371958",
-        "long": "114.178141",
-        "co": "KMB"
-    },
-    {
-        "stop": "1983BD4319FB2713",
-        "name_en": "Holford Garden",
-        "name_tc": "海福花園",
-        "name_sc": "海福花园",
-        "lat": "22.373605",
-        "long": "114.176824",
-        "co": "KMB"
-    },
-    {
         "stop": "824531506E710D40",
         "name_en": "Tai Wai Road",
         "name_tc": "大圍道",
@@ -56340,42 +56727,6 @@
         "co": "KMB"
     },
     {
-        "stop": "AB52CEC256B299BE",
-        "name_en": "Tai Wai Market",
-        "name_tc": "大圍街市",
-        "name_sc": "大围街市",
-        "lat": "22.373557",
-        "long": "114.177258",
-        "co": "KMB"
-    },
-    {
-        "stop": "156FFE36D7D42EFE",
-        "name_en": "Tai Wai BBI - Tai Wai Station",
-        "name_tc": "大圍轉車站 - 大圍站",
-        "name_sc": "大围转车站 - 大围站",
-        "lat": "22.372631",
-        "long": "114.180352",
-        "co": "KMB"
-    },
-    {
-        "stop": "65F5585B72A99D7F",
-        "name_en": "Che Kung Temple",
-        "name_tc": "車公廟",
-        "name_sc": "车公庙",
-        "lat": "22.374684",
-        "long": "114.184147",
-        "co": "KMB"
-    },
-    {
-        "stop": "94BA372E9FDC87C4",
-        "name_en": "Chun Shek Estate",
-        "name_tc": "秦石邨",
-        "name_sc": "秦石邨",
-        "lat": "22.374476",
-        "long": "114.186187",
-        "co": "KMB"
-    },
-    {
         "stop": "AFC8501FD7ACB2BA",
         "name_en": "Greenfield Court",
         "name_tc": "田園閣",
@@ -56409,42 +56760,6 @@
         "name_sc": "火炭村",
         "lat": "22.394050",
         "long": "114.196846",
-        "co": "KMB"
-    },
-    {
-        "stop": "5E70E7D7AB0F41DE",
-        "name_en": "Wo Che Estate",
-        "name_tc": "禾輋邨",
-        "name_sc": "禾輋邨",
-        "lat": "22.387544",
-        "long": "114.196445",
-        "co": "KMB"
-    },
-    {
-        "stop": "1179478DCE94A5C6",
-        "name_en": "Lek Yuen Estate",
-        "name_tc": "瀝源邨",
-        "name_sc": "沥源邨",
-        "lat": "22.384248",
-        "long": "114.193347",
-        "co": "KMB"
-    },
-    {
-        "stop": "452DC333DCAD8464",
-        "name_en": "Lek Yuen Estate",
-        "name_tc": "瀝源邨",
-        "name_sc": "沥源邨",
-        "lat": "22.384532",
-        "long": "114.193274",
-        "co": "KMB"
-    },
-    {
-        "stop": "95974C5D780AB509",
-        "name_en": "Wo Che Estate",
-        "name_tc": "禾輋邨",
-        "name_sc": "禾輋邨",
-        "lat": "22.387846",
-        "long": "114.196375",
         "co": "KMB"
     },
     {
@@ -57672,210 +57987,12 @@
         "co": "KMB"
     },
     {
-        "stop": "3DA2B5ABEA985788",
-        "name_en": "Wong Nai Tau B/T",
-        "name_tc": "黃泥頭巴士總站",
-        "name_sc": "黄泥头巴士总站",
-        "lat": "22.382384",
-        "long": "114.217715",
-        "co": "KMB"
-    },
-    {
-        "stop": "51B9CE80774449E9",
-        "name_en": "Kwong Yuen Estate",
-        "name_tc": "廣源邨",
-        "name_sc": "广源邨",
-        "lat": "22.383066",
-        "long": "114.214363",
-        "co": "KMB"
-    },
-    {
-        "stop": "16E1175180DCF777",
-        "name_en": "Banyan House",
-        "name_tc": "廣榕樓",
-        "name_sc": "广榕楼",
-        "lat": "22.381354",
-        "long": "114.213807",
-        "co": "KMB"
-    },
-    {
-        "stop": "5DA6860E45D1384C",
-        "name_en": "The Hang Seng University of Hong Kong",
-        "name_tc": "香港恒生大學",
-        "name_sc": "香港恒生大学",
-        "lat": "22.380566",
-        "long": "114.211770",
-        "co": "KMB"
-    },
-    {
-        "stop": "459C4588BE4A2105",
-        "name_en": "Ngau Pei Sha New Village",
-        "name_tc": "牛皮沙新村",
-        "name_sc": "牛皮沙新村",
-        "lat": "22.379585",
-        "long": "114.208947",
-        "co": "KMB"
-    },
-    {
-        "stop": "9F527C21FE33EF58",
-        "name_en": "Yu Chui Court",
-        "name_tc": "愉翠苑",
-        "name_sc": "愉翠苑",
-        "lat": "22.382142",
-        "long": "114.205632",
-        "co": "KMB"
-    },
-    {
-        "stop": "FA655954F0EFD491",
-        "name_en": "Pok Hong Estate",
-        "name_tc": "博康邨",
-        "name_sc": "博康邨",
-        "lat": "22.377335",
-        "long": "114.195146",
-        "co": "KMB"
-    },
-    {
-        "stop": "E00F663184A45549",
-        "name_en": "Tin Ka Ping Primary School",
-        "name_tc": "田家炳學校",
-        "name_sc": "田家炳学校",
-        "lat": "22.375544",
-        "long": "114.192239",
-        "co": "KMB"
-    },
-    {
-        "stop": "F2DB3CC396A8FB3D",
-        "name_en": "Tsang Tai Uk",
-        "name_tc": "曾大屋",
-        "name_sc": "曾大屋",
-        "lat": "22.375411",
-        "long": "114.189055",
-        "co": "KMB"
-    },
-    {
-        "stop": "FC48D23E87345ABF",
-        "name_en": "Tai Wai BBI - Tin Sam Village",
-        "name_tc": "大圍轉車站 - 田心村",
-        "name_sc": "大围转车站 - 田心村",
-        "lat": "22.370674",
-        "long": "114.177940",
-        "co": "KMB"
-    },
-    {
-        "stop": "829C1171F750F675",
-        "name_en": "Carado Garden",
-        "name_tc": "雲叠花園",
-        "name_sc": "云叠花园",
-        "lat": "22.368922",
-        "long": "114.175483",
-        "co": "KMB"
-    },
-    {
-        "stop": "6134166F9BD67294",
-        "name_en": "Hin Yeung House Hin Keng Estate",
-        "name_tc": "顯徑邨顯揚樓",
-        "name_sc": "显径邨显扬楼",
-        "lat": "22.365605",
-        "long": "114.173333",
-        "co": "KMB"
-    },
-    {
-        "stop": "FB8BC2A525782A89",
-        "name_en": "Hin Keng Shopping Centre",
-        "name_tc": "顯徑商場",
-        "name_sc": "显径商场",
-        "lat": "22.364228",
-        "long": "114.171960",
-        "co": "KMB"
-    },
-    {
-        "stop": "F000F70B07474BD2",
-        "name_en": "Festival City",
-        "name_tc": "名城",
-        "name_sc": "名城",
-        "lat": "22.368715",
-        "long": "114.174948",
-        "co": "KMB"
-    },
-    {
-        "stop": "B22D53E1FE805F7A",
-        "name_en": "Mei Fai Street",
-        "name_tc": "美輝街",
-        "name_sc": "美辉街",
-        "lat": "22.376710",
-        "long": "114.174167",
-        "co": "KMB"
-    },
-    {
-        "stop": "4ECC890698B17056",
-        "name_en": "Mei Lam Bus Terminus",
-        "name_tc": "美林巴士總站",
-        "name_sc": "美林巴士总站",
-        "lat": "22.377762",
-        "long": "114.174960",
-        "co": "KMB"
-    },
-    {
-        "stop": "8A7BE4178A2816EE",
-        "name_en": "Jat Min Chuen Street",
-        "name_tc": "乙明邨街",
-        "name_sc": "乙明邨街",
-        "lat": "22.376165",
-        "long": "114.191545",
-        "co": "KMB"
-    },
-    {
         "stop": "46B6680C20574DF3",
         "name_en": "Sha Kok Estate",
         "name_tc": "沙角邨",
         "name_sc": "沙角邨",
         "lat": "22.377345",
         "long": "114.194850",
-        "co": "KMB"
-    },
-    {
-        "stop": "73F1F8AA0F9077D2",
-        "name_en": "Yu Chui Court",
-        "name_tc": "愉翠苑",
-        "name_sc": "愉翠苑",
-        "lat": "22.382525",
-        "long": "114.205475",
-        "co": "KMB"
-    },
-    {
-        "stop": "F49465D014D12FF8",
-        "name_en": "Ngau Pei Sha New Village",
-        "name_tc": "牛皮沙新村",
-        "name_sc": "牛皮沙新村",
-        "lat": "22.380184",
-        "long": "114.207696",
-        "co": "KMB"
-    },
-    {
-        "stop": "9810513BAAA31230",
-        "name_en": "The Hang Seng University of Hong Kong",
-        "name_tc": "香港恒生大學",
-        "name_sc": "香港恒生大学",
-        "lat": "22.380733",
-        "long": "114.211916",
-        "co": "KMB"
-    },
-    {
-        "stop": "1B7F0748C4D6458E",
-        "name_en": "Cypress House",
-        "name_tc": "廣柏樓",
-        "name_sc": "广柏楼",
-        "lat": "22.381786",
-        "long": "114.213729",
-        "co": "KMB"
-    },
-    {
-        "stop": "3A28F5D362EB2111",
-        "name_en": "Castello",
-        "name_tc": "帝堡城",
-        "name_sc": "帝堡城",
-        "lat": "22.382838",
-        "long": "114.215121",
         "co": "KMB"
     },
     {
