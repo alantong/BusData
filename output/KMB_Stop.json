@@ -1513,7 +1513,7 @@
     },
     {
         "stop": "9F914539576C53A5",
-        "name_en": "Shek Kip Mei Commercial Centre",
+        "name_en": "Shek Kip Mei Shopping Centre",
         "name_tc": "石硤尾商場",
         "name_sc": "石硖尾商场",
         "lat": "22.332023",
@@ -1765,7 +1765,7 @@
     },
     {
         "stop": "598CB8743A812BCC",
-        "name_en": "Shek Kip Mei Commercial Centre",
+        "name_en": "Shek Kip Mei Shopping Centre",
         "name_tc": "石硤尾商場",
         "name_sc": "石硖尾商场",
         "lat": "22.331741",
@@ -21357,15 +21357,6 @@
         "co": "KMB"
     },
     {
-        "stop": "950140C36BBC6369",
-        "name_en": "Mei Foo BBI (B2)",
-        "name_tc": "美孚轉車站 (B2)",
-        "name_sc": "美孚转车站 (B2)",
-        "lat": "22.336454",
-        "long": "114.141467",
-        "co": "KMB"
-    },
-    {
         "stop": "8D6792FF38584BE0",
         "name_en": "Tuen Mun Pier Head Bus Terminus",
         "name_tc": "屯門碼頭總站",
@@ -21714,6 +21705,15 @@
         "name_sc": "旺角站",
         "lat": "22.319436",
         "long": "114.170734",
+        "co": "KMB"
+    },
+    {
+        "stop": "950140C36BBC6369",
+        "name_en": "Mei Foo BBI (B2)",
+        "name_tc": "美孚轉車站 (B2)",
+        "name_sc": "美孚转车站 (B2)",
+        "lat": "22.336454",
+        "long": "114.141467",
         "co": "KMB"
     },
     {
