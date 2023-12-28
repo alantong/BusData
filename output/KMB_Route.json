@@ -5592,6 +5592,72 @@
         ]
     },
     {
+        "route": "27X",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Shun Tin",
+        "orig_tc": "順天",
+        "orig_sc": "顺天",
+        "dest_en": "Olympic Station",
+        "dest_tc": "奧運站",
+        "dest_sc": "奥运站",
+        "co": "KMB",
+        "stops": [
+            "8F5CE1219E502C17",
+            "616FE33CD20DB62E",
+            "CEFFBCE5203D152B",
+            "8571BCC3A3E4006E",
+            "D9896F1A5B7C97C0",
+            "3BA9C90738A8600D",
+            "0A92C86D7158856F",
+            "ED5554C57CF0061C",
+            "4D9419874306D82F",
+            "D625B0997C3DBCFE",
+            "D7EDDEA5A942843B",
+            "2F3C9727D9186DAB",
+            "300D1812E3A085C3",
+            "3DE979ACCBF8988B",
+            "5CA7841E84D52C8A",
+            "22138E6C8051FDBD",
+            "3B8B261C1DA409BD",
+            "BC280265AF2BEB66"
+        ]
+    },
+    {
+        "route": "27X",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Olympic Station",
+        "orig_tc": "奧運站",
+        "orig_sc": "奥运站",
+        "dest_en": "Shun Tin",
+        "dest_tc": "順天",
+        "dest_sc": "顺天",
+        "co": "KMB",
+        "stops": [
+            "BC280265AF2BEB66",
+            "B76B249D3D253008",
+            "A7F35DC09E1A1528",
+            "0F4DB224F8A8FF9C",
+            "D060669C0A3DD8D1",
+            "D01D18C6EB79F84B",
+            "B0DDF2CD704116C8",
+            "6C1DEF32B8CB92C4",
+            "B5AF3107F64607ED",
+            "448C1B8AECA89A6E",
+            "92D1BB946193F239",
+            "D887822D673804CA",
+            "4513DF30B4CBA349",
+            "9A16E73DC0B9AF6C",
+            "5E6E1289A9CD537D",
+            "7B9D5D0407DB14D3",
+            "BF4620B0CD0B9D45",
+            "A0AB9A2B2D648FF5",
+            "484F835517494767",
+            "8F5CE1219E502C17"
+        ]
+    },
+    {
         "route": "28",
         "bound": "O",
         "service_type": "1",
@@ -17870,7 +17936,7 @@
             "53BB93AAB2D45F3B",
             "6C2DBC45160AA4BF",
             "8EA1F6CDA69E539C",
-            "AC1FD9BDD09D1DD6"
+            "8EC63D8C071F72C4"
         ]
     },
     {
@@ -17885,13 +17951,12 @@
         "dest_sc": "上水",
         "co": "KMB",
         "stops": [
-            "AC1FD9BDD09D1DD6",
+            "8EC63D8C071F72C4",
             "6E31EAD2D04F8310",
             "6573811D015A0818",
             "A22E315AD21129EB",
             "EF78DD9F765C6565",
             "D4A97E2A758EDC64",
-            "D876A83244ECB838",
             "940F276037968281"
         ]
     },
