@@ -4200,11 +4200,11 @@
     {
         "co": "CTB",
         "route": "25",
-        "orig_tc": "中環 (3 號碼頭)",
-        "orig_en": "Central (Pier 3)",
+        "orig_tc": "中環 (3 / 5 號碼頭)",
+        "orig_en": "Central (Pier 3/5)",
         "dest_tc": "寶馬山",
         "dest_en": "Braemar Hill",
-        "orig_sc": "中环 (3 号码头)",
+        "orig_sc": "中环 (3 / 5 号码头)",
         "dest_sc": "宝马山",
         "stops": [
             "001170",
@@ -4248,10 +4248,10 @@
         "route": "25",
         "orig_tc": "寶馬山",
         "orig_en": "Braemar Hill",
-        "dest_tc": "中環 (3 號碼頭)",
-        "dest_en": "Central (Pier 3)",
+        "dest_tc": "中環 (3 / 5 號碼頭)",
+        "dest_en": "Central (Pier 3/5)",
         "orig_sc": "宝马山",
-        "dest_sc": "中环 (3 号码头)",
+        "dest_sc": "中环 (3 / 5 号码头)",
         "stops": [
             "002794",
             "002795",
@@ -21779,6 +21779,46 @@
             "002570",
             "001033",
             "001171"
+        ],
+        "bound": "I"
+    },
+    {
+        "co": "CTB",
+        "route": "H2S",
+        "orig_tc": "高鐵西九龍站",
+        "orig_en": "HSR West Kowloon Station",
+        "dest_tc": "銅鑼灣",
+        "dest_en": "Causeway Bay",
+        "orig_sc": "高铁西九龙站",
+        "dest_sc": "铜锣湾",
+        "stops": [
+            "003548",
+            "001629",
+            "002765",
+            "002423",
+            "002536"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "H2S",
+        "orig_tc": "銅鑼灣",
+        "orig_en": "Causeway Bay",
+        "dest_tc": "高鐵西九龍站",
+        "dest_en": "HSR West Kowloon Station",
+        "orig_sc": "铜锣湾",
+        "dest_sc": "高铁西九龙站",
+        "stops": [
+            "002765",
+            "002423",
+            "002536",
+            "002439",
+            "001628",
+            "001775",
+            "001564",
+            "001481",
+            "003548"
         ],
         "bound": "I"
     },
