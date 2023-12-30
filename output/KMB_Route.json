@@ -1829,6 +1829,46 @@
         ]
     },
     {
+        "route": "5R",
+        "bound": "O",
+        "service_type": "4",
+        "orig_en": "Kwun Tong (Apm)",
+        "orig_tc": "觀塘 (apm)",
+        "orig_sc": "观塘 (apm)",
+        "dest_en": "Shing Fung Road",
+        "dest_tc": "承豐道",
+        "dest_sc": "承丰道",
+        "co": "KMB",
+        "stops": [
+            "1E3A342DF7D5B8B5",
+            "83BB162ED5F1355F",
+            "D39533060940818A",
+            "14894C859FDFE8C3",
+            "36A5F6842C55126E",
+            "1094B993AA8409D0"
+        ]
+    },
+    {
+        "route": "5R",
+        "bound": "O",
+        "service_type": "5",
+        "orig_en": "Kai Tak (Sheng King Street)",
+        "orig_tc": "啟德(承景街)",
+        "orig_sc": "启德(承景街)",
+        "dest_en": "Kwun Tong (Apm)",
+        "dest_tc": "觀塘 (apm)",
+        "dest_sc": "观塘 (apm)",
+        "co": "KMB",
+        "stops": [
+            "AC2CA1BC15ABD1C7",
+            "F573BDBB62023031",
+            "600158E293C9354E",
+            "BA0B05CA62C32007",
+            "C057639478BE0168",
+            "1E3A342DF7D5B8B5"
+        ]
+    },
+    {
         "route": "5X",
         "bound": "O",
         "service_type": "1",
@@ -21295,7 +21335,6 @@
             "34DCAF51F6056BB6",
             "9C884013EBA1D548",
             "E7A8D18CC7046843",
-            "0C99872CC5846EEE",
             "E47CD422B33E5BE7",
             "99440967B8390837",
             "BE4DB8D578A94BEF",
