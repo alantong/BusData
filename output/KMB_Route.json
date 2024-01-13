@@ -47439,7 +47439,7 @@
         "co": "KMB",
         "stops": [
             "AFCA97F6E77FA669",
-            "38A38CABCA7969CF",
+            "B0851FD6C20D738D",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
             "AB52CEC256B299BE",
@@ -47475,7 +47475,7 @@
         "stops": [
             "AFCA97F6E77FA669",
             "D3B54388E91DAB57",
-            "38A38CABCA7969CF",
+            "B0851FD6C20D738D",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
             "AB52CEC256B299BE",
@@ -47646,7 +47646,7 @@
         "co": "KMB",
         "stops": [
             "CFDE62B6C9EDE114",
-            "B0851FD6C20D738D",
+            "A7378EEEBFA0C76C",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
             "727AA8B21AB74300",
@@ -47685,7 +47685,7 @@
             "9C9F817064169CE7",
             "61C957321A4DE4A9",
             "E48E4C46F64FFB0E",
-            "B0851FD6C20D738D",
+            "A7378EEEBFA0C76C",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
             "727AA8B21AB74300",
@@ -47740,8 +47740,8 @@
             "FC48D23E87345ABF",
             "673B33867260EBB7",
             "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "21466046C6868AA7"
+            "0D5759F7A4B185FE",
+            "C552CE565E1F0C85"
         ]
     },
     {
@@ -47757,6 +47757,7 @@
         "co": "KMB",
         "stops": [
             "AFCA97F6E77FA669",
+            "38A38CABCA7969CF",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
             "2E299F1E89BC57CE",
@@ -47774,8 +47775,7 @@
             "F49465D014D12FF8",
             "9810513BAAA31230",
             "1B7F0748C4D6458E",
-            "3A28F5D362EB2111",
-            "3DA2B5ABEA985788"
+            "3A28F5D362EB2111"
         ]
     },
     {
@@ -48149,7 +48149,7 @@
         "co": "KMB",
         "stops": [
             "86218AD69549D7B2",
-            "A7378EEEBFA0C76C",
+            "09836E367F4BA3E2",
             "558ED5EDA9A0C43C",
             "897B26110ECE76B3",
             "FC1FCC3EF8D5C544",
@@ -48180,7 +48180,7 @@
             "61C957321A4DE4A9",
             "E48E4C46F64FFB0E",
             "86201D4BB45ED201",
-            "A7378EEEBFA0C76C",
+            "09836E367F4BA3E2",
             "558ED5EDA9A0C43C",
             "897B26110ECE76B3",
             "9F5D9D454274AF91",
@@ -48218,7 +48218,7 @@
             "9C9F817064169CE7",
             "61C957321A4DE4A9",
             "E48E4C46F64FFB0E",
-            "A7378EEEBFA0C76C",
+            "09836E367F4BA3E2",
             "558ED5EDA9A0C43C",
             "897B26110ECE76B3",
             "FC1FCC3EF8D5C544",
@@ -53960,7 +53960,7 @@
         "dest_sc": "乌溪沙站",
         "co": "KMB",
         "stops": [
-            "B0851FD6C20D738D",
+            "A7378EEEBFA0C76C",
             "CFDE62B6C9EDE114",
             "86201D4BB45ED201",
             "0879D399E5B5FE0C",
@@ -54191,7 +54191,7 @@
             "AAC64BCDD5B55A86",
             "C552CE565E1F0C85",
             "0D5759F7A4B185FE",
-            "A7378EEEBFA0C76C"
+            "09836E367F4BA3E2"
         ]
     },
     {
@@ -54206,7 +54206,7 @@
         "dest_sc": "大埔(太和)",
         "co": "KMB",
         "stops": [
-            "A7378EEEBFA0C76C",
+            "09836E367F4BA3E2",
             "86218AD69549D7B2",
             "86201D4BB45ED201",
             "558ED5EDA9A0C43C",
@@ -54384,38 +54384,6 @@
             "21DA1E33BF580B96",
             "AC935792C88AF135",
             "41D1C16D44F410F1"
-        ]
-    },
-    {
-        "route": "R108",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Kai Yip",
-        "orig_tc": "啟業",
-        "orig_sc": "启业",
-        "dest_en": "Causeway Bay (Victoria Park)",
-        "dest_tc": "銅鑼灣(維多利亞公園)",
-        "dest_sc": "铜锣湾(维多利亚公园)",
-        "co": "KMB",
-        "stops": [
-            "0718DE53C1C84496",
-            "AC4EEE801BB9133C",
-            "5CD6A0A0CE6B53B6",
-            "32A2D05A195364DC",
-            "C1C31D615DAA97F4",
-            "A4601C77EB896E30",
-            "E207DBF95EA7DE26",
-            "C71093B5185DF735",
-            "C80FB453C9F53569",
-            "8BB1DE68DB8316D3",
-            "AE4D7869B643DAA2",
-            "AE2A53D953B640BE",
-            "E798CB4E2C777782",
-            "6E8CB58283AF3CB1",
-            "9CFB5F7232818FFA",
-            "A06590AD808DC9A9",
-            "06C9926B2E2B304F",
-            "DF901EF2F9A46F7B"
         ]
     },
     {
@@ -55188,52 +55156,6 @@
             "F0F78C66E02F87F7",
             "E1FF672AE45F06FE",
             "FE235D7DCABCA944"
-        ]
-    },
-    {
-        "route": "R603",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "On Tai (West)",
-        "orig_tc": "安泰(西)",
-        "orig_sc": "安泰(西)",
-        "dest_en": "Causeway Bay (Victoria Park)",
-        "dest_tc": "銅鑼灣(維多利亞公園)",
-        "dest_sc": "铜锣湾(维多利亚公园)",
-        "co": "KMB",
-        "stops": [
-            "FBE07247C3FDB904",
-            "EC1E1868D370F3D9",
-            "057B2DCE8BE58FFA",
-            "4A91A327C9FC745E",
-            "EA2CFF27310EAEC3",
-            "3C0AF6BA82588E2F",
-            "F8DEE1D5F9A349AD",
-            "4A14A012710E80B1",
-            "3216F11DA45B80D7",
-            "6F106FD26B684372",
-            "26305AF62FBEE2BC",
-            "D83C4CC1305E35E9",
-            "13A8D09F9E444BF3",
-            "EF17FDCDDF170D38",
-            "FDB7C76323B22686",
-            "9D676B8892807F9D",
-            "1472CA699A47EE46",
-            "3144CE950CE29C80",
-            "543FD8B6C65D1C4C",
-            "316BB2C947568585",
-            "3E862B92873F5811",
-            "57A0D4D6D4D57497",
-            "0F9D050D4229C0F7",
-            "19171A194D7507D5",
-            "F60CC440E22B0BD9",
-            "3C6DAB7267F9E54F",
-            "73E85E88E124EF2C",
-            "6C6B36F7550907CE",
-            "FF6E49051D6D9A8C",
-            "06C9926B2E2B304F",
-            "76B4054F2E1F00B0",
-            "DF901EF2F9A46F7B"
         ]
     },
     {
