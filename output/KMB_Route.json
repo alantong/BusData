@@ -21924,6 +21924,22 @@
         ]
     },
     {
+        "route": "91B",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Hang Hau Station",
+        "orig_tc": "坑口站",
+        "orig_sc": "坑口站",
+        "dest_en": "H.K.U.S.T. (South)",
+        "dest_tc": "香港科技大學(南)",
+        "dest_sc": "香港科技大学(南)",
+        "co": "KMB",
+        "stops": [
+            "29A07F043B4D5919",
+            "E9018F8A7E096544"
+        ]
+    },
+    {
         "route": "91M",
         "bound": "O",
         "service_type": "1",
@@ -55401,9 +55417,9 @@
         "orig_en": "Disneyland",
         "orig_tc": "迪士尼樂園",
         "orig_sc": "迪士尼乐园",
-        "dest_en": "Lantau Link Interchange (Circular)",
-        "dest_tc": "青嶼幹線轉車站",
-        "dest_sc": "青屿干线转车站",
+        "dest_en": "Lantau Link BBI (Circular)",
+        "dest_tc": "青嶼幹線轉車站(循環線)",
+        "dest_sc": "青屿干线转车站(循环线)",
         "co": "KMB",
         "stops": [
             "E0A5FA73176D78A8",
@@ -55421,9 +55437,9 @@
         "orig_en": "Disneyland",
         "orig_tc": "迪士尼樂園",
         "orig_sc": "迪士尼乐园",
-        "dest_en": "Lantau Link Interchange (Circular)",
-        "dest_tc": "青嶼幹線轉車站",
-        "dest_sc": "青屿干线转车站",
+        "dest_en": "Lantau Link BBI (Circular)",
+        "dest_tc": "青嶼幹線轉車站(循環線)",
+        "dest_sc": "青屿干线转车站(循环线)",
         "co": "KMB",
         "stops": [
             "E0A5FA73176D78A8",
@@ -55439,9 +55455,9 @@
         "orig_en": "Disneyland",
         "orig_tc": "迪士尼樂園",
         "orig_sc": "迪士尼乐园",
-        "dest_en": "Lantau Link Interchange",
-        "dest_tc": "青嶼幹線轉車站",
-        "dest_sc": "青屿干线转车站",
+        "dest_en": "Lantau Link BBI",
+        "dest_tc": "青嶼幹線轉車站(循環線)",
+        "dest_sc": "青屿干线转车站(循环线)",
         "co": "KMB",
         "stops": [
             "E0A5FA73176D78A8",
