@@ -82,21 +82,23 @@ async def main():
             
             for line in lines[1:]:
 
-                line = re.sub("(\",\"|\",|,\")", "|", line)
+                #line = re.sub("(\",\"|\",|,\")", "|", line)
                 #line = line.replace("\",\"", '|')
-                row = [i.strip(" \"") for i in line.split('|')]
-                stop = {}
-                stop['co'] = 'MTR_BUS'
-                stop['route'] = row[0]
-                stop['bound'] = row[1]
-                stop['stopSeq'] = row[2]
-                stop['stop'] = row[3]
-                stop['lat'] = row[4]
-                stop['long'] = row[5]
-                stop['name_tc'] = row[6]
-                stop['name_en'] = row[7]
-                
-                stopList.append(stop)
+                #line = re.sub("\"", "", line)
+                row = [i.strip(" \"") for i in line.split(',')]
+                if(len(row) > 0 ):
+                    stop = {}
+                    stop['co'] = 'MTR_BUS'
+                    stop['route'] = row[0]
+                    stop['bound'] = row[1]
+                    stop['stopSeq'] = row[2]
+                    stop['stop'] = row[3]
+                    stop['lat'] = row[4]
+                    stop['long'] = row[5]
+                    stop['name_tc'] = row[6]
+                    stop['name_en'] = row[7]
+                    
+                    stopList.append(stop)
         
         writeToJson(stopList, MTRBus_stop_json)
 
