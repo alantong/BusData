@@ -2262,5 +2262,24 @@
             "78",
             "334"
         ]
+    },
+    {
+        "co": "NLB",
+        "routeId": "110",
+        "route": "NB2",
+        "orig_tc": "深圳灣口岸",
+        "dest_tc": "元朗港鐵站 (循環線)",
+        "orig_sc": "深圳湾口岸",
+        "dest_sc": "元朗港铁站 (循环线)",
+        "orig_en": "Shenzhen Bay Port",
+        "dest_en": "Yuen Long MTR Station (Circular)",
+        "overnightRoute": 1,
+        "specialRoute": 1,
+        "stops": [
+            "152",
+            "170",
+            "134",
+            "152"
+        ]
     }
 ]
