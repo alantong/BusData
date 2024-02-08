@@ -1,8 +1,4 @@
-06-Feb-24 19:09:03 | root - INFO - Start getting MTR Bus stops
-06-Feb-24 19:09:05 | root - ERROR - Other error occurred: list index out of range
-06-Feb-24 19:09:05 | root - ERROR - list index out of range
-Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/MTR_BUS_Route.py", line 91, in main
-    stop['bound'] = row[1]
-                    ~~~^^^
-IndexError: list index out of range
+16-Jan-24 19:08:45 | root - INFO - Start getting MTR Bus stops
+16-Jan-24 19:08:47 | root - INFO - Finish getting MTR Bus stops
+16-Jan-24 19:08:47 | root - INFO - Start getting MTR Bus routes
+16-Jan-24 19:08:47 | root - INFO - Finish getting MTR Bus rotues
