@@ -19449,9 +19449,9 @@
         "route": "85",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Fo Tan   (Shan Mei St)",
-        "orig_tc": "火炭(山尾街)",
-        "orig_sc": "火炭(山尾街)",
+        "orig_en": "Fo Tan Chun Yeung Estate",
+        "orig_tc": "火炭駿洋邨",
+        "orig_sc": "火炭骏洋邨",
         "dest_en": "Kowloon City Ferry",
         "dest_tc": "九龍城碼頭",
         "dest_sc": "九龙城码头",
@@ -19480,7 +19480,8 @@
             "AE2A53D953B640BE",
             "F5795A904B483F33",
             "2C7AEE8C6B2BC06A",
-            "0B8D095A45B05587"
+            "0B8D095A45B05587",
+            "E6DCDD4CCE10E4B7"
         ]
     },
     {
@@ -19490,9 +19491,9 @@
         "orig_en": "Kowloon City Ferry",
         "orig_tc": "九龍城碼頭",
         "orig_sc": "九龙城码头",
-        "dest_en": "Fo Tan   (Shan Mei St)",
-        "dest_tc": "火炭(山尾街)",
-        "dest_sc": "火炭(山尾街)",
+        "dest_en": "Fo Tan Chun Yeung Estate",
+        "dest_tc": "火炭駿洋邨",
+        "dest_sc": "火炭骏洋邨",
         "co": "KMB",
         "stops": [
             "E6DCDD4CCE10E4B7",
@@ -19522,7 +19523,8 @@
             "437D60C455A624E6",
             "A23337DAF4A8B168",
             "72EE8A033E4260A3",
-            "7234BEA4242461F7"
+            "61A21B70C10E9722",
+            "B730549EB3703C74"
         ]
     },
     {
@@ -21001,15 +21003,17 @@
         "route": "88X",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Fo Tan Chun Yeung Estate",
-        "orig_tc": "火炭駿洋邨",
-        "orig_sc": "火炭骏洋邨",
+        "orig_en": "Sui Wo Court",
+        "orig_tc": "穗禾苑",
+        "orig_sc": "穗禾苑",
         "dest_en": "Ping Tin",
         "dest_tc": "平田",
         "dest_sc": "平田",
         "co": "KMB",
         "stops": [
-            "B730549EB3703C74",
+            "E9B13F8E482054DC",
+            "A0BB7387E8F22C49",
+            "1772336D72B10178",
             "A5A562A569DAF738",
             "C458B4A40BFCC4FF",
             "D92BEED0C736EF59",
@@ -21037,15 +21041,17 @@
         "route": "88X",
         "bound": "O",
         "service_type": "2",
-        "orig_en": "Fo Tan Chun Yeung Estate",
-        "orig_tc": "火炭駿洋邨",
-        "orig_sc": "火炭骏洋邨",
+        "orig_en": "Sui Wo Court",
+        "orig_tc": "穗禾苑",
+        "orig_sc": "穗禾苑",
         "dest_en": "Ping Tin",
         "dest_tc": "平田",
         "dest_sc": "平田",
         "co": "KMB",
         "stops": [
-            "B730549EB3703C74",
+            "E9B13F8E482054DC",
+            "A0BB7387E8F22C49",
+            "1772336D72B10178",
             "A5A562A569DAF738",
             "C458B4A40BFCC4FF",
             "D92BEED0C736EF59",
@@ -21080,9 +21086,9 @@
         "orig_en": "Ping Tin",
         "orig_tc": "平田",
         "orig_sc": "平田",
-        "dest_en": "Fo Tan Chun Yeung Estate",
-        "dest_tc": "火炭駿洋邨",
-        "dest_sc": "火炭骏洋邨",
+        "dest_en": "Sui Wo Court",
+        "dest_tc": "穗禾苑",
+        "dest_sc": "穗禾苑",
         "co": "KMB",
         "stops": [
             "FDB7C76323B22686",
@@ -21111,7 +21117,9 @@
             "A23337DAF4A8B168",
             "72EE8A033E4260A3",
             "61A21B70C10E9722",
-            "B730549EB3703C74"
+            "B50DB83AC82D3C44",
+            "DEAC83FBE72FE09C",
+            "E9B13F8E482054DC"
         ]
     },
     {
@@ -21121,9 +21129,9 @@
         "orig_en": "Ping Tin",
         "orig_tc": "平田",
         "orig_sc": "平田",
-        "dest_en": "Fo Tan Chun Yeung Estate",
-        "dest_tc": "火炭駿洋邨",
-        "dest_sc": "火炭骏洋邨",
+        "dest_en": "Sui Wo Court",
+        "dest_tc": "穗禾苑",
+        "dest_sc": "穗禾苑",
         "co": "KMB",
         "stops": [
             "FDB7C76323B22686",
@@ -21147,7 +21155,9 @@
             "A23337DAF4A8B168",
             "72EE8A033E4260A3",
             "61A21B70C10E9722",
-            "B730549EB3703C74"
+            "B50DB83AC82D3C44",
+            "DEAC83FBE72FE09C",
+            "E9B13F8E482054DC"
         ]
     },
     {
