@@ -604,7 +604,7 @@
     },
     {
         "stop": "001074",
-        "name_tc": "金鐘站 - 海富中心, 夏愨道",
+        "name_tc": "金鐘站 - 海富中心, 夏慤道",
         "name_en": "Admiralty Station - Admiralty Centre, Harcourt Road",
         "lat": "22.279523082091",
         "long": "114.16514437053",
@@ -3021,6 +3021,33 @@
         "lat": "22.279321902091",
         "long": "114.22110893053",
         "name_sc": "耀东邨耀华楼, 耀兴道",
+        "co": "CTB"
+    },
+    {
+        "stop": "001356",
+        "name_tc": "筲箕灣廣場, 耀興道",
+        "name_en": "Shaukeiwan Plaza, Yiu Hing Road",
+        "lat": "22.277141762091",
+        "long": "114.22622565053",
+        "name_sc": "筲箕湾广场, 耀兴道",
+        "co": "CTB"
+    },
+    {
+        "stop": "001357",
+        "name_tc": "東盛苑, 耀興道",
+        "name_en": "Tung Shing Court, Yiu Hing Road",
+        "lat": "22.276099342091",
+        "long": "114.22651147053",
+        "name_sc": "东盛苑, 耀兴道",
+        "co": "CTB"
+    },
+    {
+        "stop": "001358",
+        "name_tc": "耀東商場, 耀興道",
+        "name_en": "Yiu Tung Shopping Centre, Yiu Hing Road",
+        "lat": "22.277461762091",
+        "long": "114.22336773053",
+        "name_sc": "耀东商场, 耀兴道",
         "co": "CTB"
     },
     {
@@ -11640,8 +11667,8 @@
         "stop": "002392",
         "name_tc": "數碼港",
         "name_en": "Cyberport",
-        "lat": "22.261996412091",
-        "long": "114.13067455053",
+        "lat": "22.261985192091",
+        "long": "114.13067185053",
         "name_sc": "数码港",
         "co": "CTB"
     },
@@ -22032,6 +22059,15 @@
         "co": "CTB"
     },
     {
+        "stop": "003781",
+        "name_tc": "耀東邨耀明樓, 耀興道",
+        "name_en": "Yiu Ming House Yiu Tung Estate, Yiu Hing Road",
+        "lat": "22.275835762091",
+        "long": "114.22460934053",
+        "name_sc": "耀东邨耀明楼, 耀兴道",
+        "co": "CTB"
+    },
+    {
         "stop": "003782",
         "name_tc": "維港1號",
         "name_en": "One Victoria",
@@ -22416,6 +22452,24 @@
         "lat": "22.309699442091",
         "long": "114.22159383053",
         "name_sc": "骏业街, 伟业街",
+        "co": "CTB"
+    },
+    {
+        "stop": "003844",
+        "name_tc": "金鐘站 - C 出口",
+        "name_en": "Admiralty Station - Exit C",
+        "lat": "22.278920822091",
+        "long": "114.16451942053",
+        "name_sc": "金钟站 - C 出口",
+        "co": "CTB"
+    },
+    {
+        "stop": "003845",
+        "name_tc": "金鐘站 - 金鐘廊, 金鐘道",
+        "name_en": "Admiralty Station - Queensway Plaza, Queensway",
+        "lat": "22.278485362091",
+        "long": "114.16447808053",
+        "name_sc": "金钟站 - 金钟廊, 金钟道",
         "co": "CTB"
     }
 ]
