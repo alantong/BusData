@@ -18950,6 +18950,23 @@
     },
     {
         "co": "GMB",
+        "route": "618",
+        "routeId": 2009906,
+        "routeSeq": 1,
+        "orig_tc": "天水圍(天恩邨)",
+        "dest_tc": "深圳灣口岸",
+        "orig_sc": "天水围(天恩邨)",
+        "dest_sc": "深圳湾口岸",
+        "orig_en": "Tin Shui Wai (Tin Yan Estate)",
+        "dest_en": "Shenzhen Bay Port",
+        "stops": [
+            20015445,
+            20015446,
+            20015453
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "61M",
         "routeId": 2003675,
         "routeSeq": 1,
