@@ -4561,6 +4561,29 @@
     },
     {
         "co": "GMB",
+        "route": "20G",
+        "routeId": 2009939,
+        "routeSeq": 1,
+        "orig_tc": "黃魚灘(樂善村)",
+        "dest_tc": "大埔墟站",
+        "orig_sc": "黄鱼滩(乐善村)",
+        "dest_sc": "大埔墟站",
+        "orig_en": "Wong Yue Tan (Lok Sin Village)",
+        "dest_en": "Tai Po Market Station",
+        "stops": [
+            20019567,
+            20003421,
+            20008271,
+            20001468,
+            20006555,
+            20008272,
+            20008273,
+            20001217,
+            20001193
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "20K",
         "routeId": 2001464,
         "routeSeq": 1,
