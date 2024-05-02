@@ -48520,6 +48520,47 @@
         ]
     },
     {
+        "route": "B9A",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yuen Long (West)",
+        "orig_tc": "元朗(西)",
+        "orig_sc": "元朗(西)",
+        "dest_en": "Hueng Yuen Wai Control Point (Liantang)",
+        "dest_tc": "香園圍口岸(蓮塘)",
+        "dest_sc": "香园围口岸(莲塘)",
+        "co": "KMB",
+        "stops": [
+            "822B02BAED2961FC",
+            "0D98A0E934584FD0",
+            "BF85B8D218CD0FF6",
+            "2FB355A2C89B7922",
+            "52656E6A7D0EB9E4",
+            "4E2EC89B41600D7E",
+            "633840EFCF738514",
+            "20B3D40097A05769"
+        ]
+    },
+    {
+        "route": "B9A",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Hueng Yuen Wai Control Point (Liantang)",
+        "orig_tc": "香園圍口岸(蓮塘)",
+        "orig_sc": "香园围口岸(莲塘)",
+        "dest_en": "Yuen Long (West)",
+        "dest_tc": "元朗(西)",
+        "dest_sc": "元朗(西)",
+        "co": "KMB",
+        "stops": [
+            "3ED28170B05A236E",
+            "14157BA5C06B0B6B",
+            "AC935792C88AF135",
+            "43E5D3A445382F82",
+            "DAFFF59B0718B464"
+        ]
+    },
+    {
         "route": "E31",
         "bound": "O",
         "service_type": "1",
