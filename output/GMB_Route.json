@@ -25784,6 +25784,28 @@
     },
     {
         "co": "GMB",
+        "route": "88D",
+        "routeId": 2009972,
+        "routeSeq": 1,
+        "orig_tc": "涌美路, 近長青邨青荷樓",
+        "dest_tc": "興寧路,近新都會廣場",
+        "orig_sc": "涌美路, 近长青村青荷楼",
+        "dest_sc": "兴宁路,近新都会广场",
+        "orig_en": "Chung Mei Road, near Ching Ho House, Cheung Ching Estate",
+        "dest_en": "Hing Ning Road, near Metroplaza",
+        "stops": [
+            20014123,
+            20014124,
+            20014125,
+            20014126,
+            20001737,
+            20012804,
+            20011987,
+            20013696
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "88F",
         "routeId": 2008604,
         "routeSeq": 1,
