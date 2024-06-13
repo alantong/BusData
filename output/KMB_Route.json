@@ -13725,38 +13725,6 @@
         ]
     },
     {
-        "route": "68R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Yoho Mall (Yuen Long)",
-        "orig_tc": "元朗 形點",
-        "orig_sc": "元朗 形点",
-        "dest_en": "Tai Tong",
-        "dest_tc": "大棠",
-        "dest_sc": "大棠",
-        "co": "KMB",
-        "stops": [
-            "65B07713A0DDFF22",
-            "DC81D1176824125F"
-        ]
-    },
-    {
-        "route": "68R",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tai Tong",
-        "orig_tc": "大棠",
-        "orig_sc": "大棠",
-        "dest_en": "Yoho Mall (Yuen Long)",
-        "dest_tc": "元朗 形點",
-        "dest_sc": "元朗 形点",
-        "co": "KMB",
-        "stops": [
-            "DC81D1176824125F",
-            "65B07713A0DDFF22"
-        ]
-    },
-    {
         "route": "68X",
         "bound": "O",
         "service_type": "1",
@@ -26779,50 +26747,6 @@
         ]
     },
     {
-        "route": "168R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Central (Central Ferry Piers)",
-        "orig_tc": "中環(渡輪碼頭)",
-        "orig_sc": "中环(渡轮码头)",
-        "dest_en": "Yuen Long (West)",
-        "dest_tc": "元朗(西)",
-        "dest_sc": "元朗(西)",
-        "co": "KMB",
-        "stops": [
-            "7943A971791CA7AE",
-            "F73020DB89A6E76F",
-            "643D73028E9E8490",
-            "52241C2AEB38627B",
-            "14157BA5C06B0B6B",
-            "AC935792C88AF135",
-            "43E5D3A445382F82",
-            "DAFFF59B0718B464"
-        ]
-    },
-    {
-        "route": "168R",
-        "bound": "O",
-        "service_type": "2",
-        "orig_en": "Wan Chai (HKCECE)",
-        "orig_tc": "灣仔會展",
-        "orig_sc": "湾仔会展",
-        "dest_en": "Yuen Long (West)",
-        "dest_tc": "元朗(西)",
-        "dest_sc": "元朗(西)",
-        "co": "KMB",
-        "stops": [
-            "0ECA7118ADB9577B",
-            "DCE0DAF77EBA1E21",
-            "643D73028E9E8490",
-            "52241C2AEB38627B",
-            "14157BA5C06B0B6B",
-            "AC935792C88AF135",
-            "43E5D3A445382F82",
-            "DAFFF59B0718B464"
-        ]
-    },
-    {
         "route": "170",
         "bound": "O",
         "service_type": "1",
@@ -30440,25 +30364,6 @@
             "3F0C9DF601178557",
             "2BD0ACE05ADB9AD1",
             "459BE083B86A8337"
-        ]
-    },
-    {
-        "route": "254R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Yoho Mall",
-        "orig_tc": "形點",
-        "orig_sc": "形点",
-        "dest_en": "Shek Kong Barracks (Circular)",
-        "dest_tc": "石崗軍營 (循環線)",
-        "dest_sc": "石岗军营 (循环线)",
-        "co": "KMB",
-        "stops": [
-            "65B07713A0DDFF22",
-            "B930AD84BC1A8655",
-            "2D10E16919B5A96E",
-            "6A4B371546D489BF",
-            "65B07713A0DDFF22"
         ]
     },
     {
@@ -51163,72 +51068,6 @@
         ]
     },
     {
-        "route": "N276",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tin Tsz",
-        "orig_tc": "天慈",
-        "orig_sc": "天慈",
-        "dest_en": "San Tin Public Transport Interchange",
-        "dest_tc": "新田運輸交匯處",
-        "dest_sc": "新田运输交汇处",
-        "co": "KMB",
-        "stops": [
-            "868AEC6A9B5704FB",
-            "7898B605E39613A8",
-            "4BE4E6D4F5A06A51",
-            "71C5FC4FF2FDE0CA",
-            "EE642EBB8CAD513D",
-            "A856593C105D479B",
-            "55E3A1A6E995A9CB",
-            "AC1A0FA3D0743FCC",
-            "5F616585205DDDF9",
-            "147D513A708AA741",
-            "B88640E0CA83F12C",
-            "A8482B15AD6E89A3",
-            "BCC6E5BA6810FED6",
-            "F87A56BD0A2640ED",
-            "D747ADD80335605C",
-            "445B2A02DB891CA9",
-            "4E2EC89B41600D7E",
-            "73CDC61EBA1C9431",
-            "FFFB0F940CA7BEA7"
-        ]
-    },
-    {
-        "route": "N276",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "San Tin Public Transport Interchange",
-        "orig_tc": "新田運輸交匯處",
-        "orig_sc": "新田运输交汇处",
-        "dest_en": "Tin Tsz",
-        "dest_tc": "天慈",
-        "dest_sc": "天慈",
-        "co": "KMB",
-        "stops": [
-            "FFFB0F940CA7BEA7",
-            "14157BA5C06B0B6B",
-            "F63C4B8B958E9830",
-            "74C51A8A3D783F40",
-            "D9CE618F99BAC2B6",
-            "A010FE2C473103A8",
-            "70FEB409760C77EE",
-            "A1A1B10F5CE291AC",
-            "A2C36DF7152EE93F",
-            "60A4F4A41CD61FAC",
-            "8F6C8CEB9F17D97D",
-            "B09E18636F184247",
-            "2FA997A1BE419A52",
-            "023F856BE4F830F2",
-            "5CAF0B805C12DDD9",
-            "86C5B251AF5F68BF",
-            "6A90A40248059768",
-            "A6F5C93F89B0969B",
-            "868AEC6A9B5704FB"
-        ]
-    },
-    {
         "route": "N281",
         "bound": "O",
         "service_type": "1",
@@ -54098,44 +53937,6 @@
         ]
     },
     {
-        "route": "R269",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tin Tsz",
-        "orig_tc": "天慈",
-        "orig_sc": "天慈",
-        "dest_en": "Tsim Sha Tsui East (Mody Road)",
-        "dest_tc": "尖沙咀東(麼地道)",
-        "dest_sc": "尖沙咀东(么地道)",
-        "co": "KMB",
-        "stops": [
-            "868AEC6A9B5704FB",
-            "D813C93D9AD1C45B",
-            "7BB395B6FE66E102",
-            "6D4E7B9D5F9584E7",
-            "47AB1894215AECEE",
-            "42AEF6365E78DA56",
-            "8753A8442C2FFF53",
-            "8D56DB404D264D5A",
-            "67D80F37744E1277",
-            "080EF1BEA737A5D3",
-            "AFB9321F7CD2C2E4",
-            "7898B605E39613A8",
-            "CB853E4BCBB13F30",
-            "C20316E552E64387",
-            "1C0A89BD67A4CFF0",
-            "BCC6E5BA6810FED6",
-            "B02B0B9F73E50D93",
-            "D54B0CA58FE5559D",
-            "51BD0FD05C62F3F4",
-            "53AC50E46ABDA85B",
-            "591FA32FB4B53682",
-            "447C1D79A10C83E2",
-            "F2508598F5A43655",
-            "1E5EADCD9F424F07"
-        ]
-    },
-    {
         "route": "R283",
         "bound": "O",
         "service_type": "1",
@@ -54432,35 +54233,6 @@
             "BB78072EA5359090",
             "E1FF672AE45F06FE",
             "FE235D7DCABCA944"
-        ]
-    },
-    {
-        "route": "R968",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Yuen Long (Fung Cheung Road)",
-        "orig_tc": "元朗(鳳翔路)",
-        "orig_sc": "元朗(凤翔路)",
-        "dest_en": "Causeway Bay (Victoria Park)",
-        "dest_tc": "銅鑼灣(維多利亞公園)",
-        "dest_sc": "铜锣湾(维多利亚公园)",
-        "co": "KMB",
-        "stops": [
-            "E81DF9AB738F076E",
-            "C8FF8B4A87A98184",
-            "D412D24055680560",
-            "5169CFB5102E1129",
-            "C5890150706FE1A0",
-            "283BB233842FCCEB",
-            "B02B0B9F73E50D93",
-            "C296D9B3313C1F77",
-            "AD4CB5E1CAAF8063",
-            "723EF8D7809D3ADB",
-            "591FA32FB4B53682",
-            "211D93217331B040",
-            "06C9926B2E2B304F",
-            "76B4054F2E1F00B0",
-            "17B98BD1165A7B92"
         ]
     },
     {
