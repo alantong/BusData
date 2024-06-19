@@ -19559,6 +19559,43 @@
     {
         "co": "GMB",
         "route": "63A",
+        "routeId": 2008224,
+        "routeSeq": 1,
+        "orig_tc": "美松苑",
+        "dest_tc": "大圍站(村南道)",
+        "orig_sc": "美松苑",
+        "dest_sc": "大围站(村南道)",
+        "orig_en": "Mei Chung Court",
+        "dest_en": "Tai Wai Station (Tsuen Nam Road)",
+        "stops": [
+            20014232,
+            20014233,
+            20014222,
+            20014223,
+            20014224
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63A",
+        "routeId": 2008224,
+        "routeSeq": 2,
+        "orig_tc": "大圍站(村南道)",
+        "dest_tc": "美松苑",
+        "orig_sc": "大围站(村南道)",
+        "dest_sc": "美松苑",
+        "orig_en": "Tai Wai Station (Tsuen Nam Road)",
+        "dest_en": "Mei Chung Court",
+        "stops": [
+            20014224,
+            20014225,
+            20016564,
+            20014232
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63A",
         "routeId": 2003408,
         "routeSeq": 1,
         "orig_tc": "香港仔(南寧街)",
@@ -19605,6 +19642,45 @@
     },
     {
         "co": "GMB",
+        "route": "63B",
+        "routeId": 2008225,
+        "routeSeq": 1,
+        "orig_tc": "恒峰花園",
+        "dest_tc": "大圍站(村南道)",
+        "orig_sc": "恒峰花园",
+        "dest_sc": "大围站(村南道)",
+        "orig_en": "Granville Garden",
+        "dest_en": "Tai Wai Station (Tsuen Nam Road)",
+        "stops": [
+            20014235,
+            20014236,
+            20014237,
+            20014233,
+            20014222,
+            20014223,
+            20014224
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63B",
+        "routeId": 2008225,
+        "routeSeq": 2,
+        "orig_tc": "大圍站(村南道)",
+        "dest_tc": "恒峰花園",
+        "orig_sc": "大围站(村南道)",
+        "dest_sc": "恒峰花园",
+        "orig_en": "Tai Wai Station (Tsuen Nam Road)",
+        "dest_en": "Granville Garden",
+        "stops": [
+            20014224,
+            20014225,
+            20014226,
+            20014235
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "63K",
         "routeId": 2006144,
         "routeSeq": 1,
@@ -19623,6 +19699,43 @@
             20014226,
             20014227,
             20014229
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63K",
+        "routeId": 2008223,
+        "routeSeq": 1,
+        "orig_tc": "美田邨公共運輸交匯處",
+        "dest_tc": "大圍站(村南道)",
+        "orig_sc": "美田邨公共运输交汇处",
+        "dest_sc": "大围站(村南道)",
+        "orig_en": "Mei Tin Estate Public Transport Interchange",
+        "dest_en": "Tai Wai Station (Tsuen Nam Road)",
+        "stops": [
+            20014231,
+            20014222,
+            20014223,
+            20014224
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63K",
+        "routeId": 2008223,
+        "routeSeq": 2,
+        "orig_tc": "大圍站(村南道)",
+        "dest_tc": "美田邨公共運輸交匯處",
+        "orig_sc": "大围站(村南道)",
+        "dest_sc": "美田邨公共运输交汇处",
+        "orig_en": "Tai Wai Station (Tsuen Nam Road)",
+        "dest_en": "Mei Tin Estate Public Transport Interchange",
+        "stops": [
+            20014224,
+            20014225,
+            20014226,
+            20014227,
+            20014231
         ]
     },
     {
@@ -19663,6 +19776,57 @@
     },
     {
         "co": "GMB",
+        "route": "63S",
+        "routeId": 2008226,
+        "routeSeq": 1,
+        "orig_tc": "美田邨公共運輸交匯處",
+        "dest_tc": "旺角",
+        "orig_sc": "美田邨公共运输交汇处",
+        "dest_sc": "旺角",
+        "orig_en": "Mei Tin Estate Public Transport Interchange",
+        "dest_en": "Mong Kok",
+        "stops": [
+            20014231,
+            20014805,
+            20003167,
+            20014248,
+            20014244,
+            20014245,
+            20004126,
+            20014246
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "63S",
+        "routeId": 2008226,
+        "routeSeq": 2,
+        "orig_tc": "旺角",
+        "dest_tc": "美田邨公共運輸交匯處",
+        "orig_sc": "旺角",
+        "dest_sc": "美田邨公共运输交汇处",
+        "orig_en": "Mong Kok",
+        "dest_en": "Mei Tin Estate Public Transport Interchange",
+        "stops": [
+            20014246,
+            20012428,
+            20000912,
+            20014247,
+            20014248,
+            20014249,
+            20014250,
+            20014251,
+            20013038,
+            20013040,
+            20014252,
+            20014253,
+            20014254,
+            20014227,
+            20014231
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "64A",
         "routeId": 2006244,
         "routeSeq": 1,
@@ -19693,6 +19857,43 @@
             20014814,
             20014256,
             20014257,
+            20014224,
+            20014225,
+            20014258,
+            20014256,
+            20014814
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "64K",
+        "routeId": 2008227,
+        "routeSeq": 1,
+        "orig_tc": "富山",
+        "dest_tc": "大圍站(村南道)",
+        "orig_sc": "富山",
+        "dest_sc": "大围站(村南道)",
+        "orig_en": "Fu Shan",
+        "dest_en": "Tai Wai Station (Tsuen Nam Road)",
+        "stops": [
+            20014815,
+            20014259,
+            20014257,
+            20014224
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "64K",
+        "routeId": 2008227,
+        "routeSeq": 2,
+        "orig_tc": "大圍站(村南道)",
+        "dest_tc": "富山",
+        "orig_sc": "大围站(村南道)",
+        "dest_sc": "富山",
+        "orig_en": "Tai Wai Station (Tsuen Nam Road)",
+        "dest_en": "Fu Shan",
+        "stops": [
             20014224,
             20014225,
             20014258,
