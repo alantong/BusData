@@ -2289,6 +2289,24 @@
         ]
     },
     {
+        "route": "6R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Mei Foo (Mei Lai Road)",
+        "orig_tc": "美孚(美荔道)",
+        "orig_sc": "美孚(美荔道)",
+        "dest_en": "Ngong Shuen Chau Barracks (Circular)",
+        "dest_tc": "昂船洲軍營(循環線)",
+        "dest_sc": "昂船洲军营(循环线)",
+        "co": "KMB",
+        "stops": [
+            "9AE6CD527594C632",
+            "9E76DA1634822CDB",
+            "70349D91EC82AFE1",
+            "E35B5F1B80E085E6"
+        ]
+    },
+    {
         "route": "6X",
         "bound": "O",
         "service_type": "1",
@@ -30372,6 +30390,25 @@
         ]
     },
     {
+        "route": "254R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yoho Mall",
+        "orig_tc": "形點",
+        "orig_sc": "形点",
+        "dest_en": "Shek Kong Barracks (Circular)",
+        "dest_tc": "石崗軍營 (循環線)",
+        "dest_sc": "石岗军营 (循环线)",
+        "co": "KMB",
+        "stops": [
+            "65B07713A0DDFF22",
+            "B930AD84BC1A8655",
+            "2D10E16919B5A96E",
+            "6A4B371546D489BF",
+            "65B07713A0DDFF22"
+        ]
+    },
+    {
         "route": "258A",
         "bound": "O",
         "service_type": "1",
@@ -37487,15 +37524,15 @@
         "dest_sc": "水泉澳",
         "co": "KMB",
         "stops": [
-            "69E2EED46A147AE3",
+            "1772336D72B10178",
+            "A5A562A569DAF738",
             "C458B4A40BFCC4FF",
             "7421C8745B4EDF25",
             "8EFA13840D1272E8",
             "66B8F73D3F4E91C9",
             "8EE5AC5D519C140E",
             "5221837D08C7B586",
-            "F99B2D48663A322E",
-            "9879DF2CF2B69838"
+            "F99B2D48663A322E"
         ]
     },
     {
@@ -46837,8 +46874,8 @@
             "1684F750FEB1342E",
             "412DEEF534E127AF",
             "C552CE565E1F0C85",
-            "21466046C6868AA7",
-            "5E1FA939586B3FD1"
+            "0D5759F7A4B185FE",
+            "21466046C6868AA7"
         ]
     },
     {
@@ -46854,6 +46891,7 @@
         "co": "KMB",
         "stops": [
             "5E1FA939586B3FD1",
+            "57B34182D2844A35",
             "28E722A4FDD9ABB9",
             "5476E155980E85F9",
             "03DF3BB7102FE4A4",
@@ -46877,8 +46915,7 @@
             "6FF0624000B3D53D",
             "982E419BB26ED8AA",
             "8F60B176234176D8",
-            "431CFBCADDFF352C",
-            "6D12ACD9163EDD99"
+            "431CFBCADDFF352C"
         ]
     },
     {
@@ -54198,6 +54235,22 @@
             "65C8216FB0BC4FBC",
             "444BEB5BB189B3A0",
             "FE235D7DCABCA944"
+        ]
+    },
+    {
+        "route": "R78",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Fanling Station",
+        "orig_tc": "粉嶺站",
+        "orig_sc": "粉岭站",
+        "dest_en": "San Wai Barracks(Circular)",
+        "dest_tc": "新圍軍營(循環線)",
+        "dest_sc": "新围军营(循环线)",
+        "co": "KMB",
+        "stops": [
+            "18FB32A8BE19CB57",
+            "EF78DD9F765C6565"
         ]
     },
     {
