@@ -1691,6 +1691,38 @@
         ]
     },
     {
+        "route": "5M",
+        "bound": "O",
+        "service_type": "3",
+        "orig_en": "Amoy Gardens",
+        "orig_tc": "淘大花園",
+        "orig_sc": "淘大花园",
+        "dest_en": "Skyline Tower",
+        "dest_tc": "宏天廣場",
+        "dest_sc": "宏天广场",
+        "co": "KMB",
+        "stops": [
+            "426029D3D8AE6E40",
+            "D4707218581C0F72"
+        ]
+    },
+    {
+        "route": "5M",
+        "bound": "O",
+        "service_type": "4",
+        "orig_en": "Skyline Tower",
+        "orig_tc": "宏天廣場",
+        "orig_sc": "宏天广场",
+        "dest_en": "Amoy Gardens",
+        "dest_tc": "淘大花園",
+        "dest_sc": "淘大花园",
+        "co": "KMB",
+        "stops": [
+            "D4707218581C0F72",
+            "426029D3D8AE6E40"
+        ]
+    },
+    {
         "route": "5P",
         "bound": "O",
         "service_type": "1",
@@ -9982,7 +10014,7 @@
         "dest_sc": "昂船洲军营",
         "co": "KMB",
         "stops": [
-            "8C7CF1C55484A294",
+            "14C3BF43DC0878D1",
             "673B33867260EBB7",
             "9E76DA1634822CDB"
         ]
@@ -37516,9 +37548,9 @@
         "route": "288B",
         "bound": "I",
         "service_type": "1",
-        "orig_en": "Fo Tan   (Shan Mei St)",
-        "orig_tc": "火炭(山尾街)",
-        "orig_sc": "火炭(山尾街)",
+        "orig_en": "Fo Tan Chun Yeung Estate",
+        "orig_tc": "火炭駿洋邨",
+        "orig_sc": "火炭骏洋邨",
         "dest_en": "Shui Chuen O",
         "dest_tc": "水泉澳",
         "dest_sc": "水泉澳",
@@ -37532,7 +37564,8 @@
             "66B8F73D3F4E91C9",
             "8EE5AC5D519C140E",
             "5221837D08C7B586",
-            "F99B2D48663A322E"
+            "F99B2D48663A322E",
+            "9879DF2CF2B69838"
         ]
     },
     {
@@ -46902,7 +46935,8 @@
             "412DEEF534E127AF",
             "C552CE565E1F0C85",
             "0D5759F7A4B185FE",
-            "21466046C6868AA7"
+            "21466046C6868AA7",
+            "5E1FA939586B3FD1"
         ]
     },
     {
@@ -46942,7 +46976,8 @@
             "6FF0624000B3D53D",
             "982E419BB26ED8AA",
             "8F60B176234176D8",
-            "431CFBCADDFF352C"
+            "431CFBCADDFF352C",
+            "6D12ACD9163EDD99"
         ]
     },
     {
