@@ -24941,13 +24941,14 @@
         "route": "82",
         "routeId": 2001558,
         "routeSeq": 1,
-        "orig_tc": "彩興苑",
+        "orig_tc": "明愛樂恩學校",
         "dest_tc": "啟德",
-        "orig_sc": "彩兴苑",
+        "orig_sc": "明爱乐恩学校",
         "dest_sc": "启德",
-        "orig_en": "Choi Hing Court",
+        "orig_en": "Caritas Mother Teresa School",
         "dest_en": "Kai Tak",
         "stops": [
+            20019765,
             20008525,
             20008526,
             20008527,
@@ -24962,11 +24963,11 @@
         "routeId": 2001558,
         "routeSeq": 2,
         "orig_tc": "啟德",
-        "dest_tc": "彩興苑",
+        "dest_tc": "明愛樂恩學校",
         "orig_sc": "启德",
-        "dest_sc": "彩兴苑",
+        "dest_sc": "明爱乐恩学校",
         "orig_en": "Kai Tak",
-        "dest_en": "Choi Hing Court",
+        "dest_en": "Caritas Mother Teresa School",
         "stops": [
             20019303,
             20008513,
@@ -24974,7 +24975,26 @@
             20000923,
             20001058,
             20008515,
-            20008529
+            20008529,
+            20019765
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "82",
+        "routeId": 2010038,
+        "routeSeq": 1,
+        "orig_tc": "彩興苑",
+        "dest_tc": "坪石一樓公共運輸交匯處",
+        "orig_sc": "彩兴苑",
+        "dest_sc": "坪石一楼公共运输交汇处",
+        "orig_en": "Choi Hing Court",
+        "dest_en": "Pink Shek 1/F Public Transport Interchange",
+        "stops": [
+            20008525,
+            20008526,
+            20008527,
+            20019766
         ]
     },
     {
