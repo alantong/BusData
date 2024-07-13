@@ -24880,6 +24880,28 @@
     },
     {
         "co": "CTB",
+        "route": "NA21",
+        "orig_tc": "大角咀 (海輝道)",
+        "orig_en": "Tai Kok Tsui (Hoi Fai Road)",
+        "dest_tc": "機場 / 港珠澳大橋香港口岸",
+        "dest_en": "Airport / HZMB Hong Kong Port",
+        "orig_sc": "大角咀 (海辉道)",
+        "dest_sc": "机场 / 港珠澳大桥香港口岸",
+        "stops": [
+            "002849",
+            "001396",
+            "001423",
+            "001707",
+            "001853",
+            "001844",
+            "002714",
+            "003550",
+            "003540"
+        ],
+        "bound": "I"
+    },
+    {
+        "co": "CTB",
         "route": "NA29",
         "orig_tc": "將軍澳 (寶琳)",
         "orig_en": "Tseung Kwan O (Po Lam)",
