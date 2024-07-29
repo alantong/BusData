@@ -6057,6 +6057,27 @@
     },
     {
         "route": "30X",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Yau Ma Tei",
+        "orig_tc": "油麻地",
+        "orig_sc": "油麻地",
+        "dest_en": "Whampoa Garden",
+        "dest_tc": "黃埔花園",
+        "dest_sc": "黄埔花园",
+        "co": "KMB",
+        "stops": [
+            "D48E82AC2961C581",
+            "CBF110E4B3E23071",
+            "33506DF7A7D71391",
+            "4CA486B230A34D3A",
+            "97377AA89B45CD34",
+            "438AFA4E9E76C953",
+            "DE5FEC673BB54DC5"
+        ]
+    },
+    {
+        "route": "30X",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Whampoa Garden",
@@ -6139,6 +6160,28 @@
             "A722DAAC99CE03D4",
             "5FD70A34C55CE590",
             "17CDBCBA18D0D000"
+        ]
+    },
+    {
+        "route": "30X",
+        "bound": "I",
+        "service_type": "3",
+        "orig_en": "Whampoa Garden",
+        "orig_tc": "黃埔花園",
+        "orig_sc": "黄埔花园",
+        "dest_en": "Yau Ma Tei",
+        "dest_tc": "油麻地",
+        "dest_sc": "油麻地",
+        "co": "KMB",
+        "stops": [
+            "FB5C37C053212F25",
+            "023240260A820608",
+            "95FAB1D2AD752ECE",
+            "CF54AA6D227A2B5D",
+            "ACEE0699B58962AF",
+            "E88DD004EB786D72",
+            "2BA342708C004DDE",
+            "FB077F74F10A5B13"
         ]
     },
     {
