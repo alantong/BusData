@@ -22363,6 +22363,27 @@
     },
     {
         "route": "92",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Sai Kung",
+        "orig_tc": "西貢",
+        "orig_sc": "西贡",
+        "dest_en": "Diamond Hill Station",
+        "dest_tc": "鑽石山站",
+        "dest_sc": "钻石山站",
+        "co": "KMB",
+        "stops": [
+            "F4CE5E8FCC1B2F59",
+            "60E02B7ACBBB80E8",
+            "5089C69E080B7A43",
+            "E4C26E79F0D6DC5E",
+            "5D77A5CBE41F2984",
+            "18F3C20116BFE83D",
+            "10B8C166D8E60F65"
+        ]
+    },
+    {
+        "route": "92",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Diamond Hill Station",
@@ -22399,6 +22420,29 @@
             "55550BED65A18A13",
             "38D3C2983AC9D261",
             "1B539DE1162FFA1D",
+            "745DA7ECAF6C9247",
+            "23B5C67999C778E0",
+            "F4CE5E8FCC1B2F59"
+        ]
+    },
+    {
+        "route": "92",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Diamond Hill Station",
+        "orig_tc": "鑽石山站",
+        "orig_sc": "钻石山站",
+        "dest_en": "Sai Kung",
+        "dest_tc": "西貢",
+        "dest_sc": "西贡",
+        "co": "KMB",
+        "stops": [
+            "10B8C166D8E60F65",
+            "38021D9E2840F8CC",
+            "4568080E28FB1E56",
+            "03134CEBBD692D21",
+            "A780214C3EB5640A",
+            "90AC6FE5BBD1428A",
             "745DA7ECAF6C9247",
             "23B5C67999C778E0",
             "F4CE5E8FCC1B2F59"
@@ -33097,6 +33141,7 @@
             "7898B605E39613A8",
             "CB853E4BCBB13F30",
             "71C5FC4FF2FDE0CA",
+            "EE642EBB8CAD513D",
             "3ECEF3B735084236",
             "211D93217331B040",
             "D198122830A4FDE3",
@@ -33113,8 +33158,7 @@
             "DF942A6B97EABDC4",
             "CF579AAA2A4E506C",
             "80B56E2C7719DAF4",
-            "71E3EB7E709522C7",
-            "2FCE924121B95FE8"
+            "71E3EB7E709522C7"
         ]
     },
     {
@@ -36687,6 +36731,27 @@
             "BA995ECF3EFCA99E",
             "879A98CD29D9433F",
             "0132863D9F66CE6B"
+        ]
+    },
+    {
+        "route": "279X",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Tsing Yi Station",
+        "orig_tc": "青衣站",
+        "orig_sc": "青衣站",
+        "dest_en": "Sheung Shui Station",
+        "dest_tc": "上水站",
+        "dest_sc": "上水站",
+        "co": "KMB",
+        "stops": [
+            "716E50EBD1CD72B4",
+            "AFC36FC71B4E124E",
+            "CA1C0FB0345F9675",
+            "A5E559178C9F5182",
+            "E55FA660A59AB64A",
+            "E3B0A57678CFD140",
+            "647CBF3FE0DF2FAE"
         ]
     },
     {
