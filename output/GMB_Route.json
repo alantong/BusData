@@ -18460,6 +18460,25 @@
     },
     {
         "co": "GMB",
+        "route": "608S",
+        "routeId": 2010236,
+        "routeSeq": 1,
+        "orig_tc": "七星薈小巴總站",
+        "dest_tc": "錦上路站公共運輸交滙處(循環線)",
+        "orig_sc": "七星荟小巴总站",
+        "dest_sc": "锦上路站公共运输交滙处(循环线)",
+        "orig_en": "Concordia Tsat Sing Kong Public Light Bus Terminus",
+        "dest_en": "Kam Sheung Road Station Public Transport Interchange (Circular)",
+        "stops": [
+            20019897,
+            20007542,
+            20016894,
+            20007543,
+            20019897
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "609",
         "routeId": 2001196,
         "routeSeq": 1,
