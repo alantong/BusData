@@ -1691,38 +1691,6 @@
         ]
     },
     {
-        "route": "5M",
-        "bound": "O",
-        "service_type": "3",
-        "orig_en": "Amoy Gardens",
-        "orig_tc": "淘大花園",
-        "orig_sc": "淘大花园",
-        "dest_en": "Skyline Tower",
-        "dest_tc": "宏天廣場",
-        "dest_sc": "宏天广场",
-        "co": "KMB",
-        "stops": [
-            "426029D3D8AE6E40",
-            "D4707218581C0F72"
-        ]
-    },
-    {
-        "route": "5M",
-        "bound": "O",
-        "service_type": "4",
-        "orig_en": "Skyline Tower",
-        "orig_tc": "宏天廣場",
-        "orig_sc": "宏天广场",
-        "dest_en": "Amoy Gardens",
-        "dest_tc": "淘大花園",
-        "dest_sc": "淘大花园",
-        "co": "KMB",
-        "stops": [
-            "D4707218581C0F72",
-            "426029D3D8AE6E40"
-        ]
-    },
-    {
         "route": "5P",
         "bound": "O",
         "service_type": "1",
@@ -17678,8 +17646,8 @@
             "FA44FBDA21BE2E05",
             "0DC81A7980B2F1F7",
             "A0CA9CC1118DE65E",
-            "CA9E9870D7B2FF36",
-            "9D388587636920DA"
+            "14BDB94A8F3ED3EC",
+            "FA7A3D77713061E9"
         ]
     },
     {
@@ -37947,7 +37915,8 @@
             "F99B2D48663A322E",
             "38CCA601583A5C55",
             "6953AEF8B3921959",
-            "537168ECCA2CE578"
+            "537168ECCA2CE578",
+            "A23337DAF4A8B168"
         ]
     },
     {
@@ -37971,7 +37940,8 @@
             "66B8F73D3F4E91C9",
             "8EE5AC5D519C140E",
             "5221837D08C7B586",
-            "F99B2D48663A322E"
+            "F99B2D48663A322E",
+            "9879DF2CF2B69838"
         ]
     },
     {
