@@ -35309,6 +35309,23 @@
         ]
     },
     {
+        "route": "273B",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Sheung Shui (Ching Ho)",
+        "orig_tc": "上水(清河)",
+        "orig_sc": "上水(清河)",
+        "dest_en": "Sheung Shui Station",
+        "dest_tc": "上水站(只往上水站)",
+        "dest_sc": "上水站(只往上水站)",
+        "co": "KMB",
+        "stops": [
+            "583E102838FA4D0A",
+            "6F11F73C749338DB",
+            "9CA76C3AEAB52DC2"
+        ]
+    },
+    {
         "route": "273C",
         "bound": "O",
         "service_type": "1",
