@@ -5922,15 +5922,6 @@
         "co": "KMB"
     },
     {
-        "stop": "9E76DA1634822CDB",
-        "name_en": "Ngong Shuen Chau Barracks",
-        "name_tc": "昂船洲軍營",
-        "name_sc": "昂船洲军营",
-        "lat": "22.318818",
-        "long": "114.131223",
-        "co": "KMB"
-    },
-    {
         "stop": "D63D9356CBA8B0CD",
         "name_en": "Shing Tak Street Bus Terminus",
         "name_tc": "盛德街總站",
@@ -17610,6 +17601,15 @@
         "name_sc": "青沙公路转车站 (A4)",
         "lat": "22.358523",
         "long": "114.163314",
+        "co": "KMB"
+    },
+    {
+        "stop": "9E76DA1634822CDB",
+        "name_en": "Ngong Shuen Chau Barracks",
+        "name_tc": "昂船洲軍營",
+        "name_sc": "昂船洲军营",
+        "lat": "22.318818",
+        "long": "114.131223",
         "co": "KMB"
     },
     {
@@ -47467,7 +47467,7 @@
     },
     {
         "stop": "5EF17508ECE5D9BD",
-        "name_en": "Chai Wan Industrial Centre",
+        "name_en": "Chai Wan Industrial City",
         "name_tc": "柴灣工業城",
         "name_sc": "柴湾工业城",
         "lat": "22.267576",
@@ -55090,9 +55090,9 @@
     },
     {
         "stop": "04A05525A6AB819D",
-        "name_en": "Fanling Station BBI-Cheung Wah Estate(Platform A1)",
-        "name_tc": "粉嶺站轉車站-祥華邨 (A1月台)",
-        "name_sc": "粉岭站转车站-祥华邨 (A1月台)",
+        "name_en": "Fanling Station BBI-Cheung Wah Estate(A1)",
+        "name_tc": "粉嶺站轉車站-祥華邨 (A1)",
+        "name_sc": "粉岭站转车站-祥华邨 (A1)",
         "lat": "22.492360",
         "long": "114.140507",
         "co": "KMB"
