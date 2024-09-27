@@ -4821,6 +4821,64 @@
     },
     {
         "route": "17",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Kowloon Bay Station",
+        "orig_tc": "九龍灣站",
+        "orig_sc": "九龙湾站",
+        "dest_en": "Ho Man Tin (Oi Man Estate)",
+        "dest_tc": "何文田(愛民邨)",
+        "dest_sc": "何文田(爱民邨)",
+        "co": "KMB",
+        "stops": [
+            "EC757345195E6EAC",
+            "427A1FF65094D4D0",
+            "317BECDAF11EB461",
+            "4D9419874306D82F",
+            "C80FB453C9F53569",
+            "C5F7AF8D65B268E4",
+            "AE2A53D953B640BE",
+            "ACD50EDB57CC1618",
+            "8111C852B4D849ED",
+            "950668CA03FE879F",
+            "7CA14768A9D3B451",
+            "4FDF5E1EC677A66C",
+            "BC3B37FDEE7EE51B",
+            "5CE1C1296F98C6C4",
+            "28D4FD61902C9392",
+            "D93BC4178BA9232A"
+        ]
+    },
+    {
+        "route": "17",
+        "bound": "O",
+        "service_type": "3",
+        "orig_en": "Prince Edward Road East (Richland Gardens)",
+        "orig_tc": "太子道東(麗晶花園)",
+        "orig_sc": "太子道东(丽晶花园)",
+        "dest_en": "Ho Man Tin (Oi Man Estate)",
+        "dest_tc": "何文田(愛民邨)",
+        "dest_sc": "何文田(爱民邨)",
+        "co": "KMB",
+        "stops": [
+            "317BECDAF11EB461",
+            "4D9419874306D82F",
+            "C80FB453C9F53569",
+            "C5F7AF8D65B268E4",
+            "AE2A53D953B640BE",
+            "ACD50EDB57CC1618",
+            "8111C852B4D849ED",
+            "950668CA03FE879F",
+            "7CA14768A9D3B451",
+            "4FDF5E1EC677A66C",
+            "BC3B37FDEE7EE51B",
+            "5CE1C1296F98C6C4",
+            "28D4FD61902C9392",
+            "D93BC4178BA9232A"
+        ]
+    },
+    {
+        "route": "17",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Ho Man Tin (Oi Man Estate)",
@@ -11204,7 +11262,7 @@
             "40A0B70767CA3F13",
             "4BDF62F2A7C32429",
             "01642BC44DCFDB3C",
-            "BE510EB6544BA616"
+            "DD50060EDE7AC79A"
         ]
     },
     {
@@ -11219,7 +11277,7 @@
         "dest_sc": "元朗 形点",
         "co": "KMB",
         "stops": [
-            "BE510EB6544BA616",
+            "1947D8C8C82DF750",
             "003D1263A14908F6",
             "2E1348C8174BDE09",
             "5FB1FCAF80F3D97D",
