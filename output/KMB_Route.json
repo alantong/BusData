@@ -12837,6 +12837,7 @@
             "2FE9CA5CC344B5A3",
             "AEE5D5FDC38650DB",
             "B1E11C753EE8DC31",
+            "CD364F8B176DE0EC",
             "B3CCAA9D93647348",
             "2D7EF40DC9C35085",
             "D9D98D036444BE88",
@@ -12865,8 +12866,7 @@
             "45628FA7B8D7C5D2",
             "13E458C819D90940",
             "A6D60802BD8DDED0",
-            "46604706EE6CC765",
-            "7910B0EBDD33B71B"
+            "46604706EE6CC765"
         ]
     },
     {
@@ -12936,6 +12936,7 @@
             "A8E0D10D79497444",
             "5CB3827F92F37568",
             "56ECE6365B40EF35",
+            "F24053B64CEEE7D2",
             "475B0D727574F7B8",
             "77C4E5A2A47DD342",
             "042C0E83759B8B21",
@@ -12964,8 +12965,7 @@
             "0FD6C16477F1F0E8",
             "6A4B371546D489BF",
             "AC935792C88AF135",
-            "43E5D3A445382F82",
-            "C7ACD35D5D7C153B"
+            "43E5D3A445382F82"
         ]
     },
     {
@@ -13018,6 +13018,7 @@
         "stops": [
             "5CB3827F92F37568",
             "56ECE6365B40EF35",
+            "F24053B64CEEE7D2",
             "475B0D727574F7B8",
             "77C4E5A2A47DD342",
             "042C0E83759B8B21",
@@ -13032,8 +13033,7 @@
             "7CFA6F0EF3D764C7",
             "8447E71E45CE5452",
             "083D8BB713878707",
-            "6D76943277DC18FF",
-            "4EBE182141C52094"
+            "6D76943277DC18FF"
         ]
     },
     {
@@ -13709,7 +13709,7 @@
             "F5FA7ED5D5A6860D",
             "D05C7D74301D47C5",
             "41C9D989B8B874FF",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "D127A33746CCDB16",
             "8AF7B7AE967EA97D",
             "7E50BA0974C3B983",
@@ -13832,7 +13832,7 @@
             "FEE97828AB584E76",
             "5CE91F113D08B843",
             "AB0F79ED382081D0",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "D893FD9E88E2A98D",
             "81C7DC25FD107DD2",
@@ -14242,7 +14242,7 @@
             "7898B605E39613A8",
             "CB853E4BCBB13F30",
             "5DE9BD1D773946A0",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "10860B611840CF22",
             "D6C06E7091666AB4",
@@ -14274,7 +14274,7 @@
             "6A90A40248059768",
             "A6F5C93F89B0969B",
             "021872C0E263AC46",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "10860B611840CF22",
             "D6C06E7091666AB4",
@@ -14466,7 +14466,6 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -17397,7 +17396,6 @@
             "F7A51A70730660CB",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "B32FA6CD250F0F6B"
         ]
@@ -17841,7 +17839,6 @@
         "co": "KMB",
         "stops": [
             "945AC1C1E50B7EEA",
-            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -22351,9 +22348,9 @@
         "orig_en": "Clear Water Bay",
         "orig_tc": "清水灣",
         "orig_sc": "清水湾",
-        "dest_en": "Tseung Kwan O Tunnel BBI",
-        "dest_tc": "將軍澳隧道轉車站",
-        "dest_sc": "将军澳隧道转车站",
+        "dest_en": "Kwun Tong",
+        "dest_tc": "觀塘",
+        "dest_sc": "观塘",
         "co": "KMB",
         "stops": [
             "440AEE375A242B6D",
@@ -23624,30 +23621,6 @@
             "D8CEF4232A0B7E4D",
             "6AE5EC17DAE4E646",
             "883E42D32C6AD101",
-            "E0BAA3364D0CE860",
-            "CB341BEEABF66D6E",
-            "0306B53F46955E3E",
-            "3F9AE21DC3A540B9",
-            "5FD7848A339751B6"
-        ]
-    },
-    {
-        "route": "98B",
-        "bound": "O",
-        "service_type": "2",
-        "orig_en": "Hang Hau (North) (Tseung Kwan O Hospital)",
-        "orig_tc": "坑口(北)(將軍澳醫院)",
-        "orig_sc": "坑口(北)(将军澳医院)",
-        "dest_en": "Kwun Tong",
-        "dest_tc": "觀塘",
-        "dest_sc": "观塘",
-        "co": "KMB",
-        "stops": [
-            "92BC52AEBC658E49",
-            "9B0382206D441221",
-            "5BE08E5DCD826740",
-            "1D5530B0037C0143",
-            "6A01E709D806A5D6",
             "E0BAA3364D0CE860",
             "CB341BEEABF66D6E",
             "0306B53F46955E3E",
@@ -27561,7 +27534,6 @@
         "stops": [
             "C1FC4F003C9031B3",
             "F73020DB89A6E76F",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -30162,10 +30134,12 @@
             "2FE9CA5CC344B5A3",
             "AEE5D5FDC38650DB",
             "B1E11C753EE8DC31",
+            "CD364F8B176DE0EC",
             "B3CCAA9D93647348",
             "2D7EF40DC9C35085",
             "5CB3827F92F37568",
             "56ECE6365B40EF35",
+            "F24053B64CEEE7D2",
             "475B0D727574F7B8",
             "77C4E5A2A47DD342",
             "042C0E83759B8B21",
@@ -30181,9 +30155,7 @@
             "7CFA6F0EF3D764C7",
             "8447E71E45CE5452",
             "083D8BB713878707",
-            "6D76943277DC18FF",
-            "4EBE182141C52094",
-            "E909A45B1FB3213B"
+            "6D76943277DC18FF"
         ]
     },
     {
@@ -30301,7 +30273,7 @@
             "F6FDEAF741BFBD2E",
             "1345D70225C59BD3",
             "3210F3BCFFD74E61",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "D893FD9E88E2A98D",
             "40A0B70767CA3F13",
@@ -31754,7 +31726,6 @@
             "7AC6625D894BA101",
             "CBE54DB551C24A02",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -32026,7 +31997,7 @@
         "dest_sc": "屯门站",
         "co": "KMB",
         "stops": [
-            "45E245505155AFF3",
+            "23F5EB70746CFF94",
             "551DEE0C7120DECD",
             "916501787D3948F1",
             "4197D80D370042C2",
@@ -32280,6 +32251,54 @@
             "73FE2D32F218DA9C",
             "A264255E81F51111",
             "223DAE7E925E3BB9"
+        ]
+    },
+    {
+        "route": "265P",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tin Yan Estate",
+        "orig_tc": "天恩邨",
+        "orig_sc": "天恩邨",
+        "dest_en": "Tsuen Wan Station",
+        "dest_tc": "荃灣站",
+        "dest_sc": "荃湾站",
+        "co": "KMB",
+        "stops": [
+            "03FC9E0BC770B677",
+            "73FE2D32F218DA9C",
+            "A264255E81F51111",
+            "4C86E1F44AE9C25B",
+            "79C0E2525F4B50FF",
+            "3ECEF3B735084236",
+            "7E2E1F1269E520DE",
+            "D893FD9E88E2A98D",
+            "40A0B70767CA3F13",
+            "F8D8D0AED9889278"
+        ]
+    },
+    {
+        "route": "265P",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Chung On Street Tsuen Wan",
+        "orig_tc": "荃灣眾安街",
+        "orig_sc": "荃湾众安街",
+        "dest_en": "Tin Yan Estate",
+        "dest_tc": "天恩邨",
+        "dest_sc": "天恩邨",
+        "co": "KMB",
+        "stops": [
+            "87668BC629020844",
+            "645D996BAD54FBBC",
+            "A68A34F71D94FF13",
+            "643D73028E9E8490",
+            "E3B0A57678CFD140",
+            "71D916F7E97D18A3",
+            "42AEF6365E78DA56",
+            "8753A8442C2FFF53",
+            "8D56DB404D264D5A",
+            "03FC9E0BC770B677"
         ]
     },
     {
@@ -33059,7 +33078,7 @@
             "308112BE50081258",
             "D2425B7147B58E1D",
             "A4607B71730E8F46",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "ED364A58F885DC92",
             "D6C06E7091666AB4",
@@ -33462,7 +33481,7 @@
             "D2425B7147B58E1D",
             "A4607B71730E8F46",
             "021872C0E263AC46",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "7E2E1F1269E520DE",
             "ED364A58F885DC92",
             "D6C06E7091666AB4",
@@ -34227,7 +34246,6 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -35207,7 +35225,6 @@
         "co": "KMB",
         "stops": [
             "18785E68EAD3D9B8",
-            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
@@ -35249,7 +35266,6 @@
         "co": "KMB",
         "stops": [
             "18785E68EAD3D9B8",
-            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "08A46530B241544D",
@@ -35903,7 +35919,6 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -35928,7 +35943,6 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -35983,7 +35997,6 @@
             "021872C0E263AC46",
             "3106E04BB81D74A8",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "26A1D2969A15C3AF"
         ]
     },
@@ -36037,7 +36050,6 @@
             "4E2EC89B41600D7E",
             "73CDC61EBA1C9431",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -36761,7 +36773,7 @@
             "D78B86AB419E84B3",
             "F81DACC5F39E6D53",
             "53966A66C3108F4C",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "D127A33746CCDB16",
             "8AF7B7AE967EA97D",
             "7E50BA0974C3B983",
@@ -36886,7 +36898,7 @@
             "ADB9356BBF06F7C7",
             "8E3F5AE0A97053F9",
             "53966A66C3108F4C",
-            "189AC37A164008A6",
+            "3ECEF3B735084236",
             "D127A33746CCDB16",
             "8AF7B7AE967EA97D",
             "7E50BA0974C3B983",
@@ -38567,22 +38579,22 @@
             "364529AB163D8609",
             "9217F5E1950F12BF",
             "F1934936E2AB96E4",
-            "D8828243CCA293B4",
+            "3E8426FA1832BA50",
+            "7420DF52F1B42C9F",
             "D198122830A4FDE3",
             "99EF4CA10B3E1F17",
             "9FD865B00B2D54A1",
             "68B207DDC9A182AB",
             "41E95E283D770EF7",
-            "E8149C288DA7DF33",
-            "B75CD6E70417E21B",
-            "471442D7E30D26EB",
+            "F282012BBB2865E5",
+            "B550EC84B77440F8",
+            "20FDDA894D722F88",
+            "4E7C1C7F6D191BCB",
             "BED3E96AAC2B3B3D",
             "815BC43527FD9247",
+            "E51AC47DDDA21250",
             "B3F2EC8E42FA3184",
-            "2307DECBF51E9D7F",
-            "13B87ED5725EE00D",
-            "4A195F954ACD67C5",
-            "27EF80951F8ED49E"
+            "2307DECBF51E9D7F"
         ]
     },
     {
@@ -45546,7 +45558,6 @@
             "E55FA660A59AB64A",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -45619,7 +45630,6 @@
             "E55FA660A59AB64A",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "EBE1766B508217AF",
             "C4F843F93CDCBE64",
             "4235BA400EB10F0E",
@@ -48245,7 +48255,7 @@
     {
         "route": "A47X",
         "bound": "O",
-        "service_type": "2",
+        "service_type": "3",
         "orig_en": "Tai Po (Tai Wo)",
         "orig_tc": "大埔(太和)",
         "orig_sc": "大埔(太和)",
@@ -48286,41 +48296,6 @@
     },
     {
         "route": "A47X",
-        "bound": "O",
-        "service_type": "3",
-        "orig_en": "Tai Po (Tai Wo)",
-        "orig_tc": "大埔(太和)",
-        "orig_sc": "大埔(太和)",
-        "dest_en": "Airport (Ground Transportation Centre)",
-        "dest_tc": "機場(地面運輸中心)",
-        "dest_sc": "机场(地面运输中心)",
-        "co": "KMB",
-        "stops": [
-            "5B5C877D02DF4C31",
-            "442F0B8C94311306",
-            "7A47A23B960DD4FF",
-            "638851B5496C1765",
-            "8BF41341E058D6A6",
-            "17B30F17DCD149D3",
-            "DAB252A4BC687441",
-            "67CE6F9B4ACB8421",
-            "89240EC55B8818BC",
-            "259B42E9BB57199D",
-            "E39225003155E094",
-            "919C2FE90FDCAD6A",
-            "EE212E6FD5124813",
-            "673B33867260EBB7",
-            "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "9C9F817064169CE7",
-            "61C957321A4DE4A9",
-            "E48E4C46F64FFB0E",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
-        ]
-    },
-    {
-        "route": "A47X",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Airport (Ground Transportation Centre)",
@@ -48349,7 +48324,7 @@
     {
         "route": "A47X",
         "bound": "I",
-        "service_type": "2",
+        "service_type": "3",
         "orig_en": "Airport (Ground Transportation Centre)",
         "orig_tc": "機場(地面運輸中心)",
         "orig_sc": "机场(地面运输中心)",
@@ -48374,36 +48349,6 @@
             "42E95A3F058750C1",
             "1B1D9A9077A0827F",
             "08BEE6A022FBBE53",
-            "FC1FCC3EF8D5C544",
-            "9ACF8C3736E6ABA4",
-            "EB3F22350E8A93A7",
-            "9063A69A1F2B1410",
-            "437924EA663F3DF6",
-            "0962265A8720C38C",
-            "BE6BE96955254B48",
-            "F9AB54847EF884BB",
-            "5B5C877D02DF4C31"
-        ]
-    },
-    {
-        "route": "A47X",
-        "bound": "I",
-        "service_type": "3",
-        "orig_en": "Airport (Ground Transportation Centre)",
-        "orig_tc": "機場(地面運輸中心)",
-        "orig_sc": "机场(地面运输中心)",
-        "dest_en": "Tai Po (Tai Wo)",
-        "dest_tc": "大埔(太和)",
-        "dest_sc": "大埔(太和)",
-        "co": "KMB",
-        "stops": [
-            "86218AD69549D7B2",
-            "9C9F817064169CE7",
-            "61C957321A4DE4A9",
-            "E48E4C46F64FFB0E",
-            "09836E367F4BA3E2",
-            "558ED5EDA9A0C43C",
-            "897B26110ECE76B3",
             "FC1FCC3EF8D5C544",
             "9ACF8C3736E6ABA4",
             "EB3F22350E8A93A7",
@@ -49387,6 +49332,7 @@
             "A33E576A3F6DDCA9",
             "5CB3827F92F37568",
             "56ECE6365B40EF35",
+            "F24053B64CEEE7D2",
             "475B0D727574F7B8",
             "77C4E5A2A47DD342",
             "042C0E83759B8B21",
@@ -49420,8 +49366,7 @@
             "7211E63DE150A10E",
             "AAC64BCDD5B55A86",
             "A99B6BB7F1628A08",
-            "21466046C6868AA7",
-            "0F4828AE6FB7F2BD"
+            "21466046C6868AA7"
         ]
     },
     {
@@ -49470,9 +49415,9 @@
             "2FE9CA5CC344B5A3",
             "AEE5D5FDC38650DB",
             "B1E11C753EE8DC31",
+            "CD364F8B176DE0EC",
             "B3CCAA9D93647348",
-            "2D7EF40DC9C35085",
-            "A33E576A3F6DDCA9"
+            "2D7EF40DC9C35085"
         ]
     },
     {
@@ -51761,15 +51706,14 @@
         "route": "N273",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Choi Yuen",
-        "orig_tc": "彩園",
-        "orig_sc": "彩园",
+        "orig_en": "Sheung Shui (Tai Ping)",
+        "orig_tc": "上水(太平)",
+        "orig_sc": "上水(太平)",
         "dest_en": "Sheung Shui (Choi Yuen)",
         "dest_tc": "上水(彩園)",
         "dest_sc": "上水(彩园)",
         "co": "KMB",
         "stops": [
-            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
@@ -52745,7 +52689,6 @@
             "C3D2BF745570F4A5",
             "45924F2D86BEC3B4",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -53704,7 +53647,6 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -55299,7 +55241,6 @@
             "DD161A7AB0D39192",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
