@@ -12866,7 +12866,8 @@
             "45628FA7B8D7C5D2",
             "13E458C819D90940",
             "A6D60802BD8DDED0",
-            "46604706EE6CC765"
+            "46604706EE6CC765",
+            "7910B0EBDD33B71B"
         ]
     },
     {
@@ -12965,7 +12966,8 @@
             "0FD6C16477F1F0E8",
             "6A4B371546D489BF",
             "AC935792C88AF135",
-            "43E5D3A445382F82"
+            "43E5D3A445382F82",
+            "C7ACD35D5D7C153B"
         ]
     },
     {
@@ -13033,7 +13035,8 @@
             "7CFA6F0EF3D764C7",
             "8447E71E45CE5452",
             "083D8BB713878707",
-            "6D76943277DC18FF"
+            "6D76943277DC18FF",
+            "4EBE182141C52094"
         ]
     },
     {
@@ -14466,6 +14469,7 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -17396,6 +17400,7 @@
             "F7A51A70730660CB",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "B32FA6CD250F0F6B"
         ]
@@ -17839,6 +17844,7 @@
         "co": "KMB",
         "stops": [
             "945AC1C1E50B7EEA",
+            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -22371,7 +22377,13 @@
             "76AA75F4BF183FB3",
             "9B0382206D441221",
             "5BE08E5DCD826740",
-            "1D5530B0037C0143"
+            "1D5530B0037C0143",
+            "6A01E709D806A5D6",
+            "E0BAA3364D0CE860",
+            "CB341BEEABF66D6E",
+            "0306B53F46955E3E",
+            "3F9AE21DC3A540B9",
+            "5FD7848A339751B6"
         ]
     },
     {
@@ -27534,6 +27546,7 @@
         "stops": [
             "C1FC4F003C9031B3",
             "F73020DB89A6E76F",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -30155,7 +30168,9 @@
             "7CFA6F0EF3D764C7",
             "8447E71E45CE5452",
             "083D8BB713878707",
-            "6D76943277DC18FF"
+            "6D76943277DC18FF",
+            "4EBE182141C52094",
+            "E909A45B1FB3213B"
         ]
     },
     {
@@ -31726,6 +31741,7 @@
             "7AC6625D894BA101",
             "CBE54DB551C24A02",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -31953,9 +31969,9 @@
         "orig_en": "Tuen Mun Station",
         "orig_tc": "屯門站",
         "orig_sc": "屯门站",
-        "dest_en": "Tai Po Industrial Estate",
-        "dest_tc": "大埔工業邨",
-        "dest_sc": "大埔工业邨",
+        "dest_en": "Education University of Hong Kong",
+        "dest_tc": "香港教育大學",
+        "dest_sc": "香港教育大学",
         "co": "KMB",
         "stops": [
             "584E6744385F6463",
@@ -31982,16 +31998,19 @@
             "DAC33107054B9FED",
             "4705F639E370A9AD",
             "CAB927254C5D8892",
-            "45E245505155AFF3"
+            "45E245505155AFF3",
+            "BB33B8049C297ADD",
+            "5998A11C63EAB82E",
+            "23F5EB70746CFF94"
         ]
     },
     {
         "route": "263C",
         "bound": "I",
         "service_type": "1",
-        "orig_en": "Tai Po Industrial Estate",
-        "orig_tc": "大埔工業邨",
-        "orig_sc": "大埔工业邨",
+        "orig_en": "Education University of Hong Kong",
+        "orig_tc": "香港教育大學",
+        "orig_sc": "香港教育大学",
         "dest_en": "Tuen Mun Station",
         "dest_tc": "屯門站",
         "dest_sc": "屯门站",
@@ -32308,9 +32327,9 @@
         "orig_en": "Tin Shui Wai Town Centre",
         "orig_tc": "天水圍市中心",
         "orig_sc": "天水围市中心",
-        "dest_en": "Tai Po Industrial Estate",
-        "dest_tc": "大埔工業邨",
-        "dest_sc": "大埔工业邨",
+        "dest_en": "Education University of Hong Kong",
+        "dest_tc": "香港教育大學",
+        "dest_sc": "香港教育大学",
         "co": "KMB",
         "stops": [
             "0AE307AC4840B867",
@@ -32337,7 +32356,10 @@
             "7BCFD79F22F60457",
             "32C1F605CAAD7861",
             "CAB927254C5D8892",
-            "ADF5445FF5059D45"
+            "ADF5445FF5059D45",
+            "BB33B8049C297ADD",
+            "5998A11C63EAB82E",
+            "22B76E4C5793EFB9"
         ]
     },
     {
@@ -32347,9 +32369,9 @@
         "orig_en": "Tin Shui Wai Town Centre",
         "orig_tc": "天水圍市中心",
         "orig_sc": "天水围市中心",
-        "dest_en": "Tai Po Industrial Estate",
-        "dest_tc": "大埔工業邨",
-        "dest_sc": "大埔工业邨",
+        "dest_en": "Education University of Hong Kong",
+        "dest_tc": "香港教育大學",
+        "dest_sc": "香港教育大学",
         "co": "KMB",
         "stops": [
             "0AE307AC4840B867",
@@ -32383,7 +32405,10 @@
             "7BCFD79F22F60457",
             "32C1F605CAAD7861",
             "CAB927254C5D8892",
-            "ADF5445FF5059D45"
+            "ADF5445FF5059D45",
+            "BB33B8049C297ADD",
+            "5998A11C63EAB82E",
+            "22B76E4C5793EFB9"
         ]
     },
     {
@@ -34246,6 +34271,7 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -35225,6 +35251,7 @@
         "co": "KMB",
         "stops": [
             "18785E68EAD3D9B8",
+            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
@@ -35266,6 +35293,7 @@
         "co": "KMB",
         "stops": [
             "18785E68EAD3D9B8",
+            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "08A46530B241544D",
@@ -35919,6 +35947,7 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -35943,6 +35972,7 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -35997,6 +36027,7 @@
             "021872C0E263AC46",
             "3106E04BB81D74A8",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "26A1D2969A15C3AF"
         ]
     },
@@ -36050,6 +36081,7 @@
             "4E2EC89B41600D7E",
             "73CDC61EBA1C9431",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -38421,104 +38453,6 @@
         ]
     },
     {
-        "route": "290B",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tseung Kwan O Industrial Estate",
-        "orig_tc": "將軍澳工業邨",
-        "orig_sc": "将军澳工业邨",
-        "dest_en": "Tsuen Wan West Station",
-        "dest_tc": "荃灣西站",
-        "dest_sc": "荃湾西站",
-        "co": "KMB",
-        "stops": [
-            "27EF80951F8ED49E",
-            "155312688CBEC518",
-            "ECF82695F45C45F4",
-            "171EF748C9B50837",
-            "55014014633B8CD4",
-            "07142A6203E50A47",
-            "E92E009DE3307F85",
-            "F3209DBC2E7E5C1A",
-            "0A1D83D50B49933D",
-            "38A37564B3F3CACF",
-            "711927A9FAEF1158",
-            "C9EA7B56F1197D16",
-            "A1C5849926BE3289",
-            "9D208FE6B2CFD450",
-            "45852CCBB75F4A68",
-            "68799FD9ECBF50B1",
-            "4A84482F3A54E4CC",
-            "70A7D4C9EDA6D50A",
-            "EA2CFF27310EAEC3",
-            "58611212645F0AB1",
-            "29B66F2353388E18",
-            "58584BC1AC41723C",
-            "0EB21C27E769261B",
-            "29A62A8FE112766B",
-            "9751EE79B103C9B8",
-            "246ECB0F3B94855D",
-            "D17DA49D5EFC6DD4",
-            "ABA04608DBB7C351",
-            "40A8EA2850B0979B",
-            "B943DBEE65B0B18F",
-            "5AF593F7A11180E2",
-            "92A8281D80524F78",
-            "E8A145669A392955"
-        ]
-    },
-    {
-        "route": "290B",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tsuen Wan West Station",
-        "orig_tc": "荃灣西站",
-        "orig_sc": "荃湾西站",
-        "dest_en": "Tseung Kwan O Industrial Estate",
-        "dest_tc": "將軍澳工業邨",
-        "dest_sc": "将军澳工业邨",
-        "co": "KMB",
-        "stops": [
-            "E8A145669A392955",
-            "060A70079F196C7C",
-            "1F934873940D1F49",
-            "C9E264A3F9D4CEB3",
-            "558D298696B57A4D",
-            "364529AB163D8609",
-            "9217F5E1950F12BF",
-            "F1934936E2AB96E4",
-            "D8828243CCA293B4",
-            "D198122830A4FDE3",
-            "99EF4CA10B3E1F17",
-            "9FD865B00B2D54A1",
-            "64CE8117895E8FAD",
-            "29740CCBBD82FC33",
-            "466BC4C1908A1A06",
-            "2FFC93C766E566B5",
-            "F5A61D37E2DDA9D8",
-            "31079A9B244C679B",
-            "ABC15E2110BF7A49",
-            "932D83E09BF6ADE6",
-            "3366C1DC458401B3",
-            "4D30DF225016CBB0",
-            "12B9E30ED892A35A",
-            "D13C7436B13B4A4B",
-            "EC9467FAB4EC7203",
-            "4E279C21A109E9E3",
-            "F282012BBB2865E5",
-            "B550EC84B77440F8",
-            "20FDDA894D722F88",
-            "4E7C1C7F6D191BCB",
-            "BED3E96AAC2B3B3D",
-            "815BC43527FD9247",
-            "B3F2EC8E42FA3184",
-            "2307DECBF51E9D7F",
-            "13B87ED5725EE00D",
-            "4A195F954ACD67C5",
-            "27EF80951F8ED49E"
-        ]
-    },
-    {
         "route": "290E",
         "bound": "O",
         "service_type": "1",
@@ -38556,7 +38490,9 @@
             "ABA04608DBB7C351",
             "40A8EA2850B0979B",
             "B943DBEE65B0B18F",
-            "5AF593F7A11180E2"
+            "5AF593F7A11180E2",
+            "92A8281D80524F78",
+            "E8A145669A392955"
         ]
     },
     {
@@ -38594,7 +38530,10 @@
             "815BC43527FD9247",
             "E51AC47DDDA21250",
             "B3F2EC8E42FA3184",
-            "2307DECBF51E9D7F"
+            "2307DECBF51E9D7F",
+            "13B87ED5725EE00D",
+            "4A195F954ACD67C5",
+            "27EF80951F8ED49E"
         ]
     },
     {
@@ -45558,6 +45497,7 @@
             "E55FA660A59AB64A",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -45630,6 +45570,7 @@
             "E55FA660A59AB64A",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "EBE1766B508217AF",
             "C4F843F93CDCBE64",
             "4235BA400EB10F0E",
@@ -49366,7 +49307,8 @@
             "7211E63DE150A10E",
             "AAC64BCDD5B55A86",
             "A99B6BB7F1628A08",
-            "21466046C6868AA7"
+            "21466046C6868AA7",
+            "0F4828AE6FB7F2BD"
         ]
     },
     {
@@ -49417,7 +49359,8 @@
             "B1E11C753EE8DC31",
             "CD364F8B176DE0EC",
             "B3CCAA9D93647348",
-            "2D7EF40DC9C35085"
+            "2D7EF40DC9C35085",
+            "A33E576A3F6DDCA9"
         ]
     },
     {
@@ -51706,14 +51649,15 @@
         "route": "N273",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Sheung Shui (Tai Ping)",
-        "orig_tc": "上水(太平)",
-        "orig_sc": "上水(太平)",
+        "orig_en": "Choi Yuen",
+        "orig_tc": "彩園",
+        "orig_sc": "彩园",
         "dest_en": "Sheung Shui (Choi Yuen)",
         "dest_tc": "上水(彩園)",
         "dest_sc": "上水(彩园)",
         "co": "KMB",
         "stops": [
+            "F8C20FE9111D486A",
             "D97A36CE8D65B198",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
@@ -52689,6 +52633,7 @@
             "C3D2BF745570F4A5",
             "45924F2D86BEC3B4",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -53647,6 +53592,7 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -55241,6 +55187,7 @@
             "DD161A7AB0D39192",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
+            "F8C20FE9111D486A",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
