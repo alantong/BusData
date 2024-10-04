@@ -2061,6 +2061,91 @@
         ]
     },
     {
+        "route": "6E",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Cheung Sha Wan (So Uk Estate)",
+        "orig_tc": "長沙灣(蘇屋邨)",
+        "orig_sc": "长沙湾(苏屋邨)",
+        "dest_en": "Lei Yue Mun Estate",
+        "dest_tc": "鯉魚門邨",
+        "dest_sc": "鲤鱼门邨",
+        "co": "KMB",
+        "stops": [
+            "44AF4BBD0B0BB3A0",
+            "FC29C8A636233BB4",
+            "277172A410622365",
+            "173B80CC8B075A71",
+            "45AA6AF583A32F40",
+            "229C618DE131245A",
+            "90C3A9DB72F244DE",
+            "81631C6B0F2D1843",
+            "7476BFC6F6B5D869",
+            "F7FB52860229BBAB",
+            "6045969736940272",
+            "F851B0B122F38CCC",
+            "2FA93329F924968F",
+            "1E58DF8CAD59712E",
+            "12B08A64756B780B",
+            "E99D3F96A9F7B5EB",
+            "7210357910C44570",
+            "A1C65E46464147A0",
+            "100E6F60BAC1BDEB",
+            "BA03816A38B9DA7F",
+            "4BD5CE5106BB0697",
+            "6465DE9EE57F6C94",
+            "3E73B73B12E25DCF",
+            "0B8C52E4C34E3B64",
+            "144E9479168069DD",
+            "7459D3AB11AFD6B5",
+            "9C839C3824F47A6A",
+            "CB4BB0008A87E4FC",
+            "E4E008D61686FB33"
+        ]
+    },
+    {
+        "route": "6E",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Lei Yue Mun Estate",
+        "orig_tc": "鯉魚門邨",
+        "orig_sc": "鲤鱼门邨",
+        "dest_en": "Cheung Sha Wan (So Uk Estate)",
+        "dest_tc": "長沙灣(蘇屋邨)",
+        "dest_sc": "长沙湾(苏屋邨)",
+        "co": "KMB",
+        "stops": [
+            "E4E008D61686FB33",
+            "500EB63FD4A41F66",
+            "D024B008AB77435B",
+            "5309D748976029CB",
+            "3C6DAB7267F9E54F",
+            "73E85E88E124EF2C",
+            "2EF9764BE18FC290",
+            "F1A90CEE2B8C40CC",
+            "015AD27DAC83E698",
+            "BBDFF2D05E37EE61",
+            "52AE04E9C3E77BE1",
+            "8570495BD7C63C02",
+            "9C884013EBA1D548",
+            "ED5554C57CF0061C",
+            "4D9419874306D82F",
+            "CC6ED4BD466C1CB0",
+            "0A72152D4873A5C7",
+            "AE88B3CCA11ACCDC",
+            "8B2FD4BDD627C211",
+            "0EF525CD78152127",
+            "2F8A93ADDCEF6856",
+            "A86896A010757F50",
+            "CCAC1239A80FFE6B",
+            "317CDFC0C1DB2ADF",
+            "9508A6CF0AF1E1B2",
+            "63B3694BF40FBEC6",
+            "F54744E6F5CDBC1A",
+            "44AF4BBD0B0BB3A0"
+        ]
+    },
+    {
         "route": "6F",
         "bound": "O",
         "service_type": "1",
@@ -2973,7 +3058,8 @@
             "0AB2356DB4B15F19",
             "D8DBA3F5A1146887",
             "CEACD1DF9F00EF44",
-            "6E410E80F8C9915B"
+            "6E410E80F8C9915B",
+            "272546A2E2F4FCEF"
         ]
     },
     {
@@ -6553,7 +6639,6 @@
         "stops": [
             "B32791B3E5EF4287",
             "D4C5C8BD5FC05C2E",
-            "C7FC5050194509AE",
             "F5C42400BB24BA5B"
         ]
     },
@@ -28052,7 +28137,8 @@
             "6E410E80F8C9915B",
             "86C825C27CF54222",
             "13C8F0634E96FD3B",
-            "E722FC3E26BE38D1"
+            "E722FC3E26BE38D1",
+            "C25EB13977ABF04E"
         ]
     },
     {
@@ -28814,7 +28900,8 @@
             "653B1CE8590D4B52",
             "235F090F9AA1613B",
             "1A3478416DABC289",
-            "713BF17AF24FE4DA"
+            "713BF17AF24FE4DA",
+            "742F8953113CD926"
         ]
     },
     {
@@ -28945,7 +29032,8 @@
             "653B1CE8590D4B52",
             "235F090F9AA1613B",
             "1A3478416DABC289",
-            "713BF17AF24FE4DA"
+            "713BF17AF24FE4DA",
+            "742F8953113CD926"
         ]
     },
     {
@@ -48239,6 +48327,41 @@
     },
     {
         "route": "A47X",
+        "bound": "O",
+        "service_type": "4",
+        "orig_en": "Tai Po (Tai Wo)",
+        "orig_tc": "大埔(太和)",
+        "orig_sc": "大埔(太和)",
+        "dest_en": "Airport (Ground Transportation Centre)",
+        "dest_tc": "機場(地面運輸中心)",
+        "dest_sc": "机场(地面运输中心)",
+        "co": "KMB",
+        "stops": [
+            "5B5C877D02DF4C31",
+            "442F0B8C94311306",
+            "7A47A23B960DD4FF",
+            "638851B5496C1765",
+            "8BF41341E058D6A6",
+            "17B30F17DCD149D3",
+            "DAB252A4BC687441",
+            "67CE6F9B4ACB8421",
+            "89240EC55B8818BC",
+            "259B42E9BB57199D",
+            "E39225003155E094",
+            "919C2FE90FDCAD6A",
+            "EE212E6FD5124813",
+            "673B33867260EBB7",
+            "412DEEF534E127AF",
+            "C552CE565E1F0C85",
+            "9C9F817064169CE7",
+            "61C957321A4DE4A9",
+            "E48E4C46F64FFB0E",
+            "0D5759F7A4B185FE",
+            "21466046C6868AA7"
+        ]
+    },
+    {
+        "route": "A47X",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Airport (Ground Transportation Centre)",
@@ -48292,6 +48415,36 @@
             "42E95A3F058750C1",
             "1B1D9A9077A0827F",
             "08BEE6A022FBBE53",
+            "FC1FCC3EF8D5C544",
+            "9ACF8C3736E6ABA4",
+            "EB3F22350E8A93A7",
+            "9063A69A1F2B1410",
+            "437924EA663F3DF6",
+            "0962265A8720C38C",
+            "BE6BE96955254B48",
+            "F9AB54847EF884BB",
+            "5B5C877D02DF4C31"
+        ]
+    },
+    {
+        "route": "A47X",
+        "bound": "I",
+        "service_type": "4",
+        "orig_en": "Airport (Ground Transportation Centre)",
+        "orig_tc": "機場(地面運輸中心)",
+        "orig_sc": "机场(地面运输中心)",
+        "dest_en": "Tai Po (Tai Wo)",
+        "dest_tc": "大埔(太和)",
+        "dest_sc": "大埔(太和)",
+        "co": "KMB",
+        "stops": [
+            "86218AD69549D7B2",
+            "9C9F817064169CE7",
+            "61C957321A4DE4A9",
+            "E48E4C46F64FFB0E",
+            "09836E367F4BA3E2",
+            "558ED5EDA9A0C43C",
+            "897B26110ECE76B3",
             "FC1FCC3EF8D5C544",
             "9ACF8C3736E6ABA4",
             "EB3F22350E8A93A7",
