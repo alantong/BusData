@@ -2317,6 +2317,24 @@
         ]
     },
     {
+        "route": "6R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Mei Foo (Mei Lai Road)",
+        "orig_tc": "美孚(美荔道)",
+        "orig_sc": "美孚(美荔道)",
+        "dest_en": "Ngong Shuen Chau Barracks (Circular)",
+        "dest_tc": "昂船洲軍營(循環線)",
+        "dest_sc": "昂船洲军营(循环线)",
+        "co": "KMB",
+        "stops": [
+            "9AE6CD527594C632",
+            "9E76DA1634822CDB",
+            "70349D91EC82AFE1",
+            "E35B5F1B80E085E6"
+        ]
+    },
+    {
         "route": "6X",
         "bound": "O",
         "service_type": "1",
@@ -14556,7 +14574,7 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -17487,7 +17505,7 @@
             "F7A51A70730660CB",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "396DD38F2E41E117",
             "B32FA6CD250F0F6B"
         ]
@@ -27633,7 +27651,7 @@
         "stops": [
             "C1FC4F003C9031B3",
             "F73020DB89A6E76F",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -31831,7 +31849,7 @@
             "7AC6625D894BA101",
             "CBE54DB551C24A02",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -34361,7 +34379,7 @@
             "3106E04BB81D74A8",
             "8717C0140C940AE3",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -36037,7 +36055,7 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -36062,7 +36080,7 @@
             "4BE4E6D4F5A06A51",
             "C20316E552E64387",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "D97A36CE8D65B198",
             "5501654D47E432D4"
         ]
@@ -36117,7 +36135,7 @@
             "021872C0E263AC46",
             "3106E04BB81D74A8",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "26A1D2969A15C3AF"
         ]
     },
@@ -36171,7 +36189,7 @@
             "4E2EC89B41600D7E",
             "73CDC61EBA1C9431",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "CF94083CB24CF4E5",
             "4A76CDB32FA69BC6",
             "6F11F73C749338DB",
@@ -55342,7 +55360,7 @@
             "DD161A7AB0D39192",
             "E3B0A57678CFD140",
             "31005C82D70F6B09",
-            "F8C20FE9111D486A",
+            "3FAC6C2592812331",
             "396DD38F2E41E117",
             "98EBAB9468C80DD2",
             "6DD6B837EF1FA76C",
@@ -56141,6 +56159,45 @@
             "0CB1F7979192FBB2",
             "2C5CA5F47FB6EB3F",
             "B493CF03406C0B5E"
+        ]
+    },
+    {
+        "route": "X90",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Fire and Ambulance Services Academy",
+        "orig_tc": "消防及救護學院",
+        "orig_sc": "消防及救护学院",
+        "dest_en": "Hung Ngok House",
+        "dest_tc": "紅萼樓",
+        "dest_sc": "红萼楼",
+        "co": "KMB",
+        "stops": [
+            "CC2353289CD0EE66",
+            "E0BAA3364D0CE860",
+            "179C182ADEF1070D",
+            "D45CEDE6A9DFA30B",
+            "58584BC1AC41723C"
+        ]
+    },
+    {
+        "route": "X90",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Wong Tai Sin Station",
+        "orig_tc": "黃大仙站",
+        "orig_sc": "黄大仙站",
+        "dest_en": "Fire and Ambulance Services Academy",
+        "dest_tc": "消防及救護學院",
+        "dest_sc": "消防及救护学院",
+        "co": "KMB",
+        "stops": [
+            "5536C9E3A0CE1228",
+            "D0F8772D043C207E",
+            "C057639478BE0168",
+            "14CF94DF66FCD0C8",
+            "97D1981DE7ECBCE7",
+            "CC2353289CD0EE66"
         ]
     }
 ]
