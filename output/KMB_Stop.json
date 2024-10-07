@@ -25758,10 +25758,10 @@
         "co": "KMB"
     },
     {
-        "stop": "F8C20FE9111D486A",
-        "name_en": "Sheung Shui BBI - Sheung Shui Station(D2)",
-        "name_tc": "上水轉車站 - 上水站(D2)",
-        "name_sc": "上水转车站 - 上水站(D2)",
+        "stop": "3FAC6C2592812331",
+        "name_en": "Sheung Shui BBI - Sheung Shui Station(D1)",
+        "name_tc": "上水轉車站 - 上水站(D1)",
+        "name_sc": "上水转车站 - 上水站(D1)",
         "lat": "22.500883",
         "long": "114.127921",
         "co": "KMB"
@@ -30321,6 +30321,15 @@
         "co": "KMB"
     },
     {
+        "stop": "F8C20FE9111D486A",
+        "name_en": "Sheung Shui BBI - Sheung Shui Station(D2)",
+        "name_tc": "上水轉車站 - 上水站(D2)",
+        "name_sc": "上水转车站 - 上水站(D2)",
+        "lat": "22.500883",
+        "long": "114.127921",
+        "co": "KMB"
+    },
+    {
         "stop": "CF94083CB24CF4E5",
         "name_en": "Cheung Lung Wai Estate",
         "name_tc": "祥龍圍邨",
@@ -32292,6 +32301,24 @@
         "co": "KMB"
     },
     {
+        "stop": "4E7624E310A2FF44",
+        "name_en": "Ravana Garden",
+        "name_tc": "濱景花園總站",
+        "name_sc": "滨景花园总站",
+        "lat": "22.391809",
+        "long": "114.205969",
+        "co": "KMB"
+    },
+    {
+        "stop": "1BA4DE8405BB97BB",
+        "name_en": "Garden Vista",
+        "name_tc": "翠湖花園",
+        "name_sc": "翠湖花园",
+        "lat": "22.392993",
+        "long": "114.207021",
+        "co": "KMB"
+    },
+    {
         "stop": "667232A61C746899",
         "name_en": "Kwong Yuen Bus Terminus",
         "name_tc": "廣源巴士總站",
@@ -32319,60 +32346,6 @@
         "co": "KMB"
     },
     {
-        "stop": "7BE7C25016F9651E",
-        "name_en": "Diamond Hill Station Bus Terminus",
-        "name_tc": "鑽石山站巴士總站",
-        "name_sc": "钻石山站巴士总站",
-        "lat": "22.340847",
-        "long": "114.201383",
-        "co": "KMB"
-    },
-    {
-        "stop": "6FCDCBEC73F3AAF5",
-        "name_en": "Kwong Yuen Bus Terminus",
-        "name_tc": "廣源巴士總站",
-        "name_sc": "广源巴士总站",
-        "lat": "22.381293",
-        "long": "114.216326",
-        "co": "KMB"
-    },
-    {
-        "stop": "8F78659628BA6795",
-        "name_en": "Yu Chui Court",
-        "name_tc": "愉翠苑",
-        "name_sc": "愉翠苑",
-        "lat": "22.382106",
-        "long": "114.205674",
-        "co": "KMB"
-    },
-    {
-        "stop": "D55177A9D510B2E2",
-        "name_en": "Shatin Industrial Centre",
-        "name_tc": "沙田工業中心",
-        "name_sc": "沙田工业中心",
-        "lat": "22.384121",
-        "long": "114.205092",
-        "co": "KMB"
-    },
-    {
-        "stop": "4E7624E310A2FF44",
-        "name_en": "Ravana Garden",
-        "name_tc": "濱景花園總站",
-        "name_sc": "滨景花园总站",
-        "lat": "22.391809",
-        "long": "114.205969",
-        "co": "KMB"
-    },
-    {
-        "stop": "1BA4DE8405BB97BB",
-        "name_en": "Garden Vista",
-        "name_tc": "翠湖花園",
-        "name_sc": "翠湖花园",
-        "lat": "22.392993",
-        "long": "114.207021",
-        "co": "KMB"
-    },
-    {
         "stop": "10A25AF26C9972AC",
         "name_en": "Sze Mei Street, San Po Kong",
         "name_tc": "新蒲崗四美街",
@@ -32397,6 +32370,24 @@
         "name_sc": "凤德商场",
         "lat": "22.343267",
         "long": "114.199758",
+        "co": "KMB"
+    },
+    {
+        "stop": "7BE7C25016F9651E",
+        "name_en": "Diamond Hill Station Bus Terminus",
+        "name_tc": "鑽石山站巴士總站",
+        "name_sc": "钻石山站巴士总站",
+        "lat": "22.340847",
+        "long": "114.201383",
+        "co": "KMB"
+    },
+    {
+        "stop": "6FCDCBEC73F3AAF5",
+        "name_en": "Kwong Yuen Bus Terminus",
+        "name_tc": "廣源巴士總站",
+        "name_sc": "广源巴士总站",
+        "lat": "22.381293",
+        "long": "114.216326",
         "co": "KMB"
     },
     {
@@ -32433,6 +32424,24 @@
         "name_sc": "广榕楼",
         "lat": "22.381391",
         "long": "114.213811",
+        "co": "KMB"
+    },
+    {
+        "stop": "8F78659628BA6795",
+        "name_en": "Yu Chui Court",
+        "name_tc": "愉翠苑",
+        "name_sc": "愉翠苑",
+        "lat": "22.382106",
+        "long": "114.205674",
+        "co": "KMB"
+    },
+    {
+        "stop": "D55177A9D510B2E2",
+        "name_en": "Shatin Industrial Centre",
+        "name_tc": "沙田工業中心",
+        "name_sc": "沙田工业中心",
+        "lat": "22.384121",
+        "long": "114.205092",
         "co": "KMB"
     },
     {
