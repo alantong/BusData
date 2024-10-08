@@ -2269,9 +2269,9 @@
     },
     {
         "stop": "BBC5D60D2FB827D2",
-        "name_en": "Shui Tin House Pak Tin Estate",
-        "name_tc": "白田邨瑞田樓",
-        "name_sc": "白田邨瑞田楼",
+        "name_en": "Wong Tai Shan Memorial College",
+        "name_tc": "黃棣珊紀念中學",
+        "name_sc": "黄棣珊纪念中学",
         "lat": "22.334875",
         "long": "114.168291",
         "co": "KMB"
@@ -4987,9 +4987,9 @@
     },
     {
         "stop": "CCAC1239A80FFE6B",
-        "name_en": "Pei Ho Street",
-        "name_tc": "北河街",
-        "name_sc": "北河街",
+        "name_en": "Un Chau Street Pei Ho Street",
+        "name_tc": "元洲街北河街",
+        "name_sc": "元洲街北河街",
         "lat": "22.331449",
         "long": "114.164239",
         "co": "KMB"
@@ -5149,9 +5149,9 @@
     },
     {
         "stop": "3AE4D452A5105EFD",
-        "name_en": "Pei Ho Street",
-        "name_tc": "北河街",
-        "name_sc": "北河街",
+        "name_en": "Tai Po Road Pei Ho Street",
+        "name_tc": "大埔道北河街",
+        "name_sc": "大埔道北河街",
         "lat": "22.331958",
         "long": "114.164664",
         "co": "KMB"
@@ -31762,9 +31762,9 @@
     },
     {
         "stop": "2D1C6EC793734CBA",
-        "name_en": "Pei Ho Street",
-        "name_tc": "北河街",
-        "name_sc": "北河街",
+        "name_en": "Tai Po Road Pei Ho Street",
+        "name_tc": "大埔道北河街",
+        "name_sc": "大埔道北河街",
         "lat": "22.331789",
         "long": "114.164561",
         "co": "KMB"
@@ -39789,12 +39789,21 @@
         "co": "KMB"
     },
     {
-        "stop": "EB230097DC71925D",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288550",
-        "long": "114.150065",
+        "stop": "BC3B6E69D606932B",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
+        "lat": "22.288465",
+        "long": "114.150060",
+        "co": "KMB"
+    },
+    {
+        "stop": "7D54A8E5B99740BE",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
+        "lat": "22.288584",
+        "long": "114.150285",
         "co": "KMB"
     },
     {
@@ -40257,12 +40266,12 @@
         "co": "KMB"
     },
     {
-        "stop": "3D3122319983EAC4",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288491",
-        "long": "114.149844",
+        "stop": "633A3F4B4A5637C2",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
+        "lat": "22.288686",
+        "long": "114.149875",
         "co": "KMB"
     },
     {
@@ -40590,12 +40599,12 @@
         "co": "KMB"
     },
     {
-        "stop": "D22F547E19E900D7",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288528",
-        "long": "114.149851",
+        "stop": "A5E0FE9BA2C37E30",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
+        "lat": "22.288593",
+        "long": "114.150108",
         "co": "KMB"
     },
     {
@@ -41598,12 +41607,12 @@
         "co": "KMB"
     },
     {
-        "stop": "633A3F4B4A5637C2",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288686",
-        "long": "114.149875",
+        "stop": "59013D693D2493FE",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
+        "lat": "22.288344",
+        "long": "114.150464",
         "co": "KMB"
     },
     {
@@ -47719,9 +47728,9 @@
     },
     {
         "stop": "3E2E0FF05B36999C",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
+        "name_en": "Central (Macau Ferry)",
+        "name_tc": "中環(港澳碼頭)",
+        "name_sc": "中环(港澳码头)",
         "lat": "22.288579",
         "long": "114.150069",
         "co": "KMB"
@@ -47868,15 +47877,6 @@
         "name_sc": "大会堂",
         "lat": "22.281882",
         "long": "114.161646",
-        "co": "KMB"
-    },
-    {
-        "stop": "7D54A8E5B99740BE",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288614",
-        "long": "114.149861",
         "co": "KMB"
     },
     {
@@ -48255,15 +48255,6 @@
         "name_sc": "域多利皇后街",
         "lat": "22.284333",
         "long": "114.156723",
-        "co": "KMB"
-    },
-    {
-        "stop": "BC3B6E69D606932B",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288465",
-        "long": "114.150060",
         "co": "KMB"
     },
     {
@@ -58437,15 +58428,6 @@
         "co": "KMB"
     },
     {
-        "stop": "C0CC5119199A40E5",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288573",
-        "long": "114.149858",
-        "co": "KMB"
-    },
-    {
         "stop": "EA0726E907CC8172",
         "name_en": "Two International Finance Centre",
         "name_tc": "國際金融中心二期",
@@ -58524,15 +58506,6 @@
         "name_sc": "租庇利街",
         "lat": "22.285243",
         "long": "114.155976",
-        "co": "KMB"
-    },
-    {
-        "stop": "59013D693D2493FE",
-        "name_en": "Macau Ferry Bus Terminus",
-        "name_tc": "港澳碼頭巴士總站",
-        "name_sc": "港澳码头巴士总站",
-        "lat": "22.288510",
-        "long": "114.150060",
         "co": "KMB"
     },
     {
