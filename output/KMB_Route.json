@@ -6211,7 +6211,7 @@
             "F09516C266163337",
             "1C179AC6FE83C808",
             "FF1DC8F5F423EA42",
-            "83388B59A961635D"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -6700,7 +6700,7 @@
             "65784B3D2E189B56",
             "E5F3EF7B050DA88F",
             "E8B842CC3AB62056",
-            "6296109576D60CBB"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -6850,7 +6850,7 @@
             "65784B3D2E189B56",
             "E5F3EF7B050DA88F",
             "E8B842CC3AB62056",
-            "6296109576D60CBB"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -7273,7 +7273,7 @@
             "3A99869DB9D31D45",
             "1C179AC6FE83C808",
             "E8B842CC3AB62056",
-            "EDD3C420910A50CA"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -7298,7 +7298,7 @@
             "3A99869DB9D31D45",
             "1C179AC6FE83C808",
             "E8B842CC3AB62056",
-            "EDD3C420910A50CA"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -9210,7 +9210,7 @@
             "3A99869DB9D31D45",
             "1C179AC6FE83C808",
             "E8B842CC3AB62056",
-            "F775411CAE162A5A"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -9220,7 +9220,7 @@
         "orig_en": "Tsing Yi Market",
         "orig_tc": "青衣街市",
         "orig_sc": "青衣街市",
-        "dest_en": "Tsuen Wan West Station",
+        "dest_en": "Tsuen Wan West",
         "dest_tc": "荃灣西站",
         "dest_sc": "荃湾西站",
         "co": "KMB",
@@ -9240,8 +9240,7 @@
             "FFB21D12A61560FE",
             "3A99869DB9D31D45",
             "1C179AC6FE83C808",
-            "E8B842CC3AB62056",
-            "F775411CAE162A5A"
+            "E8B842CC3AB62056"
         ]
     },
     {
@@ -9367,7 +9366,7 @@
             "36858102881A0839",
             "5AF593F7A11180E2",
             "01642BC44DCFDB3C",
-            "56982DE125174FCD"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -21486,6 +21485,7 @@
         "co": "KMB",
         "stops": [
             "71B7CB659DF54E28",
+            "DE925628D8747F6D",
             "073C44CE5FF431BC",
             "45C2286729E1475B",
             "5A95921B376A97CB",
@@ -21504,8 +21504,7 @@
             "B6B1AB47AB07887F",
             "CCC5BAA6257BBDAA",
             "B9270C10E51D95F4",
-            "D507B4722D750F5A",
-            "588AC7E77A3E3DB6"
+            "D507B4722D750F5A"
         ]
     },
     {
@@ -29020,7 +29019,7 @@
             "40A0B70767CA3F13",
             "4BDF62F2A7C32429",
             "92A8281D80524F78",
-            "966267086A03D688"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -29116,7 +29115,7 @@
             "40A0B70767CA3F13",
             "4BDF62F2A7C32429",
             "92A8281D80524F78",
-            "966267086A03D688"
+            "716D84D1B7EA256E"
         ]
     },
     {
@@ -51700,6 +51699,7 @@
             "3313B37BF82AFF18",
             "F8F0E91589F099CD",
             "5747450359C7907C",
+            "D31420E8C08168FC",
             "3F24CFF9046300D9",
             "3A7AC3A5F9530786",
             "39E7051B17D302DA",
@@ -54695,6 +54695,67 @@
             "21DA1E33BF580B96",
             "AC935792C88AF135",
             "41D1C16D44F410F1"
+        ]
+    },
+    {
+        "route": "PB1",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yuen Long (Yoho Mall I)",
+        "orig_tc": "元朗(形點)",
+        "orig_sc": "元朗(形点)",
+        "dest_en": "Tsuen Wan(From Yuen Long) (Circular)",
+        "dest_tc": "荃灣  (由元朗出發 循環行走)",
+        "dest_sc": "荃湾  (由元朗出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "F493236404A4FABF",
+            "315813D4C69F73E8",
+            "CC43907C8D4CED33",
+            "321060BAE1447BEE",
+            "CC43907C8D4CED33",
+            "315813D4C69F73E8",
+            "F493236404A4FABF"
+        ]
+    },
+    {
+        "route": "PB2",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Ma Wan",
+        "orig_tc": "馬灣",
+        "orig_sc": "马湾",
+        "dest_en": "Central(From Ma Wan) (Circular)",
+        "dest_tc": "中環 (由馬灣出發 循環行走)",
+        "dest_sc": "中环 (由马湾出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "02FBFA6B14F230C6",
+            "321060BAE1447BEE",
+            "0524415976F284A4",
+            "90F0F685E42CC10D",
+            "0524415976F284A4",
+            "321060BAE1447BEE",
+            "02FBFA6B14F230C6"
+        ]
+    },
+    {
+        "route": "PB3",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tai Po Mega Mall (Tai Wo Road)",
+        "orig_tc": "大埔超級城(太和路)",
+        "orig_sc": "大埔超级城(太和路)",
+        "dest_en": "Tsuen Wan(From Tai Po) (Circular)",
+        "dest_tc": "荃灣 (由大埔出發 循環行走)",
+        "dest_sc": "荃湾 (由大埔出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "AFFD0E0C6077741D",
+            "B1882202E2B36620",
+            "321060BAE1447BEE",
+            "B1882202E2B36620",
+            "AFFD0E0C6077741D"
         ]
     },
     {
