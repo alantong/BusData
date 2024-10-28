@@ -32301,12 +32301,21 @@
         "co": "KMB"
     },
     {
-        "stop": "8D82ADED87CAB66C",
-        "name_en": "Yuen Chau Kok Bus Terminus",
-        "name_tc": "圓洲角總站",
-        "name_sc": "圆洲角总站",
-        "lat": "22.381092",
-        "long": "114.201691",
+        "stop": "4BFB5F2D496CDA56",
+        "name_en": "City One Station",
+        "name_tc": "第一城站",
+        "name_sc": "第一城站",
+        "lat": "22.382854",
+        "long": "114.203752",
+        "co": "KMB"
+    },
+    {
+        "stop": "2456F9606327EADB",
+        "name_en": "Yu Chui Court Bus Terminus",
+        "name_tc": "愉翠苑巴士總站",
+        "name_sc": "愉翠苑巴士总站",
+        "lat": "22.381835",
+        "long": "114.205512",
         "co": "KMB"
     },
     {
@@ -33243,15 +33252,6 @@
         "name_sc": "泽安邨",
         "lat": "22.340141",
         "long": "114.165083",
-        "co": "KMB"
-    },
-    {
-        "stop": "4BFB5F2D496CDA56",
-        "name_en": "City One Station",
-        "name_tc": "第一城站",
-        "name_sc": "第一城站",
-        "lat": "22.382854",
-        "long": "114.203752",
         "co": "KMB"
     },
     {
@@ -58212,6 +58212,15 @@
         "co": "KMB"
     },
     {
+        "stop": "BA85309F7551F553",
+        "name_en": "Metropole Building",
+        "name_tc": "新都城大廈",
+        "name_sc": "新都城大厦",
+        "lat": "22.290833",
+        "long": "114.199274",
+        "co": "KMB"
+    },
+    {
         "stop": "AD2AE1E443FB8908",
         "name_en": "Hang Seng Bank Head Office",
         "name_tc": "恒生銀行總行",
@@ -58536,15 +58545,6 @@
         "co": "KMB"
     },
     {
-        "stop": "BA85309F7551F553",
-        "name_en": "Metropole Building",
-        "name_tc": "新都城大廈",
-        "name_sc": "新都城大厦",
-        "lat": "22.290833",
-        "long": "114.199274",
-        "co": "KMB"
-    },
-    {
         "stop": "284DE8206A13DF9B",
         "name_en": "Hong Kong Central Library",
         "name_tc": "中央圖書館",
@@ -58835,8 +58835,8 @@
     {
         "stop": "0524415976F284A4",
         "name_en": "Austin Road West",
-        "name_tc": "柯士旬道西",
-        "name_sc": "柯士旬道西",
+        "name_tc": "柯士甸道西",
+        "name_sc": "柯士甸道西",
         "lat": "22.302618",
         "long": "114.159612",
         "co": "KMB"

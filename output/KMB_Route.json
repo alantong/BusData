@@ -19294,9 +19294,9 @@
         "orig_en": "Mei Tin",
         "orig_tc": "美田",
         "orig_sc": "美田",
-        "dest_en": "Yuen Chau Kok",
-        "dest_tc": "圓洲角",
-        "dest_sc": "圆洲角",
+        "dest_en": "Yu Chui Court",
+        "dest_tc": "愉翠苑",
+        "dest_sc": "愉翠苑",
         "co": "KMB",
         "stops": [
             "737E4D696E371271",
@@ -19318,21 +19318,24 @@
             "72936E1AD7A19462",
             "48AEC9FC61C77E03",
             "860026BE357B5462",
-            "8D82ADED87CAB66C"
+            "24E16716BBB7F2D0",
+            "4BFB5F2D496CDA56",
+            "2456F9606327EADB"
         ]
     },
     {
         "route": "82K",
         "bound": "I",
         "service_type": "1",
-        "orig_en": "Yuen Chau Kok",
-        "orig_tc": "圓洲角",
-        "orig_sc": "圆洲角",
+        "orig_en": "Yu Chui Court",
+        "orig_tc": "愉翠苑",
+        "orig_sc": "愉翠苑",
         "dest_en": "Mei Tin",
         "dest_tc": "美田",
         "dest_sc": "美田",
         "co": "KMB",
         "stops": [
+            "2456F9606327EADB",
             "4D99E0E24AF289E9",
             "0333C7A4008A8DE3",
             "20B9196322225611",
@@ -21541,7 +21544,8 @@
             "B6B1AB47AB07887F",
             "CCC5BAA6257BBDAA",
             "B9270C10E51D95F4",
-            "D507B4722D750F5A"
+            "D507B4722D750F5A",
+            "588AC7E77A3E3DB6"
         ]
     },
     {
@@ -52513,9 +52517,9 @@
         "route": "N307",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Tai Po Central",
-        "orig_tc": "大埔中心",
-        "orig_sc": "大埔中心",
+        "orig_en": "Tai Wo",
+        "orig_tc": "太和",
+        "orig_sc": "太和",
         "dest_en": "Sheung Wan",
         "dest_tc": "上環",
         "dest_sc": "上环",
@@ -52544,9 +52548,9 @@
         "orig_en": "Central (Macau Ferry)",
         "orig_tc": "中環(港澳碼頭)",
         "orig_sc": "中环(港澳码头)",
-        "dest_en": "Tai Po Central",
-        "dest_tc": "大埔中心",
-        "dest_sc": "大埔中心",
+        "dest_en": "Tai Wo",
+        "dest_tc": "太和",
+        "dest_sc": "太和",
         "co": "KMB",
         "stops": [
             "CE1BEC7176C47D52",
