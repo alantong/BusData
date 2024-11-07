@@ -2981,11 +2981,11 @@
         "routeId": 2004632,
         "routeSeq": 1,
         "orig_tc": "曉暉花園",
-        "dest_tc": "坪石公共運輸交匯處",
+        "dest_tc": "坪石公共運輸交匯處一樓",
         "orig_sc": "晓晖花园",
-        "dest_sc": "坪石公共运输交汇处",
+        "dest_sc": "坪石公共运输交汇处一楼",
         "orig_en": "Scenic View",
-        "dest_en": "Ping Shek Public Transport Interchange",
+        "dest_en": "Ping Shek Public Transport Interchange 1/F",
         "stops": [
             20012355,
             20000566,
@@ -2997,11 +2997,11 @@
         "route": "16B",
         "routeId": 2004632,
         "routeSeq": 2,
-        "orig_tc": "坪石公共運輸交匯處",
+        "orig_tc": "坪石公共運輸交匯處一樓",
         "dest_tc": "曉暉花園",
-        "orig_sc": "坪石公共运输交汇处",
+        "orig_sc": "坪石公共运输交汇处一楼",
         "dest_sc": "曉暉花園",
-        "orig_en": "Ping Shek Public Transport Interchange",
+        "orig_en": "Ping Shek Public Transport Interchange 1/F",
         "dest_en": "Scenic View",
         "stops": [
             20012360,
@@ -5520,6 +5520,7 @@
             20013830,
             20013831,
             20013837,
+            20020170,
             20013833,
             20013834,
             20013835,
@@ -21781,6 +21782,7 @@
         "dest_en": "Mong Kok (Luen Wan Street) (Circular)",
         "stops": [
             20000691,
+            20016267,
             20000694,
             20013231,
             20013199,
@@ -25094,16 +25096,16 @@
         "routeId": 2010038,
         "routeSeq": 1,
         "orig_tc": "彩興苑",
-        "dest_tc": "坪石一樓公共運輸交匯處",
+        "dest_tc": "坪石公共運輸交匯處一樓",
         "orig_sc": "彩兴苑",
-        "dest_sc": "坪石一楼公共运输交汇处",
+        "dest_sc": "坪石公共运输交汇处一楼",
         "orig_en": "Choi Hing Court",
-        "dest_en": "Pink Shek 1/F Public Transport Interchange",
+        "dest_en": "Ping Shek Public Transport Interchange 1/F",
         "stops": [
             20008525,
             20008526,
             20008527,
-            20019766
+            20012360
         ]
     },
     {
@@ -25209,7 +25211,7 @@
             20016978,
             20016966,
             20016979,
-            20006002
+            20012360
         ]
     },
     {
@@ -25224,7 +25226,7 @@
         "orig_en": "Ping Shek",
         "dest_en": "Choi Fook Estate",
         "stops": [
-            20006002,
+            20012360,
             20016968,
             20016980,
             20016981,
@@ -25267,7 +25269,7 @@
         "orig_en": "Ping Shek",
         "dest_en": "Ngau Tau Kok (On Wah Street)",
         "stops": [
-            20006002,
+            20012360,
             20016967,
             20016968,
             20016969,
