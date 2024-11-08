@@ -54854,6 +54854,27 @@
         ]
     },
     {
+        "route": "PB5",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Sha Tin Town Hall",
+        "orig_tc": "沙田大會堂",
+        "orig_sc": "沙田大会堂",
+        "dest_en": "Sai Kung (From Sha Tin) (Circular)",
+        "dest_tc": "西貢 (由沙田出發 循環行走)",
+        "dest_sc": "西贡 (由沙田出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "8C90768E30E981C6",
+            "3C6231BF9A77F8B4",
+            "8B9E121BB71771F4",
+            "FFB9E8929671D06E",
+            "8B9E121BB71771F4",
+            "3C6231BF9A77F8B4",
+            "8C90768E30E981C6"
+        ]
+    },
+    {
         "route": "R33",
         "bound": "O",
         "service_type": "1",
