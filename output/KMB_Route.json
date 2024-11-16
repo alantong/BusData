@@ -185,7 +185,7 @@
         "dest_sc": "长沙湾(苏屋邨)",
         "co": "KMB",
         "stops": [
-            "25BD7B50919AA221",
+            "5E2EC7476D55E0BA",
             "AB057A63C24E990E",
             "68106C827BF891AB",
             "20D0C9CBE2BC9451",
@@ -2406,7 +2406,7 @@
         "dest_sc": "乐富",
         "co": "KMB",
         "stops": [
-            "5E2EC7476D55E0BA",
+            "25BD7B50919AA221",
             "AB057A63C24E990E",
             "B0028A481BF4ACC7",
             "5419928D472EAD8D",
@@ -2462,7 +2462,7 @@
             "EAE9158BE729E917",
             "11A1269F9B78F269",
             "E507F6160447C129",
-            "5E2EC7476D55E0BA"
+            "25BD7B50919AA221"
         ]
     },
     {
@@ -2572,7 +2572,7 @@
         "dest_sc": "九龙站",
         "co": "KMB",
         "stops": [
-            "25BD7B50919AA221",
+            "5E2EC7476D55E0BA",
             "5D75A800F823B45D",
             "C175ACB534E8C15C",
             "F656A38D2A40F77D",
@@ -28902,16 +28902,19 @@
         "route": "224X",
         "bound": "O",
         "service_type": "3",
-        "orig_en": "Kai Tak (Kai Ching Estate)",
-        "orig_tc": "啟德(啟晴邨)",
-        "orig_sc": "启德(启晴邨)",
-        "dest_en": "Kai Yip",
-        "dest_tc": "啟業",
-        "dest_sc": "启业",
+        "orig_en": "Kai Tak Bus Terminus",
+        "orig_tc": "啟德巴士總站",
+        "orig_sc": "启德巴士总站",
+        "dest_en": "Tsim Sha Tsui East (Circular)",
+        "dest_tc": "尖沙咀東(循環線)",
+        "dest_sc": "尖沙咀东(循环线)",
         "co": "KMB",
         "stops": [
+            "A297D0A75996B49B",
+            "C44684E01A99DE4F",
             "D7D5103D53D4ED90",
-            "7995F69FE44D0DB3",
+            "42ED08E8B1829CED",
+            "0A4AB87891ABB16A",
             "F90ED764C7A95649",
             "558599642E78BB9B",
             "BEEBDDB542A7E709",
@@ -28924,11 +28927,11 @@
             "B0668BFF6178BA0B",
             "AA97FFC49AE957A5",
             "416B7606A9A5FEEB",
-            "D4707218581C0F72",
-            "B68FB7076BB07A22",
-            "553D370FA21F7DA4",
-            "72999453ECAC4693",
-            "64D3081966987039"
+            "C1C31D615DAA97F4",
+            "BC932662BA367CD0",
+            "E207DBF95EA7DE26",
+            "C71093B5185DF735",
+            "A297D0A75996B49B"
         ]
     },
     {
@@ -41933,7 +41936,7 @@
             "3C61E9226688CA79",
             "8507CD56EB29D1CF",
             "15FF958BE6921BAA",
-            "8D41766A525C128D",
+            "0CAB5EE71EF19B76",
             "1D6A8B8C58C268FF",
             "F86BDB236D6ACDC3",
             "664BAA2EA12B80B1",
