@@ -7944,6 +7944,53 @@
     },
     {
         "co": "GMB",
+        "route": "28A",
+        "routeId": 2010401,
+        "routeSeq": 1,
+        "orig_tc": "大埔墟站",
+        "dest_tc": "優景里",
+        "orig_sc": "大埔墟站",
+        "dest_sc": "优景里",
+        "orig_en": "Tai Po Market Station",
+        "dest_en": "Yau King Lane",
+        "stops": [
+            20001193,
+            20007228,
+            20003029,
+            20001200,
+            20020492,
+            20001222,
+            20001224,
+            20001225,
+            20003192,
+            20007576,
+            20020493
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "28A",
+        "routeId": 2010401,
+        "routeSeq": 2,
+        "orig_tc": "優景里",
+        "dest_tc": "大埔墟站",
+        "orig_sc": "优景里",
+        "dest_sc": "大埔墟站",
+        "orig_en": "Yau King Lane",
+        "dest_en": "Tai Po Market Station",
+        "stops": [
+            20020493,
+            20007577,
+            20003193,
+            20008783,
+            20008787,
+            20003030,
+            20003031,
+            20001193
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "28K",
         "routeId": 2010071,
         "routeSeq": 1,
