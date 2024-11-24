@@ -2283,5 +2283,27 @@
             "134",
             "152"
         ]
+    },
+    {
+        "co": "NLB",
+        "routeId": "111",
+        "route": "B6S",
+        "orig_tc": "滿東邨",
+        "dest_tc": "大橋香港口岸",
+        "orig_sc": "满东邨",
+        "dest_sc": "大桥香港口岸",
+        "orig_en": "Mun Tung Estate",
+        "dest_en": "HZMB Hong Kong Port",
+        "overnightRoute": 0,
+        "specialRoute": 1,
+        "stops": [
+            "309",
+            "103",
+            "306",
+            "77",
+            "316",
+            "308",
+            "313"
+        ]
     }
 ]

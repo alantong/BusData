@@ -1170,11 +1170,11 @@
         "routeId": 2007662,
         "routeSeq": 1,
         "orig_tc": "調景嶺站公共運輸交匯處",
-        "dest_tc": "九龍灣(啓祥道)",
+        "dest_tc": "九龍灣(宏照道)",
         "orig_sc": "调景岭站公共运输交汇处",
-        "dest_sc": "九龙湾(啓祥道)",
+        "dest_sc": "九龙湾(宏照道)",
         "orig_en": "Tiu Keng Leng Station Public Transport Interchange",
-        "dest_en": "Kowloon Bay (Kai Cheung Road)",
+        "dest_en": "Kowloon Bay (Wang Chiu Road)",
         "stops": [
             20015599,
             20003049,
@@ -1182,10 +1182,7 @@
             20015601,
             20015602,
             20015603,
-            20007017,
-            20015604,
-            20015605,
-            20015606
+            20007017
         ]
     },
     {
@@ -1193,15 +1190,14 @@
         "route": "110A",
         "routeId": 2007662,
         "routeSeq": 2,
-        "orig_tc": "九龍灣(啓祥道)",
+        "orig_tc": "九龍灣(宏照道)",
         "dest_tc": "調景嶺站公共運輸交匯處",
-        "orig_sc": "九龙湾(啓祥道)",
+        "orig_sc": "九龙湾(宏照道)",
         "dest_sc": "调景岭站公共运输交汇处",
-        "orig_en": "Kowloon Bay (Kai Cheung Road)",
+        "orig_en": "Kowloon Bay (Wang Chiu Road)",
         "dest_en": "Tiu Keng Leng Station Public Transport Interchange",
         "stops": [
-            20015288,
-            20015289,
+            20007017,
             20015621,
             20012820,
             20015622,
@@ -1209,7 +1205,7 @@
             20015623,
             20015624,
             20015625,
-            20015626,
+            20020458,
             20015627,
             20015599
         ]
