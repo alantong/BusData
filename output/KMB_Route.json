@@ -29154,6 +29154,33 @@
     },
     {
         "route": "234A",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Tsing Lung Tau Tsuen",
+        "orig_tc": "青龍頭村",
+        "orig_sc": "青龙头村",
+        "dest_en": "Tsuen Wan West Station",
+        "dest_tc": "荃灣西站",
+        "dest_sc": "荃湾西站",
+        "co": "KMB",
+        "stops": [
+            "2DFE2D85D53C1114",
+            "C4E03BB27317AF35",
+            "0C4F5FC61E73367C",
+            "4A68B87D533BA937",
+            "F4FF1AAF9A7EB07A",
+            "8AFF8B43EC3E547F",
+            "6B2A3162063E2B8D",
+            "ED9E5ACF98190E5C",
+            "9E970734315233A2",
+            "40A0B70767CA3F13",
+            "4BDF62F2A7C32429",
+            "92A8281D80524F78",
+            "716D84D1B7EA256E"
+        ]
+    },
+    {
+        "route": "234A",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Tsuen Wan West Station",
