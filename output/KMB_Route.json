@@ -37113,27 +37113,6 @@
         ]
     },
     {
-        "route": "279X",
-        "bound": "I",
-        "service_type": "2",
-        "orig_en": "Tsing Yi Station",
-        "orig_tc": "青衣站",
-        "orig_sc": "青衣站",
-        "dest_en": "Sheung Shui Station",
-        "dest_tc": "上水站",
-        "dest_sc": "上水站",
-        "co": "KMB",
-        "stops": [
-            "716E50EBD1CD72B4",
-            "AFC36FC71B4E124E",
-            "CA1C0FB0345F9675",
-            "A5E559178C9F5182",
-            "E55FA660A59AB64A",
-            "E3B0A57678CFD140",
-            "647CBF3FE0DF2FAE"
-        ]
-    },
-    {
         "route": "280X",
         "bound": "O",
         "service_type": "1",
@@ -39033,6 +39012,7 @@
         "stops": [
             "6571D5C2A2184B8D",
             "F8A31970F2A8E25C",
+            "2FE12E7B84CB20D4",
             "1BD82E4312536F0C",
             "1E88575F644EF7D4",
             "ADA4B4F4B604885B",
@@ -39058,8 +39038,7 @@
             "2A5B424322D35B0A",
             "ED8812E232F6958A",
             "9ACC26CD04287102",
-            "4E62491AA640A5EB",
-            "5527FF8CC85CF139"
+            "4E62491AA640A5EB"
         ]
     },
     {
@@ -55139,7 +55118,9 @@
             "8C90768E30E981C6",
             "321060BAE1447BEE",
             "8C90768E30E981C6",
-            "B1882202E2B36620"
+            "B1882202E2B36620",
+            "2B011CC82C51D518",
+            "AFFD0E0C6077741D"
         ]
     },
     {
