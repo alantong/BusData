@@ -19066,7 +19066,7 @@
     },
     {
         "co": "GMB",
-        "route": "618",
+        "route": "618A",
         "routeId": 2009906,
         "routeSeq": 1,
         "orig_tc": "天水圍(天恩邨)",
@@ -19079,6 +19079,27 @@
             20015445,
             20015446,
             20015453
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "618B",
+        "routeId": 2010434,
+        "routeSeq": 1,
+        "orig_tc": "天水圍(濕地公園路)",
+        "dest_tc": "深圳灣口岸",
+        "orig_sc": "天水围(湿地公园路)",
+        "dest_sc": "深圳湾口岸",
+        "orig_en": "Tin Shui Wai (Wetland Park Road)",
+        "dest_en": "Shenzhen Bay Port",
+        "stops": [
+            20015447,
+            20020623,
+            20015448,
+            20015449,
+            20015451,
+            20015452,
+            20020624
         ]
     },
     {
