@@ -3598,30 +3598,16 @@
         "route": "20R",
         "orig_tc": "啟德郵輪碼頭",
         "orig_en": "Kai Tak Cruise Terminal",
-        "dest_tc": "尖沙咀 / 高鐵西九龍站",
+        "dest_tc": "尖沙咀／高鐵西九龍站",
         "dest_en": "Tsim Sha Tsui / HSR West Kowloon Station",
         "orig_sc": "启德邮轮码头",
-        "dest_sc": "尖沙咀 / 高铁西九龙站",
+        "dest_sc": "尖沙咀／高铁西九龙站",
         "stops": [
             "003519",
-            "001588"
+            "002630",
+            "003549"
         ],
         "bound": "O"
-    },
-    {
-        "co": "CTB",
-        "route": "20R",
-        "orig_tc": "尖沙咀 / 高鐵西九龍站",
-        "orig_en": "Tsim Sha Tsui / HSR West Kowloon Station",
-        "dest_tc": "啟德郵輪碼頭",
-        "dest_en": "Kai Tak Cruise Terminal",
-        "orig_sc": "尖沙咀 / 高铁西九龙站",
-        "dest_sc": "启德邮轮码头",
-        "stops": [
-            "001588",
-            "003519"
-        ],
-        "bound": "I"
     },
     {
         "co": "CTB",
