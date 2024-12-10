@@ -3598,16 +3598,32 @@
         "route": "20R",
         "orig_tc": "啟德郵輪碼頭",
         "orig_en": "Kai Tak Cruise Terminal",
-        "dest_tc": "高鐵西九龍站 (經:尖沙咀)",
-        "dest_en": "High Speed Rail West Kowloon Station (via: Tsim Sha Tsui)",
+        "dest_tc": "尖沙咀／高鐵西九龍站",
+        "dest_en": "Tsim Sha Tsui / High Speed Rail West Kowloon Station",
         "orig_sc": "启德邮轮码头",
-        "dest_sc": "高铁西九龙站 (经:尖沙咀)",
+        "dest_sc": "尖沙咀／高铁西九龙站",
         "stops": [
             "003519",
             "002630",
-            "003549"
+            "003549",
+            "001588"
         ],
         "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "20R",
+        "orig_tc": "尖沙咀／高鐵西九龍站",
+        "orig_en": "Tsim Sha Tsui / High Speed Rail West Kowloon Station",
+        "dest_tc": "啟德郵輪碼頭",
+        "dest_en": "Kai Tak Cruise Terminal",
+        "orig_sc": "尖沙咀／高铁西九龙站",
+        "dest_sc": "启德邮轮码头",
+        "stops": [
+            "001588",
+            "003519"
+        ],
+        "bound": "I"
     },
     {
         "co": "CTB",
@@ -4725,10 +4741,10 @@
         "route": "307P",
         "orig_tc": "天后站",
         "orig_en": "Tin Hau Station",
-        "dest_tc": "大埔 (汀太路/ 富蝶)",
-        "dest_en": "Tai Po (Ting Tai Road/ Fu Tip)",
+        "dest_tc": "大埔 (汀太路／富蝶)",
+        "dest_en": "Tai Po (Ting Tai Road / Fu Tip)",
         "orig_sc": "天后站",
-        "dest_sc": "大埔 (汀太路/ 富蝶)",
+        "dest_sc": "大埔 (汀太路／富蝶)",
         "stops": [
             "001363",
             "001260",
@@ -4763,11 +4779,11 @@
     {
         "co": "CTB",
         "route": "307P",
-        "orig_tc": "大埔 (汀太路/ 富蝶)",
-        "orig_en": "Tai Po (Ting Tai Road/ Fu Tip)",
+        "orig_tc": "大埔 (汀太路／富蝶)",
+        "orig_en": "Tai Po (Ting Tai Road / Fu Tip)",
         "dest_tc": "天后站",
         "dest_en": "Tin Hau Station",
-        "orig_sc": "大埔 (汀太路/ 富蝶)",
+        "orig_sc": "大埔 (汀太路／富蝶)",
         "dest_sc": "天后站",
         "stops": [
             "003862",
