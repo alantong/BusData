@@ -14053,6 +14053,38 @@
         ]
     },
     {
+        "route": "68R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yoho Mall (Yuen Long)",
+        "orig_tc": "元朗 形點",
+        "orig_sc": "元朗 形点",
+        "dest_en": "Tai Tong",
+        "dest_tc": "大棠",
+        "dest_sc": "大棠",
+        "co": "KMB",
+        "stops": [
+            "65B07713A0DDFF22",
+            "DC81D1176824125F"
+        ]
+    },
+    {
+        "route": "68R",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Tai Tong",
+        "orig_tc": "大棠",
+        "orig_sc": "大棠",
+        "dest_en": "Yoho Mall (Yuen Long)",
+        "dest_tc": "元朗 形點",
+        "dest_sc": "元朗 形点",
+        "co": "KMB",
+        "stops": [
+            "DC81D1176824125F",
+            "65B07713A0DDFF22"
+        ]
+    },
+    {
         "route": "68X",
         "bound": "O",
         "service_type": "1",
@@ -30159,7 +30191,7 @@
         "orig_en": "Tsing Yi Station",
         "orig_tc": "青衣站",
         "orig_sc": "青衣站",
-        "dest_en": "Mayfair Garden (Circular)",
+        "dest_en": "Mayfair Gardens (Circular)",
         "dest_tc": "美景花園(循環線)",
         "dest_sc": "美景花园(循环线)",
         "co": "KMB",
@@ -51602,6 +51634,43 @@
             "F656A38D2A40F77D",
             "3D040EE809057C6E",
             "430B9D9C6AFF364D"
+        ]
+    },
+    {
+        "route": "N243",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tsing Yi Station",
+        "orig_tc": "青衣站",
+        "orig_sc": "青衣站",
+        "dest_en": "Cheung Ching (Circular)",
+        "dest_tc": "長青(循環線)",
+        "dest_sc": "长青(循环线)",
+        "co": "KMB",
+        "stops": [
+            "A7FCAD9C2AF7F468",
+            "AFC36FC71B4E124E",
+            "A2BE47AFF20CD4F6",
+            "CC6B75E6D60B4C57",
+            "79842A7E2FC0844F",
+            "4E870B220826BEE0",
+            "5AD2A4D21C226335",
+            "A454170B2B59B587",
+            "D6E7412666B1175B",
+            "AB87BD2749FFEACA",
+            "43398296F1D1BD48",
+            "65D1B50CC2E45985",
+            "67F3E54FF145BA65",
+            "F93448A5F1168FB1",
+            "DFB7FD5832A4BA4E",
+            "0F60AAE48C3B22EE",
+            "1A37A52F97A04C81",
+            "B085DDE8E381E370",
+            "59B81980AC8F7878",
+            "143D7489C808BD46",
+            "F4FC91D18962C4D0",
+            "624D05A1E7A5A045",
+            "A7FCAD9C2AF7F468"
         ]
     },
     {
