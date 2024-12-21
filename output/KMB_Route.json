@@ -17338,7 +17338,6 @@
         "co": "KMB",
         "stops": [
             "94A3E9298FD887C6",
-            "CDB292D507E4302D",
             "45AAE55CB6B5699F"
         ]
     },
@@ -17355,7 +17354,6 @@
         "co": "KMB",
         "stops": [
             "9AB9D810103D8382",
-            "12E4BAFA2B73435B",
             "46604706EE6CC765",
             "94A3E9298FD887C6"
         ]
@@ -47442,7 +47440,7 @@
             "93A608CBFD9D5128",
             "3250A722B6084CC8",
             "5CDF70DDB539B39B",
-            "020B06374E07A1B9",
+            "023F856BE4F830F2",
             "CEDD8C935E63648C",
             "C20316E552E64387",
             "B6C73B7C3607611B",
@@ -47476,7 +47474,7 @@
             "E48E4C46F64FFB0E",
             "3250A722B6084CC8",
             "5CDF70DDB539B39B",
-            "020B06374E07A1B9",
+            "023F856BE4F830F2",
             "CEDD8C935E63648C",
             "C20316E552E64387",
             "B6C73B7C3607611B",
@@ -54671,7 +54669,7 @@
             "CD077FC371E93248",
             "4CEB8ACF469C6AD5",
             "0C6879C89662708A",
-            "020B06374E07A1B9",
+            "023F856BE4F830F2",
             "CEDD8C935E63648C",
             "521ACE041201135C",
             "DAC9F4035C02B5B2",
@@ -55300,6 +55298,90 @@
             "E85A10E61A00CC09",
             "DE8AB4B54CD3D4F2",
             "06CC6423AA236B72"
+        ]
+    },
+    {
+        "route": "PN17",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Moko Mong Kok",
+        "orig_tc": "旺角MOKO",
+        "orig_sc": "旺角MOKO",
+        "dest_en": "Tsim Sha Tsui East",
+        "dest_tc": "尖東",
+        "dest_sc": "尖东",
+        "co": "KMB",
+        "stops": [
+            "D807FB5CE82945A2",
+            "2A346426D6FD612E",
+            "0524415976F284A4",
+            "85A65BCDD35803A8",
+            "0524415976F284A4",
+            "2A346426D6FD612E",
+            "D807FB5CE82945A2"
+        ]
+    },
+    {
+        "route": "PN18",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Carmel Road Stanley",
+        "orig_tc": "赤柱佳美道",
+        "orig_sc": "赤柱佳美道",
+        "dest_en": "Wan Chai",
+        "dest_tc": "灣仔",
+        "dest_sc": "湾仔",
+        "co": "KMB",
+        "stops": [
+            "827EF65321F2479D",
+            "B8F77BDDFE7BD6DF",
+            "23EC94A5FAA1E5A3",
+            "6F4C27D4E845432E",
+            "23EC94A5FAA1E5A3",
+            "B8F77BDDFE7BD6DF",
+            "827EF65321F2479D"
+        ]
+    },
+    {
+        "route": "PN19",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Sai Kung Mei Yu Street",
+        "orig_tc": "西貢美裕街",
+        "orig_sc": "西贡美裕街",
+        "dest_en": "Tsim Sha Tsui East",
+        "dest_tc": "尖東",
+        "dest_sc": "尖东",
+        "co": "KMB",
+        "stops": [
+            "FFB9E8929671D06E",
+            "E33098F43CF205B8",
+            "0524415976F284A4",
+            "85A65BCDD35803A8",
+            "0524415976F284A4",
+            "E33098F43CF205B8",
+            "FFB9E8929671D06E"
+        ]
+    },
+    {
+        "route": "PN20",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Kwai Chung Hing Fong Road",
+        "orig_tc": "葵涌興芳路",
+        "orig_sc": "葵涌兴芳路",
+        "dest_en": "Wan Chai Golden Bauhinia Square",
+        "dest_tc": "灣仔金紫荊廣場",
+        "dest_sc": "湾仔金紫荆广场",
+        "co": "KMB",
+        "stops": [
+            "EB3F46E0040B4960",
+            "9ADF943CA573C631",
+            "23EC94A5FAA1E5A3",
+            "6F4C27D4E845432E",
+            "23EC94A5FAA1E5A3",
+            "9ADF943CA573C631",
+            "EB3F46E0040B4960"
         ]
     },
     {
