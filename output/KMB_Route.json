@@ -22044,14 +22044,17 @@
         "route": "89S",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Yuen Chau Kok",
-        "orig_tc": "圓洲角",
-        "orig_sc": "圆洲角",
-        "dest_en": "Wu Kai Sha Station (Circular)",
-        "dest_tc": "烏溪沙站(循環線)",
-        "dest_sc": "乌溪沙站(循环线)",
+        "orig_en": "Shui Chuen O",
+        "orig_tc": "水泉澳",
+        "orig_sc": "水泉澳",
+        "dest_en": "Wu Kai Sha Station",
+        "dest_tc": "烏溪沙站",
+        "dest_sc": "乌溪沙站",
         "co": "KMB",
         "stops": [
+            "3229F37E6637B0ED",
+            "808CA5FECCC6646D",
+            "860026BE357B5462",
             "1C9A67AF93C79806",
             "779954C17EAF3B95",
             "F8BB84BC801E4C85",
@@ -22072,19 +22075,9 @@
             "4B5F39DBC6671C81",
             "4CC126E0B1E42F14",
             "A90443FD0C19C4B1",
-            "7D54FE486D057070",
-            "763D73BAB7E2A1AE",
-            "4A3D71FFAB41B756",
-            "A78292AA77A277A7",
-            "69E4C417312C10C0",
-            "C1E1199805BCC92D",
-            "A0496DDDC41213FA",
-            "260B43921BAFD8CB",
-            "BCEEE192EF01C361",
-            "3F01C915E856B018",
-            "6282A73360ACEBEA",
-            "8F78659628BA6795",
-            "1C9A67AF93C79806"
+            "1E471172708B5C5D",
+            "2479788748627B65",
+            "7D54FE486D057070"
         ]
     },
     {
@@ -22101,6 +22094,9 @@
         "stops": [
             "3229F37E6637B0ED",
             "808CA5FECCC6646D",
+            "860026BE357B5462",
+            "1C9A67AF93C79806",
+            "779954C17EAF3B95",
             "F8BB84BC801E4C85",
             "BC39BFC3C7BC3009",
             "2FABE52A66DF7482",
@@ -22116,10 +22112,47 @@
             "857F6F958A96DCDB",
             "180DC2E520E7A4D0",
             "1E04D9D97DE148C2",
-            "4B5F39DBC6671C81",
-            "4CC126E0B1E42F14",
-            "A90443FD0C19C4B1",
-            "7D54FE486D057070"
+            "4B5F39DBC6671C81"
+        ]
+    },
+    {
+        "route": "89S",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Wu Kai Sha Station",
+        "orig_tc": "烏溪沙站",
+        "orig_sc": "乌溪沙站",
+        "dest_en": "Shui Chuen O",
+        "dest_tc": "水泉澳",
+        "dest_sc": "水泉澳",
+        "co": "KMB",
+        "stops": [
+            "7D54FE486D057070",
+            "1E471172708B5C5D",
+            "2479788748627B65",
+            "8337F935242C5CC3",
+            "0D4E07F475845DB3",
+            "B071B60F5566934B",
+            "7333653B0F4B71BD",
+            "7E2611CD03F9450A",
+            "2F163186FB995E0B",
+            "7FD05121B0A4A750",
+            "664BAA2EA12B80B1",
+            "763D73BAB7E2A1AE",
+            "4A3D71FFAB41B756",
+            "A78292AA77A277A7",
+            "69E4C417312C10C0",
+            "C1E1199805BCC92D",
+            "A0496DDDC41213FA",
+            "260B43921BAFD8CB",
+            "BCEEE192EF01C361",
+            "3F01C915E856B018",
+            "6282A73360ACEBEA",
+            "8F78659628BA6795",
+            "24E16716BBB7F2D0",
+            "0333C7A4008A8DE3",
+            "ECB8FB3328B3E1F5",
+            "3229F37E6637B0ED"
         ]
     },
     {
@@ -55909,7 +55942,8 @@
             "FF47BD49B38911D4",
             "FAC118A395652466",
             "1A74AE460E7BEA16",
-            "FA265A8238AD5E8D"
+            "FA265A8238AD5E8D",
+            "90551F12E553D27E"
         ]
     },
     {
