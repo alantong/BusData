@@ -52155,6 +52155,23 @@
     },
     {
         "route": "N276",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Yoho Mall II",
+        "orig_tc": "形點2",
+        "orig_sc": "形点2",
+        "dest_en": "San Tin Public Transport Interchange",
+        "dest_tc": "新田運輸交匯處",
+        "dest_sc": "新田运输交汇处",
+        "co": "KMB",
+        "stops": [
+            "4E2EC89B41600D7E",
+            "73CDC61EBA1C9431",
+            "FFFB0F940CA7BEA7"
+        ]
+    },
+    {
+        "route": "N276",
         "bound": "I",
         "service_type": "1",
         "orig_en": "San Tin Public Transport Interchange",
@@ -55200,13 +55217,13 @@
         "stops": [
             "02FBFA6B14F230C6",
             "321060BAE1447BEE",
+            "DB50F4D9D2E8AB9B",
             "860671A5FA383DA3",
             "0524415976F284A4",
             "90F0F685E42CC10D",
             "0524415976F284A4",
             "860671A5FA383DA3",
-            "321060BAE1447BEE",
-            "02FBFA6B14F230C6"
+            "DB50F4D9D2E8AB9B"
         ]
     },
     {
