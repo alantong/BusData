@@ -1834,6 +1834,47 @@
         ]
     },
     {
+        "route": "5R",
+        "bound": "O",
+        "service_type": "4",
+        "orig_en": "Ngau Tau Kok Station",
+        "orig_tc": "牛頭角站",
+        "orig_sc": "牛头角站",
+        "dest_en": "Shing Fung Road",
+        "dest_tc": "承豐道",
+        "dest_sc": "承丰道",
+        "co": "KMB",
+        "stops": [
+            "C057639478BE0168",
+            "1E3A342DF7D5B8B5",
+            "83BB162ED5F1355F",
+            "D39533060940818A",
+            "14894C859FDFE8C3",
+            "36A5F6842C55126E",
+            "1094B993AA8409D0"
+        ]
+    },
+    {
+        "route": "5R",
+        "bound": "O",
+        "service_type": "5",
+        "orig_en": "Kai Tak (Sheng King Street)",
+        "orig_tc": "啟德(承景街)",
+        "orig_sc": "启德(承景街)",
+        "dest_en": "Kwun Tong (Apm)",
+        "dest_tc": "觀塘 (apm)",
+        "dest_sc": "观塘 (apm)",
+        "co": "KMB",
+        "stops": [
+            "AA28557D2EE2F8D0",
+            "F573BDBB62023031",
+            "600158E293C9354E",
+            "BA0B05CA62C32007",
+            "C057639478BE0168",
+            "1E3A342DF7D5B8B5"
+        ]
+    },
+    {
         "route": "6",
         "bound": "O",
         "service_type": "1",
