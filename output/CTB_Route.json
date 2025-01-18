@@ -2569,12 +2569,12 @@
     {
         "co": "CTB",
         "route": "15C",
-        "orig_tc": "中環 (天星碼頭)",
-        "orig_en": "Central (Star Ferry)",
-        "dest_tc": "花園道 (山頂纜車總站)",
-        "dest_en": "Garden Road (Lower Peak Tram Station)",
-        "orig_sc": "中环 (天星码头)",
-        "dest_sc": "花园道 (山顶缆车总站)",
+        "orig_tc": "中環 (香港摩天輪)",
+        "orig_en": "Central (Hong Kong Observation Wheel)",
+        "dest_tc": "花園道",
+        "dest_en": "Garden Road",
+        "orig_sc": "中环 (香港摩天轮)",
+        "dest_sc": "花园道",
         "stops": [
             "003339",
             "001031",
@@ -2585,12 +2585,12 @@
     {
         "co": "CTB",
         "route": "15C",
-        "orig_tc": "花園道 (山頂纜車總站)",
-        "orig_en": "Garden Road (Lower Peak Tram Station)",
-        "dest_tc": "中環 (天星碼頭)",
-        "dest_en": "Central (Star Ferry)",
-        "orig_sc": "花园道 (山顶缆车总站)",
-        "dest_sc": "中环 (天星码头)",
+        "orig_tc": "花園道",
+        "orig_en": "Garden Road",
+        "dest_tc": "中環 (香港摩天輪)",
+        "dest_en": "Central (Hong Kong Observation Wheel)",
+        "orig_sc": "花园道",
+        "dest_sc": "中环 (香港摩天轮)",
         "stops": [
             "002761",
             "001106",
@@ -25136,6 +25136,44 @@
             "003816",
             "001847",
             "001860"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "SP10",
+        "orig_tc": "啟德體育園",
+        "orig_en": "Kai Tak Sports Park",
+        "dest_tc": "中環 (港澳碼頭)",
+        "dest_en": "Central (Macau Ferry)",
+        "orig_sc": "启德体育园",
+        "dest_sc": "中环 (港澳码头)",
+        "stops": [
+            "003874",
+            "002566",
+            "002537",
+            "002445",
+            "002446",
+            "001141",
+            "001053",
+            "001056",
+            "001027"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "SP2",
+        "orig_tc": "啟德體育園",
+        "orig_en": "Kai Tak Sports Park",
+        "dest_tc": "旺角",
+        "dest_en": "Mong Kok",
+        "orig_sc": "启德体育园",
+        "dest_sc": "旺角",
+        "stops": [
+            "003874",
+            "003692",
+            "001559"
         ],
         "bound": "O"
     },
