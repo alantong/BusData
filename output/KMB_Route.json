@@ -17992,9 +17992,9 @@
             "53BB93AAB2D45F3B",
             "6C2DBC45160AA4BF",
             "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
             "91E946260F8BCBE8",
-            "9381998EA6DC33CA",
-            "91E946260F8BCBE8"
+            "9381998EA6DC33CA"
         ]
     },
     {
@@ -18019,9 +18019,9 @@
             "53BB93AAB2D45F3B",
             "6C2DBC45160AA4BF",
             "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
             "91E946260F8BCBE8",
-            "9381998EA6DC33CA",
-            "91E946260F8BCBE8"
+            "9381998EA6DC33CA"
         ]
     },
     {
@@ -18062,9 +18062,9 @@
             "53BB93AAB2D45F3B",
             "6C2DBC45160AA4BF",
             "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
             "91E946260F8BCBE8",
-            "9381998EA6DC33CA",
-            "91E946260F8BCBE8"
+            "9381998EA6DC33CA"
         ]
     },
     {
@@ -18147,9 +18147,9 @@
             "53BB93AAB2D45F3B",
             "6C2DBC45160AA4BF",
             "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
             "91E946260F8BCBE8",
-            "9381998EA6DC33CA",
-            "91E946260F8BCBE8"
+            "9381998EA6DC33CA"
         ]
     },
     {
@@ -53794,6 +53794,49 @@
         ]
     },
     {
+        "route": "N601",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Admiralty Station (East)",
+        "orig_tc": "金鐘站(東)",
+        "orig_sc": "金钟站(东)",
+        "dest_en": "Po Tat",
+        "dest_tc": "寶達",
+        "dest_sc": "宝达",
+        "co": "KMB",
+        "stops": [
+            "E30B8672A91A50B9",
+            "E74202351AF7F37D",
+            "9DA98A5E3914E2E3",
+            "92C62E07455F7C6C",
+            "1FFFFBAE28F48D03",
+            "CCBCD7F613287BC8",
+            "B4372FB3544677BB",
+            "913E96996F3B7E3A",
+            "328C9939240A94CA",
+            "58C47FBFFF12E65F",
+            "4AEB8A22E18AB111",
+            "AE4423E551C360BF",
+            "9DE043DB23CEDAA8",
+            "D678B3364437D16B",
+            "2EF9764BE18FC290",
+            "F1A90CEE2B8C40CC",
+            "CB341BEEABF66D6E",
+            "6530130BE25E909C",
+            "D3FEF85E4DAEEE4E",
+            "C3201264CC8E5C5D",
+            "C8830886D41FB5FA",
+            "D9ABBD996944C4D3",
+            "D17050E8964504BB",
+            "04DDF4F7F1C74876",
+            "BF08F9C08BB54A2B",
+            "5FF5FCFD1121F033",
+            "B809C24DC8C87767",
+            "3BA4DBB4520188DF",
+            "FA5C305D16B299A5"
+        ]
+    },
+    {
         "route": "N619",
         "bound": "O",
         "service_type": "1",
@@ -54312,6 +54355,7 @@
             "879A98CD29D9433F",
             "6C2DBC45160AA4BF",
             "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
             "886559B17A8D61EC",
             "9381998EA6DC33CA",
             "18FB32A8BE19CB57",
@@ -54334,8 +54378,7 @@
             "552DA8FCE732ABF0",
             "ADB789C140CFBE00",
             "37AEC610CEBCEA48",
-            "8EA1F6CDA69E539C",
-            "AC1FD9BDD09D1DD6"
+            "8EA1F6CDA69E539C"
         ]
     },
     {
@@ -56360,6 +56403,85 @@
         ]
     },
     {
+        "route": "SP10",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Kai Tak Sports Park Bus Terminus",
+        "orig_tc": "啟德體育園巴士總站",
+        "orig_sc": "启德体育园巴士总站",
+        "dest_en": "Central (Macau Ferry)",
+        "dest_tc": "中環(港澳碼頭)",
+        "dest_sc": "中环(港澳码头)",
+        "co": "KMB",
+        "stops": [
+            "A4260736CBC94F30",
+            "742D35CD1DEA10FD",
+            "8B5745F31A5778D7",
+            "D15281453EE5E0B4",
+            "A0424645102B1D9C",
+            "9D0E44D3210264C3",
+            "EC2573EE5FF42AAC",
+            "C0B3CCF700EDA89C",
+            "633A3F4B4A5637C2"
+        ]
+    },
+    {
+        "route": "SP3",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Kai Tak Sports Park Bus Terminus",
+        "orig_tc": "啟德體育園巴士總站",
+        "orig_sc": "启德体育园巴士总站",
+        "dest_en": "Ching Fu Court",
+        "dest_tc": "青富苑",
+        "dest_sc": "青富苑",
+        "co": "KMB",
+        "stops": [
+            "CF2AA9B99A043548",
+            "CF17F8C87DBBF2BC",
+            "246ECB0F3B94855D",
+            "D17DA49D5EFC6DD4",
+            "ABA04608DBB7C351",
+            "2658CCFAB79763B6",
+            "264B29FD223D9C4E",
+            "3E376000C84807D6",
+            "C84CAD6CCD18F87F",
+            "478ACE8A8C9A2705",
+            "A13C2C1D5D3EE0D7",
+            "AE7C79C814E6BD95",
+            "D5382A8A3773E6FE",
+            "FCBCC90E0ECE4F58",
+            "257A6E19DD7F156C",
+            "28A57C043C111604",
+            "F82CDE4D15A43CA3",
+            "DEDD6247441C8C05",
+            "B1D6CA16EE22225D",
+            "3B54D43994CAC165",
+            "D9655458715EBBF8",
+            "8374DD78C287D9A7",
+            "D5252DAD51812506",
+            "09DF70F8DE2426BE",
+            "5AF593F7A11180E2",
+            "3F545756160D7BEA",
+            "B2C63864D1C98F56",
+            "033CB7A21D6DC60C",
+            "36880B47F043D519",
+            "4E870B220826BEE0",
+            "5AD2A4D21C226335",
+            "A454170B2B59B587",
+            "D6E7412666B1175B",
+            "AB87BD2749FFEACA",
+            "43398296F1D1BD48",
+            "67F3E54FF145BA65",
+            "F93448A5F1168FB1",
+            "DFB7FD5832A4BA4E",
+            "0F60AAE48C3B22EE",
+            "0CFB814CB6C356C1",
+            "5B5107DB7CE969DE",
+            "333E9F98EEB84849"
+        ]
+    },
+    {
         "route": "SP5A",
         "bound": "O",
         "service_type": "1",
@@ -56776,6 +56898,25 @@
             "B3E70C6DEFD93416",
             "C50C67D1BFF70DDF",
             "1A0F813116024D92"
+        ]
+    },
+    {
+        "route": "WB1",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tuen Mun Station",
+        "orig_tc": "屯門站",
+        "orig_sc": "屯门站",
+        "dest_en": "Lam Tsuen Wishing Tree (From Tuen Mun) (Circular)",
+        "dest_tc": "林村許願樹 (由屯門出發 循環行走)",
+        "dest_sc": "林村许愿树 (由屯门出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "0678C85600B1A019",
+            "41EF38A42AC3C3D2",
+            "0EAA1DC8345202C3",
+            "41EF38A42AC3C3D2",
+            "0678C85600B1A019"
         ]
     },
     {
