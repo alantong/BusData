@@ -6942,7 +6942,8 @@
             "D77E7D97EC99B790",
             "F05A07492FBBAB3F",
             "669C12C26A3CFFB4",
-            "BBD78E81CC1B113E"
+            "BBD78E81CC1B113E",
+            "03A082D6B4C517D9"
         ]
     },
     {
@@ -16994,7 +16995,8 @@
             "D77E7D97EC99B790",
             "F05A07492FBBAB3F",
             "669C12C26A3CFFB4",
-            "BBD78E81CC1B113E"
+            "BBD78E81CC1B113E",
+            "03A082D6B4C517D9"
         ]
     },
     {
@@ -24529,7 +24531,8 @@
             "7BA7AF0DB4924B4E",
             "A8526F930120F94A",
             "D4D5DDEE7B735D83",
-            "23B5C67999C778E0"
+            "23B5C67999C778E0",
+            "378A8EA13D10FB05"
         ]
     },
     {
@@ -24600,7 +24603,8 @@
             "C7548A3C37ADC1AA",
             "7BA7AF0DB4924B4E",
             "DAFAF65DCEA183D8",
-            "0BCB4FE6B0F5AB3D"
+            "0BCB4FE6B0F5AB3D",
+            "B5EC1749CBFD03C7"
         ]
     },
     {
@@ -38444,7 +38448,8 @@
             "2D6EFC20FC4DE105",
             "7263D9DB43BD3332",
             "57A4742358B804D4",
-            "F2ADAE66B5249736"
+            "F2ADAE66B5249736",
+            "3205DE941791278B"
         ]
     },
     {
@@ -39572,18 +39577,18 @@
         "route": "298E",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Hang Hau Station",
-        "orig_tc": "坑口站",
-        "orig_sc": "坑口站",
+        "orig_en": "Hang Hau (North) (Tseung Kwan O Hospital)",
+        "orig_tc": "坑口(北)(將軍澳醫院)",
+        "orig_sc": "坑口(北)(将军澳医院)",
         "dest_en": "Tseung Kwan O Industrial Estate (Circular)",
         "dest_tc": "將軍澳工業邨(循環線)",
         "dest_sc": "将军澳工业邨(循环线)",
         "co": "KMB",
         "stops": [
-            "B00A32AD2E0DA209",
-            "87CD68EAD90352E9",
-            "F9853D9712072CCB",
+            "F5B19145922F18CC",
             "D32019CB6290C2EF",
+            "B00A32AD2E0DA209",
+            "54FCA9F5D8F3587E",
             "4E7C1C7F6D191BCB",
             "815BC43527FD9247",
             "B3F2EC8E42FA3184",
@@ -39601,25 +39606,27 @@
             "0A1D83D50B49933D",
             "38A37564B3F3CACF",
             "6C3F6AF77695CAE9",
-            "B00A32AD2E0DA209"
+            "7E5A9F7D64C12E4C",
+            "87CD68EAD90352E9",
+            "F5B19145922F18CC"
         ]
     },
     {
         "route": "298F",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Hang Hau Station",
-        "orig_tc": "坑口站",
-        "orig_sc": "坑口站",
+        "orig_en": "Hang Hau (North) (Tseung Kwan O Hospital)",
+        "orig_tc": "坑口(北)(將軍澳醫院)",
+        "orig_sc": "坑口(北)(将军澳医院)",
         "dest_en": "Tseung Kwan O Industrial Estate (Circular)",
         "dest_tc": "將軍澳工業邨(循環線)",
         "dest_sc": "将军澳工业邨(循环线)",
         "co": "KMB",
         "stops": [
-            "B00A32AD2E0DA209",
-            "87CD68EAD90352E9",
-            "F9853D9712072CCB",
+            "F5B19145922F18CC",
             "D32019CB6290C2EF",
+            "B00A32AD2E0DA209",
+            "54FCA9F5D8F3587E",
             "4E7C1C7F6D191BCB",
             "BED3E96AAC2B3B3D",
             "815BC43527FD9247",
@@ -39637,7 +39644,9 @@
             "0A1D83D50B49933D",
             "38A37564B3F3CACF",
             "6C3F6AF77695CAE9",
-            "B00A32AD2E0DA209"
+            "7E5A9F7D64C12E4C",
+            "87CD68EAD90352E9",
+            "F5B19145922F18CC"
         ]
     },
     {
@@ -39763,7 +39772,8 @@
             "888D5E0DD7261BB3",
             "C7548A3C37ADC1AA",
             "7BA7AF0DB4924B4E",
-            "DAFAF65DCEA183D8"
+            "DAFAF65DCEA183D8",
+            "7547D90C500629AF"
         ]
     },
     {
@@ -40254,9 +40264,9 @@
         "route": "373",
         "bound": "O",
         "service_type": "1",
-        "orig_en": "Sheung Shui",
-        "orig_tc": "上水",
-        "orig_sc": "上水",
+        "orig_en": "Fanling (Luen Wo Hui)",
+        "orig_tc": "粉嶺(聯和墟)",
+        "orig_sc": "粉岭(联和墟)",
         "dest_en": "Central (Hong Kong Station)",
         "dest_tc": "中環(香港站)",
         "dest_sc": "中环(香港站)",
@@ -40296,9 +40306,9 @@
         "orig_en": "Central (Hong Kong Station)",
         "orig_tc": "中環(香港站)",
         "orig_sc": "中环(香港站)",
-        "dest_en": "Sheung Shui",
-        "dest_tc": "上水",
-        "dest_sc": "上水",
+        "dest_en": "Fanling (Luen Wo Hui)",
+        "dest_tc": "粉嶺(聯和墟)",
+        "dest_sc": "粉岭(联和墟)",
         "co": "KMB",
         "stops": [
             "24450906E5F3A75F",
