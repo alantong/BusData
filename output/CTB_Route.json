@@ -24944,6 +24944,32 @@
     },
     {
         "co": "CTB",
+        "route": "R38",
+        "orig_tc": "置富花園",
+        "orig_en": "Chi Fu Fa Yuen",
+        "dest_tc": "銅鑼灣 (維多利亞公園)",
+        "dest_en": "Causeway Bay (Victoria Park)",
+        "orig_sc": "置富花园",
+        "dest_sc": "铜锣湾 (维多利亚公园)",
+        "stops": [
+            "002186",
+            "002190",
+            "002328",
+            "002339",
+            "002341",
+            "002342",
+            "002259",
+            "002363",
+            "002159",
+            "002343",
+            "002347",
+            "002474",
+            "001213"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
         "route": "R680",
         "orig_tc": "馬鞍山 (錦英苑)",
         "orig_en": "Ma On Shan (Kam Ying Court)",
