@@ -25337,6 +25337,36 @@
     },
     {
         "co": "CTB",
+        "route": "X581",
+        "orig_tc": "馬鞍山 (鞍駿街)",
+        "orig_en": "Ma On Shan (On Chun Street)",
+        "dest_tc": "西沙GO PARK",
+        "dest_en": "GO PARK Sai Sha",
+        "orig_sc": "马鞍山 (鞍骏街)",
+        "dest_sc": "西沙GO PARK",
+        "stops": [
+            "001944",
+            "003882"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "X581",
+        "orig_tc": "西沙GO PARK",
+        "orig_en": "GO PARK Sai Sha",
+        "dest_tc": "馬鞍山 (鞍駿街)",
+        "dest_en": "Ma On Shan (On Chun Street)",
+        "orig_sc": "西沙GO PARK",
+        "dest_sc": "马鞍山 (鞍骏街)",
+        "stops": [
+            "003882",
+            "001944"
+        ],
+        "bound": "I"
+    },
+    {
+        "co": "CTB",
         "route": "X797",
         "orig_tc": "調景嶺站",
         "orig_en": "Tiu Keng Leng Station",
