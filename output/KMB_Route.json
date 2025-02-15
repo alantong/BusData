@@ -12938,44 +12938,6 @@
         ]
     },
     {
-        "route": "63R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tai Po Market Station",
-        "orig_tc": "大埔墟站",
-        "orig_sc": "大埔墟站",
-        "dest_en": "Lam Tsuen Wishing Tree",
-        "dest_tc": "林村許願樹",
-        "dest_sc": "林村许愿树",
-        "co": "KMB",
-        "stops": [
-            "8581908CE476D2CF",
-            "0A8E2BA2F75E472E",
-            "CCC4773031BC0FD8",
-            "74A3A3037E047C81"
-        ]
-    },
-    {
-        "route": "63R",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Lam Tsuen Wishing Tree",
-        "orig_tc": "林村許願樹",
-        "orig_sc": "林村许愿树",
-        "dest_en": "Tai Po Market Station",
-        "dest_tc": "大埔墟站",
-        "dest_sc": "大埔墟站",
-        "co": "KMB",
-        "stops": [
-            "74A3A3037E047C81",
-            "BCC83D8C953DC504",
-            "399EF919E10C7F33",
-            "512C07C3D131AB5A",
-            "46604706EE6CC765",
-            "8581908CE476D2CF"
-        ]
-    },
-    {
         "route": "63X",
         "bound": "O",
         "service_type": "1",
@@ -34528,6 +34490,37 @@
         ]
     },
     {
+        "route": "270D",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Sham Shui Po (Yen Chow St)",
+        "orig_tc": "深水埗(欽州街)",
+        "orig_sc": "深水埗(钦州街)",
+        "dest_en": "Fanling (Luen Wo Hui)",
+        "dest_tc": "粉嶺(聯和墟)",
+        "dest_sc": "粉岭(联和墟)",
+        "co": "KMB",
+        "stops": [
+            "099E9950742D6414",
+            "1A85B99EDE6D01D8",
+            "04FC6E130D4953F4",
+            "EEBBD352B7F16E3F",
+            "01E580BD435E9301",
+            "B4F2BAAED2470D0A",
+            "3F21ED54F86D9B1D",
+            "2F202818B5A6F424",
+            "F8D7946AFDBA377E",
+            "D876A83244ECB838",
+            "9170FC8FFFD12204",
+            "D2C1DACCC74B69C5",
+            "EBE1766B508217AF",
+            "C4F843F93CDCBE64",
+            "4235BA400EB10F0E",
+            "879A98CD29D9433F",
+            "12DC09C113E1C873"
+        ]
+    },
+    {
         "route": "270P",
         "bound": "O",
         "service_type": "1",
@@ -50680,38 +50673,6 @@
         ]
     },
     {
-        "route": "LB2",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "San Tin Public Transport Interchange",
-        "orig_tc": "新田運輸交匯處",
-        "orig_sc": "新田运输交汇处",
-        "dest_en": "Sai Kung",
-        "dest_tc": "西貢",
-        "dest_sc": "西贡",
-        "co": "KMB",
-        "stops": [
-            "41EF38A42AC3C3D2",
-            "FFB9E8929671D06E"
-        ]
-    },
-    {
-        "route": "LB2",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Sai Kung",
-        "orig_tc": "西貢",
-        "orig_sc": "西贡",
-        "dest_en": "San Tin Public Transport Interchange",
-        "dest_tc": "新田運輸交匯處",
-        "dest_sc": "新田运输交汇处",
-        "co": "KMB",
-        "stops": [
-            "FFB9E8929671D06E",
-            "41EF38A42AC3C3D2"
-        ]
-    },
-    {
         "route": "N3D",
         "bound": "O",
         "service_type": "1",
@@ -55877,37 +55838,6 @@
         ]
     },
     {
-        "route": "R270",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Sheung Shui",
-        "orig_tc": "上水",
-        "orig_sc": "上水",
-        "dest_en": "Tsim Sha Tsui East (Mody Road)",
-        "dest_tc": "尖沙咀東(麼地道)",
-        "dest_sc": "尖沙咀东(么地道)",
-        "co": "KMB",
-        "stops": [
-            "C799751FDFCE292E",
-            "98EBAB9468C80DD2",
-            "6DD6B837EF1FA76C",
-            "AFD29CB1A4F71AB9",
-            "60952B4A38F3D82E",
-            "0E41E02CD9055626",
-            "EE81A30BE4BDC8AC",
-            "F129DD8D9E3268FB",
-            "D0FB28B8EED62431",
-            "FA52803E2628A212",
-            "2431FF3100478DEE",
-            "ED6FCB0422D541F5",
-            "850F72123F644500",
-            "98FCC750B322B706",
-            "66C6FDFC88F56E51",
-            "7CD8F96A087CDDF2",
-            "F3D86A2A72FF3582"
-        ]
-    },
-    {
         "route": "R33",
         "bound": "O",
         "service_type": "1",
@@ -56062,44 +55992,6 @@
             "65C8216FB0BC4FBC",
             "444BEB5BB189B3A0",
             "FE235D7DCABCA944"
-        ]
-    },
-    {
-        "route": "R673",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Sheung Shui (Ching Ho)",
-        "orig_tc": "上水(清河)",
-        "orig_sc": "上水(清河)",
-        "dest_en": "Causeway Bay (Victoria Park)",
-        "dest_tc": "銅鑼灣 (維多利亞公園)",
-        "dest_sc": "铜锣湾 (维多利亚公园)",
-        "co": "KMB",
-        "stops": [
-            "583E102838FA4D0A",
-            "6F11F73C749338DB",
-            "C799751FDFCE292E",
-            "D3E18D04B69DF388",
-            "C4F843F93CDCBE64",
-            "4235BA400EB10F0E",
-            "879A98CD29D9433F",
-            "A22E315AD21129EB",
-            "944EC71DD1731BE0",
-            "EF78DD9F765C6565",
-            "BFAE1E951D3B63EC",
-            "C67060F448591E4F",
-            "F7D40D08CB05EA87",
-            "923E5B79E1B48739",
-            "FA52803E2628A212",
-            "2431FF3100478DEE",
-            "ED6FCB0422D541F5",
-            "850F72123F644500",
-            "3821D64D2BF1BB66",
-            "66C6FDFC88F56E51",
-            "7CD8F96A087CDDF2",
-            "4D3CBBDB95447F2E",
-            "76B4054F2E1F00B0",
-            "17B98BD1165A7B92"
         ]
     },
     {
@@ -57167,25 +57059,6 @@
             "B3E70C6DEFD93416",
             "C50C67D1BFF70DDF",
             "1A0F813116024D92"
-        ]
-    },
-    {
-        "route": "WB1",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Station",
-        "orig_tc": "屯門站",
-        "orig_sc": "屯门站",
-        "dest_en": "Lam Tsuen Wishing Tree (From Tuen Mun) (Circular)",
-        "dest_tc": "林村許願樹 (由屯門出發 循環行走)",
-        "dest_sc": "林村许愿树 (由屯门出发 循环行走)",
-        "co": "KMB",
-        "stops": [
-            "0678C85600B1A019",
-            "41EF38A42AC3C3D2",
-            "0EAA1DC8345202C3",
-            "41EF38A42AC3C3D2",
-            "0678C85600B1A019"
         ]
     },
     {
