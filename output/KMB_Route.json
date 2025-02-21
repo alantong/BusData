@@ -10254,40 +10254,6 @@
         ]
     },
     {
-        "route": "46R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tai Wai Station",
-        "orig_tc": "大圍站",
-        "orig_sc": "大围站",
-        "dest_en": "Ngong Shuen Chau Barracks",
-        "dest_tc": "昂船洲軍營",
-        "dest_sc": "昂船洲军营",
-        "co": "KMB",
-        "stops": [
-            "14C3BF43DC0878D1",
-            "673B33867260EBB7",
-            "9E76DA1634822CDB"
-        ]
-    },
-    {
-        "route": "46R",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Ngong Shuen Chau Barracks",
-        "orig_tc": "昂船洲軍營",
-        "orig_sc": "昂船洲军营",
-        "dest_en": "Tai Wai Station",
-        "dest_tc": "大圍站",
-        "dest_sc": "大围站",
-        "co": "KMB",
-        "stops": [
-            "9E76DA1634822CDB",
-            "BF72FF473A660C0E",
-            "14C3BF43DC0878D1"
-        ]
-    },
-    {
         "route": "46S",
         "bound": "O",
         "service_type": "1",
@@ -11289,40 +11255,6 @@
         ]
     },
     {
-        "route": "52S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Road BBI",
-        "orig_tc": "屯門公路轉車站",
-        "orig_sc": "屯门公路转车站",
-        "dest_en": "Tsang Tsui",
-        "dest_tc": "曾咀",
-        "dest_sc": "曾咀",
-        "co": "KMB",
-        "stops": [
-            "D0937674DF369B23",
-            "09A5D5C90F15C08C",
-            "D6001B758148778A"
-        ]
-    },
-    {
-        "route": "52S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tsang Tsui",
-        "orig_tc": "曾咀",
-        "orig_sc": "曾咀",
-        "dest_en": "Tuen Mun Road BBI",
-        "dest_tc": "屯門轉車站",
-        "dest_sc": "屯门转车站",
-        "co": "KMB",
-        "stops": [
-            "D6001B758148778A",
-            "76441824D4E31948",
-            "212BFF5737D0116C"
-        ]
-    },
-    {
         "route": "52X",
         "bound": "O",
         "service_type": "1",
@@ -11679,42 +11611,6 @@
             "AC935792C88AF135",
             "43E5D3A445382F82",
             "FAB0AB2B6DCEE7F2"
-        ]
-    },
-    {
-        "route": "56S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Station",
-        "orig_tc": "屯門站",
-        "orig_sc": "屯门站",
-        "dest_en": "Tsang Tsui",
-        "dest_tc": "曾咀",
-        "dest_sc": "曾咀",
-        "co": "KMB",
-        "stops": [
-            "584E6744385F6463",
-            "C1BF4509359B0895",
-            "09A5D5C90F15C08C",
-            "F64076F7E14E38D4"
-        ]
-    },
-    {
-        "route": "56S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tsang Tsui",
-        "orig_tc": "曾咀",
-        "orig_sc": "曾咀",
-        "dest_en": "Tuen Mun Station",
-        "dest_tc": "屯門站",
-        "dest_sc": "屯门站",
-        "co": "KMB",
-        "stops": [
-            "F64076F7E14E38D4",
-            "76441824D4E31948",
-            "5D14B75687F60509",
-            "584E6744385F6463"
         ]
     },
     {
@@ -12192,44 +12088,6 @@
         ]
     },
     {
-        "route": "59R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Jordan (Wui Man Road)",
-        "orig_tc": "佐敦(匯民道)",
-        "orig_sc": "佐敦(汇民道)",
-        "dest_en": "Tuen Mun Pier Head",
-        "dest_tc": "屯門碼頭",
-        "dest_sc": "屯门码头",
-        "co": "KMB",
-        "stops": [
-            "715C1540F21003D5",
-            "DB516EC0B8DAF046",
-            "116624D40FDE852C",
-            "DA8B258D68133BDD",
-            "75DEBB78067301B8",
-            "D4CE0ED4DF009B66",
-            "B714B480F96C22D5",
-            "531B557CFBFFD232",
-            "F626C47C1F73E1AE",
-            "813A44129E51981F",
-            "8972CD96C0B11BB2",
-            "4AA82FE086BA80FD",
-            "3410D9B6EF36D674",
-            "9D88EE061FF5E1D0",
-            "2659CEA57836F600",
-            "4D777935A801201A",
-            "C0E4673A18CF6D06",
-            "AD25F24A6E6ACEE3",
-            "83A02749D0CB2EE8",
-            "3104B2FBA1EEE592",
-            "86D1BF834F627D5C",
-            "1D944152BA58ABF3",
-            "722B3DD3D7BCFA21",
-            "ED380ED65FFA508C"
-        ]
-    },
-    {
         "route": "59X",
         "bound": "O",
         "service_type": "1",
@@ -12402,38 +12260,6 @@
             "5D14B75687F60509",
             "79D68EE7C6CBAB9D",
             "A6A60ADA171EE7C8"
-        ]
-    },
-    {
-        "route": "60R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Central",
-        "orig_tc": "屯門巿中心",
-        "orig_sc": "屯门巿中心",
-        "dest_en": "Kmb Tuen Mun Depot",
-        "dest_tc": "九巴屯門廠",
-        "dest_sc": "九巴屯门厂",
-        "co": "KMB",
-        "stops": [
-            "8660BDF2C013FAC2",
-            "99B88A5EA74FBF7F"
-        ]
-    },
-    {
-        "route": "60R",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Kmb Tuen Mun Depot",
-        "orig_tc": "九巴屯門廠",
-        "orig_sc": "九巴屯门厂",
-        "dest_en": "Tuen Mun Central",
-        "dest_tc": "屯門巿中心",
-        "dest_sc": "屯门巿中心",
-        "co": "KMB",
-        "stops": [
-            "99B88A5EA74FBF7F",
-            "8660BDF2C013FAC2"
         ]
     },
     {
@@ -12704,43 +12530,6 @@
             "E346E933481C3D83",
             "130015EE1C05A484",
             "68DD31B1EF55AF1A"
-        ]
-    },
-    {
-        "route": "61S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Central",
-        "orig_tc": "屯門巿中心",
-        "orig_sc": "屯门巿中心",
-        "dest_en": "Wo Hop Shek",
-        "dest_tc": "和合石",
-        "dest_sc": "和合石",
-        "co": "KMB",
-        "stops": [
-            "8660BDF2C013FAC2",
-            "EC49B6F5634BC0C2",
-            "7AC6625D894BA101",
-            "CBE54DB551C24A02",
-            "AA5CBDB0758443A9"
-        ]
-    },
-    {
-        "route": "61S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Wo Hop Shek",
-        "orig_tc": "和合石",
-        "orig_sc": "和合石",
-        "dest_en": "Tuen Mun Central",
-        "dest_tc": "屯門巿中心",
-        "dest_sc": "屯门巿中心",
-        "co": "KMB",
-        "stops": [
-            "AA5CBDB0758443A9",
-            "6FB7BC1E5BC1E4EE",
-            "5238463F47B490D6",
-            "8660BDF2C013FAC2"
         ]
     },
     {
@@ -13672,46 +13461,6 @@
             "E01BD8E1BEC29EA6",
             "E16D49ECA536ECC6",
             "7B966B22D0464566"
-        ]
-    },
-    {
-        "route": "67R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Jordan (Wui Man Road)",
-        "orig_tc": "佐敦(匯民道)",
-        "orig_sc": "佐敦(汇民道)",
-        "dest_en": "Hung Shui Kiu (Hung Fuk Estate)",
-        "dest_tc": "洪水橋(洪福邨)",
-        "dest_sc": "洪水桥(洪福邨)",
-        "co": "KMB",
-        "stops": [
-            "715C1540F21003D5",
-            "DB516EC0B8DAF046",
-            "64312A5DFF11636C",
-            "CB2A65E69B2B71BE",
-            "59081A58EA5BC728",
-            "28C36BBE416103C2",
-            "BC301D7E7F063331",
-            "CBE54DB551C24A02",
-            "629D4E7DD9EF1AC6",
-            "B3B160F8F8017035",
-            "6AE148CA74FC4D53",
-            "C192BEF2264E0CC6",
-            "542CC0EC83BAEA01",
-            "840532B7C95DF870",
-            "315BE0CA231DCD4F",
-            "EDF4C2EAFDBD4693",
-            "12CF2025741EF844",
-            "580D52F4D93CAD9B",
-            "3199543D3AE70527",
-            "7FE552E3792C9047",
-            "5587F6CBEF8C74F1",
-            "468DB19F9ECA7507",
-            "030A0F57C577B5EA",
-            "F1A6B3410C090751",
-            "0BFC5F7FC4A2D431",
-            "55E3A1A6E995A9CB"
         ]
     },
     {
@@ -16020,39 +15769,6 @@
         ]
     },
     {
-        "route": "73S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Fanling Station",
-        "orig_tc": "粉嶺站",
-        "orig_sc": "粉岭站",
-        "dest_en": "Wo Hop Shek (Kiu Tau Road)",
-        "dest_tc": "和合石(橋頭路)",
-        "dest_sc": "和合石(桥头路)",
-        "co": "KMB",
-        "stops": [
-            "60952B4A38F3D82E",
-            "2BD35970A9125DB3"
-        ]
-    },
-    {
-        "route": "73S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Wo Hop Shek (Kiu Tau Road)",
-        "orig_tc": "和合石(橋頭路)",
-        "orig_sc": "和合石(桥头路)",
-        "dest_en": "Fanling Station",
-        "dest_tc": "粉嶺站",
-        "dest_sc": "粉岭站",
-        "co": "KMB",
-        "stops": [
-            "2BD35970A9125DB3",
-            "2EAB4A9D81722720",
-            "60952B4A38F3D82E"
-        ]
-    },
-    {
         "route": "73X",
         "bound": "O",
         "service_type": "1",
@@ -17624,38 +17340,6 @@
             "3FAC6C2592812331",
             "396DD38F2E41E117",
             "B32FA6CD250F0F6B"
-        ]
-    },
-    {
-        "route": "76S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Fanling Station",
-        "orig_tc": "粉嶺站",
-        "orig_sc": "粉岭站",
-        "dest_en": "Wo Hop Shek",
-        "dest_tc": "和合石",
-        "dest_sc": "和合石",
-        "co": "KMB",
-        "stops": [
-            "60952B4A38F3D82E",
-            "2EAB4A9D81722720"
-        ]
-    },
-    {
-        "route": "76S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Wo Hop Shek",
-        "orig_tc": "和合石",
-        "orig_sc": "和合石",
-        "dest_en": "Fanling Station",
-        "dest_tc": "粉嶺站",
-        "dest_sc": "粉岭站",
-        "co": "KMB",
-        "stops": [
-            "2EAB4A9D81722720",
-            "60952B4A38F3D82E"
         ]
     },
     {
@@ -44987,52 +44671,6 @@
         ]
     },
     {
-        "route": "960R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Hung Shui Kiu (Hung Yuen Road)",
-        "orig_tc": "洪水橋(洪元路)",
-        "orig_sc": "洪水桥(洪元路)",
-        "dest_en": "Causeway Bay (Victoria Park)",
-        "dest_tc": "銅鑼灣(維多利亞公園)",
-        "dest_sc": "铜锣湾(维多利亚公园)",
-        "co": "KMB",
-        "stops": [
-            "595CE3974AB6F377",
-            "55E3A1A6E995A9CB",
-            "AC1A0FA3D0743FCC",
-            "8FA8E142E834CB7C",
-            "92A09EC9B712A1ED",
-            "4885700825A72F51",
-            "A1541789F09C89BA",
-            "D073CC71A1B4F79C",
-            "B64EEA7F564C7853",
-            "46D1A9FD1F84CA5C",
-            "E01BD8E1BEC29EA6",
-            "E16D49ECA536ECC6",
-            "F224A907BD68406A",
-            "4F36FEF121788834",
-            "ECE3F3BE270C27E2",
-            "594A765BE3A43C73",
-            "507D90B4B976DBD6",
-            "1F6BFDF34BABCE6A",
-            "19B569A51034271F",
-            "1AD9C759A42F9003",
-            "EB64718829DFC071",
-            "92A8D40E66E76F6B",
-            "DD56DC2336C878C1",
-            "5238463F47B490D6",
-            "C1BF4509359B0895",
-            "C425164651C7EF52",
-            "ABDD74161F650B6E",
-            "123A364D76B2CE5D",
-            "ACB5FEA2BF9FC5AD",
-            "06C9926B2E2B304F",
-            "76B4054F2E1F00B0",
-            "17B98BD1165A7B92"
-        ]
-    },
-    {
         "route": "960S",
         "bound": "O",
         "service_type": "1",
@@ -46933,7 +46571,7 @@
             "A8B141D2ED68F7E1",
             "5A781879E83B56A6",
             "6B3EF5D982B399E6",
-            "93528CF771996D7D",
+            "CDE9BBBDE0226995",
             "CBCE32D56C5263A9"
         ]
     },
@@ -46964,7 +46602,7 @@
             "A8B141D2ED68F7E1",
             "5A781879E83B56A6",
             "6B3EF5D982B399E6",
-            "93528CF771996D7D",
+            "CDE9BBBDE0226995",
             "CBCE32D56C5263A9"
         ]
     },
@@ -46995,7 +46633,7 @@
             "A8B141D2ED68F7E1",
             "5A781879E83B56A6",
             "6B3EF5D982B399E6",
-            "93528CF771996D7D",
+            "CDE9BBBDE0226995",
             "CBCE32D56C5263A9"
         ]
     },
@@ -50580,9 +50218,9 @@
             "BD7F4A65B230DDB2",
             "CCED20D6135C0347",
             "EBE1766B508217AF",
-            "A57300FE17F39989",
-            "B22D7C482250DF80",
-            "11637A93A82A3C20",
+            "C4F843F93CDCBE64",
+            "4235BA400EB10F0E",
+            "EDFAC4F35C0E51C7",
             "13568DBEFE3503A6",
             "87F9F165B63331A5",
             "540B42AF095A342C",
@@ -54631,7 +54269,7 @@
             "3C6FA714F5D6EE83",
             "2D1C73EF002336DC",
             "66C1F17901E91CD9",
-            "93528CF771996D7D",
+            "CDE9BBBDE0226995",
             "CBCE32D56C5263A9"
         ]
     },
@@ -55590,99 +55228,6 @@
         ]
     },
     {
-        "route": "R260",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Pier Head",
-        "orig_tc": "屯門碼頭",
-        "orig_sc": "屯门码头",
-        "dest_en": "Tsim Sha Tsui East (Mody Road)",
-        "dest_tc": "尖沙咀東(麼地道)",
-        "dest_sc": "尖沙咀东(么地道)",
-        "co": "KMB",
-        "stops": [
-            "4DA3813D3CE3A5DF",
-            "015AD88813C61900",
-            "B88E6F52E2BC2E34",
-            "3FAE59A79C8BCC93",
-            "A1D3216AF158C117",
-            "D010FF7CF77383B7",
-            "F4D9335688592803",
-            "C192BEF2264E0CC6",
-            "542CC0EC83BAEA01",
-            "840532B7C95DF870",
-            "2F5F973821A594A9",
-            "EDF4C2EAFDBD4693",
-            "12CF2025741EF844",
-            "580D52F4D93CAD9B",
-            "3199543D3AE70527",
-            "BDD49A91FF705B42",
-            "8C32D9DDB85891A6",
-            "5238463F47B490D6",
-            "C1BF4509359B0895",
-            "2D3D025684145373",
-            "07B714029E91FD81",
-            "913F2DF20E573CEA",
-            "CA6AB8446B694566",
-            "F2508598F5A43655",
-            "1E5EADCD9F424F07"
-        ]
-    },
-    {
-        "route": "R261",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun (Sam Shing Estate)",
-        "orig_tc": "屯門(三聖邨)",
-        "orig_sc": "屯门(三圣邨)",
-        "dest_en": "Tsim Sha Tsui East (Mody Road)",
-        "dest_tc": "尖沙咀東(麼地道)",
-        "dest_sc": "尖沙咀东(么地道)",
-        "co": "KMB",
-        "stops": [
-            "A3658E938F378588",
-            "C90375A74B02D2E8",
-            "EEC48EC880FC63CB",
-            "242418A9AB386596",
-            "A9D85812EAEE6C17",
-            "971554761E4413EF",
-            "7FB2AE7FA13EDB0F",
-            "E346E933481C3D83",
-            "130015EE1C05A484",
-            "0F9DE5E3F13FBABA",
-            "FCE8D0E0D2A89B8B",
-            "D77779E531F14725",
-            "4F64DA53415F3128",
-            "BF7FD3BC4994EBE5",
-            "9DC117C78DBDB1A7",
-            "BD52FF1BA0AC99BE",
-            "1F2376A52800A2CA",
-            "0B72FFAB7F7230E4",
-            "E3E5521CAFDD5DCE",
-            "D3CA3780D3E342FC",
-            "6FBEA411A4940B6C",
-            "1064E673770C38BC",
-            "2DFE2D85D53C1114",
-            "C4E03BB27317AF35",
-            "30DD3451F8D64883",
-            "8AFF8B43EC3E547F",
-            "6B2A3162063E2B8D",
-            "ED9E5ACF98190E5C",
-            "D7D5410F2F97D682",
-            "DA87D4887F5FAF62",
-            "81F1ECC7278CDC18",
-            "2D36E1CF8C4FF699",
-            "8316A5C8798768AF",
-            "96D0ED04D761DBE4",
-            "B069D9C12F89AAFA",
-            "E5763322877BB340",
-            "48769F0B9F6E6C1B",
-            "93F4EA3D82B33BEF",
-            "3DD784D9B2C30AFC",
-            "1E5EADCD9F424F07"
-        ]
-    },
-    {
         "route": "R33",
         "bound": "O",
         "service_type": "1",
@@ -55837,24 +55382,6 @@
             "65C8216FB0BC4FBC",
             "444BEB5BB189B3A0",
             "FE235D7DCABCA944"
-        ]
-    },
-    {
-        "route": "R78",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Fanling Station",
-        "orig_tc": "粉嶺站",
-        "orig_sc": "粉岭站",
-        "dest_en": "San Wai Barracks(Circular)",
-        "dest_tc": "新圍軍營(循環線)",
-        "dest_sc": "新围军营(循环线)",
-        "co": "KMB",
-        "stops": [
-            "9DBFBF7A3CE5DF0A",
-            "18FB32A8BE19CB57",
-            "EF78DD9F765C6565",
-            "9DBFBF7A3CE5DF0A"
         ]
     },
     {
