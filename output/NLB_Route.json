@@ -2305,5 +2305,23 @@
             "308",
             "313"
         ]
+    },
+    {
+        "co": "NLB",
+        "routeId": "112",
+        "route": "36M",
+        "orig_tc": "裕雅苑",
+        "dest_tc": "欣澳站",
+        "orig_sc": "裕雅苑",
+        "dest_sc": "欣澳站",
+        "orig_en": "Yu Nga Court",
+        "dest_en": "Sunny Bay Station",
+        "overnightRoute": 0,
+        "specialRoute": 1,
+        "stops": [
+            "331",
+            "330",
+            "339"
+        ]
     }
 ]
