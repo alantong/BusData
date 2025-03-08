@@ -19493,6 +19493,23 @@
     },
     {
         "co": "GMB",
+        "route": "624",
+        "routeId": 2010635,
+        "routeSeq": 1,
+        "orig_tc": "峻巒交通總匯",
+        "dest_tc": "元朗站(朗明街)(循環線)",
+        "orig_sc": "峻峦交通总汇",
+        "dest_sc": "元朗站(朗明街)(循环线)",
+        "orig_en": "Park Yoho Transport Terminus",
+        "dest_en": "Yuen Long Station (Long Ming Street)(Circular)",
+        "stops": [
+            20016915,
+            20021118,
+            20016915
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "62A",
         "routeId": 2004091,
         "routeSeq": 1,
