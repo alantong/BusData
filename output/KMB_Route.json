@@ -14436,39 +14436,6 @@
         ]
     },
     {
-        "route": "70R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Jordon (Wui Man Road)",
-        "orig_tc": "佐敦 (匯民道)",
-        "orig_sc": "佐敦 (汇民道)",
-        "dest_en": "Fanling (Luen Wo Hui)",
-        "dest_tc": "粉嶺(聯和墟)",
-        "dest_sc": "粉岭(联和墟)",
-        "co": "KMB",
-        "stops": [
-            "A412A5FD403C8275",
-            "E3B0A57678CFD140",
-            "3106E04BB81D74A8",
-            "8717C0140C940AE3",
-            "31005C82D70F6B09",
-            "3FAC6C2592812331",
-            "396DD38F2E41E117",
-            "98EBAB9468C80DD2",
-            "6DD6B837EF1FA76C",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "D67917549F3DC8A3",
-            "6633B4885C8A3EE7",
-            "0F3FA9B7D07A91F3",
-            "C837C3C549793472",
-            "2AC85D87661D5AF6",
-            "000CFEE2F92DC17B",
-            "53BB93AAB2D45F3B",
-            "0132863D9F66CE6B"
-        ]
-    },
-    {
         "route": "70S",
         "bound": "O",
         "service_type": "1",
@@ -16993,41 +16960,6 @@
             "CF925A6BCC55379F",
             "40CEC3119FC1ECCC",
             "12E4BAFA2B73435B",
-            "46604706EE6CC765",
-            "94A3E9298FD887C6"
-        ]
-    },
-    {
-        "route": "75R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tai Po Market Station",
-        "orig_tc": "大埔墟站",
-        "orig_sc": "大埔墟站",
-        "dest_en": "Lung Mei Beach",
-        "dest_tc": "龍尾泳灘",
-        "dest_sc": "龙尾泳滩",
-        "co": "KMB",
-        "stops": [
-            "94A3E9298FD887C6",
-            "BBFADA4889A61FCC",
-            "45AAE55CB6B5699F"
-        ]
-    },
-    {
-        "route": "75R",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Lung Mei Beach",
-        "orig_tc": "龍尾泳灘",
-        "orig_sc": "龙尾泳滩",
-        "dest_en": "Tai Po Market Station",
-        "dest_tc": "大埔墟站",
-        "dest_sc": "大埔墟站",
-        "co": "KMB",
-        "stops": [
-            "9AB9D810103D8382",
-            "9F481C8D1469C29C",
             "46604706EE6CC765",
             "94A3E9298FD887C6"
         ]
@@ -27369,36 +27301,6 @@
     {
         "route": "178R",
         "bound": "O",
-        "service_type": "1",
-        "orig_en": "Central (Central Ferry Piers)",
-        "orig_tc": "中環(渡輪碼頭)",
-        "orig_sc": "中环(渡轮码头)",
-        "dest_en": "Fanling (Luen Wo Hui)",
-        "dest_tc": "粉嶺(聯和墟)",
-        "dest_sc": "粉岭(联和墟)",
-        "co": "KMB",
-        "stops": [
-            "C1FC4F003C9031B3",
-            "F73020DB89A6E76F",
-            "3FAC6C2592812331",
-            "396DD38F2E41E117",
-            "98EBAB9468C80DD2",
-            "6DD6B837EF1FA76C",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "D67917549F3DC8A3",
-            "6633B4885C8A3EE7",
-            "0F3FA9B7D07A91F3",
-            "C837C3C549793472",
-            "2AC85D87661D5AF6",
-            "000CFEE2F92DC17B",
-            "53BB93AAB2D45F3B",
-            "0132863D9F66CE6B"
-        ]
-    },
-    {
-        "route": "178R",
-        "bound": "O",
         "service_type": "2",
         "orig_en": "Wan Chai(Hong Kong Convention & Exhibition Centre)",
         "orig_tc": "灣仔(香港會議展覽中心)",
@@ -28755,36 +28657,6 @@
             "E207DBF95EA7DE26",
             "C71093B5185DF735",
             "A297D0A75996B49B"
-        ]
-    },
-    {
-        "route": "225R",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Jordan (Wui Man Road)",
-        "orig_tc": "佐敦(匯民道)",
-        "orig_sc": "佐敦(汇民道)",
-        "dest_en": "Wong Tai Sin",
-        "dest_tc": "黃大仙",
-        "dest_sc": "黄大仙",
-        "co": "KMB",
-        "stops": [
-            "A412A5FD403C8275",
-            "BC932662BA367CD0",
-            "AA26D9F25826AA4A",
-            "F140654A12BA066A",
-            "59FF8DDFC4405C0D",
-            "DE60928B8CFD9E7C",
-            "917DF4AF0ED7B258",
-            "ACE23D880D07ABB1",
-            "964AA1DCAAD06512",
-            "7D025E77F4B35266",
-            "84DBD40C5EDE2873",
-            "653B1CE8590D4B52",
-            "235F090F9AA1613B",
-            "1A3478416DABC289",
-            "713BF17AF24FE4DA",
-            "742F8953113CD926"
         ]
     },
     {
