@@ -15715,6 +15715,39 @@
         ]
     },
     {
+        "route": "73S",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Fanling Station",
+        "orig_tc": "粉嶺站",
+        "orig_sc": "粉岭站",
+        "dest_en": "Wo Hop Shek (Kiu Tau Road)",
+        "dest_tc": "和合石(橋頭路)",
+        "dest_sc": "和合石(桥头路)",
+        "co": "KMB",
+        "stops": [
+            "60952B4A38F3D82E",
+            "2BD35970A9125DB3"
+        ]
+    },
+    {
+        "route": "73S",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Wo Hop Shek (Kiu Tau Road)",
+        "orig_tc": "和合石(橋頭路)",
+        "orig_sc": "和合石(桥头路)",
+        "dest_en": "Fanling Station",
+        "dest_tc": "粉嶺站",
+        "dest_sc": "粉岭站",
+        "co": "KMB",
+        "stops": [
+            "2BD35970A9125DB3",
+            "2EAB4A9D81722720",
+            "60952B4A38F3D82E"
+        ]
+    },
+    {
         "route": "73X",
         "bound": "O",
         "service_type": "1",
@@ -17251,6 +17284,38 @@
             "3FAC6C2592812331",
             "396DD38F2E41E117",
             "B32FA6CD250F0F6B"
+        ]
+    },
+    {
+        "route": "76S",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Fanling Station",
+        "orig_tc": "粉嶺站",
+        "orig_sc": "粉岭站",
+        "dest_en": "Wo Hop Shek",
+        "dest_tc": "和合石",
+        "dest_sc": "和合石",
+        "co": "KMB",
+        "stops": [
+            "60952B4A38F3D82E",
+            "2EAB4A9D81722720"
+        ]
+    },
+    {
+        "route": "76S",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Wo Hop Shek",
+        "orig_tc": "和合石",
+        "orig_sc": "和合石",
+        "dest_en": "Fanling Station",
+        "dest_tc": "粉嶺站",
+        "dest_sc": "粉岭站",
+        "co": "KMB",
+        "stops": [
+            "2EAB4A9D81722720",
+            "60952B4A38F3D82E"
         ]
     },
     {
@@ -32763,7 +32828,7 @@
             "B88640E0CA83F12C",
             "A8482B15AD6E89A3",
             "6A435795576D92E8",
-            "48FBCEF0B05599F8",
+            "6258E0091BFF52C3",
             "1DEFCF90AB170FD7",
             "FEE97828AB584E76",
             "723EF8D7809D3ADB",
@@ -45141,7 +45206,7 @@
             "0CF8C59B80E70369",
             "F05E718C02104BAC",
             "0D98A0E934584FD0",
-            "48FBCEF0B05599F8",
+            "6258E0091BFF52C3",
             "C296D9B3313C1F77",
             "AD4CB5E1CAAF8063",
             "723EF8D7809D3ADB",
