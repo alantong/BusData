@@ -431,7 +431,7 @@
             "B8626845E031C9CF",
             "A811A4AAF18AFAFF",
             "20915DF05723C615",
-            "302DF350591BF5EB"
+            "9FB606D162511C77"
         ]
     },
     {
@@ -446,7 +446,7 @@
         "dest_sc": "泽安邨",
         "co": "KMB",
         "stops": [
-            "302DF350591BF5EB",
+            "9FB606D162511C77",
             "168487E2C681CB0D",
             "3942D55ED3DE84C9",
             "7C4E16F4A138B142",
@@ -2969,7 +2969,7 @@
             "8815F901477E6435",
             "20915DF05723C615",
             "6C15579CA43DF72E",
-            "9FB606D162511C77",
+            "EB3A1D751C96E053",
             "F0AC02C6C94078C4",
             "A0FDF34B2D278750",
             "6F817E994CAF7928"
@@ -17247,6 +17247,34 @@
             "530F970BB56D778D",
             "9F481C8D1469C29C",
             "C67CDF76A28A4E0E"
+        ]
+    },
+    {
+        "route": "76",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yau Pok Road Public Housing (South) Terminus",
+        "orig_tc": "攸壆路簡約公屋 (南)",
+        "orig_sc": "攸壆路简约公屋 (南)",
+        "dest_en": "Sheung Shui Station (Choi Yuen Road) (Circular)",
+        "dest_tc": "上水站 (彩園路) (循環線)",
+        "dest_sc": "上水站 (彩园路) (循环线)",
+        "co": "KMB",
+        "stops": [
+            "924FE4A6F2501116",
+            "AAC74D0FACCF8639",
+            "3106E04BB81D74A8",
+            "8717C0140C940AE3",
+            "31005C82D70F6B09",
+            "3FAC6C2592812331",
+            "4E655B25ABAE103A",
+            "AD4E0E8DC8ACEFB6",
+            "DF8F6AA868615D47",
+            "FFFB0F940CA7BEA7",
+            "ED758B6955F44E30",
+            "4D258A35FECA3A0C",
+            "A068B6BB68299035",
+            "924FE4A6F2501116"
         ]
     },
     {
@@ -32454,6 +32482,64 @@
         ]
     },
     {
+        "route": "268",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yau Pok Road Public Housing (South) Terminus",
+        "orig_tc": "攸壆路簡約公屋 (南)",
+        "orig_sc": "攸壆路简约公屋 (南)",
+        "dest_en": "Pat Heung Road",
+        "dest_tc": "八鄉路",
+        "dest_sc": "八乡路",
+        "co": "KMB",
+        "stops": [
+            "D212D9782E80AF47",
+            "EC6FDF2670147F12",
+            "C6D0AD0AA59CB197",
+            "75BCC884A3620498",
+            "D2FCC678B1D160E1",
+            "217E82F6FF3F89E3",
+            "BF598D4B90407BB9",
+            "DB11DC6D1BA11F9A",
+            "F5FA7ED5D5A6860D",
+            "D05C7D74301D47C5",
+            "41C9D989B8B874FF",
+            "4EBE182141C52094",
+            "E1C5246F946E2D86",
+            "131A8DDFC3837AD7"
+        ]
+    },
+    {
+        "route": "268",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Pat Heung Road",
+        "orig_tc": "八鄉路",
+        "orig_sc": "八乡路",
+        "dest_en": "Yau Pok Road Public Housing (South) Terminus",
+        "dest_tc": "攸壆路簡約公屋 (南)",
+        "dest_sc": "攸壆路简约公屋 (南)",
+        "co": "KMB",
+        "stops": [
+            "131A8DDFC3837AD7",
+            "80E207687865EDE7",
+            "EFB2FCFCD7E9950A",
+            "BFCFEBF6F5C35402",
+            "F8B3A5C8D0D3CED7",
+            "3D5F826FD00C0529",
+            "65F77C74AB618A8D",
+            "0492DA388B6FDA92",
+            "1F5D9F81AB034CAE",
+            "E329DEA067F8BF02",
+            "14FDBB259636B76C",
+            "B13D9345C84F088E",
+            "ED758B6955F44E30",
+            "4D258A35FECA3A0C",
+            "A068B6BB68299035",
+            "D212D9782E80AF47"
+        ]
+    },
+    {
         "route": "268A",
         "bound": "O",
         "service_type": "1",
@@ -40086,7 +40172,7 @@
             "14F1A56811DDB204",
             "1288A744C68C0447",
             "4572EAE6E84619CD",
-            "B603EBE7441D0A64",
+            "C63076B1999BEBD7",
             "F5BB84FC3C97BC6A",
             "55371F963B58DC5B",
             "11CE1FD8440A89D3",
@@ -40745,6 +40831,7 @@
             "96B1319F18A47BA5",
             "223C710D32CE25F0",
             "ACF62AEB50A6E73F",
+            "E71AA0E0F0D0377A",
             "D715DFCAE9DEB3E7",
             "E114ADD0B146D4CA",
             "A919C2BFC31695EE",
@@ -40765,8 +40852,7 @@
             "03F7818C0E176C55",
             "9268B442F0C2807E",
             "E7116B44D9E9393A",
-            "942E95B4336BDFA7",
-            "360587444784CEAB"
+            "942E95B4336BDFA7"
         ]
     },
     {
@@ -55883,13 +55969,14 @@
         "co": "KMB",
         "stops": [
             "A4260736CBC94F30",
-            "032C7D86DF9ED3AC",
-            "742D35CD1DEA10FD",
-            "8B5745F31A5778D7",
-            "D15281453EE5E0B4",
-            "A0424645102B1D9C",
-            "9D0E44D3210264C3",
-            "EC2573EE5FF42AAC",
+            "D32CF06A085E2501",
+            "D0286A50FCF2DAFC",
+            "61AC7D39918DB2F4",
+            "17414DA265B5FFE9",
+            "51E69940B3E57AAA",
+            "9962A14911FC8F32",
+            "BB1F05A4942960A1",
+            "18146B736D94B1EB",
             "C0B3CCF700EDA89C",
             "633A3F4B4A5637C2"
         ]
