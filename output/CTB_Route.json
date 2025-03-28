@@ -21964,6 +21964,50 @@
     },
     {
         "co": "CTB",
+        "route": "H3",
+        "orig_tc": "香港摩天輪 / 中環碼頭 - 天星小輪",
+        "orig_en": "Hong Kong Observation Wheel / Central (Star Ferry)",
+        "dest_tc": "赤柱村 / 赤柱市集",
+        "dest_en": "Stanley Village / Stanley Market",
+        "orig_sc": "香港摩天轮 / 中环码头 - 天星小轮",
+        "dest_sc": "赤柱村 / 赤柱市集",
+        "stops": [
+            "003339",
+            "001139",
+            "003300",
+            "002225",
+            "002201",
+            "002252",
+            "002378",
+            "002277"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "H4",
+        "orig_tc": "赤柱村 / 赤柱市集",
+        "orig_en": "Stanley Village / Stanley Market",
+        "dest_tc": "香港摩天輪 / 中環碼頭 - 天星小輪",
+        "dest_en": "Hong Kong Observation Wheel / Central (Star Ferry)",
+        "orig_sc": "赤柱村 / 赤柱市集",
+        "dest_sc": "香港摩天轮 / 中环码头 - 天星小轮",
+        "stops": [
+            "002277",
+            "002378",
+            "002241",
+            "002197",
+            "002225",
+            "002161",
+            "002227",
+            "001113",
+            "003883",
+            "003339"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
         "route": "N11",
         "orig_tc": "中環 (港澳碼頭)",
         "orig_en": "Central (Macau Ferry)",
@@ -25367,12 +25411,13 @@
         "stops": [
             "003874",
             "001476",
-            "002566",
-            "002537",
-            "002445",
-            "002446",
-            "001141",
-            "001053",
+            "002568",
+            "002563",
+            "002419",
+            "002448",
+            "001140",
+            "001142",
+            "001054",
             "001056",
             "001027"
         ],
@@ -25428,6 +25473,24 @@
             "003874",
             "003692",
             "001559"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "SP2A",
+        "orig_tc": "啟德體育園",
+        "orig_en": "Kai Tak Sports Park",
+        "dest_tc": "尖沙咀",
+        "dest_en": "Tsim Sha Tsui",
+        "orig_sc": "启德体育园",
+        "dest_sc": "尖沙咀",
+        "stops": [
+            "003874",
+            "001568",
+            "001569",
+            "001570",
+            "001571"
         ],
         "bound": "O"
     },

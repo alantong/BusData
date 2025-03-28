@@ -3917,8 +3917,8 @@
     {
         "stop": "D6E03ECA84C07932",
         "name_en": "Kimberley Road (S49), Mira Place",
-        "name_tc": "金巴利道 (S49)  美麗華廣場",
-        "name_sc": "金巴利道 (S49)  美丽华广场",
+        "name_tc": "金巴利道 S49 美麗華廣場",
+        "name_sc": "金巴利道 S49 美丽华广场",
         "lat": "22.300942",
         "long": "114.172087",
         "co": "KMB"
@@ -6284,8 +6284,8 @@
     {
         "stop": "EAE9158BE729E917",
         "name_en": "Kimberley Road (S50), Mira Place",
-        "name_tc": "金巴利道 (S50)  美麗華廣場",
-        "name_sc": "金巴利道 (S50)  美丽华广场",
+        "name_tc": "金巴利道 S50 美麗華廣場",
+        "name_sc": "金巴利道 S50 美丽华广场",
         "lat": "22.301046",
         "long": "114.172057",
         "co": "KMB"
@@ -19027,9 +19027,9 @@
     },
     {
         "stop": "51D13DDB8EBA98AF",
-        "name_en": "Siu Lek Yuen",
-        "name_tc": "小瀝源",
-        "name_sc": "小沥源",
+        "name_en": "Siu Lek Yuen (Greenhill Villa)",
+        "name_tc": "小瀝源 (綠怡雅苑)",
+        "name_sc": "小沥源 (绿怡雅苑)",
         "lat": "22.383279",
         "long": "114.213238",
         "co": "KMB"
@@ -19144,9 +19144,9 @@
     },
     {
         "stop": "69E4C417312C10C0",
-        "name_en": "Siu Lek Yuen",
-        "name_tc": "小瀝源",
-        "name_sc": "小沥源",
+        "name_en": "Siu Lek Yuen (Greenhill Villa)",
+        "name_tc": "小瀝源 (綠怡雅苑)",
+        "name_sc": "小沥源 (绿怡雅苑)",
         "lat": "22.383115",
         "long": "114.211971",
         "co": "KMB"
@@ -32527,9 +32527,9 @@
     },
     {
         "stop": "75D57F5A5891A1C2",
-        "name_en": "Siu Lek Yuen",
-        "name_tc": "小瀝源",
-        "name_sc": "小沥源",
+        "name_en": "Siu Lek Yuen (Greenhill Villa)",
+        "name_tc": "小瀝源 (綠怡雅苑)",
+        "name_sc": "小沥源 (绿怡雅苑)",
         "lat": "22.383075",
         "long": "114.212984",
         "co": "KMB"
@@ -34300,9 +34300,9 @@
     },
     {
         "stop": "1C9A67AF93C79806",
-        "name_en": "Yuen Chau Kok Bus Terminus",
-        "name_tc": "圓洲角總站",
-        "name_sc": "圆洲角总站",
+        "name_en": "Prince of Wales Hospital",
+        "name_tc": "威爾斯親王醫院",
+        "name_sc": "威尔斯亲王医院",
         "lat": "22.381366",
         "long": "114.201366",
         "co": "KMB"
@@ -46683,21 +46683,12 @@
         "co": "KMB"
     },
     {
-        "stop": "E959938F3B4FF318",
-        "name_en": "Central (Rumsey St) Bus Terminus",
-        "name_tc": "中環(林士街)總站",
-        "name_sc": "中环(林士街)总站",
-        "lat": "22.286651",
-        "long": "114.154660",
-        "co": "KMB"
-    },
-    {
         "stop": "6A0B2E48433AE858",
         "name_en": "Central (Rumsey St) Bus Terminus",
         "name_tc": "中環(林士街)總站",
         "name_sc": "中环(林士街)总站",
-        "lat": "22.286651",
-        "long": "114.154660",
+        "lat": "22.286770",
+        "long": "114.154490",
         "co": "KMB"
     },
     {
@@ -46742,7 +46733,7 @@
         "name_tc": "史釗域道",
         "name_sc": "史钊域道",
         "lat": "22.278041",
-        "long": "11.069598",
+        "long": "114.175904",
         "co": "KMB"
     },
     {
@@ -46760,7 +46751,7 @@
         "name_tc": "灣仔消防局",
         "name_sc": "湾仔消防局",
         "lat": "22.279647",
-        "long": "11.069698",
+        "long": "114.181855",
         "co": "KMB"
     },
     {
@@ -46822,7 +46813,7 @@
         "name_en": "Shu Kuk Street",
         "name_tc": "書局街",
         "name_sc": "书局街",
-        "lat": "222.241228",
+        "lat": "22.291228",
         "long": "114.199938",
         "co": "KMB"
     },
@@ -48570,6 +48561,15 @@
         "name_sc": "欣盛苑",
         "lat": "22.486987",
         "long": "114.140504",
+        "co": "KMB"
+    },
+    {
+        "stop": "E959938F3B4FF318",
+        "name_en": "Central (Rumsey St) Bus Terminus",
+        "name_tc": "中環(林士街)總站",
+        "name_sc": "中环(林士街)总站",
+        "lat": "22.286770",
+        "long": "114.154490",
         "co": "KMB"
     },
     {
@@ -59082,15 +59082,6 @@
         "name_sc": "沙角邨",
         "lat": "22.377345",
         "long": "114.194850",
-        "co": "KMB"
-    },
-    {
-        "stop": "0B3C99AFF1A837E3",
-        "name_en": "Siu Lek Yuen",
-        "name_tc": "小瀝源",
-        "name_sc": "小沥源",
-        "lat": "22.383075",
-        "long": "114.212984",
         "co": "KMB"
     },
     {
