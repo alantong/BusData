@@ -45496,7 +45496,8 @@
             "B4EBE05A59376062",
             "E75D7F316C638995",
             "15CF21F494E81BA6",
-            "CF978D9F9779F527"
+            "CF978D9F9779F527",
+            "F6E65ED7BA637652"
         ]
     },
     {
@@ -54965,27 +54966,6 @@
         ]
     },
     {
-        "route": "PB1",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Yuen Long (Yoho Mall I)",
-        "orig_tc": "元朗(形點)",
-        "orig_sc": "元朗(形点)",
-        "dest_en": "Tsuen Wan(From Yuen Long) (Circular)",
-        "dest_tc": "荃灣  (由元朗出發 循環行走)",
-        "dest_sc": "荃湾  (由元朗出发 循环行走)",
-        "co": "KMB",
-        "stops": [
-            "F493236404A4FABF",
-            "315813D4C69F73E8",
-            "CC43907C8D4CED33",
-            "321060BAE1447BEE",
-            "CC43907C8D4CED33",
-            "315813D4C69F73E8",
-            "F493236404A4FABF"
-        ]
-    },
-    {
         "route": "PB2",
         "bound": "O",
         "service_type": "1",
@@ -55006,96 +54986,6 @@
             "860671A5FA383DA3",
             "321060BAE1447BEE",
             "02FBFA6B14F230C6"
-        ]
-    },
-    {
-        "route": "PB3",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tai Po Mega Mall (Tai Wo Road)",
-        "orig_tc": "大埔超級城(太和路)",
-        "orig_sc": "大埔超级城(太和路)",
-        "dest_en": "Tsuen Wan(From Tai Po) (Circular)",
-        "dest_tc": "荃灣 (由大埔出發 循環行走)",
-        "dest_sc": "荃湾 (由大埔出发 循环行走)",
-        "co": "KMB",
-        "stops": [
-            "AFFD0E0C6077741D",
-            "2B011CC82C51D518",
-            "B1882202E2B36620",
-            "8C90768E30E981C6",
-            "321060BAE1447BEE",
-            "8C90768E30E981C6",
-            "B1882202E2B36620",
-            "2B011CC82C51D518",
-            "AFFD0E0C6077741D"
-        ]
-    },
-    {
-        "route": "PB4",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Station",
-        "orig_tc": "屯門站",
-        "orig_sc": "屯门站",
-        "dest_en": "Tsuen Wan (From Tuen Mun) (Circular)",
-        "dest_tc": "荃灣(由屯門出發 循環行走)",
-        "dest_sc": "荃湾(由屯门出发 循环行走)",
-        "co": "KMB",
-        "stops": [
-            "0678C85600B1A019",
-            "3CA179A8B3DC79DC",
-            "5C6754BD37D3F4D0",
-            "2EA448DB63E8D43C",
-            "321060BAE1447BEE",
-            "2EA448DB63E8D43C",
-            "5C6754BD37D3F4D0",
-            "86E9F1CDA10B3F16",
-            "0678C85600B1A019"
-        ]
-    },
-    {
-        "route": "PB5",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Sha Tin Town Hall",
-        "orig_tc": "沙田大會堂",
-        "orig_sc": "沙田大会堂",
-        "dest_en": "Sai Kung (From Sha Tin) (Circular)",
-        "dest_tc": "西貢 (由沙田出發 循環行走)",
-        "dest_sc": "西贡 (由沙田出发 循环行走)",
-        "co": "KMB",
-        "stops": [
-            "8C90768E30E981C6",
-            "3C6231BF9A77F8B4",
-            "8B9E121BB71771F4",
-            "FFB9E8929671D06E",
-            "8B9E121BB71771F4",
-            "3C6231BF9A77F8B4",
-            "8C90768E30E981C6"
-        ]
-    },
-    {
-        "route": "PB6",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tseung Kwan O (Tong Chun Street)",
-        "orig_tc": "將軍澳(唐俊街)",
-        "orig_sc": "将军澳(唐俊街)",
-        "dest_en": "Central (From Tseung Kwan O)(Circular)",
-        "dest_tc": "中環(由將軍澳出發循環行走)",
-        "dest_sc": "中环(由将军澳出发循环行走)",
-        "co": "KMB",
-        "stops": [
-            "06CC6423AA236B72",
-            "DE8AB4B54CD3D4F2",
-            "C1EE377B1D421E2F",
-            "E85A10E61A00CC09",
-            "90F0F685E42CC10D",
-            "C1EE377B1D421E2F",
-            "E85A10E61A00CC09",
-            "DE8AB4B54CD3D4F2",
-            "06CC6423AA236B72"
         ]
     },
     {
