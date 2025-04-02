@@ -17926,7 +17926,6 @@
         "stops": [
             "3C450B715D06675A",
             "396DD38F2E41E117",
-            "60AEF6D3AA7AAC41",
             "C4DBA77DDE73976A",
             "F19EA5A24A38C94C",
             "FC63E0A36323E494",
@@ -18061,7 +18060,6 @@
         "dest_sc": "沙头角",
         "co": "KMB",
         "stops": [
-            "60AEF6D3AA7AAC41",
             "C4DBA77DDE73976A",
             "07EEE519D04FFE28",
             "E6022594DB48E35B",
@@ -54968,6 +54966,29 @@
         ]
     },
     {
+        "route": "PB1A",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tai Po Mega Mall (Tai Wo Road)",
+        "orig_tc": "大埔超級城(太和路)",
+        "orig_sc": "大埔超级城(太和路)",
+        "dest_en": "Sai Sha Go Park (From Tai Po) (Circular)",
+        "dest_tc": "西沙 GO PARK  (由大埔出發 循環行走)",
+        "dest_sc": "西沙 GO PARK  (由大埔出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "AFFD0E0C6077741D",
+            "B1882202E2B36620",
+            "D23A43F56F61F40A",
+            "8C90768E30E981C6",
+            "8B9E121BB71771F4",
+            "8C90768E30E981C6",
+            "D23A43F56F61F40A",
+            "B1882202E2B36620",
+            "AFFD0E0C6077741D"
+        ]
+    },
+    {
         "route": "PB2",
         "bound": "O",
         "service_type": "1",
@@ -54988,6 +55009,29 @@
             "860671A5FA383DA3",
             "321060BAE1447BEE",
             "02FBFA6B14F230C6"
+        ]
+    },
+    {
+        "route": "PB2B",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Shek Mun Station",
+        "orig_tc": "石門站",
+        "orig_sc": "石门站",
+        "dest_en": "West Kowloon Cultural District (From Sha Tin)",
+        "dest_tc": "西九龍文化區 (由沙田出發 循環行走)",
+        "dest_sc": "西九龙文化区 (由沙田出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "77D8D65A6BD868B3",
+            "8C90768E30E981C6",
+            "B3F486EAD0CE8187",
+            "045FB4EAE4FE52D6",
+            "0524415976F284A4",
+            "045FB4EAE4FE52D6",
+            "B3F486EAD0CE8187",
+            "8C90768E30E981C6",
+            "77D8D65A6BD868B3"
         ]
     },
     {
