@@ -18479,6 +18479,7 @@
             "7421C8745B4EDF25",
             "8EFA13840D1272E8",
             "2132577767F0056D",
+            "84BAF05C529889BB",
             "F608A74B860B3C47",
             "92B3E07F00FBB305",
             "9E28FDE5126284C1",
@@ -21145,6 +21146,7 @@
             "7421C8745B4EDF25",
             "8EFA13840D1272E8",
             "2132577767F0056D",
+            "84BAF05C529889BB",
             "F608A74B860B3C47",
             "92B3E07F00FBB305",
             "9E28FDE5126284C1",
@@ -37023,6 +37025,27 @@
             "BA995ECF3EFCA99E",
             "879A98CD29D9433F",
             "0132863D9F66CE6B"
+        ]
+    },
+    {
+        "route": "279X",
+        "bound": "I",
+        "service_type": "2",
+        "orig_en": "Tsing Yi Station",
+        "orig_tc": "青衣站",
+        "orig_sc": "青衣站",
+        "dest_en": "Sheung Shui Station",
+        "dest_tc": "上水站",
+        "dest_sc": "上水站",
+        "co": "KMB",
+        "stops": [
+            "716E50EBD1CD72B4",
+            "AFC36FC71B4E124E",
+            "CA1C0FB0345F9675",
+            "A5E559178C9F5182",
+            "E55FA660A59AB64A",
+            "E3B0A57678CFD140",
+            "647CBF3FE0DF2FAE"
         ]
     },
     {
@@ -55012,6 +55035,29 @@
         ]
     },
     {
+        "route": "PB2A",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Central Harbourfront",
+        "orig_tc": "中環海濱",
+        "orig_sc": "中环海滨",
+        "dest_en": "West Kowloon Cultural District",
+        "dest_tc": "西九文化區",
+        "dest_sc": "西九文化区",
+        "co": "KMB",
+        "stops": [
+            "90F0F685E42CC10D",
+            "1CBCE3D9633DC5C7",
+            "993431C67E83B130",
+            "5F32C53A90CDEB52",
+            "0524415976F284A4",
+            "993431C67E83B130",
+            "5F32C53A90CDEB52",
+            "1CBCE3D9633DC5C7",
+            "90F0F685E42CC10D"
+        ]
+    },
+    {
         "route": "PB2B",
         "bound": "O",
         "service_type": "1",
@@ -55032,6 +55078,98 @@
             "B3F486EAD0CE8187",
             "8C90768E30E981C6",
             "77D8D65A6BD868B3"
+        ]
+    },
+    {
+        "route": "PB3A",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Kai Tak",
+        "orig_tc": "啟德",
+        "orig_sc": "启德",
+        "dest_en": "Harnour North",
+        "dest_tc": "北角匯",
+        "dest_sc": "北角汇",
+        "co": "KMB",
+        "stops": [
+            "97959A28795E3EFF",
+            "2D3BD1583B26087F",
+            "9252A494500A05C9",
+            "0C8085DE147882C0",
+            "E85A10E61A00CC09",
+            "0C8085DE147882C0",
+            "9252A494500A05C9",
+            "2D3BD1583B26087F",
+            "97959A28795E3EFF"
+        ]
+    },
+    {
+        "route": "PB3B",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tsuen Wan",
+        "orig_tc": "荃灣",
+        "orig_sc": "荃湾",
+        "dest_en": "North Point(From Tsuen Wan) (Circular)",
+        "dest_tc": "北角(由荃灣出發 循環行走)",
+        "dest_sc": "北角(由荃湾出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "321060BAE1447BEE",
+            "A8DC6F85E7043234",
+            "A31DD8C4FD6740D4",
+            "CD4D0EF3F601A4A7",
+            "E85A10E61A00CC09",
+            "860671A5FA383DA3",
+            "A31DD8C4FD6740D4",
+            "A8DC6F85E7043234",
+            "321060BAE1447BEE"
+        ]
+    },
+    {
+        "route": "PBS1",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tsuen Wan",
+        "orig_tc": "荃灣",
+        "orig_sc": "荃湾",
+        "dest_en": "Ma Wan(From Tsuen Wan) (Circular)",
+        "dest_tc": "馬灣(由荃灣出發 循環行走)",
+        "dest_sc": "马湾(由荃湾出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "321060BAE1447BEE",
+            "4B63964A12D91E2A",
+            "A8DC6F85E7043234",
+            "A31DD8C4FD6740D4",
+            "9774D8AAAD859409",
+            "A31DD8C4FD6740D4",
+            "A8DC6F85E7043234",
+            "4B63964A12D91E2A",
+            "321060BAE1447BEE"
+        ]
+    },
+    {
+        "route": "PBS2",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Central",
+        "orig_tc": "中環",
+        "orig_sc": "中环",
+        "dest_en": "Ma Wan(From Central) (Circular)",
+        "dest_tc": "馬灣 (由中環出發 循環行走)",
+        "dest_sc": "马湾 (由中环出发 循环行走)",
+        "co": "KMB",
+        "stops": [
+            "90F0F685E42CC10D",
+            "0524415976F284A4",
+            "860671A5FA383DA3",
+            "321060BAE1447BEE",
+            "9774D8AAAD859409",
+            "321060BAE1447BEE",
+            "CD4D0EF3F601A4A7",
+            "0524415976F284A4",
+            "90F0F685E42CC10D"
         ]
     },
     {
