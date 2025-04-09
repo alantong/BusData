@@ -11301,40 +11301,6 @@
         ]
     },
     {
-        "route": "52S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Road BBI",
-        "orig_tc": "屯門公路轉車站",
-        "orig_sc": "屯门公路转车站",
-        "dest_en": "Tsang Tsui",
-        "dest_tc": "曾咀",
-        "dest_sc": "曾咀",
-        "co": "KMB",
-        "stops": [
-            "D0937674DF369B23",
-            "09A5D5C90F15C08C",
-            "D6001B758148778A"
-        ]
-    },
-    {
-        "route": "52S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tsang Tsui",
-        "orig_tc": "曾咀",
-        "orig_sc": "曾咀",
-        "dest_en": "Tuen Mun Road BBI",
-        "dest_tc": "屯門轉車站",
-        "dest_sc": "屯门转车站",
-        "co": "KMB",
-        "stops": [
-            "D6001B758148778A",
-            "76441824D4E31948",
-            "212BFF5737D0116C"
-        ]
-    },
-    {
         "route": "52X",
         "bound": "O",
         "service_type": "1",
@@ -11691,42 +11657,6 @@
             "AC935792C88AF135",
             "43E5D3A445382F82",
             "FAB0AB2B6DCEE7F2"
-        ]
-    },
-    {
-        "route": "56S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Station",
-        "orig_tc": "屯門站",
-        "orig_sc": "屯门站",
-        "dest_en": "Tsang Tsui",
-        "dest_tc": "曾咀",
-        "dest_sc": "曾咀",
-        "co": "KMB",
-        "stops": [
-            "584E6744385F6463",
-            "C1BF4509359B0895",
-            "09A5D5C90F15C08C",
-            "F64076F7E14E38D4"
-        ]
-    },
-    {
-        "route": "56S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Tsang Tsui",
-        "orig_tc": "曾咀",
-        "orig_sc": "曾咀",
-        "dest_en": "Tuen Mun Station",
-        "dest_tc": "屯門站",
-        "dest_sc": "屯门站",
-        "co": "KMB",
-        "stops": [
-            "F64076F7E14E38D4",
-            "76441824D4E31948",
-            "5D14B75687F60509",
-            "584E6744385F6463"
         ]
     },
     {
@@ -12646,43 +12576,6 @@
             "E346E933481C3D83",
             "130015EE1C05A484",
             "68DD31B1EF55AF1A"
-        ]
-    },
-    {
-        "route": "61S",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Tuen Mun Central",
-        "orig_tc": "屯門巿中心",
-        "orig_sc": "屯门巿中心",
-        "dest_en": "Wo Hop Shek",
-        "dest_tc": "和合石",
-        "dest_sc": "和合石",
-        "co": "KMB",
-        "stops": [
-            "8660BDF2C013FAC2",
-            "EC49B6F5634BC0C2",
-            "7AC6625D894BA101",
-            "CBE54DB551C24A02",
-            "AA5CBDB0758443A9"
-        ]
-    },
-    {
-        "route": "61S",
-        "bound": "I",
-        "service_type": "1",
-        "orig_en": "Wo Hop Shek",
-        "orig_tc": "和合石",
-        "orig_sc": "和合石",
-        "dest_en": "Tuen Mun Central",
-        "dest_tc": "屯門巿中心",
-        "dest_sc": "屯门巿中心",
-        "co": "KMB",
-        "stops": [
-            "AA5CBDB0758443A9",
-            "6FB7BC1E5BC1E4EE",
-            "5238463F47B490D6",
-            "8660BDF2C013FAC2"
         ]
     },
     {
