@@ -1,3 +1,8 @@
-13-Apr-25 19:07:36 | root - INFO - Start getting KMB routes
-13-Apr-25 19:07:41 | root - INFO - Finish getting KMB rotues
-13-Apr-25 19:07:44 | root - INFO - Finish getting KMB stops
+14-Apr-25 19:08:46 | root - INFO - Start getting KMB routes
+14-Apr-25 19:08:51 | root - ERROR - Other error occurred: ('73S', 'O', '1')
+14-Apr-25 19:08:51 | root - ERROR - ('73S', 'O', '1')
+Traceback (most recent call last):
+  File "/home/runner/work/BusData/BusData/action/KMB_Route.py", line 112, in main
+    r['stops'] = stopListDict[(r['route'], r['bound'], r['service_type'])]
+                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: ('73S', 'O', '1')
