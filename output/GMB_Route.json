@@ -15296,6 +15296,40 @@
     },
     {
         "co": "GMB",
+        "route": "508",
+        "routeId": 2010929,
+        "routeSeq": 1,
+        "orig_tc": "上水站",
+        "dest_tc": "古洞北福利服務綜合大樓",
+        "orig_sc": "上水站",
+        "dest_sc": "古洞北福利服务综合大楼总站",
+        "orig_en": "Sheung Shui Station",
+        "dest_en": "Kwu Tung North Multi-Welfare Services Complex Terminus",
+        "stops": [
+            20021580,
+            20021581
+        ]
+    },
+    {
+        "co": "GMB",
+        "route": "508",
+        "routeId": 2010929,
+        "routeSeq": 2,
+        "orig_tc": "古洞北福利服務綜合大樓總站",
+        "dest_tc": "上水站",
+        "orig_sc": "古洞北福利服务综合大楼总站",
+        "dest_sc": "上水站",
+        "orig_en": "Kwu Tung North Multi-Welfare Services Complex Terminus",
+        "dest_en": "Sheung Shui Station",
+        "stops": [
+            20021581,
+            20021582,
+            20021583,
+            20021580
+        ]
+    },
+    {
+        "co": "GMB",
         "route": "50A",
         "routeId": 2005322,
         "routeSeq": 1,
