@@ -55001,6 +55001,40 @@
         ]
     },
     {
+        "route": "PBD1",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tseung Kwan O",
+        "orig_tc": "將軍澳",
+        "orig_sc": "将军澳",
+        "dest_en": "Db Plaza",
+        "dest_tc": "愉景廣場",
+        "dest_sc": "愉景广场",
+        "co": "KMB",
+        "stops": [
+            "06CC6423AA236B72",
+            "E33098F43CF205B8",
+            "E4415E645A9914EF"
+        ]
+    },
+    {
+        "route": "PBD1",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Db Plaza",
+        "orig_tc": "愉景廣場",
+        "orig_sc": "愉景广场",
+        "dest_en": "Tseung Kwan O",
+        "dest_tc": "將軍澳",
+        "dest_sc": "将军澳",
+        "co": "KMB",
+        "stops": [
+            "E4415E645A9914EF",
+            "E33098F43CF205B8",
+            "06CC6423AA236B72"
+        ]
+    },
+    {
         "route": "PBD2",
         "bound": "O",
         "service_type": "1",
