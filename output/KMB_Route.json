@@ -21168,6 +21168,7 @@
             "F60CC440E22B0BD9",
             "3C6DAB7267F9E54F",
             "73E85E88E124EF2C",
+            "FF6E49051D6D9A8C",
             "7BFC2AE979358DA7",
             "2E6DB54618C13048",
             "6953AEF8B3921959",
@@ -21177,8 +21178,7 @@
             "72EE8A033E4260A3",
             "61A21B70C10E9722",
             "9056734C713A7A14",
-            "DEAC83FBE72FE09C",
-            "E9B13F8E482054DC"
+            "DEAC83FBE72FE09C"
         ]
     },
     {
@@ -22516,7 +22516,7 @@
             "FABC0445FC1C04D7",
             "3A43E432D0588F79",
             "E6124D0EDF568E1E",
-            "BDC22C0C76E16BD3"
+            "4EB50AEDC57BF889"
         ]
     },
     {
@@ -37486,6 +37486,77 @@
         ]
     },
     {
+        "route": "286D",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Ma On Shan Town Centre",
+        "orig_tc": "馬鞍山市中心",
+        "orig_sc": "马鞍山市中心",
+        "dest_en": "Sham Shui Po",
+        "dest_tc": "深水埗",
+        "dest_sc": "深水埗",
+        "co": "KMB",
+        "stops": [
+            "1D99BD02B9B45429",
+            "496BF5ECB5F376CB",
+            "A07D2012213FC19D",
+            "8019E4CBB686CD25",
+            "ECE98AAA81373891",
+            "BF4622C022F17E9D",
+            "34740DD5ABC36F12",
+            "25E1BAE2C272ED4C",
+            "9D9323892E6ACB20",
+            "2223D64E9ED2E1A7",
+            "03A546A0953794FA",
+            "20B9196322225611",
+            "480DB16994F8FFEE",
+            "FD8181D7574BB373",
+            "647AB0AD358F10DF",
+            "8BCB786E1F1A2457",
+            "A6013462EAC8AA50",
+            "DAE9E14BA67CEC80",
+            "3A5C336CCB38A3FA",
+            "8CE4B83B45F22F1F",
+            "0F4D809AED62F6E9"
+        ]
+    },
+    {
+        "route": "286D",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Sham Shui Po (Yen Chow St)",
+        "orig_tc": "深水埗(欽州街)",
+        "orig_sc": "深水埗(钦州街)",
+        "dest_en": "Ma On Shan Town Centre",
+        "dest_tc": "馬鞍山市中心",
+        "dest_sc": "马鞍山市中心",
+        "co": "KMB",
+        "stops": [
+            "099E9950742D6414",
+            "1A85B99EDE6D01D8",
+            "04FC6E130D4953F4",
+            "EEBBD352B7F16E3F",
+            "01E580BD435E9301",
+            "B4F2BAAED2470D0A",
+            "3F21ED54F86D9B1D",
+            "BA4AAEE586402CD4",
+            "CB0585244877B9B9",
+            "02CF8D1FE31E9A09",
+            "0035CDF15614428C",
+            "16A7F2C343AA6DE6",
+            "4B0E21EDF07F9C83",
+            "1CF4AE2F7045B848",
+            "0C44F4B0A1D12636",
+            "1BD5318E1C647F83",
+            "651489E8C0A626A1",
+            "F489213E82621D3F",
+            "31DA09E74ABD87CD",
+            "B31E6B9D8E5B4493",
+            "0D0D7E774E1C1575",
+            "7005EE5654387B8A"
+        ]
+    },
+    {
         "route": "286P",
         "bound": "O",
         "service_type": "1",
@@ -37815,9 +37886,9 @@
         "orig_en": "Shui Chuen O",
         "orig_tc": "水泉澳",
         "orig_sc": "水泉澳",
-        "dest_en": "Wo Che",
-        "dest_tc": "禾輋",
-        "dest_sc": "禾輋",
+        "dest_en": "Fo Tan Chun Yeung Estate",
+        "dest_tc": "火炭駿洋邨",
+        "dest_sc": "火炭骏洋邨",
         "co": "KMB",
         "stops": [
             "9879DF2CF2B69838",
@@ -54972,7 +55043,7 @@
         "stops": [
             "0678C85600B1A019",
             "A02CB1283981A937",
-            "E4415E645A9914EF"
+            "B26B63709D8A7DFA"
         ]
     },
     {
@@ -54988,8 +55059,8 @@
         "co": "KMB",
         "stops": [
             "E4415E645A9914EF",
-            "A02CB1283981A937",
-            "0678C85600B1A019"
+            "B26B63709D8A7DFA",
+            "A02CB1283981A937"
         ]
     },
     {
@@ -56278,6 +56349,7 @@
         "stops": [
             "40D067F126426DC6",
             "AC8828CF13B8AA49",
+            "4C49804674904130",
             "8864CF7D3E4B1EF6",
             "BE27F066CF40DF7D",
             "07521BB848913F74",
@@ -56291,8 +56363,7 @@
             "FF6E49051D6D9A8C",
             "7A95C545D0393126",
             "5CCBD9A6B58BF20D",
-            "4DB8054CDFBB9E43",
-            "40D067F126426DC6"
+            "E049C81469E2B3C0"
         ]
     },
     {
@@ -56309,6 +56380,7 @@
         "stops": [
             "40D067F126426DC6",
             "AC8828CF13B8AA49",
+            "4C49804674904130",
             "8864CF7D3E4B1EF6",
             "BE27F066CF40DF7D",
             "07521BB848913F74",
@@ -56318,8 +56390,7 @@
             "0B8C52E4C34E3B64",
             "144E9479168069DD",
             "DA0947682FC19B0B",
-            "2EF9764BE18FC290",
-            "FF6E49051D6D9A8C"
+            "2EF9764BE18FC290"
         ]
     },
     {
@@ -56342,8 +56413,8 @@
             "FF6E49051D6D9A8C",
             "7A95C545D0393126",
             "5CCBD9A6B58BF20D",
-            "4DB8054CDFBB9E43",
-            "40D067F126426DC6"
+            "E049C81469E2B3C0",
+            "FD1B403FD4EC3E8D"
         ]
     },
     {
