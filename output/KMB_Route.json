@@ -1787,7 +1787,7 @@
             "83BB162ED5F1355F",
             "D39533060940818A",
             "14894C859FDFE8C3",
-            "36A5F6842C55126E",
+            "DBB2582C87F91983",
             "1094B993AA8409D0",
             "5F1C669F444A0556"
         ]
@@ -1831,7 +1831,7 @@
             "83BB162ED5F1355F",
             "D39533060940818A",
             "14894C859FDFE8C3",
-            "36A5F6842C55126E",
+            "DBB2582C87F91983",
             "1094B993AA8409D0",
             "5F1C669F444A0556"
         ]
@@ -4776,7 +4776,7 @@
             "70CD99F4D487740A",
             "D39533060940818A",
             "14894C859FDFE8C3",
-            "CDF0D5A4E1023C8E",
+            "A1C35E976ACF46FD",
             "9268B442F0C2807E",
             "ED5554C57CF0061C",
             "4D9419874306D82F",
@@ -17721,7 +17721,7 @@
             "F19EA5A24A38C94C",
             "FC63E0A36323E494",
             "EFEE1D1E1BF3140C",
-            "EF78DD9F765C6565",
+            "25721F85DC026ACA",
             "07EEE519D04FFE28",
             "000CFEE2F92DC17B",
             "BA995ECF3EFCA99E",
@@ -17920,7 +17920,7 @@
             "D3E18D04B69DF388",
             "515ECE2791A22276",
             "6B885F5529A285BB",
-            "EF78DD9F765C6565",
+            "25721F85DC026ACA",
             "07EEE519D04FFE28",
             "53BB93AAB2D45F3B",
             "12DC09C113E1C873",
@@ -39022,7 +39022,7 @@
             "5527FF8CC85CF139",
             "D13C7436B13B4A4B",
             "E0BAA3364D0CE860",
-            "CDF0D5A4E1023C8E",
+            "A1C35E976ACF46FD",
             "2F1F9CF16B9E65AF",
             "ED5554C57CF0061C",
             "4D9419874306D82F",
@@ -43976,6 +43976,7 @@
             "DEBD2B9A856C0B1F",
             "F8A31970F2A8E25C",
             "F1DE119543E382D9",
+            "D355B700FF30B3D7",
             "44EA73AE2E27AC12",
             "B4F2BAAED2470D0A",
             "75C0DF6C7724CEEA",
@@ -43994,8 +43995,7 @@
             "F82CDE4D15A43CA3",
             "DEDD6247441C8C05",
             "3B54D43994CAC165",
-            "D9655458715EBBF8",
-            "EE3B40DBD54D6708"
+            "D9655458715EBBF8"
         ]
     },
     {
@@ -44069,6 +44069,7 @@
             "DEBD2B9A856C0B1F",
             "F8A31970F2A8E25C",
             "F1DE119543E382D9",
+            "D355B700FF30B3D7",
             "44EA73AE2E27AC12",
             "B4F2BAAED2470D0A",
             "75C0DF6C7724CEEA",
@@ -44078,8 +44079,7 @@
             "86D7BB9BA055D8A6",
             "C24776F20FE877FF",
             "257A6E19DD7F156C",
-            "28A57C043C111604",
-            "30000427BD163F84"
+            "28A57C043C111604"
         ]
     },
     {
@@ -56169,7 +56169,7 @@
             "F8D908466E28E9C2",
             "70CD99F4D487740A",
             "D39533060940818A",
-            "A1C35E976ACF46FD",
+            "CDF0D5A4E1023C8E",
             "1E71CBFE8560B0EF",
             "9274EF6791CA3ED8",
             "CA9E9870D7B2FF36",
@@ -56889,9 +56889,9 @@
         "orig_en": "Mei Foo",
         "orig_tc": "美孚",
         "orig_sc": "美孚",
-        "dest_en": "Kowloon Bay",
-        "dest_tc": "九龍灣",
-        "dest_sc": "九龙湾",
+        "dest_en": "HK Children's Hospital",
+        "dest_tc": "香港兒童醫院",
+        "dest_sc": "香港儿童医院",
         "co": "KMB",
         "stops": [
             "3856383C8A22904A",
@@ -56907,24 +56907,26 @@
             "D48E82AC2961C581",
             "B0668BFF6178BA0B",
             "AA97FFC49AE957A5",
-            "BE27F066CF40DF7D",
-            "07521BB848913F74",
-            "A1C35E976ACF46FD",
-            "06834C0C275F4DDC"
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
+            "81C6D8E74259157E",
+            "36A5F6842C55126E",
+            "0513406BAC1F8881"
         ]
     },
     {
         "route": "X6C",
         "bound": "I",
         "service_type": "1",
-        "orig_en": "Kowloon Bay",
-        "orig_tc": "九龍灣",
-        "orig_sc": "九龙湾",
+        "orig_en": "HK Children's Hospital",
+        "orig_tc": "香港兒童醫院",
+        "orig_sc": "香港儿童医院",
         "dest_en": "Mei Foo",
         "dest_tc": "美孚",
         "dest_sc": "美孚",
         "co": "KMB",
         "stops": [
+            "0513406BAC1F8881",
             "A1C35E976ACF46FD",
             "1E71CBFE8560B0EF",
             "29ED2073D6C52B5A",
@@ -57018,7 +57020,7 @@
             "2D3C0F18F9131DA2",
             "70CD99F4D487740A",
             "D39533060940818A",
-            "A1C35E976ACF46FD",
+            "CDF0D5A4E1023C8E",
             "1E71CBFE8560B0EF",
             "C57C924EEB5463E5",
             "0209A3C455B1DBE9",
