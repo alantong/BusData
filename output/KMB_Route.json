@@ -48182,7 +48182,8 @@
             "95974C5D780AB509",
             "7E6C7136D5C27AD1",
             "54EE9702C289DDAC",
-            "464CFC70CF3895AD"
+            "464CFC70CF3895AD",
+            "666187E9CF307E3D"
         ]
     },
     {
@@ -49807,6 +49808,34 @@
             "B85641FDDED22352",
             "8C8037479F88F500",
             "EF0567DCF0D20204",
+            "210978D525EEDF4F",
+            "C4BDAA5047CADCBA",
+            "A859FDC2ED9ECEA1",
+            "AF9FE138E3D5D5F0",
+            "1D44677AEFBA8773",
+            "18580F35B0A312CF",
+            "4F3D6BA55D5FFFE1",
+            "7211E63DE150A10E",
+            "F2DFF3A02940D925",
+            "F00B9766890B9FD5",
+            "A14D4AF63BFAB364",
+            "266DC8A29740F280",
+            "3CBEDBBD1EE6AC99",
+            "A08B5AB2B8253F5C"
+        ]
+    },
+    {
+        "route": "E37C",
+        "bound": "O",
+        "service_type": "2",
+        "orig_en": "Tuen Mun (Hung Kiu)",
+        "orig_tc": "屯門(紅橋)",
+        "orig_sc": "屯门(红桥)",
+        "dest_en": "Aircraft Maintenance Area",
+        "dest_tc": "飛機維修區",
+        "dest_sc": "飞机维修区",
+        "co": "KMB",
+        "stops": [
             "210978D525EEDF4F",
             "C4BDAA5047CADCBA",
             "A859FDC2ED9ECEA1",
@@ -55049,6 +55078,110 @@
             "B26B63709D8A7DFA",
             "A02CB1283981A937",
             "0678C85600B1A019"
+        ]
+    },
+    {
+        "route": "PBM1",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Lohas Park Station",
+        "orig_tc": "康城站",
+        "orig_sc": "康城站",
+        "dest_en": "Megabox",
+        "dest_tc": "MEGABOX",
+        "dest_sc": "MEGABOX",
+        "co": "KMB",
+        "stops": [
+            "DE8AB4B54CD3D4F2",
+            "06CC6423AA236B72",
+            "41D38FB36417339B"
+        ]
+    },
+    {
+        "route": "PBM1",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Megabox",
+        "orig_tc": "MEGABOX",
+        "orig_sc": "MEGABOX",
+        "dest_en": "Lohas Park Station",
+        "dest_tc": "康城站",
+        "dest_sc": "康城站",
+        "co": "KMB",
+        "stops": [
+            "41D38FB36417339B",
+            "06CC6423AA236B72",
+            "DE8AB4B54CD3D4F2"
+        ]
+    },
+    {
+        "route": "PBM2",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Mong Kok",
+        "orig_tc": "旺角",
+        "orig_sc": "旺角",
+        "dest_en": "Megabox",
+        "dest_tc": "MEGABOX",
+        "dest_sc": "MEGABOX",
+        "co": "KMB",
+        "stops": [
+            "D807FB5CE82945A2",
+            "045FB4EAE4FE52D6",
+            "41D38FB36417339B"
+        ]
+    },
+    {
+        "route": "PBM2",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Megabox",
+        "orig_tc": "MEGABOX",
+        "orig_sc": "MEGABOX",
+        "dest_en": "Mong Kok",
+        "dest_tc": "旺角",
+        "dest_sc": "旺角",
+        "co": "KMB",
+        "stops": [
+            "41D38FB36417339B",
+            "045FB4EAE4FE52D6",
+            "D807FB5CE82945A2"
+        ]
+    },
+    {
+        "route": "PBM3",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Ma On Shan",
+        "orig_tc": "馬鞍山",
+        "orig_sc": "马鞍山",
+        "dest_en": "Megabox",
+        "dest_tc": "MEGABOX",
+        "dest_sc": "MEGABOX",
+        "co": "KMB",
+        "stops": [
+            "3C6231BF9A77F8B4",
+            "8C90768E30E981C6",
+            "4C61A1E387593CAF",
+            "41D38FB36417339B"
+        ]
+    },
+    {
+        "route": "PBM3",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Megabox",
+        "orig_tc": "MEGABOX",
+        "orig_sc": "MEGABOX",
+        "dest_en": "Ma On Shan",
+        "dest_tc": "馬鞍山",
+        "dest_sc": "马鞍山",
+        "co": "KMB",
+        "stops": [
+            "41D38FB36417339B",
+            "4C61A1E387593CAF",
+            "8C90768E30E981C6",
+            "3C6231BF9A77F8B4"
         ]
     },
     {
