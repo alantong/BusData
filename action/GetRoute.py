@@ -13,7 +13,19 @@ def main() :
     subprocess.run(["python", os.path.join(actionDir, "MTR_BUS_Route.py")])
 
 def capWords(s) :
-    r = s.title()
+    # Use regex to exclude words enclosed in brackets
+    def transform(word):
+        # Check if the word matches the regular expression
+        if re.match(r'\([A-Z]{2}\d{3}\)', word) or re.match(r'\([A-Z]\d\)', word):
+            return word  # Skip processing for words matching the pattern
+        # Apply title case to other words
+        return word.title()
+
+    # Split the string into words and process each word
+    words = re.split(r'(\s+)', s)  # Split by whitespace while keeping separators
+    processed_words = [transform(word) for word in words]
+    r = ''.join(processed_words)
+
     r = re.sub(r'\'[A-Z]', lambda p: p.group(0).lower(), r)
     r = re.sub(r'Bbi', 'BBI', r)
     r = re.sub(r'Mtr\s', 'MTR ', r)
