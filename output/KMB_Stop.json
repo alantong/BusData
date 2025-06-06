@@ -17560,9 +17560,9 @@
     },
     {
         "stop": "E45E7DB1786B6324",
-        "name_en": "Tsing Yi Station(Alighting) (TY921)",
-        "name_tc": "青衣站(落客站) (TY921)",
-        "name_sc": "青衣站(落客站) (TY921)",
+        "name_en": "Tsing Yi Station(Alighting) (TY920)",
+        "name_tc": "青衣站(落客站) (TY920)",
+        "name_sc": "青衣站(落客站) (TY920)",
         "lat": "22.359924",
         "long": "114.107953",
         "co": "KMB"
@@ -18973,9 +18973,9 @@
     },
     {
         "stop": "68CD99B45DDE014B",
-        "name_en": "Tsing Yi Station (TY922)",
-        "name_tc": "青衣站 (TY922)",
-        "name_sc": "青衣站 (TY922)",
+        "name_en": "Tsing Yi Station (TY921)",
+        "name_tc": "青衣站 (TY921)",
+        "name_sc": "青衣站 (TY921)",
         "lat": "22.360335",
         "long": "114.107545",
         "co": "KMB"
@@ -30768,6 +30768,15 @@
         "name_sc": "上水转车站 - 上水总站(A2)",
         "lat": "22.502434",
         "long": "114.127853",
+        "co": "KMB"
+    },
+    {
+        "stop": "F7D40D08CB05EA87",
+        "name_en": "Wah Ming BBI(C7) (ND984)",
+        "name_tc": "華明轉車站(C7) (ND984)",
+        "name_sc": "华明转车站(C7) (ND984)",
+        "lat": "22.484250",
+        "long": "114.141642",
         "co": "KMB"
     },
     {
@@ -42724,9 +42733,9 @@
     },
     {
         "stop": "A2882A0EE6B8AF9B",
-        "name_en": "Tsing Yi Station(Alighting) (TY920)",
-        "name_tc": "青衣站(落客站) (TY920)",
-        "name_sc": "青衣站(落客站) (TY920)",
+        "name_en": "Tsing Yi Station(Alighting) (TY921)",
+        "name_tc": "青衣站(落客站) (TY921)",
+        "name_sc": "青衣站(落客站) (TY921)",
         "lat": "22.360074",
         "long": "114.107029",
         "co": "KMB"
@@ -44880,15 +44889,6 @@
         "name_sc": "联和墟总站 (ND968)",
         "lat": "22.500346",
         "long": "114.143625",
-        "co": "KMB"
-    },
-    {
-        "stop": "F7D40D08CB05EA87",
-        "name_en": "Wah Ming BBI(C7) (ND984)",
-        "name_tc": "華明轉車站(C7) (ND984)",
-        "name_sc": "华明转车站(C7) (ND984)",
-        "lat": "22.484250",
-        "long": "114.141642",
         "co": "KMB"
     },
     {
@@ -49873,8 +49873,8 @@
         "name_en": "O'brien Road  (NR917)",
         "name_tc": "柯布連道  (NR917)",
         "name_sc": "柯布连道  (NR917)",
-        "lat": "22.277640",
-        "long": "114.172805",
+        "lat": "22.277676",
+        "long": "114.173436",
         "co": "KMB"
     },
     {
@@ -50395,8 +50395,8 @@
         "name_en": "Southorn Playground (NR918)",
         "name_tc": "修頓球場 (NR918)",
         "name_sc": "修顿球场 (NR918)",
-        "lat": "22.277392",
-        "long": "114.172504",
+        "lat": "22.277562",
+        "long": "114.171995",
         "co": "KMB"
     },
     {
@@ -50404,8 +50404,8 @@
         "name_en": "Southorn Playground",
         "name_tc": "修頓球場",
         "name_sc": "修顿球场",
-        "lat": "22.277392",
-        "long": "114.172504",
+        "lat": "22.277562",
+        "long": "114.171995",
         "co": "KMB"
     },
     {
@@ -50854,8 +50854,8 @@
         "name_en": "Tung Tai Street",
         "name_tc": "東堤街",
         "name_sc": "东堤街",
-        "lat": "22.446222",
-        "long": "114.030511",
+        "lat": "22.445662",
+        "long": "114.031821",
         "co": "KMB"
     },
     {
@@ -50917,8 +50917,8 @@
         "name_en": "Kam Hong Street (NR945)",
         "name_tc": "琴行街 (NR945)",
         "name_sc": "琴行街 (NR945)",
-        "lat": "22.292466",
-        "long": "114.200724",
+        "lat": "22.292917",
+        "long": "114.203044",
         "co": "KMB"
     },
     {
@@ -50926,8 +50926,8 @@
         "name_en": "Kam Hong Street",
         "name_tc": "琴行街",
         "name_sc": "琴行街",
-        "lat": "22.292466",
-        "long": "114.200724",
+        "lat": "22.292917",
+        "long": "114.203044",
         "co": "KMB"
     },
     {
@@ -50980,8 +50980,8 @@
         "name_en": "Tung Tai Street (NR945)",
         "name_tc": "東堤街 (NR945)",
         "name_sc": "东堤街 (NR945)",
-        "lat": "22.446266",
-        "long": "114.030522",
+        "lat": "22.445662",
+        "long": "114.031821",
         "co": "KMB"
     },
     {
@@ -59076,6 +59076,42 @@
         "co": "KMB"
     },
     {
+        "stop": "8BC3AB2E0CE7401A",
+        "name_en": "Tiu Kwng Leng (Chui Ling Road)",
+        "name_tc": "調景嶺 (翠嶺路)",
+        "name_sc": "调景岭 (翠岭路)",
+        "lat": "22.304801",
+        "long": "114.253856",
+        "co": "KMB"
+    },
+    {
+        "stop": "06CC6423AA236B72",
+        "name_en": "Tseung Kwan O (Tong Chun Street)",
+        "name_tc": "將軍澳(唐俊街)",
+        "name_sc": "将军澳(唐俊街)",
+        "lat": "22.303002",
+        "long": "114.261429",
+        "co": "KMB"
+    },
+    {
+        "stop": "3B5FBD10AE27C017",
+        "name_en": "Hang Hau (Ming Shing Street)",
+        "name_tc": "坑口 (名成街)",
+        "name_sc": "坑口 (名成街)",
+        "lat": "22.315701",
+        "long": "114.265331",
+        "co": "KMB"
+    },
+    {
+        "stop": "FFB9E8929671D06E",
+        "name_en": "Sai Kung North (Sai Kung Police Station)",
+        "name_tc": "西貢北(西貢警署)",
+        "name_sc": "西贡北(西贡警署)",
+        "lat": "22.384029",
+        "long": "114.272477",
+        "co": "KMB"
+    },
+    {
         "stop": "02FBFA6B14F230C6",
         "name_en": "Ma Wan (Pak Yan Road)",
         "name_tc": "馬灣 (珀欣路)",
@@ -59247,15 +59283,6 @@
         "co": "KMB"
     },
     {
-        "stop": "06CC6423AA236B72",
-        "name_en": "Tseung Kwan O (Tong Chun Street)",
-        "name_tc": "將軍澳(唐俊街)",
-        "name_sc": "将军澳(唐俊街)",
-        "lat": "22.303002",
-        "long": "114.261429",
-        "co": "KMB"
-    },
-    {
         "stop": "E33098F43CF205B8",
         "name_en": "Muk Yuen Street Kai Tak",
         "name_tc": "啟德沐元街",
@@ -59388,15 +59415,6 @@
         "name_sc": "湾仔金紫荆广场",
         "lat": "22.284272",
         "long": "114.173972",
-        "co": "KMB"
-    },
-    {
-        "stop": "FFB9E8929671D06E",
-        "name_en": "Sai Kung North (Sai Kung Police Station)",
-        "name_tc": "西貢北(西貢警署)",
-        "name_sc": "西贡北(西贡警署)",
-        "lat": "22.384029",
-        "long": "114.272477",
         "co": "KMB"
     },
     {
@@ -59797,9 +59815,9 @@
     },
     {
         "stop": "181140364F4E7566",
-        "name_en": "Tsuen Wan West Station Bus Terminus (TW965)",
-        "name_tc": "荃灣西站總站 (TW965)",
-        "name_sc": "荃湾西站总站 (TW965)",
+        "name_en": "Tsuen Wan West Station Bus Terminus",
+        "name_tc": "荃灣西站總站",
+        "name_sc": "荃湾西站总站",
         "lat": "22.367794",
         "long": "114.110858",
         "co": "KMB"
