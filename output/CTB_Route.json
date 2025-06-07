@@ -12442,7 +12442,6 @@
             "001571",
             "001587",
             "001416",
-            "001417",
             "001418",
             "001590"
         ],
@@ -12599,7 +12598,6 @@
             "001477",
             "003301",
             "001416",
-            "001417",
             "001418",
             "001590"
         ],
@@ -19343,7 +19341,6 @@
             "001571",
             "001587",
             "001416",
-            "001417",
             "001418",
             "001422"
         ],
@@ -20975,7 +20972,6 @@
             "001402",
             "001587",
             "001416",
-            "001417",
             "001418",
             "001422"
         ],
@@ -25102,6 +25098,92 @@
     },
     {
         "co": "CTB",
+        "route": "NP1",
+        "orig_tc": "機場／昂坪360 - 東涌纜車站",
+        "orig_en": "Airport / Ngong Ping 360 - Tung Chung Cable Car Station",
+        "dest_tc": "迪士尼",
+        "dest_en": "Disneyland",
+        "orig_sc": "机场／昂坪360 - 东涌缆车站",
+        "dest_sc": "迪士尼",
+        "stops": [
+            "003395",
+            "003893",
+            "003894",
+            "002914",
+            "003892",
+            "003895",
+            "003896"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "NP2",
+        "orig_tc": "昂坪360 - 東涌纜車站",
+        "orig_en": "Ngong Ping 360 - Tung Chung Cable Car Station",
+        "dest_tc": "迪士尼",
+        "dest_en": "Disneyland",
+        "orig_sc": "昂坪360 - 东涌缆车站",
+        "dest_sc": "迪士尼",
+        "stops": [
+            "003893",
+            "002914",
+            "003892",
+            "003895",
+            "003896",
+            "003395"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "NP3",
+        "orig_tc": "昂坪360 - 東涌纜車站",
+        "orig_en": "Ngong Ping 360 - Tung Chung Cable Car Station",
+        "dest_tc": "飛機維修區",
+        "dest_en": "Aircraft Maintenance Area",
+        "orig_sc": "昂坪360 - 东涌缆车站",
+        "dest_sc": "飞机维修区",
+        "stops": [
+            "003893",
+            "001850"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "NP4",
+        "orig_tc": "昂坪360 - 東涌纜車站",
+        "orig_en": "Ngong Ping 360 - Tung Chung Cable Car Station",
+        "dest_tc": "機場 (客運大樓)",
+        "dest_en": "Airport (Passenger Terminal)",
+        "orig_sc": "昂坪360 - 东涌缆车站",
+        "dest_sc": "机场 (客运大楼)",
+        "stops": [
+            "003893",
+            "003395"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "NP5",
+        "orig_tc": "昂坪360 - 東涌纜車站",
+        "orig_en": "Ngong Ping 360 - Tung Chung Cable Car Station",
+        "dest_tc": "迪士尼酒店",
+        "dest_en": "Disneyland Hotels",
+        "orig_sc": "昂坪360 - 东涌缆车站",
+        "dest_sc": "迪士尼酒店",
+        "stops": [
+            "003893",
+            "003892",
+            "003895",
+            "003896"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
         "route": "R11",
         "orig_tc": "迪士尼樂園",
         "orig_en": "Disneyland",
@@ -25452,6 +25534,29 @@
             "003874",
             "003692",
             "001559"
+        ],
+        "bound": "O"
+    },
+    {
+        "co": "CTB",
+        "route": "SP5B",
+        "orig_tc": "啟德體育園",
+        "orig_en": "Kai Tak Sports Park",
+        "dest_tc": "屯門 (菁田及和田)",
+        "dest_en": "Tuen Mun (Ching Tin and Wo Tin)",
+        "orig_sc": "启德体育园",
+        "dest_sc": "屯门 (菁田及和田)",
+        "stops": [
+            "003874",
+            "003359",
+            "003153",
+            "003192",
+            "003431",
+            "003351",
+            "003209",
+            "003760",
+            "003767",
+            "003752"
         ],
         "bound": "O"
     },
