@@ -7,6 +7,7 @@ import httpx
 import operator
 import traceback
 import time
+#import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -111,7 +112,7 @@ async def main():
 
                 nr['overnightRoute'] = r['overnightRoute']
                 nr['specialRoute'] = r['specialRoute']
-                 
+                #GTFS.findGtfsRoute(nr['co'], nr['route'], nr['orig_en'], nr['dest_en']) 
                 tasks.append(getStopList(client, nr))
             nlbList += await asyncio.gather(*tasks)
 

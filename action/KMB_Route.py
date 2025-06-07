@@ -7,6 +7,7 @@ import time
 import httpx
 import traceback
 import GetRoute
+#import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -70,14 +71,40 @@ async def main():
     # Setting the threshold of logger to DEBUG
     logger.setLevel(logging.INFO)
 
-    print("Start getting KMB routes")
-    logging.info("Start getting KMB routes")
 
     try:
-        
+        # check if output/gtfs.json exists
+        """if os.path.exists('output/gtfs.json'):
+                
+            with open('output/gtfs.json', encoding='utf8') as f:
+                gtfsData = json.load(f)
+
+            # Now you can access the routeList dictionary:
+            gtfsRouteList = gtfsData['routeList']
+
+            print(f"Total GTFS routes: {len(gtfsRouteList)}")
+        """
         outputDir = os.path.join(os.getcwd(), output_dir)
         if os.path.exists(outputDir) == False:
             os.mkdir(outputDir)
+
+        print("Start getting KMB stops")
+        logging.info("Start getting KMB stops")
+
+        allStopResponse = requests.get(allStopBaseUrl, timeout=30.0)
+        allStopResponse.raise_for_status()
+        # access Json content
+        allStopObject = allStopResponse.json()
+        
+        allStopList = allStopObject['data']
+        for s in allStopList:
+            s['co'] = 'KMB'
+            s['name_en'] = GetRoute.capWords(s['name_en'])
+            
+        writeToJson(allStopList, kmb_stop_json)
+
+        print("Finish getting KMB stops")
+        logging.info("Finish getting KMB stops")
 
 
         allStopListResponse = requests.get(stopListBaseUrl, timeout=30.0)
@@ -98,19 +125,22 @@ async def main():
 
         #print(stopListDict)
 
+        print("Start getting KMB routes")
+        logging.info("Start getting KMB routes")
+
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
         # access Json content
         routeObject = routeResponse.json()
         
-        routeList = routeObject['data']
+        routeList = routeObject['data']     
 
         for r in routeList:
             r['co'] = "KMB"
             r['orig_en'] = GetRoute.capWords(r['orig_en'])
             r['dest_en'] = GetRoute.capWords(r['dest_en'])
             r['stops'] = stopListDict[(r['route'], r['bound'], r['service_type'])]
-        
+            #GTFS.findGtfsRoute(r['co'], r['route'], r['orig_en'], r['dest_en'])
         writeToJson(routeList, kmb_route_json)
 
         """
@@ -133,20 +163,6 @@ async def main():
         print("Finish getting KMB routes")
         logging.info("Finish getting KMB rotues")
 
-        allStopResponse = requests.get(allStopBaseUrl, timeout=30.0)
-        allStopResponse.raise_for_status()
-        # access Json content
-        allStopObject = allStopResponse.json()
-        
-        allStopList = allStopObject['data']
-        for s in allStopList:
-            s['co'] = 'KMB'
-            s['name_en'] = GetRoute.capWords(s['name_en'])
-            
-        writeToJson(allStopList, kmb_stop_json)
-
-        print("Finish getting KMB stops")
-        logging.info("Finish getting KMB stops")
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
