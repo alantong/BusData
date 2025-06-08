@@ -5084,9 +5084,9 @@
         "orig_en": "Anderson",
         "orig_tc": "安達臣",
         "orig_sc": "安达臣",
-        "dest_en": "Diamond Hill (Circular)",
-        "dest_tc": "鑽石山(循環線)",
-        "dest_sc": "钻石山(循环线)",
+        "dest_en": "Diamond Hill (Choi Hung Road)",
+        "dest_tc": "鑽石山(彩虹道)",
+        "dest_sc": "钻石山(彩虹道)",
         "co": "KMB",
         "stops": [
             "5FC1356198AD471D",
@@ -5096,6 +5096,21 @@
             "3BA9C90738A8600D",
             "29B66F2353388E18",
             "AB194503D9CC9465",
+            "17EC583ACAB167BE"
+        ]
+    },
+    {
+        "route": "19",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Diamond Hill (Choi Hung Road)",
+        "orig_tc": "鑽石山(彩虹道)",
+        "orig_sc": "钻石山(彩虹道)",
+        "dest_en": "Anderson",
+        "dest_tc": "安達臣",
+        "dest_sc": "安达臣",
+        "co": "KMB",
+        "stops": [
             "17EC583ACAB167BE",
             "2EFDB1EADF5955E6",
             "E7116B44D9E9393A",
