@@ -45,8 +45,8 @@ jobs:
           file-path: |
             output/*.json
             log/*.log
-            FGDB/BUS/*.json
-            FGDB/GMB/*.json
+          #FGDB/BUS/*.json
+          #FGDB/GMB/*.json
           commit-msg: Update resources
           github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
