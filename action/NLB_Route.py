@@ -93,7 +93,7 @@ async def main(routes):
 
         async with httpx.AsyncClient() as client:
             for r in routeList:
-                #time.sleep(0.05)
+                time.sleep(0.05)
                 nr = dict()
                 nr['co'] = 'NLB'
                 nr['routeId'] = r['routeId']

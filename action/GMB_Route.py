@@ -115,6 +115,7 @@ async def main():
             async with httpx.AsyncClient(timeout=30.0) as client:
                 tasks = []
                 for r in routeList:
+                    time.sleep(0.05)
                     tasks.append(limited_getRouteName(client, region, r))
                 await asyncio.gather(*tasks)
             
