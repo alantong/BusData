@@ -1,113 +1,159 @@
-24-Jun-25 05:08:42 | nlb - INFO - Start getting NLB routes
-24-Jun-25 05:08:56 | nlb - ERROR - Other error occurred: 
-24-Jun-25 05:08:56 | nlb - ERROR - 
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/anyio/streams/tls.py", line 131, in _call_sslobject_method
-    result = func(*args)
-             ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/ssl.py", line 921, in read
-    v = self._sslobj.read(len)
-        ^^^^^^^^^^^^^^^^^^^^^^
-ssl.SSLWantReadError: The operation did not complete (read) (_ssl.c:2590)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 34, in read
-    return await self._stream.receive(max_bytes=max_bytes)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/anyio/streams/tls.py", line 196, in receive
-    data = await self._call_sslobject_method(self._ssl_object.read, max_bytes)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/anyio/streams/tls.py", line 138, in _call_sslobject_method
-    data = await self.transport_stream.receive()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1203, in receive
-    await self._protocol.read_event.wait()
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/asyncio/locks.py", line 213, in wait
-    await fut
-asyncio.exceptions.CancelledError
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_exceptions.py", line 10, in map_exceptions
-    yield
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
-    with anyio.fail_after(timeout):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/anyio/_core/_tasks.py", line 119, in __exit__
-    raise TimeoutError
-TimeoutError
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
-    yield
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 353, in handle_async_request
-    resp = await self._pool.handle_async_request(req)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 262, in handle_async_request
-    raise exc
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 245, in handle_async_request
-    response = await connection.handle_async_request(request)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/connection.py", line 96, in handle_async_request
-    return await self._connection.handle_async_request(request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/http11.py", line 121, in handle_async_request
-    raise exc
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/http11.py", line 99, in handle_async_request
-    ) = await self._receive_response_headers(**kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/http11.py", line 164, in _receive_response_headers
-    event = await self._receive_event(timeout=timeout)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_async/http11.py", line 200, in _receive_event
-    data = await self._network_stream.read(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 31, in read
-    with map_exceptions(exc_map):
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/contextlib.py", line 158, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ReadTimeout
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 112, in main
-    nlbList += await asyncio.gather(*tasks)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 92, in limited_getStopList
-    return await getStopList(client, nr)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 51, in getStopList
-    stopListResponse = await client.get(stopListUrl)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1757, in get
-    return await self.request(
-           ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1530, in request
-    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1617, in send
-    response = await self._send_handling_auth(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1645, in _send_handling_auth
-    response = await self._send_handling_redirects(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1682, in _send_handling_redirects
-    response = await self._send_single_request(request)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_client.py", line 1719, in _send_single_request
-    response = await transport.handle_async_request(request)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 352, in handle_async_request
-    with map_httpcore_exceptions():
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/contextlib.py", line 158, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ReadTimeout
+24-Jun-25 19:16:20 | nlb - INFO - Start getting NLB routes
+24-Jun-25 19:16:41 | nlb - INFO - Finish getting NLB routes
+24-Jun-25 19:16:41 | nlb - INFO - Start getting NLB stops
+24-Jun-25 19:16:41 | nlb - INFO - Finish getting NLB stops
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 1 from 梅窩碼頭 to 大澳 | routeCount: 5
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1723, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8567, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8568, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8569, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8570, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 1 from 大澳 to 梅窩碼頭 | routeCount: 4
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1723, 2] 大澳 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8567, 2] 大澳 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8568, 2] 大澳 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8569, 2] 大澳 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 1R from 紅磡 (紅鸞道) to 昂坪 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8071, 1] 紅磡 (紅鸞道) - 昂坪
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 2 from 梅窩碼頭 to 昂坪 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1725, 1] 梅窩碼頭 - 昂坪
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 2 from 昂坪 to 梅窩碼頭 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1725, 2] 昂坪 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 3M from 東涌站巴士總站 to 梅窩碼頭 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1732, 2] 東涌站巴士總站 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8571, 2] 東涌站巴士總站 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 3M from 梅窩碼頭 to 東涌站巴士總站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1732, 1] 梅窩碼頭 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8571, 1] 梅窩碼頭 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 3M from 梅窩 (貝澳開) to 東涌站巴士總站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8572, 1] 老圍村 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8533, 1] 梅窩碼頭 - 塘福
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 4 from 塘福 to 梅窩碼頭 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8533, 2] 塘福 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8573, 1] 塘福 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 4 from 塘福 (水口開) to 梅窩碼頭 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1733, 2] 水口村(東) - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福 (至水口) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1733, 1] 梅窩碼頭 - 水口村(東)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11 from 東涌站巴士總站 to 大澳 | routeCount: 5
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1724, 1] 東涌站巴士總站 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8560, 1] 東涌站巴士總站 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8561, 1] 東涌站巴士總站 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8562, 1] 東涌站巴士總站 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8566, 1] 東涌站巴士總站 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11 from 大澳 to 東涌站巴士總站 | routeCount: 5
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1724, 2] 大澳 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8560, 2] 大澳 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8561, 2] 大澳 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8562, 2] 大澳 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8566, 2] 大澳 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11A from 東涌站巴士總站 to 石壁 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8232, 1] 東涌站巴士總站 - 沙咀懲教所
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8565, 1] 東涌站巴士總站 - 沙咀懲教所
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11A from 石壁 to 東涌站巴士總站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8232, 2] 沙咀懲教所 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8565, 2] 沙咀懲教所 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11 from 大澳 (沙咀開) to 東涌站巴士總站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000069, 1] 沙咀懲教所 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000070, 1] 沙咀懲教所 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 11 from 大澳 (水口開) to 東涌站巴士總站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8563, 1] 水口村(東) - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8564, 1] 水口村(東) - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 21 from 昂坪 to 大澳 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1726, 2] 昂坪 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 21 from 大澳 to 昂坪 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1726, 1] 大澳 - 昂坪
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 23 from 東涌達東路巴士總站 to 昂坪 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1727, 1] 東涌達東路巴士總站 - 昂坪
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 23 from 昂坪 to 東涌達東路巴士總站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1727, 2] 昂坪 - 東涌達東路巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 34 from 東涌達東路巴士總站 to 石門甲 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1728, 1] 東涌達東路巴士總站 - 石門甲
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8327, 2] 東涌達東路巴士總站 - 石門甲
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 34 from 石門甲 to 東涌達東路巴士總站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1728, 2] 石門甲 - 東涌達東路巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8327, 1] 石門甲 - 東涌達東路巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 38X from 逸東邨 (裕東路) to 東涌站巴士總站 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1961, 1] 逸東邨雍逸樓 - 逸東邨雍逸樓
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 38 from 逸東邨 to 東涌站巴士總站 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1731, 1] 逸東邨 - 逸東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2P from 天水圍 (天慈邨) to 深圳灣口岸 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8068, 1] 天水圍 (天慈邨) - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8068, 2] 深圳灣口岸 - 天水圍 (天慈邨)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2P from 深圳灣口岸 to 天水圍 (天慈邨) | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8068, 1] 天水圍 (天慈邨) - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8068, 2] 深圳灣口岸 - 天水圍 (天慈邨)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2X from 天水圍 (天耀邨) to 深圳灣口岸 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8186, 1] 天水圍 (天耀邨) - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8186, 2] 深圳灣口岸 - 天水圍 (天耀邨)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2X from 深圳灣口岸 to 天水圍 (天耀邨) | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8186, 1] 天水圍 (天耀邨) - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8186, 2] 深圳灣口岸 - 天水圍 (天耀邨)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2 from 元朗港鐵站 to 深圳灣口岸 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1735, 1] 元朗港鐵站 - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1735, 2] 深圳灣口岸 - 元朗港鐵站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B2 from 深圳灣口岸 to 元朗港鐵站 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1735, 1] 元朗港鐵站 - 深圳灣口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1735, 2] 深圳灣口岸 - 元朗港鐵站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N1 from 梅窩碼頭 to 大澳 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1736, 1] 梅窩碼頭 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N38 from 逸東邨 to 東涌站巴士總站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1738, 1] 逸東邨 - 東涌港鐵站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N38 from 東涌站巴士總站 to 逸東邨 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1738, 2] 東涌港鐵站 - 逸東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37P from 逸東邨 (裕東路) to 映灣園 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1959, 1] 逸東邨雍逸樓 - 映灣園
+24-Jun-25 19:16:41 | nlb - INFO - Cannot find GTFS route for NLB 7S from 梅窩碼頭 to 禮智園墳場
+24-Jun-25 19:16:41 | nlb - INFO - Cannot find GTFS route for NLB 34S from 東涌達東路巴士總站 to 十八區墳場 (循環線)
+24-Jun-25 19:16:41 | nlb - INFO - Cannot find GTFS route for NLB 7S from 禮智園墳場 to 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37S from 東涌發展碼頭 to 東涌站巴士總站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8424, 1] 東涌發展碼頭 - 東涌港鐵站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37 from 逸東邨 to 迎東邨 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8205, 1] 逸東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000267, 1] 逸東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37 from 迎東邨 to 逸東邨 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8205, 2] 迎東邨 - 逸東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37M from 迎東邨 to 東涌站巴士總站 (循環線) | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8331, 1] 迎東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000358, 1] 迎東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N37 from 迎東邨 to 東涌站巴士總站 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8707, 1] 迎東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B4 from 大橋香港口岸 to 機場 (客運大樓) (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8633, 1] 大橋香港口岸 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B6 from 大橋香港口岸 to 滿東邨 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8635, 2] 大橋香港口岸 - 滿東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B6 from 滿東邨 to 大橋香港口岸 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8635, 1] 滿東邨 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB A35 from 梅窩碼頭 to 大橋香港口岸 | routeCount: 3
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1734, 1] 梅窩碼頭 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8574, 1] 梅窩碼頭 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8575, 1] 梅窩碼頭 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB A35 from 大橋香港口岸 to 梅窩碼頭 | routeCount: 2
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1734, 2] 大橋香港口岸 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8574, 2] 大橋香港口岸 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N35 from 梅窩碼頭 to 大橋香港口岸 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1737, 1] 梅窩碼頭 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB N35 from 大橋香港口岸 to 梅窩碼頭 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1737, 2] 大橋香港口岸 - 梅窩碼頭
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 39M from 東涌站巴士總站 to 滿東邨 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8645, 1] 東涌站巴士總站 - 東涌站巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37H from 迎東邨 to 北大嶼山醫院 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 8290, 1] 迎東邨 - 迎東邨
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 36X from 滿東邨 to 迪士尼樂園 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000208, 1] 滿東邨 - 迪士尼樂園
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 36 from 東涌達東路巴士總站 to 迪士尼樂園 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1729, 1] 東涌達東路巴士總站 - 迪士尼樂園
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 36 from 迪士尼樂園 to 東涌達東路巴士總站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1729, 2] 迪士尼樂園 - 東涌達東路巴士總站
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 37A from 裕雅苑 to 東涌站巴士總站 (循環線) | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000359, 1] 裕雅苑 - 裕雅苑
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB X11R from 東涌世茂喜來登酒店 to 大澳 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000442, 1] 東涌世茂喜來登酒店 - 大澳
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB X11R from 大澳 to 東涌世茂喜來登酒店 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000442, 2] 大澳 - 東涌世茂喜來登酒店
+24-Jun-25 19:16:41 | nlb - INFO - Cannot find GTFS route for NLB NB2 from 深圳灣口岸 to 元朗港鐵站 (循環線)
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB B6S from 滿東邨 to 大橋香港口岸 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000568, 1] 滿東邨 - 大橋香港口岸
+24-Jun-25 19:16:41 | nlb - INFO - GTFS route for NLB 36M from 裕雅苑 to 欣澳站 | routeCount: 1
+24-Jun-25 19:16:41 | nlb - INFO - ['NLB', 1000591, 1] 裕雅苑 - 欣澳站
