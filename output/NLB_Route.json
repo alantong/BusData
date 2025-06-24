@@ -1,17 +1,17 @@
 [
     {
-        "co": "NLB",
-        "routeId": "1",
-        "route": "1",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "大澳",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "大澳",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Tai O",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"1",
+        "route":"1",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"大澳",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"大澳",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Tai O",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "2",
             "3",
@@ -68,21 +68,48 @@
             "53",
             "54",
             "55"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1723,
+                1
+            ],
+            [
+                "NLB",
+                8567,
+                1
+            ],
+            [
+                "NLB",
+                8568,
+                1
+            ],
+            [
+                "NLB",
+                8569,
+                1
+            ],
+            [
+                "NLB",
+                8570,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "2",
-        "route": "1",
-        "orig_tc": "大澳",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "大澳",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Tai O",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"2",
+        "route":"1",
+        "orig_tc":"大澳",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"大澳",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Tai O",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "221",
             "222",
             "224",
@@ -135,21 +162,43 @@
             "4",
             "5",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1723,
+                2
+            ],
+            [
+                "NLB",
+                8567,
+                2
+            ],
+            [
+                "NLB",
+                8568,
+                2
+            ],
+            [
+                "NLB",
+                8569,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "3",
-        "route": "1R",
-        "orig_tc": "紅磡 (紅鸞道)",
-        "dest_tc": "昂坪",
-        "orig_sc": "红磡 (红鸾道)",
-        "dest_sc": "昂坪",
-        "orig_en": "Hung Hom (Hung Luen Road)",
-        "dest_en": "Ngong Ping",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"3",
+        "route":"1R",
+        "orig_tc":"紅磡 (紅鸞道)",
+        "dest_tc":"昂坪",
+        "orig_sc":"红磡 (红鸾道)",
+        "dest_sc":"昂坪",
+        "orig_en":"Hung Hom (Hung Luen Road)",
+        "dest_en":"Ngong Ping",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "127",
             "128",
             "129",
@@ -160,21 +209,28 @@
             "317",
             "28",
             "62"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8071,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "4",
-        "route": "2",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "昂坪",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "昂坪",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Ngong Ping",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"4",
+        "route":"2",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"昂坪",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"昂坪",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Ngong Ping",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "6",
             "7",
@@ -214,21 +270,28 @@
             "269",
             "59",
             "62"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1725,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "5",
-        "route": "2",
-        "orig_tc": "昂坪",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "昂坪",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Ngong Ping",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"5",
+        "route":"2",
+        "orig_tc":"昂坪",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"昂坪",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Ngong Ping",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "270",
             "271",
             "43",
@@ -268,21 +331,28 @@
             "266",
             "57",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1725,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "6",
-        "route": "3M",
-        "orig_tc": "東涌站巴士總站",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "东涌站巴士总站",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Tung Chung Station Bus Terminus",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"6",
+        "route":"3M",
+        "orig_tc":"東涌站巴士總站",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"东涌站巴士总站",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Tung Chung Station Bus Terminus",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "278",
             "80",
             "81",
@@ -317,21 +387,33 @@
             "4",
             "5",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1732,
+                2
+            ],
+            [
+                "NLB",
+                8571,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "7",
-        "route": "3M",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"7",
+        "route":"3M",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "2",
             "3",
@@ -367,21 +449,33 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1732,
+                1
+            ],
+            [
+                "NLB",
+                8571,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "8",
-        "route": "3M",
-        "orig_tc": "梅窩 (貝澳開)",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "梅窝 (贝澳开)",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Mui Wo (from Pui O)",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"8",
+        "route":"3M",
+        "orig_tc":"梅窩 (貝澳開)",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"梅窝 (贝澳开)",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Mui Wo (from Pui O)",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "12",
             "13",
             "14",
@@ -404,21 +498,28 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8572,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "9",
-        "route": "4",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "塘福",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "塘福",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Tong Fuk",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"9",
+        "route":"4",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"塘福",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"塘福",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Tong Fuk",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "6",
             "7",
@@ -444,21 +545,28 @@
             "26",
             "27",
             "181"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8533,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "10",
-        "route": "4",
-        "orig_tc": "塘福",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "塘福",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Tong Fuk",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"10",
+        "route":"4",
+        "orig_tc":"塘福",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"塘福",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Tong Fuk",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "181",
             "246",
             "247",
@@ -488,21 +596,33 @@
             "4",
             "5",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8533,
+                2
+            ],
+            [
+                "NLB",
+                8573,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "11",
-        "route": "4",
-        "orig_tc": "塘福 (水口開)",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "塘福 (水口开)",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Tong Fuk (from Shui Hau)",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"11",
+        "route":"4",
+        "orig_tc":"塘福 (水口開)",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"塘福 (水口开)",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Tong Fuk (from Shui Hau)",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "240",
             "241",
             "242",
@@ -533,21 +653,28 @@
             "266",
             "57",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1733,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "12",
-        "route": "4",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "塘福 (至水口)",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "塘福 (至水口)",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Tong Fuk (to Shui Hau)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"12",
+        "route":"4",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"塘福 (至水口)",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"塘福 (至水口)",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Tong Fuk (to Shui Hau)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "2",
             "3",
@@ -584,21 +711,28 @@
             "33",
             "34",
             "240"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1733,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "13",
-        "route": "11",
-        "orig_tc": "東涌站巴士總站",
-        "dest_tc": "大澳",
-        "orig_sc": "东涌站巴士总站",
-        "dest_sc": "大澳",
-        "orig_en": "Tung Chung Station Bus Terminus",
-        "dest_en": "Tai O",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"13",
+        "route":"11",
+        "orig_tc":"東涌站巴士總站",
+        "dest_tc":"大澳",
+        "orig_sc":"东涌站巴士总站",
+        "dest_sc":"大澳",
+        "orig_en":"Tung Chung Station Bus Terminus",
+        "dest_en":"Tai O",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "278",
             "80",
             "81",
@@ -653,21 +787,48 @@
             "53",
             "54",
             "55"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1724,
+                1
+            ],
+            [
+                "NLB",
+                8560,
+                1
+            ],
+            [
+                "NLB",
+                8561,
+                1
+            ],
+            [
+                "NLB",
+                8562,
+                1
+            ],
+            [
+                "NLB",
+                8566,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "14",
-        "route": "11",
-        "orig_tc": "大澳",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "大澳",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Tai O",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"14",
+        "route":"11",
+        "orig_tc":"大澳",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"大澳",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Tai O",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "221",
             "222",
             "224",
@@ -721,21 +882,48 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1724,
+                2
+            ],
+            [
+                "NLB",
+                8560,
+                2
+            ],
+            [
+                "NLB",
+                8561,
+                2
+            ],
+            [
+                "NLB",
+                8562,
+                2
+            ],
+            [
+                "NLB",
+                8566,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "15",
-        "route": "11A",
-        "orig_tc": "東涌站巴士總站",
-        "dest_tc": "石壁",
-        "orig_sc": "东涌站巴士总站",
-        "dest_sc": "石壁",
-        "orig_en": "Tung Chung Station Bus Terminus",
-        "dest_en": "Shek Pik",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"15",
+        "route":"11A",
+        "orig_tc":"東涌站巴士總站",
+        "dest_tc":"石壁",
+        "orig_sc":"东涌站巴士总站",
+        "dest_sc":"石壁",
+        "orig_en":"Tung Chung Station Bus Terminus",
+        "dest_en":"Shek Pik",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "278",
             "80",
             "81",
@@ -773,21 +961,33 @@
             "39",
             "41",
             "40"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8232,
+                1
+            ],
+            [
+                "NLB",
+                8565,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "16",
-        "route": "11A",
-        "orig_tc": "石壁",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "石壁",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Shek Pik",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"16",
+        "route":"11A",
+        "orig_tc":"石壁",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"石壁",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Shek Pik",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "40",
             "235",
             "236",
@@ -827,21 +1027,33 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8232,
+                2
+            ],
+            [
+                "NLB",
+                8565,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "17",
-        "route": "11",
-        "orig_tc": "大澳 (沙咀開)",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "大澳 (沙咀开)",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Tai O (from Sha Tsui)",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"17",
+        "route":"11",
+        "orig_tc":"大澳 (沙咀開)",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"大澳 (沙咀开)",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Tai O (from Sha Tsui)",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "40",
             "236",
             "237",
@@ -880,21 +1092,33 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000069,
+                1
+            ],
+            [
+                "NLB",
+                1000070,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "18",
-        "route": "11",
-        "orig_tc": "大澳 (水口開)",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "大澳 (水口开)",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Tai O (from Shui Hau)",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"18",
+        "route":"11",
+        "orig_tc":"大澳 (水口開)",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"大澳 (水口开)",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Tai O (from Shui Hau)",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "240",
             "241",
             "242",
@@ -926,21 +1150,33 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8563,
+                1
+            ],
+            [
+                "NLB",
+                8564,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "19",
-        "route": "21",
-        "orig_tc": "昂坪",
-        "dest_tc": "大澳",
-        "orig_sc": "昂坪",
-        "dest_sc": "大澳",
-        "orig_en": "Ngong Ping",
-        "dest_en": "Tai O",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"19",
+        "route":"21",
+        "orig_tc":"昂坪",
+        "dest_tc":"大澳",
+        "orig_sc":"昂坪",
+        "dest_sc":"大澳",
+        "orig_en":"Ngong Ping",
+        "dest_en":"Tai O",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "270",
             "271",
             "43",
@@ -956,21 +1192,28 @@
             "53",
             "54",
             "55"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1726,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "20",
-        "route": "21",
-        "orig_tc": "大澳",
-        "dest_tc": "昂坪",
-        "orig_sc": "大澳",
-        "dest_sc": "昂坪",
-        "orig_en": "Tai O",
-        "dest_en": "Ngong Ping",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"20",
+        "route":"21",
+        "orig_tc":"大澳",
+        "dest_tc":"昂坪",
+        "orig_sc":"大澳",
+        "dest_sc":"昂坪",
+        "orig_en":"Tai O",
+        "dest_en":"Ngong Ping",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "221",
             "222",
             "224",
@@ -985,21 +1228,28 @@
             "59",
             "60",
             "62"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1726,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "21",
-        "route": "23",
-        "orig_tc": "東涌達東路巴士總站",
-        "dest_tc": "昂坪",
-        "orig_sc": "东涌达东路巴士总站",
-        "dest_sc": "昂坪",
-        "orig_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "dest_en": "Ngong Ping",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"21",
+        "route":"23",
+        "orig_tc":"東涌達東路巴士總站",
+        "dest_tc":"昂坪",
+        "orig_sc":"东涌达东路巴士总站",
+        "dest_sc":"昂坪",
+        "orig_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "dest_en":"Ngong Ping",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "317",
             "81",
             "94",
@@ -1038,21 +1288,28 @@
             "59",
             "60",
             "62"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1727,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "22",
-        "route": "23",
-        "orig_tc": "昂坪",
-        "dest_tc": "東涌達東路巴士總站",
-        "orig_sc": "昂坪",
-        "dest_sc": "东涌达东路巴士总站",
-        "orig_en": "Ngong Ping",
-        "dest_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"22",
+        "route":"23",
+        "orig_tc":"昂坪",
+        "dest_tc":"東涌達東路巴士總站",
+        "orig_sc":"昂坪",
+        "dest_sc":"东涌达东路巴士总站",
+        "orig_en":"Ngong Ping",
+        "dest_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "270",
             "271",
             "43",
@@ -1093,21 +1350,28 @@
             "77",
             "78",
             "318"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1727,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "23",
-        "route": "34",
-        "orig_tc": "東涌達東路巴士總站",
-        "dest_tc": "石門甲",
-        "orig_sc": "东涌达东路巴士总站",
-        "dest_sc": "石门甲",
-        "orig_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "dest_en": "Shek Mun Kap",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"23",
+        "route":"34",
+        "orig_tc":"東涌達東路巴士總站",
+        "dest_tc":"石門甲",
+        "orig_sc":"东涌达东路巴士总站",
+        "dest_sc":"石门甲",
+        "orig_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "dest_en":"Shek Mun Kap",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "317",
             "80",
             "81",
@@ -1123,21 +1387,33 @@
             "283",
             "92",
             "291"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1728,
+                1
+            ],
+            [
+                "NLB",
+                8327,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "24",
-        "route": "34",
-        "orig_tc": "石門甲",
-        "dest_tc": "東涌達東路巴士總站",
-        "orig_sc": "石门甲",
-        "dest_sc": "东涌达东路巴士总站",
-        "orig_en": "Shek Mun Kap",
-        "dest_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"24",
+        "route":"34",
+        "orig_tc":"石門甲",
+        "dest_tc":"東涌達東路巴士總站",
+        "orig_sc":"石门甲",
+        "dest_sc":"东涌达东路巴士总站",
+        "orig_en":"Shek Mun Kap",
+        "dest_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "93",
             "292",
             "68",
@@ -1154,21 +1430,33 @@
             "77",
             "78",
             "318"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1728,
+                2
+            ],
+            [
+                "NLB",
+                8327,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "29",
-        "route": "38X",
-        "orig_tc": "逸東邨 (裕東路)",
-        "dest_tc": "東涌站巴士總站 (循環線)",
-        "orig_sc": "逸东邨 (裕东路)",
-        "dest_sc": "东涌站巴士总站 (循环线)",
-        "orig_en": "Yat Tung Estate (Yu Tung Road)",
-        "dest_en": "Tung Chung Station Bus Terminus (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"29",
+        "route":"38X",
+        "orig_tc":"逸東邨 (裕東路)",
+        "dest_tc":"東涌站巴士總站 (循環線)",
+        "orig_sc":"逸东邨 (裕东路)",
+        "dest_sc":"东涌站巴士总站 (循环线)",
+        "orig_en":"Yat Tung Estate (Yu Tung Road)",
+        "dest_en":"Tung Chung Station Bus Terminus (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "104",
             "185",
             "76",
@@ -1181,21 +1469,28 @@
             "102",
             "103",
             "306"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1961,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "30",
-        "route": "38",
-        "orig_tc": "逸東邨",
-        "dest_tc": "東涌站巴士總站 (循環線)",
-        "orig_sc": "逸东邨",
-        "dest_sc": "东涌站巴士总站 (循环线)",
-        "orig_en": "Yat Tung Estate",
-        "dest_en": "Tung Chung Station Bus Terminus (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"30",
+        "route":"38",
+        "orig_tc":"逸東邨",
+        "dest_tc":"東涌站巴士總站 (循環線)",
+        "orig_sc":"逸东邨",
+        "dest_sc":"东涌站巴士总站 (循环线)",
+        "orig_en":"Yat Tung Estate",
+        "dest_en":"Tung Chung Station Bus Terminus (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "289",
             "76",
             "77",
@@ -1205,21 +1500,28 @@
             "185",
             "88",
             "89"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1731,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "33",
-        "route": "B2P",
-        "orig_tc": "天水圍 (天慈邨)",
-        "dest_tc": "深圳灣口岸",
-        "orig_sc": "天水围 (天慈邨)",
-        "dest_sc": "深圳湾口岸",
-        "orig_en": "Tin Shui Wai (Tin Tsz Estate)",
-        "dest_en": "Shenzhen Bay Port",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"33",
+        "route":"B2P",
+        "orig_tc":"天水圍 (天慈邨)",
+        "dest_tc":"深圳灣口岸",
+        "orig_sc":"天水围 (天慈邨)",
+        "dest_sc":"深圳湾口岸",
+        "orig_en":"Tin Shui Wai (Tin Tsz Estate)",
+        "dest_en":"Shenzhen Bay Port",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "203",
             "163",
             "164",
@@ -1230,21 +1532,33 @@
             "169",
             "207",
             "152"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8068,
+                1
+            ],
+            [
+                "NLB",
+                8068,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "34",
-        "route": "B2P",
-        "orig_tc": "深圳灣口岸",
-        "dest_tc": "天水圍 (天慈邨)",
-        "orig_sc": "深圳湾口岸",
-        "dest_sc": "天水围 (天慈邨)",
-        "orig_en": "Shenzhen Bay Port",
-        "dest_en": "Tin Shui Wai (Tin Tsz Estate)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"34",
+        "route":"B2P",
+        "orig_tc":"深圳灣口岸",
+        "dest_tc":"天水圍 (天慈邨)",
+        "orig_sc":"深圳湾口岸",
+        "dest_sc":"天水围 (天慈邨)",
+        "orig_en":"Shenzhen Bay Port",
+        "dest_en":"Tin Shui Wai (Tin Tsz Estate)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "152",
             "170",
             "171",
@@ -1255,58 +1569,94 @@
             "174",
             "175",
             "162"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8068,
+                1
+            ],
+            [
+                "NLB",
+                8068,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "35",
-        "route": "B2X",
-        "orig_tc": "天水圍 (天耀邨)",
-        "dest_tc": "深圳灣口岸",
-        "orig_sc": "天水围 (天耀邨)",
-        "dest_sc": "深圳湾口岸",
-        "orig_en": "Tin Shui Wai (Tin Yiu Estate)",
-        "dest_en": "Shenzhen Bay Port",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"35",
+        "route":"B2X",
+        "orig_tc":"天水圍 (天耀邨)",
+        "dest_tc":"深圳灣口岸",
+        "orig_sc":"天水围 (天耀邨)",
+        "dest_sc":"深圳湾口岸",
+        "orig_en":"Tin Shui Wai (Tin Yiu Estate)",
+        "dest_en":"Shenzhen Bay Port",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "176",
             "169",
             "207",
             "152"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8186,
+                1
+            ],
+            [
+                "NLB",
+                8186,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "36",
-        "route": "B2X",
-        "orig_tc": "深圳灣口岸",
-        "dest_tc": "天水圍 (天耀邨)",
-        "orig_sc": "深圳湾口岸",
-        "dest_sc": "天水围 (天耀邨)",
-        "orig_en": "Shenzhen Bay Port",
-        "dest_en": "Tin Shui Wai (Tin Yiu Estate)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"36",
+        "route":"B2X",
+        "orig_tc":"深圳灣口岸",
+        "dest_tc":"天水圍 (天耀邨)",
+        "orig_sc":"深圳湾口岸",
+        "dest_sc":"天水围 (天耀邨)",
+        "orig_en":"Shenzhen Bay Port",
+        "dest_en":"Tin Shui Wai (Tin Yiu Estate)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "152",
             "170",
             "176"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8186,
+                1
+            ],
+            [
+                "NLB",
+                8186,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "37",
-        "route": "B2",
-        "orig_tc": "元朗港鐵站",
-        "dest_tc": "深圳灣口岸",
-        "orig_sc": "元朗港铁站",
-        "dest_sc": "深圳湾口岸",
-        "orig_en": "Yuen Long MTR Station",
-        "dest_en": "Shenzhen Bay Port",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"37",
+        "route":"B2",
+        "orig_tc":"元朗港鐵站",
+        "dest_tc":"深圳灣口岸",
+        "orig_sc":"元朗港铁站",
+        "dest_sc":"深圳湾口岸",
+        "orig_en":"Yuen Long MTR Station",
+        "dest_en":"Shenzhen Bay Port",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "161",
             "135",
             "136",
@@ -1327,21 +1677,33 @@
             "150",
             "151",
             "152"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1735,
+                1
+            ],
+            [
+                "NLB",
+                1735,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "38",
-        "route": "B2",
-        "orig_tc": "深圳灣口岸",
-        "dest_tc": "元朗港鐵站",
-        "orig_sc": "深圳湾口岸",
-        "dest_sc": "元朗港铁站",
-        "orig_en": "Shenzhen Bay Port",
-        "dest_en": "Yuen Long MTR Station",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"38",
+        "route":"B2",
+        "orig_tc":"深圳灣口岸",
+        "dest_tc":"元朗港鐵站",
+        "orig_sc":"深圳湾口岸",
+        "dest_sc":"元朗港铁站",
+        "orig_en":"Shenzhen Bay Port",
+        "dest_en":"Yuen Long MTR Station",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "152",
             "196",
             "153",
@@ -1358,21 +1720,33 @@
             "159",
             "160",
             "134"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1735,
+                1
+            ],
+            [
+                "NLB",
+                1735,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "40",
-        "route": "N1",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "大澳",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "大澳",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Tai O",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"40",
+        "route":"N1",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"大澳",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"大澳",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Tai O",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "1",
             "6",
             "7",
@@ -1422,100 +1796,129 @@
             "53",
             "54",
             "55"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1736,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "44",
-        "route": "N38",
-        "orig_tc": "逸東邨",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "逸东邨",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Yat Tung Estate",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"44",
+        "route":"N38",
+        "orig_tc":"逸東邨",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"逸东邨",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Yat Tung Estate",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "289",
             "76",
             "77",
             "78",
             "105"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1738,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "45",
-        "route": "N38",
-        "orig_tc": "東涌站巴士總站",
-        "dest_tc": "逸東邨",
-        "orig_sc": "东涌站巴士总站",
-        "dest_sc": "逸东邨",
-        "orig_en": "Tung Chung Station Bus Terminus",
-        "dest_en": "Yat Tung Estate",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"45",
+        "route":"N38",
+        "orig_tc":"東涌站巴士總站",
+        "dest_tc":"逸東邨",
+        "orig_sc":"东涌站巴士总站",
+        "dest_sc":"逸东邨",
+        "orig_en":"Tung Chung Station Bus Terminus",
+        "dest_en":"Yat Tung Estate",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "105",
             "81",
             "185",
             "88",
             "89"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1738,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "63",
-        "route": "37P",
-        "orig_tc": "逸東邨 (裕東路)",
-        "dest_tc": "映灣園",
-        "orig_sc": "逸东邨 (裕东路)",
-        "dest_sc": "映湾园",
-        "orig_en": "Yung Yat House (Yu Tung Road)",
-        "dest_en": "Caribbean Coast",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"63",
+        "route":"37P",
+        "orig_tc":"逸東邨 (裕東路)",
+        "dest_tc":"映灣園",
+        "orig_sc":"逸东邨 (裕东路)",
+        "dest_sc":"映湾园",
+        "orig_en":"Yung Yat House (Yu Tung Road)",
+        "dest_en":"Caribbean Coast",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "104",
             "112",
             "315"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1959,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "70",
-        "route": "7S",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "禮智園墳場",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "礼智园坟场",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "Lai Chi Yuen Cemetery",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"70",
+        "route":"7S",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"禮智園墳場",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"礼智园坟场",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"Lai Chi Yuen Cemetery",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "1",
             "2",
             "3",
             "4",
             "5",
             "56"
-        ]
+        ],
+        "gtfsRouteKey":[]
     },
     {
-        "co": "NLB",
-        "routeId": "71",
-        "route": "34S",
-        "orig_tc": "東涌達東路巴士總站",
-        "dest_tc": "十八區墳場 (循環線)",
-        "orig_sc": "东涌达东路巴士总站",
-        "dest_sc": "十八区坟场 (循环线)",
-        "orig_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "dest_en": "Cemetery Area No. 18 (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"71",
+        "route":"34S",
+        "orig_tc":"東涌達東路巴士總站",
+        "dest_tc":"十八區墳場 (循環線)",
+        "orig_sc":"东涌达东路巴士总站",
+        "dest_sc":"十八区坟场 (循环线)",
+        "orig_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "dest_en":"Cemetery Area No. 18 (Circular)",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "317",
             "80",
             "81",
@@ -1543,60 +1946,69 @@
             "77",
             "78",
             "317"
-        ]
+        ],
+        "gtfsRouteKey":[]
     },
     {
-        "co": "NLB",
-        "routeId": "72",
-        "route": "7S",
-        "orig_tc": "禮智園墳場",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "礼智园坟场",
-        "dest_sc": "梅窝码头",
-        "orig_en": "Lai Chi Yuen Cemetery",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"72",
+        "route":"7S",
+        "orig_tc":"禮智園墳場",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"礼智园坟场",
+        "dest_sc":"梅窝码头",
+        "orig_en":"Lai Chi Yuen Cemetery",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "56",
             "2",
             "3",
             "4",
             "5",
             "305"
-        ]
+        ],
+        "gtfsRouteKey":[]
     },
     {
-        "co": "NLB",
-        "routeId": "75",
-        "route": "37S",
-        "orig_tc": "東涌發展碼頭",
-        "dest_tc": "東涌站巴士總站",
-        "orig_sc": "东涌发展码头",
-        "dest_sc": "东涌站巴士总站",
-        "orig_en": "Tung Chung Development Ferry Pier",
-        "dest_en": "Tung Chung Station Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"75",
+        "route":"37S",
+        "orig_tc":"東涌發展碼頭",
+        "dest_tc":"東涌站巴士總站",
+        "orig_sc":"东涌发展码头",
+        "dest_sc":"东涌站巴士总站",
+        "orig_en":"Tung Chung Development Ferry Pier",
+        "dest_en":"Tung Chung Station Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "106",
             "78",
             "105"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8424,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "78",
-        "route": "37",
-        "orig_tc": "逸東邨",
-        "dest_tc": "迎東邨",
-        "orig_sc": "逸东邨",
-        "dest_sc": "迎东邨",
-        "orig_en": "Yat Tung Estate",
-        "dest_en": "Ying Tung Estate",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"78",
+        "route":"37",
+        "orig_tc":"逸東邨",
+        "dest_tc":"迎東邨",
+        "orig_sc":"逸东邨",
+        "dest_sc":"迎东邨",
+        "orig_en":"Yat Tung Estate",
+        "dest_en":"Ying Tung Estate",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "289",
             "76",
             "309",
@@ -1614,21 +2026,33 @@
             "110",
             "190",
             "193"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8205,
+                1
+            ],
+            [
+                "NLB",
+                1000267,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "80",
-        "route": "37",
-        "orig_tc": "迎東邨",
-        "dest_tc": "逸東邨",
-        "orig_sc": "迎东邨",
-        "dest_sc": "逸东邨",
-        "orig_en": "Ying Tung Estate",
-        "dest_en": "Yat Tung Estate",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"80",
+        "route":"37",
+        "orig_tc":"迎東邨",
+        "dest_tc":"逸東邨",
+        "orig_sc":"迎东邨",
+        "dest_sc":"逸东邨",
+        "orig_en":"Ying Tung Estate",
+        "dest_en":"Yat Tung Estate",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "297",
             "191",
             "110",
@@ -1644,21 +2068,28 @@
             "185",
             "88",
             "89"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8205,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "82",
-        "route": "37M",
-        "orig_tc": "迎東邨",
-        "dest_tc": "東涌站巴士總站 (循環線)",
-        "orig_sc": "迎东邨",
-        "dest_sc": "东涌站巴士总站 (循环线)",
-        "orig_en": "Ying Tung Estate",
-        "dest_en": "Tung Chung Station Bus Terminus (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"82",
+        "route":"37M",
+        "orig_tc":"迎東邨",
+        "dest_tc":"東涌站巴士總站 (循環線)",
+        "orig_sc":"迎东邨",
+        "dest_sc":"东涌站巴士总站 (循环线)",
+        "orig_en":"Ying Tung Estate",
+        "dest_en":"Tung Chung Station Bus Terminus (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "297",
             "191",
             "192",
@@ -1670,21 +2101,33 @@
             "303",
             "190",
             "193"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8331,
+                1
+            ],
+            [
+                "NLB",
+                1000358,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "86",
-        "route": "N37",
-        "orig_tc": "迎東邨",
-        "dest_tc": "東涌站巴士總站 (循環線)",
-        "orig_sc": "迎东邨",
-        "dest_sc": "东涌站巴士总站 (循环线)",
-        "orig_en": "Ying Tung Estate",
-        "dest_en": "Tung Chung Station Bus Terminus (Circular)",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"86",
+        "route":"N37",
+        "orig_tc":"迎東邨",
+        "dest_tc":"東涌站巴士總站 (循環線)",
+        "orig_sc":"迎东邨",
+        "dest_sc":"东涌站巴士总站 (循环线)",
+        "orig_en":"Ying Tung Estate",
+        "dest_en":"Tung Chung Station Bus Terminus (Circular)",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "297",
             "191",
             "298",
@@ -1700,21 +2143,28 @@
             "194",
             "190",
             "193"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8707,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "87",
-        "route": "B4",
-        "orig_tc": "大橋香港口岸",
-        "dest_tc": "機場 (客運大樓) (循環線)",
-        "orig_sc": "大桥香港口岸",
-        "dest_sc": "机场 (客运大楼) (循环线)",
-        "orig_en": "HZMB Hong Kong Port",
-        "dest_en": "Airport (Passenger Terminal Building) (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"87",
+        "route":"B4",
+        "orig_tc":"大橋香港口岸",
+        "dest_tc":"機場 (客運大樓) (循環線)",
+        "orig_sc":"大桥香港口岸",
+        "dest_sc":"机场 (客运大楼) (循环线)",
+        "orig_en":"HZMB Hong Kong Port",
+        "dest_en":"Airport (Passenger Terminal Building) (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "307",
             "117",
             "118",
@@ -1722,41 +2172,55 @@
             "335",
             "308",
             "313"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8633,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "88",
-        "route": "B6",
-        "orig_tc": "大橋香港口岸",
-        "dest_tc": "滿東邨",
-        "orig_sc": "大桥香港口岸",
-        "dest_sc": "满东邨",
-        "orig_en": "HZMB Hong Kong Port",
-        "dest_en": "Mun Tung Estate",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"88",
+        "route":"B6",
+        "orig_tc":"大橋香港口岸",
+        "dest_tc":"滿東邨",
+        "orig_sc":"大桥香港口岸",
+        "dest_sc":"满东邨",
+        "orig_en":"HZMB Hong Kong Port",
+        "dest_en":"Mun Tung Estate",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "307",
             "78",
             "79",
             "81",
             "310"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8635,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "89",
-        "route": "B6",
-        "orig_tc": "滿東邨",
-        "dest_tc": "大橋香港口岸",
-        "orig_sc": "满东邨",
-        "dest_sc": "大桥香港口岸",
-        "orig_en": "Mun Tung Estate",
-        "dest_en": "HZMB Hong Kong Port",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"89",
+        "route":"B6",
+        "orig_tc":"滿東邨",
+        "dest_tc":"大橋香港口岸",
+        "orig_sc":"满东邨",
+        "dest_sc":"大桥香港口岸",
+        "orig_en":"Mun Tung Estate",
+        "dest_en":"HZMB Hong Kong Port",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "309",
             "103",
             "306",
@@ -1764,21 +2228,28 @@
             "317",
             "308",
             "313"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8635,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "90",
-        "route": "A35",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "大橋香港口岸",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "大桥香港口岸",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "HZMB Hong Kong Port",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"90",
+        "route":"A35",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"大橋香港口岸",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"大桥香港口岸",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"HZMB Hong Kong Port",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "1",
             "2",
             "3",
@@ -1840,21 +2311,38 @@
             "335",
             "308",
             "313"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1734,
+                1
+            ],
+            [
+                "NLB",
+                8574,
+                1
+            ],
+            [
+                "NLB",
+                8575,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "91",
-        "route": "A35",
-        "orig_tc": "大橋香港口岸",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "大桥香港口岸",
-        "dest_sc": "梅窝码头",
-        "orig_en": "HZMB Hong Kong Port",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"91",
+        "route":"A35",
+        "orig_tc":"大橋香港口岸",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"大桥香港口岸",
+        "dest_sc":"梅窝码头",
+        "orig_en":"HZMB Hong Kong Port",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "307",
             "117",
             "118",
@@ -1916,21 +2404,33 @@
             "4",
             "5",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1734,
+                2
+            ],
+            [
+                "NLB",
+                8574,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "92",
-        "route": "N35",
-        "orig_tc": "梅窩碼頭",
-        "dest_tc": "大橋香港口岸",
-        "orig_sc": "梅窝码头",
-        "dest_sc": "大桥香港口岸",
-        "orig_en": "Mui Wo Ferry Pier",
-        "dest_en": "HZMB Hong Kong Port",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"92",
+        "route":"N35",
+        "orig_tc":"梅窩碼頭",
+        "dest_tc":"大橋香港口岸",
+        "orig_sc":"梅窝码头",
+        "dest_sc":"大桥香港口岸",
+        "orig_en":"Mui Wo Ferry Pier",
+        "dest_en":"HZMB Hong Kong Port",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "1",
             "6",
             "7",
@@ -1990,21 +2490,28 @@
             "117",
             "308",
             "313"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1737,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "93",
-        "route": "N35",
-        "orig_tc": "大橋香港口岸",
-        "dest_tc": "梅窩碼頭",
-        "orig_sc": "大桥香港口岸",
-        "dest_sc": "梅窝码头",
-        "orig_en": "HZMB Hong Kong Port",
-        "dest_en": "Mui Wo Ferry Pier",
-        "overnightRoute": 1,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"93",
+        "route":"N35",
+        "orig_tc":"大橋香港口岸",
+        "dest_tc":"梅窩碼頭",
+        "orig_sc":"大桥香港口岸",
+        "dest_sc":"梅窝码头",
+        "orig_en":"HZMB Hong Kong Port",
+        "dest_en":"Mui Wo Ferry Pier",
+        "overnightRoute":1,
+        "specialRoute":0,
+        "stops":[
             "307",
             "117",
             "118",
@@ -2066,21 +2573,28 @@
             "266",
             "57",
             "305"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1737,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "95",
-        "route": "39M",
-        "orig_tc": "東涌站巴士總站",
-        "dest_tc": "滿東邨 (循環線)",
-        "orig_sc": "东涌站巴士总站",
-        "dest_sc": "满东邨 (循环线)",
-        "orig_en": "Tung Chung Station Bus Terminus",
-        "dest_en": "Mun Tung Estate  (Circular Route)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"95",
+        "route":"39M",
+        "orig_tc":"東涌站巴士總站",
+        "dest_tc":"滿東邨 (循環線)",
+        "orig_sc":"东涌站巴士总站",
+        "dest_sc":"满东邨 (循环线)",
+        "orig_en":"Tung Chung Station Bus Terminus",
+        "dest_en":"Mun Tung Estate  (Circular Route)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "278",
             "81",
             "309",
@@ -2089,21 +2603,28 @@
             "77",
             "78",
             "79"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8645,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "96",
-        "route": "37H",
-        "orig_tc": "迎東邨",
-        "dest_tc": "北大嶼山醫院 (循環線)",
-        "orig_sc": "迎东邨",
-        "dest_sc": "北大屿山医院 (循环线)",
-        "orig_en": "Ying Tung Estate",
-        "dest_en": "North Lantau Hospital (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"96",
+        "route":"37H",
+        "orig_tc":"迎東邨",
+        "dest_tc":"北大嶼山醫院 (循環線)",
+        "orig_sc":"迎东邨",
+        "dest_sc":"北大屿山医院 (循环线)",
+        "orig_en":"Ying Tung Estate",
+        "dest_en":"North Lantau Hospital (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "297",
             "191",
             "298",
@@ -2135,61 +2656,82 @@
             "194",
             "190",
             "193"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                8290,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "100",
-        "route": "36X",
-        "orig_tc": "滿東邨",
-        "dest_tc": "迪士尼樂園",
-        "orig_sc": "满东邨",
-        "dest_sc": "迪士尼乐园",
-        "orig_en": "Mun Tung Estate",
-        "dest_en": "Disneyland",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"100",
+        "route":"36X",
+        "orig_tc":"滿東邨",
+        "dest_tc":"迪士尼樂園",
+        "orig_sc":"满东邨",
+        "dest_sc":"迪士尼乐园",
+        "orig_en":"Mun Tung Estate",
+        "dest_en":"Disneyland",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "309",
             "306",
             "77",
             "327"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000208,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "101",
-        "route": "36",
-        "orig_tc": "東涌達東路巴士總站",
-        "dest_tc": "迪士尼樂園",
-        "orig_sc": "东涌达东路巴士总站",
-        "dest_sc": "迪士尼乐园",
-        "orig_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "dest_en": "Disneyland",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"101",
+        "route":"36",
+        "orig_tc":"東涌達東路巴士總站",
+        "dest_tc":"迪士尼樂園",
+        "orig_sc":"东涌达东路巴士总站",
+        "dest_sc":"迪士尼乐园",
+        "orig_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "dest_en":"Disneyland",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "317",
             "100",
             "295",
             "98",
             "95",
             "327"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1729,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "102",
-        "route": "36",
-        "orig_tc": "迪士尼樂園",
-        "dest_tc": "東涌達東路巴士總站",
-        "orig_sc": "迪士尼乐园",
-        "dest_sc": "东涌达东路巴士总站",
-        "orig_en": "Disneyland",
-        "dest_en": "Tung Chung Tat Tung Road Bus Terminus",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"102",
+        "route":"36",
+        "orig_tc":"迪士尼樂園",
+        "dest_tc":"東涌達東路巴士總站",
+        "orig_sc":"迪士尼乐园",
+        "dest_sc":"东涌达东路巴士总站",
+        "orig_en":"Disneyland",
+        "dest_en":"Tung Chung Tat Tung Road Bus Terminus",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "328",
             "293",
             "96",
@@ -2199,63 +2741,84 @@
             "80",
             "78",
             "318"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1729,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "104",
-        "route": "37A",
-        "orig_tc": "裕雅苑",
-        "dest_tc": "東涌站巴士總站 (循環線)",
-        "orig_sc": "裕雅苑",
-        "dest_sc": "东涌站巴士总站 (循环线)",
-        "orig_en": "Yu Nga Court",
-        "dest_en": "Tung Chung Station Bus Terminus (Circular)",
-        "overnightRoute": 0,
-        "specialRoute": 0,
-        "stops": [
+        "co":"NLB",
+        "routeId":"104",
+        "route":"37A",
+        "orig_tc":"裕雅苑",
+        "dest_tc":"東涌站巴士總站 (循環線)",
+        "orig_sc":"裕雅苑",
+        "dest_sc":"东涌站巴士总站 (循环线)",
+        "orig_en":"Yu Nga Court",
+        "dest_en":"Tung Chung Station Bus Terminus (Circular)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
             "329",
             "330",
             "77",
             "278",
             "81",
             "331"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000359,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "108",
-        "route": "X11R",
-        "orig_tc": "東涌世茂喜來登酒店",
-        "dest_tc": "大澳",
-        "orig_sc": "东涌世茂喜来登酒店",
-        "dest_sc": "大澳",
-        "orig_en": "Sheraton Hong Kong Tung Chung Hotel",
-        "dest_en": "Tai O",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"108",
+        "route":"X11R",
+        "orig_tc":"東涌世茂喜來登酒店",
+        "dest_tc":"大澳",
+        "orig_sc":"东涌世茂喜来登酒店",
+        "dest_sc":"大澳",
+        "orig_en":"Sheraton Hong Kong Tung Chung Hotel",
+        "dest_en":"Tai O",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "333",
             "77",
             "288",
             "26",
             "41",
             "55"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000442,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "109",
-        "route": "X11R",
-        "orig_tc": "大澳",
-        "dest_tc": "東涌世茂喜來登酒店",
-        "orig_sc": "大澳",
-        "dest_sc": "东涌世茂喜来登酒店",
-        "orig_en": "Tai O",
-        "dest_en": "Sheraton Hong Kong Tung Chung Hotel",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"109",
+        "route":"X11R",
+        "orig_tc":"大澳",
+        "dest_tc":"東涌世茂喜來登酒店",
+        "orig_sc":"大澳",
+        "dest_sc":"东涌世茂喜来登酒店",
+        "orig_en":"Tai O",
+        "dest_en":"Sheraton Hong Kong Tung Chung Hotel",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "221",
             "235",
             "247",
@@ -2263,40 +2826,48 @@
             "77",
             "78",
             "334"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000442,
+                2
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "110",
-        "route": "NB2",
-        "orig_tc": "深圳灣口岸",
-        "dest_tc": "元朗港鐵站 (循環線)",
-        "orig_sc": "深圳湾口岸",
-        "dest_sc": "元朗港铁站 (循环线)",
-        "orig_en": "Shenzhen Bay Port",
-        "dest_en": "Yuen Long MTR Station (Circular)",
-        "overnightRoute": 1,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"110",
+        "route":"NB2",
+        "orig_tc":"深圳灣口岸",
+        "dest_tc":"元朗港鐵站 (循環線)",
+        "orig_sc":"深圳湾口岸",
+        "dest_sc":"元朗港铁站 (循环线)",
+        "orig_en":"Shenzhen Bay Port",
+        "dest_en":"Yuen Long MTR Station (Circular)",
+        "overnightRoute":1,
+        "specialRoute":1,
+        "stops":[
             "152",
             "170",
             "134",
             "152"
-        ]
+        ],
+        "gtfsRouteKey":[]
     },
     {
-        "co": "NLB",
-        "routeId": "111",
-        "route": "B6S",
-        "orig_tc": "滿東邨",
-        "dest_tc": "大橋香港口岸",
-        "orig_sc": "满东邨",
-        "dest_sc": "大桥香港口岸",
-        "orig_en": "Mun Tung Estate",
-        "dest_en": "HZMB Hong Kong Port",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"111",
+        "route":"B6S",
+        "orig_tc":"滿東邨",
+        "dest_tc":"大橋香港口岸",
+        "orig_sc":"满东邨",
+        "dest_sc":"大桥香港口岸",
+        "orig_en":"Mun Tung Estate",
+        "dest_en":"HZMB Hong Kong Port",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "309",
             "103",
             "306",
@@ -2304,24 +2875,38 @@
             "316",
             "308",
             "313"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000568,
+                1
+            ]
         ]
     },
     {
-        "co": "NLB",
-        "routeId": "112",
-        "route": "36M",
-        "orig_tc": "裕雅苑",
-        "dest_tc": "欣澳站",
-        "orig_sc": "裕雅苑",
-        "dest_sc": "欣澳站",
-        "orig_en": "Yu Nga Court",
-        "dest_en": "Sunny Bay Station",
-        "overnightRoute": 0,
-        "specialRoute": 1,
-        "stops": [
+        "co":"NLB",
+        "routeId":"112",
+        "route":"36M",
+        "orig_tc":"裕雅苑",
+        "dest_tc":"欣澳站",
+        "orig_sc":"裕雅苑",
+        "dest_sc":"欣澳站",
+        "orig_en":"Yu Nga Court",
+        "dest_en":"Sunny Bay Station",
+        "overnightRoute":0,
+        "specialRoute":1,
+        "stops":[
             "331",
             "330",
             "339"
+        ],
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                1000591,
+                1
+            ]
         ]
     }
 ]
