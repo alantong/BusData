@@ -4,6 +4,46 @@ from os import path
 import csv
 import json
 import os
+import time
+import asyncio
+
+routeLineBaseUrl = "https://api.csdi.gov.hk/apim/dataquery/api/"
+
+# make http query to the routeLineBaseUrl to get the route line data   
+def getRouteLineData(company, route, bbox=None, limit=20, offset=0):
+    routeNo = route['route']
+    newRoute = route.copy()
+    #print(f"Fetching route line data for company: {company}, route: {routeNo}")
+    if bbox is None:
+        bbox = "113.8,22.1,114.7,23.0"  # Default bounding box for Hong Kong
+    url = f"{routeLineBaseUrl}?id=td_rcd_1638844988873_41214&layer=fb_route_line&bbox-crs=WGS84&bbox={bbox}" + \
+        f"&limit={limit}&offset={offset}&ROUTE_NAMEE={routeNo}&COMPANY_CODE={company}"
+    print(url)
+    max_retries = 5
+    delay = 5  # seconds
+    retries = 0
+    while retries < max_retries:
+        response = requests.get(url)
+        if response.status_code == 429:
+            # Too Many Requests, check for Retry-After header
+            wait = int(response.headers.get("Retry-After", delay))
+            print(f"Rate limit hit. Waiting {wait} seconds...")
+            time.sleep(wait)
+            retries += 1
+        elif response.status_code == 200:
+            response.raise_for_status()
+            routeListResponse = response.json()
+            newRoute['routeLine'] = routeListResponse
+            return newRoute
+        else:
+            print(f"Error fetching route line data: {response.status_code}")
+            routeListResponse = ""
+            return newRoute
+    raise Exception("Max retries exceeded")
+
+
+
+
 
 if os.path.exists('log/gtfs.log'):
     os.remove('log/gtfs.log')
@@ -63,7 +103,6 @@ with open('gtfs/tc/routes.txt', encoding="utf8") as csvfile:
 
 with open('output/gtfs.json', 'w', encoding="utf8") as f:
     f.write(json.dumps({'routeList': routeList,}, ensure_ascii=False, indent=2))
-
 print("GTFS data has been written to output/gtfs.json")
 
 

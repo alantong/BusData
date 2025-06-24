@@ -7,8 +7,11 @@ import httpx
 import operator
 import traceback
 import time
+import GetRoute
+import GeoJSON
 #import GTFS
 
+   
 from requests.exceptions import HTTPError
 
 
@@ -20,23 +23,24 @@ nlb_route_json = 'NLB_Route'
 nlb_stop_json = 'NLB_Stop'
 
 log_dir = 'log'
-output_dir = 'output'
 
 nlbStops = list()
 
-def writeToJson(content, filename) :
-    outputDir = os.path.join(os.getcwd(), output_dir)
-    if os.path.exists(outputDir) == False:
-        os.mkdir(outputDir)
 
-    outputJson = os.path.join (outputDir, filename + ".json")
+logDir = os.path.join (os.getcwd(), log_dir)
 
-    if os.path.exists(outputJson):
-            os.remove(outputJson)
+if os.path.exists(logDir) == False: 
+    os.mkdir(logDir)
 
-    with open(outputJson, 'w', encoding='UTF-8') as write_file:
-        json.dump(content, write_file, indent=4, ensure_ascii=False)
+#if os.path.exists(os.path.join(log_dir, 'nlb.log')):
+#    os.remove(os.path.join(log_dir, 'nlb.log'))
 
+# NLB logger
+nlb_logger = logging.getLogger('nlb')
+nlb_handler = logging.FileHandler(os.path.join(log_dir, 'nlb.log'), encoding='utf-8', mode='w')
+nlb_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S'))
+nlb_logger.addHandler(nlb_handler)
+nlb_logger.setLevel(logging.INFO)
 
 
 async def getStopList(client, route):
@@ -65,28 +69,12 @@ async def getStopList(client, route):
         return []
 
 
-async def main():
-
-    logDir = os.path.join (os.getcwd(), log_dir)
-    
-    if os.path.exists(logDir) == False: 
-        os.mkdir(logDir)
-
-    logFile = os.path.join(logDir, 'nlb.log')
-
-    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-    # Creating an object
-    logger = logging.getLogger()
-
-    # Setting the threshold of logger to DEBUG
-    logger.setLevel(logging.INFO)
-
-    print("Start getting NLB routes")
-    logging.info("Start getting NLB routes")
-
+async def main(routes):
+   
     try:
-
+        print("Start getting NLB routes")
+        nlb_logger.info("Start getting NLB routes")
+        
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
 
@@ -94,11 +82,18 @@ async def main():
         
         routeList = routeObject['routes']
 
+        tasks = []
+        nlbList = list()
+        # Limit the number of concurrent tasks
+        semaphore = asyncio.Semaphore(5)  # adjust the limit as needed
+
+        async def limited_getStopList(client, nr):
+            async with semaphore:
+                return await getStopList(client, nr)
+
         async with httpx.AsyncClient() as client:
-            tasks = []
-            nlbList = list()
             for r in routeList:
-                time.sleep(0.005)
+                #time.sleep(0.05)
                 nr = dict()
                 nr['co'] = 'NLB'
                 nr['routeId'] = r['routeId']
@@ -113,36 +108,93 @@ async def main():
                 nr['overnightRoute'] = r['overnightRoute']
                 nr['specialRoute'] = r['specialRoute']
                 #GTFS.findGtfsRoute(nr['co'], nr['route'], nr['orig_en'], nr['dest_en']) 
-                tasks.append(getStopList(client, nr))
+                tasks.append(limited_getStopList(client, nr))
             nlbList += await asyncio.gather(*tasks)
 
         nlbList = list(filter(None, nlbList))  
         nlbList.sort(key=lambda x: int(x.get('routeId')))
-        writeToJson(nlbList, nlb_route_json)
+        
        
         print("Finish getting NLB routes")
-        logging.info("Finish getting NLB routes")
+        nlb_logger.info("Finish getting NLB routes")
 
+
+        print("Start getting NLB stops")
+        nlb_logger.info("Start getting NLB stops")
         nlbStopList = list({v['stop']:v for v in nlbStops}.values())
-        _nlbStopList= sorted(nlbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
+        
+        global allStopList
+        allStopList= sorted(nlbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
-        writeToJson(_nlbStopList, nlb_stop_json)
+        GetRoute.writeToJson(allStopList, nlb_stop_json)
 
         print("Finish getting NLB stops")
-        logging.info("Finish getting NLB stops")
+        nlb_logger.info("Finish getting NLB stops")
 
+        for r in nlbList:
+            firstStop = r['stops'][0]
+            lastStop = r['stops'][-1]
+            firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
+            lastStopCoordinates = GetRoute.getCoordinate(lastStop, allStopList)
+            #print(f"{firstStopCoordinates}, {lastStopCoordinates}")
+
+            if firstStopCoordinates is None or lastStopCoordinates is None:
+                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                nlb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                r['gtfsRouteKey'] = []
+                continue
+            gtfsRouteKey = []
+            gtfsRouteKey.extend(GeoJSON.matchRouteId('NLB', r['route'], firstStopCoordinates, lastStopCoordinates, routes))
+
+            # remove empty item from gtfsRouteKey   
+            gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
+
+            if len(gtfsRouteKey) == 0:
+                 nlb_logger.info(f"Cannot find GTFS route for NLB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}")
+            else:
+                 nlb_logger.info(f"GTFS route for NLB {r['route']} from {r['orig_tc'] } to {r['dest_tc']} | "
+                       f"routeCount: {len(gtfsRouteKey)}"
+                       )
+            for c in gtfsRouteKey:
+                nlb_logger.info(f"{c} "
+                            f"{routes[(c[1], c[2])][0]['properties']['stopNameC']} - "
+                            f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}" )
+            r['gtfsRouteKey'] = gtfsRouteKey
+
+        GetRoute.writeToJson(nlbList, nlb_route_json)
+
+
+
+        """         
+        print("Start getting NLB route lines")
+        logging.info("Start getting NLB route lines")
+        nlbListWithRouteLine = list()
+        
+        nlbListWithRouteLine.append(GTFS.getRouteLineData('NLB', nlbList[0]))
+       GetRoute.writeToJson(nlbListWithRouteLine, nlb_route_json + '_rl', None)  
+        
+        for r in nlbList:
+            time.sleep(1)
+            nlbListWithRouteLine.append(GTFS.getRouteLineData('NLB', r))
+       GetRoute.writeToJson(nlbListWithRouteLine, nlb_route_json + '_rl') 
+        
+        print("Finish getting NLB route lines")
+        logging.info("Finish getting NLB route lines")
+        """
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logging.error(f'HTTP error occurred: {http_err}')
+            nlb_logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logging.error(http_err, exc_info=True)
+            nlb_logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logging.error(f'Other error occurred: {err}')
+            nlb_logger.error(f'Other error occurred: {err}')
             print(err)
-            logging.error(err, exc_info=True)
+            nlb_logger.error(err, exc_info=True)
             traceback.print_exc()
-    
-asyncio.run(main())
+
+if __name__=="__main__":
+    main()
+#asyncio.run(main())

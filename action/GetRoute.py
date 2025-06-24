@@ -1,17 +1,70 @@
 import subprocess
+import asyncio
 import os
 import re
+import json
+import time
+import GeoJSON
+import KMB_Route
+import CTB_Route
+import NLB_Route
+import GMB_Route
+import MTR_BUS_Route
+
+
+output_dir = 'output'
 
 def main() :
+    start_time = time.time()  # Start timer
+
     print("main started")
     actionDir = os.path.join(os.getcwd(), "action")
     
-    subprocess.run(["python", os.path.join(actionDir, "GTFS.py")])
-    subprocess.run(["python", os.path.join(actionDir, "KMB_Route.py")])
-    subprocess.run(["python", os.path.join(actionDir, "CTB_Route.py")])
-    subprocess.run(["python", os.path.join(actionDir, "NLB_Route.py")])
-    subprocess.run(["python", os.path.join(actionDir, "GMB_Route.py")])
-    subprocess.run(["python", os.path.join(actionDir, "MTR_BUS_Route.py")])
+    global busRoutes
+    busRoutes = GeoJSON.getGeoJsonRoutes("BUS")
+    gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
+    KMB_Route.main(busRoutes)
+    asyncio.run(CTB_Route.main(busRoutes))
+    asyncio.run(NLB_Route.main(busRoutes))
+    asyncio.run(GMB_Route.main())
+    asyncio.run(MTR_BUS_Route.main())
+    
+    subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
+    subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
+    
+    #subprocess.run(["python", os.path.join(actionDir, "GeoJSON.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "KMB_Route.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "CTB_Route.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "NLB_Route.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "GMB_Route.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "MTR_BUS_Route.py")])
+
+    end_time = time.time()  # End timer
+    elapsed = end_time - start_time
+    minutes = int(elapsed // 60)
+    seconds = int(elapsed % 60)
+    print(f"Script finished in {minutes} minutes {seconds} seconds")
+
+def writeToJson(content, filename, indent=4) :
+    outputDir = os.path.join(os.getcwd(), output_dir)
+    if os.path.exists(outputDir) == False:
+        os.mkdir(outputDir)
+
+    outputJson = os.path.join (outputDir, filename + ".json")
+
+    if os.path.exists(outputJson):
+        os.remove(outputJson)
+
+    with open(outputJson, 'w', encoding='UTF-8') as write_file:
+        json.dump(content, write_file, indent=indent, ensure_ascii=False, separators=(',', ':'))
+        #for item in content:
+        #   write_file.write(json.dumps(item, ensure_ascii=False, separators=(',', ':')) + "\n")
+
+def getCoordinate(stop, allStopList):
+    for s in allStopList:
+        if s['stop'] == stop:
+            #print("Found stop: " + s['stop'] + " at " + s['lat'] + ", " + s['long'])
+            return [s['lat'], s['long']]
 
 def capWords(s) :
     # Use regex to exclude words enclosed in brackets

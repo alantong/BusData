@@ -6,6 +6,9 @@ import asyncio
 import time 
 import httpx
 import traceback
+import GetRoute
+import GeoJSON
+#import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -17,20 +20,21 @@ ctb_route_json = 'CTB_Route'
 ctb_stop_json = 'CTB_Stop'
 
 log_dir = 'log'
-output_dir = 'output'
 
-def writeToJson(content, filename) :
-    outputDir = os.path.join(os.getcwd(), output_dir)
-    if os.path.exists(outputDir) == False:
-        os.mkdir(outputDir)
+logDir = os.path.join (os.getcwd(), log_dir)
 
-    outputJson = os.path.join (outputDir, filename + ".json")
+if os.path.exists(logDir) == False: 
+    os.mkdir(logDir)
 
-    if os.path.exists(outputJson):
-            os.remove(outputJson)
+#if os.path.exists(os.path.join(log_dir, 'ctb.log')):
+#    os.remove(os.path.join(log_dir, 'ctb.log'))
 
-    with open(outputJson, 'w', encoding='UTF-8') as write_file:
-        json.dump(content, write_file, indent=4, ensure_ascii=False)
+# CTB logger
+ctb_logger = logging.getLogger('ctb')
+ctb_handler = logging.FileHandler(os.path.join(log_dir, 'ctb.log'), encoding='utf-8', mode='w')
+ctb_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S'))
+ctb_logger.addHandler(ctb_handler)
+ctb_logger.setLevel(logging.INFO)
 
 
 async def getStopInfo(client, stopId):
@@ -68,25 +72,9 @@ async def getStopList(client, route, bound):
     else :
         return []
    
-async def main():
-
-    logDir = os.path.join (os.getcwd(), log_dir)
-    
-    if os.path.exists(logDir) == False: 
-        os.mkdir(logDir)
-
-    logFile = os.path.join(logDir, 'ctb.log')
-
-    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-    # Creating an object
-    logger = logging.getLogger()
-
-    # Setting the threshold of logger to DEBUG
-    logger.setLevel(logging.INFO)
-
+async def main(routes):
     print("Start getting CTB routes")
-    logging.info("Start getting CTB routes")
+    ctb_logger.info("Start getting CTB routes")
         
     try:
 
@@ -99,21 +87,32 @@ async def main():
 
         ctbList = []
 
+        # Limit the number of concurrent tasks
+        semaphore = asyncio.Semaphore(5)  # adjust the limit as needed
+
+        async def limited_getStopList(client, r, b):
+            async with semaphore:
+                return await getStopList(client, r, b)
+            
         async with httpx.AsyncClient() as client:
             tasks = []
             for r in routeList :
+                #GTFS.findGtfsRoute(r['co'], r['route'], r['orig_en'], r['dest_en'])
                 #print(r['route'], ' :', r['bound'], ':', r['orig_tc'], ":", r["dest_tc"])
                 for b in ('outbound', 'inbound') :
-                    time.sleep(0.005)
-                    tasks.append(getStopList(client, r, b))
+                    #time.sleep(0.05)
+                    tasks.append(limited_getStopList(client, r, b))
             ctbList += await asyncio.gather(*tasks)                
 
         ctbList = list(filter(None, ctbList))    
 
-        writeToJson(ctbList, ctb_route_json)
+        #writeToJson(ctbList, ctb_route_json)
         
         print("Finish getting CTB routes")
-        logging.info("Finish getting CTB routes")
+        ctb_logger.info("Finish getting CTB routes")
+
+        print("Start getting CTB stops")
+        ctb_logger.info("Start getting CTB stops")
 
         ctbStops = set()
 
@@ -124,36 +123,81 @@ async def main():
         ctbStopList = list(ctbStops)
         ctbStopList.sort()
 
-        ctbStopInfoList = []
+        global allStopList
+        allStopList = []
+        
+        # Limit the number of concurrent tasks
+        semaphore = asyncio.Semaphore(5)  # adjust the limit as needed
+
+        async def limited_getStopInfo(client, stopId):
+            async with semaphore:
+                return await getStopInfo(client, stopId)
+
         async with httpx.AsyncClient() as client:
             tasks = []
-            for c in ctbStopList :
-                time.sleep(0.005)
-                tasks.append(getStopInfo(client, c))
-            ctbStopInfoList += await asyncio.gather(*tasks) 
+            for c in ctbStopList:
+                #time.sleep(0.05)
+                tasks.append(limited_getStopInfo(client, c))
+            allStopList += await asyncio.gather(*tasks)
+        
 
-        ctbStopInfoList = list(filter(None, ctbStopInfoList))
-        writeToJson(ctbStopInfoList, ctb_stop_json)
+        allStopList = list(filter(None, allStopList))
+        GetRoute.writeToJson(allStopList, ctb_stop_json)
 
         print("Finish getting CTB stops")
-        logging.info("Finish getting CTB stops")
+        ctb_logger.info("Finish getting CTB stops")
+
+
+        for r in ctbList:
+            firstStop = r['stops'][0]
+            lastStop = r['stops'][-1]
+            firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
+            lastStopCoordinates = GetRoute.getCoordinate(lastStop, allStopList)
+            #print(f"{firstStopCoordinates}, {lastStopCoordinates}")
+
+            if firstStopCoordinates is None or lastStopCoordinates is None:
+                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                ctb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                r['gtfsRouteKey'] = []
+                continue
+            gtfsRouteKey = []
+            gtfsRouteKey.extend(GeoJSON.matchRouteId('CTB', r['route'], firstStopCoordinates, lastStopCoordinates, routes))
+
+            # remove empty item from gtfsRouteKey   
+            gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
+
+            if len(gtfsRouteKey) == 0:
+                 ctb_logger.info(f"Cannot find GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}")
+            else:
+                 ctb_logger.info(f"GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']} | "
+                       f"routeCount: {len(gtfsRouteKey)}"                                                           
+                       )
+            for c in gtfsRouteKey:
+                ctb_logger.info(f"{c} "
+                                f"{routes[(c[1], c[2])][0]['properties']['stopNameC']} - "
+                                f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}" )
+            r['gtfsRouteKey'] = gtfsRouteKey
+
+        GetRoute.writeToJson(ctbList, ctb_route_json)
+
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logging.error(f'HTTP error occurred: {http_err}')
+            ctb_logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logging.error(http_err, exc_info=True)
+            ctb_logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logging.error(f'Other error occurred: {err}')
+            ctb_logger.error(f'Other error occurred: {err}')
             print(err)
-            logging.error(err, exc_info=True)
+            ctb_logger.error(err, exc_info=True)
             traceback.print_exc()
 
 
-asyncio.run(main())
+if __name__=="__main__":
+    main()
 
 
    

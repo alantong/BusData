@@ -21,20 +21,6 @@ MTRBus_route_json = 'MTR_BUS_Route'
 MTRBus_stop_json = 'MTR_BUS_Stop'
  
 log_dir = 'log'
-output_dir = 'output'
-
-def writeToJson(content, filename) :
-    outputDir = os.path.join(os.getcwd(), output_dir)
-    if os.path.exists(outputDir) == False:
-        os.mkdir(outputDir)
-
-    outputJson = os.path.join (outputDir, filename + ".json")
-
-    if os.path.exists(outputJson):
-            os.remove(outputJson)
-
-    with open(outputJson, 'w', encoding='UTF-8') as write_file:
-        json.dump(content, write_file, indent=4, ensure_ascii=False)
 
 def getRouteStop(routeNo, bound, stopList):
     routeStopList = []
@@ -100,7 +86,7 @@ async def main():
                     
                     stopList.append(stop)
         
-        writeToJson(stopList, MTRBus_stop_json)
+        GetRoute.writeToJson(stopList, MTRBus_stop_json)
 
         print("Finish getting MTR Bus stoos")
         logging.info("Finish getting MTR Bus stops")
@@ -149,7 +135,7 @@ async def main():
 
                     routeList.append(route)
 
-        writeToJson(routeList, MTRBus_route_json)
+        GetRoute.writeToJson(routeList, MTRBus_route_json)
 
 
         print("Finish getting MTR Bus routes")
@@ -171,4 +157,5 @@ async def main():
             logging.error(err, exc_info=True)
             traceback.print_exc()
 
-asyncio.run(main())
+if __name__=="__main__":
+    asyncio.run(main())

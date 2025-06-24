@@ -24,11 +24,12 @@ jobs:
 
       - name: execute py script 
         run: |
-          python action/KMB_Route.py
-          python action/CTB_Route.py
-          python action/NLB_Route.py
-          python action/GMB_Route.py
-          python action/MTR_BUS_Route.py
+          python action/GetRoute.py
+        # python action/KMB_Route.py
+        # python action/CTB_Route.py
+        # python action/NLB_Route.py
+        # python action/GMB_Route.py
+        # python action/MTR_BUS_Route.py
 
       
       #- name: commit files
@@ -44,6 +45,8 @@ jobs:
           file-path: |
             output/*.json
             log/*.log
+            FGDB/BUS/*.json
+            FGDB/GMB/*.json
           commit-msg: Update resources
           github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main

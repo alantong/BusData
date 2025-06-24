@@ -22,24 +22,9 @@ gmb_route_json = 'GMB_Route'
 gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
-output_dir = 'output'
 
 gmbRoutes = list()
 gmbStops = list()
-
-def writeToJson(content, filename) :
-    outputDir = os.path.join(os.getcwd(), output_dir)
-    if os.path.exists(outputDir) == False:
-        os.mkdir(outputDir)
-
-    outputJson = os.path.join (outputDir, filename + ".json")
-
-    if os.path.exists(outputJson):
-            os.remove(outputJson)
-
-    with open(outputJson, 'w', encoding='UTF-8') as write_file:
-        json.dump(content, write_file, indent=4, ensure_ascii=False)
-
 
 async def getStopList(client, gr) :
     stopListUrl = f"{stopListBaseUrl}{gr['routeId']}/{gr['routeSeq']}"
@@ -74,6 +59,7 @@ async def getStopLoc(client, s) :
     return s
     
 async def getRouteName(client, region, routeNo) :
+    routeNo = routeNo.strip("'")
     routeNameResponse = await client.get(allRouteBaseUrl+region+"/"+routeNo)
     routeNameObject =  routeNameResponse.json()
     routeIdObject = routeNameObject['data']
@@ -109,6 +95,7 @@ async def main():
     logger.setLevel(logging.DEBUG)
 
     logging.info("Start getting GMB route")
+    print("Start getting GMB route")
 
     try:
         for region in ('NT', 'HKI', 'KLN'): 
@@ -118,10 +105,17 @@ async def main():
             routeObject = routeResponse.json()
             routeList = routeObject['data']['routes']
 
+            # Limit the number of concurrent tasks
+            semaphore = asyncio.Semaphore(5)  # adjust the limit as needed
+
+            async def limited_getRouteName(client, region, r):
+                async with semaphore:
+                    return await getRouteName(client, region, r)
+            
             async with httpx.AsyncClient(timeout=30.0) as client:
                 tasks = []
                 for r in routeList:
-                    tasks.append(getRouteName(client, region, r.strip("'")))
+                    tasks.append(limited_getRouteName(client, region, r))
                 await asyncio.gather(*tasks)
             
         
@@ -129,13 +123,13 @@ async def main():
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for gr in gmbRoutes:
-                 time.sleep(0.005)
+                 #time.sleep(0.05)
                  tasks.append(getStopList(client, gr))
             gmbRouteStop += await asyncio.gather(*tasks)
     
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
         
-        writeToJson(_gmbRouteStop, gmb_route_json)
+        GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)
         print("GMB Route List done")
 
 
@@ -144,14 +138,19 @@ async def main():
         _gmbStopList= sorted(gmbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
         gmbStopLoc = list()
+
+        async def limited_getStopLoc(client, s):
+            async with semaphore:
+                return await getStopLoc(client, s)
+        
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for s in _gmbStopList:
-               time.sleep(0.005)
-               tasks.append(getStopLoc(client, s))
+               #time.sleep(0.05)
+               tasks.append(limited_getStopLoc(client, s))
             gmbStopLoc += await asyncio.gather(*tasks)
 
-        writeToJson(gmbStopLoc, gmb_stop_json)
+        GetRoute.writeToJson(gmbStopLoc, gmb_stop_json)
 
         print("GMB Stop List done")
 
@@ -171,4 +170,6 @@ async def main():
             logging.error(err, exc_info=True)
             traceback.print_exc()
 
-asyncio.run(main())
+
+if __name__=="__main__":
+    asyncio.run(main())
