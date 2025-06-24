@@ -1,13 +1,13 @@
 [
     {
-        "co": "MTR_BUS",
-        "route": "506",
-        "bound": "O",
-        "orig_tc": "屯門碼頭",
-        "dest_tc": "兆麟",
-        "orig_en": "Tuen Mun Ferry Pier",
-        "dest_en": "Siu Lun",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"506",
+        "bound":"O",
+        "orig_tc":"屯門碼頭",
+        "dest_tc":"兆麟",
+        "orig_en":"Tuen Mun Ferry Pier",
+        "dest_en":"Siu Lun",
+        "stops":[
             "506-U010",
             "506-U020",
             "506-U030",
@@ -23,14 +23,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "506",
-        "bound": "I",
-        "orig_tc": "兆麟",
-        "dest_tc": "屯門碼頭",
-        "orig_en": "Siu Lun",
-        "dest_en": "Tuen Mun Ferry Pier",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"506",
+        "bound":"I",
+        "orig_tc":"兆麟",
+        "dest_tc":"屯門碼頭",
+        "orig_en":"Siu Lun",
+        "dest_en":"Tuen Mun Ferry Pier",
+        "stops":[
             "506-D010",
             "506-D020",
             "506-D030",
@@ -48,28 +48,28 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K12",
-        "bound": "O",
-        "orig_tc": "大埔墟站",
-        "dest_tc": "八號花園",
-        "orig_en": "Tai Po Market Station",
-        "dest_en": "Eightland Garden",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K12",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"八號花園",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Eightland Garden",
+        "stops":[
             "K12-U010",
             "K12-U020",
             "K12-U030"
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K12",
-        "bound": "I",
-        "orig_tc": "八號花園",
-        "dest_tc": "大埔墟站",
-        "orig_en": "Eightland Garden",
-        "dest_en": "Tai Po Market Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K12",
+        "bound":"I",
+        "orig_tc":"八號花園",
+        "dest_tc":"大埔墟站",
+        "orig_en":"Eightland Garden",
+        "dest_en":"Tai Po Market Station",
+        "stops":[
             "K12-D010",
             "K12-D020",
             "K12-D030",
@@ -77,28 +77,28 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K14",
-        "bound": "O",
-        "orig_tc": "大埔超級城",
-        "dest_tc": "大埔墟站",
-        "orig_en": "Tai Po Mega Mall",
-        "dest_en": "Tai Po Market Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K14",
+        "bound":"O",
+        "orig_tc":"大埔超級城",
+        "dest_tc":"大埔墟站",
+        "orig_en":"Tai Po Mega Mall",
+        "dest_en":"Tai Po Market Station",
+        "stops":[
             "K14-D010",
             "K14-D020",
             "K14-D030"
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K17",
-        "bound": "O",
-        "orig_tc": "大埔墟站",
-        "dest_tc": "富善",
-        "orig_en": "Tai Po Market Station",
-        "dest_en": "Fu Shin",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K17",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"富善",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Fu Shin",
+        "stops":[
             "K17-U010",
             "K17-U020",
             "K17-U030",
@@ -106,56 +106,56 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K17",
-        "bound": "I",
-        "orig_tc": "富善",
-        "dest_tc": "大埔墟站",
-        "orig_en": "Fu Shin",
-        "dest_en": "Tai Po Market Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K17",
+        "bound":"I",
+        "orig_tc":"富善",
+        "dest_tc":"大埔墟站",
+        "orig_en":"Fu Shin",
+        "dest_en":"Tai Po Market Station",
+        "stops":[
             "K17-D010",
             "K17-D020",
             "K17-D030"
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K18",
-        "bound": "O",
-        "orig_tc": "大埔墟站",
-        "dest_tc": "廣福",
-        "orig_en": "Tai Po Market Station",
-        "dest_en": "Kwong Fuk",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K18",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"廣福",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Kwong Fuk",
+        "stops":[
             "K18-U010",
             "K18-U020",
             "K18-U030"
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K18",
-        "bound": "I",
-        "orig_tc": "廣福",
-        "dest_tc": "大埔墟站",
-        "orig_en": "Kwong Fuk",
-        "dest_en": "Tai Po Market Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K18",
+        "bound":"I",
+        "orig_tc":"廣福",
+        "dest_tc":"大埔墟站",
+        "orig_en":"Kwong Fuk",
+        "dest_en":"Tai Po Market Station",
+        "stops":[
             "K18-D010",
             "K18-D020",
             "K18-D030"
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K51",
-        "bound": "O",
-        "orig_tc": "富泰",
-        "dest_tc": "大欖",
-        "orig_en": "Fu Tai",
-        "dest_en": "Tai Lam",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K51",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"大欖",
+        "orig_en":"Fu Tai",
+        "dest_en":"Tai Lam",
+        "stops":[
             "K51-U010",
             "K51-U020",
             "K51-U030",
@@ -184,14 +184,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K51",
-        "bound": "I",
-        "orig_tc": "大欖",
-        "dest_tc": "富泰",
-        "orig_en": "Tai Lam",
-        "dest_en": "Fu Tai",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K51",
+        "bound":"I",
+        "orig_tc":"大欖",
+        "dest_tc":"富泰",
+        "orig_en":"Tai Lam",
+        "dest_en":"Fu Tai",
+        "stops":[
             "K51-D010",
             "K51-D020",
             "K51-D030",
@@ -224,14 +224,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K51A",
-        "bound": "O",
-        "orig_tc": "富泰",
-        "dest_tc": "掃管笏",
-        "orig_en": "Fu Tai",
-        "dest_en": "So Kwun Wat",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K51A",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"掃管笏",
+        "orig_en":"Fu Tai",
+        "dest_en":"So Kwun Wat",
+        "stops":[
             "K51A-U010",
             "K51A-U020",
             "K51A-U030",
@@ -260,14 +260,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K51A",
-        "bound": "I",
-        "orig_tc": "掃管笏",
-        "dest_tc": "富泰",
-        "orig_en": "So Kwun Wat",
-        "dest_en": "Fu Tai",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K51A",
+        "bound":"I",
+        "orig_tc":"掃管笏",
+        "dest_tc":"富泰",
+        "orig_en":"So Kwun Wat",
+        "dest_en":"Fu Tai",
+        "stops":[
             "K51A-D010",
             "K51A-D020",
             "K51A-D030",
@@ -297,14 +297,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K52",
-        "bound": "O",
-        "orig_tc": "悅湖山莊",
-        "dest_tc": "龍鼓灘",
-        "orig_en": "Yuet Wu Villa",
-        "dest_en": "Lung Kwu Tan",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K52",
+        "bound":"O",
+        "orig_tc":"悅湖山莊",
+        "dest_tc":"龍鼓灘",
+        "orig_en":"Yuet Wu Villa",
+        "dest_en":"Lung Kwu Tan",
+        "stops":[
             "K52-nU010",
             "K52-nU020",
             "K52-nU030",
@@ -338,14 +338,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K52",
-        "bound": "I",
-        "orig_tc": "龍鼓灘",
-        "dest_tc": "悅湖山莊",
-        "orig_en": "Lung Kwu Tan",
-        "dest_en": "Yuet Wu Villa",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K52",
+        "bound":"I",
+        "orig_tc":"龍鼓灘",
+        "dest_tc":"悅湖山莊",
+        "orig_en":"Lung Kwu Tan",
+        "dest_en":"Yuet Wu Villa",
+        "stops":[
             "K52-nD010",
             "K52-nD020",
             "K52-nD030",
@@ -379,14 +379,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K53",
-        "bound": "O",
-        "orig_tc": "屯門站",
-        "dest_tc": "掃管笏 (循環線)",
-        "orig_en": "Tuen Mun Station",
-        "dest_en": "So Kwun Wat (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K53",
+        "bound":"O",
+        "orig_tc":"屯門站",
+        "dest_tc":"掃管笏 (循環線)",
+        "orig_en":"Tuen Mun Station",
+        "dest_en":"So Kwun Wat (Circular)",
+        "stops":[
             "K53-U010",
             "K53-U020",
             "K53-U030",
@@ -425,14 +425,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K54",
-        "bound": "O",
-        "orig_tc": "和田邨",
-        "dest_tc": "屯門市中心(循環線)",
-        "orig_en": "Wo Tin Estate",
-        "dest_en": "Tuen Mun Town Centre (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K54",
+        "bound":"O",
+        "orig_tc":"和田邨",
+        "dest_tc":"屯門市中心(循環線)",
+        "orig_en":"Wo Tin Estate",
+        "dest_en":"Tuen Mun Town Centre (Circular)",
+        "stops":[
             "K54-U010",
             "K54-U020",
             "K54-U030",
@@ -450,14 +450,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K54A",
-        "bound": "O",
-        "orig_tc": "和田邨",
-        "dest_tc": "兆康站",
-        "orig_en": "Wo Tin Estate",
-        "dest_en": "Siu Hong Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K54A",
+        "bound":"O",
+        "orig_tc":"和田邨",
+        "dest_tc":"兆康站",
+        "orig_en":"Wo Tin Estate",
+        "dest_en":"Siu Hong Station",
+        "stops":[
             "K54A-U010",
             "K54A-U020",
             "K54A-U030",
@@ -466,14 +466,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K54A",
-        "bound": "I",
-        "orig_tc": "兆康站",
-        "dest_tc": "和田邨",
-        "orig_en": "Siu Hong Station",
-        "dest_en": "Wo Tin Estate",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K54A",
+        "bound":"I",
+        "orig_tc":"兆康站",
+        "dest_tc":"和田邨",
+        "orig_en":"Siu Hong Station",
+        "dest_en":"Wo Tin Estate",
+        "stops":[
             "K54A-D010",
             "K54A-D020",
             "K54A-D030",
@@ -482,14 +482,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K58",
-        "bound": "O",
-        "orig_tc": "富泰",
-        "dest_tc": "掃管笏",
-        "orig_en": "Fu Tai",
-        "dest_en": "So Kwun Wat",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K58",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"掃管笏",
+        "orig_en":"Fu Tai",
+        "dest_en":"So Kwun Wat",
+        "stops":[
             "K58-U010",
             "K58-U020",
             "K58-U023",
@@ -527,14 +527,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K58",
-        "bound": "I",
-        "orig_tc": "掃管笏",
-        "dest_tc": "富泰",
-        "orig_en": "So Kwun Wat",
-        "dest_en": "Fu Tai",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K58",
+        "bound":"I",
+        "orig_tc":"掃管笏",
+        "dest_tc":"富泰",
+        "orig_en":"So Kwun Wat",
+        "dest_en":"Fu Tai",
+        "stops":[
             "K58-D001",
             "K58-D002",
             "K58-D003",
@@ -571,14 +571,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K65",
-        "bound": "O",
-        "orig_tc": "元朗站",
-        "dest_tc": "流浮山",
-        "orig_en": "Yuen Long Station",
-        "dest_en": "Lau Fau Shan",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K65",
+        "bound":"O",
+        "orig_tc":"元朗站",
+        "dest_tc":"流浮山",
+        "orig_en":"Yuen Long Station",
+        "dest_en":"Lau Fau Shan",
+        "stops":[
             "K65-U010",
             "K65-U020",
             "K65-U030",
@@ -605,14 +605,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K65",
-        "bound": "I",
-        "orig_tc": "流浮山",
-        "dest_tc": "元朗站",
-        "orig_en": "Lau Fau Shan",
-        "dest_en": "Yuen Long Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K65",
+        "bound":"I",
+        "orig_tc":"流浮山",
+        "dest_tc":"元朗站",
+        "orig_en":"Lau Fau Shan",
+        "dest_en":"Yuen Long Station",
+        "stops":[
             "K65-D010",
             "K65-D020",
             "K65-D030",
@@ -635,14 +635,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K65A",
-        "bound": "O",
-        "orig_tc": "天水圍站",
-        "dest_tc": "流浮山",
-        "orig_en": "Tin Shui Wai Station",
-        "dest_en": "Lau Fau Shan",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K65A",
+        "bound":"O",
+        "orig_tc":"天水圍站",
+        "dest_tc":"流浮山",
+        "orig_en":"Tin Shui Wai Station",
+        "dest_en":"Lau Fau Shan",
+        "stops":[
             "K65A-U010",
             "K65A-U020",
             "K65A-U030",
@@ -659,14 +659,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K65A",
-        "bound": "I",
-        "orig_tc": "流浮山",
-        "dest_tc": "天水圍站",
-        "orig_en": "Lau Fau Shan",
-        "dest_en": "Tin Shui Wai Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K65A",
+        "bound":"I",
+        "orig_tc":"流浮山",
+        "dest_tc":"天水圍站",
+        "orig_en":"Lau Fau Shan",
+        "dest_en":"Tin Shui Wai Station",
+        "stops":[
             "K65A-D010",
             "K65A-D020",
             "K65A-D030",
@@ -681,14 +681,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K66",
-        "bound": "O",
-        "orig_tc": "朗屏",
-        "dest_tc": "大棠黃泥墩村",
-        "orig_en": "Long Ping",
-        "dest_en": "Tai Tong Wong Nai Tun Tsuen",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K66",
+        "bound":"O",
+        "orig_tc":"朗屏",
+        "dest_tc":"大棠黃泥墩村",
+        "orig_en":"Long Ping",
+        "dest_en":"Tai Tong Wong Nai Tun Tsuen",
+        "stops":[
             "K66-U010",
             "K66-U020",
             "K66-U030",
@@ -714,14 +714,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K66",
-        "bound": "I",
-        "orig_tc": "大棠黃泥墩村",
-        "dest_tc": "朗屏",
-        "orig_en": "Tai Tong Wong Nai Tun Tsuen",
-        "dest_en": "Long Ping",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K66",
+        "bound":"I",
+        "orig_tc":"大棠黃泥墩村",
+        "dest_tc":"朗屏",
+        "orig_en":"Tai Tong Wong Nai Tun Tsuen",
+        "dest_en":"Long Ping",
+        "stops":[
             "K66-D010",
             "K66-D020",
             "K66-D030",
@@ -749,14 +749,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K68",
-        "bound": "O",
-        "orig_tc": "元朗工業邨",
-        "dest_tc": "元朗公園 (循環線)",
-        "orig_en": "Yuen Long Industrial Estate",
-        "dest_en": "Yuen Long Park (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K68",
+        "bound":"O",
+        "orig_tc":"元朗工業邨",
+        "dest_tc":"元朗公園 (循環線)",
+        "orig_en":"Yuen Long Industrial Estate",
+        "dest_en":"Yuen Long Park (Circular)",
+        "stops":[
             "K68-U010",
             "K68-U020",
             "K68-U030",
@@ -798,14 +798,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K73",
-        "bound": "O",
-        "orig_tc": "天恆",
-        "dest_tc": "元朗西",
-        "orig_en": "Tin Heng",
-        "dest_en": "Yuen Long West",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K73",
+        "bound":"O",
+        "orig_tc":"天恆",
+        "dest_tc":"元朗西",
+        "orig_en":"Tin Heng",
+        "dest_en":"Yuen Long West",
+        "stops":[
             "K73-U010",
             "K73-U020",
             "K73-U030",
@@ -821,14 +821,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K73",
-        "bound": "I",
-        "orig_tc": "元朗西",
-        "dest_tc": "天恆",
-        "orig_en": "Yuen Long West",
-        "dest_en": "Tin Heng",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K73",
+        "bound":"I",
+        "orig_tc":"元朗西",
+        "dest_tc":"天恆",
+        "orig_en":"Yuen Long West",
+        "dest_en":"Tin Heng",
+        "stops":[
             "K73-D010",
             "K73-D020",
             "K73-D030",
@@ -847,14 +847,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K74",
-        "bound": "O",
-        "orig_tc": "天水圍市中心",
-        "dest_tc": "凹頭 (循環線)",
-        "orig_en": "Tin Shui Wai Town Centre",
-        "dest_en": "Au Tau (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K74",
+        "bound":"O",
+        "orig_tc":"天水圍市中心",
+        "dest_tc":"凹頭 (循環線)",
+        "orig_en":"Tin Shui Wai Town Centre",
+        "dest_en":"Au Tau (Circular)",
+        "stops":[
             "K74-U001",
             "K74-U004",
             "K74-U007",
@@ -884,14 +884,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K75A",
-        "bound": "O",
-        "orig_tc": "天水圍站",
-        "dest_tc": "洪水橋 (循環線)",
-        "orig_en": "Tin Shui Wai Station",
-        "dest_en": "Hung Shui Kiu (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K75A",
+        "bound":"O",
+        "orig_tc":"天水圍站",
+        "dest_tc":"洪水橋 (循環線)",
+        "orig_en":"Tin Shui Wai Station",
+        "dest_en":"Hung Shui Kiu (Circular)",
+        "stops":[
             "K75A-U010",
             "K75A-U020",
             "K75A-U030",
@@ -910,14 +910,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K75P",
-        "bound": "O",
-        "orig_tc": "天瑞",
-        "dest_tc": "洪水橋 (循環線)",
-        "orig_en": "Tin Shui",
-        "dest_en": "Hung Shui Kiu (Circular)",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K75P",
+        "bound":"O",
+        "orig_tc":"天瑞",
+        "dest_tc":"洪水橋 (循環線)",
+        "orig_en":"Tin Shui",
+        "dest_en":"Hung Shui Kiu (Circular)",
+        "stops":[
             "K75P-U010",
             "K75P-U020",
             "K75P-U030",
@@ -944,14 +944,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K76",
-        "bound": "O",
-        "orig_tc": "天恆",
-        "dest_tc": "天水圍站",
-        "orig_en": "Tin Heng",
-        "dest_en": "Tin Shui Wai Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K76",
+        "bound":"O",
+        "orig_tc":"天恆",
+        "dest_tc":"天水圍站",
+        "orig_en":"Tin Heng",
+        "dest_en":"Tin Shui Wai Station",
+        "stops":[
             "K76-U010",
             "K76-U020",
             "K76-U030",
@@ -960,14 +960,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K76",
-        "bound": "I",
-        "orig_tc": "天水圍站",
-        "dest_tc": "天恆",
-        "orig_en": "Tin Shui Wai Station",
-        "dest_en": "Tin Heng",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K76",
+        "bound":"I",
+        "orig_tc":"天水圍站",
+        "dest_tc":"天恆",
+        "orig_en":"Tin Shui Wai Station",
+        "dest_en":"Tin Heng",
+        "stops":[
             "K76-D010",
             "K76-D020",
             "K76-D030",
@@ -975,14 +975,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K52A",
-        "bound": "O",
-        "orig_tc": "屯門站",
-        "dest_tc": "曾咀",
-        "orig_en": "Tuen Mun Station",
-        "dest_en": "Tsang Tsui",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K52A",
+        "bound":"O",
+        "orig_tc":"屯門站",
+        "dest_tc":"曾咀",
+        "orig_en":"Tuen Mun Station",
+        "dest_en":"Tsang Tsui",
+        "stops":[
             "K52A-U010",
             "K52A-U015",
             "K52A-U020",
@@ -1005,14 +1005,14 @@
         ]
     },
     {
-        "co": "MTR_BUS",
-        "route": "K52A",
-        "bound": "I",
-        "orig_tc": "曾咀",
-        "dest_tc": "屯門站",
-        "orig_en": "Tsang Tsui",
-        "dest_en": "Tuen Mun Station",
-        "stops": [
+        "co":"MTR_BUS",
+        "route":"K52A",
+        "bound":"I",
+        "orig_tc":"曾咀",
+        "dest_tc":"屯門站",
+        "orig_en":"Tsang Tsui",
+        "dest_en":"Tuen Mun Station",
+        "stops":[
             "K52A-D010",
             "K52A-D020",
             "K52A-D030",
