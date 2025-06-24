@@ -85,7 +85,7 @@ async def main(routes):
         tasks = []
         nlbList = list()
         # Limit the number of concurrent tasks
-        semaphore = asyncio.Semaphore(5)  # adjust the limit as needed
+        semaphore = asyncio.Semaphore(3)  # adjust the limit as needed
 
         async def limited_getStopList(client, nr):
             async with semaphore:
