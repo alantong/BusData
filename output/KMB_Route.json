@@ -4777,7 +4777,7 @@
             "D39533060940818A",
             "14894C859FDFE8C3",
             "A1C35E976ACF46FD",
-            "9268B442F0C2807E",
+            "2F1F9CF16B9E65AF",
             "ED5554C57CF0061C",
             "4D9419874306D82F",
             "D625B0997C3DBCFE",
@@ -5084,9 +5084,9 @@
         "orig_en": "Anderson",
         "orig_tc": "安達臣",
         "orig_sc": "安达臣",
-        "dest_en": "Diamond Hill (Circular)",
-        "dest_tc": "鑽石山(循環線)",
-        "dest_sc": "钻石山(循环线)",
+        "dest_en": "Diamond Hill (Kai Cheung Court)",
+        "dest_tc": "鑽石山(啟翔苑)",
+        "dest_sc": "钻石山(启翔苑)",
         "co": "KMB",
         "stops": [
             "5FC1356198AD471D",
@@ -5096,6 +5096,21 @@
             "3BA9C90738A8600D",
             "29B66F2353388E18",
             "AB194503D9CC9465",
+            "17EC583ACAB167BE"
+        ]
+    },
+    {
+        "route": "19",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Diamond Hill (Kai Cheung Court)",
+        "orig_tc": "鑽石山(啟翔苑)",
+        "orig_sc": "钻石山(启翔苑)",
+        "dest_en": "Anderson",
+        "dest_tc": "安達臣",
+        "dest_sc": "安达臣",
+        "co": "KMB",
+        "stops": [
             "17EC583ACAB167BE",
             "2EFDB1EADF5955E6",
             "E7116B44D9E9393A",
@@ -9304,36 +9319,6 @@
     },
     {
         "route": "43",
-        "bound": "O",
-        "service_type": "2",
-        "orig_en": "Tsing Yi Market",
-        "orig_tc": "青衣街市",
-        "orig_sc": "青衣街市",
-        "dest_en": "Tsuen Wan West",
-        "dest_tc": "荃灣西站",
-        "dest_sc": "荃湾西站",
-        "co": "KMB",
-        "stops": [
-            "143D7489C808BD46",
-            "DE99B27530D1A3C4",
-            "A25160BA84EE09F7",
-            "DC28E30AF099D339",
-            "EE0ACB2B516C305E",
-            "45A499CD3132E90A",
-            "B035018DFD9028C3",
-            "F7005C63821245C3",
-            "02E2C6CDE2A867C1",
-            "1761C3A8C035C581",
-            "61C243D8DF535149",
-            "FD3E79D1B5A2237F",
-            "FFB21D12A61560FE",
-            "3A99869DB9D31D45",
-            "1C179AC6FE83C808",
-            "E8B842CC3AB62056"
-        ]
-    },
-    {
-        "route": "43",
         "bound": "I",
         "service_type": "1",
         "orig_en": "Tsuen Wan West Station",
@@ -10261,6 +10246,40 @@
         ]
     },
     {
+        "route": "46R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Tai Wai Station",
+        "orig_tc": "大圍站",
+        "orig_sc": "大围站",
+        "dest_en": "Ngong Shuen Chau Barracks",
+        "dest_tc": "昂船洲軍營",
+        "dest_sc": "昂船洲军营",
+        "co": "KMB",
+        "stops": [
+            "14C3BF43DC0878D1",
+            "673B33867260EBB7",
+            "9E76DA1634822CDB"
+        ]
+    },
+    {
+        "route": "46R",
+        "bound": "I",
+        "service_type": "1",
+        "orig_en": "Ngong Shuen Chau Barracks",
+        "orig_tc": "昂船洲軍營",
+        "orig_sc": "昂船洲军营",
+        "dest_en": "Tai Wai Station",
+        "dest_tc": "大圍站",
+        "dest_sc": "大围站",
+        "co": "KMB",
+        "stops": [
+            "9E76DA1634822CDB",
+            "BF72FF473A660C0E",
+            "14C3BF43DC0878D1"
+        ]
+    },
+    {
         "route": "46S",
         "bound": "O",
         "service_type": "1",
@@ -10651,7 +10670,7 @@
             "1C23A54B97165DAB",
             "9179E2F718D0F436",
             "19521C0A1CA93C52",
-            "5E75DC46C55ED246",
+            "9456587A2D10A6CA",
             "A7AFBCA40D458E0D",
             "45001DA558E03CF0",
             "B818259F753A3BE2",
@@ -16000,7 +16019,7 @@
         "co": "KMB",
         "stops": [
             "8A12C30EE2545583",
-            "2F1F9CF16B9E65AF",
+            "1E71CBFE8560B0EF",
             "F1ED37F1BA6D054F",
             "FC343F5E57B07FBE",
             "E89B2315750AB2FD",
@@ -18481,7 +18500,7 @@
             "18F3C20116BFE83D",
             "9961C7ED914E87DD",
             "2E6DB54618C13048",
-            "5E75DC46C55ED246",
+            "9456587A2D10A6CA",
             "5C043109616B6292",
             "45001DA558E03CF0",
             "B818259F753A3BE2",
@@ -21267,7 +21286,7 @@
         "co": "KMB",
         "stops": [
             "C1A67D37CF256C9E",
-            "9456587A2D10A6CA",
+            "5E75DC46C55ED246",
             "EDAB79ED9FA32D91",
             "45001DA558E03CF0",
             "4F25915A4BF459F9",
@@ -22009,23 +22028,6 @@
         ]
     },
     {
-        "route": "91B",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Hang Hau Station",
-        "orig_tc": "坑口站",
-        "orig_sc": "坑口站",
-        "dest_en": "HKUST",
-        "dest_tc": "香港科技大學",
-        "dest_sc": "香港科技大学",
-        "co": "KMB",
-        "stops": [
-            "29A07F043B4D5919",
-            "9183F3104902B748",
-            "68DF1DA183CDFCF2"
-        ]
-    },
-    {
         "route": "91M",
         "bound": "O",
         "service_type": "1",
@@ -22185,6 +22187,44 @@
             "4D55F6240E2AAFB8",
             "3BA9C90738A8600D",
             "5D77A5CBE41F2984"
+        ]
+    },
+    {
+        "route": "91R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Clear Water Bay",
+        "orig_tc": "清水灣",
+        "orig_sc": "清水湾",
+        "dest_en": "Tseung Kwan O (Choi Ming)",
+        "dest_tc": "將軍澳(彩明)",
+        "dest_sc": "将军澳(彩明)",
+        "co": "KMB",
+        "stops": [
+            "440AEE375A242B6D",
+            "55950D2113A80E72",
+            "31C7E8E4A4626178",
+            "F7EE3594526686DB",
+            "80D6E715DA51CA02",
+            "225FBE9D52AD0ED2",
+            "2A62A6244F598604",
+            "0CF0429A4BEE8F4C",
+            "F937BECF8C53EEF3",
+            "EA5AF653CB5975F8",
+            "7BFE214AF3036D86",
+            "5B4EE863B18FED7D",
+            "8353D95EF9733231",
+            "511D1F0A4F2B25C0",
+            "C9E33E7E7EDAA459",
+            "5016E25156D72ADA",
+            "10590D40479607E8",
+            "54FCA9F5D8F3587E",
+            "711927A9FAEF1158",
+            "F09FF6C6349030C6",
+            "D13C7436B13B4A4B",
+            "C37E7CF06680272D",
+            "26F23B1B4A5AB703",
+            "938667F4F953DFCA"
         ]
     },
     {
@@ -30266,6 +30306,25 @@
         ]
     },
     {
+        "route": "254R",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Yoho Mall",
+        "orig_tc": "形點",
+        "orig_sc": "形点",
+        "dest_en": "Shek Kong Barracks (Circular)",
+        "dest_tc": "石崗軍營 (循環線)",
+        "dest_sc": "石岗军营 (循环线)",
+        "co": "KMB",
+        "stops": [
+            "65B07713A0DDFF22",
+            "B930AD84BC1A8655",
+            "2D10E16919B5A96E",
+            "6A4B371546D489BF",
+            "65B07713A0DDFF22"
+        ]
+    },
+    {
         "route": "258A",
         "bound": "O",
         "service_type": "1",
@@ -37781,7 +37840,7 @@
         "stops": [
             "81E82A4D2A0D9BD3",
             "38CCA601583A5C55",
-            "9456587A2D10A6CA",
+            "5E75DC46C55ED246",
             "6953AEF8B3921959",
             "149ADEC589550041",
             "48BA70BC6F7488CF",
@@ -40461,8 +40520,7 @@
             "3FCC00D1D01ACD28",
             "AD1B202B678A3B56",
             "C88DEC0AF0D1102B",
-            "B241331CC87A36D4",
-            "B4F3F0D547580CE2",
+            "F701EA01F9ABEC96",
             "D678B3364437D16B",
             "9C839C3824F47A6A",
             "CB4BB0008A87E4FC",
@@ -55154,90 +55212,6 @@
         ]
     },
     {
-        "route": "PN17",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Moko Mong Kok",
-        "orig_tc": "旺角MOKO",
-        "orig_sc": "旺角MOKO",
-        "dest_en": "Tsim Sha Tsui East",
-        "dest_tc": "尖東",
-        "dest_sc": "尖东",
-        "co": "KMB",
-        "stops": [
-            "D807FB5CE82945A2",
-            "2A346426D6FD612E",
-            "0524415976F284A4",
-            "85A65BCDD35803A8",
-            "0524415976F284A4",
-            "2A346426D6FD612E",
-            "D807FB5CE82945A2"
-        ]
-    },
-    {
-        "route": "PN18",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Carmel Road Stanley",
-        "orig_tc": "赤柱佳美道",
-        "orig_sc": "赤柱佳美道",
-        "dest_en": "Wan Chai",
-        "dest_tc": "灣仔",
-        "dest_sc": "湾仔",
-        "co": "KMB",
-        "stops": [
-            "827EF65321F2479D",
-            "B8F77BDDFE7BD6DF",
-            "23EC94A5FAA1E5A3",
-            "6F4C27D4E845432E",
-            "23EC94A5FAA1E5A3",
-            "B8F77BDDFE7BD6DF",
-            "827EF65321F2479D"
-        ]
-    },
-    {
-        "route": "PN19",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Sai Kung Mei Yu Street",
-        "orig_tc": "西貢美裕街",
-        "orig_sc": "西贡美裕街",
-        "dest_en": "Tsim Sha Tsui East",
-        "dest_tc": "尖東",
-        "dest_sc": "尖东",
-        "co": "KMB",
-        "stops": [
-            "FFB9E8929671D06E",
-            "E33098F43CF205B8",
-            "0524415976F284A4",
-            "85A65BCDD35803A8",
-            "0524415976F284A4",
-            "E33098F43CF205B8",
-            "FFB9E8929671D06E"
-        ]
-    },
-    {
-        "route": "PN20",
-        "bound": "O",
-        "service_type": "1",
-        "orig_en": "Kwai Chung Hing Fong Road",
-        "orig_tc": "葵涌興芳路",
-        "orig_sc": "葵涌兴芳路",
-        "dest_en": "Wan Chai Golden Bauhinia Square",
-        "dest_tc": "灣仔金紫荊廣場",
-        "dest_sc": "湾仔金紫荆广场",
-        "co": "KMB",
-        "stops": [
-            "EB3F46E0040B4960",
-            "9ADF943CA573C631",
-            "23EC94A5FAA1E5A3",
-            "6F4C27D4E845432E",
-            "23EC94A5FAA1E5A3",
-            "9ADF943CA573C631",
-            "EB3F46E0040B4960"
-        ]
-    },
-    {
         "route": "R230",
         "bound": "O",
         "service_type": "1",
@@ -55454,6 +55428,24 @@
             "65C8216FB0BC4FBC",
             "444BEB5BB189B3A0",
             "FE235D7DCABCA944"
+        ]
+    },
+    {
+        "route": "R78",
+        "bound": "O",
+        "service_type": "1",
+        "orig_en": "Fanling Station",
+        "orig_tc": "粉嶺站",
+        "orig_sc": "粉岭站",
+        "dest_en": "San Wai Barracks(Circular)",
+        "dest_tc": "新圍軍營(循環線)",
+        "dest_sc": "新围军营(循环线)",
+        "co": "KMB",
+        "stops": [
+            "9DBFBF7A3CE5DF0A",
+            "18FB32A8BE19CB57",
+            "EF78DD9F765C6565",
+            "9DBFBF7A3CE5DF0A"
         ]
     },
     {
@@ -55811,7 +55803,7 @@
         "stops": [
             "90551F12E553D27E",
             "728473DC37894BC6",
-            "88D65C5F0985F8D9",
+            "CCAFDF7CA7560A45",
             "E57DD4F0FE9A1E61",
             "05FE00A97E0CF001",
             "AC0BDA78C106FF7A",
@@ -55853,7 +55845,7 @@
         "stops": [
             "90551F12E553D27E",
             "728473DC37894BC6",
-            "88D65C5F0985F8D9",
+            "CCAFDF7CA7560A45",
             "E57DD4F0FE9A1E61",
             "05FE00A97E0CF001",
             "AC0BDA78C106FF7A",
@@ -56984,7 +56976,7 @@
         "stops": [
             "0513406BAC1F8881",
             "A1C35E976ACF46FD",
-            "1E71CBFE8560B0EF",
+            "2F1F9CF16B9E65AF",
             "29ED2073D6C52B5A",
             "F90ED764C7A95649",
             "EAF0EAB6E30425BA",

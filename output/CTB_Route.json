@@ -10487,10 +10487,10 @@
         "route": "702S",
         "orig_tc": "蘇屋邨",
         "orig_en": "So Uk Estate",
-        "dest_tc": "長沙灣 (深盛路)／富昌邨",
-        "dest_en": "Cheung Sha Wan (Sham Shing Road) / Fu Cheong Estate",
+        "dest_tc": "泓景臺／富昌邨",
+        "dest_en": "Banyan Garden / Fu Cheong Estate",
         "orig_sc": "苏屋邨",
-        "dest_sc": "长沙湾 (深盛路)／富昌邨",
+        "dest_sc": "泓景台／富昌邨",
         "stops": [
             "003137",
             "002845",
@@ -10505,11 +10505,11 @@
     {
         "co": "CTB",
         "route": "702S",
-        "orig_tc": "長沙灣 (深盛路)／富昌邨",
-        "orig_en": "Cheung Sha Wan (Sham Shing Road) / Fu Cheong Estate",
+        "orig_tc": "泓景臺／富昌邨",
+        "orig_en": "Banyan Garden / Fu Cheong Estate",
         "dest_tc": "蘇屋邨",
         "dest_en": "So Uk Estate",
-        "orig_sc": "长沙湾 (深盛路)／富昌邨",
+        "orig_sc": "泓景台／富昌邨",
         "dest_sc": "苏屋邨",
         "stops": [
             "003544",
@@ -25112,7 +25112,8 @@
             "002914",
             "003892",
             "003895",
-            "003896"
+            "003896",
+            "003893"
         ],
         "bound": "O"
     },
@@ -25131,7 +25132,8 @@
             "003892",
             "003895",
             "003896",
-            "003395"
+            "003395",
+            "003893"
         ],
         "bound": "O"
     },
@@ -25146,7 +25148,8 @@
         "dest_sc": "飞机维修区",
         "stops": [
             "003893",
-            "001850"
+            "001850",
+            "003893"
         ],
         "bound": "O"
     },
@@ -25161,7 +25164,8 @@
         "dest_sc": "机场 (客运大楼)",
         "stops": [
             "003893",
-            "003395"
+            "003395",
+            "003893"
         ],
         "bound": "O"
     },
