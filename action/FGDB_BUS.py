@@ -14,7 +14,7 @@ output_zip = "FGDB/BusRoute_FGDB.zip"
 extract_dir = "FGDB/fgdb_extracted"
 
 outputPath = "FGDB/BUS/Map"
-if os.path.exists(outputPath) == False:
+if os.path.exists(outputPath):
     shutil.rmtree(outputPath)
 os.makedirs(outputPath, exist_ok=True)
 
