@@ -1,6 +1,6 @@
-24-Jun-25 20:58:09 | nlb - INFO - Start getting NLB routes
-24-Jun-25 20:58:44 | nlb - ERROR - Other error occurred: 
-24-Jun-25 20:58:44 | nlb - ERROR - 
+24-Jun-25 21:44:40 | nlb - INFO - Start getting NLB routes
+24-Jun-25 21:45:22 | nlb - ERROR - Other error occurred: 
+24-Jun-25 21:45:22 | nlb - ERROR - 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.13.5/x64/lib/python3.13/site-packages/anyio/streams/tls.py", line 131, in _call_sslobject_method
     result = func(*args)
@@ -82,13 +82,13 @@ httpcore.ReadTimeout
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 112, in main
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 114, in main
     nlbList += await asyncio.gather(*tasks)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 92, in limited_getStopList
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 94, in limited_getStopList
     return await getStopList(client, nr)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 51, in getStopList
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 53, in getStopList
     stopListResponse = await client.get(stopListUrl)
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.13.5/x64/lib/python3.13/site-packages/httpx/_client.py", line 1757, in get
