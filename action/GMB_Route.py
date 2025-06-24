@@ -23,6 +23,8 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
+delay = 0.5
+
 gmbRoutes = list()
 gmbStops = list()
 
@@ -115,7 +117,7 @@ async def main():
             async with httpx.AsyncClient(timeout=30.0) as client:
                 tasks = []
                 for r in routeList:
-                    time.sleep(0.05)
+                    time.sleep(delay)
                     tasks.append(limited_getRouteName(client, region, r))
                 await asyncio.gather(*tasks)
             
@@ -124,7 +126,7 @@ async def main():
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for gr in gmbRoutes:
-                 #time.sleep(0.05)
+                 time.sleep(delay)
                  tasks.append(getStopList(client, gr))
             gmbRouteStop += await asyncio.gather(*tasks)
     
@@ -147,7 +149,7 @@ async def main():
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for s in _gmbStopList:
-               #time.sleep(0.05)
+               time.sleep(delay)
                tasks.append(limited_getStopLoc(client, s))
             gmbStopLoc += await asyncio.gather(*tasks)
 

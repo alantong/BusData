@@ -24,6 +24,8 @@ nlb_stop_json = 'NLB_Stop'
 
 log_dir = 'log'
 
+delay = 0.5
+
 nlbStops = list()
 
 
@@ -93,7 +95,7 @@ async def main(routes):
 
         async with httpx.AsyncClient() as client:
             for r in routeList:
-                time.sleep(0.05)
+                time.sleep(delay)
                 nr = dict()
                 nr['co'] = 'NLB'
                 nr['routeId'] = r['routeId']
