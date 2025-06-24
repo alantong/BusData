@@ -123,11 +123,16 @@ async def main():
             
         
         gmbRouteStop = list()
+
+        async def limited_getStopList(client, gr):
+            async with semaphore:
+                return await getStopList(client, gr)
+        
         async with httpx.AsyncClient(timeout=30.0) as client:
             tasks = []
             for gr in gmbRoutes:
                  time.sleep(delay)
-                 tasks.append(getStopList(client, gr))
+                 tasks.append(limited_getStopList(client, gr))
             gmbRouteStop += await asyncio.gather(*tasks)
     
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
