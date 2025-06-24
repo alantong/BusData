@@ -13,6 +13,10 @@ bus_url = "https://static.csdi.gov.hk/csdi-webpage/download/7faa97a82780505c9673
 output_zip = "FGDB/BusRoute_FGDB.zip"
 extract_dir = "FGDB/fgdb_extracted"
 
+outputPath = "FGDB/BUS/Map"
+if os.path.exists(outputPath) == False:
+    shutil.rmtree(outputPath)
+os.makedirs(outputPath, exist_ok=True)
 
 # Download the file
 print("Downloading BUS FGDB zip...")
@@ -46,11 +50,6 @@ gdf['geometry'] = gdf['geometry'].simplify(0.00005)
 data = gdf.to_geo_dict(drop_id=True)
 
 # gdf.to_file("FGDB/output.geojson", driver="GeoJSON")
-
-outputPath = "FGDB/BUS/Map"
-if os.path.exists(outputPath) == False:
-    shutil.rmtree(outputPath)
-os.makedirs(outputPath, exist_ok=True)
 
 
 for feature in data["features"]:
