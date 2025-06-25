@@ -43,14 +43,10 @@ jobs:
       - name: List FGDB contents
         run: ls -lR FGDB
 
-      - name: Upload Pages Artifact
-        uses: actions/upload-artifact@v4
+      - name: Deploy 
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: FGDB
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          folder: FGDB 
 
 
   GetRoute:
