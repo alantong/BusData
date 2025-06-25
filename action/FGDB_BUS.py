@@ -84,5 +84,5 @@ for feature in data["features"]:
     map.save(f'{outputPath}/{key}.html')
 
 
-
+os.remove(output_zip)
 
