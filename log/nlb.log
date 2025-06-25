@@ -1,6 +1,6 @@
-25-Jun-25 01:22:19 | nlb - INFO - Start getting NLB routes
-25-Jun-25 01:23:01 | nlb - ERROR - Other error occurred: 
-25-Jun-25 01:23:01 | nlb - ERROR - 
+25-Jun-25 03:24:16 | nlb - INFO - Start getting NLB routes
+25-Jun-25 03:24:57 | nlb - ERROR - Other error occurred: 
+25-Jun-25 03:24:57 | nlb - ERROR - 
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.13.5/x64/lib/python3.13/site-packages/anyio/streams/tls.py", line 131, in _call_sslobject_method
     result = func(*args)
@@ -82,15 +82,20 @@ httpcore.ReadTimeout
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 114, in main
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 124, in main
     nlbList += await asyncio.gather(*tasks)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 94, in limited_getStopList
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 104, in limited_getStopList
     return await getStopList(client, nr)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 53, in getStopList
-    stopListResponse = await client.get(stopListUrl)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 63, in getStopList
+    stopListResponse = await async_get_with_retry(client, stopListUrl)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 56, in async_get_with_retry
+    raise e
+  File "/home/runner/work/BusData/BusData/action/NLB_Route.py", line 50, in async_get_with_retry
+    response = await client.get(url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.13.5/x64/lib/python3.13/site-packages/httpx/_client.py", line 1757, in get
     return await self.request(
            ^^^^^^^^^^^^^^^^^^^
