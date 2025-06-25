@@ -23,12 +23,12 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
-delay = 1
+delay = 0.5
 
 gmbRoutes = list()
 gmbStops = list()
 
-async def async_get_with_retry(client, url, retries=5, delay=2, **kwargs):
+async def async_get_with_retry(client, url, retries=5, delay=30, **kwargs):
     for attempt in range(retries):
         try:
             response = await client.get(url, **kwargs)
