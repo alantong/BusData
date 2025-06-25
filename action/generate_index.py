@@ -1,0 +1,18 @@
+import os
+
+def make_index(directory, rel_path=""):
+    files = []
+    for fname in sorted(os.listdir(directory)):
+        fpath = os.path.join(directory, fname)
+        if os.path.isfile(fpath):
+            files.append(f'<li><a href="{rel_path}{fname}">{fname}</a></li>')
+        elif os.path.isdir(fpath):
+            files.append(f'<li><a href="{rel_path}{fname}/index.html">{fname}/</a></li>')
+            make_index(fpath, rel_path + fname + "/")
+    if files:
+        with open(os.path.join(directory, "index.html"), "w", encoding="utf-8") as f:
+            f.write("<ul>\n" + "\n".join(files) + "\n</ul>")
+
+make_index("FGDB/BUS")
+make_index("FGDB/GMB")
+make_index("FGDB")

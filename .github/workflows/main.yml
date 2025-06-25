@@ -32,6 +32,9 @@ jobs:
           python action/FGDB_BUS.py
           python action/FGDB_GMB.py
       
+      - name: Generate index.html
+        run: python action/generate_index.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
