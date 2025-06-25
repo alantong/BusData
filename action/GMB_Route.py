@@ -35,6 +35,7 @@ async def async_get_with_retry(client, url, retries=3, delay=1, **kwargs):
             return response
         except (httpx.RequestError, httpx.HTTPStatusError) as e:
             if attempt < retries - 1:
+                print("retry request")
                 await asyncio.sleep(delay)
             else:
                 raise e
@@ -125,7 +126,7 @@ async def main():
                 async with semaphore:
                     return await getRouteName(client, region, r)
             
-            async with httpx.AsyncClient(timeout=30.0) as client:
+            async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
                 tasks = []
                 for r in routeList:
                     time.sleep(delay)
@@ -139,7 +140,7 @@ async def main():
             async with semaphore:
                 return await getStopList(client, gr)
         
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
             tasks = []
             for gr in gmbRoutes:
                  time.sleep(delay)
@@ -162,7 +163,7 @@ async def main():
             async with semaphore:
                 return await getStopLoc(client, s)
         
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
             tasks = []
             for s in _gmbStopList:
                time.sleep(delay)

@@ -14,6 +14,7 @@ import GeoJSON
    
 from requests.exceptions import HTTPError
 
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36'}
 
 allRouteBaseUrl = 'https://rt.data.gov.hk/v2/transport/nlb/route.php?action=list'
 stopListBaseUrl = 'https://rt.data.gov.hk/v2/transport/nlb/stop.php?action=list&routeId='
@@ -51,6 +52,7 @@ async def async_get_with_retry(client, url, retries=3, delay=1, **kwargs):
             return response
         except (httpx.RequestError, httpx.HTTPStatusError) as e:
             if attempt < retries - 1:
+                print("retry request")
                 await asyncio.sleep(delay)
             else:
                 raise e
@@ -87,7 +89,7 @@ async def main(routes):
         print("Start getting NLB routes")
         nlb_logger.info("Start getting NLB routes")
         
-        routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
+        routeResponse = requests.get(allRouteBaseUrl, timeout=30.0, headers=headers)
         routeResponse.raise_for_status()
 
         routeObject = routeResponse.json()
@@ -103,7 +105,7 @@ async def main(routes):
             async with semaphore:
                 return await getStopList(client, nr)
 
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
             for r in routeList:
                 time.sleep(delay)
                 nr = dict()
