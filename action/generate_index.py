@@ -13,6 +13,8 @@ def make_index(directory, rel_path=""):
         with open(os.path.join(directory, "index.html"), "w", encoding="utf-8") as f:
             f.write("<ul>\n" + "\n".join(files) + "\n</ul>")
 
-make_index("FGDB/BUS")
-make_index("FGDB/GMB")
 make_index("FGDB")
+make_index("FGDB/BUS")
+make_index("FGDB/BUS/Map")
+make_index("FGDB/GMB")
+make_index("FGDB/GMB/Map")
