@@ -23,7 +23,7 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
-delay = 0.5
+delay = 1
 
 gmbRoutes = list()
 gmbStops = list()
@@ -120,7 +120,7 @@ async def main():
             routeList = routeObject['data']['routes']
 
             # Limit the number of concurrent tasks
-            semaphore = asyncio.Semaphore(3)  # adjust the limit as needed
+            semaphore = asyncio.Semaphore(1)  # adjust the limit as needed
 
             async def limited_getRouteName(client, region, r):
                 async with semaphore:
