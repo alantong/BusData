@@ -6,10 +6,50 @@ on:
     - cron: '0 19 * * *' 
     
 jobs:
-  build:
+  FGDB:
     permissions:
       id-token: write
       contents: write
+      pages: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13' # install the python version needed
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r action/requirements.txt
+
+      - name: execute py script 
+        run: |
+          python action/FGDB_BUS.py
+          python action/FGDB_GMB.py
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'FGDB'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+
+  GetRoute:
+    permissions:
+      id-token: write
+      contents: write
+      pages: write
 
     runs-on: ubuntu-latest
     steps:
@@ -54,16 +94,3 @@ jobs:
           commit-msg: Update resources
           github-token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # upload entire directory
-          path: 'FGDB'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
