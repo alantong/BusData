@@ -23,14 +23,25 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
-delay = 0.5
+delay = 0.05
 
 gmbRoutes = list()
 gmbStops = list()
 
+async def async_get_with_retry(client, url, retries=3, delay=1, **kwargs):
+    for attempt in range(retries):
+        try:
+            response = await client.get(url, **kwargs)
+            return response
+        except (httpx.RequestError, httpx.HTTPStatusError) as e:
+            if attempt < retries - 1:
+                await asyncio.sleep(delay)
+            else:
+                raise e
+
 async def getStopList(client, gr) :
     stopListUrl = f"{stopListBaseUrl}{gr['routeId']}/{gr['routeSeq']}"
-    stopListResponse = await client.get(stopListUrl)
+    stopListResponse = await async_get_with_retry(client, stopListUrl)
     stopListObject = stopListResponse.json()
 
     stopList = list()
@@ -53,7 +64,7 @@ async def getStopList(client, gr) :
 
 async def getStopLoc(client, s) :
     stopLocUrl = stopLocBaseUrl + str(s['stop'])
-    stopLocResponse = await client.get(stopLocUrl)
+    stopLocResponse = await async_get_with_retry(client, stopLocUrl)
     stopLocObj = stopLocResponse.json()
     stopLoc = stopLocObj['data']['coordinates']['wgs84']
     s['lat'] = stopLoc['latitude']
@@ -62,7 +73,7 @@ async def getStopLoc(client, s) :
     
 async def getRouteName(client, region, routeNo) :
     routeNo = routeNo.strip("'")
-    routeNameResponse = await client.get(allRouteBaseUrl+region+"/"+routeNo)
+    routeNameResponse = await async_get_with_retry(client, allRouteBaseUrl+region+"/"+routeNo)
     routeNameObject =  routeNameResponse.json()
     routeIdObject = routeNameObject['data']
 
