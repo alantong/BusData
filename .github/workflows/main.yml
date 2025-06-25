@@ -40,10 +40,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: List FGDB contents
+        run: ls -lR FGDB
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: FGDB/
+          path: FGDB
 
       - name: Deploy to GitHub Pages
         id: deployment
