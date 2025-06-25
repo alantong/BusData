@@ -41,7 +41,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'FGDB'
+          path: './FGDB'
 
       - name: Deploy to GitHub Pages
         id: deployment
