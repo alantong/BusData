@@ -25,9 +25,9 @@ def main() :
     gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
     KMB_Route.main(busRoutes)
     asyncio.run(CTB_Route.main(busRoutes))
-    asyncio.run(NLB_Route.main(busRoutes))
-    asyncio.run(GMB_Route.main())
+    asyncio.run(NLB_Route.main(busRoutes))    
     asyncio.run(MTR_BUS_Route.main())
+    asyncio.run(GMB_Route.main())
     
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
