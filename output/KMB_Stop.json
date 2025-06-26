@@ -23584,8 +23584,8 @@
         "name_en":"Chong San Road (PA212)",
         "name_tc":"創新路 (PA212)",
         "name_sc":"创新路 (PA212)",
-        "lat":"22.428649",
-        "long":"114.204981",
+        "lat":"22.428263",
+        "long":"114.205613",
         "co":"KMB"
     },
     {
@@ -42211,18 +42211,18 @@
     },
     {
         "stop":"D365563B7CA5803E",
-        "name_en":"On Tat Bus Terminus (AN651)",
-        "name_tc":"安達總站 (AN651)",
-        "name_sc":"安达总站 (AN651)",
+        "name_en":"On Tat Estate (AN651)",
+        "name_tc":"安達邨 (AN651)",
+        "name_sc":"安达邨 (AN651)",
         "lat":"22.319350",
         "long":"114.235250",
         "co":"KMB"
     },
     {
         "stop":"7738C40636E479F0",
-        "name_en":"On Tat Bus Terminus (AN645)",
-        "name_tc":"安達總站 (AN645)",
-        "name_sc":"安达总站 (AN645)",
+        "name_en":"On Tat Estate (AN645)",
+        "name_tc":"安達邨 (AN645)",
+        "name_sc":"安达邨 (AN645)",
         "lat":"22.320433",
         "long":"114.234100",
         "co":"KMB"
@@ -59103,42 +59103,6 @@
         "co":"KMB"
     },
     {
-        "stop":"02FBFA6B14F230C6",
-        "name_en":"Ma Wan (Pak Yan Road)",
-        "name_tc":"馬灣 (珀欣路)",
-        "name_sc":"马湾 (珀欣路)",
-        "lat":"22.347130",
-        "long":"114.059822",
-        "co":"KMB"
-    },
-    {
-        "stop":"321060BAE1447BEE",
-        "name_en":"Tsuen Wan Station",
-        "name_tc":"荃灣站",
-        "name_sc":"荃湾站",
-        "lat":"22.372748",
-        "long":"114.119285",
-        "co":"KMB"
-    },
-    {
-        "stop":"860671A5FA383DA3",
-        "name_en":"Banyan Garden",
-        "name_tc":"泓景臺",
-        "name_sc":"泓景台",
-        "lat":"22.335146",
-        "long":"114.147718",
-        "co":"KMB"
-    },
-    {
-        "stop":"0524415976F284A4",
-        "name_en":"Austin Road West",
-        "name_tc":"柯士甸道西",
-        "name_sc":"柯士甸道西",
-        "lat":"22.302618",
-        "long":"114.159612",
-        "co":"KMB"
-    },
-    {
         "stop":"90F0F685E42CC10D",
         "name_en":"Central Ferry Piers (Man Kwong Street)",
         "name_tc":"中環碼頭(民光街)",
@@ -59172,6 +59136,15 @@
         "name_sc":"中环 (港澳码头)",
         "lat":"22.288088",
         "long":"114.150019",
+        "co":"KMB"
+    },
+    {
+        "stop":"0524415976F284A4",
+        "name_en":"Austin Road West",
+        "name_tc":"柯士甸道西",
+        "name_sc":"柯士甸道西",
+        "lat":"22.302618",
+        "long":"114.159612",
         "co":"KMB"
     },
     {
@@ -59247,6 +59220,15 @@
         "co":"KMB"
     },
     {
+        "stop":"321060BAE1447BEE",
+        "name_en":"Tsuen Wan Station",
+        "name_tc":"荃灣站",
+        "name_sc":"荃湾站",
+        "lat":"22.372748",
+        "long":"114.119285",
+        "co":"KMB"
+    },
+    {
         "stop":"A8DC6F85E7043234",
         "name_en":"Tsing Yi Station",
         "name_tc":"青衣站",
@@ -59271,6 +59253,15 @@
         "name_sc":"大南西街",
         "lat":"22.336102",
         "long":"114.149431",
+        "co":"KMB"
+    },
+    {
+        "stop":"860671A5FA383DA3",
+        "name_en":"Banyan Garden",
+        "name_tc":"泓景臺",
+        "name_sc":"泓景台",
+        "lat":"22.335146",
+        "long":"114.147718",
         "co":"KMB"
     },
     {
