@@ -66278,30 +66278,6 @@
         "gtfsRouteKey":[]
     },
     {
-        "route":"PB2",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Ma Wan",
-        "orig_tc":"馬灣",
-        "orig_sc":"马湾",
-        "dest_en":"Central(From Ma Wan) (Circular)",
-        "dest_tc":"中環 (由馬灣出發 循環行走)",
-        "dest_sc":"中环 (由马湾出发 循环行走)",
-        "co":"KMB",
-        "stops":[
-            "02FBFA6B14F230C6",
-            "321060BAE1447BEE",
-            "860671A5FA383DA3",
-            "0524415976F284A4",
-            "90F0F685E42CC10D",
-            "0524415976F284A4",
-            "860671A5FA383DA3",
-            "321060BAE1447BEE",
-            "02FBFA6B14F230C6"
-        ],
-        "gtfsRouteKey":[]
-    },
-    {
         "route":"PB2A",
         "bound":"O",
         "service_type":"1",
