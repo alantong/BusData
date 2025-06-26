@@ -28,17 +28,18 @@ delay = 0.05
 gmbRoutes = list()
 gmbStops = list()
 
-async def async_get_with_retry(client, url, retries=5, retryTimeout=300, **kwargs):
+async def async_get_with_retry(client, url, retries=5, retryTimeout=180, **kwargs):
     for attempt in range(retries):
         try:
             response = await client.get(url, **kwargs)
+            response.raise_for_status()
             return response
         except (httpx.RequestError, httpx.HTTPStatusError) as e:
-            logging.DEBUG(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
+            logger.info(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
             if attempt < retries - 1:
                 await asyncio.sleep(retryTimeout)
             else:
-                logging.error(f"All {retries} attempts failed for {url}")
+                logger.error(f"All {retries} attempts failed for {url}")
                 raise e
 
 async def getStopList(client, gr) :
@@ -95,25 +96,7 @@ async def getRouteName(client, region, routeNo) :
             gmbRoutes.append(gr)
 
 async def main():
-    logDir = os.path.join (os.getcwd(), log_dir)
-    if os.path.exists(logDir) == False: 
-        os.mkdir(logDir)
-
-    logFile = os.path.join(logDir, 'gmb.log')
-
-    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-    # Creating an object
-    logger = logging.getLogger()
-
-    # Setting the threshold of logger to DEBUG
-    logger.setLevel(logging.DEBUG)
-
-    logging.info("Start getting GMB route")
-    print("Start getting GMB route")
-
     try:
-
         # Limit the number of concurrent tasks
         semaphore = asyncio.Semaphore(10)  # adjust the limit as needed
 
@@ -123,8 +106,6 @@ async def main():
 
             routeObject = routeResponse.json()
             routeList = routeObject['data']['routes']
-
-
 
             async def limited_getRouteName(client, region, r):
                 async with semaphore:
@@ -155,7 +136,6 @@ async def main():
         GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)
         print("GMB Route List done")
 
-
         gmbStopList = list({v['stop']:v for v in gmbStops}.values())
 
         _gmbStopList= sorted(gmbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
@@ -177,22 +157,39 @@ async def main():
 
         print("GMB Stop List done")
 
-        logging.info("Finish getting GMB route")
+        print("Finish getting GMB route")
+        logger.info("Finish getting GMB route")
 
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logging.error(f'HTTP error occurred: {http_err}')
+            logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logging.error(http_err, exc_info=True)
+            logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logging.error(f'Other error occurred: {err}')
+            logger.error(f'Other error occurred: {err}')
             print(err)
-            logging.error(err, exc_info=True)
+            logger.error(err, exc_info=True)
             traceback.print_exc()
 
 
 if __name__=="__main__":
+    logDir = os.path.join (os.getcwd(), log_dir)
+    if os.path.exists(logDir) == False: 
+        os.mkdir(logDir)
+
+    logFile = os.path.join(logDir, 'gmb.log')
+
+    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+
+    # Creating an object
+    logger = logging.getLogger()
+
+    # Setting the threshold of logger to DEBUG
+    logger.setLevel(logging.DEBUG)
+
+    logger.info("Start getting GMB route")
+    print("Start getting GMB route")
     asyncio.run(main())
