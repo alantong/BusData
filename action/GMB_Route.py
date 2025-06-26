@@ -23,7 +23,7 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
-delay = 1
+delay = 5
 
 gmbRoutes = list()
 gmbStops = list()
