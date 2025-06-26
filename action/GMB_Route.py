@@ -23,6 +23,20 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
+logDir = os.path.join (os.getcwd(), log_dir)
+if os.path.exists(logDir) == False: 
+    os.mkdir(logDir)
+
+logFile = os.path.join(logDir, 'gmb.log')
+
+logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+
+# Creating an object
+logger = logging.getLogger()
+
+# Setting the threshold of logger to DEBUG
+logger.setLevel(logging.DEBUG)
+
 delay = 0.05
 
 gmbRoutes = list()
@@ -97,6 +111,9 @@ async def getRouteName(client, region, routeNo) :
 
 async def main():
     try:
+        logger.info("Start getting GMB route")
+        print("Start getting GMB route")
+        
         # Limit the number of concurrent tasks
         semaphore = asyncio.Semaphore(10)  # adjust the limit as needed
 
@@ -176,20 +193,4 @@ async def main():
 
 
 if __name__=="__main__":
-    logDir = os.path.join (os.getcwd(), log_dir)
-    if os.path.exists(logDir) == False: 
-        os.mkdir(logDir)
-
-    logFile = os.path.join(logDir, 'gmb.log')
-
-    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-    # Creating an object
-    logger = logging.getLogger()
-
-    # Setting the threshold of logger to DEBUG
-    logger.setLevel(logging.DEBUG)
-
-    logger.info("Start getting GMB route")
-    print("Start getting GMB route")
     asyncio.run(main())

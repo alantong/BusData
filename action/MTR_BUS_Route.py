@@ -22,35 +22,34 @@ MTRBus_stop_json = 'MTR_BUS_Stop'
  
 log_dir = 'log'
 
+logDir = os.path.join (os.getcwd(), log_dir)
+
+if os.path.exists(logDir) == False: 
+    os.mkdir(logDir)
+
+logFile = os.path.join(logDir, 'mtr_bus.log')
+    
+logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+
+# Creating an object
+logger = logging.getLogger()
+
+# Setting the threshold of logger to DEBUG
+logger.setLevel(logging.DEBUG)
+
+
 def getRouteStop(routeNo, bound, stopList):
     routeStopList = []
     for s in stopList:
         if (s['route'] == routeNo and s['bound'] == bound):
-            time.sleep(2)
             routeStopList.append(s)
     #routeStopList.sort('stopSeq')
     #print(routeStopList)
     return routeStopList
 
-async def main():
-    
-    logDir = os.path.join (os.getcwd(), log_dir)
-    
-    if os.path.exists(logDir) == False: 
-        os.mkdir(logDir)
-
-    logFile = os.path.join(logDir, 'mtr_bus.log')
-        
-    logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-    # Creating an object
-    logger = logging.getLogger()
-
-    # Setting the threshold of logger to DEBUG
-    logger.setLevel(logging.INFO)
-
+def main():
     print("Start getting MTR Bus stops")
-    logging.info("Start getting MTR Bus stops")
+    logger.info("Start getting MTR Bus stops")
 
     try:
         
@@ -89,11 +88,11 @@ async def main():
         
         GetRoute.writeToJson(stopList, MTRBus_stop_json)
 
-        print("Finish getting MTR Bus stoos")
-        logging.info("Finish getting MTR Bus stops")
+        print("Finish getting MTR Bus stops")
+        logger.info("Finish getting MTR Bus stops")
 
         print("Start getting MTR Bus routes")
-        logging.info("Start getting MTR Bus routes")
+        logger.info("Start getting MTR Bus routes")
 
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
@@ -140,23 +139,23 @@ async def main():
 
 
         print("Finish getting MTR Bus routes")
-        logging.info("Finish getting MTR Bus rotues")
+        logger.info("Finish getting MTR Bus rotues")
 
         
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logging.error(f'HTTP error occurred: {http_err}')
+            logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logging.error(http_err, exc_info=True)
+            logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logging.error(f'Other error occurred: {err}')
+            logger.error(f'Other error occurred: {err}')
             print(err)
-            logging.error(err, exc_info=True)
+            logger.error(err, exc_info=True)
             traceback.print_exc()
 
 if __name__=="__main__":
-    asyncio.run(main())
+    main()
