@@ -23,7 +23,7 @@ gmb_stop_json = 'GMB_Stop'
 
 log_dir = 'log'
 
-delay = 5
+delay = 0.05
 
 gmbRoutes = list()
 gmbStops = list()
@@ -120,31 +120,30 @@ async def main():
             routeList = routeObject['data']['routes']
 
             # Limit the number of concurrent tasks
-            semaphore = asyncio.Semaphore(1)  # adjust the limit as needed
+            semaphore = asyncio.Semaphore(3)  # adjust the limit as needed
 
             async def limited_getRouteName(client, region, r):
                 async with semaphore:
                     return await getRouteName(client, region, r)
             
-            async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
+            async with httpx.AsyncClient(timeout=30.0, headers=headers) as client1:
                 tasks = []
                 for r in routeList:
                     time.sleep(delay)
-                    tasks.append(limited_getRouteName(client, region, r))
+                    tasks.append(limited_getRouteName(client1, region, r))
                 await asyncio.gather(*tasks)
             
-        
         gmbRouteStop = list()
 
         async def limited_getStopList(client, gr):
             async with semaphore:
                 return await getStopList(client, gr)
         
-        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client2:
             tasks = []
             for gr in gmbRoutes:
                  time.sleep(delay)
-                 tasks.append(limited_getStopList(client, gr))
+                 tasks.append(limited_getStopList(client2, gr))
             gmbRouteStop += await asyncio.gather(*tasks)
     
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
@@ -163,11 +162,11 @@ async def main():
             async with semaphore:
                 return await getStopLoc(client, s)
         
-        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client:
+        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client3:
             tasks = []
             for s in _gmbStopList:
                time.sleep(delay)
-               tasks.append(limited_getStopLoc(client, s))
+               tasks.append(limited_getStopLoc(client3, s))
             gmbStopLoc += await asyncio.gather(*tasks)
 
         GetRoute.writeToJson(gmbStopLoc, gmb_stop_json)
