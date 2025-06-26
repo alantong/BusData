@@ -28,15 +28,15 @@ delay = 0.05
 gmbRoutes = list()
 gmbStops = list()
 
-async def async_get_with_retry(client, url, retries=5, delay=30, **kwargs):
+async def async_get_with_retry(client, url, retries=5, retryTimeout=300, **kwargs):
     for attempt in range(retries):
         try:
             response = await client.get(url, **kwargs)
             return response
         except (httpx.RequestError, httpx.HTTPStatusError) as e:
             if attempt < retries - 1:
-                print("retry request")
-                await asyncio.sleep(delay)
+                logging.warning(f"{httpx.HTTPStatusError} retry request")
+                await asyncio.sleep(retryTimeout)
             else:
                 raise e
 
