@@ -11,7 +11,7 @@ import GetRoute
 
 from requests.exceptions import HTTPError
 
-headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36'}
+#headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36'}
 
 allRouteBaseUrl = 'https://data.etagmb.gov.hk/route/'
 stopListBaseUrl = 'https://data.etagmb.gov.hk/route-stop/'
@@ -34,10 +34,11 @@ async def async_get_with_retry(client, url, retries=5, retryTimeout=300, **kwarg
             response = await client.get(url, **kwargs)
             return response
         except (httpx.RequestError, httpx.HTTPStatusError) as e:
+            logging.DEBUG(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
             if attempt < retries - 1:
-                logging.warning(f"{httpx.HTTPStatusError} retry request")
                 await asyncio.sleep(retryTimeout)
             else:
+                logging.error(f"All {retries} attempts failed for {url}")
                 raise e
 
 async def getStopList(client, gr) :
@@ -112,21 +113,24 @@ async def main():
     print("Start getting GMB route")
 
     try:
+
+        # Limit the number of concurrent tasks
+        semaphore = asyncio.Semaphore(10)  # adjust the limit as needed
+
         for region in ('NT', 'HKI', 'KLN'): 
-            routeResponse = requests.get(allRouteBaseUrl+region, headers=headers, timeout=30.0)
+            routeResponse = requests.get(allRouteBaseUrl+region, timeout=30.0)
             routeResponse.raise_for_status()
 
             routeObject = routeResponse.json()
             routeList = routeObject['data']['routes']
 
-            # Limit the number of concurrent tasks
-            semaphore = asyncio.Semaphore(3)  # adjust the limit as needed
+
 
             async def limited_getRouteName(client, region, r):
                 async with semaphore:
                     return await getRouteName(client, region, r)
             
-            async with httpx.AsyncClient(timeout=30.0, headers=headers) as client1:
+            async with httpx.AsyncClient(timeout=30.0) as client1:
                 tasks = []
                 for r in routeList:
                     time.sleep(delay)
@@ -139,7 +143,7 @@ async def main():
             async with semaphore:
                 return await getStopList(client, gr)
         
-        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client2:
+        async with httpx.AsyncClient(timeout=30.0) as client2:
             tasks = []
             for gr in gmbRoutes:
                  time.sleep(delay)
@@ -157,12 +161,12 @@ async def main():
         _gmbStopList= sorted(gmbStopList, key=lambda x: int(operator.itemgetter("stop")(x))) 
 
         gmbStopLoc = list()
-
+        print("Start getting GMB Stop List")
         async def limited_getStopLoc(client, s):
             async with semaphore:
                 return await getStopLoc(client, s)
         
-        async with httpx.AsyncClient(timeout=30.0, headers=headers) as client3:
+        async with httpx.AsyncClient(timeout=30.0) as client3:
             tasks = []
             for s in _gmbStopList:
                time.sleep(delay)
