@@ -55,8 +55,8 @@ def getGeoJsonRoutes(type="BUS"):
     #group all features by routeId
     for feature in features:
         properties = feature.get('properties', {})
-        routeId = properties.get('routeId')
-        routeSeq = properties.get('routeSeq')
+        routeId = str(properties.get('routeId'))
+        routeSeq = str(properties.get('routeSeq'))
         
         if routeId is not None and routeSeq is not None:
             key = (routeId, routeSeq)
@@ -235,7 +235,7 @@ def matchRouteId(companyCode, routeNo, startStop, endStop, routes):
                                 f"{routes[(c[1], c[2])][0]['properties']['locEndNameC']}"
                             )
             """
-            resultList.append([c[0], c[1], c[2]])
+            resultList.append([c[0], str(c[1]), str(c[2])])
 
     
     if len(resultList) == 0:

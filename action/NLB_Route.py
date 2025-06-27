@@ -45,24 +45,13 @@ nlb_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname
 nlb_logger.addHandler(nlb_handler)
 nlb_logger.setLevel(logging.DEBUG)
 
-async def async_get_with_retry(client, url, retries=3, delay=1, **kwargs):
-    for attempt in range(retries):
-        try:
-            response = await client.get(url, **kwargs)
-            return response
-        except (httpx.RequestError, httpx.HTTPStatusError) as e:
-            if attempt < retries - 1:
-                print("retry request")
-                await asyncio.sleep(delay)
-            else:
-                raise e
 
 async def getStopList(client, route):
     stopList = []
     stopListUrl = f"{stopListBaseUrl}{route['routeId']}"
     newRoute = route.copy()
 
-    stopListResponse = await async_get_with_retry(client, stopListUrl)
+    stopListResponse = await GetRoute.async_get_with_retry(client, stopListUrl)
     stopListObject = stopListResponse.json()
     
     if(len(stopListObject['stops']) > 0) :

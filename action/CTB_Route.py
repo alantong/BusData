@@ -41,7 +41,7 @@ async def getStopInfo(client, stopId):
     stopInfo = []
     stopInfoUrl = stopInfoBaseUrl + stopId
 
-    stopInfoResponse = await client.get(stopInfoUrl, timeout=30.0)
+    stopInfoResponse = await GetRoute.async_get_with_retry(client, stopInfoUrl, timeout=30.0)
     stopInfoObject = stopInfoResponse.json()
 
     if(len(stopInfoObject['data']) > 0):
@@ -59,7 +59,7 @@ async def getStopList(client, route, bound):
         newRoute['orig_en'], newRoute['dest_en'] = newRoute['dest_en'], newRoute['orig_en']
         newRoute['orig_sc'], newRoute['dest_sc'] = newRoute['dest_sc'], newRoute['orig_sc']
 
-    stopListResponse = await client.get(stopListUrl, timeout=30.0)
+    stopListResponse = await GetRoute.async_get_with_retry(client, stopListUrl, timeout=30.0)
     stopListObject = stopListResponse.json()
     
     if(len(stopListObject['data']) > 0) :
@@ -78,7 +78,7 @@ async def main(routes):
         
     try:
 
-        routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
+        routeResponse = requests.get(allRouteBaseUrl, timeout=60.0)
         routeResponse.raise_for_status()
         # access Json content
         routeObject = routeResponse.json()

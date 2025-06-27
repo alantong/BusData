@@ -4,6 +4,7 @@ import os
 import re
 import json
 import time
+import httpx
 import GeoJSON
 import KMB_Route
 import CTB_Route
@@ -22,13 +23,14 @@ def main() :
     
     global busRoutes
     busRoutes = GeoJSON.getGeoJsonRoutes("BUS")
-    gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
-    MTR_BUS_Route.main()
+    #gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
+    
     KMB_Route.main(busRoutes)
     asyncio.run(CTB_Route.main(busRoutes))
     asyncio.run(NLB_Route.main(busRoutes))     
     asyncio.run(GMB_Route.main())
-    
+    MTR_BUS_Route.main()
+
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
     
@@ -44,6 +46,21 @@ def main() :
     minutes = int(elapsed // 60)
     seconds = int(elapsed % 60)
     print(f"Script finished in {minutes} minutes {seconds} seconds")
+
+async def async_get_with_retry(client, url, retries=5, retryTimeout=180, **kwargs):
+    for attempt in range(retries):
+        try:
+            response = await client.get(url, **kwargs)
+            response.raise_for_status()
+            return response
+        except (httpx.RequestError, httpx.HTTPStatusError) as e:
+            print(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
+            if attempt < retries - 1:
+                await asyncio.sleep(retryTimeout)
+            else:
+                print(f"All {retries} attempts failed for {url}")
+                raise e
+
 
 def writeToJson(content, filename, indent=4) :
     outputDir = os.path.join(os.getcwd(), output_dir)
