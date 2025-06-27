@@ -46,7 +46,7 @@ gdf = gpd.read_file(gdb_path, layer=layers[0])
 #print(gdf.head())
 
 gdf.to_crs(epsg=4326, inplace=True)
-gdf['geometry'] = gdf['geometry'].simplify(0.00005)
+#gdf['geometry'] = gdf['geometry'].line_merge(directed=True).simplify(tolerance=0.00005)
 data = gdf.to_geo_dict(drop_id=True)
 
 # gdf.to_file("FGDB/output.geojson", driver="GeoJSON")

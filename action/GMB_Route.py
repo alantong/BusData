@@ -42,23 +42,9 @@ delay = 0.05
 gmbRoutes = list()
 gmbStops = list()
 
-async def async_get_with_retry(client, url, retries=5, retryTimeout=180, **kwargs):
-    for attempt in range(retries):
-        try:
-            response = await client.get(url, **kwargs)
-            response.raise_for_status()
-            return response
-        except (httpx.RequestError, httpx.HTTPStatusError) as e:
-            logger.info(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
-            if attempt < retries - 1:
-                await asyncio.sleep(retryTimeout)
-            else:
-                logger.error(f"All {retries} attempts failed for {url}")
-                raise e
-
 async def getStopList(client, gr) :
     stopListUrl = f"{stopListBaseUrl}{gr['routeId']}/{gr['routeSeq']}"
-    stopListResponse = await async_get_with_retry(client, stopListUrl)
+    stopListResponse = await GetRoute.async_get_with_retry(client, stopListUrl)
     stopListObject = stopListResponse.json()
 
     stopList = list()
@@ -81,7 +67,7 @@ async def getStopList(client, gr) :
 
 async def getStopLoc(client, s) :
     stopLocUrl = stopLocBaseUrl + str(s['stop'])
-    stopLocResponse = await async_get_with_retry(client, stopLocUrl)
+    stopLocResponse = await GetRoute.async_get_with_retry(client, stopLocUrl)
     stopLocObj = stopLocResponse.json()
     stopLoc = stopLocObj['data']['coordinates']['wgs84']
     s['lat'] = stopLoc['latitude']
@@ -90,7 +76,7 @@ async def getStopLoc(client, s) :
     
 async def getRouteName(client, region, routeNo) :
     routeNo = routeNo.strip("'")
-    routeNameResponse = await async_get_with_retry(client, allRouteBaseUrl+region+"/"+routeNo)
+    routeNameResponse = await GetRoute.async_get_with_retry(client, allRouteBaseUrl+region+"/"+routeNo)
     routeNameObject =  routeNameResponse.json()
     routeIdObject = routeNameObject['data']
 
