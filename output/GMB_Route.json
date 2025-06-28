@@ -29106,6 +29106,44 @@
     },
     {
         "co":"GMB",
+        "route":"N4M",
+        "routeId":2010995,
+        "routeSeq":1,
+        "orig_tc":"香港仔(石排灣)",
+        "dest_tc":"黃竹坑站",
+        "orig_sc":"香港仔(石排湾)",
+        "dest_sc":"黄竹坑站",
+        "orig_en":"Aberdeen (Shek Pai Wan)",
+        "dest_en":"Wong Chuk Hang Station",
+        "stops":[
+            20011318,
+            20021679,
+            20011613,
+            20011235
+        ]
+    },
+    {
+        "co":"GMB",
+        "route":"N4M",
+        "routeId":2010995,
+        "routeSeq":2,
+        "orig_tc":"黃竹坑站",
+        "dest_tc":"香港仔(石排灣)",
+        "orig_sc":"黄竹坑站",
+        "dest_sc":"香港仔(石排湾)",
+        "orig_en":"Wong Chuk Hang Station",
+        "dest_en":"Aberdeen (Shek Pai Wan)",
+        "stops":[
+            20011235,
+            20000057,
+            20000361,
+            20000169,
+            20011599,
+            20011318
+        ]
+    },
+    {
+        "co":"GMB",
         "route":"N4X",
         "routeId":2004093,
         "routeSeq":1,
