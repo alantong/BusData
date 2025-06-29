@@ -25499,6 +25499,46 @@
     },
     {
         "co":"GMB",
+        "route":"83B",
+        "routeId":2010962,
+        "routeSeq":1,
+        "orig_tc":"彩興路簡約公屋",
+        "dest_tc":"坪石",
+        "orig_sc":"彩兴路简约公屋",
+        "dest_sc":"坪石",
+        "orig_en":"Choi Hing Road Light Public Housing",
+        "dest_en":"Ping Shek",
+        "stops":[
+            20021778,
+            20021779,
+            20021780,
+            20021781,
+            20021782,
+            20019766
+        ]
+    },
+    {
+        "co":"GMB",
+        "route":"83B",
+        "routeId":2010962,
+        "routeSeq":2,
+        "orig_tc":"坪石",
+        "dest_tc":"彩興路簡約公屋",
+        "orig_sc":"坪石",
+        "dest_sc":"彩兴路简约公屋",
+        "orig_en":"Ping Shek",
+        "dest_en":"Choi Hing Road Light Public Housing",
+        "stops":[
+            20019766,
+            20021783,
+            20021784,
+            20021785,
+            20021786,
+            20021778
+        ]
+    },
+    {
+        "co":"GMB",
         "route":"83M",
         "routeId":2008817,
         "routeSeq":1,
