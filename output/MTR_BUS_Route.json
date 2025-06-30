@@ -20,16 +20,25 @@
             "506-U100",
             "506-U110",
             "506-U120"
+        ],
+        "fullFare":5.1,
+        "journeyTime":22,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1862",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"506",
-        "bound":"I",
-        "orig_tc":"兆麟",
-        "dest_tc":"屯門碼頭",
-        "orig_en":"Siu Lun",
-        "dest_en":"Tuen Mun Ferry Pier",
+        "bound":"O",
+        "orig_tc":"屯門碼頭",
+        "dest_tc":"兆麟",
+        "orig_en":"Tuen Mun Ferry Pier",
+        "dest_en":"Siu Lun",
         "stops":[
             "506-D010",
             "506-D020",
@@ -45,6 +54,15 @@
             "506-D120",
             "506-D130",
             "506-U011"
+        ],
+        "fullFare":5.1,
+        "journeyTime":22,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1862",
+                "2"
+            ]
         ]
     },
     {
@@ -59,21 +77,39 @@
             "K12-U010",
             "K12-U020",
             "K12-U030"
+        ],
+        "fullFare":4.8,
+        "journeyTime":9,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1424",
+                "2"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K12",
-        "bound":"I",
-        "orig_tc":"八號花園",
-        "dest_tc":"大埔墟站",
-        "orig_en":"Eightland Garden",
-        "dest_en":"Tai Po Market Station",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"八號花園",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Eightland Garden",
         "stops":[
             "K12-D010",
             "K12-D020",
             "K12-D030",
             "K12-D040"
+        ],
+        "fullFare":4.8,
+        "journeyTime":9,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1424",
+                "1"
+            ]
         ]
     },
     {
@@ -88,6 +124,15 @@
             "K14-D010",
             "K14-D020",
             "K14-D030"
+        ],
+        "fullFare":4.8,
+        "journeyTime":7,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1425",
+                "1"
+            ]
         ]
     },
     {
@@ -103,20 +148,38 @@
             "K17-U020",
             "K17-U030",
             "K17-U040"
+        ],
+        "fullFare":4.8,
+        "journeyTime":10,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1427",
+                "2"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K17",
-        "bound":"I",
-        "orig_tc":"富善",
-        "dest_tc":"大埔墟站",
-        "orig_en":"Fu Shin",
-        "dest_en":"Tai Po Market Station",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"富善",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Fu Shin",
         "stops":[
             "K17-D010",
             "K17-D020",
             "K17-D030"
+        ],
+        "fullFare":4.8,
+        "journeyTime":10,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1427",
+                "1"
+            ]
         ]
     },
     {
@@ -131,20 +194,38 @@
             "K18-U010",
             "K18-U020",
             "K18-U030"
+        ],
+        "fullFare":4.8,
+        "journeyTime":8,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1428",
+                "2"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K18",
-        "bound":"I",
-        "orig_tc":"廣福",
-        "dest_tc":"大埔墟站",
-        "orig_en":"Kwong Fuk",
-        "dest_en":"Tai Po Market Station",
+        "bound":"O",
+        "orig_tc":"大埔墟站",
+        "dest_tc":"廣福",
+        "orig_en":"Tai Po Market Station",
+        "dest_en":"Kwong Fuk",
         "stops":[
             "K18-D010",
             "K18-D020",
             "K18-D030"
+        ],
+        "fullFare":4.8,
+        "journeyTime":8,
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1428",
+                "1"
+            ]
         ]
     },
     {
@@ -181,16 +262,25 @@
             "K51-U230",
             "K51-U240",
             "K51-U250"
+        ],
+        "fullFare":5.1,
+        "journeyTime":39,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1871",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K51",
-        "bound":"I",
-        "orig_tc":"大欖",
-        "dest_tc":"富泰",
-        "orig_en":"Tai Lam",
-        "dest_en":"Fu Tai",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"大欖",
+        "orig_en":"Fu Tai",
+        "dest_en":"Tai Lam",
         "stops":[
             "K51-D010",
             "K51-D020",
@@ -221,6 +311,15 @@
             "K51-D270",
             "K51-D280",
             "K51-D290"
+        ],
+        "fullFare":5.1,
+        "journeyTime":39,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1871",
+                "2"
+            ]
         ]
     },
     {
@@ -257,16 +356,25 @@
             "K51A-U230",
             "K51A-U240",
             "K51A-U250"
+        ],
+        "fullFare":5.1,
+        "journeyTime":38,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000268",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K51A",
-        "bound":"I",
-        "orig_tc":"掃管笏",
-        "dest_tc":"富泰",
-        "orig_en":"So Kwun Wat",
-        "dest_en":"Fu Tai",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"掃管笏",
+        "orig_en":"Fu Tai",
+        "dest_en":"So Kwun Wat",
         "stops":[
             "K51A-D010",
             "K51A-D020",
@@ -294,6 +402,15 @@
             "K51A-D250",
             "K51A-D260",
             "K51A-D270"
+        ],
+        "fullFare":5.1,
+        "journeyTime":38,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000268",
+                "2"
+            ]
         ]
     },
     {
@@ -335,16 +452,25 @@
             "K52-nU290",
             "K52-nU300",
             "K52-nU310"
+        ],
+        "fullFare":5.1,
+        "journeyTime":49,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000472",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K52",
-        "bound":"I",
-        "orig_tc":"龍鼓灘",
-        "dest_tc":"悅湖山莊",
-        "orig_en":"Lung Kwu Tan",
-        "dest_en":"Yuet Wu Villa",
+        "bound":"O",
+        "orig_tc":"悅湖山莊",
+        "dest_tc":"龍鼓灘",
+        "orig_en":"Yuet Wu Villa",
+        "dest_en":"Lung Kwu Tan",
         "stops":[
             "K52-nD010",
             "K52-nD020",
@@ -376,6 +502,15 @@
             "K52-nD280",
             "K52-nD290",
             "K52-nD300"
+        ],
+        "fullFare":5.1,
+        "journeyTime":49,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000472",
+                "2"
+            ]
         ]
     },
     {
@@ -422,6 +557,15 @@
             "K53-D180",
             "K53-D190",
             "K53-U011"
+        ],
+        "fullFare":5.1,
+        "journeyTime":25,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000516",
+                "1"
+            ]
         ]
     },
     {
@@ -447,6 +591,15 @@
             "K54-D050",
             "K54-D060",
             "K54-D070"
+        ],
+        "fullFare":5.1,
+        "journeyTime":22,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000250",
+                "1"
+            ]
         ]
     },
     {
@@ -463,22 +616,40 @@
             "K54A-U030",
             "K54A-U040",
             "K54A-U050"
+        ],
+        "fullFare":5.1,
+        "journeyTime":8,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000573",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K54A",
-        "bound":"I",
-        "orig_tc":"兆康站",
-        "dest_tc":"和田邨",
-        "orig_en":"Siu Hong Station",
-        "dest_en":"Wo Tin Estate",
+        "bound":"O",
+        "orig_tc":"和田邨",
+        "dest_tc":"兆康站",
+        "orig_en":"Wo Tin Estate",
+        "dest_en":"Siu Hong Station",
         "stops":[
             "K54A-D010",
             "K54A-D020",
             "K54A-D030",
             "K54A-D040",
             "K54A-D050"
+        ],
+        "fullFare":5.1,
+        "journeyTime":8,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000573",
+                "2"
+            ]
         ]
     },
     {
@@ -524,16 +695,25 @@
             "K58-U300",
             "K58-U310",
             "K58-U320"
+        ],
+        "fullFare":5.1,
+        "journeyTime":55,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1875",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K58",
-        "bound":"I",
-        "orig_tc":"掃管笏",
-        "dest_tc":"富泰",
-        "orig_en":"So Kwun Wat",
-        "dest_en":"Fu Tai",
+        "bound":"O",
+        "orig_tc":"富泰",
+        "dest_tc":"掃管笏",
+        "orig_en":"Fu Tai",
+        "dest_en":"So Kwun Wat",
         "stops":[
             "K58-D001",
             "K58-D002",
@@ -568,6 +748,15 @@
             "K58-D196",
             "K58-D200",
             "K58-D210"
+        ],
+        "fullFare":5.1,
+        "journeyTime":55,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1875",
+                "2"
+            ]
         ]
     },
     {
@@ -602,16 +791,25 @@
             "K65-U210",
             "K65-U220",
             "K65-U230"
+        ],
+        "fullFare":5.1,
+        "journeyTime":29,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1876",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K65",
-        "bound":"I",
-        "orig_tc":"流浮山",
-        "dest_tc":"元朗站",
-        "orig_en":"Lau Fau Shan",
-        "dest_en":"Yuen Long Station",
+        "bound":"O",
+        "orig_tc":"元朗站",
+        "dest_tc":"流浮山",
+        "orig_en":"Yuen Long Station",
+        "dest_en":"Lau Fau Shan",
         "stops":[
             "K65-D010",
             "K65-D020",
@@ -632,6 +830,15 @@
             "K65-D170",
             "K65-D180",
             "K65-D190"
+        ],
+        "fullFare":5.1,
+        "journeyTime":29,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1876",
+                "2"
+            ]
         ]
     },
     {
@@ -656,16 +863,25 @@
             "K65A-U110",
             "K65A-U120",
             "K65A-U130"
+        ],
+        "fullFare":5.1,
+        "journeyTime":18,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000235",
+                "2"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K65A",
-        "bound":"I",
-        "orig_tc":"流浮山",
-        "dest_tc":"天水圍站",
-        "orig_en":"Lau Fau Shan",
-        "dest_en":"Tin Shui Wai Station",
+        "bound":"O",
+        "orig_tc":"天水圍站",
+        "dest_tc":"流浮山",
+        "orig_en":"Tin Shui Wai Station",
+        "dest_en":"Lau Fau Shan",
         "stops":[
             "K65A-D010",
             "K65A-D020",
@@ -678,6 +894,15 @@
             "K65A-D090",
             "K65A-D100",
             "K65A-D110"
+        ],
+        "fullFare":5.1,
+        "journeyTime":18,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000235",
+                "1"
+            ]
         ]
     },
     {
@@ -711,16 +936,25 @@
             "K66-U200",
             "K66-U210",
             "K66-U220"
+        ],
+        "fullFare":5.1,
+        "journeyTime":32,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1877",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K66",
-        "bound":"I",
-        "orig_tc":"大棠黃泥墩村",
-        "dest_tc":"朗屏",
-        "orig_en":"Tai Tong Wong Nai Tun Tsuen",
-        "dest_en":"Long Ping",
+        "bound":"O",
+        "orig_tc":"朗屏",
+        "dest_tc":"大棠黃泥墩村",
+        "orig_en":"Long Ping",
+        "dest_en":"Tai Tong Wong Nai Tun Tsuen",
         "stops":[
             "K66-D010",
             "K66-D020",
@@ -746,6 +980,15 @@
             "K66-D220",
             "K66-D230",
             "K66-D240"
+        ],
+        "fullFare":5.1,
+        "journeyTime":32,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1877",
+                "2"
+            ]
         ]
     },
     {
@@ -795,6 +1038,15 @@
             "K68-D190",
             "K68-D200",
             "K68-U011"
+        ],
+        "fullFare":5.1,
+        "journeyTime":42,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1878",
+                "1"
+            ]
         ]
     },
     {
@@ -818,16 +1070,25 @@
             "K73-U100",
             "K73-U110",
             "K73-U120"
+        ],
+        "fullFare":5.1,
+        "journeyTime":31,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1879",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K73",
-        "bound":"I",
-        "orig_tc":"元朗西",
-        "dest_tc":"天恆",
-        "orig_en":"Yuen Long West",
-        "dest_en":"Tin Heng",
+        "bound":"O",
+        "orig_tc":"天恆",
+        "dest_tc":"元朗西",
+        "orig_en":"Tin Heng",
+        "dest_en":"Yuen Long West",
         "stops":[
             "K73-D010",
             "K73-D020",
@@ -844,6 +1105,15 @@
             "K73-D140",
             "K73-D150",
             "K73-D160"
+        ],
+        "fullFare":5.1,
+        "journeyTime":31,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1879",
+                "2"
+            ]
         ]
     },
     {
@@ -881,6 +1151,15 @@
             "K74-D100",
             "K74-D110",
             "K74-U002"
+        ],
+        "fullFare":5.1,
+        "journeyTime":40,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1881",
+                "1"
+            ]
         ]
     },
     {
@@ -907,6 +1186,15 @@
             "K75A-D100",
             "K75A-D110",
             "K75A-U011"
+        ],
+        "fullFare":5.1,
+        "journeyTime":12,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "8329",
+                "1"
+            ]
         ]
     },
     {
@@ -941,6 +1229,15 @@
             "K75P-D070",
             "K75P-D080",
             "K75P-U011"
+        ],
+        "fullFare":5.1,
+        "journeyTime":22,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1883",
+                "1"
+            ]
         ]
     },
     {
@@ -957,21 +1254,39 @@
             "K76-U030",
             "K76-U040",
             "K76-U050"
+        ],
+        "fullFare":5.1,
+        "journeyTime":18,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1884",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K76",
-        "bound":"I",
-        "orig_tc":"天水圍站",
-        "dest_tc":"天恆",
-        "orig_en":"Tin Shui Wai Station",
-        "dest_en":"Tin Heng",
+        "bound":"O",
+        "orig_tc":"天恆",
+        "dest_tc":"天水圍站",
+        "orig_en":"Tin Heng",
+        "dest_en":"Tin Shui Wai Station",
         "stops":[
             "K76-D010",
             "K76-D020",
             "K76-D030",
             "K76-D040"
+        ],
+        "fullFare":5.1,
+        "journeyTime":18,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1884",
+                "2"
+            ]
         ]
     },
     {
@@ -1002,16 +1317,25 @@
             "K52A-U160",
             "K52A-U170",
             "K52A-U180"
+        ],
+        "fullFare":10.1,
+        "journeyTime":42,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000076",
+                "1"
+            ]
         ]
     },
     {
         "co":"MTR_BUS",
         "route":"K52A",
-        "bound":"I",
-        "orig_tc":"曾咀",
-        "dest_tc":"屯門站",
-        "orig_en":"Tsang Tsui",
-        "dest_en":"Tuen Mun Station",
+        "bound":"O",
+        "orig_tc":"屯門站",
+        "dest_tc":"曾咀",
+        "orig_en":"Tuen Mun Station",
+        "dest_en":"Tsang Tsui",
         "stops":[
             "K52A-D010",
             "K52A-D020",
@@ -1032,6 +1356,15 @@
             "K52A-D170",
             "K52A-D180",
             "K52A-D190"
+        ],
+        "fullFare":10.1,
+        "journeyTime":42,
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000076",
+                "2"
+            ]
         ]
     }
 ]
