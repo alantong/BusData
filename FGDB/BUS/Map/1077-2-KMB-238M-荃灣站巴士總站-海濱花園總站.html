@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2bc4bfc597d9a9d45303cf2de003f4e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2bc4bfc597d9a9d45303cf2de003f4e3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2bc4bfc597d9a9d45303cf2de003f4e3 = L.map(
+                "map_2bc4bfc597d9a9d45303cf2de003f4e3",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f59b661f70a14b0cae5df6572480725 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9f59b661f70a14b0cae5df6572480725.addTo(map_2bc4bfc597d9a9d45303cf2de003f4e3);
+        
+    
+
+        function geo_json_a4c93b78dcf1fd90e0ac304978342020_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_a4c93b78dcf1fd90e0ac304978342020 = L.geoJson(null, {
+                onEachFeature: geo_json_a4c93b78dcf1fd90e0ac304978342020_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_a4c93b78dcf1fd90e0ac304978342020_add (data) {
+            geo_json_a4c93b78dcf1fd90e0ac304978342020
+                .addData(data);
+        }
+            geo_json_a4c93b78dcf1fd90e0ac304978342020_add({"geometry": {"coordinates": [[[114.11606261702626, 22.373886315370456], [114.11623354030833, 22.37419170348796], [114.11745102318206, 22.373609374963625], [114.11754982993232, 22.373541356207397], [114.11756712107442, 22.37337832804788], [114.11743195990792, 22.37316360290612], [114.11727316289648, 22.373124605795446], [114.11720016330753, 22.373020297951967], [114.11722922503454, 22.37288648069996], [114.11705890023728, 22.372694821610608], [114.11559195381584, 22.371713763285115]], [[114.11559195381584, 22.371713763285115], [114.11450583331137, 22.37100982500761], [114.11367149397115, 22.37083261508572], [114.113402188498, 22.370624989917232], [114.11278504864227, 22.369725889987183], [114.11266100820967, 22.36965234856117], [114.11455248165649, 22.36867900063328]], [[114.11455248165649, 22.36867900063328], [114.11559166642365, 22.36812655405169], [114.11560368420568, 22.36798544833782], [114.11575027913892, 22.36798858855559], [114.1169702824604, 22.367334769290657], [114.11685787290351, 22.36721990710478], [114.11636346233718, 22.367032523730852]], [[114.11636346233718, 22.367032523730852], [114.1148613458029, 22.36648704845284], [114.11473515686018, 22.36652884760738], [114.11459856589873, 22.366468966932977], [114.1138648404883, 22.365865157852422]], [[114.1138648404883, 22.365865157852422], [114.1133909363068, 22.36540007615846], [114.11320504024536, 22.3649851366066], [114.11324631073424, 22.36449559732174], [114.11360103333013, 22.36403293551351]], [[114.11360103333013, 22.36403293551351], [114.11401685704315, 22.36359252439093], [114.11411004465772, 22.363593797706365], [114.11485536023731, 22.362952258868855], [114.11458826513781, 22.36266408842265], [114.11445284319537, 22.362370689060214], [114.11422311893813, 22.362462066234272]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 9664, "ED_STOP_NAMEC": "\u6d77\u6ff1\u82b1\u5712\u7e3d\u7ad9", "ED_STOP_NAMEE": "RIVIERA GARDENS BUS TERMINUS", "ED_STOP_NAMES": "\u6d77\u6ee8\u82b1\u56ed\u603b\u7ad9", "ROUTE_ID": 1077, "ROUTE_NAMEE": "238M", "ROUTE_SEQ": 2, "ST_STOP_ID": 9629, "ST_STOP_NAMEC": "\u8343\u7063\u7ad9\u5df4\u58eb\u7e3d\u7ad9", "ST_STOP_NAMEE": "TSUEN WAN STATION BUS TERMINUS", "ST_STOP_NAMES": "\u8343\u6e7e\u7ad9\u5df4\u58eb\u603b\u7ad9", "Shape_Length": 2324.0571646487037}, "type": "Feature"});
+        geo_json_a4c93b78dcf1fd90e0ac304978342020.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_a4c93b78dcf1fd90e0ac304978342020.addTo(map_2bc4bfc597d9a9d45303cf2de003f4e3);
+        
+</script>
+</html>

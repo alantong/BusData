@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4403a10efd08bdef5cc8488a7d19b439 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4403a10efd08bdef5cc8488a7d19b439" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4403a10efd08bdef5cc8488a7d19b439 = L.map(
+                "map_4403a10efd08bdef5cc8488a7d19b439",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_506d1c8e15478af83ff6cd1e754e6fec = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_506d1c8e15478af83ff6cd1e754e6fec.addTo(map_4403a10efd08bdef5cc8488a7d19b439);
+        
+    
+
+        function geo_json_9ec5adccf7fa0239148839c1739c2a9d_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_9ec5adccf7fa0239148839c1739c2a9d = L.geoJson(null, {
+                onEachFeature: geo_json_9ec5adccf7fa0239148839c1739c2a9d_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_9ec5adccf7fa0239148839c1739c2a9d_add (data) {
+            geo_json_9ec5adccf7fa0239148839c1739c2a9d
+                .addData(data);
+        }
+            geo_json_9ec5adccf7fa0239148839c1739c2a9d_add({"geometry": {"coordinates": [[[114.17186210443369, 22.458482330927517], [114.1719005595346, 22.458820172591572], [114.17244012167716, 22.458766417358003], [114.17229256371007, 22.458071529955433], [114.1722362909842, 22.456776811471745]], [[114.1722362909842, 22.456776811471745], [114.17219285944547, 22.456115825219293], [114.17208627196247, 22.455835257102418], [114.17216744476175, 22.45426069869318], [114.17203128202303, 22.45418906611125], [114.17166348664739, 22.454120527205447], [114.17087184818938, 22.454101453762487], [114.1706460361747, 22.45416317917921], [114.1705887106567, 22.454103809020456], [114.17003566366039, 22.45409438324945], [114.1699412448636, 22.454025420056865], [114.16987393448076, 22.453845891020862], [114.16985202411135, 22.453641062423948], [114.16975838566825, 22.453499144896785], [114.16959738935988, 22.453397834217085], [114.16919963134474, 22.4533854224944]], [[114.16919963134474, 22.4533854224944], [114.16871126183332, 22.453359358444054], [114.16867811124352, 22.45289724177667], [114.16948202600105, 22.45292588888092], [114.1695165104564, 22.45338414944269], [114.16959738935988, 22.453397834217085], [114.16967744131648, 22.453434194362455], [114.16975838566825, 22.453499144896785], [114.16981640172678, 22.453570135761677], [114.16985202411135, 22.453641062423948], [114.16986740072872, 22.453694694902165], [114.16987393448076, 22.453845891020862], [114.16984717227402, 22.45391274856781], [114.16987829648409, 22.454024372531386], [114.17006038932992, 22.454190509759815], [114.17216744476175, 22.45426069869318], [114.17202819535576, 22.454727149552426], [114.17201635924958, 22.45553813088252], [114.17225813341537, 22.457721861299746], [114.17183484233591, 22.457807357966907], [114.17173060962867, 22.457916352115937], [114.17172297729218, 22.458333684633438], [114.17186210443369, 22.458482330927517]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 6299, "ED_STOP_NAMEC": "\u5bcc\u4ea8\u7e3d\u7ad9", "ED_STOP_NAMEE": "FU HENG BUS TERMINUS", "ED_STOP_NAMES": "\u5bcc\u4ea8\u603b\u7ad9", "ROUTE_ID": 1305, "ROUTE_NAMEE": "71B", "ROUTE_SEQ": 1, "ST_STOP_ID": 6299, "ST_STOP_NAMEC": "\u5bcc\u4ea8\u7e3d\u7ad9", "ST_STOP_NAMEE": "FU HENG BUS TERMINUS", "ST_STOP_NAMES": "\u5bcc\u4ea8\u603b\u7ad9", "Shape_Length": 2068.190837605609}, "type": "Feature"});
+        geo_json_9ec5adccf7fa0239148839c1739c2a9d.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_9ec5adccf7fa0239148839c1739c2a9d.addTo(map_4403a10efd08bdef5cc8488a7d19b439);
+        
+</script>
+</html>

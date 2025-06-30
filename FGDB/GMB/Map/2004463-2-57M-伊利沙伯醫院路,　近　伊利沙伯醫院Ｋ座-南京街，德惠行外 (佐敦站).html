@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26600a72c2939b263f26bfa9e83cdfe6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_26600a72c2939b263f26bfa9e83cdfe6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_26600a72c2939b263f26bfa9e83cdfe6 = L.map(
+                "map_26600a72c2939b263f26bfa9e83cdfe6",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44cc61404af8f823112c770b3039e449 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_44cc61404af8f823112c770b3039e449.addTo(map_26600a72c2939b263f26bfa9e83cdfe6);
+        
+    
+
+        function geo_json_e77b7811387c2cfb099edbb56b3dd205_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_e77b7811387c2cfb099edbb56b3dd205 = L.geoJson(null, {
+                onEachFeature: geo_json_e77b7811387c2cfb099edbb56b3dd205_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_e77b7811387c2cfb099edbb56b3dd205_add (data) {
+            geo_json_e77b7811387c2cfb099edbb56b3dd205
+                .addData(data);
+        }
+            geo_json_e77b7811387c2cfb099edbb56b3dd205_add({"geometry": {"coordinates": [[[114.17542200362206, 22.308791998805027], [114.17542200362206, 22.308791998805027], [114.17542500397181, 22.308745998728305], [114.17539600410313, 22.308712998832423], [114.17503200411132, 22.308598998253295], [114.17452300408873, 22.30847699825287], [114.17422100421823, 22.308414998565446], [114.17423700375417, 22.308387998210115], [114.17423200411068, 22.308361998111856], [114.17421600360528, 22.308336998425805], [114.1741930036903, 22.30831299831384], [114.17416900409371, 22.308291998145858], [114.17416500385237, 22.30822799817077], [114.17430800367823, 22.307764998522412], [114.17436000362672, 22.307672998205152], [114.1744000042682, 22.307568998717745], [114.17441800445381, 22.30750999841407], [114.17442000442186, 22.307411998291304], [114.1744060039039, 22.30734899875583], [114.17437000436739, 22.307253998927987], [114.17431300357114, 22.30723499855818], [114.17426100383929, 22.30710999877563], [114.17422200357733, 22.307122998616766], [114.17415400373946, 22.307068998085818], [114.17395000368694, 22.307137998371907], [114.17354500442637, 22.307290998075338], [114.1732400036749, 22.3074239989192], [114.17306700429188, 22.307510998584522], [114.17288000381797, 22.307605998839463], [114.17260600423859, 22.30779299865689], [114.17243700401811, 22.307925998757735], [114.1714710037946, 22.30783499809658], [114.17143800439375, 22.30783199884355], [114.1714530043549, 22.307688998769788], [114.17151900412202, 22.30702599810617], [114.17157300431711, 22.306533998771332], [114.17160900382495, 22.306129998487357], [114.17196800449886, 22.30615399855032]]], "type": "MultiLineString"}, "properties": {"ED_STOP_ID": 20000995, "ED_STOP_NAMEC": "\u5357\u4eac\u8857\uff0c\u5fb7\u60e0\u884c\u5916 (\u4f50\u6566\u7ad9)", "ED_STOP_NAMEE": "Nanking Street, outside David House (Jordan Station)", "ED_STOP_NAMES": "\u5357\u4eac\u8857\uff0c\u5fb7\u60e0\u884c\u5916 (\u4f50\u6566\u7ad9)", "PUBLIC_TRANSPORT": "GMB", "ROUTE_ID": 2004463, "ROUTE_NAME": "57M", "ROUTE_SEQ": 2, "ST_STOP_ID": 20012136, "ST_STOP_NAMEC": "\u4f0a\u5229\u6c99\u4f2f\u91ab\u9662\u8def,\u3000\u8fd1\u3000\u4f0a\u5229\u6c99\u4f2f\u91ab\u9662\uff2b\u5ea7", "ST_STOP_NAMEE": "QUEEN ELIZABETH HOSPITAL ROAD, near Queen Elizabeth Hospital Block K", "ST_STOP_NAMES": "\u4f0a\u5229\u6c99\u4f2f\u533b\u9662\u8def,\u3000\u8fd1\u3000\u4f0a\u5229\u6c99\u4f2f\u533b\u9662\uff2b\u5ea7", "Shape_Length": 838.6}, "type": "Feature"});
+        geo_json_e77b7811387c2cfb099edbb56b3dd205.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_e77b7811387c2cfb099edbb56b3dd205.addTo(map_26600a72c2939b263f26bfa9e83cdfe6);
+        
+</script>
+</html>

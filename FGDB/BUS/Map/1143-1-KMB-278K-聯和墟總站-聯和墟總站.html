@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_10048378893633548c0a3ed2c2454464 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_10048378893633548c0a3ed2c2454464" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_10048378893633548c0a3ed2c2454464 = L.map(
+                "map_10048378893633548c0a3ed2c2454464",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1a860f6c493ca20478c8adaa62acf6c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f1a860f6c493ca20478c8adaa62acf6c.addTo(map_10048378893633548c0a3ed2c2454464);
+        
+    
+
+        function geo_json_dbf31464cd1c843248bc2cf3bacaae37_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_dbf31464cd1c843248bc2cf3bacaae37 = L.geoJson(null, {
+                onEachFeature: geo_json_dbf31464cd1c843248bc2cf3bacaae37_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_dbf31464cd1c843248bc2cf3bacaae37_add (data) {
+            geo_json_dbf31464cd1c843248bc2cf3bacaae37
+                .addData(data);
+        }
+            geo_json_dbf31464cd1c843248bc2cf3bacaae37_add({"geometry": {"coordinates": [[[114.14365719489646, 22.500596359405208], [114.14331959240656, 22.500717610115725], [114.14293092793203, 22.500368375010115], [114.14249172264849, 22.50070252023941]], [[114.14249172264849, 22.50070252023941], [114.14226585447629, 22.50087407464374], [114.14193716267175, 22.500880526420083], [114.14158013318615, 22.500623269453506], [114.14088814036172, 22.499946465653544], [114.1403321569427, 22.499849220564823], [114.14030490069169, 22.499844453563483], [114.14074205102956, 22.498263446768124], [114.14117287871062, 22.49725744207781]], [[114.14117287871062, 22.49725744207781], [114.14137997104562, 22.49695010035553], [114.14203833538592, 22.496287417356953], [114.14197707451682, 22.496143399092748], [114.14104177937242, 22.495191662902663], [114.14092780714608, 22.494729624337445], [114.14030588595568, 22.494545695165826], [114.1400641332763, 22.494330160425147], [114.13964179560591, 22.49388908113292], [114.13950903816996, 22.49366640594894], [114.139399791534, 22.493362634098105], [114.1394794349193, 22.493094684507973], [114.14015309856184, 22.492484440226598]], [[114.14015309856184, 22.492484440226598], [114.14063620041892, 22.492017820447387], [114.14012344100108, 22.49149066765178], [114.13990647306557, 22.49138335045026], [114.13940587731655, 22.49178632316747]], [[114.13940587731655, 22.49178632316747], [114.13926764796692, 22.491999843727946], [114.13862248543369, 22.492550904958843], [114.1385869350867, 22.49281590354626], [114.13901528358937, 22.493231900614912], [114.13909302539815, 22.49363543410543], [114.13964179560591, 22.49388908113292], [114.14030588595568, 22.494545695165826], [114.14053198645703, 22.495103457314393], [114.14100182395927, 22.49528249078826], [114.14179395543964, 22.49610491968012]], [[114.14179395543964, 22.49610491968012], [114.14203833538592, 22.496287417356953], [114.14129525571919, 22.496896352642462]], [[114.14129525571919, 22.496896352642462], [114.14087197893826, 22.497689410951466], [114.1404119909917, 22.499220574315252]], [[114.1404119909917, 22.499220574315252], [114.14030490069169, 22.499844453563483], [114.14088814036172, 22.499946465653544], [114.14184436023147, 22.500910259620472], [114.14209325104257, 22.50098485937156], [114.14231543032864, 22.50093903275146]], [[114.14231543032864, 22.50093903275146], [114.14281720391605, 22.500541309222196], [114.14287303208587, 22.500418284625578], [114.14293092793203, 22.500368375010115], [114.14297913989033, 22.500327644537787], [114.14308806371544, 22.50031422926814], [114.14364860634318, 22.49983174531611], [114.14373977152131, 22.49968172771268], [114.14387325587386, 22.500363232727384], [114.14365719489646, 22.500596359405208]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 6521, "ED_STOP_NAMEC": "\u806f\u548c\u589f\u7e3d\u7ad9", "ED_STOP_NAMEE": "LUEN WO HUI BUS TERMINUS", "ED_STOP_NAMES": "\u8054\u548c\u589f\u603b\u7ad9", "ROUTE_ID": 1143, "ROUTE_NAMEE": "278K", "ROUTE_SEQ": 1, "ST_STOP_ID": 6521, "ST_STOP_NAMEC": "\u806f\u548c\u589f\u7e3d\u7ad9", "ST_STOP_NAMEE": "LUEN WO HUI BUS TERMINUS", "ST_STOP_NAMES": "\u8054\u548c\u589f\u603b\u7ad9", "Shape_Length": 3432.945956355329}, "type": "Feature"});
+        geo_json_dbf31464cd1c843248bc2cf3bacaae37.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_dbf31464cd1c843248bc2cf3bacaae37.addTo(map_10048378893633548c0a3ed2c2454464);
+        
+</script>
+</html>

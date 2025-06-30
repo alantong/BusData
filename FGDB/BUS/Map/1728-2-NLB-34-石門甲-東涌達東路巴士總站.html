@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5026ca4cf6cf86555058d1fc696c750 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d5026ca4cf6cf86555058d1fc696c750" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d5026ca4cf6cf86555058d1fc696c750 = L.map(
+                "map_d5026ca4cf6cf86555058d1fc696c750",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cb222270cd51fc26feb6005bb811b212 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cb222270cd51fc26feb6005bb811b212.addTo(map_d5026ca4cf6cf86555058d1fc696c750);
+        
+    
+
+        function geo_json_805d8af35bf7a5d291c4c7b458c5b4a6_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_805d8af35bf7a5d291c4c7b458c5b4a6 = L.geoJson(null, {
+                onEachFeature: geo_json_805d8af35bf7a5d291c4c7b458c5b4a6_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_805d8af35bf7a5d291c4c7b458c5b4a6_add (data) {
+            geo_json_805d8af35bf7a5d291c4c7b458c5b4a6
+                .addData(data);
+        }
+            geo_json_805d8af35bf7a5d291c4c7b458c5b4a6_add({"geometry": {"coordinates": [[[113.93109168397976, 22.26916507169128], [113.93141577779264, 22.269372872406077], [113.93186375784855, 22.269488517968973]], [[113.93186375784855, 22.269488517968973], [113.93441934862399, 22.269725018851116], [113.93443282301916, 22.269778196627996]], [[113.93443282301916, 22.269778196627996], [113.93415638756163, 22.270925400240557], [113.93398721866257, 22.27272143973127], [113.93435079273131, 22.27350675900159], [113.93440664356699, 22.274687543602234], [113.93426732525548, 22.275087312819924], [113.93348064318755, 22.275882456398175], [113.93335308348684, 22.27621799247666]], [[113.93335308348684, 22.27621799247666], [113.93347306901663, 22.276678359985194], [113.93389008527892, 22.277101532564036]], [[113.93389008527892, 22.277101532564036], [113.93485561999084, 22.278369192713466], [113.93504585671151, 22.278520894552393], [113.93540782285007, 22.278630324771793]], [[113.93540782285007, 22.278630324771793], [113.93717127379195, 22.2788936427446]], [[113.93717127379195, 22.2788936427446], [113.9393332048142, 22.27903411298559]], [[113.9393332048142, 22.27903411298559], [113.93981393997088, 22.27910500110216], [113.94015805007236, 22.279284666177805], [113.94023770265872, 22.279236493924664], [113.9403703993327, 22.27910288378028], [113.94058448722089, 22.278811695399344], [113.94070753197576, 22.278665660193045], [113.94149407738206, 22.278093359031114], [113.94160954143075, 22.277795356282738], [113.94163922744421, 22.277586704263687], [113.94169634788507, 22.27731522282948], [113.94173481561005, 22.277199012443685]], [[113.94173481561005, 22.277199012443685], [113.94160954143075, 22.277795356282738], [113.94155335054872, 22.277986561631153], [113.94149407738206, 22.278093359031114], [113.94137194458588, 22.278205481815622], [113.94070753197576, 22.278665660193045], [113.94015805007236, 22.279284666177805], [113.94060373919139, 22.279658019979834], [113.94047006790493, 22.279687765447658], [113.94019095582878, 22.27999141048774]], [[113.94019095582878, 22.27999141048774], [113.93968201623427, 22.280548837363796], [113.93968193350926, 22.280682484424172], [113.93898966226064, 22.281307784122557]], [[113.93898966226064, 22.281307784122557], [113.93741102511011, 22.28305489827689], [113.93636645337763, 22.282317308282096], [113.93624228409367, 22.281758896451915], [113.93598824593279, 22.281783129044626], [113.93602750978084, 22.28216710514043]], [[113.93602750978084, 22.28216710514043], [113.93630907490811, 22.28222975311529], [113.93636645337763, 22.282317308282096], [113.93650746957428, 22.282449940563275], [113.93654522090992, 22.282524644998634], [113.9374326087378, 22.283263861537844], [113.93873821864146, 22.28182227512564]], [[113.93873821864146, 22.28182227512564], [113.93958726800976, 22.28077841164426], [113.93966774617876, 22.280841430823333], [113.93961310903592, 22.28097323089886], [113.94073123486501, 22.282056083922296], [113.94258478779985, 22.284479511291273], [113.94262627317039, 22.284710785549212], [113.94253042002086, 22.284883677624258], [113.94098722728297, 22.286264210331904]], [[113.94098722728297, 22.286264210331904], [113.94046261603906, 22.286758621735057], [113.94034771889612, 22.28673096713239], [113.93815272284371, 22.28800620743962], [113.93813197162872, 22.288233533316504], [113.93877773304332, 22.28923531008592]], [[113.93877773304332, 22.28923531008592], [113.93945264671605, 22.290220776117636], [113.93920071303278, 22.29049761436771]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "NLB", "ED_STOP_ID": 12035, "ED_STOP_NAMEC": "\u6771\u6d8c\u9054\u6771\u8def\u5df4\u58eb\u7e3d\u7ad9", "ED_STOP_NAMEE": "Tung Chung Tat Tung Road Bus Terminus", "ED_STOP_NAMES": "\u4e1c\u6d8c\u8fbe\u4e1c\u8def\u5df4\u58eb\u603b\u7ad9", "ROUTE_ID": 1728, "ROUTE_NAMEE": "34", "ROUTE_SEQ": 2, "ST_STOP_ID": 11087, "ST_STOP_NAMEC": "\u77f3\u9580\u7532", "ST_STOP_NAMEE": "Shek Mun Kap", "ST_STOP_NAMES": "\u77f3\u95e8\u7532", "Shape_Length": 5453.762547153601}, "type": "Feature"});
+        geo_json_805d8af35bf7a5d291c4c7b458c5b4a6.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_805d8af35bf7a5d291c4c7b458c5b4a6.addTo(map_d5026ca4cf6cf86555058d1fc696c750);
+        
+</script>
+</html>

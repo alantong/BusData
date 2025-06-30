@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a247c903d3dc45b3cb30bc05e41dc9be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a247c903d3dc45b3cb30bc05e41dc9be" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a247c903d3dc45b3cb30bc05e41dc9be = L.map(
+                "map_a247c903d3dc45b3cb30bc05e41dc9be",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a6a5d408c6d13670d4d8ed944fbbd13b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a6a5d408c6d13670d4d8ed944fbbd13b.addTo(map_a247c903d3dc45b3cb30bc05e41dc9be);
+        
+    
+
+        function geo_json_31dc833ceb36b4c065a41c4f71fb6661_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_31dc833ceb36b4c065a41c4f71fb6661 = L.geoJson(null, {
+                onEachFeature: geo_json_31dc833ceb36b4c065a41c4f71fb6661_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_31dc833ceb36b4c065a41c4f71fb6661_add (data) {
+            geo_json_31dc833ceb36b4c065a41c4f71fb6661
+                .addData(data);
+        }
+            geo_json_31dc833ceb36b4c065a41c4f71fb6661_add({"geometry": {"coordinates": [[[114.15721100418948, 22.337768998320804], [114.15785500422619, 22.337277998730144], [114.15800100398621, 22.337165998712187], [114.15874100365768, 22.33658199808954], [114.15887600398553, 22.336475998667993], [114.15901600379462, 22.336365998234516], [114.15863200435108, 22.33591299815359], [114.15821000451781, 22.335471998925478], [114.15761200364535, 22.33483499893278], [114.15757000415473, 22.334792998150025], [114.15746200391754, 22.33468599822667], [114.15737500372701, 22.334699998743822], [114.15729400363821, 22.334607998120497], [114.15720300397503, 22.33467899816398], [114.1571340041238, 22.33465399857504], [114.15644700398738, 22.335188998770906], [114.15626100417497, 22.335333998193736], [114.1555170041474, 22.335912998565668], [114.15542400373586, 22.335985998510456], [114.15506300378861, 22.335579998043425], [114.15491000359987, 22.335405998855453], [114.1542950037724, 22.334706998449565], [114.1541990043013, 22.334597998648604], [114.15365600438832, 22.334009998813354], [114.1543960044999, 22.333425998842046], [114.1547930043669, 22.33311299837624], [114.15513600427745, 22.332841998149494], [114.1554220041439, 22.332614998394245], [114.15550300437177, 22.33246699877974], [114.15557300401795, 22.332418998707634], [114.15547600386607, 22.332293998220326], [114.15549400372299, 22.332220998288378], [114.15492300426489, 22.33158399891056], [114.15440100386732, 22.33100199869898], [114.1543260043325, 22.3309969989042], [114.1542430042612, 22.330908998798193], [114.15417400451743, 22.330831998040942], [114.15417700387367, 22.33072399812961], [114.15383600415159, 22.3303069982257], [114.15324500453153, 22.329590998552497], [114.15283600436554, 22.329095998469917], [114.15271700411827, 22.329088998362906], [114.15262100410517, 22.32898999892738], [114.15254300402015, 22.329048998509165], [114.15245100404817, 22.329034998130556], [114.15216100445468, 22.329262998144397]]], "type": "MultiLineString"}, "properties": {"ED_STOP_ID": 20018313, "ED_STOP_NAMEC": "\u6d77\u9054\u516c\u5171\u904b\u8f38\u4ea4\u532f\u8655", "ED_STOP_NAMEE": "Hoi Tat Public Transport Interchange", "ED_STOP_NAMES": "\u6d77\u8fbe\u516c\u5171\u8fd0\u8f93\u4ea4\u6c47\u5904", "PUBLIC_TRANSPORT": "GMB", "ROUTE_ID": 2009411, "ROUTE_NAME": "75M", "ROUTE_SEQ": 2, "ST_STOP_ID": 20018350, "ST_STOP_NAMEC": "\u9752\u5c71\u9053\u8fd1\u767c\u7965\u8857", "ST_STOP_NAMEE": "Castle Peak Road near Fat Tseung Street", "ST_STOP_NAMES": "\u9752\u5c71\u9053\u8fd1\u53d1\u7965\u8857", "Shape_Length": 1868.63}, "type": "Feature"});
+        geo_json_31dc833ceb36b4c065a41c4f71fb6661.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_31dc833ceb36b4c065a41c4f71fb6661.addTo(map_a247c903d3dc45b3cb30bc05e41dc9be);
+        
+</script>
+</html>

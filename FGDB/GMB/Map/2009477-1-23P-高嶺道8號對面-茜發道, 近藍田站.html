@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c65495822a799593340896cf79e7d8a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c65495822a799593340896cf79e7d8a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c65495822a799593340896cf79e7d8a6 = L.map(
+                "map_c65495822a799593340896cf79e7d8a6",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_91bfa252a36bf523f33ba337f97d3af6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_91bfa252a36bf523f33ba337f97d3af6.addTo(map_c65495822a799593340896cf79e7d8a6);
+        
+    
+
+        function geo_json_7de42079ecbe252dc60ea5ee0b6200cb_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_7de42079ecbe252dc60ea5ee0b6200cb = L.geoJson(null, {
+                onEachFeature: geo_json_7de42079ecbe252dc60ea5ee0b6200cb_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_7de42079ecbe252dc60ea5ee0b6200cb_add (data) {
+            geo_json_7de42079ecbe252dc60ea5ee0b6200cb
+                .addData(data);
+        }
+            geo_json_7de42079ecbe252dc60ea5ee0b6200cb_add({"geometry": {"coordinates": [[[114.22972800396266, 22.30362599890901], [114.22970300398798, 22.303676998395552], [114.22957800431082, 22.303772998340115], [114.22921800351165, 22.303975998462903], [114.22911700353883, 22.304079998644387], [114.22909500408973, 22.304198998454424], [114.22910200347752, 22.304282998922627], [114.22913800433292, 22.304364998791975], [114.22920300439635, 22.304430998794622], [114.2292770039085, 22.304483999005996], [114.22992400381722, 22.304804998251612], [114.22998800359356, 22.304859998982675], [114.23004300438475, 22.304915998712495], [114.23007200408831, 22.304967998275334], [114.23007900352451, 22.30502999832446], [114.23002500399149, 22.305162998964366], [114.22999400384906, 22.30521299896011], [114.23007900350969, 22.305244998128938], [114.23017700346587, 22.305295998798883], [114.2302480038165, 22.305345998678455], [114.23030400417333, 22.305395998954648], [114.2303580041259, 22.30545299859706], [114.23041000437047, 22.305528998371397], [114.2304430039179, 22.305588998561774], [114.23047300434277, 22.305665998951813], [114.23049300421505, 22.30573399822695], [114.2305030037906, 22.305780998327318], [114.2305080039191, 22.305892998771697], [114.23049100425284, 22.306041998572823], [114.23050900427124, 22.306125998933354], [114.23041600440939, 22.306600998934595], [114.2304100039404, 22.306631998470813], [114.23040600406833, 22.30669199823419], [114.23041500410692, 22.306789999007112], [114.23043400407781, 22.306861998267152], [114.23045800419966, 22.306923998987664], [114.23049100436143, 22.306971998386697], [114.23051800435147, 22.307005998711517], [114.23055900353492, 22.30704899881535], [114.23063000375952, 22.307095998547805], [114.23069700423883, 22.30712699825007], [114.23081600399219, 22.30716099865434], [114.23097600352972, 22.307175998438968], [114.2311140037476, 22.30717899834198], [114.23116400395607, 22.307174998200683]]], "type": "MultiLineString"}, "properties": {"ED_STOP_ID": 20016438, "ED_STOP_NAMEC": "\u831c\u767c\u9053, \u8fd1\u85cd\u7530\u7ad9", "ED_STOP_NAMEE": "Sin Fat Road, Near Lam Tin Station", "ED_STOP_NAMES": "\u831c\u53d1\u9053, \u8fd1\u84dd\u7530\u7ad9", "PUBLIC_TRANSPORT": "GMB", "ROUTE_ID": 2009477, "ROUTE_NAME": "23P", "ROUTE_SEQ": 1, "ST_STOP_ID": 20018379, "ST_STOP_NAMEC": "\u9ad8\u5dba\u90538\u865f\u5c0d\u9762", "ST_STOP_NAMEE": "Ko Ling Road, opposite to House No. 8", "ST_STOP_NAMES": "\u9ad8\u5cad\u90538\u53f7\u5bf9\u9762", "Shape_Length": 559.86}, "type": "Feature"});
+        geo_json_7de42079ecbe252dc60ea5ee0b6200cb.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_7de42079ecbe252dc60ea5ee0b6200cb.addTo(map_c65495822a799593340896cf79e7d8a6);
+        
+</script>
+</html>

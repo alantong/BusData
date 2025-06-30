@@ -229,27 +229,28 @@ def matchRouteId(companyCode, r, startStop, endStop, routes):
 
         startStopsDistance = haversine(firstStop, startStop)
         lastStopDistance = haversine(lastStop, endStop) 
-
+        """
         match companyCode:
             case "CTB" | "NLB":
                 condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
             case _:
                 condition = startStopsDistance < MIN_DIST and lastStopDistance < MIN_DIST            
-
+        """
+        condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
         if condition:
+            startStopMatched.append(c)
             """
             geojson_logger.info(f"{routeNo} {c}:"
                                 f"{routes[(c[1], c[2])][0]['properties']['locStartNameC']} -"
                                 f"{routes[(c[1], c[2])][0]['properties']['locEndNameC']}"
                             )
             """
-            startStopMatched.append(c)
+            
             #tempList.append([c[0], str(c[1]), str(c[2])])
 
 
-
     if len(startStopMatched) == 0:
-        return candidateList
+        return startStopMatched
 
     # filter using stopCount
     stopCountMatched = []

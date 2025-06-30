@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12a34da6c2ee623e95727e42474d4c95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_12a34da6c2ee623e95727e42474d4c95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_12a34da6c2ee623e95727e42474d4c95 = L.map(
+                "map_12a34da6c2ee623e95727e42474d4c95",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14a34ca0aa64b210f05868d7c37b1fdd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_14a34ca0aa64b210f05868d7c37b1fdd.addTo(map_12a34da6c2ee623e95727e42474d4c95);
+        
+    
+
+        function geo_json_264f0484537263c322bcf88402f90ea8_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_264f0484537263c322bcf88402f90ea8 = L.geoJson(null, {
+                onEachFeature: geo_json_264f0484537263c322bcf88402f90ea8_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_264f0484537263c322bcf88402f90ea8_add (data) {
+            geo_json_264f0484537263c322bcf88402f90ea8
+                .addData(data);
+        }
+            geo_json_264f0484537263c322bcf88402f90ea8_add({"geometry": {"coordinates": [[[114.26202039855913, 22.338750898384998], [114.26140461789548, 22.339225708571895], [114.26087594688711, 22.33945582509573], [114.25968473252159, 22.339695233844452], [114.25948178883728, 22.339610365289], [114.25890296658342, 22.338974270101264], [114.25879885428624, 22.33857010470469], [114.25894211227765, 22.337871756202542], [114.25940416995559, 22.33644211789021]], [[114.25940416995559, 22.33644211789021], [114.2599417840377, 22.33495571647994], [114.26157692800183, 22.331684966249778], [114.26228587400394, 22.330743725538092], [114.26279598800441, 22.33025937450782]], [[114.26279598800441, 22.33025937450782], [114.26449184567811, 22.32872126527907], [114.26566877388277, 22.326633821419804], [114.26604525376851, 22.326368551809917], [114.26633955542461, 22.32596742733195], [114.26685838117454, 22.32554596010702], [114.26721905893793, 22.325121210154425], [114.26795992434378, 22.324736501732858], [114.26865727746848, 22.323968055506228], [114.26901891514203, 22.32342767789362], [114.26914397280167, 22.323038946731067], [114.26928341635664, 22.322900804114905], [114.26922383477275, 22.322698730932434], [114.26898267073315, 22.32253139151507], [114.26905178753535, 22.32202931229101]], [[114.26905178753535, 22.32202931229101], [114.2690055015642, 22.321062333737128], [114.26908788786778, 22.320758406798575], [114.27005535430884, 22.32010515252002], [114.27044130636976, 22.319251452188542], [114.27108266016323, 22.318505837805077], [114.27108297446279, 22.317907141285026], [114.27081912947891, 22.31712144542238]], [[114.27081912947891, 22.31712144542238], [114.27055124082892, 22.31666239502599], [114.27049477407547, 22.316414317627338], [114.27040042457166, 22.316308207582487], [114.27025223431886, 22.316290695113384], [114.26986850470014, 22.316730948359453], [114.2688720830013, 22.317553136232814]], [[114.2688720830013, 22.317553136232814], [114.26772057896763, 22.31844929501075], [114.26733141729443, 22.318669181727753], [114.26664058505828, 22.318920227854996], [114.26572472279103, 22.31901024373296], [114.26562644205136, 22.318951318817334], [114.26555265023295, 22.31861723649566], [114.2654187155115, 22.317505301111513], [114.26553070452701, 22.31722765312139], [114.26605176094962, 22.316761849397864]], [[114.26605176094962, 22.316761849397864], [114.26643902604285, 22.316394904499884], [114.2664397958643, 22.31617467055226], [114.26543290722745, 22.31506455863114], [114.26469165554883, 22.31554649023911]], [[114.26469165554883, 22.31554649023911], [114.26437833420444, 22.31596021652561], [114.26459017585213, 22.316310586473588], [114.26440387629798, 22.316463588634473], [114.26436573050991, 22.31660332871938], [114.26529846639217, 22.31763820763062], [114.26546552251013, 22.318974254248335], [114.26508424615675, 22.3191159805572], [114.26396607680965, 22.319246928294586]], [[114.26396607680965, 22.319246928294586], [114.2625843748832, 22.31934281029639], [114.26244121492493, 22.320402629852246], [114.26223497244807, 22.320938587415746], [114.26192005349012, 22.32141767475316], [114.2613434083487, 22.322035270137192]], [[114.2613434083487, 22.322035270137192], [114.2605133692095, 22.322982992739693], [114.25904346883672, 22.321803732724746], [114.25885471618201, 22.321806217820633], [114.25864027663317, 22.322040808929046]], [[114.25864027663317, 22.322040808929046], [114.25773467484156, 22.32325637278868]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 8154, "ED_STOP_NAMEC": "\u5bf6\u6797\u7e3d\u7ad9", "ED_STOP_NAMEE": "PO LAM BUS TERMINUS", "ED_STOP_NAMES": "\u5b9d\u6797\u603b\u7ad9", "ROUTE_ID": 8425, "ROUTE_NAMEE": "91M", "ROUTE_SEQ": 1, "ST_STOP_ID": 10282, "ST_STOP_NAMEC": "\u9999\u6e2f\u79d1\u6280\u5927\u5b78(\u5317)", "ST_STOP_NAMEE": "H.K.U.S.T. (NORTH)", "ST_STOP_NAMES": "\u9999\u6e2f\u79d1\u6280\u5927\u5b66(\u5317)", "Shape_Length": 6241.363747068938}, "type": "Feature"});
+        geo_json_264f0484537263c322bcf88402f90ea8.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_264f0484537263c322bcf88402f90ea8.addTo(map_12a34da6c2ee623e95727e42474d4c95);
+        
+</script>
+</html>

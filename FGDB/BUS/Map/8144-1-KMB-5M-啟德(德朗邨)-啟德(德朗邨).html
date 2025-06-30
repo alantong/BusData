@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7cffef99b72be8ee957ba1fe267ed511 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7cffef99b72be8ee957ba1fe267ed511" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7cffef99b72be8ee957ba1fe267ed511 = L.map(
+                "map_7cffef99b72be8ee957ba1fe267ed511",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4c1f00ff5d3d678246c7dc4bcf0bee82 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4c1f00ff5d3d678246c7dc4bcf0bee82.addTo(map_7cffef99b72be8ee957ba1fe267ed511);
+        
+    
+
+        function geo_json_2c9912838be43f5b669ab4f45a6f0123_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_2c9912838be43f5b669ab4f45a6f0123 = L.geoJson(null, {
+                onEachFeature: geo_json_2c9912838be43f5b669ab4f45a6f0123_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_2c9912838be43f5b669ab4f45a6f0123_add (data) {
+            geo_json_2c9912838be43f5b669ab4f45a6f0123
+                .addData(data);
+        }
+            geo_json_2c9912838be43f5b669ab4f45a6f0123_add({"geometry": {"coordinates": [[[114.20477450438851, 22.330298887766588], [114.20482003276486, 22.331262016678114], [114.20475567383825, 22.332105564339447]], [[114.20475567383825, 22.332105564339447], [114.2046420543924, 22.333061122101473], [114.20469899727361, 22.333101149390252], [114.20465877505015, 22.33397369708062], [114.20436006024845, 22.33448766380659], [114.20391263926408, 22.334635712421434], [114.20379816994851, 22.33454870564569], [114.20363421096297, 22.334555270983902], [114.20332633557807, 22.334895061846773], [114.20298917360158, 22.33496495909978], [114.20239662607807, 22.33477653405079], [114.2019056223814, 22.33431674397759]], [[114.2019056223814, 22.33431674397759], [114.20146600029145, 22.33369327800263], [114.201235562826, 22.33349169979017], [114.20056517699095, 22.33323313378476], [114.2002303833836, 22.33297241728127], [114.19803330598154, 22.33207670550285], [114.19751298833901, 22.33165102964032], [114.19732384772115, 22.331302798350812], [114.19715776376556, 22.33127085191183], [114.19702060240769, 22.33135479837186], [114.19698196845248, 22.33151064481552], [114.19703996896746, 22.331614531714944], [114.19739389445546, 22.331684223146706], [114.19794043635459, 22.332106603426986]], [[114.19794043635459, 22.332106603426986], [114.19821918918711, 22.332293341848978], [114.20007029169017, 22.333027839305792], [114.20036850314537, 22.333332127675675], [114.20036856111548, 22.33367758521768], [114.19977399581369, 22.3353470684101], [114.19920081881969, 22.336316934856796], [114.19935914300822, 22.336418321768335], [114.20021177120796, 22.336715742182555], [114.20076583853074, 22.33637863301079], [114.20098324861378, 22.336368357371914], [114.20112284608702, 22.335942601769418], [114.2017988053815, 22.335226272311235], [114.2030394367799, 22.335443404459483], [114.20377908802821, 22.3353729024526], [114.2042116640062, 22.33524194799547]], [[114.2042116640062, 22.33524194799547], [114.20513515328773, 22.334731918468915], [114.20656525559885, 22.333622570226918], [114.20711381014523, 22.33309263469803]], [[114.20711381014523, 22.33309263469803], [114.21037298354625, 22.330567420333733]], [[114.21037298354625, 22.330567420333733], [114.21272569183537, 22.328572827494668], [114.2141223148365, 22.326386047905245], [114.21419444045179, 22.326181512915788], [114.21422551246602, 22.325958476469783], [114.21423089926718, 22.325928358222857], [114.21423754505416, 22.32589120485862], [114.21423841622764, 22.325459837031286]], [[114.21423841622764, 22.325459837031286], [114.21424704946196, 22.32498073622212], [114.21450895384002, 22.323374851904493], [114.21532898327906, 22.323468522283886], [114.21592331317345, 22.323844029057334], [114.21538746922042, 22.32456707129014]], [[114.21538746922042, 22.32456707129014], [114.21450958193083, 22.32573213581196], [114.21434439259612, 22.32585957492284], [114.21427593559082, 22.32590106010438], [114.21424478496733, 22.32591994122166], [114.21423089926718, 22.325928358222857], [114.21422716289945, 22.325930623052763], [114.21416024267882, 22.325969690342767], [114.21409785780163, 22.326003478184955], [114.21368042152288, 22.326126004878358], [114.2131982882261, 22.326117670161956], [114.21196481225857, 22.32573380815107], [114.206172618897, 22.32519800133165], [114.20597124499372, 22.325227268763204], [114.20588978696149, 22.32544178963136], [114.20590388176898, 22.32594853125547], [114.20581107800321, 22.32646222387073]], [[114.20581107800321, 22.32646222387073], [114.20581807123247, 22.326719316172635], [114.20460498519911, 22.32664584891379], [114.20435054232138, 22.326777420081445], [114.20385957892704, 22.3272207969681], [114.20383872770998, 22.327464430275754], [114.20430203187982, 22.327910785692552]], [[114.20430203187982, 22.327910785692552], [114.2045918271459, 22.328402293588802], [114.20468600678686, 22.328727345029293], [114.20477450438851, 22.330298887766588]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 13104, "ED_STOP_NAMEC": "\u555f\u5fb7(\u5fb7\u6717\u90a8)", "ED_STOP_NAMEE": "KAI TAK (TAK LONG ESTATE)", "ED_STOP_NAMES": "\u542f\u5fb7(\u5fb7\u6717\u90a8)", "ROUTE_ID": 8144, "ROUTE_NAMEE": "5M", "ROUTE_SEQ": 1, "ST_STOP_ID": 13104, "ST_STOP_NAMEC": "\u555f\u5fb7(\u5fb7\u6717\u90a8)", "ST_STOP_NAMEE": "KAI TAK (TAK LONG ESTATE)", "ST_STOP_NAMES": "\u542f\u5fb7(\u5fb7\u6717\u90a8)", "Shape_Length": 6707.66017952941}, "type": "Feature"});
+        geo_json_2c9912838be43f5b669ab4f45a6f0123.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_2c9912838be43f5b669ab4f45a6f0123.addTo(map_7cffef99b72be8ee957ba1fe267ed511);
+        
+</script>
+</html>

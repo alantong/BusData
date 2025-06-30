@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de35b41d6d391b5a7f8250b0e0bc7ffc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_de35b41d6d391b5a7f8250b0e0bc7ffc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de35b41d6d391b5a7f8250b0e0bc7ffc = L.map(
+                "map_de35b41d6d391b5a7f8250b0e0bc7ffc",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9e03adc885528c17d2264f8075fee286 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9e03adc885528c17d2264f8075fee286.addTo(map_de35b41d6d391b5a7f8250b0e0bc7ffc);
+        
+    
+
+        function geo_json_d9fe621a7acccf77db80b46dfe7177e7_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_d9fe621a7acccf77db80b46dfe7177e7 = L.geoJson(null, {
+                onEachFeature: geo_json_d9fe621a7acccf77db80b46dfe7177e7_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_d9fe621a7acccf77db80b46dfe7177e7_add (data) {
+            geo_json_d9fe621a7acccf77db80b46dfe7177e7
+                .addData(data);
+        }
+            geo_json_d9fe621a7acccf77db80b46dfe7177e7_add({"geometry": {"coordinates": [[[114.10934400433266, 22.35375899886871], [114.10937400374286, 22.353674998341834], [114.10937600401338, 22.353641998828074], [114.10936900462728, 22.353600998112253], [114.1093520037787, 22.353573998707166], [114.1093050041428, 22.353528998842922], [114.10912200396399, 22.353448998438765], [114.10882400414485, 22.35333699857789], [114.10821900438873, 22.353116998451338], [114.10803200403518, 22.353047998848215], [114.1079270037957, 22.353002998313418], [114.1078330041253, 22.352951998884947], [114.10777600417944, 22.352909998776845], [114.10774000463233, 22.352880998057973], [114.10768200392948, 22.352824998327446], [114.10760000374307, 22.352734998223674], [114.10754400436669, 22.352587998418965], [114.10746600430826, 22.352487998618727], [114.10742000412672, 22.35244399831064], [114.10736500380732, 22.352412998130013], [114.107309004473, 22.35238799829767], [114.1072310043289, 22.352362998026653], [114.10716000459807, 22.352357998888543], [114.10706600449288, 22.352359998426447], [114.10699500450586, 22.35237499827889], [114.10691600425143, 22.352402998638794], [114.10683700379074, 22.35244299876014], [114.10673200383778, 22.352598998588185], [114.10669800404378, 22.35266399842701], [114.10669100402114, 22.3526879986037], [114.10668300373871, 22.352731998313065], [114.10668400408485, 22.352769998403584], [114.10669000421125, 22.352838998037548], [114.10670500431976, 22.352945998515935], [114.10676300441818, 22.3530529986331], [114.10683300384837, 22.35314099822036], [114.10689100402672, 22.353290998169335], [114.10693900445918, 22.35346299852354], [114.10694600380717, 22.353525998670097], [114.10694600460226, 22.353611998418305], [114.10691600410749, 22.354027998581785], [114.10687800372062, 22.354548998887907], [114.10687600384807, 22.35461499870356], [114.10686600374827, 22.3547169980573], [114.10686300384798, 22.35475199827289], [114.10683400402225, 22.35532299823867], [114.10681800459817, 22.355553998195198], [114.10681600373636, 22.355617998639804], [114.10681400421868, 22.355655998323346], [114.1068090043299, 22.355826998636392], [114.10676400425203, 22.356242998490966], [114.10671200437189, 22.356475998445838], [114.10668600383273, 22.356547998579803], [114.10664700390952, 22.356657998139852], [114.10653300445013, 22.356883998650158], [114.10630500396667, 22.357253998435777], [114.10632200388213, 22.357324998584307], [114.10629400369965, 22.35735899813662], [114.10626700398898, 22.35739199844146], [114.10616800388694, 22.35742399835652], [114.1058010037615, 22.357993998509055], [114.10564600393273, 22.35822999885147], [114.105643004083, 22.358309998237537], [114.10560600393902, 22.35837199833452], [114.10556400453574, 22.35842299882649], [114.10548000394559, 22.3584539980122], [114.10543100379721, 22.35853499846984], [114.10538500375773, 22.358647998164844], [114.10534600388095, 22.358788998338564], [114.10533300456419, 22.358880998505438], [114.10532700435165, 22.35900699814991], [114.10533300428713, 22.359105998151218], [114.10535500447938, 22.359232998095095], [114.10536000417058, 22.359244998283476], [114.10538400403499, 22.359307998733932], [114.10544600465465, 22.359439998461163], [114.10551100434, 22.35955499858217], [114.10560400449074, 22.359697998461648], [114.10574900444345, 22.359908998542245], [114.10580600464871, 22.359929998802066], [114.10584600430236, 22.35999799827947], [114.10592300389838, 22.35996099866407], [114.10601000411486, 22.359964998439846], [114.10606800448242, 22.359931998198846], [114.10610400405794, 22.359934998520373], [114.10613900390297, 22.359948998508322], [114.1061600037443, 22.359960998430676], [114.10627500411587, 22.36004199838644], [114.10643200426799, 22.36006999820025], [114.10644700436488, 22.360067998135587], [114.1064610045253, 22.360061998005285], [114.10647300424428, 22.36005299886581], [114.10648000393884, 22.36004399845292], [114.10648600376011, 22.360026998350254], [114.10651200450432, 22.359870998865652]]], "type": "MultiLineString"}, "properties": {"ED_STOP_ID": 20016746, "ED_STOP_NAMEC": "\u6e2f\u9435\u9752\u8863\u7ad9\u5c0f\u5df4\u7e3d\u7ad9", "ED_STOP_NAMEE": "Tsing Yi MTR Station Minibus Terminus", "ED_STOP_NAMES": "\u6e2f\u94c1\u9752\u8863\u7ad9\u5c0f\u5df4\u603b\u7ad9", "PUBLIC_TRANSPORT": "GMB", "ROUTE_ID": 2008602, "ROUTE_NAME": "88A", "ROUTE_SEQ": 1, "ST_STOP_ID": 20002103, "ST_STOP_NAMEC": "\u9752\u8863\u78bc\u982d\u7e3d\u7ad9", "ST_STOP_NAMEE": "Tsing Yi Ferry Pier Minibus Terminus", "ST_STOP_NAMES": "\u9752\u8863\u7801\u5934\u603b\u7ad9", "Shape_Length": 1329.54}, "type": "Feature"});
+        geo_json_d9fe621a7acccf77db80b46dfe7177e7.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_d9fe621a7acccf77db80b46dfe7177e7.addTo(map_de35b41d6d391b5a7f8250b0e0bc7ffc);
+        
+</script>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b0561dfdb273bc0376670cb7ba606ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7b0561dfdb273bc0376670cb7ba606ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b0561dfdb273bc0376670cb7ba606ce = L.map(
+                "map_7b0561dfdb273bc0376670cb7ba606ce",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f86d04e13becb7d4facdf81f328bbdbe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f86d04e13becb7d4facdf81f328bbdbe.addTo(map_7b0561dfdb273bc0376670cb7ba606ce);
+        
+    
+
+        function geo_json_46f7c38758e3ed68eb4327682766e8e3_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_46f7c38758e3ed68eb4327682766e8e3 = L.geoJson(null, {
+                onEachFeature: geo_json_46f7c38758e3ed68eb4327682766e8e3_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_46f7c38758e3ed68eb4327682766e8e3_add (data) {
+            geo_json_46f7c38758e3ed68eb4327682766e8e3
+                .addData(data);
+        }
+            geo_json_46f7c38758e3ed68eb4327682766e8e3_add({"geometry": {"coordinates": [[[114.15944481335711, 22.277704693907715], [114.1595873250382, 22.277843309560943], [114.15956359919335, 22.278102798869334], [114.16096249501605, 22.279500875480704], [114.16094221070107, 22.279799336090843], [114.16043408494728, 22.279977721959636], [114.1594120272927, 22.279877801719085], [114.15781437418516, 22.280296389421338], [114.15690713631963, 22.28133640230245], [114.15750969428339, 22.28185202779691]], [[114.15750969428339, 22.28185202779691], [114.15786118903237, 22.282120457016383], [114.15827382446824, 22.28266033980579], [114.15978120671163, 22.284998443984584]], [[114.15978120671163, 22.284998443984584], [114.16017328953352, 22.285518927227155], [114.16047802052582, 22.28643511393272], [114.16065766186193, 22.28644518843675], [114.16165672197516, 22.28598642858664]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "CTB", "ED_STOP_ID": 13050, "ED_STOP_NAMEC": "\u4e2d\u74b0 (\u9999\u6e2f\u6469\u5929\u8f2a)", "ED_STOP_NAMEE": "Central (Hong Kong Observation Wheel)", "ED_STOP_NAMES": "\u4e2d\u73af (\u9999\u6e2f\u6469\u5929\u8f6e)", "ROUTE_ID": 1000259, "ROUTE_NAMEE": "15C", "ROUTE_SEQ": 1, "ST_STOP_ID": 3018, "ST_STOP_NAMEC": "\u82b1\u5712\u9053", "ST_STOP_NAMEE": "Garden Road", "ST_STOP_NAMES": "\u82b1\u56ed\u9053", "Shape_Length": 1621.5016821614636}, "type": "Feature"});
+        geo_json_46f7c38758e3ed68eb4327682766e8e3.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_46f7c38758e3ed68eb4327682766e8e3.addTo(map_7b0561dfdb273bc0376670cb7ba606ce);
+        
+</script>
+</html>

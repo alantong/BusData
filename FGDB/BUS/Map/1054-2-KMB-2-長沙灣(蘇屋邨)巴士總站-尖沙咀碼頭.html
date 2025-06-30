@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3adf5981a786d244662baf90fe60040 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e3adf5981a786d244662baf90fe60040" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e3adf5981a786d244662baf90fe60040 = L.map(
+                "map_e3adf5981a786d244662baf90fe60040",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_019b61a1317b9a51f9b5ccbc8bdc5464 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_019b61a1317b9a51f9b5ccbc8bdc5464.addTo(map_e3adf5981a786d244662baf90fe60040);
+        
+    
+
+        function geo_json_debb9e64f8c195070a2733e92b3c1fc9_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_debb9e64f8c195070a2733e92b3c1fc9 = L.geoJson(null, {
+                onEachFeature: geo_json_debb9e64f8c195070a2733e92b3c1fc9_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_debb9e64f8c195070a2733e92b3c1fc9_add (data) {
+            geo_json_debb9e64f8c195070a2733e92b3c1fc9
+                .addData(data);
+        }
+            geo_json_debb9e64f8c195070a2733e92b3c1fc9_add({"geometry": {"coordinates": [[[114.15882969691455, 22.341081771568007], [114.15907158360947, 22.3408988353005], [114.15888663395215, 22.340620478294007], [114.16080105877306, 22.339144241999797]], [[114.16080105877306, 22.339144241999797], [114.1611440389372, 22.338878406487577], [114.15968169742796, 22.337245966817438], [114.15972584213974, 22.33716445790721], [114.15964922150326, 22.33707554921391]], [[114.15964922150326, 22.33707554921391], [114.15794413561467, 22.335188936347564]], [[114.15794413561467, 22.335188936347564], [114.15746221459224, 22.334685760746318], [114.15729381341414, 22.334607745243353], [114.1563454799307, 22.333346988377276]], [[114.1563454799307, 22.333346988377276], [114.1555732563805, 22.332419110721272], [114.15577995569498, 22.332333179226644], [114.1568397703684, 22.331509326266314]], [[114.1568397703684, 22.331509326266314], [114.15905167882698, 22.32971619086101], [114.16069035900941, 22.328500751885603]], [[114.16069035900941, 22.328500751885603], [114.16180197859708, 22.327562098790754], [114.16241377979799, 22.327171297078635]], [[114.16241377979799, 22.327171297078635], [114.1632778654435, 22.32648948833365], [114.16336710148535, 22.326340757495675], [114.16364361813025, 22.326223900955693], [114.16408819516926, 22.32580997531089], [114.16472809954269, 22.325377380644934], [114.1647836311622, 22.32524792408189], [114.16498198490821, 22.325200423359938], [114.16551584571229, 22.32479380779772]], [[114.16551584571229, 22.32479380779772], [114.16638489003056, 22.324120749520954], [114.16660102614831, 22.323838125727214], [114.16684967061293, 22.32365027787216], [114.16693851053822, 22.323671517845547], [114.16773613994287, 22.323047449643532]], [[114.16773613994287, 22.323047449643532], [114.16875295717142, 22.32250244865018], [114.16903252150688, 22.320929297123357], [114.16940344055695, 22.319416789459936], [114.16937701504833, 22.31927120784056], [114.1695561197891, 22.318677792107007]], [[114.1695561197891, 22.318677792107007], [114.17010475601874, 22.31601480481235]], [[114.17010475601874, 22.31601480481235], [114.17022261462519, 22.31543889407674], [114.17016525079721, 22.315403460174938], [114.17025592240883, 22.315277776903564], [114.17035432285371, 22.314512845747224], [114.17042402185187, 22.314450108422832], [114.1705875797437, 22.31362857760782]], [[114.1705875797437, 22.31362857760782], [114.17066594443033, 22.312921659725227], [114.17073910876879, 22.312849017620678], [114.17100234517015, 22.311480855804867]], [[114.17100234517015, 22.311480855804867], [114.17121061763797, 22.310414908744523], [114.17132601169357, 22.308399083784078], [114.17139085105056, 22.308303216147554], [114.1715516663079, 22.306726022230418]], [[114.1715516663079, 22.306726022230418], [114.17174900330426, 22.304379490503557]], [[114.17174900330426, 22.304379490503557], [114.17176401401358, 22.3033002669541], [114.17212103250955, 22.29895207195327]], [[114.17212103250955, 22.29895207195327], [114.17232655489995, 22.295853732973413]], [[114.17232655489995, 22.295853732973413], [114.17238230850502, 22.294742492194672], [114.17224235488182, 22.294643572286915], [114.17129101809664, 22.294599702557463]], [[114.17129101809664, 22.294599702557463], [114.16968223939632, 22.29439940641745], [114.16930025400677, 22.29415045462707], [114.16920552784153, 22.29387013155434], [114.1690694923806, 22.293816999760377], [114.169014753889, 22.293904358475086], [114.16913381273609, 22.294066240782165]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 4025, "ED_STOP_NAMEC": "\u5c16\u6c99\u5480\u78bc\u982d", "ED_STOP_NAMEE": "STAR FERRY", "ED_STOP_NAMES": "\u5c16\u6c99\u5480\u7801\u5934", "ROUTE_ID": 1054, "ROUTE_NAMEE": "2", "ROUTE_SEQ": 2, "ST_STOP_ID": 4097, "ST_STOP_NAMEC": "\u9577\u6c99\u7063(\u8607\u5c4b\u90a8)\u5df4\u58eb\u7e3d\u7ad9", "ST_STOP_NAMEE": "CHEUNG SHA WAN (SO UK ESTATE) BUS TERMINUS", "ST_STOP_NAMES": "\u957f\u6c99\u6e7e(\u82cf\u5c4b\u90a8)\u5df4\u58eb\u603b\u7ad9", "Shape_Length": 6640.81594348797}, "type": "Feature"});
+        geo_json_debb9e64f8c195070a2733e92b3c1fc9.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_debb9e64f8c195070a2733e92b3c1fc9.addTo(map_e3adf5981a786d244662baf90fe60040);
+        
+</script>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2d4e7ca947dfa9ee38e2dff770e002e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2d4e7ca947dfa9ee38e2dff770e002e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2d4e7ca947dfa9ee38e2dff770e002e7 = L.map(
+                "map_2d4e7ca947dfa9ee38e2dff770e002e7",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9664516131a92f75d506d04fae03c0da = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9664516131a92f75d506d04fae03c0da.addTo(map_2d4e7ca947dfa9ee38e2dff770e002e7);
+        
+    
+
+        function geo_json_4c236405a57acf2e15f0589b8fead206_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_4c236405a57acf2e15f0589b8fead206 = L.geoJson(null, {
+                onEachFeature: geo_json_4c236405a57acf2e15f0589b8fead206_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_4c236405a57acf2e15f0589b8fead206_add (data) {
+            geo_json_4c236405a57acf2e15f0589b8fead206
+                .addData(data);
+        }
+            geo_json_4c236405a57acf2e15f0589b8fead206_add({"geometry": {"coordinates": [[[114.1708291255051, 22.376058162941064], [114.1711066823488, 22.376282663884723], [114.17096961652665, 22.376648258217724], [114.1731381112598, 22.377404081950548], [114.17440166065201, 22.377709707136287], [114.17482310269202, 22.377132746039717], [114.17513492811763, 22.37653184455866], [114.17536736107168, 22.37628620735504], [114.1756967802676, 22.37570624036889], [114.17570623405506, 22.37555352601141], [114.17583427550178, 22.375488863727853], [114.1765462965057, 22.374370375473433], [114.17653798811622, 22.374244606315653], [114.17699987144991, 22.3737520270034]], [[114.17699987144991, 22.3737520270034], [114.17751893799131, 22.373105102532644], [114.17758775333837, 22.37290140406251], [114.17774855764353, 22.372821800872867], [114.17869445071592, 22.37168792591656], [114.1792723363202, 22.371796024597764], [114.18008429235877, 22.372326443240315], [114.17968972056045, 22.372972059006216], [114.18007393535586, 22.373176850754817]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 847, "ED_STOP_NAMEC": "\u5927\u570d\u7ad9\u7e3d\u7ad9", "ED_STOP_NAMEE": "TAI WAI STATION BUS TERMINUS", "ED_STOP_NAMES": "\u5927\u56f4\u7ad9\u603b\u7ad9", "ROUTE_ID": 8185, "ROUTE_NAMEE": "82B", "ROUTE_SEQ": 1, "ST_STOP_ID": 12895, "ST_STOP_NAMEC": "\u7f8e\u7530\u5df4\u58eb\u7e3d\u7ad9", "ST_STOP_NAMEE": "MEI TIN BUS TERMINUS", "ST_STOP_NAMES": "\u7f8e\u7530\u5df4\u58eb\u603b\u7ad9", "Shape_Length": 1570.6283790559419}, "type": "Feature"});
+        geo_json_4c236405a57acf2e15f0589b8fead206.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_4c236405a57acf2e15f0589b8fead206.addTo(map_2d4e7ca947dfa9ee38e2dff770e002e7);
+        
+</script>
+</html>

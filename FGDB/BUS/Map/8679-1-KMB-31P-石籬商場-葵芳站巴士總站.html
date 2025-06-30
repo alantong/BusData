@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35e558395ae71ab276bcdedcb75aff08 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_35e558395ae71ab276bcdedcb75aff08" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35e558395ae71ab276bcdedcb75aff08 = L.map(
+                "map_35e558395ae71ab276bcdedcb75aff08",
+                {
+                    center: [22.34685599159843, 114.10950470085098],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d379a22d875837f3430b61937bd78c0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5d379a22d875837f3430b61937bd78c0.addTo(map_35e558395ae71ab276bcdedcb75aff08);
+        
+    
+
+        function geo_json_65f18182de2d0af320ce94c69b765b79_onEachFeature(feature, layer) {
+
+            layer.on({
+            });
+        };
+        var geo_json_65f18182de2d0af320ce94c69b765b79 = L.geoJson(null, {
+                onEachFeature: geo_json_65f18182de2d0af320ce94c69b765b79_onEachFeature,
+            
+            ...{
+}
+        });
+
+        function geo_json_65f18182de2d0af320ce94c69b765b79_add (data) {
+            geo_json_65f18182de2d0af320ce94c69b765b79
+                .addData(data);
+        }
+            geo_json_65f18182de2d0af320ce94c69b765b79_add({"geometry": {"coordinates": [[[114.1390745576137, 22.36462404461088], [114.13839338637739, 22.36553425505826], [114.13724338254517, 22.36482768205339], [114.13678710878858, 22.364813561648756], [114.1364949126675, 22.36498354233999], [114.13612941404241, 22.365453371349343], [114.13732569747545, 22.36622804837381]], [[114.13732569747545, 22.36622804837381], [114.13875708006847, 22.36726912955202], [114.13907670682885, 22.367704409599646], [114.13926775113298, 22.368431864858945]], [[114.13926775113298, 22.368431864858945], [114.13933746642054, 22.368884625251628], [114.1392357385168, 22.3691654414463], [114.13814128588406, 22.37003958514072]], [[114.13814128588406, 22.37003958514072], [114.13679954587064, 22.371107390615254], [114.13633541183472, 22.371833016787328]], [[114.13633541183472, 22.371833016787328], [114.13612507147076, 22.372121457077686], [114.13601131673852, 22.37196746142898], [114.13509598754403, 22.371331220961288], [114.13473153289918, 22.37076740624164], [114.13421510796528, 22.368606661903957], [114.13334554529179, 22.36634275622776], [114.13163840599853, 22.361263084997645], [114.13155528294168, 22.361051721713512], [114.13141634542592, 22.36106066548359], [114.13135810933223, 22.360897617076578], [114.13147794921576, 22.36083228308286], [114.13019002195476, 22.357253938151782], [114.12996790401752, 22.35719599632046], [114.12925271838951, 22.357413173861946], [114.12886103987758, 22.357605104677916], [114.12840343368444, 22.358019475191064], [114.12755532540257, 22.356921937998386]], [[114.12755532540257, 22.356921937998386], [114.12707303182052, 22.35629407423607], [114.12705678804727, 22.356093115102052], [114.12714161255016, 22.35597178047936], [114.12734552200261, 22.35591149174785], [114.12774603134581, 22.356421351230313]]], "type": "MultiLineString"}, "properties": {"COMPANY_CODE": "KMB", "ED_STOP_ID": 9501, "ED_STOP_NAMEC": "\u8475\u82b3\u7ad9\u5df4\u58eb\u7e3d\u7ad9", "ED_STOP_NAMEE": "KWAI FONG STATION BUS TERMINUS", "ED_STOP_NAMES": "\u8475\u82b3\u7ad9\u5df4\u58eb\u603b\u7ad9", "ROUTE_ID": 8679, "ROUTE_NAMEE": "31P", "ROUTE_SEQ": 1, "ST_STOP_ID": 9581, "ST_STOP_NAMEC": "\u77f3\u7c6c\u5546\u5834", "ST_STOP_NAMEE": "SHEK LEI COMMERCIAL COMPLEX", "ST_STOP_NAMES": "\u77f3\u7bf1\u5546\u573a", "Shape_Length": 3831.206706722433}, "type": "Feature"});
+        geo_json_65f18182de2d0af320ce94c69b765b79.setStyle(function(feature) {return feature.properties.style;});
+
+        
+    
+            geo_json_65f18182de2d0af320ce94c69b765b79.addTo(map_35e558395ae71ab276bcdedcb75aff08);
+        
+</script>
+</html>
