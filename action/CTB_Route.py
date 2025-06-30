@@ -1,14 +1,11 @@
 import requests
-import json
 import os
 import logging
 import asyncio 
-import time 
 import httpx
 import traceback
 import GetRoute
 import GeoJSON
-#import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -161,21 +158,25 @@ async def main(routes):
                 r['gtfsRouteKey'] = []
                 continue
             gtfsRouteKey = []
-            gtfsRouteKey.extend(GeoJSON.matchRouteId('CTB', r['route'], firstStopCoordinates, lastStopCoordinates, routes))
+            gtfsRouteKey.extend(GeoJSON.matchRouteId('CTB', r, firstStopCoordinates, lastStopCoordinates, routes))
 
             # remove empty item from gtfsRouteKey   
             gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
 
             if len(gtfsRouteKey) == 0:
-                 ctb_logger.info(f"Cannot find GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}")
+                 ctb_logger.info(f"Cannot find GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}")
             else:
-                 ctb_logger.info(f"GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']} | "
+                 ctb_logger.info(f"GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}|"
                        f"routeCount: {len(gtfsRouteKey)}"                                                           
                        )
             for c in gtfsRouteKey:
                 ctb_logger.info(f"{c} "
                                 f"{routes[(c[1], c[2])][0]['properties']['stopNameC']} - "
-                                f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}" )
+                                f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}|"
+                                f"${routes[(c[1], c[2])][0]['properties']['fullFare']}|" 
+                                f"time:{routes[(c[1], c[2])][0]['properties']['journeyTime']}|" 
+                                f"#stops:{len(routes[(c[1], c[2])])}|"                                
+                                )
             r['gtfsRouteKey'] = gtfsRouteKey
 
         GetRoute.writeToJson(ctbList, ctb_route_json)

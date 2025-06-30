@@ -5,7 +5,6 @@ import csv
 import json
 import os
 import time
-import asyncio
 
 routeLineBaseUrl = "https://api.csdi.gov.hk/apim/dataquery/api/"
 

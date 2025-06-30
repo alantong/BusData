@@ -1,5 +1,4 @@
 import requests
-import json
 import os
 import logging
 import asyncio  
@@ -29,13 +28,12 @@ if os.path.exists(logDir) == False:
 
 logFile = os.path.join(logDir, 'gmb.log')
 
-logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-# Creating an object
-logger = logging.getLogger()
-
-# Setting the threshold of logger to DEBUG
-logger.setLevel(logging.DEBUG)
+# GMB logger
+gmb_logger = logging.getLogger('gmb')
+gmb_handler = logging.FileHandler(logFile, encoding='utf-8', mode='w')
+gmb_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S'))
+gmb_logger.addHandler(gmb_handler)
+gmb_logger.setLevel(logging.DEBUG)
 
 delay = 0.05
 
@@ -95,11 +93,12 @@ async def getRouteName(client, region, routeNo) :
             gr['dest_en'] = GetRoute.capWords(d['dest_en'])
             gmbRoutes.append(gr)
 
-async def main():
+async def main(routes):
     try:
-        logger.info("Start getting GMB route")
+        gmb_logger.info("Start getting GMB route")
         print("Start getting GMB route")
-        
+    
+    
         # Limit the number of concurrent tasks
         semaphore = asyncio.Semaphore(10)  # adjust the limit as needed
 
@@ -133,7 +132,15 @@ async def main():
                  time.sleep(delay)
                  tasks.append(limited_getStopList(client2, gr))
             gmbRouteStop += await asyncio.gather(*tasks)
-    
+
+        for grs in gmbRouteStop:
+            routeId = str(grs['routeId'])
+            routeSeq = str(grs['routeSeq'])
+
+            route_data = routes.get((routeId, routeSeq))
+            if route_data is not None:
+                grs['fullFare'] = route_data[0]['properties']['fullFare']
+                grs['journeyTime'] = route_data[0]['properties']['journeyTime']
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
         
         GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)
@@ -161,20 +168,20 @@ async def main():
         print("GMB Stop List done")
 
         print("Finish getting GMB route")
-        logger.info("Finish getting GMB route")
+        gmb_logger.info("Finish getting GMB route")
 
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logger.error(f'HTTP error occurred: {http_err}')
+            gmb_logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logger.error(http_err, exc_info=True)
+            gmb_logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logger.error(f'Other error occurred: {err}')
+            gmb_logger.error(f'Other error occurred: {err}')
             print(err)
-            logger.error(err, exc_info=True)
+            gmb_logger.error(err, exc_info=True)
             traceback.print_exc()
 
 

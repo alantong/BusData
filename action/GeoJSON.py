@@ -28,7 +28,8 @@ outputDir = os.path.join(os.getcwd(), output_dir)
 if os.path.exists(outputDir) == False:
     os.mkdir(outputDir)
 
-
+matchedList = []
+MIN_DIST = 250
 
 def getGeoJsonRoutes(type="BUS"):  
     match type:
@@ -91,7 +92,10 @@ def getGeoJsonRoutes(type="BUS"):
                 f"{features[0]['properties']['stopNameC']} - "
                 f"{features[-1]['properties']['stopNameC']}|"
                 f"{features[0]['properties']['serviceMode']}|"
-                f"{features[0]['properties']['specialType']}\n"
+                f"{features[0]['properties']['specialType']}|"
+                f"fullFare: {features[0]['properties']['fullFare']}|"
+                f"journeyTime: {features[0]['properties']['journeyTime']}|"
+                f"\n"
             ) 
 
     """ if( features[0]['properties']['routeNameE'] == '930'):
@@ -186,15 +190,20 @@ def haversine(coord1, coord2):
 # print(f"distance: {haversine(start, end):.2f} m")
 
 
-def matchRouteId(companyCode, routeNo, startStop, endStop, routes):
+def matchRouteId(companyCode, r, startStop, endStop, routes):
     """
     Match the company code and route number to find the routeId.
     """
+
+    routeNo = r['route']
+    stopCount = len(r['stops'])
+
     candidateList = getRouteKeyList(companyCode, routeNo, routes)
     #if candidateList is None or len(candidateList) == 0:
     #    print(f"No route found for {companyCode} {routeNo}")
     #    return None     
     resultList = []
+    startStopMatched = []
 
     #print(candidateList)
 
@@ -221,12 +230,11 @@ def matchRouteId(companyCode, routeNo, startStop, endStop, routes):
         startStopsDistance = haversine(firstStop, startStop)
         lastStopDistance = haversine(lastStop, endStop) 
 
-
         match companyCode:
-            case "CTB":
-                condition = startStopsDistance < 250 or lastStopDistance < 250
+            case "CTB" | "NLB":
+                condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
             case _:
-                condition = startStopsDistance < 250 and lastStopDistance < 250            
+                condition = startStopsDistance < MIN_DIST and lastStopDistance < MIN_DIST            
 
         if condition:
             """
@@ -235,12 +243,36 @@ def matchRouteId(companyCode, routeNo, startStop, endStop, routes):
                                 f"{routes[(c[1], c[2])][0]['properties']['locEndNameC']}"
                             )
             """
-            resultList.append([c[0], str(c[1]), str(c[2])])
+            startStopMatched.append(c)
+            #tempList.append([c[0], str(c[1]), str(c[2])])
 
-    
-    if len(resultList) == 0:
+
+
+    if len(startStopMatched) == 0:
         return candidateList
-    return resultList 
 
+    # filter using stopCount
+    stopCountMatched = []
+    for c in startStopMatched:
+        if stopCount == len(routes[c[1], c[2]]):
+            stopCountMatched.append(c)  
+    
+    if len(stopCountMatched) == 0:
+        for c in startStopMatched:
+            if c not in matchedList:
+                resultList.append(c)
+        if len(resultList) == 1:
+            matchedList.append(resultList[0])
+        
+        if len(resultList) > 0:
+            return resultList
+        else:
+            return startStopMatched
+        
+    if len(stopCountMatched) == 1:
+        matchedList.append(stopCountMatched[0])
+        return stopCountMatched
+    else:
+        return stopCountMatched
 
 

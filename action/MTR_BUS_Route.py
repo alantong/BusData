@@ -1,13 +1,9 @@
 import requests
-import json
 import os
 import logging
-import asyncio
-import time
-import httpx
 import traceback
 import GetRoute
-import re
+import GeoJSON
 
 from requests.exceptions import HTTPError
 
@@ -29,13 +25,12 @@ if os.path.exists(logDir) == False:
 
 logFile = os.path.join(logDir, 'mtr_bus.log')
     
-logging.basicConfig(filename=logFile, filemode='w', format='%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
-# Creating an object
-logger = logging.getLogger()
-
-# Setting the threshold of logger to DEBUG
-logger.setLevel(logging.DEBUG)
+# MTR_BUS logger
+mtrbus_logger = logging.getLogger('mtr_bus')
+mtrbus_handler = logging.FileHandler(os.path.join(log_dir, 'mtr_bus.log'), encoding='utf-8', mode='w')
+mtrbus_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S'))
+mtrbus_logger.addHandler(mtrbus_handler)
+mtrbus_logger.setLevel(logging.DEBUG)
 
 
 def getRouteStop(routeNo, bound, stopList):
@@ -47,9 +42,9 @@ def getRouteStop(routeNo, bound, stopList):
     #print(routeStopList)
     return routeStopList
 
-def main():
+def main(routes):
     print("Start getting MTR Bus stops")
-    logger.info("Start getting MTR Bus stops")
+    mtrbus_logger.info("Start getting MTR Bus stops")
 
     try:
         
@@ -89,10 +84,10 @@ def main():
         GetRoute.writeToJson(stopList, MTRBus_stop_json)
 
         print("Finish getting MTR Bus stops")
-        logger.info("Finish getting MTR Bus stops")
+        mtrbus_logger.info("Finish getting MTR Bus stops")
 
         print("Start getting MTR Bus routes")
-        logger.info("Start getting MTR Bus routes")
+        mtrbus_logger.info("Start getting MTR Bus routes")
 
         routeResponse = requests.get(allRouteBaseUrl, timeout=30.0)
         routeResponse.raise_for_status()
@@ -103,23 +98,65 @@ def main():
             lines = routeResponse.text.splitlines()
             for line in lines[1:]:
                 row = [i.strip(" \"") for i in line.split(',')]
-                route = {}
-                route['co'] = 'MTR_BUS'
-                routeNo = row[0]
 
-                routeStopList = getRouteStop(routeNo, 'O', stopList)
-                if(len(routeStopList) > 0 ) :
-                    route['route'] = routeNo
-                    route['bound'] = 'O'
-                    route['orig_tc'] = row[1].split('至')[0] 
-                    route['dest_tc'] = row[1].split('至')[1] 
-                    route['orig_en'] = row[2].split(' to ')[0] 
-                    route['dest_en'] = row[2].split(' to ')[1] 
-                    stops = map(lambda x:  x['stop'] , routeStopList)
-                    route['stops'] = list(stops)
-                    
-                    routeList.append(route)
 
+                for bound in ('O', 'I'):
+                    r = {}
+                    r['co'] = 'MTR_BUS'
+                    routeNo = row[0]
+
+                    routeStopList = getRouteStop(routeNo, bound, stopList)
+                    if(len(routeStopList) > 0 ) :
+                        r['route'] = routeNo
+                        r['bound'] = 'O'
+                        r['orig_tc'] = row[1].split('至')[0] 
+                        r['dest_tc'] = row[1].split('至')[1] 
+                        r['orig_en'] = row[2].split(' to ')[0] 
+                        r['dest_en'] = row[2].split(' to ')[1] 
+                        stops = map(lambda x:  x['stop'] , routeStopList)
+                        r['stops'] = list(stops)
+
+                        firstStop = r['stops'][0]
+                        lastStop = r['stops'][-1]
+                        firstStopCoordinates = GetRoute.getCoordinate(firstStop, stopList)
+                        lastStopCoordinates = GetRoute.getCoordinate(lastStop, stopList)
+                        if firstStopCoordinates is None or lastStopCoordinates is None:
+                            print(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                            mtrbus_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
+                            r['gtfsRouteKey'] = []
+                            continue
+                        gtfsRouteKey = []
+                        gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB', r, firstStopCoordinates, lastStopCoordinates, routes))
+                        gtfsRouteKey.extend(GeoJSON.matchRouteId('LRTFeeder', r, firstStopCoordinates, lastStopCoordinates, routes))
+                        
+                        # remove empty item from gtfsRouteKey   
+                        gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
+
+                        if len(gtfsRouteKey) == 0:
+                            mtrbus_logger.info(f"Cannot find GTFS route for KMB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}")
+                        else:
+                            mtrbus_logger.info(f"GTFS route for KMB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}|"
+                                f"routeCount: {len(gtfsRouteKey)}"
+                                )
+                        
+                        for c in gtfsRouteKey:
+                            mtrbus_logger.info(f"{c} "
+                                            f"{routes[(c[1], c[2])][0]['properties']['stopNameC']} - "
+                                            f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}|"
+                                            f"${routes[(c[1], c[2])][0]['properties']['fullFare']}|" 
+                                            f"time:{routes[(c[1], c[2])][0]['properties']['journeyTime']}|" 
+                                            f"#stops:{len(routes[(c[1], c[2])])}|"                                
+                                            )
+                            route_data = routes.get((c[1], c[2]))
+                            if route_data is not None:
+                                r['fullFare'] = route_data[0]['properties']['fullFare']
+                                r['journeyTime'] = route_data[0]['properties']['journeyTime']    
+                        r['gtfsRouteKey'] = gtfsRouteKey
+
+                        routeList.append(r)
+
+
+                """
                 route = {}
                 route['co'] = 'MTR_BUS'
                 routeStopList = getRouteStop(routeNo, 'I', stopList)
@@ -135,26 +172,27 @@ def main():
 
                     routeList.append(route)
 
+                """
         GetRoute.writeToJson(routeList, MTRBus_route_json)
 
 
         print("Finish getting MTR Bus routes")
-        logger.info("Finish getting MTR Bus rotues")
+        mtrbus_logger.info("Finish getting MTR Bus rotues")
 
         
         
     except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')
-            logger.error(f'HTTP error occurred: {http_err}')
+            mtrbus_logger.error(f'HTTP error occurred: {http_err}')
             print(http_err)
-            logger.error(http_err, exc_info=True)
+            mtrbus_logger.error(http_err, exc_info=True)
             traceback.print_exc()
 
     except Exception as err:
             print(f'Other error occurred: {err}')
-            logger.error(f'Other error occurred: {err}')
+            mtrbus_logger.error(f'Other error occurred: {err}')
             print(err)
-            logger.error(err, exc_info=True)
+            mtrbus_logger.error(err, exc_info=True)
             traceback.print_exc()
 
 if __name__=="__main__":
