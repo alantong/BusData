@@ -169,7 +169,12 @@ async def main(routes):
                  ctb_logger.info(f"GTFS route for CTB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}|"
                        f"routeCount: {len(gtfsRouteKey)}"                                                           
                        )
+                 
+            fullFare = ""
+            journeyTime = ""     
             for c in gtfsRouteKey:
+                fullFare += str(routes[(c[1], c[2])][0]['properties']['fullFare']) + "|"
+                journeyTime += str(routes[(c[1], c[2])][0]['properties']['journeyTime']) + "|"
                 ctb_logger.info(f"{c} "
                                 f"{routes[(c[1], c[2])][0]['properties']['stopNameC']} - "
                                 f"{routes[(c[1], c[2])][-1]['properties']['stopNameC']}|"
@@ -177,6 +182,8 @@ async def main(routes):
                                 f"time:{routes[(c[1], c[2])][0]['properties']['journeyTime']}|" 
                                 f"#stops:{len(routes[(c[1], c[2])])}|"                                
                                 )
+            r['fullFare'] = fullFare[:-1]
+            r['journeyTime'] = journeyTime[:-1]
             r['gtfsRouteKey'] = gtfsRouteKey
 
         GetRoute.writeToJson(ctbList, ctb_route_json)
