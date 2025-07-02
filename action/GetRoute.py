@@ -31,8 +31,8 @@ def main() :
     asyncio.run(GMB_Route.main(gmbRoutes))
     MTR_BUS_Route.main(busRoutes)
 
-    subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
-    subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
+    #subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
     
     #subprocess.run(["python", os.path.join(actionDir, "GeoJSON.py")])
     #subprocess.run(["python", os.path.join(actionDir, "KMB_Route.py")])
