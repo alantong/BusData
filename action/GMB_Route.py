@@ -139,8 +139,8 @@ async def main(routes):
 
             route_data = routes.get((routeId, routeSeq))
             if route_data is not None:
-                grs['fullFare'] = route_data[0]['properties']['fullFare']
-                grs['journeyTime'] = route_data[0]['properties']['journeyTime']
+                grs['fullFare'] = str(route_data[0]['properties']['fullFare'])
+                grs['journeyTime'] = str(route_data[0]['properties']['journeyTime'])
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
         
         GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)

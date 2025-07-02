@@ -154,8 +154,8 @@ def main(routes):
                                             )
                             route_data = routes.get((c[1], c[2]))
                             if route_data is not None:
-                                r['fullFare'] = route_data[0]['properties']['fullFare']
-                                r['journeyTime'] = route_data[0]['properties']['journeyTime']    
+                                r['fullFare'] = str(route_data[0]['properties']['fullFare'])
+                                r['journeyTime'] = str(route_data[0]['properties']['journeyTime'])   
                         r['gtfsRouteKey'] = gtfsRouteKey
 
                         routeList.append(r)
