@@ -55,6 +55,10 @@ for feature in data["features"]:
     properties = feature["properties"]
     
     with open("FGDB/GMB/" + str(properties["ROUTE_ID"]) + "-" + str(properties["ROUTE_SEQ"]) + ".json", "w", encoding='utf-8') as f:
+        if feature["geometry"]["type"] == "LineString":
+            # Convert LineString to MultiLineString
+            feature["geometry"]["type"] = "MultiLineString"
+            feature["geometry"]["coordinates"] = [feature["geometry"]["coordinates"]]
         f.write(
             re.sub(
                 r"([0-9]+\.[0-9]{5})[0-9]+",
@@ -78,9 +82,31 @@ for feature in data["features"]:
     key = key.replace('\t', ' ')
     key = key.replace('/', ' ')
 
-    map = folium.Map(location=[22.34685599159843, 114.10950470085098], zoom_start=11)
-    folium.GeoJson(feature).add_to(map)
-    map.save(f'{outputPath}/{key}.html')
+    #map = folium.Map(location=[22.34685599159843, 114.10950470085098], zoom_start=11)
+    #folium.GeoJson(feature).add_to(map)
+    #map.save(f'{outputPath}/{key}.html')
+
+    # Get all coordinates from the geometry
+    coords = []
+    geom = feature["geometry"]
+    if geom["type"] == "MultiLineString":
+        for line in geom["coordinates"]:
+            coords.extend(line)
+    elif geom["type"] == "LineString":
+        coords = geom["coordinates"]
+
+    # Extract lat/lon bounds
+    lats = [pt[1] for pt in coords]
+    lons = [pt[0] for pt in coords]
+    bounds = [[min(lats), min(lons)], [max(lats), max(lons)]]
+
+    # Center the map at the midpoint of the bounds
+    center = [(bounds[0][0] + bounds[1][0]) / 2, (bounds[0][1] + bounds[1][1]) / 2]
+    m = folium.Map(location=center, zoom_start=13)  # zoom_start will be overridden by fit_bounds
+
+    folium.GeoJson(feature).add_to(m)
+    m.fit_bounds(bounds)
+    m.save(f'{outputPath}/{key}.html')
 
 
 os.remove(output_zip)
