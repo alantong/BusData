@@ -27,7 +27,7 @@ def main() :
 
     MTR_BUS_Route.main(busRoutes)
     KMB_Route.main(busRoutes)
-    return
+
     asyncio.run(CTB_Route.main(busRoutes))
     asyncio.run(NLB_Route.main(busRoutes))     
     asyncio.run(GMB_Route.main(gmbRoutes))
