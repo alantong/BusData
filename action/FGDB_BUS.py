@@ -56,6 +56,10 @@ for feature in data["features"]:
     properties = feature["properties"]
     
     with open("FGDB/BUS/" + str(properties["ROUTE_ID"]) + "-" + str(properties["ROUTE_SEQ"]) + ".json", "w", encoding='utf-8') as f:
+        if feature["geometry"]["type"] == "LineString":
+            # Convert LineString to MultiLineString
+            feature["geometry"]["type"] = "MultiLineString"
+            feature["geometry"]["coordinates"] = [feature["geometry"]["coordinates"]]
         f.write(
             re.sub(
                 r"([0-9]+\.[0-9]{5})[0-9]+",
