@@ -25,11 +25,13 @@ def main() :
     busRoutes = GeoJSON.getGeoJsonRoutes("BUS")
     gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
 
+    MTR_BUS_Route.main(busRoutes)
     KMB_Route.main(busRoutes)
+    return
     asyncio.run(CTB_Route.main(busRoutes))
     asyncio.run(NLB_Route.main(busRoutes))     
     asyncio.run(GMB_Route.main(gmbRoutes))
-    MTR_BUS_Route.main(busRoutes)
+    
 
     # moved to FGDB workflow
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])

@@ -39,6 +39,7 @@ def getRouteStop(routeNo, bound, stopList):
         if (s['route'] == routeNo and s['bound'] == bound):
             routeStopList.append(s)
     #routeStopList.sort('stopSeq')
+    routeStopList.sort(key=lambda x: int(x['stopSeq']))    
     #print(routeStopList)
     return routeStopList
 
