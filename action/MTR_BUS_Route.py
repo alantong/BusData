@@ -38,8 +38,7 @@ def getRouteStop(routeNo, bound, stopList):
     for s in stopList:
         if (s['route'] == routeNo and s['bound'] == bound):
             routeStopList.append(s)
-    #routeStopList.sort('stopSeq')
-    routeStopList.sort(key=lambda x: int(x['stopSeq']))    
+    #routeStopList.sort(key=lambda x: x['stopSeq'])
     #print(routeStopList)
     return routeStopList
 
@@ -99,21 +98,26 @@ def main(routes):
             lines = routeResponse.text.splitlines()
             for line in lines[1:]:
                 row = [i.strip(" \"") for i in line.split(',')]
-
-
+                
                 for bound in ('O', 'I'):
                     r = {}
                     r['co'] = 'MTR_BUS'
                     routeNo = row[0]
-
+                    #print(f"Processing route {routeNo} bound {bound}")                 
                     routeStopList = getRouteStop(routeNo, bound, stopList)
                     if(len(routeStopList) > 0 ) :
                         r['route'] = routeNo
-                        r['bound'] = 'O'
-                        r['orig_tc'] = row[1].split('至')[0] 
-                        r['dest_tc'] = row[1].split('至')[1] 
-                        r['orig_en'] = row[2].split(' to ')[0] 
-                        r['dest_en'] = row[2].split(' to ')[1] 
+                        r['bound'] = bound
+                        if bound == 'O':
+                            r['orig_tc'] = row[1].split('至')[0] 
+                            r['dest_tc'] = row[1].split('至')[1] 
+                            r['orig_en'] = row[2].split(' to ')[0] 
+                            r['dest_en'] = row[2].split(' to ')[1] 
+                        else:
+                            r['orig_tc'] = row[1].split('至')[1] 
+                            r['dest_tc'] = row[1].split('至')[0] 
+                            r['orig_en'] = row[2].split(' to ')[1] 
+                            r['dest_en'] = row[2].split(' to ')[0] 
                         stops = map(lambda x:  x['stop'] , routeStopList)
                         r['stops'] = list(stops)
 
