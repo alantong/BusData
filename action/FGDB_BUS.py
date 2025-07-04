@@ -51,7 +51,6 @@ data = gdf.to_geo_dict(drop_id=True)
 
 # gdf.to_file("FGDB/output.geojson", driver="GeoJSON")
 
-
 for feature in data["features"]:
     properties = feature["properties"]
     
@@ -74,11 +73,14 @@ for feature in data["features"]:
             )
         )
     
-    key = str(properties["ROUTE_ID"]) + "-" + str(properties["ROUTE_SEQ"]) + "-" + \
-                str(properties["COMPANY_CODE"]) + "-" + \
-                str(properties["ROUTE_NAMEE"]) + "-" + \
-                         str(properties["ST_STOP_NAMEC"]) + "-" + \
-                         str(properties["ED_STOP_NAMEC"]) 
+    key = (
+        f"{properties['ROUTE_NAMEE']}-"
+        f"{properties['COMPANY_CODE']}-"
+        f"{properties['ROUTE_ID']}-"
+        f"{properties['ROUTE_SEQ']}-"
+        f"{properties['ST_STOP_NAMEC']}-"
+        f"{properties['ED_STOP_NAMEC']}"
+    )
                       
     key = key.replace('/<br>', ' ')
 

@@ -30,8 +30,7 @@ jobs:
 
       - name: execute py script 
         run: |
-          python action/FGDB_BUS.py
-          python action/FGDB_GMB.py
+          python action/FGDB.py
       
       - name: Generate index.html
         run: python action/generate_index.py

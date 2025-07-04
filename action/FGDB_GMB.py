@@ -73,11 +73,14 @@ for feature in data["features"]:
             )
         )
     
-    key = str(properties["ROUTE_ID"]) + "-" + str(properties["ROUTE_SEQ"]) + "-" + \
-                str(properties["ROUTE_NAME"]) + "-" + \
-                         str(properties["ST_STOP_NAMEC"]) + "-" + \
-                         str(properties["ED_STOP_NAMEC"]) 
-                      
+    key = (
+        f"{properties['ROUTE_NAME']}-"
+        f"{properties['ROUTE_ID']}-"
+        f"{properties['ROUTE_SEQ']}-"
+        f"{properties['ST_STOP_NAMEC']}-"
+        f"{properties['ED_STOP_NAMEC']}"
+    )
+                   
     key = key.replace('/<br>', ' ')
     key = key.replace('\t', ' ')
     key = key.replace('/', ' ')

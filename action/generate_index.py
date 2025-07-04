@@ -3,6 +3,7 @@ import os
 def make_index(directory, rel_path=""):
     files = []
     dirs = []
+        
     for fname in sorted(os.listdir(directory)):
         fpath = os.path.join(directory, fname)
         if os.path.isfile(fpath):
