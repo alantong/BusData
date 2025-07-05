@@ -88,16 +88,16 @@ def process_fgdb(url, output_zip, extract_dir, outputPath, prefix):
             key = "-".join([
                 properties["ROUTE_NAMEE"],
                 properties["COMPANY_CODE"],
-                properties["ROUTE_ID"],
-                properties["ROUTE_SEQ"],
+                str(properties["ROUTE_ID"]),
+                str(properties["ROUTE_SEQ"]),
                 properties["ST_STOP_NAMEC"],
                 properties["ED_STOP_NAMEC"]
             ])
         else:  # GMB
             key = "-".join([
                 properties["ROUTE_NAME"],
-                properties["ROUTE_ID"],
-                properties["ROUTE_SEQ"],
+                str(properties["ROUTE_ID"]),
+                str(properties["ROUTE_SEQ"]),
                 properties["ST_STOP_NAMEC"],
                 properties["ED_STOP_NAMEC"]
             ])
