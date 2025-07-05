@@ -4,6 +4,7 @@ import logging
 import traceback
 import GetRoute
 import GeoJSON
+import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -158,8 +159,9 @@ def main(routes):
                                 r['journeyTime'] = str(route_data[0]['properties']['journeyTime'])   
                         r['gtfsRouteKey'] = gtfsRouteKey
 
+                        # Get GTFS frequency data              
+                        r['freq'] = GTFS.get_freq(gtfsRouteKey)
                         routeList.append(r)
-
 
                 """
                 route = {}

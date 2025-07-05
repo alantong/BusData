@@ -8,6 +8,7 @@ import traceback
 import time
 import GetRoute
 import GeoJSON
+import GTFS
 
    
 from requests.exceptions import HTTPError
@@ -132,7 +133,9 @@ async def main(routes):
         print("Finish getting NLB stops")
         nlb_logger.info("Finish getting NLB stops")
 
-        for r in nlbList:
+        total = len(nlbList)
+        for idx, r in enumerate(nlbList, 1):
+        #for r in nlbList:
             firstStop = r['stops'][0]
             lastStop = r['stops'][-1]
             firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
@@ -173,6 +176,12 @@ async def main(routes):
             r['journeyTime'] = journeyTime[:-1]
             r['gtfsRouteKey'] = gtfsRouteKey
 
+            # Get GTFS frequency data              
+            r['freq'] = GTFS.get_freq(gtfsRouteKey)
+
+            progress = int(50 * idx / total)
+            print(f"\rProgress: [{'#' * progress}{'.' * (50 - progress)}] {idx}/{total}", end='', flush=True)
+        print()  # for newline after the loop
         GetRoute.writeToJson(nlbList, nlb_route_json)
 
 

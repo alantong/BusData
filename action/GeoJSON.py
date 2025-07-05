@@ -205,8 +205,6 @@ def matchRouteId(companyCode, r, startStop, endStop, routes):
     resultList = []
     startStopMatched = []
 
-    #print(candidateList)
-
     #check if candidateList is not None and has elements
     if candidateList is None or len(candidateList) == 0:
         #print(f"No route found for {companyCode} {routeNo}")
@@ -229,14 +227,14 @@ def matchRouteId(companyCode, r, startStop, endStop, routes):
 
         startStopsDistance = haversine(firstStop, startStop)
         lastStopDistance = haversine(lastStop, endStop) 
-        """
+        
         match companyCode:
             case "CTB" | "NLB":
                 condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
             case _:
                 condition = startStopsDistance < MIN_DIST and lastStopDistance < MIN_DIST            
-        """
-        condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
+        
+        # condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
         if condition:
             startStopMatched.append(c)
             """
@@ -249,7 +247,7 @@ def matchRouteId(companyCode, r, startStop, endStop, routes):
             #tempList.append([c[0], str(c[1]), str(c[2])])
 
 
-    if len(startStopMatched) == 0:
+    if len(startStopMatched) == 0 or companyCode == "CTB" or companyCode == "NLB":
         return startStopMatched
 
     # filter using stopCount

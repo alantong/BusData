@@ -7,6 +7,7 @@ import operator
 import time
 import traceback
 import GetRoute
+import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -141,6 +142,12 @@ async def main(routes):
             if route_data is not None:
                 grs['fullFare'] = str(route_data[0]['properties']['fullFare'])
                 grs['journeyTime'] = str(route_data[0]['properties']['journeyTime'])
+
+            # Get GTFS frequency data              
+            freq = GTFS.get_gtfs_frequencies(routeId + '-' + routeSeq) if routeId and routeSeq else None
+            if freq == {}:
+                freq = GTFS.get_gtfs_trips(routeId + '-' + routeSeq)
+            grs['freq'] = freq
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
         
         GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)

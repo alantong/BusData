@@ -6,6 +6,7 @@ import httpx
 import traceback
 import GetRoute
 import GeoJSON
+import GTFS
 
 from requests.exceptions import HTTPError
 
@@ -31,7 +32,7 @@ ctb_logger = logging.getLogger('ctb')
 ctb_handler = logging.FileHandler(os.path.join(log_dir, 'ctb.log'), encoding='utf-8', mode='w')
 ctb_handler.setFormatter(logging.Formatter('%(asctime)s | %(name)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S'))
 ctb_logger.addHandler(ctb_handler)
-ctb_logger.setLevel(logging.INFO)
+ctb_logger.setLevel(logging.DEBUG)
 
 
 async def getStopInfo(client, stopId):
@@ -144,8 +145,9 @@ async def main(routes):
         print("Finish getting CTB stops")
         ctb_logger.info("Finish getting CTB stops")
 
-
-        for r in ctbList:
+        total = len(ctbList)
+        for idx, r in enumerate(ctbList, 1):
+        #for r in ctbList:
             firstStop = r['stops'][0]
             lastStop = r['stops'][-1]
             firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
@@ -185,6 +187,13 @@ async def main(routes):
             r['fullFare'] = fullFare[:-1]
             r['journeyTime'] = journeyTime[:-1]
             r['gtfsRouteKey'] = gtfsRouteKey
+
+            # Get GTFS frequency data              
+            r['freq'] = GTFS.get_freq(gtfsRouteKey)
+            
+            progress = int(50 * idx / total)
+            print(f"\rProgress: [{'#' * progress}{'.' * (50 - progress)}] {idx}/{total}", end='', flush=True)
+        print()  # for newline after the loop
 
         GetRoute.writeToJson(ctbList, ctb_route_json)
 

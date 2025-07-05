@@ -4,7 +4,7 @@ import logging
 import traceback
 import GetRoute
 import GeoJSON
-#import GTFS
+import GTFS
 
 
 from requests.exceptions import HTTPError
@@ -118,7 +118,8 @@ def main(routes):
         
         routeList = routeObject['data']     
 
-        for r in routeList:
+        total = len(routeList)
+        for idx, r in enumerate(routeList, 1):
             r['co'] = "KMB"
             r['orig_en'] = GetRoute.capWords(r['orig_en'])
             r['dest_en'] = GetRoute.capWords(r['dest_en'])
@@ -168,6 +169,12 @@ def main(routes):
             r['journeyTime'] = journeyTime[:-1]
             r['gtfsRouteKey'] = gtfsRouteKey
             
+            # Get GTFS frequency data               
+            r['freq'] = GTFS.get_freq(gtfsRouteKey)
+            
+            progress = int(50 * idx / total)
+            print(f"\rProgress: [{'#' * progress}{'.' * (50 - progress)}] {idx}/{total}", end='', flush=True)
+        print()  # for newline after the loop
 
         # write to json    
         GetRoute.writeToJson(routeList, kmb_route_json)

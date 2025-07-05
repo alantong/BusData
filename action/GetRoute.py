@@ -11,6 +11,7 @@ import CTB_Route
 import NLB_Route
 import GMB_Route
 import MTR_BUS_Route
+import GTFS
 
 
 output_dir = 'output'
@@ -20,19 +21,20 @@ def main() :
 
     print("main started")
     actionDir = os.path.join(os.getcwd(), "action")
-    
+    GTFS.download_gtfs()  # Download GTFS data
+    GTFS.extract_gtfs_frequency()  # Extract GTFS frequency data
+    GTFS.extract_gtfs_trips()
+
     global busRoutes
     busRoutes = GeoJSON.getGeoJsonRoutes("BUS")
     gmbRoutes = GeoJSON.getGeoJsonRoutes("GMB")
 
     MTR_BUS_Route.main(busRoutes)
     KMB_Route.main(busRoutes)
-
     asyncio.run(CTB_Route.main(busRoutes))
     asyncio.run(NLB_Route.main(busRoutes))     
     asyncio.run(GMB_Route.main(gmbRoutes))
     
-
     # moved to FGDB workflow
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_BUS.py")])
     #subprocess.run(["python", os.path.join(actionDir, "FGDB_GMB.py")])
