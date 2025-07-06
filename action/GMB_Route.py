@@ -147,7 +147,7 @@ async def main(routes):
             freq = GTFS.get_gtfs_frequencies(routeId + '-' + routeSeq) if routeId and routeSeq else None
             if freq == {}:
                 freq = GTFS.get_gtfs_trips(routeId + '-' + routeSeq)
-            grs['freq'] = freq
+            grs['freq'] = [freq]
         _gmbRouteStop = sorted(gmbRouteStop, key=operator.itemgetter('route'))
         
         GetRoute.writeToJson(_gmbRouteStop, gmb_route_json)
