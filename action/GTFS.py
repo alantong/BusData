@@ -58,7 +58,8 @@ def extract_gtfs_frequency():
                 frequencies[key] = {}
             if service_id not in frequencies[key]:
                 frequencies[key][service_id] = []
-            frequencies[key][service_id].append([_start_time, end_time, headway_secs])
+            combined_data = str(_start_time) + '|' + str(end_time) + '|' + str(headway_secs)
+            frequencies[key][service_id].append(combined_data)
     # Print the frequencies dictionary
     #print(f"{frequencies["1000573-1"]}")
 
