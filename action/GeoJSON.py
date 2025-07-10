@@ -229,12 +229,15 @@ def matchRouteId(companyCode, r, startStop, endStop, routes):
         lastStopDistance = haversine(lastStop, endStop) 
         
         match companyCode:
-            case "CTB" | "NLB":
+            case "CTB":
                 condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
             case _:
                 condition = startStopsDistance < MIN_DIST and lastStopDistance < MIN_DIST            
+
+        if companyCode == "NLB" and "B2" in routeNo:
+            # NLB routes with 'B2' in routeNo are special cases
+            condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
         
-        # condition = startStopsDistance < MIN_DIST or lastStopDistance < MIN_DIST
         if condition:
             startStopMatched.append(c)
             """
