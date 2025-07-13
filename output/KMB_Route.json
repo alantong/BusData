@@ -88125,6 +88125,59 @@
     {
         "route":"A34",
         "bound":"O",
+        "service_type":"2",
+        "orig_en":"Siu Hong Road",
+        "orig_tc":"兆康路",
+        "orig_sc":"兆康路",
+        "dest_en":"Airport (Ground Transportation Centre)",
+        "dest_tc":"機場(地面運輸中心)",
+        "dest_sc":"机场(地面运输中心)",
+        "co":"KMB",
+        "stops":[
+            "229128E5EA86F3A2",
+            "776535DC784DD106",
+            "C054428621712B5C",
+            "FA36E29F8BCC544C",
+            "448D42252303EC00",
+            "712504F8E762020C",
+            "F307FDA96A1DF9A2",
+            "8E76875D12C239A3",
+            "ADE15F24D2EE0B20",
+            "9E10C87488BC7493",
+            "951EB88600BAF893",
+            "F4C9995BB455AB46",
+            "4FF70CD3938702E4",
+            "224B3B71A4C25C01",
+            "333A88A8E07C956B",
+            "B2442AC56532517B",
+            "78644FF7E8B7BBA0",
+            "0221966C1116C4EC",
+            "C70342BF7C6A4732",
+            "0D5759F7A4B185FE",
+            "C552CE565E1F0C85",
+            "21466046C6868AA7"
+        ],
+        "fullFare":"15.7",
+        "journeyTime":"57",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "8804",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "0510",
+                    "0735"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"A34",
+        "bound":"O",
         "service_type":"3",
         "orig_en":"Hung Shui Kiu (Hung Yuen Road)",
         "orig_tc":"洪水橋(洪元路)",
@@ -88188,6 +88241,60 @@
                     "0650",
                     "0705",
                     "0725"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"A34",
+        "bound":"O",
+        "service_type":"4",
+        "orig_en":"Siu Hong Road",
+        "orig_tc":"兆康路",
+        "orig_sc":"兆康路",
+        "dest_en":"Airport (Ground Transportation Centre)",
+        "dest_tc":"機場(地面運輸中心)",
+        "dest_sc":"机场(地面运输中心)",
+        "co":"KMB",
+        "stops":[
+            "229128E5EA86F3A2",
+            "776535DC784DD106",
+            "C054428621712B5C",
+            "FA36E29F8BCC544C",
+            "448D42252303EC00",
+            "712504F8E762020C",
+            "F307FDA96A1DF9A2",
+            "8E76875D12C239A3",
+            "ADE15F24D2EE0B20",
+            "9E10C87488BC7493",
+            "951EB88600BAF893",
+            "F4C9995BB455AB46",
+            "4FF70CD3938702E4",
+            "224B3B71A4C25C01",
+            "333A88A8E07C956B",
+            "B2442AC56532517B",
+            "78644FF7E8B7BBA0",
+            "0221966C1116C4EC",
+            "C70342BF7C6A4732",
+            "0D5759F7A4B185FE",
+            "C552CE565E1F0C85",
+            "9C9F817064169CE7",
+            "E48E4C46F64FFB0E",
+            "21466046C6868AA7"
+        ],
+        "fullFare":"15.7",
+        "journeyTime":"62",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "1000049",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "0600"
                 ]
             }
         ]
@@ -101023,9 +101130,9 @@
         "route":"PB2A",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Central Harbourfront",
-        "orig_tc":"中環海濱",
-        "orig_sc":"中环海滨",
+        "orig_en":"Yuen Long(Yoho Mall)",
+        "orig_tc":"元朗形點",
+        "orig_sc":"元朗形点",
         "dest_en":"West Kowloon Cultural District",
         "dest_tc":"西九文化區",
         "dest_sc":"西九文化区",
@@ -101045,12 +101152,12 @@
         "route":"PB2B",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Shek Mun Station",
-        "orig_tc":"石門站",
-        "orig_sc":"石门站",
-        "dest_en":"West Kowloon Cultural District (From Sha Tin)",
-        "dest_tc":"西九龍文化區 (由沙田出發 循環行走)",
-        "dest_sc":"西九龙文化区 (由沙田出发 循环行走)",
+        "orig_en":"Tuen Mun Station (V City)",
+        "orig_tc":"屯門站(V CITY)",
+        "orig_sc":"屯门站(V CITY)",
+        "dest_en":"West Kowloon Cultural District",
+        "dest_tc":"西九龍文化區",
+        "dest_sc":"西九龙文化区",
         "co":"KMB",
         "stops":[
             "77D8D65A6BD868B3",
