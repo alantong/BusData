@@ -49495,6 +49495,60 @@
         ]
     },
     {
+        "route":"110",
+        "bound":"O",
+        "service_type":"6",
+        "orig_en":"Shau Kei Wan",
+        "orig_tc":"筲箕灣",
+        "orig_sc":"筲箕湾",
+        "dest_en":"Tsim Sha Tsui East (Mody Road)",
+        "dest_tc":"尖沙咀東(麼地道)",
+        "dest_sc":"尖沙咀东(么地道)",
+        "co":"KMB",
+        "stops":[
+            "35AEEA90C71121F0",
+            "B404A065F58A5F64",
+            "4FC7150518C5234A",
+            "3FB2109BF5E57DDB",
+            "455FC1E8B39E3D16",
+            "F01C5503A89517B4",
+            "88461293F994CB07",
+            "7FC94FB715BB85C6",
+            "08A237AE35DF8A35",
+            "9711BA45457DCA24",
+            "99FB764916B4BA81",
+            "E293EF47A90B818D",
+            "616738F21326814A",
+            "3A1D9864C04075B2",
+            "153D32217234A0F0",
+            "5CCBD9A6B58BF20D",
+            "E049C81469E2B3C0",
+            "076E1E9D5874C41D",
+            "343CF2F6ADACAACC",
+            "F6EE4DC41A299593",
+            "83EB94899B6BBB4B",
+            "F57E1173086C7A51",
+            "5D75A800F823B45D"
+        ],
+        "fullFare":"12.2",
+        "journeyTime":"50",
+        "gtfsRouteKey":[
+            [
+                "KMB+CTB",
+                "8177",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "448":[
+                    "07:00:00|07:35:00|2100",
+                    "08:10:00|08:40:00|1800"
+                ]
+            }
+        ]
+    },
+    {
         "route":"111",
         "bound":"O",
         "service_type":"1",
@@ -101223,17 +101277,20 @@
         "dest_sc":"西沙 GO PARK",
         "co":"KMB",
         "stops":[
-            "8BC3AB2E0CE7401A",
-            "06CC6423AA236B72",
-            "3B5FBD10AE27C017",
-            "FFB9E8929671D06E",
+            "029C4172D953DAF5",
+            "65E74D034898D16E",
+            "4C61A1E387593CAF",
+            "B3F486EAD0CE8187",
             "8B9E121BB71771F4",
-            "FFB9E8929671D06E",
-            "3B5FBD10AE27C017",
-            "06CC6423AA236B72",
-            "8BC3AB2E0CE7401A"
+            "B3F486EAD0CE8187",
+            "4C61A1E387593CAF",
+            "65E74D034898D16E",
+            "029C4172D953DAF5"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PB2A",
@@ -101516,6 +101573,7 @@
             "0524415976F284A4",
             "658F28C339443C17",
             "7033D904840D5F18",
+            "D39BE9923B1C7294",
             "875B01AC78127A53",
             "A02CB1283981A937"
         ],

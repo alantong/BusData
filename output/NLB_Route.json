@@ -4757,5 +4757,56 @@
                 ]
             }
         ]
+    },
+    {
+        "co":"NLB",
+        "routeId":"113",
+        "route":"XB2",
+        "orig_tc":"元朗港鐵站",
+        "dest_tc":"深圳灣口岸(特快)",
+        "orig_sc":"元朗港铁站",
+        "dest_sc":"深圳湾口岸(特快)",
+        "orig_en":"Yuen Long MTR Station",
+        "dest_en":"Shenzhen Bay Port(Express)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
+            "161",
+            "135",
+            "136",
+            "137",
+            "138",
+            "139",
+            "152"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "co":"NLB",
+        "routeId":"114",
+        "route":"XB2",
+        "orig_tc":"深圳灣口岸",
+        "dest_tc":"元朗港鐵站(特快)",
+        "orig_sc":"深圳湾口岸",
+        "dest_sc":"元朗港铁站(特快)",
+        "orig_en":"Shenzhen Bay Port",
+        "dest_en":"Yuen Long MTR Station(Express)",
+        "overnightRoute":0,
+        "specialRoute":0,
+        "stops":[
+            "152",
+            "157",
+            "158",
+            "159",
+            "160",
+            "134"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     }
 ]
