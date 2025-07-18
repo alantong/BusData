@@ -101255,15 +101255,18 @@
         "dest_sc":"西沙 GO PARK  (由大埔出发 循环行走)",
         "co":"KMB",
         "stops":[
-            "AFFD0E0C6077741D",
-            "B1882202E2B36620",
-            "D23A43F56F61F40A",
+            "4B63964A12D91E2A",
+            "A02CB1283981A937",
             "8C90768E30E981C6",
             "8B9E121BB71771F4",
             "8C90768E30E981C6",
-            "D23A43F56F61F40A"
+            "A02CB1283981A937",
+            "4B63964A12D91E2A"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PB1B",
@@ -101356,17 +101359,20 @@
         "dest_sc":"北角汇",
         "co":"KMB",
         "stops":[
-            "97959A28795E3EFF",
-            "2D3BD1583B26087F",
-            "9252A494500A05C9",
-            "0C8085DE147882C0",
+            "C460A691CD8212DF",
+            "D807FB5CE82945A2",
+            "35462A8C97E8A506",
+            "B1F2121578803972",
             "E85A10E61A00CC09",
-            "0C8085DE147882C0",
-            "9252A494500A05C9",
-            "2D3BD1583B26087F",
-            "97959A28795E3EFF"
+            "B1F2121578803972",
+            "35462A8C97E8A506",
+            "D807FB5CE82945A2",
+            "C460A691CD8212DF"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PB3B",
@@ -101380,17 +101386,22 @@
         "dest_sc":"北角汇",
         "co":"KMB",
         "stops":[
-            "321060BAE1447BEE",
-            "A8DC6F85E7043234",
-            "A31DD8C4FD6740D4",
-            "CD4D0EF3F601A4A7",
+            "14736645499B5526",
+            "DF71339A693A2EA0",
+            "E33098F43CF205B8",
+            "232DC1B2BE92C86F",
+            "B1F2121578803972",
             "E85A10E61A00CC09",
-            "860671A5FA383DA3",
-            "A31DD8C4FD6740D4",
-            "A8DC6F85E7043234",
-            "321060BAE1447BEE"
+            "B1F2121578803972",
+            "E33098F43CF205B8",
+            "232DC1B2BE92C86F",
+            "DF71339A693A2EA0",
+            "14736645499B5526"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PBD1",
@@ -101516,17 +101527,20 @@
         "dest_sc":"马湾 (由东涌站出发 循环行走)",
         "co":"KMB",
         "stops":[
-            "90F0F685E42CC10D",
-            "0524415976F284A4",
-            "860671A5FA383DA3",
-            "321060BAE1447BEE",
+            "5C6754BD37D3F4D0",
+            "96E1024FD71C979F",
+            "4B63964A12D91E2A",
+            "A8DC6F85E7043234",
             "9774D8AAAD859409",
-            "321060BAE1447BEE",
-            "CD4D0EF3F601A4A7",
-            "0524415976F284A4",
-            "90F0F685E42CC10D"
+            "A8DC6F85E7043234",
+            "4B63964A12D91E2A",
+            "96E1024FD71C979F",
+            "5C6754BD37D3F4D0"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PBW1",
