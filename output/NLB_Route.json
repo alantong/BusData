@@ -1440,7 +1440,7 @@
             "55"
         ],
         "fullFare":"23.3|23.3|23.3|23.3|23.3",
-        "journeyTime":"55|57|58|60|61",
+        "journeyTime":"55|58|58|60|61",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -1695,7 +1695,7 @@
             "79"
         ],
         "fullFare":"23.3|23.3|23.3|23.3|23.3",
-        "journeyTime":"55|57|58|60|61",
+        "journeyTime":"55|58|58|60|61",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -2664,7 +2664,7 @@
             "291"
         ],
         "fullFare":"5.1|5.1",
-        "journeyTime":"19|21",
+        "journeyTime":"18|21",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -2756,7 +2756,7 @@
             "318"
         ],
         "fullFare":"5.1|5.1",
-        "journeyTime":"19|21",
+        "journeyTime":"18|21",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -2847,7 +2847,7 @@
             "306"
         ],
         "fullFare":"3.8",
-        "journeyTime":"9",
+        "journeyTime":"10",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -3053,7 +3053,7 @@
             "152"
         ],
         "fullFare":"11.3",
-        "journeyTime":"17",
+        "journeyTime":"16",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -3089,7 +3089,7 @@
             "176"
         ],
         "fullFare":"11.3",
-        "journeyTime":"17",
+        "journeyTime":"16",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -3143,7 +3143,7 @@
             "152"
         ],
         "fullFare":"15.8",
-        "journeyTime":"35",
+        "journeyTime":"33",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -3191,7 +3191,7 @@
             "134"
         ],
         "fullFare":"15.8",
-        "journeyTime":"35",
+        "journeyTime":"33",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -3531,7 +3531,7 @@
             "105"
         ],
         "fullFare":"3.9",
-        "journeyTime":"4",
+        "journeyTime":"3",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -4324,7 +4324,7 @@
             "79"
         ],
         "fullFare":"3.9",
-        "journeyTime":"9",
+        "journeyTime":"8",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -4396,7 +4396,7 @@
             "193"
         ],
         "fullFare":"3.9",
-        "journeyTime":"23",
+        "journeyTime":"22",
         "gtfsRouteKey":[
             [
                 "NLB",
@@ -4779,10 +4779,22 @@
             "139",
             "152"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"15.8",
+        "journeyTime":"22",
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                "1000620",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "480":[
+                    "07:50:00|08:50:00|1200"
+                ]
+            }
+        ]
     },
     {
         "co":"NLB",
@@ -4804,9 +4816,21 @@
             "160",
             "134"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"15.8",
+        "journeyTime":"22",
+        "gtfsRouteKey":[
+            [
+                "NLB",
+                "1000620",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "480":[
+                    "20:00:00|22:00:00|1200"
+                ]
+            }
+        ]
     }
 ]
