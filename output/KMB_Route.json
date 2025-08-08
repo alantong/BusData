@@ -5108,52 +5108,6 @@
         ]
     },
     {
-        "route":"8P",
-        "bound":"O",
-        "service_type":"2",
-        "orig_en":"Laguna Verde",
-        "orig_tc":"海逸豪園",
-        "orig_sc":"海逸豪园",
-        "dest_en":"Tsim Sha Tsui",
-        "dest_tc":"尖沙咀漢口道",
-        "dest_sc":"尖沙咀汉口道",
-        "co":"KMB",
-        "stops":[
-            "B2779219DBFFE44F",
-            "C650BECDAF9D9EB0",
-            "8E8DB91C885F1230",
-            "E507F6160447C129",
-            "7209CEE65796F4DD",
-            "B4E1E2C76F057999"
-        ],
-        "fullFare":"5.1",
-        "journeyTime":"13",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8434",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0730",
-                    "0750",
-                    "0805",
-                    "0825",
-                    "0845"
-                ],
-                "288":[
-                    "0730",
-                    "0755",
-                    "0820",
-                    "0845"
-                ]
-            }
-        ]
-    },
-    {
         "route":"9",
         "bound":"O",
         "service_type":"1",
