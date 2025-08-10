@@ -1,78 +1,78 @@
-09-Aug-25 19:15:24 | mtr_bus - INFO - Start getting MTR Bus stops
-09-Aug-25 19:15:24 | mtr_bus - INFO - Finish getting MTR Bus stops
-09-Aug-25 19:15:24 | mtr_bus - INFO - Start getting MTR Bus routes
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB 506 from 屯門碼頭 to 兆麟|#stops:12|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1862', '1'] 屯門碼頭 - 兆麟|$5.1|time:21|#stops:12|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB 506 from 兆麟 to 屯門碼頭|#stops:14|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1862', '2'] 兆麟 - 屯門碼頭|$5.1|time:21|#stops:14|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K12 from 大埔墟站 to 八號花園|#stops:3|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1424', '2'] 大埔墟站巴士總站 - 八號花園|$4.8|time:9|#stops:3|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K12 from 八號花園 to 大埔墟站|#stops:4|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1424', '1'] 八號花園 - 大埔墟站巴士總站|$4.8|time:9|#stops:4|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K14 from 大埔超級城 to 大埔墟站|#stops:3|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1425', '1'] 大埔超級城 - 大埔墟站巴士總站|$4.8|time:7|#stops:2|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K17 from 大埔墟站 to 富善|#stops:4|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1427', '2'] 大埔墟站巴士總站 - 富善邨|$4.8|time:10|#stops:3|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K17 from 富善 to 大埔墟站|#stops:3|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1427', '1'] 富善邨 - 大埔墟站巴士總站|$4.8|time:10|#stops:3|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K18 from 大埔墟站 to 廣福|#stops:3|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1428', '2'] 大埔墟站巴士總站 - 廣福|$4.8|time:8|#stops:3|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K18 from 廣福 to 大埔墟站|#stops:3|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['KMB', '1428', '1'] 廣福 - 大埔墟站巴士總站|$4.8|time:8|#stops:3|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K51 from 富泰 to 大欖|#stops:25|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1871', '1'] 富泰 - 大欖|$5.1|time:39|#stops:25|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K51 from 大欖 to 富泰|#stops:29|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1871', '2'] 大欖 - 富泰|$5.1|time:39|#stops:29|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K51A from 富泰 to 掃管笏|#stops:25|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000268', '1'] 富泰 - 掃管笏村|$5.1|time:39|#stops:25|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K51A from 掃管笏 to 富泰|#stops:26|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000268', '2'] 掃管笏村 - 富泰|$5.1|time:39|#stops:26|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K52 from 悅湖山莊 to 龍鼓灘|#stops:30|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000472', '1'] 悅湖山莊 - 龍鼓灘|$5.1|time:49|#stops:30|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K52 from 龍鼓灘 to 悅湖山莊|#stops:30|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000472', '2'] 龍鼓灘 - 悅湖山莊|$5.1|time:49|#stops:30|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K53 from 屯門站 to 掃管笏 (循環線)|#stops:35|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000516', '1'] 屯門站 - 屯門站|$5.1|time:25|#stops:35|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K54 from 和田邨 to 屯門市中心(循環線)|#stops:14|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000250', '1'] 和田邨 - 和田邨|$5.1|time:22|#stops:14|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K54A from 和田邨 to 兆康站|#stops:5|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000573', '1'] 和田邨 - 港鐵兆康站(北)|$5.1|time:8|#stops:5|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K54A from 兆康站 to 和田邨|#stops:5|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000573', '2'] 港鐵兆康站(北) - 和田邨|$5.1|time:8|#stops:5|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K58 from 富泰 to 掃管笏|#stops:34|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1875', '1'] 富泰 - 管翠路|$5.1|time:54|#stops:34|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K58 from 掃管笏 to 富泰|#stops:33|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1875', '2'] 掃管笏村 - 富泰|$5.1|time:54|#stops:33|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K65 from 元朗站 to 流浮山|#stops:23|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1876', '1'] 港鐵元朗站 - 流浮山|$5.1|time:29|#stops:23|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K65 from 流浮山 to 元朗站|#stops:19|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1876', '2'] 流浮山 - 港鐵元朗站|$5.1|time:29|#stops:19|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K65A from 天水圍站 to 流浮山|#stops:13|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000235', '2'] 天水圍站 - 流浮山|$5.1|time:18|#stops:13|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K65A from 流浮山 to 天水圍站|#stops:11|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000235', '1'] 流浮山 - 天水圍站|$5.1|time:18|#stops:11|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K66 from 朗屏 to 大棠黃泥墩村|#stops:22|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1877', '1'] 朗屏 (巴士總站) - 大棠黃泥墩村|$5.1|time:31|#stops:22|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K66 from 大棠黃泥墩村 to 朗屏|#stops:24|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1877', '2'] 大棠黃泥墩村 - 朗屏 (巴士總站)|$5.1|time:31|#stops:24|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K68 from 元朗工業邨 to 元朗公園 (循環線)|#stops:38|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1878', '1'] 元朗工業邨 - 元朗工業邨|$5.1|time:41|#stops:38|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K73 from 天恆 to 元朗西|#stops:12|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1879', '1'] 天恒 - 元朗西|$5.1|time:31|#stops:12|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K73 from 元朗西 to 天恆|#stops:15|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1879', '2'] 元朗西 - 天恒|$5.1|time:31|#stops:15|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K74 from 天水圍市中心 to 凹頭 (循環線)|#stops:26|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1881', '1'] 天水圍市中心 - 天水圍市中心|$5.1|time:40|#stops:26|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K75A from 天水圍站 to 洪水橋 (循環線)|#stops:15|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '8329', '1'] 天水圍站 - 天水圍站|$5.1|time:12|#stops:15|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K75P from 天瑞 to 洪水橋 (循環線)|#stops:23|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1883', '1'] 天瑞 - 天瑞|$5.1|time:22|#stops:23|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K76 from 天恆 to 天水圍站|#stops:5|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1884', '1'] 天恒 - 天水圍站|$5.1|time:18|#stops:5|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K76 from 天水圍站 to 天恆|#stops:4|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1884', '2'] 天水圍站 - 天恒|$5.1|time:18|#stops:4|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K52A from 屯門站 to 曾咀|#stops:19|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000076', '1'] 屯門站 - 曾咀|$10.1|time:42|#stops:19|
-09-Aug-25 19:15:24 | mtr_bus - INFO - GTFS route for KMB K52A from 曾咀 to 屯門站|#stops:19|routeCount: 1
-09-Aug-25 19:15:24 | mtr_bus - INFO - ['LRTFeeder', '1000076', '2'] 曾咀 - 屯門站|$10.1|time:42|#stops:19|
-09-Aug-25 19:15:24 | mtr_bus - INFO - Finish getting MTR Bus rotues
+10-Aug-25 19:15:49 | mtr_bus - INFO - Start getting MTR Bus stops
+10-Aug-25 19:15:49 | mtr_bus - INFO - Finish getting MTR Bus stops
+10-Aug-25 19:15:49 | mtr_bus - INFO - Start getting MTR Bus routes
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB 506 from 屯門碼頭 to 兆麟|#stops:12|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1862', '1'] 屯門碼頭 - 兆麟|$5.1|time:21|#stops:12|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB 506 from 兆麟 to 屯門碼頭|#stops:14|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1862', '2'] 兆麟 - 屯門碼頭|$5.1|time:21|#stops:14|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K12 from 大埔墟站 to 八號花園|#stops:3|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1424', '2'] 大埔墟站巴士總站 - 八號花園|$4.8|time:9|#stops:3|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K12 from 八號花園 to 大埔墟站|#stops:4|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1424', '1'] 八號花園 - 大埔墟站巴士總站|$4.8|time:9|#stops:4|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K14 from 大埔超級城 to 大埔墟站|#stops:3|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1425', '1'] 大埔超級城 - 大埔墟站巴士總站|$4.8|time:7|#stops:2|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K17 from 大埔墟站 to 富善|#stops:4|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1427', '2'] 大埔墟站巴士總站 - 富善邨|$4.8|time:10|#stops:3|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K17 from 富善 to 大埔墟站|#stops:3|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1427', '1'] 富善邨 - 大埔墟站巴士總站|$4.8|time:10|#stops:3|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K18 from 大埔墟站 to 廣福|#stops:3|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1428', '2'] 大埔墟站巴士總站 - 廣福|$4.8|time:8|#stops:3|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K18 from 廣福 to 大埔墟站|#stops:3|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['KMB', '1428', '1'] 廣福 - 大埔墟站巴士總站|$4.8|time:8|#stops:3|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K51 from 富泰 to 大欖|#stops:25|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1871', '1'] 富泰 - 大欖|$5.1|time:39|#stops:25|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K51 from 大欖 to 富泰|#stops:29|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1871', '2'] 大欖 - 富泰|$5.1|time:39|#stops:29|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K51A from 富泰 to 掃管笏|#stops:25|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000268', '1'] 富泰 - 掃管笏村|$5.1|time:39|#stops:25|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K51A from 掃管笏 to 富泰|#stops:26|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000268', '2'] 掃管笏村 - 富泰|$5.1|time:39|#stops:26|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K52 from 悅湖山莊 to 龍鼓灘|#stops:30|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000472', '1'] 悅湖山莊 - 龍鼓灘|$5.1|time:49|#stops:30|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K52 from 龍鼓灘 to 悅湖山莊|#stops:30|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000472', '2'] 龍鼓灘 - 悅湖山莊|$5.1|time:49|#stops:30|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K53 from 屯門站 to 掃管笏 (循環線)|#stops:35|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000516', '1'] 屯門站 - 屯門站|$5.1|time:25|#stops:35|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K54 from 和田邨 to 屯門市中心(循環線)|#stops:14|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000250', '1'] 和田邨 - 和田邨|$5.1|time:22|#stops:14|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K54A from 和田邨 to 兆康站|#stops:5|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000573', '1'] 和田邨 - 港鐵兆康站(北)|$5.1|time:8|#stops:5|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K54A from 兆康站 to 和田邨|#stops:5|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000573', '2'] 港鐵兆康站(北) - 和田邨|$5.1|time:8|#stops:5|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K58 from 富泰 to 掃管笏|#stops:34|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1875', '1'] 富泰 - 管翠路|$5.1|time:54|#stops:34|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K58 from 掃管笏 to 富泰|#stops:33|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1875', '2'] 掃管笏村 - 富泰|$5.1|time:54|#stops:33|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K65 from 元朗站 to 流浮山|#stops:23|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1876', '1'] 港鐵元朗站 - 流浮山|$5.1|time:29|#stops:23|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K65 from 流浮山 to 元朗站|#stops:19|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1876', '2'] 流浮山 - 港鐵元朗站|$5.1|time:29|#stops:19|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K65A from 天水圍站 to 流浮山|#stops:13|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000235', '2'] 天水圍站 - 流浮山|$5.1|time:18|#stops:13|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K65A from 流浮山 to 天水圍站|#stops:11|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000235', '1'] 流浮山 - 天水圍站|$5.1|time:18|#stops:11|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K66 from 朗屏 to 大棠黃泥墩村|#stops:22|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1877', '1'] 朗屏 (巴士總站) - 大棠黃泥墩村|$5.1|time:31|#stops:22|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K66 from 大棠黃泥墩村 to 朗屏|#stops:24|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1877', '2'] 大棠黃泥墩村 - 朗屏 (巴士總站)|$5.1|time:31|#stops:24|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K68 from 元朗工業邨 to 元朗公園 (循環線)|#stops:38|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1878', '1'] 元朗工業邨 - 元朗工業邨|$5.1|time:41|#stops:38|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K73 from 天恆 to 元朗西|#stops:12|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1879', '1'] 天恒 - 元朗西|$5.1|time:31|#stops:12|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K73 from 元朗西 to 天恆|#stops:15|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1879', '2'] 元朗西 - 天恒|$5.1|time:31|#stops:15|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K74 from 天水圍市中心 to 凹頭 (循環線)|#stops:26|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1881', '1'] 天水圍市中心 - 天水圍市中心|$5.1|time:40|#stops:26|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K75A from 天水圍站 to 洪水橋 (循環線)|#stops:15|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '8329', '1'] 天水圍站 - 天水圍站|$5.1|time:12|#stops:15|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K75P from 天瑞 to 洪水橋 (循環線)|#stops:23|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1883', '1'] 天瑞 - 天瑞|$5.1|time:22|#stops:23|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K76 from 天恆 to 天水圍站|#stops:5|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1884', '1'] 天恒 - 天水圍站|$5.1|time:18|#stops:5|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K76 from 天水圍站 to 天恆|#stops:4|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1884', '2'] 天水圍站 - 天恒|$5.1|time:18|#stops:4|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K52A from 屯門站 to 曾咀|#stops:19|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000076', '1'] 屯門站 - 曾咀|$10.1|time:42|#stops:19|
+10-Aug-25 19:15:50 | mtr_bus - INFO - GTFS route for KMB K52A from 曾咀 to 屯門站|#stops:19|routeCount: 1
+10-Aug-25 19:15:50 | mtr_bus - INFO - ['LRTFeeder', '1000076', '2'] 曾咀 - 屯門站|$10.1|time:42|#stops:19|
+10-Aug-25 19:15:50 | mtr_bus - INFO - Finish getting MTR Bus rotues
