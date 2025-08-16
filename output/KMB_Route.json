@@ -24489,7 +24489,9 @@
         "dest_sc":"屯门公路转车站- 市区方向",
         "co":"KMB",
         "stops":[
-            "8890B5BA8EC088D9",
+            "26A66C479A0278FC",
+            "F69B2B317BEB37A3",
+            "64312A5DFF11636C",
             "CB2A65E69B2B71BE",
             "F0536729876AA9D0",
             "1E15CFA82F408124",
@@ -24507,26 +24509,9 @@
             "9DC117C78DBDB1A7",
             "BD52FF1BA0AC99BE",
             "1F2376A52800A2CA",
-            "0B72FFAB7F7230E4",
-            "9955DA9311A76BA4",
-            "0CF05B00D82FECB2"
+            "0B72FFAB7F7230E4"
         ],
-        "fullFare":"6.0",
-        "journeyTime":"34",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8732",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0650"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"61M",
@@ -59854,7 +59839,9 @@
         "stops":[
             "4B6E603162A11A02",
             "2659CEA57836F600",
-            "F31934717DD5DC52",
+            "81866FDF3A892313",
+            "F69B2B317BEB37A3",
+            "64312A5DFF11636C",
             "CB2A65E69B2B71BE",
             "F0536729876AA9D0",
             "10860B611840CF22",
@@ -59864,26 +59851,12 @@
             "AAB411C52D067AD1",
             "6A20A74A8B3F78A3",
             "0E65D3EC41A1D34B",
-            "508B02C5E209E802",
-            "6C11A9780213BBBB",
-            "F6FAA30D1632A880"
+            "508B02C5E209E802"
         ],
-        "fullFare":"11.0",
-        "journeyTime":"48",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1099",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "06:55:00|08:25:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"260C",
@@ -59907,10 +59880,10 @@
             "E78E2B8A6B0251F4",
             "20EB4ED56F4442E9",
             "ABDD74161F650B6E",
-            "43C6EA95975E21E8",
-            "CB2A65E69B2B71BE",
-            "E105131B41FBAF33",
-            "4B6E603162A11A02"
+            "4D777935A801201A",
+            "320704B87EF998D4",
+            "30B6E2D8C299ED45",
+            "E105131B41FBAF33"
         ],
         "fullFare":"11.0",
         "journeyTime":"48",
