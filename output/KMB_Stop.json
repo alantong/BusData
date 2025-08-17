@@ -7852,8 +7852,8 @@
         "name_en":"Kai Tak Tunnel BBI - Kai Fuk Road (L1) (KT590)",
         "name_tc":"啟隧轉車站-啟福道(L1) (KT590)",
         "name_sc":"启隧转车站-启福道(L1) (KT590)",
-        "lat":"22.322033",
-        "long":"114.204300",
+        "lat":"22.323065",
+        "long":"114.203197",
         "co":"KMB"
     },
     {
@@ -8217,12 +8217,48 @@
         "co":"KMB"
     },
     {
-        "stop":"22CB038A9BD2C25C",
-        "name_en":"Po Tat Bus Terminus (KT965)",
-        "name_tc":"寶達巴士總站 (KT965)",
-        "name_sc":"宝达巴士总站 (KT965)",
-        "lat":"22.317593",
-        "long":"114.236155",
+        "stop":"005FD6D24F6AFA36",
+        "name_en":"Anderson Bus Terminus (AN911)",
+        "name_tc":"安達臣總站 (AN911)",
+        "name_sc":"安达臣总站 (AN911)",
+        "lat":"22.328839",
+        "long":"114.233609",
+        "co":"KMB"
+    },
+    {
+        "stop":"D456864A2E0933B2",
+        "name_en":"On Ying Court (AN400)",
+        "name_tc":"安楹苑 (AN400)",
+        "name_sc":"安楹苑 (AN400)",
+        "lat":"22.326128",
+        "long":"114.233619",
+        "co":"KMB"
+    },
+    {
+        "stop":"FA9F1DB955870000",
+        "name_en":"On Pak Court (AN410)",
+        "name_tc":"安柏苑 (AN410)",
+        "name_sc":"安柏苑 (AN410)",
+        "lat":"22.324751",
+        "long":"114.235987",
+        "co":"KMB"
+    },
+    {
+        "stop":"1DB8D58C023AFD4D",
+        "name_en":"On Sau Court (AN415)",
+        "name_tc":"安秀苑 (AN415)",
+        "name_sc":"安秀苑 (AN415)",
+        "lat":"22.322398",
+        "long":"114.237103",
+        "co":"KMB"
+    },
+    {
+        "stop":"21F97AD41821FC73",
+        "name_en":"On Yu Path (AN420)",
+        "name_tc":"安愉徑 (AN420)",
+        "name_sc":"安愉径 (AN420)",
+        "lat":"22.320909",
+        "long":"114.238235",
         "co":"KMB"
     },
     {
@@ -8232,6 +8268,213 @@
         "name_sc":"上秀茂坪 (KT510)",
         "lat":"22.315229",
         "long":"114.236377",
+        "co":"KMB"
+    },
+    {
+        "stop":"BFF2560B1C1687B2",
+        "name_en":"United Christian Hospital (KT263)",
+        "name_tc":"聯合醫院 (KT263)",
+        "name_sc":"联合医院 (KT263)",
+        "lat":"22.322257",
+        "long":"114.225928",
+        "co":"KMB"
+    },
+    {
+        "stop":"0CA3C6C38D2F3F75",
+        "name_en":"Hong Ning Road Park (KT542)",
+        "name_tc":"康寧道公園 (KT542)",
+        "name_sc":"康宁道公园 (KT542)",
+        "lat":"22.321413",
+        "long":"114.224419",
+        "co":"KMB"
+    },
+    {
+        "stop":"FAF9EF8853A3B65E",
+        "name_en":"Lok Wah South Estate (KT545)",
+        "name_tc":"樂華南邨 (KT545)",
+        "name_sc":"乐华南邨 (KT545)",
+        "lat":"22.320642",
+        "long":"114.222775",
+        "co":"KMB"
+    },
+    {
+        "stop":"98735B91CBE6B102",
+        "name_en":"Yee On Court (KC613)",
+        "name_tc":"怡安閣 (KC613)",
+        "name_sc":"怡安阁 (KC613)",
+        "lat":"22.320454",
+        "long":"114.176077",
+        "co":"KMB"
+    },
+    {
+        "stop":"3DE979ACCBF8988B",
+        "name_en":"Mong Kok Station (MK623)",
+        "name_tc":"旺角站 (MK623)",
+        "name_sc":"旺角站 (MK623)",
+        "lat":"22.319464",
+        "long":"114.170905",
+        "co":"KMB"
+    },
+    {
+        "stop":"5CA7841E84D52C8A",
+        "name_en":"Mongkok Market Complex (MK627)",
+        "name_tc":"旺角街市 (MK627)",
+        "name_sc":"旺角街市 (MK627)",
+        "lat":"22.318768",
+        "long":"114.166977",
+        "co":"KMB"
+    },
+    {
+        "stop":"22138E6C8051FDBD",
+        "name_en":"Ming Kei College (MK631)",
+        "name_tc":"銘基書院 (MK631)",
+        "name_sc":"铭基书院 (MK631)",
+        "lat":"22.318555",
+        "long":"114.164859",
+        "co":"KMB"
+    },
+    {
+        "stop":"3B8B261C1DA409BD",
+        "name_en":"Central Park, Olympian City (MK633)",
+        "name_tc":"帝柏海灣 奧海城 (MK633)",
+        "name_sc":"帝柏海湾 奥海城 (MK633)",
+        "lat":"22.317868",
+        "long":"114.162187",
+        "co":"KMB"
+    },
+    {
+        "stop":"9DA7325E4238402B",
+        "name_en":"Olympic Station (MK656)",
+        "name_tc":"奧運站 (MK656)",
+        "name_sc":"奥运站 (MK656)",
+        "lat":"22.318378",
+        "long":"114.160423",
+        "co":"KMB"
+    },
+    {
+        "stop":"E05F8589B0529DE3",
+        "name_en":"Kweilin Street Sham Shui Po (SS161)",
+        "name_tc":"深水埗桂林街 (SS161)",
+        "name_sc":"深水埗桂林街 (SS161)",
+        "lat":"22.327621",
+        "long":"114.159555",
+        "co":"KMB"
+    },
+    {
+        "stop":"2643152EC74E1168",
+        "name_en":"Sham Shui Po (Yen Chow Street) (SS972)",
+        "name_tc":"深水埗(欽州街) (SS972)",
+        "name_sc":"深水埗(钦州街) (SS972)",
+        "lat":"22.331051",
+        "long":"114.159891",
+        "co":"KMB"
+    },
+    {
+        "stop":"4AFCFC726ADBD5F7",
+        "name_en":"Yee Kok Court (SS221)",
+        "name_tc":"怡閣苑 (SS221)",
+        "name_sc":"怡阁苑 (SS221)",
+        "lat":"22.333706",
+        "long":"114.158398",
+        "co":"KMB"
+    },
+    {
+        "stop":"DE56F722C9293A68",
+        "name_en":"Fa Yuen Street Market, Mong Kok Road (MK335)",
+        "name_tc":"旺角道 花園街街市 (MK335)",
+        "name_sc":"旺角道 花园街街市 (MK335)",
+        "lat":"22.321160",
+        "long":"114.170348",
+        "co":"KMB"
+    },
+    {
+        "stop":"D01D18C6EB79F84B",
+        "name_en":"Kadoorie Avenue (KC375)",
+        "name_tc":"嘉道理道 (KC375)",
+        "name_sc":"嘉道理道 (KC375)",
+        "lat":"22.320407",
+        "long":"114.174387",
+        "co":"KMB"
+    },
+    {
+        "stop":"7EF64469471FE344",
+        "name_en":"Lok Wah South Estate (KT306)",
+        "name_tc":"樂華南邨 (KT306)",
+        "name_sc":"乐华南邨 (KT306)",
+        "lat":"22.320826",
+        "long":"114.222941",
+        "co":"KMB"
+    },
+    {
+        "stop":"0A03521DFD20FEA9",
+        "name_en":"Hong Ning Road Park (KT244)",
+        "name_tc":"康寧道公園 (KT244)",
+        "name_sc":"康宁道公园 (KT244)",
+        "lat":"22.320977",
+        "long":"114.224024",
+        "co":"KMB"
+    },
+    {
+        "stop":"DD5B5646768C5F09",
+        "name_en":"United Christian Hospital (KT531)",
+        "name_tc":"聯合醫院 (KT531)",
+        "name_sc":"联合医院 (KT531)",
+        "lat":"22.322105",
+        "long":"114.226132",
+        "co":"KMB"
+    },
+    {
+        "stop":"7ABD55FC15C048F0",
+        "name_en":"Sau Nga Road Playground (KT532)",
+        "name_tc":"秀雅道遊樂場 (KT532)",
+        "name_sc":"秀雅道游乐场 (KT532)",
+        "lat":"22.321051",
+        "long":"114.226779",
+        "co":"KMB"
+    },
+    {
+        "stop":"5996115DCAE8C603",
+        "name_en":"On Yu Path (AN600)",
+        "name_tc":"安愉徑 (AN600)",
+        "name_sc":"安愉径 (AN600)",
+        "lat":"22.321008",
+        "long":"114.238017",
+        "co":"KMB"
+    },
+    {
+        "stop":"DFAA70BC93BC9108",
+        "name_en":"On Lai Court (AN605)",
+        "name_tc":"安麗苑 (AN605)",
+        "name_sc":"安丽苑 (AN605)",
+        "lat":"22.323084",
+        "long":"114.236761",
+        "co":"KMB"
+    },
+    {
+        "stop":"CABB1AAE412C6049",
+        "name_en":"On Pak Court (AN610)",
+        "name_tc":"安柏苑 (AN610)",
+        "name_sc":"安柏苑 (AN610)",
+        "lat":"22.324998",
+        "long":"114.235767",
+        "co":"KMB"
+    },
+    {
+        "stop":"3F64427262A691C1",
+        "name_en":"On Ying Court (AN620)",
+        "name_tc":"安楹苑 (AN620)",
+        "name_sc":"安楹苑 (AN620)",
+        "lat":"22.326676",
+        "long":"114.233195",
+        "co":"KMB"
+    },
+    {
+        "stop":"22CB038A9BD2C25C",
+        "name_en":"Po Tat Bus Terminus (KT965)",
+        "name_tc":"寶達巴士總站 (KT965)",
+        "name_sc":"宝达巴士总站 (KT965)",
+        "lat":"22.317593",
+        "long":"114.236155",
         "co":"KMB"
     },
     {
@@ -8289,42 +8532,6 @@
         "co":"KMB"
     },
     {
-        "stop":"98735B91CBE6B102",
-        "name_en":"Yee On Court (KC613)",
-        "name_tc":"怡安閣 (KC613)",
-        "name_sc":"怡安阁 (KC613)",
-        "lat":"22.320454",
-        "long":"114.176077",
-        "co":"KMB"
-    },
-    {
-        "stop":"3DE979ACCBF8988B",
-        "name_en":"Mong Kok Station (MK623)",
-        "name_tc":"旺角站 (MK623)",
-        "name_sc":"旺角站 (MK623)",
-        "lat":"22.319464",
-        "long":"114.170905",
-        "co":"KMB"
-    },
-    {
-        "stop":"5CA7841E84D52C8A",
-        "name_en":"Mongkok Market Complex (MK627)",
-        "name_tc":"旺角街市 (MK627)",
-        "name_sc":"旺角街市 (MK627)",
-        "lat":"22.318768",
-        "long":"114.166977",
-        "co":"KMB"
-    },
-    {
-        "stop":"22138E6C8051FDBD",
-        "name_en":"Ming Kei College (MK631)",
-        "name_tc":"銘基書院 (MK631)",
-        "name_sc":"铭基书院 (MK631)",
-        "lat":"22.318555",
-        "long":"114.164859",
-        "co":"KMB"
-    },
-    {
         "stop":"7FC13D26792F63F9",
         "name_en":"The Long Beach (MK150)",
         "name_tc":"浪澄灣 (MK150)",
@@ -8343,24 +8550,6 @@
         "co":"KMB"
     },
     {
-        "stop":"3B8B261C1DA409BD",
-        "name_en":"Central Park, Olympian City (MK633)",
-        "name_tc":"帝柏海灣 奧海城 (MK633)",
-        "name_sc":"帝柏海湾 奥海城 (MK633)",
-        "lat":"22.317868",
-        "long":"114.162187",
-        "co":"KMB"
-    },
-    {
-        "stop":"9DA7325E4238402B",
-        "name_en":"Olympic Station (MK656)",
-        "name_tc":"奧運站 (MK656)",
-        "name_sc":"奥运站 (MK656)",
-        "lat":"22.318378",
-        "long":"114.160423",
-        "co":"KMB"
-    },
-    {
         "stop":"B31576A5B6E630FE",
         "name_en":"Island Harbourview (MK250)",
         "name_tc":"維港灣 (MK250)",
@@ -8376,15 +8565,6 @@
         "name_sc":"西洋菜南街 旺角站 (MK343)",
         "lat":"22.320065",
         "long":"114.169913",
-        "co":"KMB"
-    },
-    {
-        "stop":"D01D18C6EB79F84B",
-        "name_en":"Kadoorie Avenue (KC375)",
-        "name_tc":"嘉道理道 (KC375)",
-        "name_sc":"嘉道理道 (KC375)",
-        "lat":"22.320407",
-        "long":"114.174387",
         "co":"KMB"
     },
     {
@@ -8511,33 +8691,6 @@
         "name_sc":"秀茂坪商场 (KT386)",
         "lat":"22.319064",
         "long":"114.231863",
-        "co":"KMB"
-    },
-    {
-        "stop":"BFF2560B1C1687B2",
-        "name_en":"United Christian Hospital (KT263)",
-        "name_tc":"聯合醫院 (KT263)",
-        "name_sc":"联合医院 (KT263)",
-        "lat":"22.322257",
-        "long":"114.225928",
-        "co":"KMB"
-    },
-    {
-        "stop":"0CA3C6C38D2F3F75",
-        "name_en":"Hong Ning Road Park (KT542)",
-        "name_tc":"康寧道公園 (KT542)",
-        "name_sc":"康宁道公园 (KT542)",
-        "lat":"22.321413",
-        "long":"114.224419",
-        "co":"KMB"
-    },
-    {
-        "stop":"FAF9EF8853A3B65E",
-        "name_en":"Lok Wah South Estate (KT545)",
-        "name_tc":"樂華南邨 (KT545)",
-        "name_sc":"乐华南邨 (KT545)",
-        "lat":"22.320642",
-        "long":"114.222775",
         "co":"KMB"
     },
     {
@@ -8736,42 +8889,6 @@
         "name_sc":"丽晶商场 (KT118)",
         "lat":"22.329702",
         "long":"114.205406",
-        "co":"KMB"
-    },
-    {
-        "stop":"7EF64469471FE344",
-        "name_en":"Lok Wah South Estate (KT306)",
-        "name_tc":"樂華南邨 (KT306)",
-        "name_sc":"乐华南邨 (KT306)",
-        "lat":"22.320826",
-        "long":"114.222941",
-        "co":"KMB"
-    },
-    {
-        "stop":"0A03521DFD20FEA9",
-        "name_en":"Hong Ning Road Park (KT244)",
-        "name_tc":"康寧道公園 (KT244)",
-        "name_sc":"康宁道公园 (KT244)",
-        "lat":"22.320977",
-        "long":"114.224024",
-        "co":"KMB"
-    },
-    {
-        "stop":"DD5B5646768C5F09",
-        "name_en":"United Christian Hospital (KT531)",
-        "name_tc":"聯合醫院 (KT531)",
-        "name_sc":"联合医院 (KT531)",
-        "lat":"22.322105",
-        "long":"114.226132",
-        "co":"KMB"
-    },
-    {
-        "stop":"7ABD55FC15C048F0",
-        "name_en":"Sau Nga Road Playground (KT532)",
-        "name_tc":"秀雅道遊樂場 (KT532)",
-        "name_sc":"秀雅道游乐场 (KT532)",
-        "lat":"22.321051",
-        "long":"114.226779",
         "co":"KMB"
     },
     {
@@ -10008,15 +10125,6 @@
         "co":"KMB"
     },
     {
-        "stop":"DE56F722C9293A68",
-        "name_en":"Fa Yuen Street Market, Mong Kok Road (MK335)",
-        "name_tc":"旺角道 花園街街市 (MK335)",
-        "name_sc":"旺角道 花园街街市 (MK335)",
-        "lat":"22.321160",
-        "long":"114.170348",
-        "co":"KMB"
-    },
-    {
         "stop":"68A3AF80BADFDE9F",
         "name_en":"Clp Power Argyle Street (KC376)",
         "name_tc":"亞皆老街中電 (KC376)",
@@ -10050,24 +10158,6 @@
         "name_sc":"安达臣总站 (AN910)",
         "lat":"22.329068",
         "long":"114.233339",
-        "co":"KMB"
-    },
-    {
-        "stop":"FA9F1DB955870000",
-        "name_en":"On Pak Court (AN410)",
-        "name_tc":"安柏苑 (AN410)",
-        "name_sc":"安柏苑 (AN410)",
-        "lat":"22.324751",
-        "long":"114.235987",
-        "co":"KMB"
-    },
-    {
-        "stop":"DFAA70BC93BC9108",
-        "name_en":"On Lai Court (AN605)",
-        "name_tc":"安麗苑 (AN605)",
-        "name_sc":"安丽苑 (AN605)",
-        "lat":"22.323084",
-        "long":"114.236761",
         "co":"KMB"
     },
     {
@@ -10131,24 +10221,6 @@
         "name_sc":"安泰邨 (AN641)",
         "lat":"22.326704",
         "long":"114.230921",
-        "co":"KMB"
-    },
-    {
-        "stop":"1DB8D58C023AFD4D",
-        "name_en":"On Sau Court (AN415)",
-        "name_tc":"安秀苑 (AN415)",
-        "name_sc":"安秀苑 (AN415)",
-        "lat":"22.322398",
-        "long":"114.237103",
-        "co":"KMB"
-    },
-    {
-        "stop":"CABB1AAE412C6049",
-        "name_en":"On Pak Court (AN610)",
-        "name_tc":"安柏苑 (AN610)",
-        "name_sc":"安柏苑 (AN610)",
-        "lat":"22.324998",
-        "long":"114.235767",
         "co":"KMB"
     },
     {
@@ -11895,15 +11967,6 @@
         "name_sc":"奥运站巴士总站 (MK921)",
         "lat":"22.318585",
         "long":"114.160773",
-        "co":"KMB"
-    },
-    {
-        "stop":"E05F8589B0529DE3",
-        "name_en":"Kweilin Street Sham Shui Po (SS161)",
-        "name_tc":"深水埗桂林街 (SS161)",
-        "name_sc":"深水埗桂林街 (SS161)",
-        "lat":"22.327621",
-        "long":"114.159555",
         "co":"KMB"
     },
     {
@@ -24630,15 +24693,6 @@
         "name_sc":"深水埗钦州街 (SS213)",
         "lat":"22.331227",
         "long":"114.161465",
-        "co":"KMB"
-    },
-    {
-        "stop":"4AFCFC726ADBD5F7",
-        "name_en":"Yee Kok Court (SS221)",
-        "name_tc":"怡閣苑 (SS221)",
-        "name_sc":"怡阁苑 (SS221)",
-        "lat":"22.333706",
-        "long":"114.158398",
         "co":"KMB"
     },
     {
@@ -42165,6 +42219,42 @@
         "co":"KMB"
     },
     {
+        "stop":"7B0BAF8C626CDF2D",
+        "name_en":"Anderson Bus Terminus (AN914)",
+        "name_tc":"安達臣總站 (AN914)",
+        "name_sc":"安达臣总站 (AN914)",
+        "lat":"22.328893",
+        "long":"114.233640",
+        "co":"KMB"
+    },
+    {
+        "stop":"0CC0B21EFF42EE19",
+        "name_en":"Austin Road West (YT262)",
+        "name_tc":"柯士甸道西 (YT262)",
+        "name_sc":"柯士甸道西 (YT262)",
+        "lat":"22.302367",
+        "long":"114.160048",
+        "co":"KMB"
+    },
+    {
+        "stop":"FF46CB6182028AC6",
+        "name_en":"Kowloon Station Bus Terminus (YT942)",
+        "name_tc":"九龍站巴士總站 (YT942)",
+        "name_sc":"九龙站巴士总站 (YT942)",
+        "lat":"22.305079",
+        "long":"114.162604",
+        "co":"KMB"
+    },
+    {
+        "stop":"B7A8F179CD71B22E",
+        "name_en":"Silvercord, Canton Road (YT206)",
+        "name_tc":"廣東道,新港中心 (YT206)",
+        "name_sc":"广东道,新港中心 (YT206)",
+        "lat":"22.297488",
+        "long":"114.168979",
+        "co":"KMB"
+    },
+    {
         "stop":"057B2DCE8BE58FFA",
         "name_en":"Oi Tat House (AN644)",
         "name_tc":"愛達樓 (AN644)",
@@ -42270,33 +42360,6 @@
         "name_sc":"安达邨 (AN649)",
         "lat":"22.319738",
         "long":"114.234865",
-        "co":"KMB"
-    },
-    {
-        "stop":"0CC0B21EFF42EE19",
-        "name_en":"Austin Road West (YT262)",
-        "name_tc":"柯士甸道西 (YT262)",
-        "name_sc":"柯士甸道西 (YT262)",
-        "lat":"22.302367",
-        "long":"114.160048",
-        "co":"KMB"
-    },
-    {
-        "stop":"FF46CB6182028AC6",
-        "name_en":"Kowloon Station Bus Terminus (YT942)",
-        "name_tc":"九龍站巴士總站 (YT942)",
-        "name_sc":"九龙站巴士总站 (YT942)",
-        "lat":"22.305079",
-        "long":"114.162604",
-        "co":"KMB"
-    },
-    {
-        "stop":"B7A8F179CD71B22E",
-        "name_en":"Silvercord, Canton Road (YT206)",
-        "name_tc":"廣東道,新港中心 (YT206)",
-        "name_sc":"广东道,新港中心 (YT206)",
-        "lat":"22.297488",
-        "long":"114.168979",
         "co":"KMB"
     },
     {
