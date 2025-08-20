@@ -74975,7 +74975,22 @@
             "D355B700FF30B3D7",
             "6188A6666E298598"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"9.6",
+        "journeyTime":"49",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "8512",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0745"
+                ]
+            }
+        ]
     },
     {
         "route":"296P",
