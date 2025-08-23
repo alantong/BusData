@@ -12178,10 +12178,10 @@
         "route":"33X",
         "orig_tc":"數碼港",
         "orig_en":"Cyberport",
-        "dest_tc":"西灣河",
-        "dest_en":"Sai Wan Ho",
+        "dest_tc":"筲箕灣",
+        "dest_en":"Shau Kei Wan",
         "orig_sc":"数码港",
-        "dest_sc":"西湾河",
+        "dest_sc":"筲箕湾",
         "stops":[
             "002392",
             "002393",
@@ -12210,7 +12210,11 @@
             "001268",
             "001269",
             "001270",
-            "001313"
+            "001296",
+            "001297",
+            "001298",
+            "001380",
+            "001207"
         ],
         "bound":"O",
         "fullFare":"14.5",
@@ -12235,11 +12239,11 @@
     {
         "co":"CTB",
         "route":"33X",
-        "orig_tc":"西灣河",
-        "orig_en":"Sai Wan Ho",
+        "orig_tc":"筲箕灣",
+        "orig_en":"Shau Kei Wan",
         "dest_tc":"數碼港",
         "dest_en":"Cyberport",
-        "orig_sc":"西湾河",
+        "orig_sc":"筲箕湾",
         "dest_sc":"数码港",
         "stops":[
             "003155",
