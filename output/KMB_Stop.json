@@ -3906,78 +3906,6 @@
         "co":"KMB"
     },
     {
-        "stop":"E10A0960D4E103B1",
-        "name_en":"Tak Shing Street Tsim Sha Tsui (YT554)",
-        "name_tc":"尖沙咀德成街 (YT554)",
-        "name_sc":"尖沙咀德成街 (YT554)",
-        "lat":"22.304279",
-        "long":"114.171799",
-        "co":"KMB"
-    },
-    {
-        "stop":"D6E03ECA84C07932",
-        "name_en":"Kimberley Road, Mira Place (YT558)",
-        "name_tc":"金巴利道 美麗華廣場 (YT558)",
-        "name_sc":"金巴利道 美丽华广场 (YT558)",
-        "lat":"22.300942",
-        "long":"114.172087",
-        "co":"KMB"
-    },
-    {
-        "stop":"45F2E2A508556D6E",
-        "name_en":"Tsim Sha Tsui BBI - Middle Road (YT564)",
-        "name_tc":"尖沙咀轉車站 - 中間道 (YT564)",
-        "name_sc":"尖沙咀转车站 - 中间道 (YT564)",
-        "lat":"22.295211",
-        "long":"114.172484",
-        "co":"KMB"
-    },
-    {
-        "stop":"E3A083E4F64D93CD",
-        "name_en":"Kowloon Park Drive (YT640)",
-        "name_tc":"九龍公園徑 (YT640)",
-        "name_sc":"九龙公园径 (YT640)",
-        "lat":"22.295997",
-        "long":"114.170136",
-        "co":"KMB"
-    },
-    {
-        "stop":"40D067F126426DC6",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT957)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT957)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT957)",
-        "lat":"22.307550",
-        "long":"114.164551",
-        "co":"KMB"
-    },
-    {
-        "stop":"F6EE4DC41A299593",
-        "name_en":"Wui Cheung Road, Austin Station (YT200)",
-        "name_tc":"匯翔道  柯士甸站 (YT200)",
-        "name_sc":"汇翔道  柯士甸站 (YT200)",
-        "lat":"22.304334",
-        "long":"114.167837",
-        "co":"KMB"
-    },
-    {
-        "stop":"83EB94899B6BBB4B",
-        "name_en":"Austin Road, Xiqu Centre (YT202)",
-        "name_tc":"柯士甸道 戲曲中心 (YT202)",
-        "name_sc":"柯士甸道 戏曲中心 (YT202)",
-        "lat":"22.302051",
-        "long":"114.168121",
-        "co":"KMB"
-    },
-    {
-        "stop":"5F60283656DF3016",
-        "name_en":"Silvercord, Canton Road (YT205)",
-        "name_tc":"廣東道,新港中心 (YT205)",
-        "name_sc":"广东道,新港中心 (YT205)",
-        "lat":"22.297488",
-        "long":"114.168979",
-        "co":"KMB"
-    },
-    {
         "stop":"149838B41A465D6E",
         "name_en":"Fu Shan Estate Bus Terminus (WT971)",
         "name_tc":"富山邨總站 (WT971)",
@@ -8019,12 +7947,48 @@
         "co":"KMB"
     },
     {
+        "stop":"F6EE4DC41A299593",
+        "name_en":"Wui Cheung Road, Austin Station (YT200)",
+        "name_tc":"匯翔道  柯士甸站 (YT200)",
+        "name_sc":"汇翔道  柯士甸站 (YT200)",
+        "lat":"22.304334",
+        "long":"114.167837",
+        "co":"KMB"
+    },
+    {
+        "stop":"83EB94899B6BBB4B",
+        "name_en":"Austin Road, Xiqu Centre (YT202)",
+        "name_tc":"柯士甸道 戲曲中心 (YT202)",
+        "name_sc":"柯士甸道 戏曲中心 (YT202)",
+        "lat":"22.302051",
+        "long":"114.168121",
+        "co":"KMB"
+    },
+    {
+        "stop":"5F60283656DF3016",
+        "name_en":"Silvercord, Canton Road (YT205)",
+        "name_tc":"廣東道,新港中心 (YT205)",
+        "name_sc":"广东道,新港中心 (YT205)",
+        "lat":"22.297488",
+        "long":"114.168979",
+        "co":"KMB"
+    },
+    {
         "stop":"F388A6F066DE4562",
         "name_en":"Tsim Sha Tsui East (Mody Road) (YT927)",
         "name_tc":"尖沙咀東（麼地道） (YT927)",
         "name_sc":"尖沙咀东（么地道） (YT927)",
         "lat":"22.296679",
         "long":"114.175866",
+        "co":"KMB"
+    },
+    {
+        "stop":"E3A083E4F64D93CD",
+        "name_en":"Kowloon Park Drive (YT640)",
+        "name_tc":"九龍公園徑 (YT640)",
+        "name_sc":"九龙公园径 (YT640)",
+        "lat":"22.295997",
+        "long":"114.170136",
         "co":"KMB"
     },
     {
@@ -14823,6 +14787,24 @@
         "co":"KMB"
     },
     {
+        "stop":"D6E03ECA84C07932",
+        "name_en":"Kimberley Road, Mira Place (YT558)",
+        "name_tc":"金巴利道 美麗華廣場 (YT558)",
+        "name_sc":"金巴利道 美丽华广场 (YT558)",
+        "lat":"22.300942",
+        "long":"114.172087",
+        "co":"KMB"
+    },
+    {
+        "stop":"45F2E2A508556D6E",
+        "name_en":"Tsim Sha Tsui BBI - Middle Road (YT564)",
+        "name_tc":"尖沙咀轉車站 - 中間道 (YT564)",
+        "name_sc":"尖沙咀转车站 - 中间道 (YT564)",
+        "lat":"22.295211",
+        "long":"114.172484",
+        "co":"KMB"
+    },
+    {
         "stop":"68DF2B78CD2B9C76",
         "name_en":"Tsim Sha Tsui East (Mody Road) (YT922)",
         "name_tc":"尖沙咀東（麼地道） (YT922)",
@@ -15844,8 +15826,8 @@
         "name_en":"Kwun Tong Ferry (KT941)",
         "name_tc":"觀塘碼頭 (KT941)",
         "name_sc":"观塘码头 (KT941)",
-        "lat":"22.307735",
-        "long":"114.221909",
+        "lat":"22.307147",
+        "long":"114.222113",
         "co":"KMB"
     },
     {
@@ -21222,12 +21204,12 @@
         "co":"KMB"
     },
     {
-        "stop":"07A21E4B84A401AC",
-        "name_en":"Lai King North Bus Terminus (KW996)",
-        "name_tc":"荔景北巴士總站 (KW996)",
-        "name_sc":"荔景北巴士总站 (KW996)",
-        "lat":"22.351766",
-        "long":"114.127138",
+        "stop":"941B58A78A49CD0B",
+        "name_en":"Lai King North Bus Terminus (KW997)",
+        "name_tc":"荔景北巴士總站 (KW997)",
+        "name_sc":"荔景北巴士总站 (KW997)",
+        "lat":"22.351730",
+        "long":"114.127228",
         "co":"KMB"
     },
     {
@@ -22338,12 +22320,12 @@
         "co":"KMB"
     },
     {
-        "stop":"941B58A78A49CD0B",
-        "name_en":"Lai King North Bus Terminus (KW997)",
-        "name_tc":"荔景北巴士總站 (KW997)",
-        "name_sc":"荔景北巴士总站 (KW997)",
-        "lat":"22.351730",
-        "long":"114.127228",
+        "stop":"07A21E4B84A401AC",
+        "name_en":"Lai King North Bus Terminus (KW996)",
+        "name_tc":"荔景北巴士總站 (KW996)",
+        "name_sc":"荔景北巴士总站 (KW996)",
+        "lat":"22.351766",
+        "long":"114.127138",
         "co":"KMB"
     },
     {
@@ -32706,15 +32688,6 @@
         "co":"KMB"
     },
     {
-        "stop":"7BFC2AE979358DA7",
-        "name_en":"Tate's Cairn Tunnel (B3) (ST111)",
-        "name_tc":"大老山隧道 (B3) (ST111)",
-        "name_sc":"大老山隧道 (B3) (ST111)",
-        "lat":"22.376736",
-        "long":"114.211962",
-        "co":"KMB"
-    },
-    {
         "stop":"896D3C4F7F91E9C9",
         "name_en":"City One Sha Tin Bus Terminus (ST706)",
         "name_tc":"第一城總站 (ST706)",
@@ -33108,6 +33081,15 @@
         "name_sc":"香港家庭计划指导会 (KC202)",
         "lat":"22.323904",
         "long":"114.188214",
+        "co":"KMB"
+    },
+    {
+        "stop":"7BFC2AE979358DA7",
+        "name_en":"Tate's Cairn Tunnel (B3) (ST111)",
+        "name_tc":"大老山隧道 (B3) (ST111)",
+        "name_sc":"大老山隧道 (B3) (ST111)",
+        "lat":"22.376736",
+        "long":"114.211962",
         "co":"KMB"
     },
     {
@@ -42594,6 +42576,15 @@
         "name_sc":"荃景围天桥 (TW374)",
         "lat":"22.375778",
         "long":"114.107100",
+        "co":"KMB"
+    },
+    {
+        "stop":"E10A0960D4E103B1",
+        "name_en":"Tak Shing Street Tsim Sha Tsui (YT554)",
+        "name_tc":"尖沙咀德成街 (YT554)",
+        "name_sc":"尖沙咀德成街 (YT554)",
+        "lat":"22.304279",
+        "long":"114.171799",
         "co":"KMB"
     },
     {
@@ -55620,6 +55611,42 @@
         "co":"KMB"
     },
     {
+        "stop":"58BDEDBF06BF314F",
+        "name_en":"Queen's Hill Bus Terminus (ND972)",
+        "name_tc":"皇后山總站 (ND972)",
+        "name_sc":"皇后山总站 (ND972)",
+        "lat":"22.504497",
+        "long":"114.156079",
+        "co":"KMB"
+    },
+    {
+        "stop":"E8074D7F42D23647",
+        "name_en":"Shan Lai Court",
+        "name_tc":"山麗苑",
+        "name_sc":"山丽苑",
+        "lat":"22.503694",
+        "long":"114.160603",
+        "co":"KMB"
+    },
+    {
+        "stop":"4455776ABFCD1605",
+        "name_en":"Lung Yeuk Tau",
+        "name_tc":"龍躍頭",
+        "name_sc":"龙跃头",
+        "lat":"22.503705",
+        "long":"114.149464",
+        "co":"KMB"
+    },
+    {
+        "stop":"C247F858F91516CF",
+        "name_en":"On Lok Tsuen",
+        "name_tc":"安樂村",
+        "name_sc":"安乐村",
+        "lat":"22.499857",
+        "long":"114.145735",
+        "co":"KMB"
+    },
+    {
         "stop":"CFCF195771D9D63E",
         "name_en":"North District Park South Gate (ND178)",
         "name_tc":"北區公園南門 (ND178)",
@@ -59811,6 +59838,15 @@
         "name_sc":"德福花园 (伟业街)",
         "lat":"22.322989",
         "long":"114.211435",
+        "co":"KMB"
+    },
+    {
+        "stop":"40D067F126426DC6",
+        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT957)",
+        "name_tc":"佐敦(西九龍站)巴士總站 (YT957)",
+        "name_sc":"佐敦(西九龙站)巴士总站 (YT957)",
+        "lat":"22.307550",
+        "long":"114.164551",
         "co":"KMB"
     },
     {

@@ -2424,15 +2424,19 @@
             "7BE18698D0E8FDCE",
             "8748720365CEA134",
             "9DDE74BD2D803D9C",
-            "E10A0960D4E103B1",
-            "D6E03ECA84C07932",
-            "45F2E2A508556D6E",
-            "E3A083E4F64D93CD",
+            "E049C81469E2B3C0",
+            "076E1E9D5874C41D",
+            "D06E5A5B162EF1BA",
             "577490AF159C4088"
         ],
-        "fullFare":"7.8",
-        "journeyTime":"50",
+        "fullFare":"7.8|7.8",
+        "journeyTime":"55|50",
         "gtfsRouteKey":[
+            [
+                "KMB",
+                "8379",
+                "1"
+            ],
             [
                 "KMB",
                 "8579",
@@ -2440,6 +2444,11 @@
             ]
         ],
         "freq":[
+            {
+                "287":[
+                    "0810"
+                ]
+            },
             {
                 "287":[
                     "0730",
@@ -2493,18 +2502,22 @@
             "7BE18698D0E8FDCE",
             "8748720365CEA134",
             "9DDE74BD2D803D9C",
-            "E10A0960D4E103B1",
-            "D6E03ECA84C07932",
-            "45F2E2A508556D6E",
-            "E3A083E4F64D93CD",
+            "E049C81469E2B3C0",
+            "076E1E9D5874C41D",
+            "D06E5A5B162EF1BA",
             "577490AF159C4088"
         ],
-        "fullFare":"7.8",
-        "journeyTime":"55",
+        "fullFare":"7.8|7.8",
+        "journeyTime":"55|50",
         "gtfsRouteKey":[
             [
                 "KMB",
                 "8379",
+                "1"
+            ],
+            [
+                "KMB",
+                "8579",
                 "1"
             ]
         ],
@@ -2513,6 +2526,26 @@
                 "287":[
                     "0810"
                 ]
+            },
+            {
+                "287":[
+                    "0730",
+                    "0745",
+                    "0800",
+                    "0835",
+                    "0910",
+                    "0935",
+                    "1000"
+                ],
+                "288":[
+                    "1000",
+                    "1030",
+                    "1100",
+                    "1130",
+                    "1200",
+                    "1230",
+                    "1300"
+                ]
             }
         ]
     },
@@ -2520,9 +2553,9 @@
         "route":"3X",
         "bound":"I",
         "service_type":"1",
-        "orig_en":"Jordan (West Kowloon Station)",
-        "orig_tc":"佐敦(西九龍站)",
-        "orig_sc":"佐敦(西九龙站)",
+        "orig_en":"China Ferry Terminal",
+        "orig_tc":"中港碼頭",
+        "orig_sc":"中港码头",
         "dest_en":"Tsz Wan Shan (North)",
         "dest_tc":"慈雲山(北)",
         "dest_sc":"慈云山(北)",
@@ -37327,8 +37360,69 @@
     },
     {
         "route":"84M",
-        "bound":"I",
-        "service_type":"1",
+        "bound":"O",
+        "service_type":"2",
+        "orig_en":"Chevalier Garden",
+        "orig_tc":"富安花園",
+        "orig_sc":"富安花园",
+        "dest_en":"Lok Fu, Kwong Yuen & Chevalier Garden",
+        "dest_tc":"黃大仙，樂富，廣源，富安花園",
+        "dest_sc":"黄大仙，乐富，广源，富安花园",
+        "co":"KMB",
+        "stops":[
+            "36D7B643B6B5680A",
+            "4A3D71FFAB41B756",
+            "A78292AA77A277A7",
+            "9E03B65B407F925A",
+            "ABFB3F43ECB908B2",
+            "C1E9F8237EDBBAD2",
+            "ED7DC26035A180A3",
+            "61C66474FE527946",
+            "7F068ADB0659F04E",
+            "779954C17EAF3B95",
+            "CB0585244877B9B9",
+            "667232A61C746899",
+            "260B43921BAFD8CB",
+            "75D57F5A5891A1C2",
+            "3114213F8975F536",
+            "10A25AF26C9972AC",
+            "AA2D8DCDD78651B0",
+            "93D9D88C2D990D67",
+            "FBAA9F0F9B1893F7",
+            "8569ED53DDB3A570",
+            "D360B3EBF155C15A",
+            "713BF17AF24FE4DA",
+            "A811A4AAF18AFAFF",
+            "20915DF05723C615",
+            "EB3A1D751C96E053",
+            "DE9BE04046C197C4",
+            "48D7576D3F243169",
+            "7BE7C25016F9651E",
+            "9961C7ED914E87DD",
+            "69E4C417312C10C0",
+            "C1E1199805BCC92D",
+            "6FCDCBEC73F3AAF5",
+            "03A546A0953794FA",
+            "52C1ADA57FFA7DD4",
+            "24E16716BBB7F2D0",
+            "F4ABF71262D8C556",
+            "896D3C4F7F91E9C9",
+            "C6F406D78E5C515A",
+            "8ECFB7DFFC0023DA",
+            "33A4BFE372C06BA8",
+            "B8BBCCA288E1F862",
+            "A930EDA042B0F47A",
+            "36D7B643B6B5680A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"84M",
+        "bound":"O",
+        "service_type":"3",
         "orig_en":"Lok Fu",
         "orig_tc":"樂富",
         "orig_sc":"乐富",
@@ -37343,7 +37437,7 @@
             "96A6FE5F07BDF203",
             "48D7576D3F243169",
             "7BE7C25016F9651E",
-            "7BFC2AE979358DA7",
+            "9961C7ED914E87DD",
             "03A546A0953794FA",
             "52C1ADA57FFA7DD4",
             "24E16716BBB7F2D0",
@@ -64233,8 +64327,9 @@
         "stops":[
             "498C8934EAACBE51",
             "73FE2D32F218DA9C",
-            "1BE574CAE40EFF17",
-            "797CC0222B9EFBEF",
+            "A264255E81F51111",
+            "4C86E1F44AE9C25B",
+            "A6C169DA579FC45B",
             "308112BE50081258",
             "D2425B7147B58E1D",
             "A4607B71730E8F46",
@@ -64316,7 +64411,9 @@
             "D813C93D9AD1C45B",
             "7BB395B6FE66E102",
             "6D4E7B9D5F9584E7",
-            "5D9E516680412A3E",
+            "47AB1894215AECEE",
+            "42AEF6365E78DA56",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "498C8934EAACBE51"
         ],
@@ -64396,6 +64493,60 @@
             "5D9E516680412A3E",
             "8D56DB404D264D5A",
             "498C8934EAACBE51"
+        ],
+        "fullFare":"12.5",
+        "journeyTime":"57",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "8214",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1740",
+                    "1800",
+                    "1815",
+                    "1830",
+                    "1845",
+                    "1900",
+                    "1920"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"269P",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Tin Yan Estate",
+        "orig_tc":"天恩邨",
+        "orig_sc":"天恩邨",
+        "dest_en":"Kwai Chung (Kwai Fong Estate)",
+        "dest_tc":"葵涌(葵芳邨)",
+        "dest_sc":"葵涌(葵芳邨)",
+        "co":"KMB",
+        "stops":[
+            "498C8934EAACBE51",
+            "73FE2D32F218DA9C",
+            "1BE574CAE40EFF17",
+            "797CC0222B9EFBEF",
+            "308112BE50081258",
+            "D2425B7147B58E1D",
+            "A4607B71730E8F46",
+            "3ECEF3B735084236",
+            "7E2E1F1269E520DE",
+            "ED364A58F885DC92",
+            "D6C06E7091666AB4",
+            "F8D8D0AED9889278",
+            "2D33D39F61B74C5D",
+            "AAB411C52D067AD1",
+            "558D298696B57A4D",
+            "0E65D3EC41A1D34B",
+            "4E3FEA4E559A5D16",
+            "DA17B01A4A61A358"
         ],
         "fullFare":"12.5",
         "journeyTime":"57",
@@ -90578,7 +90729,61 @@
             "412DEEF534E127AF",
             "C552CE565E1F0C85",
             "9C9F817064169CE7",
-            "0D5759F7A4B185FE"
+            "0D5759F7A4B185FE",
+            "21466046C6868AA7"
+        ],
+        "fullFare":"32.4",
+        "journeyTime":"77",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "8293",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "05:30:00|06:15:00|2700",
+                    "06:15:00|06:35:00|1200",
+                    "06:35:00|07:00:00|1500",
+                    "07:00:00|07:40:00|2400",
+                    "07:40:00|15:40:00|3600"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"A43P",
+        "bound":"O",
+        "service_type":"3",
+        "orig_en":"Queen's Hill",
+        "orig_tc":"皇后山",
+        "orig_sc":"皇后山",
+        "dest_en":"Airport (Ground Transportation Centre)",
+        "dest_tc":"機場(地面運輸中心)",
+        "dest_sc":"机场(地面运输中心)",
+        "co":"KMB",
+        "stops":[
+            "58BDEDBF06BF314F",
+            "E8074D7F42D23647",
+            "4455776ABFCD1605",
+            "C247F858F91516CF",
+            "D44F9DCC71251889",
+            "3582449B6BBC72AB",
+            "13568DBEFE3503A6",
+            "87F9F165B63331A5",
+            "5164AE1A29DEA71A",
+            "3FBF0DB2F9B1524A",
+            "6883840CF48EFF58",
+            "2DE55F5F52F8A3AF",
+            "D926EC9FC8BCE6BD",
+            "564C0ECAAC09C371",
+            "412DEEF534E127AF",
+            "C552CE565E1F0C85",
+            "9C9F817064169CE7",
+            "0D5759F7A4B185FE",
+            "21466046C6868AA7"
         ],
         "fullFare":"",
         "journeyTime":"",
@@ -90608,12 +90813,40 @@
             "9B68464F2596E2FE",
             "04A05525A6AB819D",
             "D1F2F468672FB541",
-            "BA2B81A1A81DB398"
+            "BA2B81A1A81DB398",
+            "D44F9DCC71251889"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"32.4|32.4",
+        "journeyTime":"77|69",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "8293",
+                "2"
+            ],
+            [
+                "LWB",
+                "1000011",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "12:30:00|16:30:00|3600",
+                    "16:30:00|18:00:00|1800",
+                    "18:00:00|22:00:00|3600",
+                    "22:00:00|24:00:00|1800"
+                ]
+            },
+            {
+                "511":[
+                    "1700",
+                    "1730",
+                    "1800"
+                ]
+            }
+        ]
     },
     {
         "route":"A43P",
@@ -90640,7 +90873,60 @@
             "9B68464F2596E2FE",
             "04A05525A6AB819D",
             "D1F2F468672FB541",
-            "BA2B81A1A81DB398"
+            "BA2B81A1A81DB398",
+            "D44F9DCC71251889"
+        ],
+        "fullFare":"32.4",
+        "journeyTime":"69",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "1000011",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "1700",
+                    "1730",
+                    "1800"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"A43P",
+        "bound":"I",
+        "service_type":"3",
+        "orig_en":"Airport (Ground Transportation Centre)",
+        "orig_tc":"機場(地面運輸中心)",
+        "orig_sc":"机场(地面运输中心)",
+        "dest_en":"Queen's Hill",
+        "dest_tc":"皇后山",
+        "dest_sc":"皇后山",
+        "co":"KMB",
+        "stops":[
+            "1C7EDE6D51378E58",
+            "9C9F817064169CE7",
+            "E48E4C46F64FFB0E",
+            "192BF77E794E87E1",
+            "558ED5EDA9A0C43C",
+            "7D72DDC29E02C14D",
+            "D926EC9FC8BCE6BD",
+            "F15B04D268DD5C8F",
+            "7CA480A59A2F904E",
+            "CFCF195771D9D63E",
+            "9B68464F2596E2FE",
+            "04A05525A6AB819D",
+            "D1F2F468672FB541",
+            "BA2B81A1A81DB398",
+            "D44F9DCC71251889",
+            "6C2DBC45160AA4BF",
+            "E5F082F4C7300273",
+            "C6DEF1AF70EC3375",
+            "9381998EA6DC33CA",
+            "886559B17A8D61EC"
         ],
         "fullFare":"",
         "journeyTime":"",
