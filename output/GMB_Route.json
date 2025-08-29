@@ -41698,6 +41698,26 @@
     },
     {
         "co":"GMB",
+        "route":"54A",
+        "routeId":2011028,
+        "routeSeq":1,
+        "orig_tc":"和睦路海聯廣場外",
+        "dest_tc":"粉嶺站",
+        "orig_sc":"和睦路海联广场外",
+        "dest_sc":"粉岭站",
+        "orig_en":"Wo Muk Road outside Union Plaza",
+        "dest_en":" Fanling Station",
+        "stops":[
+            20001470,
+            20014456,
+            20001453
+        ],
+        "freq":[
+            {}
+        ]
+    },
+    {
+        "co":"GMB",
         "route":"54K",
         "routeId":2007435,
         "routeSeq":1,
