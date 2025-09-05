@@ -18367,14 +18367,14 @@
             "A88468CF154B16E9",
             "A468A530A8C84E11",
             "CF17F8C87DBBF2BC",
+            "F39F638D34947E40",
             "D52D3F3FB66EF61A",
             "6DF1AF2871D4B7D9",
             "196A1E44C305C174",
             "BDE0F1679E1C8ABF",
             "13458794A52910B0",
             "3F13933D0157CFCF",
-            "A2BE47AFF20CD4F6",
-            "F88EE882E4B77399"
+            "A2BE47AFF20CD4F6"
         ],
         "fullFare":"7.8",
         "journeyTime":"48",
@@ -37400,7 +37400,8 @@
             "1DF17F085C6C1B78",
             "AA2D8DCDD78651B0",
             "93D9D88C2D990D67",
-            "FBAA9F0F9B1893F7"
+            "FBAA9F0F9B1893F7",
+            "8569ED53DDB3A570"
         ],
         "fullFare":"7.5",
         "journeyTime":"39",
@@ -42404,6 +42405,27 @@
                 ]
             }
         ]
+    },
+    {
+        "route":"91B",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Hang Hau Station",
+        "orig_tc":"坑口站",
+        "orig_sc":"坑口站",
+        "dest_en":"HKUST",
+        "dest_tc":"香港科技大學",
+        "dest_sc":"香港科技大学",
+        "co":"KMB",
+        "stops":[
+            "29A07F043B4D5919",
+            "9183F3104902B748",
+            "68DF1DA183CDFCF2"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"91M",
@@ -70741,11 +70763,13 @@
         "stops":[
             "1AB800949FF1203B",
             "B28798C421AB2D6B",
+            "B85E71E9AFF5B087",
             "EDFAC4F35C0E51C7",
             "25721F85DC026ACA",
             "D4A97E2A758EDC64",
             "000CFEE2F92DC17B",
             "BA995ECF3EFCA99E",
+            "4235BA400EB10F0E",
             "879A98CD29D9433F",
             "1AB800949FF1203B"
         ],
@@ -101809,9 +101833,7 @@
             "A31DD8C4FD6740D4",
             "A8DC6F85E7043234",
             "7033D904840D5F18",
-            "0524415976F284A4",
-            "232DC1B2BE92C86F",
-            "E33098F43CF205B8"
+            "0524415976F284A4"
         ],
         "fullFare":"",
         "journeyTime":"",
@@ -101834,10 +101856,8 @@
             "96E1024FD71C979F",
             "4B63964A12D91E2A",
             "A8DC6F85E7043234",
-            "A31DD8C4FD6740D4",
             "9774D8AAAD859409",
             "A8DC6F85E7043234",
-            "A31DD8C4FD6740D4",
             "4B63964A12D91E2A",
             "96E1024FD71C979F",
             "5C6754BD37D3F4D0"
