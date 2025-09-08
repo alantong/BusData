@@ -103882,12 +103882,25 @@
             "5CCBD9A6B58BF20D",
             "E049C81469E2B3C0",
             "FD1B403FD4EC3E8D",
-            "4DB8054CDFBB9E43"
+            "4DB8054CDFBB9E43",
+            "40D067F126426DC6"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"6.4",
+        "journeyTime":"37",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000329",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "06:00:00|20:00:00|1800"
+                ]
+            }
+        ]
     },
     {
         "route":"W2",
@@ -103914,12 +103927,26 @@
             "0B8C52E4C34E3B64",
             "144E9479168069DD",
             "DA0947682FC19B0B",
-            "2EF9764BE18FC290"
+            "2EF9764BE18FC290",
+            "FF6E49051D6D9A8C"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"6.4",
+        "journeyTime":"37",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000330",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "2030",
+                    "2130"
+                ]
+            }
+        ]
     },
     {
         "route":"W2",
