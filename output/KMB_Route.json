@@ -52160,6 +52160,31 @@
         ]
     },
     {
+        "route":"118R",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Siu Sai Wan Sports Ground",
+        "orig_tc":"小西灣運動場",
+        "orig_sc":"小西湾运动场",
+        "dest_en":"Mong Kok",
+        "dest_tc":"旺角",
+        "dest_sc":"旺角",
+        "co":"KMB",
+        "stops":[
+            "1CB893E0DE8F8B43",
+            "153D32217234A0F0",
+            "893BBB901005C3E6",
+            "BBE77B90CE43AEFA",
+            "3A43E432D0588F79",
+            "0F4F935A9F14F111",
+            "D7C46496C9C7B7BA"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"170",
         "bound":"O",
         "service_type":"1",
