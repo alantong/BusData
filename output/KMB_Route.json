@@ -3372,24 +3372,9 @@
             "14894C859FDFE8C3",
             "DBB2582C87F91983",
             "1094B993AA8409D0",
-            "5F1C669F444A0556"
+            "2F9C6EBE1A9AA07E"
         ],
-        "fullFare":"8.1",
-        "journeyTime":"17",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8169",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "07:00:00|22:00:00|1800"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"5R",
@@ -3449,26 +3434,9 @@
             "14894C859FDFE8C3",
             "DBB2582C87F91983",
             "1094B993AA8409D0",
-            "5F1C669F444A0556"
+            "2F9C6EBE1A9AA07E"
         ],
-        "fullFare":"8.1",
-        "journeyTime":"19",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000201",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "319":[
-                    "0700",
-                    "0730",
-                    "0800"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"6",
@@ -70988,7 +70956,7 @@
         "orig_en":"Fanling (Luen Wo Hui)",
         "orig_tc":"粉嶺(聯和墟)",
         "orig_sc":"粉岭(联和墟)",
-        "dest_en":"Fanling Station (Cir.) [Am Special Route]",
+        "dest_en":"Fanling Station (Cir.) [Am]",
         "dest_tc":"粉嶺站(循環線) [上午特別路線]",
         "dest_sc":"粉岭站(循环线) [上午特别路线]",
         "co":"KMB",
@@ -71040,7 +71008,7 @@
         "orig_en":"Fanling (Luen Wo Hui)",
         "orig_tc":"粉嶺(聯和墟)",
         "orig_sc":"粉岭(联和墟)",
-        "dest_en":"Fanling Station (Cir.) [Pm Special Route]",
+        "dest_en":"Fanling Station (Cir.) [Pm]",
         "dest_tc":"粉嶺站(循環線) [下午特別路線]",
         "dest_sc":"粉岭站(循环线) [下午特别路线]",
         "co":"KMB",
