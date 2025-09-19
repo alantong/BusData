@@ -89663,66 +89663,6 @@
     },
     {
         "route":"A38",
-        "bound":"O",
-        "service_type":"2",
-        "orig_en":"Tsuen Wan (Allway Gardens)",
-        "orig_tc":"荃灣(荃威花園)",
-        "orig_sc":"荃湾(荃威花园)",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
-        "co":"KMB",
-        "stops":[
-            "6D12ACD9163EDD99",
-            "2C9BABEC2D1F04A3",
-            "5834E2A330B9C3F4",
-            "4970D7BEAE2A7422",
-            "1D7A47D38CE1E6D7",
-            "D388EAE9181708D7",
-            "09141DBE74259A87",
-            "6D6DCAA9E6584422",
-            "9FFB27C9E799FDC9",
-            "0932BC34DBEAA8CD",
-            "B0F54576BC1B2CF2",
-            "513616D2281F7EBD",
-            "2BDB4CC59A344CA3",
-            "48F4A12FBE9186E3",
-            "47E8177BC55580BC",
-            "5A2A66038B409879",
-            "040BF3E98E34C65C",
-            "5D54365755195601",
-            "2BBF7E74B792F4D9",
-            "B70D89DFA52011DB",
-            "A68800ABF9DC075B",
-            "1684F750FEB1342E",
-            "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "9C9F817064169CE7",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7",
-            "5E1FA939586B3FD1"
-        ],
-        "fullFare":"19.8",
-        "journeyTime":"89",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8394",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "05:35:00|06:35:00|3600",
-                    "06:35:00|07:35:00|1800",
-                    "07:35:00|22:35:00|3600"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A38",
         "bound":"I",
         "service_type":"1",
         "orig_en":"Airport (Ground Transportation Centre)",
@@ -89734,65 +89674,6 @@
         "co":"KMB",
         "stops":[
             "5E1FA939586B3FD1",
-            "57B34182D2844A35",
-            "28E722A4FDD9ABB9",
-            "5476E155980E85F9",
-            "03DF3BB7102FE4A4",
-            "64046AF19443F736",
-            "EEE72EA029EB8438",
-            "D85C3A15814F927B",
-            "040BF3E98E34C65C",
-            "DDEF448B9FD8E0A5",
-            "A494158699C58BFF",
-            "9B876C4A7054DCF5",
-            "E2385520ADCFC607",
-            "6F36400A6E1FBE49",
-            "B78CDC6E85060BE4",
-            "BF876DC97B6395D2",
-            "177F8A8A3716DBE0",
-            "66EA5E4B2C7CAE82",
-            "98A787294A2089F6",
-            "9FE135F7D7D377E6",
-            "B7F443B0BB14A4EC",
-            "BD67BA334834CACB",
-            "6FF0624000B3D53D",
-            "982E419BB26ED8AA",
-            "8F60B176234176D8",
-            "431CFBCADDFF352C",
-            "6D12ACD9163EDD99"
-        ],
-        "fullFare":"19.8",
-        "journeyTime":"89",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8394",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "09:05:00|22:05:00|3600",
-                    "22:05:00|23:55:00|3300"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A38",
-        "bound":"I",
-        "service_type":"2",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Tsuen Wan (Allway Gardens)",
-        "dest_tc":"荃灣(荃威花園)",
-        "dest_sc":"荃湾(荃威花园)",
-        "co":"KMB",
-        "stops":[
-            "5E1FA939586B3FD1",
-            "9C9F817064169CE7",
             "57B34182D2844A35",
             "28E722A4FDD9ABB9",
             "5476E155980E85F9",
@@ -104222,7 +104103,7 @@
             "0CC0B21EFF42EE19",
             "B3E70C6DEFD93416",
             "C50C67D1BFF70DDF",
-            "1A0F813116024D92"
+            "5F60283656DF3016"
         ],
         "fullFare":"5.7",
         "journeyTime":"8",
