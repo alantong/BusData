@@ -59995,12 +59995,9 @@
             "86D1BF834F627D5C",
             "1D944152BA58ABF3",
             "722B3DD3D7BCFA21",
-            "4DA3813D3CE3A5DF"
+            "E3E171AEDE35ACDF"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "gtfsRouteKey":[]
     },
     {
         "route":"259S",
@@ -96940,7 +96937,7 @@
         "dest_sc":"美孚",
         "co":"KMB",
         "stops":[
-            "4DA3813D3CE3A5DF",
+            "E3E171AEDE35ACDF",
             "015AD88813C61900",
             "B88E6F52E2BC2E34",
             "3FAE59A79C8BCC93",
@@ -96977,22 +96974,7 @@
             "62E0E61D5250535A",
             "CBB9FC4A0C13979B"
         ],
-        "fullFare":"12.7",
-        "journeyTime":"86",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1438",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "00:00:00|05:30:00|1800"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"N260",
@@ -97043,24 +97025,9 @@
             "86D1BF834F627D5C",
             "1D944152BA58ABF3",
             "722B3DD3D7BCFA21",
-            "4DA3813D3CE3A5DF"
+            "E3E171AEDE35ACDF"
         ],
-        "fullFare":"12.7",
-        "journeyTime":"86",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1438",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "00:30:00|06:00:00|1800"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"N269",
@@ -100633,7 +100600,7 @@
         "route":"NA36",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Cathay Pacific City",
+        "orig_en":"Cathay City",
         "orig_tc":"國泰城",
         "orig_sc":"国泰城",
         "dest_en":"Kam Sheung Road Station",
@@ -100688,7 +100655,7 @@
         "orig_en":"Kam Sheung Road Station",
         "orig_tc":"錦上路站",
         "orig_sc":"锦上路站",
-        "dest_en":"Cathay Pacific City",
+        "dest_en":"Cathay City",
         "dest_tc":"國泰城",
         "dest_sc":"国泰城",
         "co":"KMB",
@@ -100740,7 +100707,7 @@
         "orig_en":"Tin Shui Wai Town Centre",
         "orig_tc":"天水圍市中心",
         "orig_sc":"天水围市中心",
-        "dest_en":"Cathay Pacific City",
+        "dest_en":"Cathay City",
         "dest_tc":"國泰城",
         "dest_sc":"国泰城",
         "co":"KMB",
@@ -100801,7 +100768,7 @@
         "route":"NA37",
         "bound":"I",
         "service_type":"1",
-        "orig_en":"Cathay Pacific City",
+        "orig_en":"Cathay City",
         "orig_tc":"國泰城",
         "orig_sc":"国泰城",
         "dest_en":"Tin Shui Wai Town Centre",
@@ -103398,12 +103365,9 @@
             "86D1BF834F627D5C",
             "1D944152BA58ABF3",
             "722B3DD3D7BCFA21",
-            "4DA3813D3CE3A5DF"
+            "E3E171AEDE35ACDF"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "gtfsRouteKey":[]
     },
     {
         "route":"SP6",
