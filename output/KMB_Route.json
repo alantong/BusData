@@ -59984,7 +59984,10 @@
             "722B3DD3D7BCFA21",
             "E3E171AEDE35ACDF"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"259S",
@@ -96961,7 +96964,22 @@
             "62E0E61D5250535A",
             "CBB9FC4A0C13979B"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"12.7",
+        "journeyTime":"86",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1438",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "00:00:00|05:30:00|1800"
+                ]
+            }
+        ]
     },
     {
         "route":"N260",
@@ -97014,7 +97032,22 @@
             "722B3DD3D7BCFA21",
             "E3E171AEDE35ACDF"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"12.7",
+        "journeyTime":"86",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1438",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "00:30:00|06:00:00|1800"
+                ]
+            }
+        ]
     },
     {
         "route":"N269",
@@ -103354,7 +103387,10 @@
             "722B3DD3D7BCFA21",
             "E3E171AEDE35ACDF"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"SP6",
