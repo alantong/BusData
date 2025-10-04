@@ -50242,6 +50242,29 @@
     {
         "co":"GMB",
         "route":"65X",
+        "routeId":2011160,
+        "routeSeq":1,
+        "orig_tc":"黃泥頭",
+        "dest_tc":"第一城站 (循環線)",
+        "orig_sc":"黄泥头",
+        "dest_sc":"第一城站 (循环线)",
+        "orig_en":"Wong Nai Tau",
+        "dest_en":"City One Station (Circular)",
+        "stops":[
+            20001544,
+            20001545,
+            20022207,
+            20022208,
+            20001551,
+            20001544
+        ],
+        "freq":[
+            {}
+        ]
+    },
+    {
+        "co":"GMB",
+        "route":"65X",
         "routeId":2008092,
         "routeSeq":1,
         "orig_tc":"東區尤德夫人那打素醫院",
