@@ -82557,52 +82557,6 @@
         ]
     },
     {
-        "route":"907B",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tai Po Kwong Fuk Playground",
-        "orig_tc":"大埔廣福球場",
-        "orig_sc":"大埔广福球场",
-        "dest_en":"Wan Chai (Convention Centre)",
-        "dest_tc":"灣仔(會展)",
-        "dest_sc":"湾仔(会展)",
-        "co":"KMB",
-        "stops":[
-            "7AC279608B65128C",
-            "2DA1D06B46A56276",
-            "56C003E99C21984A",
-            "6219234626AC9DD5",
-            "DA30F5393480B81D",
-            "A3A7B2B94458A263",
-            "CCC4773031BC0FD8",
-            "E18D73287340B634",
-            "F4D2D9D3575AECF6",
-            "89ED5D96534CED83",
-            "AE6FE615893E8C89",
-            "3007D34FB91FB27E",
-            "1AB934EFE0E1470A",
-            "16CE9E8D17681839",
-            "E727E56EF8937CD1"
-        ],
-        "fullFare":"27.3",
-        "journeyTime":"105",
-        "gtfsRouteKey":[
-            [
-                "KMB+CTB",
-                "8761",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0710",
-                    "0730"
-                ]
-            }
-        ]
-    },
-    {
         "route":"907C",
         "bound":"O",
         "service_type":"1",
@@ -84813,9 +84767,9 @@
         "orig_en":"Central",
         "orig_tc":"中環",
         "orig_sc":"中环",
-        "dest_en":"Hung Shui Kiu (Hung Fuk Estate)",
-        "dest_tc":"洪水橋(洪福邨)",
-        "dest_sc":"洪水桥(洪福邨)",
+        "dest_en":"Tuen Mun (Fu Tai Estate)",
+        "dest_tc":"屯門(富泰邨)",
+        "dest_sc":"屯门(富泰邨)",
         "co":"KMB",
         "stops":[
             "4AA350AD8FFF4786",
