@@ -4397,102 +4397,6 @@
         "freq":[]
     },
     {
-        "route":"6X",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Shing Tak Street",
-        "orig_tc":"盛德街",
-        "orig_sc":"盛德街",
-        "dest_en":"Mei Foo",
-        "dest_tc":"美孚",
-        "dest_sc":"美孚",
-        "co":"KMB",
-        "stops":[
-            "D63D9356CBA8B0CD",
-            "225F00F550C301AE",
-            "7F864B82461F638D",
-            "33954A6034D48443",
-            "4F8B610B0A033DA3",
-            "9C65FAD146B82C8D",
-            "B122FA4A77BABF24",
-            "BBE77B90CE43AEFA",
-            "246B98B8B9F002F0",
-            "38F0C9768AA2AF93",
-            "99256D08CF861BA5",
-            "D0A763AFCDE36124",
-            "1A85A6C132C4197F",
-            "C3FD63E226246052",
-            "098AF67CBBB9FBA9",
-            "04FC6E130D4953F4",
-            "BB5DEEAB7F39ECD9",
-            "3856383C8A22904A"
-        ],
-        "fullFare":"6.7",
-        "journeyTime":"40",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000364",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1725",
-                    "1755",
-                    "1825"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"6X",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Mei Foo",
-        "orig_tc":"美孚",
-        "orig_sc":"美孚",
-        "dest_en":"Kowloon City Ferry",
-        "dest_tc":"九龍城碼頭",
-        "dest_sc":"九龙城码头",
-        "co":"KMB",
-        "stops":[
-            "3856383C8A22904A",
-            "ACA7282A66D0A29B",
-            "48E68D36FFC315F6",
-            "3AE4D452A5105EFD",
-            "A70DCB46EC98F43E",
-            "80E2DB8AC142F626",
-            "E93113C9CA615B0C",
-            "D48E82AC2961C581",
-            "97377AA89B45CD34",
-            "FEF7B371B95E5E13",
-            "9E655CE3250647EA",
-            "2C7AEE8C6B2BC06A",
-            "0B8D095A45B05587",
-            "C3427DE8E291FFA6"
-        ],
-        "fullFare":"6.7",
-        "journeyTime":"47",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8701",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1725",
-                    "1755",
-                    "1825"
-                ]
-            }
-        ]
-    },
-    {
         "route":"7",
         "bound":"O",
         "service_type":"1",
@@ -14118,7 +14022,7 @@
         "co":"KMB",
         "stops":[
             "508D1C5BF90CE574",
-            "6085C420AB7E6FF9",
+            "98F2067168C267FE",
             "195090E551109C0A",
             "4624AC39DB25D456",
             "2DB47A3C263E4F5C",
@@ -17365,7 +17269,7 @@
         "co":"KMB",
         "stops":[
             "83C964C7AF464F05",
-            "6085C420AB7E6FF9",
+            "98F2067168C267FE",
             "86E1C776C6D78DFC",
             "5EEFE2E2583B576B",
             "1E0C8A961881DE1D",
@@ -19493,7 +19397,7 @@
         "co":"KMB",
         "stops":[
             "4E42234F86ABC6E3",
-            "6085C420AB7E6FF9",
+            "98F2067168C267FE",
             "195090E551109C0A",
             "4624AC39DB25D456",
             "2DB47A3C263E4F5C",
@@ -20930,7 +20834,7 @@
             "FF5CF18C5510B901",
             "7E50BA0974C3B983",
             "28725EBEC5C8EC40",
-            "98F2067168C267FE",
+            "6085C420AB7E6FF9",
             "4C49804674904130",
             "8864CF7D3E4B1EF6",
             "AA97FFC49AE957A5",
@@ -21655,6 +21559,47 @@
                 ]
             }
         ]
+    },
+    {
+        "route":"52S",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tuen Mun Road BBI",
+        "orig_tc":"屯門公路轉車站",
+        "orig_sc":"屯门公路转车站",
+        "dest_en":"Tsang Tsui",
+        "dest_tc":"曾咀",
+        "dest_sc":"曾咀",
+        "co":"KMB",
+        "stops":[
+            "D0937674DF369B23",
+            "09A5D5C90F15C08C",
+            "D6001B758148778A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"52S",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Tsang Tsui",
+        "orig_tc":"曾咀",
+        "orig_sc":"曾咀",
+        "dest_en":"Tuen Mun Road BBI",
+        "dest_tc":"屯門公路轉車站",
+        "dest_sc":"屯门公路转车站",
+        "co":"KMB",
+        "stops":[
+            "D6001B758148778A",
+            "212BFF5737D0116C"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"52X",
@@ -35966,7 +35911,7 @@
         "co":"KMB",
         "stops":[
             "C35DF653E02636CD",
-            "6085C420AB7E6FF9",
+            "98F2067168C267FE",
             "C91C122CFC3FF66B",
             "DF10BE627F25E7DD",
             "D7C7D86E923EEAE1",
@@ -82820,7 +82765,7 @@
             "6A225A9CB16BC4BB",
             "F5098BFD784B8FAB",
             "1C7C526A52EF9171",
-            "98F2067168C267FE",
+            "6085C420AB7E6FF9",
             "4AF8DE7DC96BCF83",
             "50DAF4168DAE2978",
             "466111DE1A3E4656",
@@ -82903,7 +82848,7 @@
             "8ED2EBBD73781C58",
             "6B7C2A21D95241A5",
             "3CA62A3B1C8415D0",
-            "6085C420AB7E6FF9",
+            "98F2067168C267FE",
             "F2BD88B8D506E78A",
             "16F899DA5289900D",
             "B96E368FC17CD0B0",
@@ -83038,7 +82983,7 @@
             "6A225A9CB16BC4BB",
             "F5098BFD784B8FAB",
             "1C7C526A52EF9171",
-            "98F2067168C267FE",
+            "6085C420AB7E6FF9",
             "4AF8DE7DC96BCF83",
             "50DAF4168DAE2978",
             "466111DE1A3E4656",
@@ -104129,7 +104074,7 @@
         "stops":[
             "40D067F126426DC6",
             "AC8828CF13B8AA49",
-            "98F2067168C267FE",
+            "6085C420AB7E6FF9",
             "4C49804674904130",
             "8864CF7D3E4B1EF6",
             "BE27F066CF40DF7D",
@@ -104180,7 +104125,7 @@
         "stops":[
             "40D067F126426DC6",
             "AC8828CF13B8AA49",
-            "98F2067168C267FE",
+            "6085C420AB7E6FF9",
             "4C49804674904130",
             "8864CF7D3E4B1EF6",
             "BE27F066CF40DF7D",
