@@ -12270,6 +12270,7 @@
             "002187",
             "002227",
             "002231",
+            "002232",
             "001111",
             "001112",
             "001113",
@@ -12343,6 +12344,7 @@
             "001116",
             "001117",
             "001120",
+            "002234",
             "002236",
             "002237",
             "002239",
@@ -17671,7 +17673,7 @@
         ],
         "bound":"O",
         "fullFare":"12.2|12.2",
-        "journeyTime":"60|59",
+        "journeyTime":"63|59",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17764,7 +17766,7 @@
         ],
         "bound":"I",
         "fullFare":"12.2",
-        "journeyTime":"60",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -18672,7 +18674,7 @@
         ],
         "bound":"O",
         "fullFare":"12.1",
-        "journeyTime":"58",
+        "journeyTime":"57",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -18748,7 +18750,7 @@
         ],
         "bound":"I",
         "fullFare":"12.1|12.1",
-        "journeyTime":"58|56",
+        "journeyTime":"57|56",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -36293,7 +36295,7 @@
         ],
         "bound":"O",
         "fullFare":"27.3|27.3|27.3",
-        "journeyTime":"81|64|68",
+        "journeyTime":"90|64|68",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -36366,7 +36368,7 @@
         ],
         "bound":"I",
         "fullFare":"27.3",
-        "journeyTime":"81",
+        "journeyTime":"90",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -40608,7 +40610,7 @@
         ],
         "bound":"O",
         "fullFare":"40.8",
-        "journeyTime":"111",
+        "journeyTime":"118",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -40667,7 +40669,7 @@
         ],
         "bound":"I",
         "fullFare":"40.8",
-        "journeyTime":"111",
+        "journeyTime":"118",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -41638,7 +41640,8 @@
             },
             {
                 "31":[
-                    "0830"
+                    "0830",
+                    "0850"
                 ]
             }
         ]
