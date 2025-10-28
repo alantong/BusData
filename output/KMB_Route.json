@@ -22128,6 +22128,50 @@
         ]
     },
     {
+        "route":"56S",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tuen Mun Station",
+        "orig_tc":"屯門站",
+        "orig_sc":"屯门站",
+        "dest_en":"Tsang Tsui",
+        "dest_tc":"曾咀",
+        "dest_sc":"曾咀",
+        "co":"KMB",
+        "stops":[
+            "584E6744385F6463",
+            "C1BF4509359B0895",
+            "09A5D5C90F15C08C",
+            "F64076F7E14E38D4"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"56S",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Tsang Tsui",
+        "orig_tc":"曾咀",
+        "orig_sc":"曾咀",
+        "dest_en":"Tuen Mun Station",
+        "dest_tc":"屯門站",
+        "dest_sc":"屯门站",
+        "co":"KMB",
+        "stops":[
+            "F64076F7E14E38D4",
+            "76441824D4E31948",
+            "5D14B75687F60509",
+            "584E6744385F6463"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"57M",
         "bound":"O",
         "service_type":"1",

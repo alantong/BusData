@@ -15157,9 +15157,9 @@
     },
     {
         "stop":"40829C12642639D4",
-        "name_en":"Shek Mun BBI - Ravana Garden (N2) (ST147)",
-        "name_tc":"石門轉車站 - 濱景花園 (N2)",
-        "name_sc":"石门转车站 - 滨景花园 (N2)",
+        "name_en":"Shek Mun BBI - Ravana Garden (ST147)",
+        "name_tc":"石門轉車站 - 濱景花園 (ST147)",
+        "name_sc":"石门转车站 - 滨景花园 (ST147)",
         "lat":"22.391590",
         "long":"114.206164",
         "co":"KMB"
@@ -15175,9 +15175,9 @@
     },
     {
         "stop":"5759B937A26C377E",
-        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (S1) (ST505)",
-        "name_tc":"石門轉車站-新界鄉議局大樓 (S1)",
-        "name_sc":"石门转车站-新界乡议局大楼 (S1)",
+        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (ST505)",
+        "name_tc":"石門轉車站-新界鄉議局大樓",
+        "name_sc":"石门转车站-新界乡议局大楼",
         "lat":"22.391352",
         "long":"114.206356",
         "co":"KMB"
@@ -15859,9 +15859,9 @@
     },
     {
         "stop":"823E3EE2413E40E2",
-        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (S2) (ST504)",
-        "name_tc":"石門轉車站-新界鄉議局大樓 (S2)",
-        "name_sc":"石门转车站-新界乡议局大楼 (S2)",
+        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (ST504)",
+        "name_tc":"石門轉車站-新界鄉議局大樓",
+        "name_sc":"石门转车站-新界乡议局大楼",
         "lat":"22.391352",
         "long":"114.206356",
         "co":"KMB"
@@ -17263,9 +17263,9 @@
     },
     {
         "stop":"8ECFB7DFFC0023DA",
-        "name_en":"Shek Mun BBI - Ravana Garden (N1) (ST148)",
-        "name_tc":"石門轉車站 - 濱景花園 (N1)",
-        "name_sc":"石门转车站 - 滨景花园 (N1)",
+        "name_en":"Shek Mun BBI - Ravana Garden (ST148)",
+        "name_tc":"石門轉車站 - 濱景花園 (ST148)",
+        "name_sc":"石门转车站 - 滨景花园 (ST148)",
         "lat":"22.391566",
         "long":"114.206129",
         "co":"KMB"
@@ -17839,9 +17839,9 @@
     },
     {
         "stop":"A58C8BBBEC70CEC0",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (C1) (TA105)",
-        "name_tc":"大圍轉車站 - 新翠邨 (C1)",
-        "name_sc":"大围转车站 - 新翠邨 (C1)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA105)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA105)",
+        "name_sc":"大围转车站 - 新翠邨 (TA105)",
         "lat":"22.370172",
         "long":"114.179636",
         "co":"KMB"
@@ -17893,9 +17893,9 @@
     },
     {
         "stop":"BAE4DA32E5043726",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (B5) (TA600)",
-        "name_tc":"大圍轉車站 - 新翠邨 (B5)",
-        "name_sc":"大围转车站 - 新翠邨 (B5)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA600)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA600)",
+        "name_sc":"大围转车站 - 新翠邨 (TA600)",
         "lat":"22.370814",
         "long":"114.179545",
         "co":"KMB"
@@ -21123,6 +21123,42 @@
         "co":"KMB"
     },
     {
+        "stop":"584E6744385F6463",
+        "name_en":"Tuen Mun Station Bus Terminus (V5) (TM955)",
+        "name_tc":"屯門站總站 (V5) (TM955)",
+        "name_sc":"屯门站总站 (V5) (TM955)",
+        "lat":"22.394975",
+        "long":"113.973399",
+        "co":"KMB"
+    },
+    {
+        "stop":"C1BF4509359B0895",
+        "name_en":"Tuen Mun Central Bus Terminus (TM976)",
+        "name_tc":"屯門市中心總站 (TM976)",
+        "name_sc":"屯门市中心总站 (TM976)",
+        "lat":"22.391509",
+        "long":"113.975556",
+        "co":"KMB"
+    },
+    {
+        "stop":"F64076F7E14E38D4",
+        "name_en":"Tsang Tsui (TM875)",
+        "name_tc":"曾咀 (TM875)",
+        "name_sc":"曾咀 (TM875)",
+        "lat":"22.419386",
+        "long":"113.921369",
+        "co":"KMB"
+    },
+    {
+        "stop":"5D14B75687F60509",
+        "name_en":"Tuen Mun Park (TM167)",
+        "name_tc":"屯門公園 (TM167)",
+        "name_sc":"屯门公园 (TM167)",
+        "lat":"22.392122",
+        "long":"113.975127",
+        "co":"KMB"
+    },
+    {
         "stop":"640B42B50FB0152E",
         "name_en":"Shan King Bus Terminus (TM941)",
         "name_tc":"山景總站 (TM941)",
@@ -22128,15 +22164,6 @@
         "name_sc":"友爱邨 (TM162)",
         "lat":"22.387839",
         "long":"113.975112",
-        "co":"KMB"
-    },
-    {
-        "stop":"5D14B75687F60509",
-        "name_en":"Tuen Mun Park (TM167)",
-        "name_tc":"屯門公園 (TM167)",
-        "name_sc":"屯门公园 (TM167)",
-        "lat":"22.392122",
-        "long":"113.975127",
         "co":"KMB"
     },
     {
@@ -31231,9 +31258,9 @@
     },
     {
         "stop":"2A72F4041A7E6783",
-        "name_en":"Tai Wai BBI - Tin Sam Village (D1) (TA543)",
-        "name_tc":"大圍轉車站 - 田心村 (D1)",
-        "name_sc":"大围转车站 - 田心村 (D1)",
+        "name_en":"Tai Wai BBI - Tin Sam Village (TA543)",
+        "name_tc":"大圍轉車站 - 田心村 (TA543)",
+        "name_sc":"大围转车站 - 田心村 (TA543)",
         "lat":"22.370674",
         "long":"114.177940",
         "co":"KMB"
@@ -31312,9 +31339,9 @@
     },
     {
         "stop":"C6A76DB999AF1213",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (B1) (TA604)",
-        "name_tc":"大圍轉車站 - 新翠邨 (B1)",
-        "name_sc":"大围转车站 - 新翠邨 (B1)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA604)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA604)",
+        "name_sc":"大围转车站 - 新翠邨 (TA604)",
         "lat":"22.370074",
         "long":"114.180065",
         "co":"KMB"
@@ -31924,9 +31951,9 @@
     },
     {
         "stop":"F91B28AE855628AF",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (B4) (TA601)",
-        "name_tc":"大圍轉車站 - 新翠邨 (B4)",
-        "name_sc":"大围转车站 - 新翠邨 (B4)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA601)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA601)",
+        "name_sc":"大围转车站 - 新翠邨 (TA601)",
         "lat":"22.370814",
         "long":"114.179545",
         "co":"KMB"
@@ -31978,9 +32005,9 @@
     },
     {
         "stop":"A66159E033DDEA04",
-        "name_en":"Tai Wai BBI - Tai Wai Station (F1) (TA125)",
-        "name_tc":"大圍轉車站 - 大圍站 (F1)",
-        "name_sc":"大围转车站 - 大围站 (F1)",
+        "name_en":"Tai Wai BBI - Tai Wai Station (TA125)",
+        "name_tc":"大圍轉車站 - 大圍站 (TA125)",
+        "name_sc":"大围转车站 - 大围站 (TA125)",
         "lat":"22.372606",
         "long":"114.180304",
         "co":"KMB"
@@ -32104,9 +32131,9 @@
     },
     {
         "stop":"A004B076CFBD733C",
-        "name_en":"Tai Wai BBI - Sun Ming House Sun Chui Estate (A1)",
-        "name_tc":"大圍轉車站 - 新翠邨新明樓 (A1)",
-        "name_sc":"大围转车站 - 新翠邨新明楼 (A1)",
+        "name_en":"Tai Wai BBI - Sun Ming House Sun Chui Estate",
+        "name_tc":"大圍轉車站 - 新翠邨新明樓",
+        "name_sc":"大围转车站 - 新翠邨新明楼",
         "lat":"22.372122",
         "long":"114.180252",
         "co":"KMB"
@@ -32158,9 +32185,9 @@
     },
     {
         "stop":"AAECA769A84E2372",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (C2) (TA104)",
-        "name_tc":"大圍轉車站 - 新翠邨 (C2)",
-        "name_sc":"大围转车站 - 新翠邨 (C2)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA104)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA104)",
+        "name_sc":"大围转车站 - 新翠邨 (TA104)",
         "lat":"22.370131",
         "long":"114.179670",
         "co":"KMB"
@@ -32257,9 +32284,9 @@
     },
     {
         "stop":"0D56ED01EED431BC",
-        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (S5) (ST500)",
-        "name_tc":"石門轉車站-新界鄉議局大樓 (S5)",
-        "name_sc":"石门转车站-新界乡议局大楼 (S5)",
+        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (ST500)",
+        "name_tc":"石門轉車站-新界鄉議局大樓",
+        "name_sc":"石门转车站-新界乡议局大楼",
         "lat":"22.391394",
         "long":"114.206407",
         "co":"KMB"
@@ -32338,9 +32365,9 @@
     },
     {
         "stop":"2E299F1E89BC57CE",
-        "name_en":"Tai Wai BBI - Tin Sam Village (D2) (TA541)",
-        "name_tc":"大圍轉車站 - 田心村 (D2)",
-        "name_sc":"大围转车站 - 田心村 (D2)",
+        "name_en":"Tai Wai BBI - Tin Sam Village (TA541)",
+        "name_tc":"大圍轉車站 - 田心村 (TA541)",
+        "name_sc":"大围转车站 - 田心村 (TA541)",
         "lat":"22.370736",
         "long":"114.177999",
         "co":"KMB"
@@ -32698,9 +32725,9 @@
     },
     {
         "stop":"9E03B65B407F925A",
-        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (S4) (ST501)",
-        "name_tc":"石門轉車站-新界鄉議局大樓 (S4)",
-        "name_sc":"石门转车站-新界乡议局大楼 (S4)",
+        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (ST501)",
+        "name_tc":"石門轉車站-新界鄉議局大樓",
+        "name_sc":"石门转车站-新界乡议局大楼",
         "lat":"22.391500",
         "long":"114.206510",
         "co":"KMB"
@@ -32878,9 +32905,9 @@
     },
     {
         "stop":"9ADE07CC443E4ACE",
-        "name_en":"Tai Wai BBI - Sun Ming House Sun Chui Estate (A2)",
-        "name_tc":"大圍轉車站 - 新翠邨新明樓 (A2)",
-        "name_sc":"大围转车站 - 新翠邨新明楼 (A2)",
+        "name_en":"Tai Wai BBI - Sun Ming House Sun Chui Estate",
+        "name_tc":"大圍轉車站 - 新翠邨新明樓",
+        "name_sc":"大围转车站 - 新翠邨新明楼",
         "lat":"22.372053",
         "long":"114.180134",
         "co":"KMB"
@@ -33391,9 +33418,9 @@
     },
     {
         "stop":"B11E10F012C57433",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (C3) (TA103)",
-        "name_tc":"大圍轉車站 - 新翠邨 (C3)",
-        "name_sc":"大围转车站 - 新翠邨 (C3)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA103)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA103)",
+        "name_sc":"大围转车站 - 新翠邨 (TA103)",
         "lat":"22.370095",
         "long":"114.179707",
         "co":"KMB"
@@ -33427,9 +33454,9 @@
     },
     {
         "stop":"578C11F0F4197509",
-        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (S3) (ST502)",
-        "name_tc":"石門轉車站-新界鄉議局大樓 (S3)",
-        "name_sc":"石门转车站-新界乡议局大楼 (S3)",
+        "name_en":"Shek Mun BBI - Heung Yee Kuk Building (ST502)",
+        "name_tc":"石門轉車站-新界鄉議局大樓",
+        "name_sc":"石门转车站-新界乡议局大楼",
         "lat":"22.391450",
         "long":"114.206460",
         "co":"KMB"
@@ -33931,9 +33958,9 @@
     },
     {
         "stop":"A88D8F59960E3B4C",
-        "name_en":"Tai Wai BBI - Chik Wan Street (E1) (TA141)",
-        "name_tc":"大圍轉車站 - 積運街 (E1)",
-        "name_sc":"大围转车站 - 积运街 (E1)",
+        "name_en":"Tai Wai BBI - Chik Wan Street (TA141)",
+        "name_tc":"大圍轉車站 - 積運街 (TA141)",
+        "name_sc":"大围转车站 - 积运街 (TA141)",
         "lat":"22.371958",
         "long":"114.178141",
         "co":"KMB"
@@ -34129,9 +34156,9 @@
     },
     {
         "stop":"FDA52ED538BDD5E4",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (B2) (TA603)",
-        "name_tc":"大圍轉車站 - 新翠邨 (B2)",
-        "name_sc":"大围转车站 - 新翠邨 (B2)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA603)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA603)",
+        "name_sc":"大围转车站 - 新翠邨 (TA603)",
         "lat":"22.370226",
         "long":"114.179976",
         "co":"KMB"
@@ -41347,9 +41374,9 @@
     },
     {
         "stop":"AD0E19B05666A22B",
-        "name_en":"Tai Wai BBI - Sun Chui Estate (B3) (TA602)",
-        "name_tc":"大圍轉車站 - 新翠邨 (B3)",
-        "name_sc":"大围转车站 - 新翠邨 (B3)",
+        "name_en":"Tai Wai BBI - Sun Chui Estate (TA602)",
+        "name_tc":"大圍轉車站 - 新翠邨 (TA602)",
+        "name_sc":"大围转车站 - 新翠邨 (TA602)",
         "lat":"22.370330",
         "long":"114.179872",
         "co":"KMB"
@@ -43227,15 +43254,6 @@
         "co":"KMB"
     },
     {
-        "stop":"C1BF4509359B0895",
-        "name_en":"Tuen Mun Central Bus Terminus (TM976)",
-        "name_tc":"屯門市中心總站 (TM976)",
-        "name_sc":"屯门市中心总站 (TM976)",
-        "lat":"22.391509",
-        "long":"113.975556",
-        "co":"KMB"
-    },
-    {
         "stop":"2D3D025684145373",
         "name_en":"On Ting Estate (TM609)",
         "name_tc":"安定邨 (TM609)",
@@ -43710,15 +43728,6 @@
         "name_sc":"城门隧道转车站 (B5) (TW301)",
         "lat":"22.381418",
         "long":"114.137985",
-        "co":"KMB"
-    },
-    {
-        "stop":"584E6744385F6463",
-        "name_en":"Tuen Mun Station Bus Terminus (V5) (TM955)",
-        "name_tc":"屯門站總站 (V5) (TM955)",
-        "name_sc":"屯门站总站 (V5) (TM955)",
-        "lat":"22.394975",
-        "long":"113.973399",
         "co":"KMB"
     },
     {
@@ -54613,18 +54622,18 @@
     },
     {
         "stop":"4F09976CA4CF80C9",
-        "name_en":"Tai Wai BBI - Sun Ming House, Sun Chui Estate (A2)",
-        "name_tc":"大圍轉車站 - 新翠邨新明樓 (A2)",
-        "name_sc":"大围转车站 - 新翠邨新明楼 (A2)",
+        "name_en":"Tai Wai BBI - Sun Ming House, Sun Chui Estate",
+        "name_tc":"大圍轉車站 - 新翠邨新明樓",
+        "name_sc":"大围转车站 - 新翠邨新明楼",
         "lat":"22.372094",
         "long":"114.180196",
         "co":"KMB"
     },
     {
         "stop":"F01D5D94B03AA8A2",
-        "name_en":"Tai Wai BBI - Chik Wan Street (E2) (TA140)",
-        "name_tc":"大圍轉車站 - 積運街 (E2)",
-        "name_sc":"大围转车站 - 积运街 (E2)",
+        "name_en":"Tai Wai BBI - Chik Wan Street (TA140)",
+        "name_tc":"大圍轉車站 - 積運街 (TA140)",
+        "name_sc":"大围转车站 - 积运街 (TA140)",
         "lat":"22.371958",
         "long":"114.178141",
         "co":"KMB"
@@ -54676,9 +54685,9 @@
     },
     {
         "stop":"156FFE36D7D42EFE",
-        "name_en":"Tai Wai BBI - Tai Wai Station (F2) (TA124)",
-        "name_tc":"大圍轉車站 - 大圍站 (F2)",
-        "name_sc":"大围转车站 - 大围站 (F2)",
+        "name_en":"Tai Wai BBI - Tai Wai Station (TA124)",
+        "name_tc":"大圍轉車站 - 大圍站 (TA124)",
+        "name_sc":"大围转车站 - 大围站 (TA124)",
         "lat":"22.372631",
         "long":"114.180352",
         "co":"KMB"
@@ -55261,9 +55270,9 @@
     },
     {
         "stop":"FC48D23E87345ABF",
-        "name_en":"Tai Wai BBI - Tin Sam Village (D2) (TA542)",
-        "name_tc":"大圍轉車站 - 田心村(D2)",
-        "name_sc":"大围转车站 - 田心村(D2)",
+        "name_en":"Tai Wai BBI - Tin Sam Village (TA542)",
+        "name_tc":"大圍轉車站 - 田心村 (TA542)",
+        "name_sc":"大围转车站 - 田心村 (TA542)",
         "lat":"22.370674",
         "long":"114.177940",
         "co":"KMB"
