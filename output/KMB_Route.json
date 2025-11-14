@@ -28685,7 +28685,7 @@
         "co":"KMB",
         "stops":[
             "E541A72F4B4CF13A",
-            "D0FB28B8EED62431",
+            "923E5B79E1B48739",
             "FA52803E2628A212",
             "0F3FA9B7D07A91F3",
             "C837C3C549793472",
@@ -65564,7 +65564,7 @@
             "0E41E02CD9055626",
             "EE81A30BE4BDC8AC",
             "F129DD8D9E3268FB",
-            "D0FB28B8EED62431",
+            "2129B2A72F881300",
             "FA52803E2628A212",
             "E6022594DB48E35B",
             "480DB16994F8FFEE",
@@ -65632,7 +65632,6 @@
             "0E41E02CD9055626",
             "EE81A30BE4BDC8AC",
             "F129DD8D9E3268FB",
-            "D0FB28B8EED62431",
             "FA52803E2628A212",
             "E6022594DB48E35B",
             "480DB16994F8FFEE",
@@ -66102,7 +66101,7 @@
             "0E41E02CD9055626",
             "EE81A30BE4BDC8AC",
             "F129DD8D9E3268FB",
-            "D0FB28B8EED62431",
+            "2129B2A72F881300",
             "FA52803E2628A212",
             "E6022594DB48E35B",
             "480DB16994F8FFEE",
@@ -66199,7 +66198,7 @@
             "DE27CD3EB0AF43D8",
             "68A3AF80BADFDE9F",
             "14BDB94A8F3ED3EC",
-            "D0FB28B8EED62431",
+            "923E5B79E1B48739",
             "C7120BD9A94B4F6A",
             "825199DC3BC0C5A3",
             "A8F178C255CF9783",
@@ -70652,7 +70651,7 @@
             "BFAE1E951D3B63EC",
             "C67060F448591E4F",
             "F7D40D08CB05EA87",
-            "2129B2A72F881300",
+            "923E5B79E1B48739",
             "4CA5DEBCC576E371",
             "D2C1454B663392C9",
             "30D564180B68ECA8",
@@ -70801,7 +70800,6 @@
         "co":"KMB",
         "stops":[
             "F7D40D08CB05EA87",
-            "2129B2A72F881300",
             "4CA5DEBCC576E371",
             "D2C1454B663392C9",
             "30D564180B68ECA8",
@@ -70859,7 +70857,7 @@
             "9274EF6791CA3ED8",
             "3AD4DADA5B941CF2",
             "CA9E9870D7B2FF36",
-            "D0FB28B8EED62431",
+            "923E5B79E1B48739",
             "FA52803E2628A212",
             "0F3FA9B7D07A91F3",
             "C837C3C549793472",
@@ -71708,7 +71706,7 @@
             "BFAE1E951D3B63EC",
             "C67060F448591E4F",
             "14BDB94A8F3ED3EC",
-            "FA7A3D77713061E9",
+            "D0FB28B8EED62431",
             "C7120BD9A94B4F6A",
             "825199DC3BC0C5A3",
             "A8F178C255CF9783",
@@ -77016,7 +77014,7 @@
             "B97CC3668C3AD911",
             "EEFA4F8B18DBF2A6",
             "CA9E9870D7B2FF36",
-            "D0FB28B8EED62431",
+            "923E5B79E1B48739",
             "4C97BE87FBF959C4",
             "FA52803E2628A212",
             "0F3FA9B7D07A91F3",
@@ -86573,7 +86571,7 @@
             "5CB1BDF367F1989F",
             "4CA5DEBCC576E371",
             "14BDB94A8F3ED3EC",
-            "923E5B79E1B48739",
+            "FA7A3D77713061E9",
             "C7120BD9A94B4F6A",
             "825199DC3BC0C5A3",
             "ADB9356BBF06F7C7",
@@ -90452,9 +90450,9 @@
         "orig_en":"Wu Kai Sha Station",
         "orig_tc":"烏溪沙站",
         "orig_sc":"乌溪沙站",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
+        "dest_en":"Airport",
+        "dest_tc":"機場",
+        "dest_sc":"机场",
         "co":"KMB",
         "stops":[
             "BA72214DFE48AA86",
@@ -90478,28 +90476,12 @@
             "673B33867260EBB7",
             "412DEEF534E127AF",
             "C552CE565E1F0C85",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
+            "0D5759F7A4B185FE"
         ],
-        "fullFare":"29.0",
-        "journeyTime":"94",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1470",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "05:20:00|06:00:00|1200",
-                    "07:20:00|07:40:00|1200",
-                    "07:40:00|22:10:00|1800",
-                    "22:10:00|22:45:00|2100"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"A41P",
@@ -90508,9 +90490,9 @@
         "orig_en":"Wu Kai Sha Station",
         "orig_tc":"烏溪沙站",
         "orig_sc":"乌溪沙站",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
+        "dest_en":"Airport",
+        "dest_tc":"機場",
+        "dest_sc":"机场",
         "co":"KMB",
         "stops":[
             "BA72214DFE48AA86",
@@ -90536,27 +90518,12 @@
             "C552CE565E1F0C85",
             "9C9F817064169CE7",
             "E48E4C46F64FFB0E",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
+            "0D5759F7A4B185FE"
         ],
-        "fullFare":"29.0",
-        "journeyTime":"96",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000023",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "0620",
-                    "0640",
-                    "0700"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"A41P",
@@ -99030,7 +98997,7 @@
             "B97CC3668C3AD911",
             "EEFA4F8B18DBF2A6",
             "14BDB94A8F3ED3EC",
-            "D0FB28B8EED62431",
+            "923E5B79E1B48739",
             "C7120BD9A94B4F6A",
             "825199DC3BC0C5A3",
             "ADB9356BBF06F7C7",
@@ -104235,7 +104202,7 @@
             "1E71CBFE8560B0EF",
             "9274EF6791CA3ED8",
             "CA9E9870D7B2FF36",
-            "FA7A3D77713061E9",
+            "D0FB28B8EED62431",
             "C7120BD9A94B4F6A",
             "ADB9356BBF06F7C7",
             "8E3F5AE0A97053F9",
