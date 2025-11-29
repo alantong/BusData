@@ -10084,26 +10084,6 @@
         ]
     },
     {
-        "route":"25R",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Kai Tak Cruise Terminal",
-        "orig_tc":"啟德郵輪碼頭",
-        "orig_sc":"启德邮轮码头",
-        "dest_en":"APM Millennium City 5",
-        "dest_tc":"apm創紀之城5期",
-        "dest_sc":"apm创纪之城5期",
-        "co":"KMB",
-        "stops":[
-            "5F1C669F444A0556",
-            "1E3A342DF7D5B8B5"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
-    },
-    {
         "route":"26",
         "bound":"O",
         "service_type":"1",
@@ -73144,6 +73124,7 @@
             "40C9465E380F04C5",
             "C67E139743E66D71",
             "8AD4B244D6A50BDB",
+            "81D05719EDB6070E",
             "79B88295548184C1",
             "9CEC1F1000AFE806",
             "5D86C919F15C0611",
@@ -73152,8 +73133,7 @@
             "0D4E07F475845DB3",
             "B071B60F5566934B",
             "E2602DD1C8EA1AC8",
-            "664BAA2EA12B80B1",
-            "3E10F323161F4ADB"
+            "664BAA2EA12B80B1"
         ],
         "fullFare":"9.3",
         "journeyTime":"23",
@@ -101975,13 +101955,11 @@
         "stops":[
             "F493236404A4FABF",
             "96E1024FD71C979F",
-            "A31DD8C4FD6740D4",
             "045FB4EAE4FE52D6",
             "0524415976F284A4",
             "F050648C108571ED",
             "0524415976F284A4",
             "045FB4EAE4FE52D6",
-            "A31DD8C4FD6740D4",
             "96E1024FD71C979F",
             "F493236404A4FABF"
         ],
@@ -102005,13 +101983,11 @@
             "0678C85600B1A019",
             "CC43907C8D4CED33",
             "DEB240F39E92A5B9",
-            "A31DD8C4FD6740D4",
             "658F28C339443C17",
             "0524415976F284A4",
             "F050648C108571ED",
             "0524415976F284A4",
             "658F28C339443C17",
-            "A31DD8C4FD6740D4",
             "DBC89D4632BE523C",
             "CC43907C8D4CED33",
             "0678C85600B1A019"
