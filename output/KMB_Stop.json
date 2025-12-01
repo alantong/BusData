@@ -8200,9 +8200,9 @@
     },
     {
         "stop":"5CA7841E84D52C8A",
-        "name_en":"Mongkok Market Complex (MK627)",
-        "name_tc":"旺角街市 (MK627)",
-        "name_sc":"旺角街市 (MK627)",
+        "name_en":"Mongkok Market Complex, Yau Tsim Mong Dhc (MK627)",
+        "name_tc":"旺角街市, 地區康健中心 (MK627)",
+        "name_sc":"旺角街市, 地区康健中心 (MK627)",
         "lat":"22.318768",
         "long":"114.166977",
         "co":"KMB"
@@ -19549,9 +19549,9 @@
     },
     {
         "stop":"7ADC6D521E6BECE6",
-        "name_en":"Mongkok Market Complex (MK626)",
-        "name_tc":"旺角街市 (MK626)",
-        "name_sc":"旺角街市 (MK626)",
+        "name_en":"Mongkok Market Complex, Yau Tsim Mong Dhc (MK626)",
+        "name_tc":"旺角街市, 地區康健中心 (MK626)",
+        "name_sc":"旺角街市, 地区康健中心 (MK626)",
         "lat":"22.318792",
         "long":"114.167024",
         "co":"KMB"
@@ -42525,6 +42525,51 @@
         "co":"KMB"
     },
     {
+        "stop":"8CDF75A5EEE3CB2E",
+        "name_en":"Peking Road, Canton Road (YT207)",
+        "name_tc":"廣東道,北京道 (YT207)",
+        "name_sc":"广东道,北京道 (YT207)",
+        "lat":"22.295621",
+        "long":"114.169362",
+        "co":"KMB"
+    },
+    {
+        "stop":"D987075FC237CE75",
+        "name_en":"East Tsim Sha Tsui Station, K11  Musea (YT215)",
+        "name_tc":"尖東站 K11 MUSEA (YT215)",
+        "name_sc":"尖东站 K11 MUSEA (YT215)",
+        "lat":"22.295226",
+        "long":"114.174647",
+        "co":"KMB"
+    },
+    {
+        "stop":"B74273D52D064437",
+        "name_en":"Kowloon Park Drive (YT640)",
+        "name_tc":"九龍公園徑 (YT640)",
+        "name_sc":"九龙公园径 (YT640)",
+        "lat":"22.295997",
+        "long":"114.170136",
+        "co":"KMB"
+    },
+    {
+        "stop":"87FEBC2B4436FC44",
+        "name_en":"China Hong Kong City, Xiqu Centre (YT645)",
+        "name_tc":"中港城 戲曲中心 (YT645)",
+        "name_sc":"中港城 戏曲中心 (YT645)",
+        "lat":"22.300341",
+        "long":"114.168095",
+        "co":"KMB"
+    },
+    {
+        "stop":"5DD1FFB79F17FC22",
+        "name_en":"Austin Station (YT647)",
+        "name_tc":"柯士甸站 (YT647)",
+        "name_sc":"柯士甸站 (YT647)",
+        "lat":"22.303707",
+        "long":"114.167718",
+        "co":"KMB"
+    },
+    {
         "stop":"B97161BE6BCBD04D",
         "name_en":"Allway Gardens Bus Terminus (TW930)",
         "name_tc":"荃威花園總站 (TW930)",
@@ -45312,6 +45357,15 @@
         "name_sc":"西沙 GO PARK (SK205)",
         "lat":"22.427029",
         "long":"114.265792",
+        "co":"KMB"
+    },
+    {
+        "stop":"81D05719EDB6070E",
+        "name_en":"Sai Sha Residences Transport Interchange (SK982)",
+        "name_tc":"西沙灣交通交匯處 (SK982)",
+        "name_sc":"西沙湾交通交汇处 (SK982)",
+        "lat":"22.426392",
+        "long":"114.267035",
         "co":"KMB"
     },
     {
@@ -54891,6 +54945,51 @@
         "co":"KMB"
     },
     {
+        "stop":"74775F172FABD878",
+        "name_en":"Sai Sha Residences Transport Interchange (SK981)",
+        "name_tc":"西沙灣交通交匯處 (SK981)",
+        "name_sc":"西沙湾交通交汇处 (SK981)",
+        "lat":"22.426392",
+        "long":"114.267035",
+        "co":"KMB"
+    },
+    {
+        "stop":"7E289B9FFDF77CAE",
+        "name_en":"Tin Liu (Sk217A)",
+        "name_tc":"田寮 (SK217a)",
+        "name_sc":"田寮 (SK217a)",
+        "lat":"22.425600",
+        "long":"114.262500",
+        "co":"KMB"
+    },
+    {
+        "stop":"6F03615DDC0F7502",
+        "name_en":"Che Ha (Sk218A)",
+        "name_tc":"輋下 (SK218a)",
+        "name_sc":"輋下 (SK218a)",
+        "lat":"22.427976",
+        "long":"114.261308",
+        "co":"KMB"
+    },
+    {
+        "stop":"DB78ADF2386771E5",
+        "name_en":"Sai O (Sk219A)",
+        "name_tc":"西澳 (SK219a)",
+        "name_sc":"西澳 (SK219a)",
+        "lat":"22.430732",
+        "long":"114.254147",
+        "co":"KMB"
+    },
+    {
+        "stop":"A39754C80FFB1590",
+        "name_en":"Symphony Bay, Cheung Muk Tau (Sk220A)",
+        "name_tc":"樟木頭帝琴灣 (SK220a)",
+        "name_sc":"樟木头帝琴湾 (SK220a)",
+        "lat":"22.430095",
+        "long":"114.251168",
+        "co":"KMB"
+    },
+    {
         "stop":"CFDE62B6C9EDE114",
         "name_en":"Airport (GTC) Bus Terminus (CL906)",
         "name_tc":"機場(地面運輸中心)巴士總站",
@@ -59256,15 +59355,6 @@
         "co":"KMB"
     },
     {
-        "stop":"A31DD8C4FD6740D4",
-        "name_en":"Spca Tsing Yi",
-        "name_tc":"青衣SPCA",
-        "name_sc":"青衣SPCA",
-        "lat":"22.346439",
-        "long":"114.111897",
-        "co":"KMB"
-    },
-    {
         "stop":"045FB4EAE4FE52D6",
         "name_en":"Nam Cheong Station (V Walk)",
         "name_tc":"南昌站 (V WALK)",
@@ -59460,6 +59550,15 @@
         "name_sc":"曼克顿山",
         "lat":"22.334115",
         "long":"114.142578",
+        "co":"KMB"
+    },
+    {
+        "stop":"A31DD8C4FD6740D4",
+        "name_en":"Spca Tsing Yi",
+        "name_tc":"青衣SPCA",
+        "name_sc":"青衣SPCA",
+        "lat":"22.346439",
+        "long":"114.111897",
         "co":"KMB"
     },
     {
