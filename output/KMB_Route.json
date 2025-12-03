@@ -73082,9 +73082,9 @@
         "orig_en":"University Station",
         "orig_tc":"大學站",
         "orig_sc":"大学站",
-        "dest_en":"Go Park Sai Sha (Circular)",
-        "dest_tc":"西沙 GO PARK (循環線)",
-        "dest_sc":"西沙 GO PARK (循环线)",
+        "dest_en":"Sai Sha Residence (Circular)",
+        "dest_tc":"西沙灣",
+        "dest_sc":"西沙湾",
         "co":"KMB",
         "stops":[
             "3E10F323161F4ADB",
@@ -88379,78 +88379,6 @@
     },
     {
         "route":"A33X",
-        "bound":"O",
-        "service_type":"4",
-        "orig_en":"Tuen Mun (Fu Tai Estate)",
-        "orig_tc":"屯門(富泰邨)",
-        "orig_sc":"屯门(富泰邨)",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
-        "co":"KMB",
-        "stops":[
-            "CBCE32D56C5263A9",
-            "5D7715C4BFFC9979",
-            "CC3EF4757AA0964A",
-            "E92E2723C1DBA061",
-            "03E44C30CECCFCEC",
-            "642F7D358D36F715",
-            "F269ACD809D1B43E",
-            "D74B67D55C63895F",
-            "A859FDC2ED9ECEA1",
-            "AF9FE138E3D5D5F0",
-            "1D44677AEFBA8773",
-            "18580F35B0A312CF",
-            "C70342BF7C6A4732",
-            "0D5759F7A4B185FE",
-            "C552CE565E1F0C85",
-            "9C9F817064169CE7",
-            "F32C8A98A5D64A72",
-            "21466046C6868AA7"
-        ],
-        "fullFare":"15.7|15.7",
-        "journeyTime":"56|61",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8372",
-                "1"
-            ],
-            [
-                "LWB",
-                "8373",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:00:00|05:20:00|1200",
-                    "05:20:00|05:45:00|1500",
-                    "05:45:00|06:45:00|1200",
-                    "06:45:00|07:45:00|900",
-                    "07:45:00|09:25:00|1200",
-                    "09:25:00|22:55:00|1800",
-                    "22:55:00|23:45:00|1500"
-                ],
-                "480":[
-                    "05:00:00|05:20:00|1200",
-                    "05:20:00|05:45:00|1500",
-                    "05:45:00|14:25:00|1200",
-                    "14:25:00|22:55:00|1800",
-                    "22:55:00|23:45:00|1500"
-                ]
-            },
-            {
-                "511":[
-                    "0645",
-                    "0745"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A33X",
         "bound":"I",
         "service_type":"1",
         "orig_en":"Airport (Ground Transportation Centre)",
@@ -88556,71 +88484,6 @@
             {
                 "287":[
                     "1730"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A33X",
-        "bound":"I",
-        "service_type":"4",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Tuen Mun (Fu Tai Estate)",
-        "dest_tc":"屯門(富泰邨)",
-        "dest_sc":"屯门(富泰邨)",
-        "co":"KMB",
-        "stops":[
-            "0713774B2DB5E4D3",
-            "79C1BD3A3E91091D",
-            "9C9F817064169CE7",
-            "09C223E13435C61D",
-            "4B5144408E60BF11",
-            "4566E35B3D2C20B5",
-            "5055F6D68F0DD49D",
-            "4D02E857ADDE8AAF",
-            "818F12340BA8CA4B",
-            "571FE1F0FBB26545",
-            "C18A68BBD21DC5A6",
-            "EE1D84187D47C96C",
-            "A8B141D2ED68F7E1",
-            "5A781879E83B56A6",
-            "6B3EF5D982B399E6",
-            "CDE9BBBDE0226995",
-            "CBCE32D56C5263A9"
-        ],
-        "fullFare":"15.7",
-        "journeyTime":"56",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8372",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:45:00|07:45:00|3600",
-                    "07:45:00|08:10:00|1500",
-                    "08:10:00|14:10:00|1800",
-                    "14:10:00|14:35:00|1500",
-                    "14:35:00|17:15:00|1200",
-                    "17:15:00|17:55:00|2400",
-                    "17:55:00|18:55:00|900",
-                    "18:55:00|23:15:00|1200",
-                    "23:15:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
-                ],
-                "480":[
-                    "05:45:00|07:45:00|3600",
-                    "07:45:00|08:10:00|1500",
-                    "08:10:00|14:10:00|1800",
-                    "14:10:00|14:35:00|1500",
-                    "14:35:00|23:15:00|1200",
-                    "23:15:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
                 ]
             }
         ]
@@ -92514,9 +92377,9 @@
         "orig_en":"Kwai Fong (South)",
         "orig_tc":"葵芳(南)",
         "orig_sc":"葵芳(南)",
-        "dest_en":"Tung Chung Development Pier",
-        "dest_tc":"東涌發展碼頭",
-        "dest_sc":"东涌发展码头",
+        "dest_en":"Tung Chung Pier",
+        "dest_tc":"東涌碼頭",
+        "dest_sc":"东涌码头",
         "co":"KMB",
         "stops":[
             "32477B342BF2DC22",
@@ -92581,9 +92444,9 @@
         "route":"E32A",
         "bound":"I",
         "service_type":"1",
-        "orig_en":"Tung Chung Development Pier",
-        "orig_tc":"東涌發展碼頭",
-        "orig_sc":"东涌发展码头",
+        "orig_en":"Tung Chung Pier",
+        "orig_tc":"東涌碼頭",
+        "orig_sc":"东涌码头",
         "dest_en":"Kwai Fong (South)",
         "dest_tc":"葵芳(南)",
         "dest_sc":"葵芳(南)",
@@ -95293,7 +95156,7 @@
         "orig_en":"Fanling (Wah Ming)",
         "orig_tc":"粉嶺(華明)",
         "orig_sc":"粉岭(华明)",
-        "dest_en":"Tung Chung Development Pier",
+        "dest_en":"Tung Chung Pier",
         "dest_tc":"東涌發展碼頭",
         "dest_sc":"东涌发展码头",
         "co":"KMB",
@@ -95345,9 +95208,9 @@
         "route":"E43",
         "bound":"I",
         "service_type":"1",
-        "orig_en":"Tung Chung Development Pier",
-        "orig_tc":"東涌發展碼頭",
-        "orig_sc":"东涌发展码头",
+        "orig_en":"Tung Chung Pier",
+        "orig_tc":"東涌碼頭",
+        "orig_sc":"东涌码头",
         "dest_en":"Fanling (Wah Ming)",
         "dest_tc":"粉嶺(華明)",
         "dest_sc":"粉岭(华明)",
@@ -101988,9 +101851,9 @@
         "orig_en":"Tin Shui Wai",
         "orig_tc":"天水圍",
         "orig_sc":"天水围",
-        "dest_en":"Sai Sha Go Park (From Tai Po) (Circular)",
-        "dest_tc":"西沙 GO PARK  (由大埔出發 循環行走)",
-        "dest_sc":"西沙 GO PARK  (由大埔出发 循环行走)",
+        "dest_en":"Sai Sha Go Park (From Tin Shui Wai) (Circular)",
+        "dest_tc":"西沙 GO PARK  (由天水圍出發 循環行走)",
+        "dest_sc":"西沙 GO PARK  (由天水围出发 循环行走)",
         "co":"KMB",
         "stops":[
             "4B63964A12D91E2A",
@@ -102001,10 +101864,7 @@
             "A02CB1283981A937",
             "4B63964A12D91E2A"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "gtfsRouteKey":[]
     },
     {
         "route":"PB1B",
@@ -102055,7 +101915,10 @@
             "96E1024FD71C979F",
             "F493236404A4FABF"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"PB2B",
@@ -102064,9 +101927,9 @@
         "orig_en":"Tuen Mun Station (V City)",
         "orig_tc":"屯門站(V CITY)",
         "orig_sc":"屯门站(V CITY)",
-        "dest_en":"West Kowloon Cultural District",
-        "dest_tc":"西九文化區",
-        "dest_sc":"西九文化区",
+        "dest_en":"West Kowloon Cultural District(From Tuen Mun)",
+        "dest_tc":"西九文化區(由屯門出發 循環行走)",
+        "dest_sc":"西九文化区(由屯门出发 循环行走)",
         "co":"KMB",
         "stops":[
             "0678C85600B1A019",
@@ -102090,12 +101953,12 @@
         "route":"PB3A",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"九龍塘(多福道)",
-        "orig_tc":"KOWLOON TONG (TO FUK ROAD)",
-        "orig_sc":"KOWLOON TONG (TO FUK ROAD)",
-        "dest_en":"Harbour North",
-        "dest_tc":"北角匯",
-        "dest_sc":"北角汇",
+        "orig_en":"大埔超級城(太和路)",
+        "orig_tc":"TAI PO MEGA MALL (TAI WO ROAD)",
+        "orig_sc":"TAI PO MEGA MALL (TAI WO ROAD)",
+        "dest_en":"Discovery Bay Plaza",
+        "dest_tc":"愉景廣場",
+        "dest_sc":"愉景广场",
         "co":"KMB",
         "stops":[
             "C460A691CD8212DF",
@@ -102108,10 +101971,7 @@
             "D807FB5CE82945A2",
             "C460A691CD8212DF"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "gtfsRouteKey":[]
     },
     {
         "route":"PB3B",
@@ -102231,12 +102091,12 @@
         "route":"PBS1",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Central",
-        "orig_tc":"中環",
-        "orig_sc":"中环",
-        "dest_en":"Ma Wan(From Central) (Circular)",
-        "dest_tc":"馬灣(由中環出發 循環行走)",
-        "dest_sc":"马湾(由中环出发 循环行走)",
+        "orig_en":"Yuen Long",
+        "orig_tc":"元朗",
+        "orig_sc":"元朗",
+        "dest_en":"West Kowloon Cultural District(From Yuen Long )",
+        "dest_tc":"西九文化區(由元朗出發 循環行走)",
+        "dest_sc":"西九文化区(由元朗出发 循环行走)",
         "co":"KMB",
         "stops":[
             "E33098F43CF205B8",
@@ -102249,9 +102109,7 @@
             "A31DD8C4FD6740D4",
             "7033D904840D5F18",
             "0524415976F284A4",
-            "F050648C108571ED",
-            "232DC1B2BE92C86F",
-            "E33098F43CF205B8"
+            "F050648C108571ED"
         ],
         "fullFare":"",
         "journeyTime":"",
@@ -104793,7 +104651,7 @@
         "orig_en":"Tung Chung Station",
         "orig_tc":"東涌站",
         "orig_sc":"东涌站",
-        "dest_en":"Asiaworld Expo",
+        "dest_en":"Asiaworld-Expo",
         "dest_tc":"機場博覽館",
         "dest_sc":"机场博览馆",
         "co":"KMB",
@@ -104810,7 +104668,7 @@
         "route":"X1",
         "bound":"I",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo",
+        "orig_en":"Asiaworld-Expo",
         "orig_tc":"機場博覽館",
         "orig_sc":"机场博览馆",
         "dest_en":"Tung Chung Station",
@@ -104830,9 +104688,9 @@
         "route":"X33",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo Bus Terminus",
-        "orig_tc":"機場博覽館巴士總站",
-        "orig_sc":"机场博览馆巴士总站",
+        "orig_en":"Asiaworld-Expo",
+        "orig_tc":"機場博覽館",
+        "orig_sc":"机场博览馆",
         "dest_en":"Hung Fuk Estate, Hung Yuen Road",
         "dest_tc":"洪元路洪福邨",
         "dest_sc":"洪元路洪福邨",
@@ -104880,7 +104738,7 @@
         "route":"X36",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo",
+        "orig_en":"Asiaworld-Expo",
         "orig_tc":"機場博覽館",
         "orig_sc":"机场博览馆",
         "dest_en":"Kam Sheung Road Station",
@@ -104925,9 +104783,9 @@
         "route":"X40",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo Bus Terminus",
-        "orig_tc":"機場博覽館巴士總站",
-        "orig_sc":"机场博览馆巴士总站",
+        "orig_en":"Asiaworld-Expo",
+        "orig_tc":"機場博覽館",
+        "orig_sc":"机场博览馆",
         "dest_en":"Wu Kai Sha Station",
         "dest_tc":"烏溪沙站",
         "dest_sc":"乌溪沙站",
@@ -105282,9 +105140,9 @@
         "route":"X43",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo Bus Terminus",
-        "orig_tc":"機場博覽館巴士總站",
-        "orig_sc":"机场博览馆巴士总站",
+        "orig_en":"Asiaworld-Expo",
+        "orig_tc":"機場博覽館",
+        "orig_sc":"机场博览馆",
         "dest_en":"Fanling (Luen Wo Hui)",
         "dest_tc":"粉嶺(聯和墟)",
         "dest_sc":"粉岭(联和墟)",
@@ -105320,9 +105178,9 @@
         "route":"X47",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Asiaworld Expo Bus Terminus",
-        "orig_tc":"機場博覽館巴士總站",
-        "orig_sc":"机场博览馆巴士总站",
+        "orig_en":"Asiaworld-Expo",
+        "orig_tc":"機場博覽館",
+        "orig_sc":"机场博览馆",
         "dest_en":"Tai Po (Fu Heng)",
         "dest_tc":"大埔(富亨)",
         "dest_sc":"大埔(富亨)",
