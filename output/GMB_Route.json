@@ -4553,6 +4553,31 @@
     },
     {
         "co":"GMB",
+        "route":"116H",
+        "routeId":2011259,
+        "routeSeq":1,
+        "orig_tc":"香港中醫醫院",
+        "dest_tc":"將軍澳站公共運輸交匯處(循環線)",
+        "orig_sc":"香港中医医院",
+        "dest_sc":"将军澳站公共运输交汇处(循环线)",
+        "orig_en":"The Chinese Medicine Hospital",
+        "dest_en":"Tseung Kwan O Station Public Transport Interchange(Circular)",
+        "stops":[
+            20022405,
+            20022406,
+            20002650,
+            20002652,
+            20015238,
+            20015602,
+            20002648,
+            20022405
+        ],
+        "freq":[
+            {}
+        ]
+    },
+    {
+        "co":"GMB",
         "route":"116M",
         "routeId":2011127,
         "routeSeq":1,
