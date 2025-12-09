@@ -28962,7 +28962,7 @@
             "597CE200C2824BEE",
             "363A9BD5A7BE81D0",
             "53C49B85EBFF8AAE",
-            "CDB292D507E4302D",
+            "D055CA5BAD9EEF5E",
             "403CF34C7A6517DF",
             "D81F71DD9C66DB40",
             "7734D36599C82057",
@@ -68729,7 +68729,7 @@
         "co":"KMB",
         "stops":[
             "94A3E9298FD887C6",
-            "D055CA5BAD9EEF5E",
+            "11B658F68A9F577C",
             "FB5500F0D32629B2",
             "55D37B4406A049FB",
             "75BC2D1936D0EACD",
@@ -74187,12 +74187,28 @@
             "40A8EA2850B0979B",
             "B943DBEE65B0B18F",
             "5AF593F7A11180E2",
-            "92A8281D80524F78"
+            "92A8281D80524F78",
+            "E8A145669A392955"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"12.1",
+        "journeyTime":"90",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000315",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0715",
+                    "0735",
+                    "1705",
+                    "1720"
+                ]
+            }
+        ]
     },
     {
         "route":"290E",
@@ -74232,12 +74248,27 @@
             "B3F2EC8E42FA3184",
             "2307DECBF51E9D7F",
             "13B87ED5725EE00D",
-            "4A195F954ACD67C5"
+            "4A195F954ACD67C5",
+            "27EF80951F8ED49E"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"12.1",
+        "journeyTime":"90",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000315",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0655",
+                    "1730",
+                    "1750"
+                ]
+            }
+        ]
     },
     {
         "route":"290X",
@@ -74418,12 +74449,25 @@
             "40A8EA2850B0979B",
             "B943DBEE65B0B18F",
             "5AF593F7A11180E2",
-            "92A8281D80524F78"
+            "92A8281D80524F78",
+            "E8A145669A392955"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"12.1",
+        "journeyTime":"106",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000651",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1750"
+                ]
+            }
+        ]
     },
     {
         "route":"290X",
@@ -74557,12 +74601,27 @@
             "B3F2EC8E42FA3184",
             "2307DECBF51E9D7F",
             "B75CD6E70417E21B",
-            "471442D7E30D26EB"
+            "471442D7E30D26EB",
+            "E51AC47DDDA21250"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"12.1",
+        "journeyTime":"97",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "8680",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0630",
+                    "0700",
+                    "0730"
+                ]
+            }
+        ]
     },
     {
         "route":"291P",
@@ -75636,7 +75695,8 @@
             "CC2353289CD0EE66",
             "0A1D83D50B49933D",
             "38A37564B3F3CACF",
-            "6C3F6AF77695CAE9"
+            "6C3F6AF77695CAE9",
+            "0F283CD99F7295F3"
         ],
         "fullFare":"5.8",
         "journeyTime":"9",
@@ -75697,7 +75757,8 @@
             "38A37564B3F3CACF",
             "6C3F6AF77695CAE9",
             "7E5A9F7D64C12E4C",
-            "87CD68EAD90352E9"
+            "87CD68EAD90352E9",
+            "F5B19145922F18CC"
         ],
         "fullFare":"5.8",
         "journeyTime":"20",
@@ -75757,7 +75818,8 @@
             "38A37564B3F3CACF",
             "6C3F6AF77695CAE9",
             "7E5A9F7D64C12E4C",
-            "87CD68EAD90352E9"
+            "87CD68EAD90352E9",
+            "F5B19145922F18CC"
         ],
         "fullFare":"5.8",
         "journeyTime":"22",
