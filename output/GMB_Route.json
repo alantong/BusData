@@ -44891,6 +44891,29 @@
     {
         "co":"GMB",
         "route":"59B",
+        "routeId":2011292,
+        "routeSeq":1,
+        "orig_tc":"上水彩石邨",
+        "dest_tc":"石湖墟新豐路 (循環線)",
+        "orig_sc":"上水彩石村",
+        "dest_sc":"石湖墟新丰路 (循环线)",
+        "orig_en":"Choi Shek Estate",
+        "dest_en":"Shek Wu Hui San Fung Avenue (Circular)",
+        "stops":[
+            20022438,
+            20022439,
+            20014294,
+            20022440,
+            20020790,
+            20022441
+        ],
+        "freq":[
+            {}
+        ]
+    },
+    {
+        "co":"GMB",
+        "route":"59B",
         "routeId":2002714,
         "routeSeq":1,
         "orig_tc":"香港仔(東勝道)",
