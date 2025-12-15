@@ -8778,7 +8778,7 @@
         ],
         "bound":"O",
         "fullFare":"6.4",
-        "journeyTime":"45",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -8860,7 +8860,7 @@
         ],
         "bound":"I",
         "fullFare":"6.4|6.4",
-        "journeyTime":"45|51",
+        "journeyTime":"43|48",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -8962,7 +8962,7 @@
         ],
         "bound":"O",
         "fullFare":"7.5|7.5",
-        "journeyTime":"62|80",
+        "journeyTime":"68|76",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -9047,7 +9047,7 @@
         ],
         "bound":"I",
         "fullFare":"7.5|7.5",
-        "journeyTime":"62|80",
+        "journeyTime":"68|76",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -9158,7 +9158,7 @@
         ],
         "bound":"O",
         "fullFare":"6.4",
-        "journeyTime":"34",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -9220,7 +9220,7 @@
         ],
         "bound":"I",
         "fullFare":"6.4",
-        "journeyTime":"34",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -15585,8 +15585,11 @@
         ],
         "freq":[
             {
+                "287":[
+                    "08:10:00|22:10:00|1200"
+                ],
                 "480":[
-                    "10:45:00|20:25:00|1200"
+                    "10:50:00|22:10:00|1200"
                 ]
             }
         ]
@@ -15625,8 +15628,11 @@
         ],
         "freq":[
             {
+                "287":[
+                    "08:50:00|22:10:00|1200"
+                ],
                 "480":[
-                    "10:10:00|19:50:00|1200"
+                    "10:10:00|22:10:00|1200"
                 ]
             }
         ]
@@ -15666,13 +15672,8 @@
         ],
         "freq":[
             {
-                "287":[
-                    "06:40:00|22:10:00|1800"
-                ],
-                "480":[
-                    "06:40:00|13:40:00|1800",
-                    "13:40:00|20:40:00|1200",
-                    "20:40:00|22:10:00|1800"
+                "511":[
+                    "06:40:00|22:20:00|1200"
                 ]
             }
         ]
@@ -15713,13 +15714,8 @@
         ],
         "freq":[
             {
-                "287":[
-                    "06:10:00|21:40:00|1800"
-                ],
-                "480":[
-                    "06:10:00|13:10:00|1800",
-                    "13:10:00|20:10:00|1200",
-                    "20:10:00|21:40:00|1800"
+                "511":[
+                    "06:10:00|22:10:00|1200"
                 ]
             }
         ]
@@ -15754,7 +15750,7 @@
         ],
         "bound":"O",
         "fullFare":"12.3",
-        "journeyTime":"37",
+        "journeyTime":"26",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -15802,7 +15798,7 @@
         ],
         "bound":"I",
         "fullFare":"12.3",
-        "journeyTime":"37",
+        "journeyTime":"26",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -15853,10 +15849,22 @@
             "002629"
         ],
         "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"13.8",
+        "journeyTime":"75",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000654",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0750"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -15888,10 +15896,22 @@
             "003886"
         ],
         "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"13.8",
+        "journeyTime":"75",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000654",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1800"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -15919,10 +15939,22 @@
             "001540"
         ],
         "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"13.6",
+        "journeyTime":"72",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000655",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0740"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -15951,10 +15983,22 @@
             "003886"
         ],
         "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"13.6",
+        "journeyTime":"72",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000655",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1815"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -15978,10 +16022,22 @@
             "003888"
         ],
         "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"11.2",
+        "journeyTime":"70",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000656",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0805"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -16007,10 +16063,22 @@
             "003886"
         ],
         "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"11.2",
+        "journeyTime":"70",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000656",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1800"
+                ]
+            }
+        ]
     },
     {
         "co":"CTB",
@@ -22640,7 +22708,7 @@
         ],
         "bound":"O",
         "fullFare":"5.0",
-        "journeyTime":"22",
+        "journeyTime":"19",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -22705,7 +22773,7 @@
         ],
         "bound":"I",
         "fullFare":"5.0",
-        "journeyTime":"22",
+        "journeyTime":"19",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -22864,7 +22932,7 @@
         ],
         "bound":"O",
         "fullFare":"7.2",
-        "journeyTime":"21",
+        "journeyTime":"18",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -22904,7 +22972,7 @@
         ],
         "bound":"I",
         "fullFare":"7.2",
-        "journeyTime":"21",
+        "journeyTime":"18",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -26945,7 +27013,7 @@
         ],
         "bound":"O",
         "fullFare":"12.8",
-        "journeyTime":"98",
+        "journeyTime":"100",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27025,7 +27093,7 @@
         ],
         "bound":"I",
         "fullFare":"12.8",
-        "journeyTime":"98",
+        "journeyTime":"100",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27815,7 +27883,7 @@
         ],
         "bound":"O",
         "fullFare":"10.3|10.3|10.3",
-        "journeyTime":"56|57|83",
+        "journeyTime":"55|57|83",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27899,7 +27967,7 @@
         ],
         "bound":"I",
         "fullFare":"10.3",
-        "journeyTime":"56",
+        "journeyTime":"55",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -28214,7 +28282,7 @@
         ],
         "bound":"O",
         "fullFare":"13.1",
-        "journeyTime":"78",
+        "journeyTime":"96",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -28267,7 +28335,7 @@
         ],
         "bound":"I",
         "fullFare":"13.1",
-        "journeyTime":"78",
+        "journeyTime":"96",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -28316,7 +28384,7 @@
         ],
         "bound":"O",
         "fullFare":"13.1",
-        "journeyTime":"71",
+        "journeyTime":"66",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -28367,20 +28435,29 @@
             "002923"
         ],
         "bound":"I",
-        "fullFare":"13.1",
-        "journeyTime":"71",
+        "fullFare":"13.1|13.1",
+        "journeyTime":"66|87",
         "gtfsRouteKey":[
             [
                 "CTB",
                 "1000288",
+                "1"
+            ],
+            [
+                "CTB",
+                "1000662",
                 "1"
             ]
         ],
         "freq":[
             {
                 "287":[
-                    "0700",
                     "1820"
+                ]
+            },
+            {
+                "287":[
+                    "0700"
                 ]
             }
         ]
@@ -38507,12 +38584,17 @@
             "002432"
         ],
         "bound":"O",
-        "fullFare":"24.4",
-        "journeyTime":"76",
+        "fullFare":"24.4|24.4",
+        "journeyTime":"70|77",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
                 "8402",
+                "1"
+            ],
+            [
+                "KMB+CTB",
+                "1000668",
                 "1"
             ]
         ],
@@ -38523,12 +38605,16 @@
                     "0713",
                     "0721",
                     "0729",
-                    "0737",
-                    "0745",
-                    "0753",
-                    "0801",
                     "0810",
                     "0820"
+                ]
+            },
+            {
+                "287":[
+                    "0727",
+                    "0735",
+                    "0743",
+                    "0751"
                 ]
             }
         ]
@@ -38567,12 +38653,17 @@
             "003886"
         ],
         "bound":"I",
-        "fullFare":"24.4",
-        "journeyTime":"69",
+        "fullFare":"24.4|24.4",
+        "journeyTime":"68|76",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
                 "8403",
+                "1"
+            ],
+            [
+                "KMB+CTB",
+                "1000669",
                 "1"
             ]
         ],
@@ -38581,12 +38672,16 @@
                 "287":[
                     "1745",
                     "1753",
+                    "1837",
+                    "1849"
+                ]
+            },
+            {
+                "287":[
                     "1801",
                     "1809",
                     "1817",
-                    "1825",
-                    "1837",
-                    "1849"
+                    "1825"
                 ]
             }
         ]
@@ -40871,25 +40966,10 @@
             "001837"
         ],
         "bound":"O",
-        "fullFare":"47.1",
-        "journeyTime":"52",
-        "gtfsRouteKey":[
-            [
-                "CTB",
-                "1000611",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -41232,6 +41312,41 @@
                 ]
             }
         ]
+    },
+    {
+        "co":"CTB",
+        "route":"A28X",
+        "orig_tc":"將軍澳站",
+        "orig_en":"Tseung Kwan O Station",
+        "dest_tc":"機場 (經港珠澳大橋香港口岸)",
+        "dest_en":"Airport (via HZMB Hong Kong Port)",
+        "orig_sc":"将军澳站",
+        "dest_sc":"机场 (经港珠澳大桥香港口岸)",
+        "stops":[
+            "002918",
+            "001820",
+            "002917",
+            "002906",
+            "002933",
+            "003477",
+            "003473",
+            "003160",
+            "002930",
+            "003329",
+            "002919",
+            "002920",
+            "003785",
+            "001853",
+            "001844",
+            "002714",
+            "003550",
+            "001837"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -46442,7 +46557,7 @@
         ],
         "bound":"O",
         "fullFare":"13.5",
-        "journeyTime":"42",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -50594,25 +50709,10 @@
             "001027"
         ],
         "bound":"O",
-        "fullFare":"25.8",
-        "journeyTime":"33",
-        "gtfsRouteKey":[
-            [
-                "KMB+CTB",
-                "1000578",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -50650,25 +50750,10 @@
             "001382"
         ],
         "bound":"O",
-        "fullFare":"30.0",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "CTB",
-                "1000586",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -50684,25 +50769,10 @@
             "003623"
         ],
         "bound":"O",
-        "fullFare":"28.4",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB+CTB",
-                "1000610",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -50719,25 +50789,10 @@
             "001559"
         ],
         "bound":"O",
-        "fullFare":"12.8",
-        "journeyTime":"20",
-        "gtfsRouteKey":[
-            [
-                "CTB",
-                "1000577",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -50793,25 +50848,10 @@
             "003329"
         ],
         "bound":"O",
-        "fullFare":"21.0",
-        "journeyTime":"50",
-        "gtfsRouteKey":[
-            [
-                "CTB",
-                "1000585",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "272":[
-                    "22:15:00|23:00:00|900"
-                ],
-                "288":[
-                    "22:15:00|23:00:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
