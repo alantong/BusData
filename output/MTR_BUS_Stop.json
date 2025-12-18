@@ -6904,7 +6904,7 @@
         "stop":"K66A-U205",
         "lat":"22.4135439",
         "long":"114.0277212",
-        "name_tc":"大棠山路",
+        "name_tc":"大棠山道",
         "name_en":"Tai Tong Shan Road"
     },
     {
@@ -6915,7 +6915,7 @@
         "stop":"K66A-D025",
         "lat":"22.4135439",
         "long":"114.0277212",
-        "name_tc":"大棠山路",
+        "name_tc":"大棠山道",
         "name_en":"Tai Tong Shan Road"
     },
     {
@@ -9788,5 +9788,115 @@
         "long":"113.999661",
         "name_tc":"天恆",
         "name_en":"Tin Heng"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "stopSeq":"1",
+        "stop":"K76S-U010",
+        "lat":"22.465762",
+        "long":"114.006304",
+        "name_tc":"濕地公園路(近天葵路)",
+        "name_en":"Wetland Park Road (near Tin Kwai Road)"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "stopSeq":"2",
+        "stop":"K76S-U015",
+        "lat":"22.469204",
+        "long":"114.002755",
+        "name_tc":"輕鐵濕地公園站",
+        "name_en":"LR Wetland Park Stop"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "stopSeq":"3",
+        "stop":"K76S-U020",
+        "lat":"22.468178",
+        "long":"113.999383",
+        "name_tc":"天逸邨逸潭樓",
+        "name_en":"Yat Tam House"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "stopSeq":"4",
+        "stop":"K76S-U030",
+        "lat":"22.464353",
+        "long":"113.997442",
+        "name_tc":"天富苑欣富閣",
+        "name_en":"Yan Fu House"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "stopSeq":"5",
+        "stop":"K76S-U040",
+        "lat":"22.446864",
+        "long":"114.002819",
+        "name_tc":"天盛苑",
+        "name_en":"Tin Shing Court"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "stopSeq":"1",
+        "stop":"K76S-D010",
+        "lat":"22.446556",
+        "long":"114.003731",
+        "name_tc":"天水圍站",
+        "name_en":"Tin Shui Wai Station"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "stopSeq":"2",
+        "stop":"K76S-D020",
+        "lat":"22.464592",
+        "long":"113.99725",
+        "name_tc":"天恩邨",
+        "name_en":"Tin Yan Estate"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "stopSeq":"3",
+        "stop":"K76S-D030",
+        "lat":"22.468061",
+        "long":"113.999058",
+        "name_tc":"天澤邨",
+        "name_en":"Tin Chak Estate"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "stopSeq":"4",
+        "stop":"K76S-D040",
+        "lat":"22.469919",
+        "long":"114.002782",
+        "name_tc":"輕鐵濕地公園站",
+        "name_en":"LR Wetland Park Stop"
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "stopSeq":"5",
+        "stop":"K76S-D050",
+        "lat":"22.466018",
+        "long":"114.006408",
+        "name_tc":"濕地公園路(近天葵路)",
+        "name_en":"Wetland Park Road (near Tin Kwai Road)"
     }
 ]

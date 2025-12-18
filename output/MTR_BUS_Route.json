@@ -7470,7 +7470,7 @@
         "route":"K66A",
         "bound":"O",
         "orig_tc":"朗屏",
-        "dest_tc":"大棠山路",
+        "dest_tc":"大棠山道",
         "orig_en":"Long Ping",
         "dest_en":"Tai Tong Shan Road",
         "stops":[
@@ -7503,7 +7503,7 @@
         "co":"MTR_BUS",
         "route":"K66A",
         "bound":"I",
-        "orig_tc":"大棠山路",
+        "orig_tc":"大棠山道",
         "dest_tc":"朗屏",
         "orig_en":"Tai Tong Shan Road",
         "dest_en":"Long Ping",
@@ -12627,6 +12627,83 @@
                     "09:00:00|11:00:00|1800",
                     "11:00:00|16:00:00|1200",
                     "16:00:00|18:00:00|3600"
+                ]
+            }
+        ]
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"O",
+        "orig_tc":"濕地公園路(近天葵路)",
+        "dest_tc":"天盛苑(港鐵天水圍站)",
+        "orig_en":"Wetland Park Road (near Tin Kwai Road)",
+        "dest_en":"Tin Shing Court (MTR Tin Shui Wai Station)",
+        "stops":[
+            "K76S-U010",
+            "K76S-U015",
+            "K76S-U020",
+            "K76S-U030",
+            "K76S-U040"
+        ],
+        "fullFare":"5.1",
+        "journeyTime":"14",
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000066",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0700",
+                    "0730",
+                    "0800",
+                    "0810",
+                    "0820",
+                    "0830",
+                    "0835",
+                    "0900",
+                    "0905",
+                    "0935"
+                ]
+            }
+        ]
+    },
+    {
+        "co":"MTR_BUS",
+        "route":"K76S",
+        "bound":"I",
+        "orig_tc":"天盛苑(港鐵天水圍站)",
+        "dest_tc":"濕地公園路(近天葵路)",
+        "orig_en":"Tin Shing Court (MTR Tin Shui Wai Station)",
+        "dest_en":"Wetland Park Road (near Tin Kwai Road)",
+        "stops":[
+            "K76S-D010",
+            "K76S-D020",
+            "K76S-D030",
+            "K76S-D040",
+            "K76S-D050"
+        ],
+        "fullFare":"5.1",
+        "journeyTime":"14",
+        "gtfsRouteKey":[
+            [
+                "LRTFeeder",
+                "1000066",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1825",
+                    "1855",
+                    "1925",
+                    "1955",
+                    "2025"
                 ]
             }
         ]
