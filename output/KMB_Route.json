@@ -13114,6 +13114,41 @@
         ]
     },
     {
+        "route":"33X",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tsuen Wan West Station",
+        "orig_tc":"荃灣西站",
+        "orig_sc":"荃湾西站",
+        "dest_en":"Yau Tong",
+        "dest_tc":"油塘",
+        "dest_sc":"油塘",
+        "co":"KMB",
+        "stops":[
+            "6296109576D60CBB",
+            "F9FB27004CA4B62B",
+            "73E530058FD534D3",
+            "3357B55DE2539CA3",
+            "A0C0A82ECC740D76",
+            "170375F0819EB588",
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
+            "81C6D8E74259157E",
+            "5D8FCEF2915882FD",
+            "C2605DED84199B84",
+            "BF8E440F5584D39D",
+            "8A928A173E67CD96",
+            "41E95E283D770EF7",
+            "9C839C3824F47A6A",
+            "CB4BB0008A87E4FC",
+            "3EAFE91BF6223FA6"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"34",
         "bound":"O",
         "service_type":"1",
@@ -40846,7 +40881,7 @@
             "3221A3FF8CA898FF",
             "0ACB63B00DEE1B37",
             "CEA9610F9443BD8D",
-            "F97399CFEEB9219B",
+            "50C432C497A20C1C",
             "91AED9CBCE81500D",
             "7BFC2AE979358DA7",
             "2E6DB54618C13048",
@@ -41362,7 +41397,7 @@
             "0ACB63B00DEE1B37",
             "E21A497AF62AF38F",
             "CEA9610F9443BD8D",
-            "06E1120EA9A7BF69",
+            "50C432C497A20C1C",
             "91AED9CBCE81500D",
             "31B93EAF018D6956",
             "E7A8D18CC7046843",
@@ -41537,7 +41572,7 @@
             "0ACB63B00DEE1B37",
             "E21A497AF62AF38F",
             "CEA9610F9443BD8D",
-            "06E1120EA9A7BF69",
+            "50C432C497A20C1C",
             "91AED9CBCE81500D",
             "31B93EAF018D6956",
             "E7A8D18CC7046843",
@@ -41626,7 +41661,7 @@
             "0ACB63B00DEE1B37",
             "E21A497AF62AF38F",
             "CEA9610F9443BD8D",
-            "06E1120EA9A7BF69",
+            "50C432C497A20C1C",
             "91AED9CBCE81500D",
             "31B93EAF018D6956",
             "C57C924EEB5463E5",
@@ -58826,6 +58861,100 @@
         ]
     },
     {
+        "route":"252S",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Handsome Court",
+        "orig_tc":"恒順園",
+        "orig_sc":"恒顺园",
+        "dest_en":"Kwun Tong Ferry",
+        "dest_tc":"觀塘碼頭",
+        "dest_sc":"观塘码头",
+        "co":"KMB",
+        "stops":[
+            "46D78D8886A71B3B",
+            "630AA1866C5372B6",
+            "C90375A74B02D2E8",
+            "EEC48EC880FC63CB",
+            "242418A9AB386596",
+            "A9D85812EAEE6C17",
+            "971554761E4413EF",
+            "7FB2AE7FA13EDB0F",
+            "79D10A715EAC0EFF",
+            "130015EE1C05A484",
+            "0F9DE5E3F13FBABA",
+            "FCE8D0E0D2A89B8B",
+            "D77779E531F14725",
+            "4F64DA53415F3128",
+            "BF7FD3BC4994EBE5",
+            "9DC117C78DBDB1A7",
+            "BD52FF1BA0AC99BE",
+            "1F2376A52800A2CA",
+            "0B72FFAB7F7230E4",
+            "E3E5521CAFDD5DCE",
+            "846872B8B3E76E7D",
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
+            "81C6D8E74259157E",
+            "5D8FCEF2915882FD",
+            "C2605DED84199B84",
+            "BF8E440F5584D39D",
+            "2255A14989E8F149"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"252S",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Kwun Tong Ferry",
+        "orig_tc":"觀塘碼頭",
+        "orig_sc":"观塘码头",
+        "dest_en":"Tuen Mun (Chi Lok Fa Yuen)",
+        "dest_tc":"屯門(置樂花園)",
+        "dest_sc":"屯门(置乐花园)",
+        "co":"KMB",
+        "stops":[
+            "2255A14989E8F149",
+            "D39533060940818A",
+            "14894C859FDFE8C3",
+            "A21BEB6F4E6D43E6",
+            "2F1F9CF16B9E65AF",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
+            "C1590716F6FABC50",
+            "3CCF4F6EA48CF505",
+            "7AECAF57AF679EE7",
+            "116624D40FDE852C",
+            "DA8B258D68133BDD",
+            "75DEBB78067301B8",
+            "D4CE0ED4DF009B66",
+            "B714B480F96C22D5",
+            "531B557CFBFFD232",
+            "46261DE8D4DFD821",
+            "5A3DB1CED74A109E",
+            "22E22257A0FA43D3",
+            "752B1B808E1B4CB5",
+            "79D10A715EAC0EFF",
+            "F626C47C1F73E1AE",
+            "813A44129E51981F",
+            "8972CD96C0B11BB2",
+            "4AA82FE086BA80FD",
+            "3410D9B6EF36D674",
+            "9D88EE061FF5E1D0",
+            "3F0C9DF601178557",
+            "2BD0ACE05ADB9AD1",
+            "459BE083B86A8337"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"252X",
         "bound":"O",
         "service_type":"1",
@@ -59563,7 +59692,8 @@
             "14894C859FDFE8C3",
             "A21BEB6F4E6D43E6",
             "2F1F9CF16B9E65AF",
-            "0EAFBD8737911A6A",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "0269A1F9D98C737E",
             "88229183EDC0B6E9",
             "D010FF7CF77383B7",
@@ -59574,8 +59704,7 @@
             "78B537644BD4FE00",
             "542CC0EC83BAEA01",
             "840532B7C95DF870",
-            "315BE0CA231DCD4F",
-            "9F5B57C2FE7E786D"
+            "315BE0CA231DCD4F"
         ],
         "fullFare":"20.8",
         "journeyTime":"105",
@@ -60020,13 +60149,60 @@
             "07B714029E91FD81",
             "913F2DF20E573CEA",
             "846872B8B3E76E7D",
-            "29ED2073D6C52B5A",
+            "416B7606A9A5FEEB",
             "327E4BC13954EA86",
             "81C6D8E74259157E",
             "5D8FCEF2915882FD",
             "C2605DED84199B84",
             "BF8E440F5584D39D",
             "2255A14989E8F149"
+        ],
+        "fullFare":"20.8",
+        "journeyTime":"96",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000228",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0720"
+                ]
+            }
+        ]
+    },
+    {
+        "route":"259S",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Kwun Tong Ferry",
+        "orig_tc":"觀塘碼頭",
+        "orig_sc":"观塘码头",
+        "dest_en":"Tuen Mun (Lung Mun Oasis)",
+        "dest_tc":"屯門(龍門居)",
+        "dest_sc":"屯门(龙门居)",
+        "co":"KMB",
+        "stops":[
+            "2255A14989E8F149",
+            "D39533060940818A",
+            "14894C859FDFE8C3",
+            "A21BEB6F4E6D43E6",
+            "2F1F9CF16B9E65AF",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
+            "0269A1F9D98C737E",
+            "88229183EDC0B6E9",
+            "64312A5DFF11636C",
+            "CB2A65E69B2B71BE",
+            "5A592ED96E34B583",
+            "4521D614AE85C1A5",
+            "69EA07FBAB612E68",
+            "16B7A6679BD8903B",
+            "8983CAC3634DD53D",
+            "F4332C65563587A2"
         ],
         "fullFare":"20.8",
         "journeyTime":"96",
@@ -60067,7 +60243,7 @@
             "1ACA45F806F2554A",
             "F69B2B317BEB37A3",
             "846872B8B3E76E7D",
-            "29ED2073D6C52B5A",
+            "416B7606A9A5FEEB",
             "327E4BC13954EA86",
             "81C6D8E74259157E",
             "5D8FCEF2915882FD",
@@ -60111,7 +60287,8 @@
             "14894C859FDFE8C3",
             "A21BEB6F4E6D43E6",
             "2F1F9CF16B9E65AF",
-            "0EAFBD8737911A6A",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "0269A1F9D98C737E",
             "A8B22902BD665766",
             "320704B87EF998D4",
@@ -60119,26 +60296,12 @@
             "667E322246C6F7FA",
             "015AD88813C61900",
             "B88E6F52E2BC2E34",
-            "3FAE59A79C8BCC93",
-            "F4332C65563587A2"
+            "3FAE59A79C8BCC93"
         ],
-        "fullFare":"20.8",
-        "journeyTime":"90",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8311",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1750",
-                    "1820"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"259X",
@@ -60155,7 +60318,8 @@
             "327E4BC13954EA86",
             "A21BEB6F4E6D43E6",
             "2F1F9CF16B9E65AF",
-            "0EAFBD8737911A6A",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "0269A1F9D98C737E",
             "A8B22902BD665766",
             "320704B87EF998D4",
@@ -60163,25 +60327,12 @@
             "667E322246C6F7FA",
             "015AD88813C61900",
             "B88E6F52E2BC2E34",
-            "3FAE59A79C8BCC93",
-            "F4332C65563587A2"
+            "3FAE59A79C8BCC93"
         ],
-        "fullFare":"20.8",
-        "journeyTime":"78",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000492",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1730"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"260B",
@@ -63359,8 +63510,8 @@
             "30A583775F35FD7D",
             "3ECEF3B735084236",
             "211D93217331B040",
-            "96A6FE5F07BDF203",
-            "9A0959AB68FA5E1F",
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
             "81C6D8E74259157E",
             "5D8FCEF2915882FD",
             "C2605DED84199B84",
@@ -63403,7 +63554,8 @@
             "14894C859FDFE8C3",
             "A21BEB6F4E6D43E6",
             "9268B442F0C2807E",
-            "7917BB962CCB11C0",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "643D73028E9E8490",
             "E481F7170B1F6FC3",
             "21DA1E33BF580B96",
@@ -63413,26 +63565,12 @@
             "A010FE2C473103A8",
             "70FEB409760C77EE",
             "1C0A89BD67A4CFF0",
-            "6723518D536070AB",
-            "F7EA40235ECCBA38"
+            "6723518D536070AB"
         ],
-        "fullFare":"20.8",
-        "journeyTime":"90",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8578",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1750",
-                    "1810"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"268X",
@@ -64809,8 +64947,8 @@
             "A12E1F37C7D98567",
             "3ECEF3B735084236",
             "211D93217331B040",
-            "96A6FE5F07BDF203",
-            "9A0959AB68FA5E1F",
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
             "81C6D8E74259157E",
             "5D8FCEF2915882FD",
             "C2605DED84199B84",
@@ -64858,8 +64996,8 @@
             "79C0E2525F4B50FF",
             "3ECEF3B735084236",
             "211D93217331B040",
-            "96A6FE5F07BDF203",
-            "9A0959AB68FA5E1F",
+            "416B7606A9A5FEEB",
+            "327E4BC13954EA86",
             "81C6D8E74259157E",
             "5D8FCEF2915882FD",
             "C2605DED84199B84",
@@ -64900,7 +65038,8 @@
             "14894C859FDFE8C3",
             "A21BEB6F4E6D43E6",
             "9268B442F0C2807E",
-            "7917BB962CCB11C0",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "643D73028E9E8490",
             "0D7A1D0AECA1D999",
             "A264A7BA921EEE6E",
@@ -64911,26 +65050,12 @@
             "F97A667725CDEB82",
             "63DF37D89C356A04",
             "FE801C732EC6EA42",
-            "537F93CCE45CB56F",
-            "DFC270E9F05B557E"
+            "537F93CCE45CB56F"
         ],
-        "fullFare":"20.8",
-        "journeyTime":"102",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8365",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1740",
-                    "1800"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"269S",
@@ -64949,7 +65074,8 @@
             "14894C859FDFE8C3",
             "A21BEB6F4E6D43E6",
             "9268B442F0C2807E",
-            "7917BB962CCB11C0",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
             "643D73028E9E8490",
             "0D7A1D0AECA1D999",
             "71D916F7E97D18A3",
@@ -64958,25 +65084,12 @@
             "1BE574CAE40EFF17",
             "797CC0222B9EFBEF",
             "308112BE50081258",
-            "537F93CCE45CB56F",
-            "DFC270E9F05B557E"
+            "537F93CCE45CB56F"
         ],
-        "fullFare":"20.8",
-        "journeyTime":"96",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000529",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1810"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"269X",
@@ -68597,6 +68710,7 @@
             "5ED989C30DF49DE4",
             "D96A94B0ED4E873A",
             "7FD05121B0A4A750",
+            "664BAA2EA12B80B1",
             "739A5DDE0CF1970C",
             "34E1E68A3C2AFE81",
             "2D1A8946EF054FC9",
@@ -68608,38 +68722,19 @@
             "0D9F5E10DA9CCE02",
             "05485C36CA334A81",
             "FDDA176977136CD9",
+            "6716018C3EE42733",
             "446E33686D9C02E0",
             "F9C14690633CE7E0",
             "7BCFD79F22F60457",
             "32C1F605CAAD7861",
             "DAC33107054B9FED",
             "4705F639E370A9AD",
-            "95CEED87CBDA3B02",
-            "CAB927254C5D8892",
-            "3D8A0FB3051B32EC"
+            "95CEED87CBDA3B02"
         ],
-        "fullFare":"9.1",
-        "journeyTime":"51",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1133",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "07:00:00|07:45:00|900",
-                    "07:45:00|08:45:00|1200",
-                    "08:45:00|10:15:00|1800"
-                ],
-                "480":[
-                    "07:15:00|09:15:00|1200",
-                    "09:15:00|10:15:00|1800"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"274P",
@@ -68675,34 +68770,17 @@
             "1D1571E9D1588FBE",
             "64101F297D3C1C55",
             "5B39CC28607910E4",
+            "E27820FF0AF73D52",
             "CB667DC000F66D40",
             "857F6F958A96DCDB",
             "3A450B5AD5AF1605",
             "0E2175C0750054FE",
-            "A90443FD0C19C4B1",
-            "91CD1740B6AC752B"
+            "A90443FD0C19C4B1"
         ],
-        "fullFare":"9.1",
-        "journeyTime":"51",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1133",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "17:00:00|18:00:00|900",
-                    "18:00:00|20:00:00|1800"
-                ],
-                "480":[
-                    "17:00:00|19:00:00|1200",
-                    "19:00:00|20:00:00|1800"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"274X",
@@ -102143,9 +102221,9 @@
         "route":"PB1B",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Kai Tak Airside",
-        "orig_tc":"啟德 AIRSIDE",
-        "orig_sc":"启德 AIRSIDE",
+        "orig_en":"West Kowloon Cultural District",
+        "orig_tc":"西九文化區",
+        "orig_sc":"西九文化区",
         "dest_en":"Go Park Sai Sha",
         "dest_tc":"西沙 GO PARK",
         "dest_sc":"西沙 GO PARK",
