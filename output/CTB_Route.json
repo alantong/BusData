@@ -45526,6 +45526,45 @@
     },
     {
         "co":"CTB",
+        "route":"H3",
+        "orig_tc":"中環碼頭 -香港摩天輪",
+        "orig_en":"Central Ferry - Hong Kong Observation Wheel",
+        "dest_tc":"赤柱村／赤柱市集  ．落日飛車",
+        "dest_en":"Stanley Village / Stanley Market",
+        "orig_sc":"中环码头 -香港摩天轮",
+        "dest_sc":"赤柱村／赤柱市集  ．落日飞车",
+        "stops":[
+            "003339",
+            "001139",
+            "003300",
+            "002225",
+            "002201",
+            "002252",
+            "002378",
+            "002281",
+            "002305",
+            "002275"
+        ],
+        "bound":"O",
+        "fullFare":"49.7",
+        "journeyTime":"50",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000608",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "10:00:00|17:00:00|3600"
+                ]
+            }
+        ]
+    },
+    {
+        "co":"CTB",
         "route":"H4",
         "orig_tc":"赤柱村／赤柱市集",
         "orig_en":"Stanley Village / Stanley Market",
@@ -45534,6 +45573,10 @@
         "orig_sc":"赤柱村／赤柱市集",
         "dest_sc":"中环码头 -香港摩天轮 ．落日飞车",
         "stops":[
+            "002275",
+            "002378",
+            "002241",
+            "002197",
             "002225",
             "002161",
             "002227",

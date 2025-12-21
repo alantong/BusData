@@ -13149,6 +13149,42 @@
         "freq":[]
     },
     {
+        "route":"33X",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Yau Tong",
+        "orig_tc":"油塘",
+        "orig_sc":"油塘",
+        "dest_en":"Tsuen Wan West Station",
+        "dest_tc":"荃灣西站",
+        "dest_sc":"荃湾西站",
+        "co":"KMB",
+        "stops":[
+            "3EAFE91BF6223FA6",
+            "5309D748976029CB",
+            "3C6DAB7267F9E54F",
+            "73E85E88E124EF2C",
+            "81C1875EBC7FD3E4",
+            "FDB6E3CC223991D1",
+            "F8D908466E28E9C2",
+            "70CD99F4D487740A",
+            "992F89F2265F8D8D",
+            "A21BEB6F4E6D43E6",
+            "1E71CBFE8560B0EF",
+            "29ED2073D6C52B5A",
+            "F90ED764C7A95649",
+            "2AB6DAEF7149F0FC",
+            "65784B3D2E189B56",
+            "E5F3EF7B050DA88F",
+            "E8B842CC3AB62056",
+            "716D84D1B7EA256E"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"34",
         "bound":"O",
         "service_type":"1",
@@ -64429,19 +64465,19 @@
         "dest_sc":"沥源",
         "co":"KMB",
         "stops":[
-            "D834EE67780F47CD",
+            "1C0880C222B43889",
             "FE801C732EC6EA42",
             "6E460327848C5225",
             "71D916F7E97D18A3",
             "42AEF6365E78DA56",
             "8753A8442C2FFF53",
             "8D56DB404D264D5A",
-            "A00D00FC2F4F8400",
-            "C052B4D46E1F48EA",
-            "AFB9321F7CD2C2E4",
-            "7898B605E39613A8",
-            "0BC0F64B076ED373",
-            "5DE9BD1D773946A0",
+            "354E46F8DC71E908",
+            "BD53690B9DA1C956",
+            "DC5B5F4350685442",
+            "1C8B2E9FA7FFEB2D",
+            "14380311740FE44A",
+            "34BA638C9E27EB46",
             "878E5C4AF6C4B0D4",
             "81B719F7DC3F0FAD",
             "9E8E99C5BB698AC2",
@@ -101035,25 +101071,9 @@
             "88B9BE4ED93A3292",
             "7469F3B24F889F1B",
             "8DBA8FDF35CE7CC0",
-            "FD27DF93530C7540"
+            "A4F1BEF1EEAD0910"
         ],
-        "fullFare":"34.6",
-        "journeyTime":"64",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000029",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "00:10:00|02:10:00|1800",
-                    "02:10:00|02:30:00|1200"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"NA36",
@@ -102603,6 +102623,33 @@
             "7033D904840D5F18",
             "D39BE9923B1C7294",
             "875B01AC78127A53",
+            "A02CB1283981A937"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"PN7",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"MTR Tsuen Wan West Station",
+        "orig_tc":"港鐵荃灣西站",
+        "orig_sc":"港铁荃湾西站",
+        "dest_en":"Wan Chai Harbour Promenade",
+        "dest_tc":"灣仔海濱",
+        "dest_sc":"湾仔海滨",
+        "co":"KMB",
+        "stops":[
+            "A02CB1283981A937",
+            "321060BAE1447BEE",
+            "4B63964A12D91E2A",
+            "1E5B31D284632D4B",
+            "693C1DEE3AEEEE51",
+            "232DC1B2BE92C86F",
+            "4B63964A12D91E2A",
+            "321060BAE1447BEE",
             "A02CB1283981A937"
         ],
         "fullFare":"",

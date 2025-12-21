@@ -13923,6 +13923,24 @@
         "co":"KMB"
     },
     {
+        "stop":"81C1875EBC7FD3E4",
+        "name_en":"Cha Kwo Ling Road (LT400)",
+        "name_tc":"茶果嶺道 (LT400)",
+        "name_sc":"茶果岭道 (LT400)",
+        "lat":"22.300048",
+        "long":"114.228399",
+        "co":"KMB"
+    },
+    {
+        "stop":"FDB6E3CC223991D1",
+        "name_en":"Wai Lok Street, Kwun Tong (KT570)",
+        "name_tc":"觀塘偉樂街 (KT570)",
+        "name_sc":"观塘伟乐街 (KT570)",
+        "lat":"22.305268",
+        "long":"114.225305",
+        "co":"KMB"
+    },
+    {
         "stop":"06990DFEA90A3147",
         "name_en":"Kwai Shing Central Bus Terminus (KW950)",
         "name_tc":"葵盛中巴士總站 (KW950)",
@@ -15540,15 +15558,6 @@
         "name_sc":"丽港中心 (LT545)",
         "lat":"22.305334",
         "long":"114.227752",
-        "co":"KMB"
-    },
-    {
-        "stop":"FDB6E3CC223991D1",
-        "name_en":"Wai Lok Street, Kwun Tong (KT570)",
-        "name_tc":"觀塘偉樂街 (KT570)",
-        "name_sc":"观塘伟乐街 (KT570)",
-        "lat":"22.305268",
-        "long":"114.225305",
         "co":"KMB"
     },
     {
@@ -36198,15 +36207,6 @@
         "co":"KMB"
     },
     {
-        "stop":"81C1875EBC7FD3E4",
-        "name_en":"Cha Kwo Ling Road (LT400)",
-        "name_tc":"茶果嶺道 (LT400)",
-        "name_sc":"茶果岭道 (LT400)",
-        "lat":"22.300048",
-        "long":"114.228399",
-        "co":"KMB"
-    },
-    {
         "stop":"E94AD3FBEF23A842",
         "name_en":"Wan Hang House, Wan Tau Tong Estate (TP200)",
         "name_tc":"運頭塘邨運亨樓 (TP200)",
@@ -44232,6 +44232,69 @@
         "name_sc":"天水围站总站 (TN910)",
         "lat":"22.446542",
         "long":"114.004007",
+        "co":"KMB"
+    },
+    {
+        "stop":"1C0880C222B43889",
+        "name_en":"Tin Fu Bus Terminus (TN960)",
+        "name_tc":"天富總站 (TN960)",
+        "name_sc":"天富总站 (TN960)",
+        "lat":"22.462538",
+        "long":"113.998380",
+        "co":"KMB"
+    },
+    {
+        "stop":"354E46F8DC71E908",
+        "name_en":"Tin Chung Court (TN504)",
+        "name_tc":"天頌苑 (TN504)",
+        "name_sc":"天颂苑 (TN504)",
+        "lat":"22.460433",
+        "long":"113.997193",
+        "co":"KMB"
+    },
+    {
+        "stop":"BD53690B9DA1C956",
+        "name_en":"Tin Shui Estate (TN507)",
+        "name_tc":"天瑞邨 (TN507)",
+        "name_sc":"天瑞邨 (TN507)",
+        "lat":"22.456648",
+        "long":"113.999285",
+        "co":"KMB"
+    },
+    {
+        "stop":"DC5B5F4350685442",
+        "name_en":"Tin Shui Wai Park (TN510)",
+        "name_tc":"天水圍公園 (TN510)",
+        "name_sc":"天水围公园 (TN510)",
+        "lat":"0.000000",
+        "long":"0.000000",
+        "co":"KMB"
+    },
+    {
+        "stop":"1C8B2E9FA7FFEB2D",
+        "name_en":"Yiu Shing House Tin Yiu Estate (TN570)",
+        "name_tc":"天耀邨耀盛樓 (TN570)",
+        "name_sc":"天耀邨耀盛楼 (TN570)",
+        "lat":"22.452363",
+        "long":"114.002285",
+        "co":"KMB"
+    },
+    {
+        "stop":"14380311740FE44A",
+        "name_en":"Yiu Man House Tin Yiu Estate (TN581)",
+        "name_tc":"天耀邨耀民樓 (TN581)",
+        "name_sc":"天耀邨耀民楼 (TN581)",
+        "lat":"22.449810",
+        "long":"114.002973",
+        "co":"KMB"
+    },
+    {
+        "stop":"34BA638C9E27EB46",
+        "name_en":"Tin Yau Court (TN591)",
+        "name_tc":"天祐苑 (TN591)",
+        "name_sc":"天佑苑 (TN591)",
+        "lat":"22.450248",
+        "long":"114.006158",
         "co":"KMB"
     },
     {
@@ -56349,24 +56412,6 @@
         "co":"KMB"
     },
     {
-        "stop":"1C8B2E9FA7FFEB2D",
-        "name_en":"Yiu Shing House Tin Yiu Estate (TN570)",
-        "name_tc":"天耀邨耀盛樓 (TN570)",
-        "name_sc":"天耀邨耀盛楼 (TN570)",
-        "lat":"22.452363",
-        "long":"114.002285",
-        "co":"KMB"
-    },
-    {
-        "stop":"14380311740FE44A",
-        "name_en":"Yiu Man House Tin Yiu Estate (TN581)",
-        "name_tc":"天耀邨耀民樓 (TN581)",
-        "name_sc":"天耀邨耀民楼 (TN581)",
-        "lat":"22.449810",
-        "long":"114.002973",
-        "co":"KMB"
-    },
-    {
         "stop":"DC2FFD02E8F541A8",
         "name_en":"Ha Wan Tsuen (YL530)",
         "name_tc":"下灣村 (YL530)",
@@ -59640,6 +59685,33 @@
         "name_sc":"广东道",
         "lat":"22.298763",
         "long":"114.168697",
+        "co":"KMB"
+    },
+    {
+        "stop":"321060BAE1447BEE",
+        "name_en":"Tsuen Wan Station",
+        "name_tc":"荃灣站",
+        "name_sc":"荃湾站",
+        "lat":"22.372748",
+        "long":"114.119285",
+        "co":"KMB"
+    },
+    {
+        "stop":"4B63964A12D91E2A",
+        "name_en":"Kwai Foo Road Kwai Fong",
+        "name_tc":"葵芳葵富路",
+        "name_sc":"葵芳葵富路",
+        "lat":"22.358222",
+        "long":"111.794683",
+        "co":"KMB"
+    },
+    {
+        "stop":"1E5B31D284632D4B",
+        "name_en":"Victoria Park",
+        "name_tc":"維多利亞公園",
+        "name_sc":"维多利亚公园",
+        "lat":"22.280452",
+        "long":"114.186862",
         "co":"KMB"
     },
     {
