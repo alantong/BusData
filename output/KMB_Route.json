@@ -58627,6 +58627,51 @@
         ]
     },
     {
+        "route":"251C",
+        "bound":"O",
+        "service_type":"2",
+        "orig_en":"Kong Ha Wai",
+        "orig_tc":"江夏圍",
+        "orig_sc":"江夏围",
+        "dest_en":"Yuen Long (Hong Lok Road)",
+        "dest_tc":"元朗(康樂路)",
+        "dest_sc":"元朗(康乐路)",
+        "co":"KMB",
+        "stops":[
+            "C03B5205F829DAD2",
+            "8447E71E45CE5452",
+            "083D8BB713878707",
+            "6D76943277DC18FF",
+            "4EBE182141C52094",
+            "AECF334FEF4E73C5",
+            "BFCFEBF6F5C35402",
+            "F8B3A5C8D0D3CED7",
+            "3D5F826FD00C0529",
+            "876CF2E8C375F78B",
+            "6386333EDAC64C96",
+            "6A4B371546D489BF",
+            "AC935792C88AF135",
+            "43E5D3A445382F82",
+            "D9CE618F99BAC2B6"
+        ],
+        "fullFare":"6.7",
+        "journeyTime":"23",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000418",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "06:00:00|22:00:00|1800"
+                ]
+            }
+        ]
+    },
+    {
         "route":"251M",
         "bound":"O",
         "service_type":"1",
