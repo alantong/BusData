@@ -34953,6 +34953,8 @@
         "dest_sc":"打鼓岭(松园下)",
         "co":"KMB",
         "stops":[
+            "80C387D87AFBCE3E",
+            "89D8AA4F45165FB6",
             "60AEF6D3AA7AAC41",
             "FC6CB9607D36FBD7",
             "A67D189D438E1534",
@@ -34984,42 +34986,9 @@
             "6499E8B0408B298E",
             "1FDFAA33708D4FF2",
             "63244A72D111510F",
-            "F47BC8784680F884",
-            "515928380B2DB2A3",
-            "588FC84C44F8634E"
+            "F47BC8784680F884"
         ],
-        "fullFare":"6.9",
-        "journeyTime":"48",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1323",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:50:00|10:50:00|1800",
-                    "10:50:00|11:30:00|1200",
-                    "11:30:00|14:00:00|1500",
-                    "14:00:00|23:30:00|1800"
-                ],
-                "288":[
-                    "05:50:00|06:50:00|1800",
-                    "06:50:00|08:30:00|1500",
-                    "08:30:00|13:00:00|1800",
-                    "13:00:00|17:00:00|1200",
-                    "17:00:00|23:30:00|1800"
-                ],
-                "448":[
-                    "05:50:00|07:00:00|2100",
-                    "07:00:00|12:00:00|1800",
-                    "12:00:00|16:00:00|1200",
-                    "16:00:00|23:30:00|1800"
-                ]
-            }
-        ]
+        "gtfsRouteKey":[]
     },
     {
         "route":"79K",
@@ -73978,6 +73947,41 @@
         ]
     },
     {
+        "route":"288D",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Ravana Garden",
+        "orig_tc":"濱景花園",
+        "orig_sc":"滨景花园",
+        "dest_en":"Shui Chuen O",
+        "dest_tc":"水泉澳",
+        "dest_sc":"水泉澳",
+        "co":"KMB",
+        "stops":[
+            "4E7624E310A2FF44",
+            "1BA4DE8405BB97BB",
+            "0D56ED01EED431BC",
+            "ABFB3F43ECB908B2",
+            "C1E9F8237EDBBAD2",
+            "7F068ADB0659F04E",
+            "779954C17EAF3B95",
+            "CB0585244877B9B9",
+            "69E4C417312C10C0",
+            "C1E1199805BCC92D",
+            "6FCDCBEC73F3AAF5",
+            "260B43921BAFD8CB",
+            "BCEEE192EF01C361",
+            "3F01C915E856B018",
+            "6282A73360ACEBEA",
+            "ECB8FB3328B3E1F5",
+            "3229F37E6637B0ED"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"289K",
         "bound":"O",
         "service_type":"1",
@@ -102988,35 +102992,6 @@
             "90F0F685E42CC10D",
             "5F32C53A90CDEB52",
             "993431C67E83B130"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
-    },
-    {
-        "route":"PN14",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"MTR Tsuen Wan West Station",
-        "orig_tc":"港鐵荃灣西站",
-        "orig_sc":"港铁荃湾西站",
-        "dest_en":"Hong Kong Palace Museum",
-        "dest_tc":"香港故宮文化博物館",
-        "dest_sc":"香港故宫文化博物馆",
-        "co":"KMB",
-        "stops":[
-            "A02CB1283981A937",
-            "321060BAE1447BEE",
-            "4B63964A12D91E2A",
-            "95A40BF00DBAB2B8",
-            "8125708E7EC47977",
-            "F050648C108571ED",
-            "8125708E7EC47977",
-            "95A40BF00DBAB2B8",
-            "4B63964A12D91E2A",
-            "321060BAE1447BEE",
-            "A02CB1283981A937"
         ],
         "fullFare":"",
         "journeyTime":"",
