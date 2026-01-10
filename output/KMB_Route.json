@@ -68392,7 +68392,7 @@
         "co":"KMB",
         "stops":[
             "80C387D87AFBCE3E",
-            "093289C2E4F6F408",
+            "31005C82D70F6B09",
             "18785E68EAD3D9B8",
             "F8C20FE9111D486A",
             "D97A36CE8D65B198",
@@ -68441,7 +68441,7 @@
         "co":"KMB",
         "stops":[
             "80C387D87AFBCE3E",
-            "093289C2E4F6F408",
+            "31005C82D70F6B09",
             "18785E68EAD3D9B8",
             "F8C20FE9111D486A",
             "D97A36CE8D65B198",
@@ -68471,7 +68471,6 @@
             "017BCFA7DC246519",
             "E86A26B1A389C290",
             "4E655B25ABAE103A",
-            "18785E68EAD3D9B8",
             "AD4E0E8DC8ACEFB6",
             "A4AA1D2CA4E92950"
         ],
@@ -83903,6 +83902,7 @@
             "C3D2F84C0F0FF415",
             "47A2AA98F8E20AE2",
             "CAC48CE541F0E887",
+            "A63B90588F747496",
             "B471F4B9E9CB6DB7",
             "7397A6CBBD749279",
             "DEBD2B9A856C0B1F",
@@ -83910,41 +83910,12 @@
             "DC420AE60BA9F523",
             "BFA3460955AC820C",
             "5FB1FCAF80F3D97D",
-            "9CD69A8A588B2F8D",
-            "88F78BDD9BDD7636"
+            "9CD69A8A588B2F8D"
         ],
-        "fullFare":"20.6",
-        "journeyTime":"41",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1400",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "16:00:00|17:00:00|1800",
-                    "17:00:00|17:40:00|1200",
-                    "17:40:00|18:25:00|900",
-                    "18:25:00|19:05:00|1200",
-                    "19:05:00|19:30:00|1500",
-                    "19:30:00|23:00:00|1800"
-                ],
-                "288":[
-                    "12:50:00|13:15:00|1500",
-                    "16:00:00|18:05:00|1500",
-                    "18:05:00|19:05:00|1200",
-                    "19:05:00|19:30:00|1500",
-                    "19:30:00|23:00:00|1800"
-                ],
-                "448":[
-                    "16:00:00|20:00:00|1200",
-                    "20:00:00|23:00:00|1800"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"934A",
@@ -84005,8 +83976,10 @@
         "co":"KMB",
         "stops":[
             "C3D2F84C0F0FF415",
+            "47A2AA98F8E20AE2",
             "7AD56B4986828A09",
             "CAC48CE541F0E887",
+            "A63B90588F747496",
             "B471F4B9E9CB6DB7",
             "7397A6CBBD749279",
             "DEBD2B9A856C0B1F",
@@ -84017,9 +83990,7 @@
             "50C0A622B149C308",
             "A73739F6D37090EE",
             "07814531B88CD829",
-            "A722DAAC99CE03D4",
-            "5FD70A34C55CE590",
-            "A6DCDE5BE439B179"
+            "A722DAAC99CE03D4"
         ],
         "fullFare":"20.6",
         "journeyTime":"55",
@@ -84156,6 +84127,7 @@
         "stops":[
             "C3D2F84C0F0FF415",
             "47A2AA98F8E20AE2",
+            "7AD56B4986828A09",
             "CAC48CE541F0E887",
             "C0667F887514F03F",
             "7397A6CBBD749279",
@@ -84167,26 +84139,12 @@
             "F718BAC64885E69E",
             "C95751DB2112F279",
             "F7AD8DE682AD5BB3",
-            "3A10F716CC6102DE",
-            "3597DD106B5CD29F"
+            "3A10F716CC6102DE"
         ],
-        "fullFare":"20.6",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1401",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1750",
-                    "1820"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"936",
@@ -84433,6 +84391,7 @@
             "569100345CF1E324",
             "B603EBE7441D0A64",
             "47A2AA98F8E20AE2",
+            "7AD56B4986828A09",
             "CAC48CE541F0E887",
             "A63B90588F747496",
             "A0C1BB5A1A985802",
@@ -84452,8 +84411,7 @@
             "86D7BB9BA055D8A6",
             "C24776F20FE877FF",
             "257A6E19DD7F156C",
-            "28A57C043C111604",
-            "30000427BD163F84"
+            "28A57C043C111604"
         ],
         "fullFare":"20.6",
         "journeyTime":"74",
@@ -98064,51 +98022,6 @@
         ]
     },
     {
-        "route":"N273",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Choi Yuen",
-        "orig_tc":"彩園",
-        "orig_sc":"彩园",
-        "dest_en":"Sheung Shui (Choi Yuen)",
-        "dest_tc":"上水(彩園)",
-        "dest_sc":"上水(彩园)",
-        "co":"KMB",
-        "stops":[
-            "F8C20FE9111D486A",
-            "D97A36CE8D65B198",
-            "CF94083CB24CF4E5",
-            "4A76CDB32FA69BC6",
-            "6F11F73C749338DB",
-            "98EBAB9468C80DD2",
-            "CA1317F5A0B8A8B2",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "4C97BE87FBF959C4",
-            "FA52803E2628A212",
-            "3AD4DADA5B941CF2",
-            "8237ED597A8A948B",
-            "A4455CCA999A234C",
-            "3C821C86ADED2B9D",
-            "14BDB94A8F3ED3EC",
-            "FA7A3D77713061E9",
-            "C7120BD9A94B4F6A",
-            "825199DC3BC0C5A3",
-            "A8F178C255CF9783",
-            "ADB9356BBF06F7C7",
-            "8E3F5AE0A97053F9",
-            "68C7CBB4CAB9FE69",
-            "9CD9BFAE2BC91336",
-            "E86A26B1A389C290",
-            "4E655B25ABAE103A",
-            "18785E68EAD3D9B8"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
-    },
-    {
         "route":"N276",
         "bound":"O",
         "service_type":"1",
@@ -99202,7 +99115,7 @@
         "orig_en":"Yuen Long (West)",
         "orig_tc":"元朗(西)",
         "orig_sc":"元朗(西)",
-        "dest_en":"Central (Macau Ferry)",
+        "dest_en":"Central (Macao Ferry)",
         "dest_tc":"中環(港澳碼頭)",
         "dest_sc":"中环(港澳码头)",
         "co":"KMB",
@@ -99336,7 +99249,7 @@
         "orig_en":"Fanling (Luen Wo Hui)",
         "orig_tc":"粉嶺(聯和墟)",
         "orig_sc":"粉岭(联和墟)",
-        "dest_en":"Central (Macau Ferry)",
+        "dest_en":"Central (Macao Ferry)",
         "dest_tc":"中環(港澳碼頭)",
         "dest_sc":"中环(港澳码头)",
         "co":"KMB",
@@ -103233,6 +103146,7 @@
             "F129DD8D9E3268FB",
             "D0FB28B8EED62431",
             "FA52803E2628A212",
+            "84AF6F0ACA61386F",
             "2431FF3100478DEE",
             "ED6FCB0422D541F5",
             "850F72123F644500",
@@ -103623,6 +103537,7 @@
             "F7D40D08CB05EA87",
             "923E5B79E1B48739",
             "FA52803E2628A212",
+            "84AF6F0ACA61386F",
             "2431FF3100478DEE",
             "ED6FCB0422D541F5",
             "850F72123F644500",
