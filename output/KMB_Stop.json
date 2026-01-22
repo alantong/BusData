@@ -10046,8 +10046,8 @@
     {
         "stop":"2A9C98A6B36F3B11",
         "name_en":"Housing Authority Headquarters (KC298)",
-        "name_tc":"房屋署大樓 (KC298)",
-        "name_sc":"房屋署大楼 (KC298)",
+        "name_tc":"房屋委員會總部 (KC298)",
+        "name_sc":"房屋委员会总部 (KC298)",
         "lat":"22.315534",
         "long":"114.181227",
         "co":"KMB"
@@ -28224,33 +28224,6 @@
         "co":"KMB"
     },
     {
-        "stop":"FC119E7F0F340385",
-        "name_en":"Kong Nga Po Hong Kong Police College (ND613)",
-        "name_tc":"缸瓦甫香港警察學院 (ND613)",
-        "name_sc":"缸瓦甫香港警察学院 (ND613)",
-        "lat":"22.525114",
-        "long":"114.132699",
-        "co":"KMB"
-    },
-    {
-        "stop":"942DAC2706D66A09",
-        "name_en":"O·Park2 (ND217)",
-        "name_tc":"有機回收中心二期 (ND217)",
-        "name_sc":"有机回收中心二期 (ND217)",
-        "lat":"22.524740",
-        "long":"114.129932",
-        "co":"KMB"
-    },
-    {
-        "stop":"9952B8BC5B1655E7",
-        "name_en":"Police Dog Unit Headquarters (ND218)",
-        "name_tc":"警犬隊總部 (ND218)",
-        "name_sc":"警犬队总部 (ND218)",
-        "lat":"22.525220",
-        "long":"114.126595",
-        "co":"KMB"
-    },
-    {
         "stop":"24E3010DECCD1055",
         "name_en":"Cheung Po Tau (ND224)",
         "name_tc":"長甫頭 (ND224)",
@@ -28275,6 +28248,24 @@
         "name_sc":"凤溪第一中学 (ND240)",
         "lat":"22.510260",
         "long":"114.126625",
+        "co":"KMB"
+    },
+    {
+        "stop":"45924F2D86BEC3B4",
+        "name_en":"Po Shek Wu Road Sheung Shui, Sheung Shui Wai",
+        "name_tc":"上水寶石湖路-上水圍 (ND435)",
+        "name_sc":"上水宝石湖路-上水围 (ND435)",
+        "lat":"22.506436",
+        "long":"114.126044",
+        "co":"KMB"
+    },
+    {
+        "stop":"89D8AA4F45165FB6",
+        "name_en":"Shek Wu Hui Post Office (ND170)",
+        "name_tc":"石湖墟郵政局 (ND170)",
+        "name_sc":"石湖墟邮政局 (ND170)",
+        "lat":"22.503795",
+        "long":"114.126836",
         "co":"KMB"
     },
     {
@@ -30195,15 +30186,6 @@
         "co":"KMB"
     },
     {
-        "stop":"89D8AA4F45165FB6",
-        "name_en":"Shek Wu Hui Post Office (ND170)",
-        "name_tc":"石湖墟郵政局 (ND170)",
-        "name_sc":"石湖墟邮政局 (ND170)",
-        "lat":"22.503795",
-        "long":"114.126836",
-        "co":"KMB"
-    },
-    {
         "stop":"8EC63D8C071F72C4",
         "name_en":"Sha Tau Kok Bus Terminus (ND897)",
         "name_tc":"沙頭角總站 (ND897)",
@@ -31245,15 +31227,6 @@
         "name_sc":"孔岭村 (ND517)",
         "lat":"22.514306",
         "long":"114.167292",
-        "co":"KMB"
-    },
-    {
-        "stop":"45924F2D86BEC3B4",
-        "name_en":"Po Shek Wu Road Sheung Shui, Sheung Shui Wai",
-        "name_tc":"上水寶石湖路-上水圍 (ND435)",
-        "name_sc":"上水宝石湖路-上水围 (ND435)",
-        "lat":"22.506436",
-        "long":"114.126044",
         "co":"KMB"
     },
     {
@@ -55287,39 +55260,12 @@
         "co":"KMB"
     },
     {
-        "stop":"14F7E124D3972753",
-        "name_en":"Ma On Shan Police Station (MA182)",
-        "name_tc":"馬鞍山警署 (MA182)",
-        "name_sc":"马鞍山警署 (MA182)",
-        "lat":"22.422284",
-        "long":"114.232896",
-        "co":"KMB"
-    },
-    {
-        "stop":"473AF4463A49DA24",
-        "name_en":"Kam Ying Court (MA192)",
-        "name_tc":"錦英苑 (MA192)",
-        "name_sc":"锦英苑 (MA192)",
-        "lat":"22.423941",
-        "long":"114.238588",
-        "co":"KMB"
-    },
-    {
         "stop":"362D0188DD0985FF",
         "name_en":"Kam Lung Court (MA194)",
         "name_tc":"錦龍苑 (MA194)",
         "name_sc":"锦龙苑 (MA194)",
         "lat":"22.426019",
         "long":"114.239450",
-        "co":"KMB"
-    },
-    {
-        "stop":"4DC840CF3B4B2427",
-        "name_en":"Lee On Estate (MA301)",
-        "name_tc":"利安邨 (MA301)",
-        "name_sc":"利安邨 (MA301)",
-        "lat":"22.427591",
-        "long":"114.240211",
         "co":"KMB"
     },
     {
@@ -59022,6 +58968,15 @@
         "co":"KMB"
     },
     {
+        "stop":"473AF4463A49DA24",
+        "name_en":"Kam Ying Court (MA192)",
+        "name_tc":"錦英苑 (MA192)",
+        "name_sc":"锦英苑 (MA192)",
+        "lat":"22.423941",
+        "long":"114.238588",
+        "co":"KMB"
+    },
+    {
         "stop":"E6707C5E8323DF47",
         "name_en":"Saddle Ridge Garden (MA305)",
         "name_tc":"富寶花園 (MA305)",
@@ -60261,6 +60216,24 @@
         "name_sc":"耀安邨",
         "lat":"22.419368",
         "long":"114.229393",
+        "co":"KMB"
+    },
+    {
+        "stop":"14F7E124D3972753",
+        "name_en":"Ma On Shan Police Station (MA182)",
+        "name_tc":"馬鞍山警署 (MA182)",
+        "name_sc":"马鞍山警署 (MA182)",
+        "lat":"22.422284",
+        "long":"114.232896",
+        "co":"KMB"
+    },
+    {
+        "stop":"4DC840CF3B4B2427",
+        "name_en":"Lee On Estate (MA301)",
+        "name_tc":"利安邨 (MA301)",
+        "name_sc":"利安邨 (MA301)",
+        "lat":"22.427591",
+        "long":"114.240211",
         "co":"KMB"
     },
     {
