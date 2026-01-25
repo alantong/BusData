@@ -55563,116 +55563,37 @@
     },
     {
         "co":"GMB",
-        "route":"75C",
-        "routeId":2009412,
+        "route":"75X",
+        "routeId":2011391,
         "routeSeq":1,
-        "orig_tc":"海達公共運輸交匯處",
-        "dest_tc":"深水埗 (桂林街)",
-        "orig_sc":"海达公共运输交汇处",
-        "dest_sc":"深水埗 (桂林街)",
-        "orig_en":"Hoi Tat Public Transport Interchange",
-        "dest_en":"Sham Shui Po (Kweilin Street)",
+        "orig_tc":"深水埗(富昌邨)",
+        "dest_tc":"長沙灣(青山道)(循環線)",
+        "orig_sc":"深水埗(富昌邨)",
+        "dest_sc":"长沙湾(青山道)(循环线)",
+        "orig_en":"Sham Shui Po (Fu Cheong Estate)",
+        "dest_en":"Cheung Sha Wan (Castle Peak Road) (Circular)",
         "stops":[
-            20018313,
-            20010245,
-            20018314,
+            20003008,
+            20020064,
             20010246,
-            20003154
-        ],
-        "fullFare":"4.5",
-        "journeyTime":"5",
-        "freq":[
-            {
-                "511":[
-                    "07:00:00|19:45:00|720"
-                ]
-            }
-        ]
-    },
-    {
-        "co":"GMB",
-        "route":"75C",
-        "routeId":2009412,
-        "routeSeq":2,
-        "orig_tc":"深水埗 (桂林街)",
-        "dest_tc":"海達公共運輸交匯處",
-        "orig_sc":"深水埗 (桂林街)",
-        "dest_sc":"海达公共运输交汇处",
-        "orig_en":"Sham Shui Po (Kweilin Street)",
-        "dest_en":"Hoi Tat Public Transport Interchange",
-        "stops":[
-            20003154,
-            20018315,
-            20010247,
-            20018313
-        ],
-        "fullFare":"4.5",
-        "journeyTime":"5",
-        "freq":[
-            {
-                "511":[
-                    "07:15:00|20:00:00|720"
-                ]
-            }
-        ]
-    },
-    {
-        "co":"GMB",
-        "route":"75M",
-        "routeId":2009411,
-        "routeSeq":1,
-        "orig_tc":"海達公共運輸交匯處",
-        "dest_tc":"⻑沙灣 (青山道)",
-        "orig_sc":"海达公共运输交汇处",
-        "dest_sc":"⻑沙湾 (青山道)",
-        "orig_en":"Hoi Tat Public Transport Interchange",
-        "dest_en":"Cheung Sha Wan (Castle Peak Road)",
-        "stops":[
-            20018313,
-            20018346,
-            20018347,
+            20004140,
+            20010231,
+            20003082,
             20018348,
-            20018349,
-            20018350
+            20002163,
+            20002164,
+            20003138,
+            20003139,
+            20003101,
+            20004013,
+            20004143,
+            20003128,
+            20003154,
+            20020065,
+            20003008
         ],
-        "fullFare":"5.2",
-        "journeyTime":"6",
         "freq":[
-            {
-                "511":[
-                    "06:30:00|22:30:00|1800"
-                ]
-            }
-        ]
-    },
-    {
-        "co":"GMB",
-        "route":"75M",
-        "routeId":2009411,
-        "routeSeq":2,
-        "orig_tc":"⻑沙灣 (青山道)",
-        "dest_tc":"海達公共運輸交匯處",
-        "orig_sc":"⻑沙湾 (青山道)",
-        "dest_sc":"海达公共运输交汇处",
-        "orig_en":"Cheung Sha Wan (Castle Peak Road)",
-        "dest_en":"Hoi Tat Public Transport Interchange",
-        "stops":[
-            20018350,
-            20016997,
-            20018351,
-            20018352,
-            20018353,
-            20018354,
-            20018313
-        ],
-        "fullFare":"5.2",
-        "journeyTime":"6",
-        "freq":[
-            {
-                "511":[
-                    "06:45:00|22:45:00|1800"
-                ]
-            }
+            {}
         ]
     },
     {
