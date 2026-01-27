@@ -73876,6 +73876,52 @@
         ]
     },
     {
+        "route":"287",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Sai Sha Residences Transport Interchange",
+        "orig_tc":"西沙灣交通交匯處",
+        "orig_sc":"西沙湾交通交汇处",
+        "dest_en":"University Station",
+        "dest_tc":"大學站",
+        "dest_sc":"大学站",
+        "co":"KMB",
+        "stops":[
+            "81D05719EDB6070E",
+            "79B88295548184C1",
+            "9CEC1F1000AFE806",
+            "5D86C919F15C0611",
+            "F63D25B428F1C1D9",
+            "8337F935242C5CC3",
+            "0D4E07F475845DB3",
+            "B071B60F5566934B",
+            "E2602DD1C8EA1AC8",
+            "664BAA2EA12B80B1",
+            "3E10F323161F4ADB"
+        ],
+        "fullFare":"9.3",
+        "journeyTime":"24",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000498",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "08:30:00|21:00:00|1800"
+                ],
+                "480":[
+                    "08:30:00|13:00:00|1800",
+                    "13:00:00|20:00:00|1200",
+                    "20:00:00|22:00:00|1800"
+                ]
+            }
+        ]
+    },
+    {
         "route":"287D",
         "bound":"O",
         "service_type":"1",
