@@ -1,157 +1,157 @@
-06-Feb-26 19:44:56 | nlb - INFO - Start getting NLB routes
-06-Feb-26 19:45:05 | nlb - INFO - Finish getting NLB routes
-06-Feb-26 19:45:05 | nlb - INFO - Start getting NLB stops
-06-Feb-26 19:45:05 | nlb - INFO - Finish getting NLB stops
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 1 from 梅窩碼頭 to 大澳|#stops:56|routeCount: 5
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1723', '1'] 梅窩碼頭 - 大澳|$21.4|time:45|#stops:49|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8567', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:50|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8568', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:53|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8569', '1'] 梅窩碼頭 - 大澳|$21.4|time:51|#stops:54|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8570', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:51|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 1 from 大澳 to 梅窩碼頭|#stops:52|routeCount: 4
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1723', '2'] 大澳 - 梅窩碼頭|$21.4|time:45|#stops:47|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8567', '2'] 大澳 - 梅窩碼頭|$21.4|time:48|#stops:48|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8568', '2'] 大澳 - 梅窩碼頭|$21.4|time:48|#stops:51|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8569', '2'] 大澳 - 梅窩碼頭|$21.4|time:51|#stops:52|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 1R from 紅磡 (紅鸞道) to 昂坪|#stops:10|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8071', '1'] 紅磡 (紅鸞道) - 昂坪|$56.5|time:105|#stops:10|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 2 from 梅窩碼頭 to 昂坪|#stops:39|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1725', '1'] 梅窩碼頭 - 昂坪|$37.0|time:45|#stops:39|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 2 from 昂坪 to 梅窩碼頭|#stops:39|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1725', '2'] 昂坪 - 梅窩碼頭|$37.0|time:45|#stops:39|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 3M from 東涌站巴士總站 to 梅窩碼頭|#stops:34|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1732', '2'] 東涌站巴士總站 - 梅窩碼頭|$19.6|time:45|#stops:32|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8571', '2'] 東涌站巴士總站 - 梅窩碼頭|$19.6|time:50|#stops:34|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 3M from 梅窩碼頭 to 東涌站巴士總站|#stops:35|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1732', '1'] 梅窩碼頭 - 東涌站巴士總站|$19.6|time:45|#stops:33|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8571', '1'] 梅窩碼頭 - 東涌站巴士總站|$19.6|time:50|#stops:35|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 3M from 梅窩 (貝澳開) to 東涌站巴士總站|#stops:22|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8572', '1'] 老圍村 - 東涌站巴士總站|$16.9|time:29|#stops:22|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福|#stops:25|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8533', '1'] 梅窩碼頭 - 塘福|$13.0|time:25|#stops:25|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 4 from 塘福 to 梅窩碼頭|#stops:29|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8533', '2'] 塘福 - 梅窩碼頭|$13.0|time:25|#stops:25|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8573', '1'] 塘福 - 梅窩碼頭|$6.7|time:28|#stops:29|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 4 from 塘福 (水口開) to 梅窩碼頭|#stops:30|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1733', '2'] 水口村(東) - 梅窩碼頭|$13.0|time:25|#stops:30|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福 (至水口)|#stops:36|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1733', '1'] 梅窩碼頭 - 水口村(東)|$13.0|time:25|#stops:36|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11 from 東涌站巴士總站 to 大澳|#stops:54|routeCount: 5
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1724', '1'] 東涌站巴士總站 - 大澳|$23.3|time:55|#stops:49|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8560', '1'] 東涌站巴士總站 - 大澳|$23.3|time:58|#stops:50|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8561', '1'] 東涌站巴士總站 - 大澳|$23.3|time:58|#stops:51|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8562', '1'] 東涌站巴士總站 - 大澳|$23.3|time:61|#stops:52|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8566', '1'] 東涌站巴士總站 - 大澳|$23.3|time:61|#stops:51|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11 from 大澳 to 東涌站巴士總站|#stops:53|routeCount: 5
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1724', '2'] 大澳 - 東涌站巴士總站|$23.3|time:55|#stops:48|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8560', '2'] 大澳 - 東涌站巴士總站|$23.3|time:58|#stops:49|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8561', '2'] 大澳 - 東涌站巴士總站|$23.3|time:58|#stops:50|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8562', '2'] 大澳 - 東涌站巴士總站|$23.3|time:61|#stops:51|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8566', '2'] 大澳 - 東涌站巴士總站|$23.3|time:61|#stops:50|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11A from 東涌站巴士總站 to 石壁|#stops:37|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8232', '1'] 東涌站巴士總站 - 沙咀懲教所|$17.6|time:39|#stops:35|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8565', '1'] 東涌站巴士總站 - 沙咀懲教所|$17.6|time:39|#stops:37|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11A from 石壁 to 東涌站巴士總站|#stops:39|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8232', '2'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:39|#stops:37|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8565', '2'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:39|#stops:39|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11 from 大澳 (沙咀開) to 東涌站巴士總站|#stops:38|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000069', '1'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:37|#stops:36|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000070', '1'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:41|#stops:38|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 11 from 大澳 (水口開) to 東涌站巴士總站|#stops:31|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8563', '1'] 水口村(東) - 東涌站巴士總站|$7.1|time:38|#stops:31|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8564', '1'] 水口村(東) - 東涌站巴士總站|$7.1|time:38|#stops:31|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 21 from 昂坪 to 大澳|#stops:15|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1726', '2'] 昂坪 - 大澳|$19.2|time:18|#stops:15|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 21 from 大澳 to 昂坪|#stops:14|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1726', '1'] 大澳 - 昂坪|$19.2|time:18|#stops:14|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 23 from 東涌達東路巴士總站 to 昂坪|#stops:38|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1727', '1'] 東涌達東路巴士總站 - 昂坪|$37.0|time:50|#stops:38|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 23 from 昂坪 to 東涌達東路巴士總站|#stops:40|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1727', '2'] 昂坪 - 東涌達東路巴士總站|$37.0|time:50|#stops:40|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 34 from 東涌達東路巴士總站 to 石門甲|#stops:15|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1728', '1'] 東涌達東路巴士總站 - 石門甲|$5.1|time:19|#stops:15|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8327', '2'] 東涌達東路巴士總站 - 石門甲|$5.1|time:21|#stops:14|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 34 from 石門甲 to 東涌達東路巴士總站|#stops:16|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1728', '2'] 石門甲 - 東涌達東路巴士總站|$5.1|time:19|#stops:16|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8327', '1'] 石門甲 - 東涌達東路巴士總站|$5.1|time:21|#stops:15|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 38X from 逸東邨 (裕東路) to 東涌站巴士總站 (循環線)|#stops:12|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1961', '1'] 逸東邨雍逸樓 - 逸東邨雍逸樓|$3.8|time:9|#stops:12|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 38 from 逸東邨 to 東涌站巴士總站 (循環線)|#stops:9|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1731', '1'] 逸東邨 - 逸東邨|$3.8|time:7|#stops:9|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2P from 天水圍 (天慈邨) to 深圳灣口岸|#stops:10|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8068', '1'] 天水圍 (天慈邨) - 深圳灣口岸|$11.3|time:30|#stops:10|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2P from 深圳灣口岸 to 天水圍 (天慈邨)|#stops:10|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8068', '2'] 深圳灣口岸 - 天水圍 (天慈邨)|$11.3|time:30|#stops:10|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2X from 天水圍 (天耀邨) to 深圳灣口岸|#stops:4|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8186', '1'] 天水圍 (天耀邨) - 深圳灣口岸|$11.3|time:17|#stops:4|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2X from 深圳灣口岸 to 天水圍 (天耀邨)|#stops:3|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8186', '2'] 深圳灣口岸 - 天水圍 (天耀邨)|$11.3|time:17|#stops:3|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2 from 元朗港鐵站 to 深圳灣口岸|#stops:20|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1735', '1'] 元朗港鐵站 - 深圳灣口岸|$15.8|time:33|#stops:20|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B2 from 深圳灣口岸 to 元朗港鐵站|#stops:16|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1735', '2'] 深圳灣口岸 - 元朗港鐵站|$15.8|time:33|#stops:16|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N1 from 梅窩碼頭 to 大澳|#stops:49|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1736', '1'] 梅窩碼頭 - 大澳|$32.8|time:45|#stops:49|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N38 from 逸東邨 to 東涌站巴士總站|#stops:5|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1738', '1'] 逸東邨 - 東涌港鐵站|$5.4|time:7|#stops:5|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N38 from 東涌站巴士總站 to 逸東邨|#stops:5|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1738', '2'] 東涌港鐵站 - 逸東邨|$5.4|time:7|#stops:5|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37P from 逸東邨 (裕東路) to 映灣園|#stops:3|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1959', '1'] 逸東邨雍逸樓 - 映灣園|$3.9|time:11|#stops:3|
-06-Feb-26 19:45:05 | nlb - INFO - Cannot find GTFS route for NLB 7S from 梅窩碼頭 to 禮智園墳場|#stops:6
-06-Feb-26 19:45:05 | nlb - INFO - Cannot find GTFS route for NLB 34S from 東涌達東路巴士總站 to 十八區墳場 (循環線)|#stops:27
-06-Feb-26 19:45:05 | nlb - INFO - Cannot find GTFS route for NLB 7S from 禮智園墳場 to 梅窩碼頭|#stops:6
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37S from 東涌發展碼頭 to 東涌站巴士總站|#stops:3|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8424', '1'] 東涌發展碼頭 - 東涌港鐵站|$3.9|time:4|#stops:3|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37 from 逸東邨 to 迎東邨|#stops:17|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8205', '1'] 逸東邨 - 迎東邨|$3.9|time:20|#stops:17|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000267', '1'] 逸東邨 - 迎東邨|$3.9|time:15|#stops:9|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37 from 迎東邨 to 逸東邨|#stops:15|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8205', '2'] 迎東邨 - 逸東邨|$3.9|time:20|#stops:15|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37M from 迎東邨 to 東涌站巴士總站 (循環線)|#stops:12|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8331', '1'] 迎東邨 - 迎東邨|$3.9|time:5|#stops:10|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000358', '1'] 迎東邨 - 迎東邨|$3.9|time:10|#stops:12|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N37 from 迎東邨 to 東涌站巴士總站 (循環線)|#stops:15|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8707', '1'] 迎東邨 - 迎東邨|$5.4|time:9|#stops:15|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B4 from 大橋香港口岸 to 機場 (客運大樓) (循環線)|#stops:7|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8633', '1'] 大橋香港口岸 - 大橋香港口岸|$9.8|time:10|#stops:7|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B6 from 大橋香港口岸 to 滿東邨|#stops:5|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8635', '2'] 大橋香港口岸 - 滿東邨|$9.8|time:23|#stops:5|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B6 from 滿東邨 to 大橋香港口岸|#stops:7|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8635', '1'] 滿東邨 - 大橋香港口岸|$9.8|time:23|#stops:7|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB A35 from 梅窩碼頭 to 大橋香港口岸|#stops:61|routeCount: 3
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1734', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:77|#stops:55|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8574', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:81|#stops:59|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8575', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:81|#stops:57|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB A35 from 大橋香港口岸 to 梅窩碼頭|#stops:61|routeCount: 2
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1734', '2'] 大橋香港口岸 - 梅窩碼頭|$32.4|time:77|#stops:57|
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8574', '2'] 大橋香港口岸 - 梅窩碼頭|$32.4|time:81|#stops:61|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N35 from 梅窩碼頭 to 大橋香港口岸|#stops:59|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1737', '1'] 梅窩碼頭 - 大橋香港口岸|$47.9|time:75|#stops:59|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB N35 from 大橋香港口岸 to 梅窩碼頭|#stops:61|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1737', '2'] 大橋香港口岸 - 梅窩碼頭|$47.9|time:75|#stops:61|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 39M from 東涌站巴士總站 to 滿東邨 (循環線)|#stops:8|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8645', '1'] 東涌站巴士總站 - 東涌站巴士總站|$3.9|time:8|#stops:8|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37H from 迎東邨 to 北大嶼山醫院 (循環線)|#stops:31|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '8290', '1'] 迎東邨 - 迎東邨|$3.9|time:22|#stops:31|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 36X from 滿東邨 to 迪士尼樂園|#stops:4|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000208', '1'] 滿東邨 - 迪士尼樂園|$10.7|time:20|#stops:4|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 36 from 東涌達東路巴士總站 to 迪士尼樂園|#stops:6|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1729', '1'] 東涌達東路巴士總站 - 迪士尼樂園|$10.7|time:28|#stops:6|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 36 from 迪士尼樂園 to 東涌達東路巴士總站|#stops:9|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1729', '2'] 迪士尼樂園 - 東涌達東路巴士總站|$10.7|time:28|#stops:9|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB X11R from 東涌世茂喜來登酒店 to 大澳|#stops:6|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000442', '1'] 東涌世茂喜來登酒店 - 大澳|$43.9|time:66|#stops:6|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB X11R from 大澳 to 東涌世茂喜來登酒店|#stops:7|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000442', '2'] 大澳 - 東涌世茂喜來登酒店|$43.9|time:66|#stops:7|
-06-Feb-26 19:45:05 | nlb - INFO - Cannot find GTFS route for NLB NB2 from 深圳灣口岸 to 元朗港鐵站 (循環線)|#stops:4
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB B6S from 滿東邨 to 大橋香港口岸|#stops:7|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000568', '1'] 滿東邨 - 大橋香港口岸|$9.8|time:19|#stops:7|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB XB2 from 元朗港鐵站 to 深圳灣口岸(特快)|#stops:7|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000620', '1'] 元朗港鐵站 - 深圳灣口岸|$15.8|time:21|#stops:7|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB XB2 from 深圳灣口岸 to 元朗港鐵站(特快)|#stops:6|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000620', '2'] 深圳灣口岸 - 元朗港鐵站|$15.8|time:21|#stops:6|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 36M from 翔東邨(翔月樓) to 欣澳站|#stops:5|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000591', '1'] 翔東邨翔月樓 - 欣澳站|$10.7|time:15|#stops:5|
-06-Feb-26 19:45:05 | nlb - INFO - GTFS route for NLB 37A from 翔東邨(翔月樓) to 東涌站巴士總站 (循環線)|#stops:11|routeCount: 1
-06-Feb-26 19:45:05 | nlb - INFO - ['NLB', '1000359', '1'] 翔東邨翔月樓 - 翔東邨翔月樓|$3.9|time:20|#stops:11|
+07-Feb-26 19:31:27 | nlb - INFO - Start getting NLB routes
+07-Feb-26 19:31:48 | nlb - INFO - Finish getting NLB routes
+07-Feb-26 19:31:48 | nlb - INFO - Start getting NLB stops
+07-Feb-26 19:31:48 | nlb - INFO - Finish getting NLB stops
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 1 from 梅窩碼頭 to 大澳|#stops:56|routeCount: 5
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1723', '1'] 梅窩碼頭 - 大澳|$21.4|time:45|#stops:49|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8567', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:50|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8568', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:53|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8569', '1'] 梅窩碼頭 - 大澳|$21.4|time:51|#stops:54|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8570', '1'] 梅窩碼頭 - 大澳|$21.4|time:48|#stops:51|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 1 from 大澳 to 梅窩碼頭|#stops:52|routeCount: 4
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1723', '2'] 大澳 - 梅窩碼頭|$21.4|time:45|#stops:47|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8567', '2'] 大澳 - 梅窩碼頭|$21.4|time:48|#stops:48|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8568', '2'] 大澳 - 梅窩碼頭|$21.4|time:48|#stops:51|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8569', '2'] 大澳 - 梅窩碼頭|$21.4|time:51|#stops:52|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 1R from 紅磡 (紅鸞道) to 昂坪|#stops:10|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8071', '1'] 紅磡 (紅鸞道) - 昂坪|$56.5|time:105|#stops:10|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 2 from 梅窩碼頭 to 昂坪|#stops:39|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1725', '1'] 梅窩碼頭 - 昂坪|$37.0|time:45|#stops:39|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 2 from 昂坪 to 梅窩碼頭|#stops:39|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1725', '2'] 昂坪 - 梅窩碼頭|$37.0|time:45|#stops:39|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 3M from 東涌站巴士總站 to 梅窩碼頭|#stops:34|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1732', '2'] 東涌站巴士總站 - 梅窩碼頭|$19.6|time:45|#stops:32|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8571', '2'] 東涌站巴士總站 - 梅窩碼頭|$19.6|time:50|#stops:34|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 3M from 梅窩碼頭 to 東涌站巴士總站|#stops:35|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1732', '1'] 梅窩碼頭 - 東涌站巴士總站|$19.6|time:45|#stops:33|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8571', '1'] 梅窩碼頭 - 東涌站巴士總站|$19.6|time:50|#stops:35|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 3M from 梅窩 (貝澳開) to 東涌站巴士總站|#stops:22|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8572', '1'] 老圍村 - 東涌站巴士總站|$16.9|time:29|#stops:22|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福|#stops:25|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8533', '1'] 梅窩碼頭 - 塘福|$13.0|time:25|#stops:25|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 4 from 塘福 to 梅窩碼頭|#stops:29|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8533', '2'] 塘福 - 梅窩碼頭|$13.0|time:25|#stops:25|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8573', '1'] 塘福 - 梅窩碼頭|$6.7|time:28|#stops:29|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 4 from 塘福 (水口開) to 梅窩碼頭|#stops:30|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1733', '2'] 水口村(東) - 梅窩碼頭|$13.0|time:25|#stops:30|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 4 from 梅窩碼頭 to 塘福 (至水口)|#stops:36|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1733', '1'] 梅窩碼頭 - 水口村(東)|$13.0|time:25|#stops:36|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11 from 東涌站巴士總站 to 大澳|#stops:54|routeCount: 5
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1724', '1'] 東涌站巴士總站 - 大澳|$23.3|time:55|#stops:49|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8560', '1'] 東涌站巴士總站 - 大澳|$23.3|time:58|#stops:50|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8561', '1'] 東涌站巴士總站 - 大澳|$23.3|time:58|#stops:51|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8562', '1'] 東涌站巴士總站 - 大澳|$23.3|time:61|#stops:52|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8566', '1'] 東涌站巴士總站 - 大澳|$23.3|time:61|#stops:51|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11 from 大澳 to 東涌站巴士總站|#stops:53|routeCount: 5
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1724', '2'] 大澳 - 東涌站巴士總站|$23.3|time:55|#stops:48|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8560', '2'] 大澳 - 東涌站巴士總站|$23.3|time:58|#stops:49|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8561', '2'] 大澳 - 東涌站巴士總站|$23.3|time:58|#stops:50|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8562', '2'] 大澳 - 東涌站巴士總站|$23.3|time:61|#stops:51|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8566', '2'] 大澳 - 東涌站巴士總站|$23.3|time:61|#stops:50|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11A from 東涌站巴士總站 to 石壁|#stops:37|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8232', '1'] 東涌站巴士總站 - 沙咀懲教所|$17.6|time:39|#stops:35|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8565', '1'] 東涌站巴士總站 - 沙咀懲教所|$17.6|time:39|#stops:37|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11A from 石壁 to 東涌站巴士總站|#stops:39|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8232', '2'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:39|#stops:37|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8565', '2'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:39|#stops:39|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11 from 大澳 (沙咀開) to 東涌站巴士總站|#stops:38|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000069', '1'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:37|#stops:36|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000070', '1'] 沙咀懲教所 - 東涌站巴士總站|$17.6|time:41|#stops:38|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 11 from 大澳 (水口開) to 東涌站巴士總站|#stops:31|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8563', '1'] 水口村(東) - 東涌站巴士總站|$7.1|time:38|#stops:31|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8564', '1'] 水口村(東) - 東涌站巴士總站|$7.1|time:38|#stops:31|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 21 from 昂坪 to 大澳|#stops:15|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1726', '2'] 昂坪 - 大澳|$19.2|time:18|#stops:15|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 21 from 大澳 to 昂坪|#stops:14|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1726', '1'] 大澳 - 昂坪|$19.2|time:18|#stops:14|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 23 from 東涌達東路巴士總站 to 昂坪|#stops:38|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1727', '1'] 東涌達東路巴士總站 - 昂坪|$37.0|time:50|#stops:38|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 23 from 昂坪 to 東涌達東路巴士總站|#stops:40|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1727', '2'] 昂坪 - 東涌達東路巴士總站|$37.0|time:50|#stops:40|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 34 from 東涌達東路巴士總站 to 石門甲|#stops:15|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1728', '1'] 東涌達東路巴士總站 - 石門甲|$5.1|time:19|#stops:15|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8327', '2'] 東涌達東路巴士總站 - 石門甲|$5.1|time:21|#stops:14|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 34 from 石門甲 to 東涌達東路巴士總站|#stops:16|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1728', '2'] 石門甲 - 東涌達東路巴士總站|$5.1|time:19|#stops:16|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8327', '1'] 石門甲 - 東涌達東路巴士總站|$5.1|time:21|#stops:15|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 38X from 逸東邨 (裕東路) to 東涌站巴士總站 (循環線)|#stops:12|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1961', '1'] 逸東邨雍逸樓 - 逸東邨雍逸樓|$3.8|time:9|#stops:12|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 38 from 逸東邨 to 東涌站巴士總站 (循環線)|#stops:9|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1731', '1'] 逸東邨 - 逸東邨|$3.8|time:7|#stops:9|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2P from 天水圍 (天慈邨) to 深圳灣口岸|#stops:10|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8068', '1'] 天水圍 (天慈邨) - 深圳灣口岸|$11.3|time:30|#stops:10|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2P from 深圳灣口岸 to 天水圍 (天慈邨)|#stops:10|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8068', '2'] 深圳灣口岸 - 天水圍 (天慈邨)|$11.3|time:30|#stops:10|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2X from 天水圍 (天耀邨) to 深圳灣口岸|#stops:4|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8186', '1'] 天水圍 (天耀邨) - 深圳灣口岸|$11.3|time:17|#stops:4|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2X from 深圳灣口岸 to 天水圍 (天耀邨)|#stops:3|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8186', '2'] 深圳灣口岸 - 天水圍 (天耀邨)|$11.3|time:17|#stops:3|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2 from 元朗港鐵站 to 深圳灣口岸|#stops:20|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1735', '1'] 元朗港鐵站 - 深圳灣口岸|$15.8|time:33|#stops:20|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B2 from 深圳灣口岸 to 元朗港鐵站|#stops:16|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1735', '2'] 深圳灣口岸 - 元朗港鐵站|$15.8|time:33|#stops:16|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N1 from 梅窩碼頭 to 大澳|#stops:49|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1736', '1'] 梅窩碼頭 - 大澳|$32.8|time:45|#stops:49|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N38 from 逸東邨 to 東涌站巴士總站|#stops:5|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1738', '1'] 逸東邨 - 東涌港鐵站|$5.4|time:7|#stops:5|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N38 from 東涌站巴士總站 to 逸東邨|#stops:5|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1738', '2'] 東涌港鐵站 - 逸東邨|$5.4|time:7|#stops:5|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37P from 逸東邨 (裕東路) to 映灣園|#stops:3|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1959', '1'] 逸東邨雍逸樓 - 映灣園|$3.9|time:11|#stops:3|
+07-Feb-26 19:31:48 | nlb - INFO - Cannot find GTFS route for NLB 7S from 梅窩碼頭 to 禮智園墳場|#stops:6
+07-Feb-26 19:31:48 | nlb - INFO - Cannot find GTFS route for NLB 34S from 東涌達東路巴士總站 to 十八區墳場 (循環線)|#stops:27
+07-Feb-26 19:31:48 | nlb - INFO - Cannot find GTFS route for NLB 7S from 禮智園墳場 to 梅窩碼頭|#stops:6
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37S from 東涌發展碼頭 to 東涌站巴士總站|#stops:3|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8424', '1'] 東涌發展碼頭 - 東涌港鐵站|$3.9|time:4|#stops:3|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37 from 逸東邨 to 迎東邨|#stops:17|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8205', '1'] 逸東邨 - 迎東邨|$3.9|time:20|#stops:17|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000267', '1'] 逸東邨 - 迎東邨|$3.9|time:15|#stops:9|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37 from 迎東邨 to 逸東邨|#stops:15|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8205', '2'] 迎東邨 - 逸東邨|$3.9|time:20|#stops:15|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37M from 迎東邨 to 東涌站巴士總站 (循環線)|#stops:12|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8331', '1'] 迎東邨 - 迎東邨|$3.9|time:5|#stops:10|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000358', '1'] 迎東邨 - 迎東邨|$3.9|time:10|#stops:12|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N37 from 迎東邨 to 東涌站巴士總站 (循環線)|#stops:15|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8707', '1'] 迎東邨 - 迎東邨|$5.4|time:9|#stops:15|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B4 from 大橋香港口岸 to 機場 (客運大樓) (循環線)|#stops:7|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8633', '1'] 大橋香港口岸 - 大橋香港口岸|$9.8|time:10|#stops:7|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B6 from 大橋香港口岸 to 滿東邨|#stops:5|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8635', '2'] 大橋香港口岸 - 滿東邨|$9.8|time:23|#stops:5|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B6 from 滿東邨 to 大橋香港口岸|#stops:7|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8635', '1'] 滿東邨 - 大橋香港口岸|$9.8|time:23|#stops:7|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB A35 from 梅窩碼頭 to 大橋香港口岸|#stops:61|routeCount: 3
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1734', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:77|#stops:55|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8574', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:81|#stops:59|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8575', '1'] 梅窩碼頭 - 大橋香港口岸|$32.4|time:81|#stops:57|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB A35 from 大橋香港口岸 to 梅窩碼頭|#stops:61|routeCount: 2
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1734', '2'] 大橋香港口岸 - 梅窩碼頭|$32.4|time:77|#stops:57|
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8574', '2'] 大橋香港口岸 - 梅窩碼頭|$32.4|time:81|#stops:61|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N35 from 梅窩碼頭 to 大橋香港口岸|#stops:59|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1737', '1'] 梅窩碼頭 - 大橋香港口岸|$47.9|time:75|#stops:59|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB N35 from 大橋香港口岸 to 梅窩碼頭|#stops:61|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1737', '2'] 大橋香港口岸 - 梅窩碼頭|$47.9|time:75|#stops:61|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 39M from 東涌站巴士總站 to 滿東邨 (循環線)|#stops:8|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8645', '1'] 東涌站巴士總站 - 東涌站巴士總站|$3.9|time:8|#stops:8|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37H from 迎東邨 to 北大嶼山醫院 (循環線)|#stops:31|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '8290', '1'] 迎東邨 - 迎東邨|$3.9|time:22|#stops:31|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 36X from 滿東邨 to 迪士尼樂園|#stops:4|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000208', '1'] 滿東邨 - 迪士尼樂園|$10.7|time:20|#stops:4|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 36 from 東涌達東路巴士總站 to 迪士尼樂園|#stops:6|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1729', '1'] 東涌達東路巴士總站 - 迪士尼樂園|$10.7|time:28|#stops:6|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 36 from 迪士尼樂園 to 東涌達東路巴士總站|#stops:9|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1729', '2'] 迪士尼樂園 - 東涌達東路巴士總站|$10.7|time:28|#stops:9|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB X11R from 東涌世茂喜來登酒店 to 大澳|#stops:6|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000442', '1'] 東涌世茂喜來登酒店 - 大澳|$43.9|time:66|#stops:6|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB X11R from 大澳 to 東涌世茂喜來登酒店|#stops:7|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000442', '2'] 大澳 - 東涌世茂喜來登酒店|$43.9|time:66|#stops:7|
+07-Feb-26 19:31:48 | nlb - INFO - Cannot find GTFS route for NLB NB2 from 深圳灣口岸 to 元朗港鐵站 (循環線)|#stops:4
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB B6S from 滿東邨 to 大橋香港口岸|#stops:7|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000568', '1'] 滿東邨 - 大橋香港口岸|$9.8|time:19|#stops:7|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB XB2 from 元朗港鐵站 to 深圳灣口岸(特快)|#stops:7|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000620', '1'] 元朗港鐵站 - 深圳灣口岸|$15.8|time:21|#stops:7|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB XB2 from 深圳灣口岸 to 元朗港鐵站(特快)|#stops:6|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000620', '2'] 深圳灣口岸 - 元朗港鐵站|$15.8|time:21|#stops:6|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 36M from 翔東邨(翔月樓) to 欣澳站|#stops:5|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000591', '1'] 翔東邨翔月樓 - 欣澳站|$10.7|time:15|#stops:5|
+07-Feb-26 19:31:48 | nlb - INFO - GTFS route for NLB 37A from 翔東邨(翔月樓) to 東涌站巴士總站 (循環線)|#stops:11|routeCount: 1
+07-Feb-26 19:31:48 | nlb - INFO - ['NLB', '1000359', '1'] 翔東邨翔月樓 - 翔東邨翔月樓|$3.9|time:20|#stops:11|
