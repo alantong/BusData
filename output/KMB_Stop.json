@@ -2340,7 +2340,7 @@
         "co":"KMB"
     },
     {
-        "stop":"F5098BFD784B8FAB",
+        "stop":"029EA5F3C2AEFBC9",
         "name_en":"Hoi Fu Court, Park Avenue (MK121)",
         "name_tc":"海富苑 柏景灣 (MK121)",
         "name_sc":"海富苑 柏景湾 (MK121)",
@@ -2349,7 +2349,7 @@
         "co":"KMB"
     },
     {
-        "stop":"1C7C526A52EF9171",
+        "stop":"6E4C75B59DEF3D89",
         "name_en":"Charming Garden (MK122)",
         "name_tc":"富榮花園 (MK122)",
         "name_sc":"富荣花园 (MK122)",
@@ -3483,10 +3483,19 @@
         "co":"KMB"
     },
     {
+        "stop":"F053C0080D5D5B62",
+        "name_en":"Parkes Street, Temple Street Night Market (YT671)",
+        "name_tc":"白加士街 廟街夜市 (YT671)",
+        "name_sc":"白加士街 庙街夜市 (YT671)",
+        "lat":"22.305172",
+        "long":"114.170361",
+        "co":"KMB"
+    },
+    {
         "stop":"D06E5A5B162EF1BA",
-        "name_en":"Wui Cheung Road, Austin Station (YT201)",
-        "name_tc":"匯翔道  柯士甸站 (YT201)",
-        "name_sc":"汇翔道  柯士甸站 (YT201)",
+        "name_en":"Wui Cheung Road, High Speed Rail Station (YT201)",
+        "name_tc":"匯翔道,高鐵站 (YT201)",
+        "name_sc":"汇翔道,高铁站 (YT201)",
         "lat":"22.304716",
         "long":"114.167704",
         "co":"KMB"
@@ -3885,15 +3894,6 @@
         "name_sc":"新蒲岗宁远街 (WT556)",
         "lat":"22.333999",
         "long":"114.194959",
-        "co":"KMB"
-    },
-    {
-        "stop":"9DDE74BD2D803D9C",
-        "name_en":"Gascoigne Road (YT548)",
-        "name_tc":"加士居道 (YT548)",
-        "name_sc":"加士居道 (YT548)",
-        "lat":"22.308880",
-        "long":"114.171410",
         "co":"KMB"
     },
     {
@@ -5625,12 +5625,12 @@
         "co":"KMB"
     },
     {
-        "stop":"2EF9764BE18FC290",
-        "name_en":"Lam Tin Station (LT607)",
-        "name_tc":"藍田站 (LT607)",
-        "name_sc":"蓝田站 (LT607)",
-        "lat":"22.305354",
-        "long":"114.234128",
+        "stop":"6C6B36F7550907CE",
+        "name_en":"Lam Tin Station (LT608)",
+        "name_tc":"藍田站 (LT608)",
+        "name_sc":"蓝田站 (LT608)",
+        "lat":"22.305444",
+        "long":"114.234043",
         "co":"KMB"
     },
     {
@@ -6562,9 +6562,9 @@
     },
     {
         "stop":"BD9C8BC4A5FCEC12",
-        "name_en":"Kowloon Station Bus Terminus (YT941)",
-        "name_tc":"九龍站巴士總站 (YT941)",
-        "name_sc":"九龙站巴士总站 (YT941)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT941)",
+        "name_tc":"九龍站,高鐵站 (YT941)",
+        "name_sc":"九龙站,高铁站 (YT941)",
         "lat":"22.305079",
         "long":"114.162604",
         "co":"KMB"
@@ -6948,28 +6948,55 @@
         "co":"KMB"
     },
     {
-        "stop":"225F00F550C301AE",
-        "name_en":"San Shan Road (KC725)",
-        "name_tc":"新山道 (KC725)",
-        "name_sc":"新山道 (KC725)",
+        "stop":"C3959EAA44E6B4DF",
+        "name_en":"San Shan Road",
+        "name_tc":"新山道",
+        "name_sc":"新山道",
         "lat":"22.322068",
         "long":"114.187728",
         "co":"KMB"
     },
     {
-        "stop":"F5795A904B483F33",
-        "name_en":"Sheung Heung Road To Kwa Wan (KC727)",
-        "name_tc":"土瓜灣上鄉道 (KC727)",
-        "name_sc":"土瓜湾上乡道 (KC727)",
+        "stop":"1AD6D7010C8B1C45",
+        "name_en":"Sheung Heung Road To Kwa Wan",
+        "name_tc":"土瓜灣上鄉道",
+        "name_sc":"土瓜湾上乡道",
         "lat":"22.318431",
         "long":"114.187672",
         "co":"KMB"
     },
     {
+        "stop":"AE5E397C3B5B4EFF",
+        "name_en":"Chi Kiang Street Playground (HH735)",
+        "name_tc":"浙江街遊樂場 (HH735)",
+        "name_sc":"浙江街游乐场 (HH735)",
+        "lat":"22.314562",
+        "long":"114.187656",
+        "co":"KMB"
+    },
+    {
+        "stop":"CC3C40EFC7971AEF",
+        "name_en":"San Lau Street (HH737)",
+        "name_tc":"新柳街 (HH737)",
+        "name_sc":"新柳街 (HH737)",
+        "lat":"22.312282",
+        "long":"114.186412",
+        "co":"KMB"
+    },
+    {
+        "stop":"190F209646059000",
+        "name_en":"Kowloon Union Church (YT670)",
+        "name_tc":"九龍佑寧堂 (YT670)",
+        "name_sc":"九龙佑宁堂 (YT670)",
+        "lat":"22.305649",
+        "long":"114.172574",
+        "co":"KMB"
+    },
+    {
         "stop":"593DE4298B444E66",
-        "name_en":"Kowloon Station Bus Terminus (YT948)",
-        "name_tc":"九龍站巴士總站 (YT948)",
-        "name_sc":"九龙站巴士总站 (YT948)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT948)",
+        "name_tc":"九龍站,高鐵站 (YT948)",
+        "name_sc":"九龙站,高铁站 (YT948)",
         "lat":"22.305079",
         "long":"114.162604",
         "co":"KMB"
@@ -7875,7 +7902,7 @@
         "co":"KMB"
     },
     {
-        "stop":"5A0D9C9441ED6AC5",
+        "stop":"7EC4B2C80047770A",
         "name_en":"Chung Wui Street Tai Kok Tsui (MK296)",
         "name_tc":"大角咀中匯街 (MK296)",
         "name_sc":"大角咀中汇街 (MK296)",
@@ -7884,7 +7911,7 @@
         "co":"KMB"
     },
     {
-        "stop":"9BF9C994F2DAE15D",
+        "stop":"9B62732E0E1E537C",
         "name_en":"Olympic Station (MK297)",
         "name_tc":"奧運站 (MK297)",
         "name_sc":"奥运站 (MK297)",
@@ -7894,9 +7921,9 @@
     },
     {
         "stop":"F6EE4DC41A299593",
-        "name_en":"Wui Cheung Road, Austin Station (YT200)",
-        "name_tc":"匯翔道  柯士甸站 (YT200)",
-        "name_sc":"汇翔道  柯士甸站 (YT200)",
+        "name_en":"Wui Cheung Road, High Speed Rail Station (YT200)",
+        "name_tc":"匯翔道,高鐵站 (YT200)",
+        "name_sc":"汇翔道,高铁站 (YT200)",
         "lat":"22.304334",
         "long":"114.167837",
         "co":"KMB"
@@ -7929,7 +7956,7 @@
         "co":"KMB"
     },
     {
-        "stop":"E3A083E4F64D93CD",
+        "stop":"6265ADC5B1D37D6C",
         "name_en":"Kowloon Park Drive (YT640)",
         "name_tc":"九龍公園徑 (YT640)",
         "name_sc":"九龙公园径 (YT640)",
@@ -8277,6 +8304,24 @@
         "name_sc":"怡阁苑 (SS221)",
         "lat":"22.333706",
         "long":"114.158398",
+        "co":"KMB"
+    },
+    {
+        "stop":"5A0D9C9441ED6AC5",
+        "name_en":"Chung Wui Street Tai Kok Tsui (MK296)",
+        "name_tc":"大角咀中匯街 (MK296)",
+        "name_sc":"大角咀中汇街 (MK296)",
+        "lat":"22.322767",
+        "long":"114.159836",
+        "co":"KMB"
+    },
+    {
+        "stop":"9BF9C994F2DAE15D",
+        "name_en":"Olympic Station (MK297)",
+        "name_tc":"奧運站 (MK297)",
+        "name_sc":"奥运站 (MK297)",
+        "lat":"22.318545",
+        "long":"114.160606",
         "co":"KMB"
     },
     {
@@ -8838,12 +8883,12 @@
         "co":"KMB"
     },
     {
-        "stop":"6C6B36F7550907CE",
-        "name_en":"Lam Tin Station (LT608)",
-        "name_tc":"藍田站 (LT608)",
-        "name_sc":"蓝田站 (LT608)",
-        "lat":"22.305444",
-        "long":"114.234043",
+        "stop":"2EF9764BE18FC290",
+        "name_en":"Lam Tin Station (LT607)",
+        "name_tc":"藍田站 (LT607)",
+        "name_sc":"蓝田站 (LT607)",
+        "lat":"22.305354",
+        "long":"114.234128",
         "co":"KMB"
     },
     {
@@ -9465,6 +9510,15 @@
         "name_sc":"启田商场 (LT531)",
         "lat":"22.308398",
         "long":"114.234653",
+        "co":"KMB"
+    },
+    {
+        "stop":"225F00F550C301AE",
+        "name_en":"San Shan Road (KC725)",
+        "name_tc":"新山道 (KC725)",
+        "name_sc":"新山道 (KC725)",
+        "lat":"22.322068",
+        "long":"114.187728",
         "co":"KMB"
     },
     {
@@ -11322,12 +11376,12 @@
         "co":"KMB"
     },
     {
-        "stop":"DAE9E14BA67CEC80",
-        "name_en":"Hing Wah Street Cheung Sha Wan (SS475)",
-        "name_tc":"長沙灣興華街 (SS475)",
-        "name_sc":"长沙湾兴华街 (SS475)",
-        "lat":"22.337851",
-        "long":"114.153289",
+        "stop":"2035C91B61C6DFC0",
+        "name_en":"Hing Wah Street Cheung Sha Wan (SS474)",
+        "name_tc":"長沙灣興華街 (SS474)",
+        "name_sc":"长沙湾兴华街 (SS474)",
+        "lat":"22.337928",
+        "long":"114.153199",
         "co":"KMB"
     },
     {
@@ -11340,30 +11394,21 @@
         "co":"KMB"
     },
     {
-        "stop":"7BA304A9D0662541",
-        "name_en":"Kiu Kiang Street Sham Shui Po (SS483)",
-        "name_tc":"深水埗九江街 (SS483)",
-        "name_sc":"深水埗九江街 (SS483)",
-        "lat":"22.332873",
-        "long":"114.159755",
+        "stop":"789384E5DC5AF7A9",
+        "name_en":"Kiu Kiang Street Sham Shui Po (SS484)",
+        "name_tc":"深水埗九江街 (SS484)",
+        "name_sc":"深水埗九江街 (SS484)",
+        "lat":"22.332801",
+        "long":"114.159824",
         "co":"KMB"
     },
     {
-        "stop":"943DA171019723CE",
-        "name_en":"Pei Ho Street Sham Shui Po (SS490)",
-        "name_tc":"深水埗北河街 (SS490)",
-        "name_sc":"深水埗北河街 (SS490)",
-        "lat":"22.330642",
-        "long":"114.162617",
-        "co":"KMB"
-    },
-    {
-        "stop":"495A6186451A78E3",
-        "name_en":"Maple Street Sham Shui Po (SS495)",
-        "name_tc":"深水埗楓樹街 (SS495)",
-        "name_sc":"深水埗枫树街 (SS495)",
-        "lat":"22.328119",
-        "long":"114.165876",
+        "stop":"E553B839AD6A8C3D",
+        "name_en":"Maple Street Sham Shui Po (SS494)",
+        "name_tc":"深水埗楓樹街 (SS494)",
+        "name_sc":"深水埗枫树街 (SS494)",
+        "lat":"22.328312",
+        "long":"114.165629",
         "co":"KMB"
     },
     {
@@ -14680,18 +14725,18 @@
     },
     {
         "stop":"508D1C5BF90CE574",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT960)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT960)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT960)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT960)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT960)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
     },
     {
         "stop":"98F2067168C267FE",
-        "name_en":"Jordan Road West Kowloon Station (YT242)",
-        "name_tc":"佐敦道西九龍站 (YT242)",
-        "name_sc":"佐敦道西九龙站 (YT242)",
+        "name_en":"Jordan Road, High Speed Rail Station (YT242)",
+        "name_tc":"佐敦道,高鐵站 (YT242)",
+        "name_sc":"佐敦道,高铁站 (YT242)",
         "lat":"22.306180",
         "long":"114.166315",
         "co":"KMB"
@@ -14796,12 +14841,12 @@
         "co":"KMB"
     },
     {
-        "stop":"D6E03ECA84C07932",
-        "name_en":"Kimberley Road, Mira Place (YT558)",
-        "name_tc":"金巴利道 美麗華廣場 (YT558)",
-        "name_sc":"金巴利道 美丽华广场 (YT558)",
-        "lat":"22.300942",
-        "long":"114.172087",
+        "stop":"9DDE74BD2D803D9C",
+        "name_en":"Gascoigne Road (YT548)",
+        "name_tc":"加士居道 (YT548)",
+        "name_sc":"加士居道 (YT548)",
+        "lat":"22.308880",
+        "long":"114.171410",
         "co":"KMB"
     },
     {
@@ -16587,12 +16632,48 @@
         "co":"KMB"
     },
     {
+        "stop":"1E1F9E719E67766C",
+        "name_en":"Mei Foo BBI (SS461)",
+        "name_tc":"美孚轉車站 (SS461)",
+        "name_sc":"美孚转车站 (SS461)",
+        "lat":"22.337460",
+        "long":"114.140547",
+        "co":"KMB"
+    },
+    {
         "stop":"F01F8CF411A34AA7",
         "name_en":"Lai Chi Kok Station (SS466)",
         "name_tc":"荔枝角站 (SS466)",
         "name_sc":"荔枝角站 (SS466)",
         "lat":"22.337559",
         "long":"114.148620",
+        "co":"KMB"
+    },
+    {
+        "stop":"7BA304A9D0662541",
+        "name_en":"Kiu Kiang Street Sham Shui Po (SS483)",
+        "name_tc":"深水埗九江街 (SS483)",
+        "name_sc":"深水埗九江街 (SS483)",
+        "lat":"22.332873",
+        "long":"114.159755",
+        "co":"KMB"
+    },
+    {
+        "stop":"943DA171019723CE",
+        "name_en":"Pei Ho Street Sham Shui Po (SS490)",
+        "name_tc":"深水埗北河街 (SS490)",
+        "name_sc":"深水埗北河街 (SS490)",
+        "lat":"22.330642",
+        "long":"114.162617",
+        "co":"KMB"
+    },
+    {
+        "stop":"495A6186451A78E3",
+        "name_en":"Maple Street Sham Shui Po (SS495)",
+        "name_tc":"深水埗楓樹街 (SS495)",
+        "name_sc":"深水埗枫树街 (SS495)",
+        "lat":"22.328119",
+        "long":"114.165876",
         "co":"KMB"
     },
     {
@@ -16606,9 +16687,9 @@
     },
     {
         "stop":"83C964C7AF464F05",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT959)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT959)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT959)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT959)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT959)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -17532,33 +17613,6 @@
         "co":"KMB"
     },
     {
-        "stop":"A6013462EAC8AA50",
-        "name_en":"Kwong Cheung Street Cheung Sha Wan (SS468)",
-        "name_tc":"長沙灣光昌街 (SS468)",
-        "name_sc":"长沙湾光昌街 (SS468)",
-        "lat":"22.338442",
-        "long":"114.151193",
-        "co":"KMB"
-    },
-    {
-        "stop":"2035C91B61C6DFC0",
-        "name_en":"Hing Wah Street Cheung Sha Wan (SS474)",
-        "name_tc":"長沙灣興華街 (SS474)",
-        "name_sc":"长沙湾兴华街 (SS474)",
-        "lat":"22.337928",
-        "long":"114.153199",
-        "co":"KMB"
-    },
-    {
-        "stop":"789384E5DC5AF7A9",
-        "name_en":"Kiu Kiang Street Sham Shui Po (SS484)",
-        "name_tc":"深水埗九江街 (SS484)",
-        "name_sc":"深水埗九江街 (SS484)",
-        "lat":"22.332801",
-        "long":"114.159824",
-        "co":"KMB"
-    },
-    {
         "stop":"0F4D809AED62F6E9",
         "name_en":"Yen Chow Street Sham Shui Po (SS486)",
         "name_tc":"深水埗欽州街 (SS486)",
@@ -17587,9 +17641,9 @@
     },
     {
         "stop":"4E42234F86ABC6E3",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT950)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT950)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT950)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT950)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT950)",
         "lat":"22.307517",
         "long":"114.164814",
         "co":"KMB"
@@ -18604,9 +18658,9 @@
     },
     {
         "stop":"6085C420AB7E6FF9",
-        "name_en":"Jordan Road West Kowloon Station (YT240)",
-        "name_tc":"佐敦道西九龍站 (YT240)",
-        "name_sc":"佐敦道西九龙站 (YT240)",
+        "name_en":"Jordan Road, High Speed Rail Station (YT240)",
+        "name_tc":"佐敦道,高鐵站 (YT240)",
+        "name_sc":"佐敦道,高铁站 (YT240)",
         "lat":"22.306180",
         "long":"114.166315",
         "co":"KMB"
@@ -18819,10 +18873,19 @@
         "co":"KMB"
     },
     {
+        "stop":"B568727F49CD11A3",
+        "name_en":"Kai Tak Tunnel BBI - Kai Fuk Road (KT590)",
+        "name_tc":"啟隧轉車站-啟福道 (KT590)",
+        "name_sc":"启隧转车站-启福道 (KT590)",
+        "lat":"22.323065",
+        "long":"114.203197",
+        "co":"KMB"
+    },
+    {
         "stop":"7B4FD0F182DCC294",
-        "name_en":"Jordan Road West Kowloon Station (Yt674B)",
-        "name_tc":"佐敦道西九龍站 (YT674b)",
-        "name_sc":"佐敦道西九龙站 (YT674b)",
+        "name_en":"Jordan Road, High Speed Rail Station (Yt674B)",
+        "name_tc":"佐敦道,高鐵站 (YT674b)",
+        "name_sc":"佐敦道,高铁站 (YT674b)",
         "lat":"22.305945",
         "long":"114.166374",
         "co":"KMB"
@@ -22041,7 +22104,25 @@
         "co":"KMB"
     },
     {
-        "stop":"C0AA7F3501EFA657",
+        "stop":"A6013462EAC8AA50",
+        "name_en":"Kwong Cheung Street Cheung Sha Wan (SS468)",
+        "name_tc":"長沙灣光昌街 (SS468)",
+        "name_sc":"长沙湾光昌街 (SS468)",
+        "lat":"22.338442",
+        "long":"114.151193",
+        "co":"KMB"
+    },
+    {
+        "stop":"DAE9E14BA67CEC80",
+        "name_en":"Hing Wah Street Cheung Sha Wan (SS475)",
+        "name_tc":"長沙灣興華街 (SS475)",
+        "name_sc":"长沙湾兴华街 (SS475)",
+        "lat":"22.337851",
+        "long":"114.153289",
+        "co":"KMB"
+    },
+    {
+        "stop":"102CF3166EF7ABFF",
         "name_en":"Dundas Street Mong Kok (MK524)",
         "name_tc":"旺角登打士街 (MK524)",
         "name_sc":"旺角登打士街 (MK524)",
@@ -22051,18 +22132,18 @@
     },
     {
         "stop":"E1DA8EB2EA9A4B3C",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT953)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT953)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT953)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT953)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT953)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
     },
     {
         "stop":"457F82CA73DB77ED",
-        "name_en":"Jordan Road West Kowloon Station (YT241)",
-        "name_tc":"佐敦道西九龍站 (YT241)",
-        "name_sc":"佐敦道西九龙站 (YT241)",
+        "name_en":"Jordan Road, High Speed Rail Station (YT241)",
+        "name_tc":"佐敦道,高鐵站 (YT241)",
+        "name_sc":"佐敦道,高铁站 (YT241)",
         "lat":"22.306180",
         "long":"114.166315",
         "co":"KMB"
@@ -25264,9 +25345,9 @@
     },
     {
         "stop":"0C327E058835F570",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT954)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT954)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT954)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT954)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT954)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -29079,6 +29160,15 @@
         "co":"KMB"
     },
     {
+        "stop":"F5795A904B483F33",
+        "name_en":"Sheung Heung Road To Kwa Wan (KC727)",
+        "name_tc":"土瓜灣上鄉道 (KC727)",
+        "name_sc":"土瓜湾上乡道 (KC727)",
+        "lat":"22.318431",
+        "long":"114.187672",
+        "co":"KMB"
+    },
+    {
         "stop":"C72D7C053FC3AEBB",
         "name_en":"Kowloon City Ferry Bus Terminus (KC950)",
         "name_tc":"九龍城碼頭巴士總站 (KC950)",
@@ -31762,9 +31852,9 @@
     },
     {
         "stop":"C35DF653E02636CD",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT952)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT952)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT952)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT952)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT952)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -36064,18 +36154,18 @@
     },
     {
         "stop":"DD161A7AB0D39192",
-        "name_en":"Jordan Road West Kowloon Station (YT675)",
-        "name_tc":"佐敦道西九龍站 (YT675)",
-        "name_sc":"佐敦道西九龙站 (YT675)",
+        "name_en":"Jordan Road, High Speed Rail Station (YT675)",
+        "name_tc":"佐敦道,高鐵站 (YT675)",
+        "name_sc":"佐敦道,高铁站 (YT675)",
         "lat":"22.306354",
         "long":"114.164444",
         "co":"KMB"
     },
     {
         "stop":"3BEDF164D4714445",
-        "name_en":"Kowloon Station Bus Terminus (YT944)",
-        "name_tc":"九龍站巴士總站 (YT944)",
-        "name_sc":"九龙站巴士总站 (YT944)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT944)",
+        "name_tc":"九龍站,高鐵站 (YT944)",
+        "name_sc":"九龙站,高铁站 (YT944)",
         "lat":"22.305069",
         "long":"114.162672",
         "co":"KMB"
@@ -37476,15 +37566,6 @@
         "co":"KMB"
     },
     {
-        "stop":"E553B839AD6A8C3D",
-        "name_en":"Maple Street Sham Shui Po (SS494)",
-        "name_tc":"深水埗楓樹街 (SS494)",
-        "name_sc":"深水埗枫树街 (SS494)",
-        "lat":"22.328312",
-        "long":"114.165629",
-        "co":"KMB"
-    },
-    {
         "stop":"889F84EBA6D9571A",
         "name_en":"Prince Edward Station, Flower Market (MK501)",
         "name_tc":"太子站,旺角花墟 (MK501)",
@@ -37509,6 +37590,15 @@
         "name_sc":"旺角奶路臣街 (MK518)",
         "lat":"22.317949",
         "long":"114.169738",
+        "co":"KMB"
+    },
+    {
+        "stop":"C0AA7F3501EFA657",
+        "name_en":"Dundas Street Mong Kok (MK524)",
+        "name_tc":"旺角登打士街 (MK524)",
+        "name_sc":"旺角登打士街 (MK524)",
+        "lat":"22.314939",
+        "long":"114.170396",
         "co":"KMB"
     },
     {
@@ -40276,9 +40366,9 @@
     },
     {
         "stop":"343CF2F6ADACAACC",
-        "name_en":"West Kowloon Station (YT283)",
-        "name_tc":"西九龍站 (YT283)",
-        "name_sc":"西九龙站 (YT283)",
+        "name_en":"High Speed Rail West Kowloon Station (YT283)",
+        "name_tc":"高鐵西九龍站 (YT283)",
+        "name_sc":"高铁西九龙站 (YT283)",
         "lat":"22.304014",
         "long":"114.166620",
         "co":"KMB"
@@ -41968,9 +42058,9 @@
     },
     {
         "stop":"818CD5D5B9FD5B97",
-        "name_en":"Kowloon Station Bus Terminus (YT940)",
-        "name_tc":"九龍站巴士總站 (YT940)",
-        "name_sc":"九龙站巴士总站 (YT940)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT940)",
+        "name_tc":"九龍站,高鐵站 (YT940)",
+        "name_sc":"九龙站,高铁站 (YT940)",
         "lat":"22.305007",
         "long":"114.162950",
         "co":"KMB"
@@ -41982,15 +42072,6 @@
         "name_sc":"泽安邨巴士总站 (SS908)",
         "lat":"22.340478",
         "long":"114.164577",
-        "co":"KMB"
-    },
-    {
-        "stop":"452AD79BA74CF8F3",
-        "name_en":"Tsim Sha Tsui BBI - Middle Road (YT561)",
-        "name_tc":"尖沙咀轉車站 - 中間道 (YT561)",
-        "name_sc":"尖沙咀转车站 - 中间道 (YT561)",
-        "lat":"22.295948",
-        "long":"114.172439",
         "co":"KMB"
     },
     {
@@ -42283,9 +42364,9 @@
     },
     {
         "stop":"FF46CB6182028AC6",
-        "name_en":"Kowloon Station Bus Terminus (YT942)",
-        "name_tc":"九龍站巴士總站 (YT942)",
-        "name_sc":"九龙站巴士总站 (YT942)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT942)",
+        "name_tc":"九龍站,高鐵站 (YT942)",
+        "name_sc":"九龙站,高铁站 (YT942)",
         "lat":"22.305079",
         "long":"114.162604",
         "co":"KMB"
@@ -42481,11 +42562,20 @@
     },
     {
         "stop":"68A0FA3CC69206CC",
-        "name_en":"Kowloon Station Bus Terminus (YT946)",
-        "name_tc":"九龍站巴士總站 (YT946)",
-        "name_sc":"九龙站巴士总站 (YT946)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT946)",
+        "name_tc":"九龍站,高鐵站 (YT946)",
+        "name_sc":"九龙站,高铁站 (YT946)",
         "lat":"22.305015",
         "long":"114.162893",
+        "co":"KMB"
+    },
+    {
+        "stop":"E3A083E4F64D93CD",
+        "name_en":"Kowloon Park Drive (YT640)",
+        "name_tc":"九龍公園徑 (YT640)",
+        "name_sc":"九龙公园径 (YT640)",
+        "lat":"22.295997",
+        "long":"114.170136",
         "co":"KMB"
     },
     {
@@ -42531,15 +42621,6 @@
         "name_sc":"尖东站 K11 MUSEA (YT215)",
         "lat":"22.295226",
         "long":"114.174647",
-        "co":"KMB"
-    },
-    {
-        "stop":"B74273D52D064437",
-        "name_en":"Kowloon Park Drive (YT640)",
-        "name_tc":"九龍公園徑 (YT640)",
-        "name_sc":"九龙公园径 (YT640)",
-        "lat":"22.295997",
-        "long":"114.170136",
         "co":"KMB"
     },
     {
@@ -43417,9 +43498,9 @@
     },
     {
         "stop":"4DB8054CDFBB9E43",
-        "name_en":"West Kowloon Station (YT280)",
-        "name_tc":"西九龍站 (YT280)",
-        "name_sc":"西九龙站 (YT280)",
+        "name_en":"High Speed Rail West Kowloon Station (YT280)",
+        "name_tc":"高鐵西九龍站 (YT280)",
+        "name_sc":"高铁西九龙站 (YT280)",
         "lat":"22.304171",
         "long":"114.166525",
         "co":"KMB"
@@ -43596,10 +43677,19 @@
         "co":"KMB"
     },
     {
+        "stop":"D6E03ECA84C07932",
+        "name_en":"Kimberley Road, Mira Place (YT558)",
+        "name_tc":"金巴利道 美麗華廣場 (YT558)",
+        "name_sc":"金巴利道 美丽华广场 (YT558)",
+        "lat":"22.300942",
+        "long":"114.172087",
+        "co":"KMB"
+    },
+    {
         "stop":"EDE9E3D28B42969D",
-        "name_en":"Kowloon Station Bus Terminus (YT943)",
-        "name_tc":"九龍站巴士總站 (YT943)",
-        "name_sc":"九龙站巴士总站 (YT943)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT943)",
+        "name_tc":"九龍站,高鐵站 (YT943)",
+        "name_sc":"九龙站,高铁站 (YT943)",
         "lat":"22.305051",
         "long":"114.162734",
         "co":"KMB"
@@ -44092,9 +44182,9 @@
     },
     {
         "stop":"DE620CFFEE15A211",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT955)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT955)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT955)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT955)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT955)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -44415,6 +44505,24 @@
         "co":"KMB"
     },
     {
+        "stop":"F5098BFD784B8FAB",
+        "name_en":"Hoi Fu Court, Park Avenue (MK121)",
+        "name_tc":"海富苑 柏景灣 (MK121)",
+        "name_sc":"海富苑 柏景湾 (MK121)",
+        "lat":"22.316217",
+        "long":"114.163941",
+        "co":"KMB"
+    },
+    {
+        "stop":"1C7C526A52EF9171",
+        "name_en":"Charming Garden (MK122)",
+        "name_tc":"富榮花園 (MK122)",
+        "name_sc":"富荣花园 (MK122)",
+        "lat":"22.313988",
+        "long":"114.164449",
+        "co":"KMB"
+    },
+    {
         "stop":"2F202818B5A6F424",
         "name_en":"Tsing Sha Highway BBI (B1) (TA296)",
         "name_tc":"青沙公路轉車站 (B1) (TA296)",
@@ -44470,9 +44578,9 @@
     },
     {
         "stop":"8611CE1D516C6A6F",
-        "name_en":"Kowloon Station Bus Terminus",
-        "name_tc":"九龍站巴士總站",
-        "name_sc":"九龙站巴士总站",
+        "name_en":"Kowloon Station, High Speed Rail Station",
+        "name_tc":"九龍站,高鐵站",
+        "name_sc":"九龙站,高铁站",
         "lat":"22.305068",
         "long":"114.162626",
         "co":"KMB"
@@ -44514,10 +44622,37 @@
         "co":"KMB"
     },
     {
+        "stop":"E026DEF40AE536AA",
+        "name_en":"Kwong Fuk Estate (TP575)",
+        "name_tc":"廣福邨 (TP575)",
+        "name_sc":"广福邨 (TP575)",
+        "lat":"22.446623",
+        "long":"114.173374",
+        "co":"KMB"
+    },
+    {
+        "stop":"56E5C65B4893D75C",
+        "name_en":"Tak Shing Street Tsim Sha Tsui (YT555)",
+        "name_tc":"尖沙咀德成街 (YT555)",
+        "name_sc":"尖沙咀德成街 (YT555)",
+        "lat":"22.304530",
+        "long":"114.171826",
+        "co":"KMB"
+    },
+    {
+        "stop":"452AD79BA74CF8F3",
+        "name_en":"Tsim Sha Tsui BBI - Middle Road (YT561)",
+        "name_tc":"尖沙咀轉車站 - 中間道 (YT561)",
+        "name_sc":"尖沙咀转车站 - 中间道 (YT561)",
+        "lat":"22.295948",
+        "long":"114.172439",
+        "co":"KMB"
+    },
+    {
         "stop":"58C01C52768108CC",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT951)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT951)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT951)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT951)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT951)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -44541,10 +44676,19 @@
         "co":"KMB"
     },
     {
+        "stop":"DE1F8505C6154534",
+        "name_en":"Foo Kwai Street (MK202)",
+        "name_tc":"富貴街 (MK202)",
+        "name_sc":"富贵街 (MK202)",
+        "lat":"22.318849",
+        "long":"114.161872",
+        "co":"KMB"
+    },
+    {
         "stop":"01633AD5B1B978B4",
-        "name_en":"West Kowloon Station (YT281)",
-        "name_tc":"西九龍站 (YT281)",
-        "name_sc":"西九龙站 (YT281)",
+        "name_en":"High Speed Rail West Kowloon Station (YT281)",
+        "name_tc":"高鐵西九龍站 (YT281)",
+        "name_sc":"高铁西九龙站 (YT281)",
         "lat":"22.304190",
         "long":"114.166528",
         "co":"KMB"
@@ -45244,9 +45388,9 @@
     },
     {
         "stop":"9B45E50457274D2F",
-        "name_en":"Kowloon Station Bus Terminus (YT945)",
-        "name_tc":"九龍站巴士總站 (YT945)",
-        "name_sc":"九龙站巴士总站 (YT945)",
+        "name_en":"Kowloon Station, High Speed Rail Station (YT945)",
+        "name_tc":"九龍站,高鐵站 (YT945)",
+        "name_sc":"九龙站,高铁站 (YT945)",
         "lat":"22.305015",
         "long":"114.162893",
         "co":"KMB"
@@ -60067,20 +60211,74 @@
     },
     {
         "stop":"40D067F126426DC6",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT957)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT957)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT957)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT957)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT957)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
     },
     {
         "stop":"AC8828CF13B8AA49",
-        "name_en":"West Kowloon Station (YT282)",
-        "name_tc":"西九龍站 (YT282)",
-        "name_sc":"西九龙站 (YT282)",
+        "name_en":"High Speed Rail West Kowloon Station (YT282)",
+        "name_tc":"高鐵西九龍站 (YT282)",
+        "name_sc":"高铁西九龙站 (YT282)",
         "lat":"22.304014",
         "long":"114.166620",
+        "co":"KMB"
+    },
+    {
+        "stop":"C2593FE9DA3A0099",
+        "name_en":"Shun Yip Street, Kwun Tong (KT200)",
+        "name_tc":"觀塘順業街 (KT200)",
+        "name_sc":"观塘顺业街 (KT200)",
+        "lat":"22.316313",
+        "long":"114.214785",
+        "co":"KMB"
+    },
+    {
+        "stop":"714E854D63623C93",
+        "name_en":"Lai Yip Street, Kwun Tong (KT201)",
+        "name_tc":"觀塘勵業街 (KT201)",
+        "name_sc":"观塘励业街 (KT201)",
+        "lat":"22.314912",
+        "long":"114.216362",
+        "co":"KMB"
+    },
+    {
+        "stop":"4548FBAF08E3BF71",
+        "name_en":"Millennium City (KT341)",
+        "name_tc":"創紀之城 (KT341)",
+        "name_sc":"创纪之城 (KT341)",
+        "lat":"22.314442",
+        "long":"114.221302",
+        "co":"KMB"
+    },
+    {
+        "stop":"C69F10C6D4676331",
+        "name_en":"Kwun Tong BBI-Kwun Tong Town Centre (KT348)",
+        "name_tc":"觀塘轉車站-觀塘市中心 (KT348)",
+        "name_sc":"观塘转车站-观塘市中心 (KT348)",
+        "lat":"22.313264",
+        "long":"114.224346",
+        "co":"KMB"
+    },
+    {
+        "stop":"3CE92CA0407BEB9C",
+        "name_en":"Kwun Tong Swimming Pool (KT361)",
+        "name_tc":"觀塘游泳池 (KT361)",
+        "name_sc":"观塘游泳池 (KT361)",
+        "lat":"22.310432",
+        "long":"114.229545",
+        "co":"KMB"
+    },
+    {
+        "stop":"E9F673D418FA9E71",
+        "name_en":"Laguna Park (LT421)",
+        "name_tc":"麗港公園 (LT421)",
+        "name_sc":"丽港公园 (LT421)",
+        "lat":"22.307955",
+        "long":"114.226733",
         "co":"KMB"
     },
     {
@@ -60129,10 +60327,19 @@
         "co":"KMB"
     },
     {
+        "stop":"DE46A23558FD6CF6",
+        "name_en":"Tai Po Mega Mall (TP317)",
+        "name_tc":"大埔超級城 (TP317)",
+        "name_sc":"大埔超级城 (TP317)",
+        "lat":"22.451195",
+        "long":"114.169901",
+        "co":"KMB"
+    },
+    {
         "stop":"041A140AD24C1ADB",
-        "name_en":"Jordan (West Kowloon Station) Bus Terminus (YT956)",
-        "name_tc":"佐敦(西九龍站)巴士總站 (YT956)",
-        "name_sc":"佐敦(西九龙站)巴士总站 (YT956)",
+        "name_en":"High Speed Rail West Kowloon Station Bus Terminus",
+        "name_tc":"高鐵(西九龍站)巴士總站 (YT956)",
+        "name_sc":"高铁(西九龙站)巴士总站 (YT956)",
         "lat":"22.307550",
         "long":"114.164551",
         "co":"KMB"
@@ -60148,9 +60355,9 @@
     },
     {
         "stop":"89A8085A1605FDB4",
-        "name_en":"Jordan Road West Kowloon Station (YT676)",
-        "name_tc":"佐敦道西九龍站 (YT676)",
-        "name_sc":"佐敦道西九龙站 (YT676)",
+        "name_en":"Jordan Road, High Speed Rail Station (YT676)",
+        "name_tc":"佐敦道,高鐵站 (YT676)",
+        "name_sc":"佐敦道,高铁站 (YT676)",
         "lat":"22.306354",
         "long":"114.164444",
         "co":"KMB"
