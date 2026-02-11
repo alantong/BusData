@@ -2340,7 +2340,7 @@
         "co":"KMB"
     },
     {
-        "stop":"029EA5F3C2AEFBC9",
+        "stop":"F5098BFD784B8FAB",
         "name_en":"Hoi Fu Court, Park Avenue (MK121)",
         "name_tc":"海富苑 柏景灣 (MK121)",
         "name_sc":"海富苑 柏景湾 (MK121)",
@@ -2349,7 +2349,7 @@
         "co":"KMB"
     },
     {
-        "stop":"6E4C75B59DEF3D89",
+        "stop":"1C7C526A52EF9171",
         "name_en":"Charming Garden (MK122)",
         "name_tc":"富榮花園 (MK122)",
         "name_sc":"富荣花园 (MK122)",
@@ -7917,6 +7917,24 @@
         "name_sc":"奥运站 (MK297)",
         "lat":"22.318545",
         "long":"114.160606",
+        "co":"KMB"
+    },
+    {
+        "stop":"029EA5F3C2AEFBC9",
+        "name_en":"Hoi Fu Court, Park Avenue (MK121)",
+        "name_tc":"海富苑 柏景灣 (MK121)",
+        "name_sc":"海富苑 柏景湾 (MK121)",
+        "lat":"22.316217",
+        "long":"114.163941",
+        "co":"KMB"
+    },
+    {
+        "stop":"6E4C75B59DEF3D89",
+        "name_en":"Charming Garden (MK122)",
+        "name_tc":"富榮花園 (MK122)",
+        "name_sc":"富荣花园 (MK122)",
+        "lat":"22.313988",
+        "long":"114.164449",
         "co":"KMB"
     },
     {
@@ -44505,24 +44523,6 @@
         "co":"KMB"
     },
     {
-        "stop":"F5098BFD784B8FAB",
-        "name_en":"Hoi Fu Court, Park Avenue (MK121)",
-        "name_tc":"海富苑 柏景灣 (MK121)",
-        "name_sc":"海富苑 柏景湾 (MK121)",
-        "lat":"22.316217",
-        "long":"114.163941",
-        "co":"KMB"
-    },
-    {
-        "stop":"1C7C526A52EF9171",
-        "name_en":"Charming Garden (MK122)",
-        "name_tc":"富榮花園 (MK122)",
-        "name_sc":"富荣花园 (MK122)",
-        "lat":"22.313988",
-        "long":"114.164449",
-        "co":"KMB"
-    },
-    {
         "stop":"2F202818B5A6F424",
         "name_en":"Tsing Sha Highway BBI (B1) (TA296)",
         "name_tc":"青沙公路轉車站 (B1) (TA296)",
@@ -59499,6 +59499,51 @@
         "co":"KMB"
     },
     {
+        "stop":"8B9E121BB71771F4",
+        "name_en":"Go Park Sai Sha",
+        "name_tc":"西沙 GO PARK",
+        "name_sc":"西沙 GO PARK",
+        "lat":"22.426319",
+        "long":"114.267036",
+        "co":"KMB"
+    },
+    {
+        "stop":"8C90768E30E981C6",
+        "name_en":"Sha Tin Town Hall",
+        "name_tc":"沙田大會堂",
+        "name_sc":"沙田大会堂",
+        "lat":"22.382023",
+        "long":"114.191197",
+        "co":"KMB"
+    },
+    {
+        "stop":"B1882202E2B36620",
+        "name_en":"Pak Shek Kok (Fo Yin Road)",
+        "name_tc":"白石角(科研路)",
+        "name_sc":"白石角(科研路)",
+        "lat":"22.428807",
+        "long":"114.208558",
+        "co":"KMB"
+    },
+    {
+        "stop":"2B011CC82C51D518",
+        "name_en":"Wan Tau Tong Estate",
+        "name_tc":"運頭塘邨",
+        "name_sc":"运头塘邨",
+        "lat":"22.443221",
+        "long":"114.168832",
+        "co":"KMB"
+    },
+    {
+        "stop":"F02A1646BD4FC0E2",
+        "name_en":"Choi Pik House Choi Po Court (Nd105A)",
+        "name_tc":"彩蒲苑彩碧閣 (ND105a)",
+        "name_sc":"彩蒲苑彩碧阁 (ND105a)",
+        "lat":"22.502837",
+        "long":"114.124773",
+        "co":"KMB"
+    },
+    {
         "stop":"72B329134A0DADAD",
         "name_en":"Tin Shui Wai Tsui Sing Lau",
         "name_tc":"天水圍-聚星樓",
@@ -59517,39 +59562,12 @@
         "co":"KMB"
     },
     {
-        "stop":"F02A1646BD4FC0E2",
-        "name_en":"Choi Pik House Choi Po Court (Nd105A)",
-        "name_tc":"彩蒲苑彩碧閣 (ND105a)",
-        "name_sc":"彩蒲苑彩碧阁 (ND105a)",
-        "lat":"22.502837",
-        "long":"114.124773",
-        "co":"KMB"
-    },
-    {
         "stop":"01775517BE76284E",
         "name_en":"Fanling Station BBI - Fanling Station (C1) (ND495)",
         "name_tc":"粉嶺站轉車站 - 粉嶺站(C1)",
         "name_sc":"粉岭站转车站 - 粉岭站(C1)",
         "lat":"22.492523",
         "long":"114.138638",
-        "co":"KMB"
-    },
-    {
-        "stop":"8C90768E30E981C6",
-        "name_en":"Sha Tin Town Hall",
-        "name_tc":"沙田大會堂",
-        "name_sc":"沙田大会堂",
-        "lat":"22.382023",
-        "long":"114.191197",
-        "co":"KMB"
-    },
-    {
-        "stop":"8B9E121BB71771F4",
-        "name_en":"Go Park Sai Sha",
-        "name_tc":"西沙 GO PARK",
-        "name_sc":"西沙 GO PARK",
-        "lat":"22.426319",
-        "long":"114.267036",
         "co":"KMB"
     },
     {
@@ -59667,15 +59685,6 @@
         "name_sc":"大埔超级城(太和路)",
         "lat":"22.451204",
         "long":"114.168829",
-        "co":"KMB"
-    },
-    {
-        "stop":"B1882202E2B36620",
-        "name_en":"Pak Shek Kok (Fo Yin Road)",
-        "name_tc":"白石角(科研路)",
-        "name_sc":"白石角(科研路)",
-        "lat":"22.428807",
-        "long":"114.208558",
         "co":"KMB"
     },
     {
