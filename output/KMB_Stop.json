@@ -5625,12 +5625,12 @@
         "co":"KMB"
     },
     {
-        "stop":"6C6B36F7550907CE",
-        "name_en":"Lam Tin Station (LT608)",
-        "name_tc":"藍田站 (LT608)",
-        "name_sc":"蓝田站 (LT608)",
-        "lat":"22.305444",
-        "long":"114.234043",
+        "stop":"2EF9764BE18FC290",
+        "name_en":"Lam Tin Station (LT607)",
+        "name_tc":"藍田站 (LT607)",
+        "name_sc":"蓝田站 (LT607)",
+        "lat":"22.305354",
+        "long":"114.234128",
         "co":"KMB"
     },
     {
@@ -8901,12 +8901,12 @@
         "co":"KMB"
     },
     {
-        "stop":"2EF9764BE18FC290",
-        "name_en":"Lam Tin Station (LT607)",
-        "name_tc":"藍田站 (LT607)",
-        "name_sc":"蓝田站 (LT607)",
-        "lat":"22.305354",
-        "long":"114.234128",
+        "stop":"6C6B36F7550907CE",
+        "name_en":"Lam Tin Station (LT608)",
+        "name_tc":"藍田站 (LT608)",
+        "name_sc":"蓝田站 (LT608)",
+        "lat":"22.305444",
+        "long":"114.234043",
         "co":"KMB"
     },
     {
@@ -55818,7 +55818,7 @@
         "co":"KMB"
     },
     {
-        "stop":"0AAF9F132CE224F0",
+        "stop":"D7AEA2151D2CD809",
         "name_en":"Fanling Station BBI - Fanling Station (ND135)",
         "name_tc":"粉嶺站轉車站 - 粉嶺站 (ND135)",
         "name_sc":"粉岭站转车站 - 粉岭站 (ND135)",
@@ -59508,6 +59508,15 @@
         "co":"KMB"
     },
     {
+        "stop":"AE77FAE78AB50667",
+        "name_en":"Ma On Shan Plaza ( On Chun Street)",
+        "name_tc":"馬鞍山廣埸(鞍駿街)",
+        "name_sc":"马鞍山广埸(鞍骏街)",
+        "lat":"22.425852",
+        "long":"114.231257",
+        "co":"KMB"
+    },
+    {
         "stop":"8C90768E30E981C6",
         "name_en":"Sha Tin Town Hall",
         "name_tc":"沙田大會堂",
@@ -59535,6 +59544,15 @@
         "co":"KMB"
     },
     {
+        "stop":"01775517BE76284E",
+        "name_en":"Fanling Station BBI - Fanling Station (C1) (ND495)",
+        "name_tc":"粉嶺站轉車站 - 粉嶺站(C1)",
+        "name_sc":"粉岭站转车站 - 粉岭站(C1)",
+        "lat":"22.492523",
+        "long":"114.138638",
+        "co":"KMB"
+    },
+    {
         "stop":"F02A1646BD4FC0E2",
         "name_en":"Choi Pik House Choi Po Court (Nd105A)",
         "name_tc":"彩蒲苑彩碧閣 (ND105a)",
@@ -59559,15 +59577,6 @@
         "name_sc":"元朗 形点",
         "lat":"22.445022",
         "long":"114.037377",
-        "co":"KMB"
-    },
-    {
-        "stop":"01775517BE76284E",
-        "name_en":"Fanling Station BBI - Fanling Station (C1) (ND495)",
-        "name_tc":"粉嶺站轉車站 - 粉嶺站(C1)",
-        "name_sc":"粉岭站转车站 - 粉岭站(C1)",
-        "lat":"22.492523",
-        "long":"114.138638",
         "co":"KMB"
     },
     {
@@ -59613,6 +59622,33 @@
         "name_sc":"美裕街",
         "lat":"22.383910",
         "long":"114.272414",
+        "co":"KMB"
+    },
+    {
+        "stop":"06CC6423AA236B72",
+        "name_en":"Tseung Kwan O (Tong Chun Street)",
+        "name_tc":"將軍澳(唐俊街)",
+        "name_sc":"将军澳(唐俊街)",
+        "lat":"22.303002",
+        "long":"114.261429",
+        "co":"KMB"
+    },
+    {
+        "stop":"9252A494500A05C9",
+        "name_en":"Kwun Tong Ferry (Kei Yip Street)",
+        "name_tc":"觀塘碼頭 (基業街)",
+        "name_sc":"观塘码头 (基业街)",
+        "lat":"22.309177",
+        "long":"114.221147",
+        "co":"KMB"
+    },
+    {
+        "stop":"029C4172D953DAF5",
+        "name_en":"Kai Tak (Muk Yuen Street)",
+        "name_tc":"啟德(沐元街)",
+        "name_sc":"启德(沐元街)",
+        "lat":"22.331823",
+        "long":"114.198511",
         "co":"KMB"
     },
     {
@@ -59679,6 +59715,60 @@
         "co":"KMB"
     },
     {
+        "stop":"A96AF6278C46DB54",
+        "name_en":"Centre Street",
+        "name_tc":"正街",
+        "name_sc":"正街",
+        "lat":"22.288035",
+        "long":"114.141558",
+        "co":"KMB"
+    },
+    {
+        "stop":"90C2A33012A6F44E",
+        "name_en":"Java Road",
+        "name_tc":"渣華道",
+        "name_sc":"渣华道",
+        "lat":"22.292718",
+        "long":"114.201987",
+        "co":"KMB"
+    },
+    {
+        "stop":"9397AF37FDBD2908",
+        "name_en":"North Point Government Primary School",
+        "name_tc":"北角官立小學",
+        "name_sc":"北角官立小学",
+        "lat":"22.288917",
+        "long":"114.209889",
+        "co":"KMB"
+    },
+    {
+        "stop":"788EE9A16DCF784E",
+        "name_en":"Taikoo Shing (Kornhill Plaza)",
+        "name_tc":"太古城(康怡廣埸)",
+        "name_sc":"太古城(康怡广埸)",
+        "lat":"22.284602",
+        "long":"114.217602",
+        "co":"KMB"
+    },
+    {
+        "stop":"910D55DA18BCCE2E",
+        "name_en":"Mansion Street",
+        "name_tc":"民新街",
+        "name_sc":"民新街",
+        "lat":"22.289658",
+        "long":"114.209342",
+        "co":"KMB"
+    },
+    {
+        "stop":"D3BE07119A817573",
+        "name_en":"Centre Street",
+        "name_tc":"正街(西行)",
+        "name_sc":"正街(西行)",
+        "lat":"22.287818",
+        "long":"114.141681",
+        "co":"KMB"
+    },
+    {
         "stop":"AFFD0E0C6077741D",
         "name_en":"Tai Po Mega Mall (Tai Wo Road)",
         "name_tc":"大埔超級城(太和路)",
@@ -59715,15 +59805,6 @@
         "co":"KMB"
     },
     {
-        "stop":"029C4172D953DAF5",
-        "name_en":"Kai Tak (Muk Yuen Street)",
-        "name_tc":"啟德(沐元街)",
-        "name_sc":"启德(沐元街)",
-        "lat":"22.331823",
-        "long":"114.198511",
-        "co":"KMB"
-    },
-    {
         "stop":"FA3814D4475E4E1C",
         "name_en":"Hung Hom Station",
         "name_tc":"紅磡站",
@@ -59733,21 +59814,57 @@
         "co":"KMB"
     },
     {
+        "stop":"321060BAE1447BEE",
+        "name_en":"Tsuen Wan Station",
+        "name_tc":"荃灣站",
+        "name_sc":"荃湾站",
+        "lat":"22.372748",
+        "long":"114.119285",
+        "co":"KMB"
+    },
+    {
+        "stop":"825B78271286D8DE",
+        "name_en":"Sham Tseng",
+        "name_tc":"深井(南行)",
+        "name_sc":"深井(南行)",
+        "lat":"22.366449",
+        "long":"114.058713",
+        "co":"KMB"
+    },
+    {
+        "stop":"F9D89A6B45DFD0A0",
+        "name_en":"Golden Beach",
+        "name_tc":"黃金泳灘",
+        "name_sc":"黄金泳滩",
+        "lat":"22.373531",
+        "long":"113.991238",
+        "co":"KMB"
+    },
+    {
+        "stop":"C6F1D1D8DF180508",
+        "name_en":"Golden Beach",
+        "name_tc":"黃金泳灘(北行)",
+        "name_sc":"黄金泳滩(北行)",
+        "lat":"22.373800",
+        "long":"113.990764",
+        "co":"KMB"
+    },
+    {
+        "stop":"654D32C3AC9FAEF7",
+        "name_en":"Sham Tseng",
+        "name_tc":"深井",
+        "name_sc":"深井",
+        "lat":"22.367704",
+        "long":"114.060026",
+        "co":"KMB"
+    },
+    {
         "stop":"A31DD8C4FD6740D4",
         "name_en":"Spca Tsing Yi",
         "name_tc":"青衣SPCA",
         "name_sc":"青衣SPCA",
         "lat":"22.346439",
         "long":"114.111897",
-        "co":"KMB"
-    },
-    {
-        "stop":"06CC6423AA236B72",
-        "name_en":"Tseung Kwan O (Tong Chun Street)",
-        "name_tc":"將軍澳(唐俊街)",
-        "name_sc":"将军澳(唐俊街)",
-        "lat":"22.303002",
-        "long":"114.261429",
         "co":"KMB"
     },
     {
@@ -60279,6 +60396,15 @@
         "name_sc":"观塘游泳池 (KT361)",
         "lat":"22.310432",
         "long":"114.229545",
+        "co":"KMB"
+    },
+    {
+        "stop":"D46D178ECBA8976C",
+        "name_en":"Lam Tin Station",
+        "name_tc":"藍田站",
+        "name_sc":"蓝田站",
+        "lat":"22.305354",
+        "long":"114.234128",
         "co":"KMB"
     },
     {
