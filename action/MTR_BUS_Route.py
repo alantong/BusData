@@ -34,10 +34,10 @@ mtrbus_logger.addHandler(mtrbus_handler)
 mtrbus_logger.setLevel(logging.DEBUG)
 
 
-def getRouteStop(routeNo, bound, stopList):
+def getRouteStop(routeNo, bound, referenceId, stopList):
     routeStopList = []
     for s in stopList:
-        if (s['route'] == routeNo and s['bound'] == bound):
+        if (s['route'] == routeNo and s['bound'] == bound and s['referenceId'] == referenceId):
             routeStopList.append(s)
     #routeStopList.sort(key=lambda x: x['stopSeq'])
     #print(routeStopList)
@@ -79,6 +79,7 @@ def main(routes):
                     stop['long'] = row[5]
                     stop['name_tc'] = row[6]
                     stop['name_en'] = row[7]
+                    stop['referenceId'] = row[8]
                     
                     stopList.append(stop)
         
@@ -104,8 +105,16 @@ def main(routes):
                     r = {}
                     r['co'] = 'MTR_BUS'
                     routeNo = row[0]
-                    #print(f"Processing route {routeNo} bound {bound}")                 
-                    routeStopList = getRouteStop(routeNo, bound, stopList)
+                    referenceId = row[6]
+                    # Split referenceId by '-' and take the 2nd part as routeNo if referenceId contains '-'
+                    if referenceId.find('-') != -1:
+                        serviceType = referenceId.split('-')[1]
+                    else:
+                        serviceType = '0'
+                    r['service_type'] = serviceType
+
+                    #print(f"Processing route {routeNo} bound {bound} referenceId {referenceId}")                 
+                    routeStopList = getRouteStop(routeNo, bound, referenceId, stopList)
                     if(len(routeStopList) > 0 ) :
                         r['route'] = routeNo
                         r['bound'] = bound
