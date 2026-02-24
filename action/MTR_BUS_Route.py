@@ -5,6 +5,8 @@ import traceback
 import GetRoute
 import GeoJSON
 import GTFS
+import csv
+import io
 
 from requests.exceptions import HTTPError
 
@@ -60,14 +62,13 @@ def main(routes):
         stopList = []
         if stopResponse.status_code == 200:
             stopResponse.encoding = 'utf8'
-            lines = stopResponse.text.splitlines()
-            
-            for line in lines[1:]:
+            csvfile = io.StringIO(stopResponse.text)
+            reader = csv.reader(csvfile)
+            # skip header
+            next(reader, None)
 
-                #line = re.sub("(\",\"|\",|,\")", "|", line)
-                #line = line.replace("\",\"", '|')
-                #line = re.sub("\"", "", line)
-                row = [i.strip(" \"") for i in line.split(',')]
+            for row in reader:
+                row = [i.strip() for i in row]
                 if(len(row) > 0 ):
                     stop = {}
                     stop['co'] = 'MTR_BUS'
@@ -80,7 +81,7 @@ def main(routes):
                     stop['name_tc'] = row[6]
                     stop['name_en'] = row[7]
                     stop['referenceId'] = row[8]
-                    
+
                     stopList.append(stop)
         
         GetRoute.writeToJson(stopList, MTRBus_stop_json)
@@ -97,9 +98,12 @@ def main(routes):
         routeList = []
         if routeResponse.status_code == 200:
             routeResponse.encoding = 'utf8'
-            lines = routeResponse.text.splitlines()
-            for line in lines[1:]:
-                row = [i.strip(" \"") for i in line.split(',')]
+            csvfile = io.StringIO(routeResponse.text)
+            reader = csv.reader(csvfile)
+            # skip header
+            next(reader, None)
+            for row in reader:
+                row = [i for i in row]
                 
                 for bound in ('O', 'I'):
                     r = {}
@@ -111,9 +115,10 @@ def main(routes):
                         serviceType = referenceId.split('-')[1]
                     else:
                         serviceType = '0'
-                    r['service_type'] = serviceType + 1
+                    
+                    r['service_type'] = str(int(serviceType) + 1)
 
-                    #print(f"Processing route {routeNo} bound {bound} referenceId {referenceId}")                 
+                    print(f"Processing route {routeNo} bound {bound} referenceId {referenceId}")                 
                     routeStopList = getRouteStop(routeNo, bound, referenceId, stopList)
                     if(len(routeStopList) > 0 ) :
                         r['route'] = routeNo
