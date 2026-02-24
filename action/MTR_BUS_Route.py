@@ -111,7 +111,7 @@ def main(routes):
                         serviceType = referenceId.split('-')[1]
                     else:
                         serviceType = '0'
-                    r['service_type'] = serviceType
+                    r['service_type'] = serviceType + 1
 
                     #print(f"Processing route {routeNo} bound {bound} referenceId {referenceId}")                 
                     routeStopList = getRouteStop(routeNo, bound, referenceId, stopList)
