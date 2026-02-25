@@ -31141,9 +31141,9 @@
     },
     {
         "stop":"588FC84C44F8634E",
-        "name_en":"Ta Kwu Ling (Tsung Yuen Ha) (ND319)",
-        "name_tc":"打鼓嶺(松園下) (ND319)",
-        "name_sc":"打鼓岭(松园下) (ND319)",
+        "name_en":"Ta Kwu Ling (Liantang Port) (ND319)",
+        "name_tc":"打鼓嶺 (蓮塘口岸) (ND319)",
+        "name_sc":"打鼓岭 (莲塘口岸) (ND319)",
         "lat":"22.553078",
         "long":"114.155563",
         "co":"KMB"
@@ -59517,60 +59517,6 @@
         "co":"KMB"
     },
     {
-        "stop":"72B329134A0DADAD",
-        "name_en":"Tin Shui Wai Tsui Sing Lau",
-        "name_tc":"天水圍-聚星樓",
-        "name_sc":"天水围-聚星楼",
-        "lat":"22.449192",
-        "long":"114.005410",
-        "co":"KMB"
-    },
-    {
-        "stop":"F493236404A4FABF",
-        "name_en":"Yoho Mall (Yuen Long)",
-        "name_tc":"元朗 形點",
-        "name_sc":"元朗 形点",
-        "lat":"22.445022",
-        "long":"114.037377",
-        "co":"KMB"
-    },
-    {
-        "stop":"F050648C108571ED",
-        "name_en":"Hong Kong Palace Museum",
-        "name_tc":"香港故宮文化博物館",
-        "name_sc":"香港故宫文化博物馆",
-        "lat":"22.301472",
-        "long":"114.156170",
-        "co":"KMB"
-    },
-    {
-        "stop":"0524415976F284A4",
-        "name_en":"Austin Road West",
-        "name_tc":"柯士甸道西",
-        "name_sc":"柯士甸道西",
-        "lat":"22.302618",
-        "long":"114.159612",
-        "co":"KMB"
-    },
-    {
-        "stop":"045FB4EAE4FE52D6",
-        "name_en":"Nam Cheong Station (V Walk)",
-        "name_tc":"南昌站 (V WALK)",
-        "name_sc":"南昌站 (V WALK)",
-        "lat":"22.328007",
-        "long":"114.153683",
-        "co":"KMB"
-    },
-    {
-        "stop":"DE8AB4B54CD3D4F2",
-        "name_en":"Lohas Park Station",
-        "name_tc":"康城站",
-        "name_sc":"康城站",
-        "lat":"22.296803",
-        "long":"114.269336",
-        "co":"KMB"
-    },
-    {
         "stop":"064B06C60E5EE126",
         "name_en":"Mei Yu Street",
         "name_tc":"美裕街",
@@ -59604,6 +59550,24 @@
         "name_sc":"启德(沐元街)",
         "lat":"22.331823",
         "long":"114.198511",
+        "co":"KMB"
+    },
+    {
+        "stop":"1E5278D8C44ACD9E",
+        "name_en":"Twghs Tungpo",
+        "name_tc":"東華三院東蒲",
+        "name_sc":"东华三院东蒲",
+        "lat":"22.335280",
+        "long":"114.199517",
+        "co":"KMB"
+    },
+    {
+        "stop":"F050648C108571ED",
+        "name_en":"Hong Kong Palace Museum",
+        "name_tc":"香港故宮文化博物館",
+        "name_sc":"香港故宫文化博物馆",
+        "lat":"22.301472",
+        "long":"114.156170",
         "co":"KMB"
     },
     {
@@ -59652,21 +59616,12 @@
         "co":"KMB"
     },
     {
-        "stop":"0678C85600B1A019",
-        "name_en":"Tuen Mun Station(V City)",
-        "name_tc":"屯門站(V City)",
-        "name_sc":"屯门站(V City)",
-        "lat":"22.395230",
-        "long":"113.973850",
-        "co":"KMB"
-    },
-    {
-        "stop":"825D1D3AB07C1AC2",
-        "name_en":"Cheung Sha Wan Lai Ying St",
-        "name_tc":"長沙灣荔盈街",
-        "name_sc":"长沙湾荔盈街",
-        "lat":"22.328170",
-        "long":"114.147991",
+        "stop":"0524415976F284A4",
+        "name_en":"Austin Road West",
+        "name_tc":"柯士甸道西",
+        "name_sc":"柯士甸道西",
+        "lat":"22.302618",
+        "long":"114.159612",
         "co":"KMB"
     },
     {
@@ -59796,6 +59751,24 @@
         "co":"KMB"
     },
     {
+        "stop":"0678C85600B1A019",
+        "name_en":"Tuen Mun Station(V City)",
+        "name_tc":"屯門站(V City)",
+        "name_sc":"屯门站(V City)",
+        "lat":"22.395230",
+        "long":"113.973850",
+        "co":"KMB"
+    },
+    {
+        "stop":"F493236404A4FABF",
+        "name_en":"Yoho Mall (Yuen Long)",
+        "name_tc":"元朗 形點",
+        "name_sc":"元朗 形点",
+        "lat":"22.445022",
+        "long":"114.037377",
+        "co":"KMB"
+    },
+    {
         "stop":"C6F1D1D8DF180508",
         "name_en":"Golden Beach",
         "name_tc":"黃金泳灘(北行)",
@@ -59814,21 +59787,21 @@
         "co":"KMB"
     },
     {
+        "stop":"045FB4EAE4FE52D6",
+        "name_en":"Nam Cheong Station (V Walk)",
+        "name_tc":"南昌站 (V WALK)",
+        "name_sc":"南昌站 (V WALK)",
+        "lat":"22.327310",
+        "long":"114.154421",
+        "co":"KMB"
+    },
+    {
         "stop":"A31DD8C4FD6740D4",
         "name_en":"Spca Tsing Yi",
         "name_tc":"青衣SPCA",
         "name_sc":"青衣SPCA",
         "lat":"22.346439",
         "long":"114.111897",
-        "co":"KMB"
-    },
-    {
-        "stop":"8091E93BA6D4F59D",
-        "name_en":"Lam Tsuen Wishing Tree",
-        "name_tc":"林村許願樹",
-        "name_sc":"林村许愿树",
-        "lat":"22.457656",
-        "long":"114.142927",
         "co":"KMB"
     },
     {
