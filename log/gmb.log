@@ -1,24 +1,2 @@
-14-Mar-26 19:35:09 | gmb - INFO - Start getting GMB route
-14-Mar-26 20:32:23 | gmb - ERROR - Other error occurred: Client error '403 Forbidden' for url 'https://data.etagmb.gov.hk/stop/20017052'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-14-Mar-26 20:32:23 | gmb - ERROR - Client error '403 Forbidden' for url 'https://data.etagmb.gov.hk/stop/20017052'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 171, in main
-    gmbStopLoc += await asyncio.gather(*tasks)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 164, in limited_getStopLoc
-    return await getStopLoc(client, s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 69, in getStopLoc
-    stopLocResponse = await GetRoute.async_get_with_retry(client, stopLocUrl)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 68, in async_get_with_retry
-    raise e
-  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 60, in async_get_with_retry
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "/opt/hostedtoolcache/Python/3.13.12/x64/lib/python3.13/site-packages/httpx/_models.py", line 829, in raise_for_status
-    raise HTTPStatusError(message, request=request, response=self)
-httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://data.etagmb.gov.hk/stop/20017052'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+15-Mar-26 19:36:13 | gmb - INFO - Start getting GMB route
+15-Mar-26 20:21:28 | gmb - INFO - Finish getting GMB route
