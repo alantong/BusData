@@ -4490,7 +4490,7 @@
         "orig_en":"Pak Shing Kok",
         "dest_en":"Tseung Kwan O Station (Circular)",
         "stops":[
-            20018775,
+            20022802,
             20022406,
             20002650,
             20002652,
@@ -4502,8 +4502,8 @@
             20018778,
             20007713,
             20002648,
-            20022405,
-            20018775
+            20022801,
+            20022802
         ],
         "fullFare":"8.2",
         "journeyTime":"13",
@@ -4554,21 +4554,23 @@
         "route":"116H",
         "routeId":2011259,
         "routeSeq":1,
-        "orig_tc":"香港中醫醫院",
-        "dest_tc":"將軍澳站公共運輸交匯處(循環線)",
-        "orig_sc":"香港中医医院",
-        "dest_sc":"将军澳站公共运输交汇处(循环线)",
-        "orig_en":"The Chinese Medicine Hospital",
-        "dest_en":"Tseung Kwan O Station Public Transport Interchange(Circular)",
+        "orig_tc":"將軍澳站公共運輸交匯處",
+        "dest_tc":"香港中醫醫院(循環線)",
+        "orig_sc":"将军澳站公共运输交汇处",
+        "dest_sc":"香港中医医院(循环线)",
+        "orig_en":"Tseung Kwan O Station Public Transport Interchange",
+        "dest_en":"The Chinese Medicine Hospital (Circular)",
         "stops":[
+            20015602,
+            20002648,
             20022405,
+            20022801,
+            20022802,
             20022406,
             20002650,
             20002652,
             20015238,
-            20015602,
-            20002648,
-            20022405
+            20015602
         ],
         "fullFare":"8.2",
         "journeyTime":"9",
@@ -4632,22 +4634,22 @@
         "route":"116M",
         "routeId":2011127,
         "routeSeq":1,
-        "orig_tc":"百勝角",
-        "dest_tc":"將軍澳站公共運輸交匯處(循環線)",
-        "orig_sc":"百胜角",
-        "dest_sc":"将军澳站公共运输交汇处(循环线)",
-        "orig_en":"Pak Shing Kok",
-        "dest_en":"Tseung Kwan O Station Public Transport Interchange(Circular)",
+        "orig_tc":"將軍澳站公共運輸交匯處",
+        "dest_tc":"百勝角(循環線)",
+        "orig_sc":"将军澳站公共运输交汇处",
+        "dest_sc":"百胜角(循环线)",
+        "orig_en":"Tseung Kwan O Station Public Transport Interchange",
+        "dest_en":"Pak Shing Kok (Circular)",
         "stops":[
-            20018775,
+            20015602,
+            20002648,
+            20022801,
+            20022802,
             20022406,
             20002650,
             20002652,
             20015238,
-            20015602,
-            20002648,
-            20022801,
-            20018775
+            20015602
         ],
         "fullFare":"8.2",
         "journeyTime":"14",
@@ -29891,6 +29893,7 @@
         "dest_en":"Northeast Kwai Chung",
         "stops":[
             20012777,
+            20022834,
             20012778,
             20012779,
             20019171,
@@ -29970,6 +29973,7 @@
             20019336,
             20012781,
             20012782,
+            20022834,
             20012777
         ],
         "fullFare":"11.0",
@@ -30164,6 +30168,7 @@
             20001428,
             20009420,
             20001837,
+            20022834,
             20002102
         ],
         "fullFare":"9.2",
@@ -30196,6 +30201,7 @@
         "dest_en":"Tsing Yi Public Pier",
         "stops":[
             20002102,
+            20022834,
             20001801,
             20009602,
             20001418,
@@ -70150,7 +70156,7 @@
         "stops":[
             20013693,
             20003105,
-            20009634
+            20022834
         ],
         "fullFare":"5.5",
         "journeyTime":"6",
@@ -70175,7 +70181,7 @@
         "orig_en":"Kwai Chung Hospital",
         "dest_en":"Mei Foo",
         "stops":[
-            20009634,
+            20022834,
             20014386
         ],
         "fullFare":"5.5",
