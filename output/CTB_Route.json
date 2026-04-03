@@ -51210,7 +51210,10 @@
             "003444"
         ],
         "bound":"O",
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -51226,7 +51229,10 @@
             "002917"
         ],
         "bound":"I",
-        "gtfsRouteKey":[]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -51301,7 +51307,9 @@
             "002786",
             "001279",
             "002568",
+            "002417",
             "001033",
+            "001034",
             "001181",
             "001171"
         ],
