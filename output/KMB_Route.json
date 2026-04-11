@@ -25337,6 +25337,120 @@
         ]
     },
     {
+        "route":"63",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Long Tin Court",
+        "orig_tc":"朗天苑",
+        "orig_sc":"朗天苑",
+        "dest_en":"Tuen Mun Road BBI (Tuen Mun Bound)",
+        "dest_tc":"屯門公路轉車站 (屯門方向)",
+        "dest_sc":"屯门公路转车站 (屯门方向)",
+        "co":"KMB",
+        "stops":[
+            "BF81DC97F81D5AAD",
+            "8121695666A4D9CE",
+            "8081C7B2F395A6D0",
+            "212BFF5737D0116C",
+            "E3E5521CAFDD5DCE",
+            "BF8EAED2AF086669"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"63",
+        "bound":"O",
+        "service_type":"2",
+        "orig_en":"Long Tin Court",
+        "orig_tc":"朗天苑",
+        "orig_sc":"朗天苑",
+        "dest_en":"Tuen Mun Road BBI (Tuen Mun Bound)",
+        "dest_tc":"屯門公路轉車站 (屯門方向)",
+        "dest_sc":"屯门公路转车站 (屯门方向)",
+        "co":"KMB",
+        "stops":[
+            "BF81DC97F81D5AAD",
+            "A1A1B10F5CE291AC",
+            "44DD070290F93074",
+            "3F312934CDF4C38D",
+            "E9F5F6ED88ED3616",
+            "5BD4FF66AE704CF5",
+            "A4A70D25E7E80482",
+            "CB136E1C378BC183",
+            "60A4F4A41CD61FAC",
+            "8F6C8CEB9F17D97D",
+            "B09E18636F184247",
+            "2FA997A1BE419A52",
+            "8121695666A4D9CE",
+            "8081C7B2F395A6D0",
+            "212BFF5737D0116C",
+            "E3E5521CAFDD5DCE",
+            "BF8EAED2AF086669"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"63",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Tuen Mun Road BBI (Tuen Mun Bound)",
+        "orig_tc":"屯門公路轉車站 (屯門方向)",
+        "orig_sc":"屯门公路转车站 (屯门方向)",
+        "dest_en":"Long Tin Court",
+        "dest_tc":"朗天苑",
+        "dest_sc":"朗天苑",
+        "co":"KMB",
+        "stops":[
+            "BF8EAED2AF086669",
+            "3CCF4F6EA48CF505",
+            "7AECAF57AF679EE7",
+            "F26CC0CB9587F2F9",
+            "BF81DC97F81D5AAD"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"63",
+        "bound":"I",
+        "service_type":"2",
+        "orig_en":"Tuen Mun Road BBI (Tuen Mun Bound)",
+        "orig_tc":"屯門公路轉車站 (屯門方向)",
+        "orig_sc":"屯门公路转车站 (屯门方向)",
+        "dest_en":"Long Tin Court",
+        "dest_tc":"朗天苑",
+        "dest_sc":"朗天苑",
+        "co":"KMB",
+        "stops":[
+            "BF8EAED2AF086669",
+            "3CCF4F6EA48CF505",
+            "7AECAF57AF679EE7",
+            "F26CC0CB9587F2F9",
+            "5F616585205DDDF9",
+            "147D513A708AA741",
+            "B88640E0CA83F12C",
+            "3F312934CDF4C38D",
+            "E9F5F6ED88ED3616",
+            "5BD4FF66AE704CF5",
+            "A4A70D25E7E80482",
+            "CB136E1C378BC183",
+            "A8482B15AD6E89A3",
+            "BF81DC97F81D5AAD"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
         "route":"63R",
         "bound":"O",
         "service_type":"1",
@@ -33738,6 +33852,7 @@
             "B0F633D0FAFF5C83",
             "0666986BDDA0F66A",
             "96B631E491E868BF",
+            "1D4801CD2E547FF3",
             "62A946B36A5A5395",
             "18B7CC82C10AFF50",
             "AB7AB391AA272954",
@@ -33758,8 +33873,7 @@
             "D8F0A3AD8E765CE0",
             "6723518D536070AB",
             "0CF8C59B80E70369",
-            "76DD0B50D30CF140",
-            "72B24F5DD57E3AE3"
+            "76DD0B50D30CF140"
         ],
         "fullFare":"9.6",
         "journeyTime":"69",
@@ -33835,6 +33949,7 @@
             "B0F633D0FAFF5C83",
             "0666986BDDA0F66A",
             "96B631E491E868BF",
+            "1D4801CD2E547FF3",
             "62A946B36A5A5395",
             "18B7CC82C10AFF50",
             "AB7AB391AA272954",
@@ -33855,8 +33970,7 @@
             "D8F0A3AD8E765CE0",
             "6723518D536070AB",
             "0CF8C59B80E70369",
-            "76DD0B50D30CF140",
-            "72B24F5DD57E3AE3"
+            "76DD0B50D30CF140"
         ],
         "fullFare":"9.6",
         "journeyTime":"84",
@@ -33906,6 +34020,7 @@
             "4D258A35FECA3A0C",
             "89B3AC12AE89FA58",
             "95D8C212AC184184",
+            "10FEC152B1CD2194",
             "A33FBDE702CC3CEE",
             "75CC4D05BE8B68E7",
             "8CBD3CC8254E5BCA",
@@ -33924,8 +34039,7 @@
             "8717C0140C940AE3",
             "093289C2E4F6F408",
             "3FAC6C2592812331",
-            "396DD38F2E41E117",
-            "B32FA6CD250F0F6B"
+            "396DD38F2E41E117"
         ],
         "fullFare":"9.6",
         "journeyTime":"69",
@@ -90946,145 +91060,6 @@
             ]
         ],
         "freq":[
-            {
-                "287":[
-                    "1720",
-                    "1800"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A41",
-        "bound":"I",
-        "service_type":"5",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Shek Mun Estate",
-        "dest_tc":"碩門邨",
-        "dest_sc":"硕门邨",
-        "co":"KMB",
-        "stops":[
-            "AFCA97F6E77FA669",
-            "9C9F817064169CE7",
-            "B0851FD6C20D738D",
-            "0879D399E5B5FE0C",
-            "897B26110ECE76B3",
-            "AB52CEC256B299BE",
-            "156FFE36D7D42EFE",
-            "65F5585B72A99D7F",
-            "94BA372E9FDC87C4",
-            "A6631CAD2E2DE2A6",
-            "84FC122EC64D8885",
-            "04EA3349BDD260C8",
-            "225D34B4D891AFB1",
-            "5F80607D7F73A18B",
-            "179D40F1BB78ACDC",
-            "467BDDF7A510D52D",
-            "1319087BC40F4003",
-            "A76720B899F88D03",
-            "73F1F8AA0F9077D2",
-            "CB0585244877B9B9",
-            "02CF8D1FE31E9A09",
-            "24F7097D1D913EC5"
-        ],
-        "fullFare":"23.4",
-        "journeyTime":"79",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000446",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1720",
-                    "1800"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A41",
-        "bound":"I",
-        "service_type":"6",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Shek Mun Estate",
-        "dest_tc":"碩門邨",
-        "dest_sc":"硕门邨",
-        "co":"KMB",
-        "stops":[
-            "AFCA97F6E77FA669",
-            "9C9F817064169CE7",
-            "D3B54388E91DAB57",
-            "B0851FD6C20D738D",
-            "0879D399E5B5FE0C",
-            "897B26110ECE76B3",
-            "AB52CEC256B299BE",
-            "156FFE36D7D42EFE",
-            "65F5585B72A99D7F",
-            "94BA372E9FDC87C4",
-            "A6631CAD2E2DE2A6",
-            "84FC122EC64D8885",
-            "04EA3349BDD260C8",
-            "225D34B4D891AFB1",
-            "5F80607D7F73A18B",
-            "179D40F1BB78ACDC",
-            "467BDDF7A510D52D",
-            "1319087BC40F4003",
-            "A76720B899F88D03",
-            "73F1F8AA0F9077D2",
-            "CB0585244877B9B9",
-            "02CF8D1FE31E9A09",
-            "24F7097D1D913EC5"
-        ],
-        "fullFare":"23.4|23.4",
-        "journeyTime":"84|79",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000444",
-                "2"
-            ],
-            [
-                "LWB",
-                "1000446",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:35:00|16:35:00|1800",
-                    "16:35:00|17:00:00|1500",
-                    "17:00:00|18:40:00|1200",
-                    "18:40:00|19:10:00|1800",
-                    "19:10:00|19:30:00|1200",
-                    "19:30:00|22:00:00|1500",
-                    "22:00:00|22:30:00|1800",
-                    "22:30:00|22:50:00|1200",
-                    "22:50:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
-                ],
-                "480":[
-                    "05:35:00|15:05:00|1800",
-                    "15:05:00|17:10:00|1500",
-                    "17:10:00|17:50:00|1200",
-                    "17:50:00|18:40:00|1500",
-                    "18:40:00|19:10:00|1800",
-                    "19:10:00|19:30:00|1200",
-                    "19:30:00|22:00:00|1500",
-                    "22:00:00|22:30:00|1800",
-                    "22:30:00|22:50:00|1200",
-                    "22:50:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
-                ]
-            },
             {
                 "287":[
                     "1720",
