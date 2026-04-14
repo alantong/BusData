@@ -61781,6 +61781,33 @@
     },
     {
         "co":"GMB",
+        "route":"811B",
+        "routeId":2011490,
+        "routeSeq":1,
+        "orig_tc":"耀安",
+        "dest_tc":"火炭(長瀝尾街)",
+        "orig_sc":"耀安",
+        "dest_sc":"火炭(长沥尾街)",
+        "orig_en":"Yiu On",
+        "dest_en":"Fo Tan (Cheung Lek Mei Street)",
+        "stops":[
+            20015772,
+            20001228,
+            20002225,
+            20002320,
+            20002226,
+            20002288,
+            20002228,
+            20015651,
+            20001564,
+            20015773
+        ],
+        "freq":[
+            {}
+        ]
+    },
+    {
+        "co":"GMB",
         "route":"811K",
         "routeId":2007827,
         "routeSeq":1,
