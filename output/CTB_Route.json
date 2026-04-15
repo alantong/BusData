@@ -10399,7 +10399,7 @@
         ],
         "bound":"O",
         "fullFare":"6.8|6.8",
-        "journeyTime":"41|41",
+        "journeyTime":"40|41",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -10482,7 +10482,7 @@
         ],
         "bound":"I",
         "fullFare":"6.8|6.8",
-        "journeyTime":"41|41",
+        "journeyTime":"40|41",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -21665,7 +21665,7 @@
         ],
         "bound":"O",
         "fullFare":"17.8",
-        "journeyTime":"66",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -21758,7 +21758,7 @@
         ],
         "bound":"I",
         "fullFare":"17.8",
-        "journeyTime":"66",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -26948,7 +26948,7 @@
         ],
         "bound":"O",
         "fullFare":"12.8",
-        "journeyTime":"101",
+        "journeyTime":"96",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27028,7 +27028,7 @@
         ],
         "bound":"I",
         "fullFare":"12.8",
-        "journeyTime":"101",
+        "journeyTime":"96",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27490,7 +27490,7 @@
         ],
         "bound":"O",
         "fullFare":"6.2",
-        "journeyTime":"22",
+        "journeyTime":"21",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27534,7 +27534,7 @@
         ],
         "bound":"I",
         "fullFare":"6.2",
-        "journeyTime":"22",
+        "journeyTime":"21",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27598,7 +27598,7 @@
         ],
         "bound":"O",
         "fullFare":"10.3|10.3",
-        "journeyTime":"57|69",
+        "journeyTime":"54|69",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27707,7 +27707,7 @@
         ],
         "bound":"I",
         "fullFare":"10.3|10.3",
-        "journeyTime":"57|69",
+        "journeyTime":"54|69",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -27960,7 +27960,7 @@
         ],
         "bound":"O",
         "fullFare":"13.1",
-        "journeyTime":"70",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -28040,7 +28040,7 @@
         ],
         "bound":"I",
         "fullFare":"13.1",
-        "journeyTime":"70",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -32354,7 +32354,7 @@
         ],
         "bound":"O",
         "fullFare":"8.0",
-        "journeyTime":"49",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -32432,7 +32432,7 @@
         ],
         "bound":"I",
         "fullFare":"8.0",
-        "journeyTime":"49",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35748,7 +35748,7 @@
         ],
         "bound":"O",
         "fullFare":"24.2",
-        "journeyTime":"82",
+        "journeyTime":"79",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35835,7 +35835,7 @@
         ],
         "bound":"I",
         "fullFare":"24.2",
-        "journeyTime":"82",
+        "journeyTime":"79",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -37515,7 +37515,7 @@
         ],
         "bound":"O",
         "fullFare":"14.5",
-        "journeyTime":"97",
+        "journeyTime":"87",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -37615,7 +37615,7 @@
         ],
         "bound":"I",
         "fullFare":"14.5",
-        "journeyTime":"97",
+        "journeyTime":"87",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -40358,7 +40358,7 @@
         ],
         "bound":"O",
         "fullFare":"34.6",
-        "journeyTime":"85",
+        "journeyTime":"83",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -40433,7 +40433,7 @@
         ],
         "bound":"I",
         "fullFare":"34.6",
-        "journeyTime":"85",
+        "journeyTime":"83",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -50836,28 +50836,10 @@
             "003623"
         ],
         "bound":"O",
-        "fullFare":"28.4",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB+CTB",
-                "1000610",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "260":[
-                    "22:45:00|23:30:00|900"
-                ],
-                "272":[
-                    "22:45:00|23:30:00|900"
-                ],
-                "480":[
-                    "22:45:00|23:30:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "co":"CTB",
@@ -50872,6 +50854,28 @@
             "003874",
             "003692",
             "001559"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "co":"CTB",
+        "route":"SP2A",
+        "orig_tc":"啟德體育園",
+        "orig_en":"Kai Tak Sports Park",
+        "dest_tc":"尖沙咀",
+        "dest_en":"Tsim Sha Tsui",
+        "orig_sc":"启德体育园",
+        "dest_sc":"尖沙咀",
+        "stops":[
+            "003874",
+            "001568",
+            "001569",
+            "001570",
+            "001571"
         ],
         "bound":"O",
         "fullFare":"",
@@ -51181,10 +51185,15 @@
         "freq":[
             {
                 "288":[
-                    "17:00:00|17:30:00|1800"
+                    "1700",
+                    "1730"
                 ],
                 "448":[
-                    "17:00:00|19:00:00|1800"
+                    "1630",
+                    "1700",
+                    "1730",
+                    "1800",
+                    "1830"
                 ]
             }
         ]

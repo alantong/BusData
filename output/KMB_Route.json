@@ -615,7 +615,7 @@
             "3B68D3389F83FE39"
         ],
         "fullFare":"6.7",
-        "journeyTime":"58",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -694,7 +694,7 @@
             "BA95025DE2FB9878"
         ],
         "fullFare":"6.7",
-        "journeyTime":"58",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -3847,7 +3847,7 @@
             "FEF6F77B236DA7A5"
         ],
         "fullFare":"6.7",
-        "journeyTime":"51",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -3935,7 +3935,7 @@
             "9D5EC5BD0A116058"
         ],
         "fullFare":"6.7",
-        "journeyTime":"51",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -17762,7 +17762,7 @@
             "716D84D1B7EA256E"
         ],
         "fullFare":"5.4",
-        "journeyTime":"38",
+        "journeyTime":"35",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -17826,7 +17826,7 @@
             "DD6BC62A7723292F"
         ],
         "fullFare":"5.4",
-        "journeyTime":"38",
+        "journeyTime":"35",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -21795,7 +21795,7 @@
             "DD50060EDE7AC79A"
         ],
         "fullFare":"12.2",
-        "journeyTime":"105",
+        "journeyTime":"95",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -21911,7 +21911,7 @@
             "65B07713A0DDFF22"
         ],
         "fullFare":"12.2",
-        "journeyTime":"105",
+        "journeyTime":"95",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -22051,7 +22051,7 @@
             "941B58A78A49CD0B"
         ],
         "fullFare":"10.8",
-        "journeyTime":"43",
+        "journeyTime":"41",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -22123,7 +22123,7 @@
             "640B42B50FB0152E"
         ],
         "fullFare":"10.8",
-        "journeyTime":"43",
+        "journeyTime":"41",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -22199,7 +22199,7 @@
             "F6FAA30D1632A880"
         ],
         "fullFare":"10.8",
-        "journeyTime":"53",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -22372,11 +22372,7 @@
         ],
         "freq":[
             {
-                "287":[
-                    "06:50:00|07:50:00|720",
-                    "07:50:00|08:20:00|900"
-                ],
-                "288":[
+                "319":[
                     "06:50:00|08:20:00|900"
                 ]
             }
@@ -22465,7 +22461,7 @@
             "4CF25CB2C36E36F0"
         ],
         "fullFare":"10.8",
-        "journeyTime":"53",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -22582,7 +22578,7 @@
             "DF0B7A18D4F2B7C8"
         ],
         "fullFare":"10.8",
-        "journeyTime":"48",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -23432,7 +23428,7 @@
             "A7D3749EF3C6B8CE"
         ],
         "fullFare":"14.6",
-        "journeyTime":"56",
+        "journeyTime":"53",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -23806,7 +23802,7 @@
             "E8DB8EA844260912"
         ],
         "fullFare":"14.6",
-        "journeyTime":"56",
+        "journeyTime":"53",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -24587,7 +24583,7 @@
             "07A21E4B84A401AC"
         ],
         "fullFare":"10.4",
-        "journeyTime":"68",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -24680,7 +24676,7 @@
             "26A66C479A0278FC"
         ],
         "fullFare":"10.4",
-        "journeyTime":"68",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -25269,10 +25265,24 @@
             "E3E5521CAFDD5DCE",
             "BF8EAED2AF086669"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"10.2",
+        "journeyTime":"31",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000684",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "09:00:00|17:15:00|2700",
+                    "17:15:00|19:45:00|3000",
+                    "19:45:00|23:30:00|2700"
+                ]
+            }
+        ]
     },
     {
         "route":"63",
@@ -25304,10 +25314,22 @@
             "E3E5521CAFDD5DCE",
             "BF8EAED2AF086669"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"10.2",
+        "journeyTime":"42",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000685",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "0720"
+                ]
+            }
+        ]
     },
     {
         "route":"63",
@@ -25327,10 +25349,24 @@
             "F26CC0CB9587F2F9",
             "BF81DC97F81D5AAD"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"10.2",
+        "journeyTime":"31",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000684",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "06:30:00|09:00:00|3000",
+                    "09:00:00|18:00:00|2700",
+                    "20:30:00|23:30:00|2700"
+                ]
+            }
+        ]
     },
     {
         "route":"63",
@@ -25359,10 +25395,22 @@
             "A8482B15AD6E89A3",
             "BF81DC97F81D5AAD"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[]
+        "fullFare":"10.2",
+        "journeyTime":"42",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000685",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "511":[
+                    "1850"
+                ]
+            }
+        ]
     },
     {
         "route":"63R",
@@ -26689,7 +26737,7 @@
             "716A72D0EAAC8738"
         ],
         "fullFare":"10.8",
-        "journeyTime":"56",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -26772,7 +26820,7 @@
             "7B966B22D0464566"
         ],
         "fullFare":"10.8",
-        "journeyTime":"56",
+        "journeyTime":"50",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -27090,7 +27138,7 @@
             "E45E7DB1786B6324"
         ],
         "fullFare":"12.6",
-        "journeyTime":"68",
+        "journeyTime":"60",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -27182,7 +27230,7 @@
             "FB45F1DF1EDB66FB"
         ],
         "fullFare":"12.6",
-        "journeyTime":"68",
+        "journeyTime":"60",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -27663,7 +27711,7 @@
             "EC19750840FFEDDC"
         ],
         "fullFare":"16.2",
-        "journeyTime":"82",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -27873,7 +27921,7 @@
             "6D66CBA494DECB08"
         ],
         "fullFare":"16.2",
-        "journeyTime":"82",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -28269,7 +28317,7 @@
             "0AE307AC4840B867"
         ],
         "fullFare":"12.5",
-        "journeyTime":"55",
+        "journeyTime":"51",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -28352,7 +28400,7 @@
             "DA4C00397F6B56EC"
         ],
         "fullFare":"12.5",
-        "journeyTime":"55",
+        "journeyTime":"51",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -28453,7 +28501,7 @@
             "DA4C00397F6B56EC"
         ],
         "fullFare":"11.5",
-        "journeyTime":"57",
+        "journeyTime":"51",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -28509,7 +28557,7 @@
             "0C327E058835F570"
         ],
         "fullFare":"17.2",
-        "journeyTime":"70",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -28629,7 +28677,7 @@
             "507A1E5DF62D2B4A"
         ],
         "fullFare":"17.2",
-        "journeyTime":"70",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -29163,7 +29211,7 @@
             "30296D01A67C0400"
         ],
         "fullFare":"5.4",
-        "journeyTime":"49",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -29235,7 +29283,7 @@
             "B78076CC8F628B2B"
         ],
         "fullFare":"5.4",
-        "journeyTime":"49",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -29602,7 +29650,7 @@
             "A5BF9B3EF4CB1D6C"
         ],
         "fullFare":"9.6",
-        "journeyTime":"59",
+        "journeyTime":"52",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -29677,7 +29725,7 @@
             "6C9B7DDF24725CA9"
         ],
         "fullFare":"9.6",
-        "journeyTime":"59",
+        "journeyTime":"52",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -30017,7 +30065,7 @@
             "D56873352ED40E14"
         ],
         "fullFare":"7.8",
-        "journeyTime":"53",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -30149,7 +30197,7 @@
             "DF246F9F07691C22"
         ],
         "fullFare":"7.8",
-        "journeyTime":"53",
+        "journeyTime":"46",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -30848,7 +30896,7 @@
             "E97F002DCFA395B1"
         ],
         "fullFare":"5.1",
-        "journeyTime":"25",
+        "journeyTime":"23",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -30947,7 +30995,7 @@
             "C799751FDFCE292E"
         ],
         "fullFare":"5.1",
-        "journeyTime":"25",
+        "journeyTime":"23",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -31674,7 +31722,7 @@
             "3ECFE1DBB01159EF"
         ],
         "fullFare":"12.1",
-        "journeyTime":"78",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -31748,7 +31796,7 @@
             "FB7E3001FDAB2CB1"
         ],
         "fullFare":"12.1",
-        "journeyTime":"78",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -33290,7 +33338,7 @@
             "0BB3ECAB031F27CD"
         ],
         "fullFare":"6.7",
-        "journeyTime":"38",
+        "journeyTime":"36",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -33371,7 +33419,7 @@
             "DCAB4C1F147AFB1C"
         ],
         "fullFare":"6.7",
-        "journeyTime":"38",
+        "journeyTime":"36",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -33889,7 +33937,7 @@
             "72B24F5DD57E3AE3"
         ],
         "fullFare":"9.6",
-        "journeyTime":"84",
+        "journeyTime":"81",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -38549,7 +38597,7 @@
             "0389A57B9FCD3AB5"
         ],
         "fullFare":"9.8",
-        "journeyTime":"61",
+        "journeyTime":"49",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -38606,7 +38654,7 @@
             "B452F1514B4FEE40"
         ],
         "fullFare":"9.8",
-        "journeyTime":"64",
+        "journeyTime":"55",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -38690,7 +38738,7 @@
             "7005EE5654387B8A"
         ],
         "fullFare":"9.8",
-        "journeyTime":"64",
+        "journeyTime":"55",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -40986,7 +41034,7 @@
             "FDB7C76323B22686"
         ],
         "fullFare":"11.6",
-        "journeyTime":"61",
+        "journeyTime":"59",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -41054,7 +41102,7 @@
             "FDB7C76323B22686"
         ],
         "fullFare":"11.6",
-        "journeyTime":"69",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -41117,7 +41165,7 @@
             "E9B13F8E482054DC"
         ],
         "fullFare":"11.6",
-        "journeyTime":"61",
+        "journeyTime":"59",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -41182,7 +41230,7 @@
             "E9B13F8E482054DC"
         ],
         "fullFare":"11.6",
-        "journeyTime":"69",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -41512,7 +41560,7 @@
             "12AF5B1935BB9735"
         ],
         "fullFare":"9.8",
-        "journeyTime":"59",
+        "journeyTime":"51",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -41651,7 +41699,7 @@
             "FA01BA1CA14120E3"
         ],
         "fullFare":"9.8",
-        "journeyTime":"59",
+        "journeyTime":"51",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -55805,7 +55853,7 @@
             "272E83ECF9FF074D"
         ],
         "fullFare":"8.6",
-        "journeyTime":"42",
+        "journeyTime":"36",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -55820,34 +55868,26 @@
                     "07:05:00|07:45:00|2400",
                     "07:45:00|08:15:00|1800",
                     "08:15:00|08:55:00|2400",
-                    "08:55:00|16:50:00|1500",
-                    "16:50:00|17:06:00|960",
-                    "17:06:00|17:23:00|1020",
-                    "17:23:00|17:39:00|960",
-                    "17:39:00|17:56:00|1020",
-                    "17:56:00|18:12:00|960",
-                    "18:12:00|18:29:00|1020",
-                    "18:29:00|18:45:00|960",
-                    "18:45:00|20:50:00|1500",
-                    "20:50:00|23:10:00|1200",
-                    "23:10:00|24:00:00|1500"
+                    "08:55:00|16:00:00|1500",
+                    "16:00:00|17:40:00|1200",
+                    "17:40:00|17:58:00|1080",
+                    "17:58:00|19:10:00|1440",
+                    "19:10:00|20:40:00|1800",
+                    "20:40:00|24:00:00|1500"
                 ],
                 "288":[
-                    "06:45:00|08:00:00|1500",
-                    "08:00:00|10:00:00|1200",
-                    "10:00:00|13:00:00|900",
-                    "13:00:00|17:40:00|1200",
+                    "06:45:00|09:40:00|1500",
+                    "09:40:00|12:40:00|900",
+                    "12:40:00|17:40:00|1200",
                     "17:40:00|19:10:00|1080",
                     "19:10:00|22:30:00|1500",
                     "22:30:00|24:00:00|1800"
                 ],
                 "448":[
-                    "06:45:00|07:45:00|1800",
-                    "07:45:00|09:00:00|1500",
-                    "09:00:00|11:40:00|1200",
-                    "11:40:00|17:30:00|1500",
-                    "17:30:00|19:10:00|1200",
-                    "19:10:00|22:30:00|1500",
+                    "06:45:00|08:45:00|1800",
+                    "08:45:00|10:00:00|1500",
+                    "10:00:00|11:40:00|1200",
+                    "11:40:00|22:30:00|1500",
                     "22:30:00|24:00:00|1800"
                 ]
             }
@@ -58980,8 +59020,8 @@
                     "07:10:00|16:55:00|900",
                     "16:55:00|17:55:00|720",
                     "17:55:00|19:55:00|600",
-                    "19:55:00|22:10:00|900",
-                    "22:10:00|23:50:00|1200"
+                    "19:55:00|23:10:00|900",
+                    "23:10:00|23:50:00|1200"
                 ],
                 "288":[
                     "06:30:00|07:00:00|1800",
@@ -59078,7 +59118,7 @@
             "F80DF64ABE690251"
         ],
         "fullFare":"6.0",
-        "journeyTime":"19",
+        "journeyTime":"18",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -59089,6 +59129,12 @@
         "freq":[
             {
                 "287":[
+                    "0527",
+                    "0547",
+                    "0607",
+                    "0627",
+                    "0640",
+                    "0720",
                     "0805",
                     "0835"
                 ],
@@ -60762,7 +60808,7 @@
             "F6FAA30D1632A880"
         ],
         "fullFare":"11.0",
-        "journeyTime":"47",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -60807,7 +60853,7 @@
             "4B6E603162A11A02"
         ],
         "fullFare":"11.0",
-        "journeyTime":"47",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -62496,7 +62542,7 @@
             "36348FA62122EA3C"
         ],
         "fullFare":"12.5",
-        "journeyTime":"51",
+        "journeyTime":"47",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -62588,7 +62634,7 @@
             "223DAE7E925E3BB9"
         ],
         "fullFare":"12.5",
-        "journeyTime":"51",
+        "journeyTime":"47",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -62789,7 +62835,7 @@
             "22B76E4C5793EFB9"
         ],
         "fullFare":"17.2",
-        "journeyTime":"94",
+        "journeyTime":"77",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -63275,7 +63321,7 @@
             "8FFE414EC5D76825"
         ],
         "fullFare":"20.8",
-        "journeyTime":"76",
+        "journeyTime":"66",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -63382,7 +63428,7 @@
             "FB45B8223CB9312F"
         ],
         "fullFare":"20.8",
-        "journeyTime":"76",
+        "journeyTime":"66",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -63443,7 +63489,7 @@
             "2D3C0F18F9131DA2"
         ],
         "fullFare":"20.8",
-        "journeyTime":"88",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -63599,7 +63645,7 @@
             "F7EA40235ECCBA38"
         ],
         "fullFare":"20.8",
-        "journeyTime":"88",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -64213,7 +64259,7 @@
             "10D3BDFDB1B2A43E"
         ],
         "fullFare":"20.8",
-        "journeyTime":"80",
+        "journeyTime":"70",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -64336,7 +64382,7 @@
             "7A37046C302EFBEE"
         ],
         "fullFare":"20.8",
-        "journeyTime":"80",
+        "journeyTime":"70",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -64694,7 +64740,7 @@
             "7377B802B9C37904"
         ],
         "fullFare":"18.5",
-        "journeyTime":"81",
+        "journeyTime":"72",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -64922,7 +64968,7 @@
             "D834EE67780F47CD"
         ],
         "fullFare":"18.5",
-        "journeyTime":"81",
+        "journeyTime":"72",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -65032,7 +65078,7 @@
             "8C87D5196ECC1057"
         ],
         "fullFare":"12.5",
-        "journeyTime":"63",
+        "journeyTime":"57",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -65104,7 +65150,7 @@
             "498C8934EAACBE51"
         ],
         "fullFare":"12.5",
-        "journeyTime":"63",
+        "journeyTime":"57",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -67866,7 +67912,7 @@
             "4E12586C551A48D3"
         ],
         "fullFare":"12.5",
-        "journeyTime":"77",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -67987,7 +68033,7 @@
             "D3EC6E5D48291437"
         ],
         "fullFare":"12.5",
-        "journeyTime":"77",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -69227,7 +69273,7 @@
             "3D8A0FB3051B32EC"
         ],
         "fullFare":"9.1",
-        "journeyTime":"50",
+        "journeyTime":"47",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -69292,7 +69338,7 @@
             "91CD1740B6AC752B"
         ],
         "fullFare":"9.1",
-        "journeyTime":"50",
+        "journeyTime":"47",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -71233,7 +71279,7 @@
             "5D7809204099960C"
         ],
         "fullFare":"16.9",
-        "journeyTime":"69",
+        "journeyTime":"62",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -71246,28 +71292,13 @@
                 "287":[
                     "05:00:00|06:00:00|1200",
                     "06:00:00|06:30:00|900",
-                    "08:10:00|09:00:00|600",
                     "09:00:00|14:00:00|720",
                     "14:00:00|16:00:00|900",
-                    "16:00:00|16:07:00|420",
-                    "16:07:00|16:15:00|480",
-                    "16:15:00|16:22:00|420",
-                    "16:22:00|16:30:00|480",
-                    "16:30:00|16:37:00|420",
-                    "16:37:00|16:45:00|480",
-                    "16:45:00|16:52:00|420",
-                    "16:52:00|17:00:00|480",
-                    "17:00:00|17:07:00|420",
-                    "17:07:00|17:15:00|480",
-                    "17:15:00|17:22:00|420",
-                    "17:22:00|17:30:00|480",
-                    "17:30:00|17:37:00|420",
-                    "17:37:00|17:45:00|480",
-                    "17:45:00|17:52:00|420",
-                    "17:52:00|18:00:00|480",
-                    "18:00:00|19:00:00|720",
-                    "19:00:00|21:00:00|900",
-                    "21:00:00|22:00:00|1200",
+                    "16:00:00|16:40:00|600",
+                    "16:40:00|17:52:00|480",
+                    "17:52:00|18:40:00|720",
+                    "18:40:00|19:40:00|900",
+                    "19:40:00|22:00:00|1200",
                     "22:00:00|24:30:00|1500"
                 ],
                 "288":[
@@ -71287,10 +71318,9 @@
                     "07:52:00|08:00:00|480",
                     "08:00:00|16:00:00|720",
                     "16:00:00|18:00:00|600",
-                    "18:00:00|19:00:00|720",
-                    "19:00:00|21:00:00|900",
-                    "21:00:00|22:00:00|1200",
-                    "22:00:00|24:30:00|1500"
+                    "18:00:00|22:00:00|720",
+                    "22:00:00|23:40:00|1200",
+                    "23:40:00|24:30:00|1500"
                 ],
                 "448":[
                     "05:00:00|07:00:00|1200",
@@ -71434,7 +71464,7 @@
             "7EFB60ED247B4316"
         ],
         "fullFare":"16.9",
-        "journeyTime":"69",
+        "journeyTime":"62",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -71459,8 +71489,8 @@
                     "17:00:00|17:07:00|420",
                     "17:07:00|17:15:00|480",
                     "17:15:00|18:15:00|360",
-                    "18:15:00|18:45:00|300",
-                    "18:45:00|20:05:00|480",
+                    "18:15:00|19:25:00|420",
+                    "19:25:00|20:05:00|600",
                     "20:05:00|22:05:00|720",
                     "22:05:00|23:20:00|900",
                     "23:20:00|25:00:00|1500"
@@ -72288,7 +72318,7 @@
             "A2882A0EE6B8AF9B"
         ],
         "fullFare":"17.1",
-        "journeyTime":"72",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -72365,7 +72395,7 @@
             "E057FE733052DDD7"
         ],
         "fullFare":"17.1",
-        "journeyTime":"72",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -74147,7 +74177,7 @@
             "C8649AADD889000A"
         ],
         "fullFare":"5.1",
-        "journeyTime":"17",
+        "journeyTime":"15",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -77699,7 +77729,7 @@
             "24450906E5F3A75F"
         ],
         "fullFare":"27.9",
-        "journeyTime":"101",
+        "journeyTime":"70",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -77756,7 +77786,7 @@
             "307AF4D72FFE9B6E"
         ],
         "fullFare":"27.9",
-        "journeyTime":"101",
+        "journeyTime":"70",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -78461,7 +78491,7 @@
             "7943A971791CA7AE"
         ],
         "fullFare":"13.9",
-        "journeyTime":"41",
+        "journeyTime":"34",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -78596,7 +78626,7 @@
             "F73D15363D3CA881"
         ],
         "fullFare":"13.9",
-        "journeyTime":"41",
+        "journeyTime":"34",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -78796,7 +78826,7 @@
             "F73D15363D3CA881"
         ],
         "fullFare":"13.9",
-        "journeyTime":"54",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -78847,7 +78877,7 @@
             "B8FBAC0A201E0F2C"
         ],
         "fullFare":"13.9",
-        "journeyTime":"38",
+        "journeyTime":"31",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -84205,7 +84235,7 @@
             "B30799FB3732222B"
         ],
         "fullFare":"20.6",
-        "journeyTime":"41",
+        "journeyTime":"34",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -84266,7 +84296,7 @@
             "88F78BDD9BDD7636"
         ],
         "fullFare":"20.6",
-        "journeyTime":"41",
+        "journeyTime":"34",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -84423,7 +84453,7 @@
             "B30799FB3732222B"
         ],
         "fullFare":"20.6",
-        "journeyTime":"53",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -84526,7 +84556,7 @@
             "3597DD106B5CD29F"
         ],
         "fullFare":"20.6",
-        "journeyTime":"53",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -85403,7 +85433,7 @@
             "ADC51A7EEEE43D6F"
         ],
         "fullFare":"24.0",
-        "journeyTime":"77",
+        "journeyTime":"66",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -85566,7 +85596,7 @@
             "274BF3A877FB8E6C"
         ],
         "fullFare":"24.0",
-        "journeyTime":"77",
+        "journeyTime":"66",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -85987,7 +86017,7 @@
             "17B98BD1165A7B92"
         ],
         "fullFare":"24.0",
-        "journeyTime":"82",
+        "journeyTime":"70",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86127,7 +86157,7 @@
             "17B98BD1165A7B92"
         ],
         "fullFare":"24.0",
-        "journeyTime":"77",
+        "journeyTime":"74",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86371,7 +86401,7 @@
             "3B254E7FFFCC0A2F"
         ],
         "fullFare":"24.0",
-        "journeyTime":"75",
+        "journeyTime":"73",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86400,10 +86430,7 @@
                     "22:45:00|23:10:00|1500"
                 ],
                 "448":[
-                    "05:20:00|05:35:00|900",
-                    "05:35:00|05:51:00|960",
-                    "05:51:00|06:06:00|900",
-                    "06:06:00|06:20:00|960",
+                    "05:20:00|06:20:00|900",
                     "13:12:00|15:00:00|720",
                     "15:00:00|17:45:00|900",
                     "17:45:00|22:45:00|1200",
@@ -86449,7 +86476,7 @@
             "3B254E7FFFCC0A2F"
         ],
         "fullFare":"24.0",
-        "journeyTime":"87",
+        "journeyTime":"77",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86523,7 +86550,7 @@
             "2297CADDD7BC438D"
         ],
         "fullFare":"24.0",
-        "journeyTime":"75",
+        "journeyTime":"73",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86534,7 +86561,8 @@
         "freq":[
             {
                 "287":[
-                    "06:40:00|09:00:00|1200",
+                    "06:40:00|08:20:00|1500",
+                    "08:20:00|09:00:00|1200",
                     "09:00:00|15:15:00|900",
                     "15:15:00|17:03:00|720",
                     "17:03:00|17:33:00|600",
@@ -86595,7 +86623,7 @@
             "2297CADDD7BC438D"
         ],
         "fullFare":"24.0",
-        "journeyTime":"87",
+        "journeyTime":"77",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86768,7 +86796,7 @@
             "17B98BD1165A7B92"
         ],
         "fullFare":"24.0",
-        "journeyTime":"79",
+        "journeyTime":"68",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86779,6 +86807,7 @@
         "freq":[
             {
                 "287":[
+                    "0715",
                     "0745"
                 ]
             }
@@ -86818,7 +86847,7 @@
             "186754E04899194F"
         ],
         "fullFare":"27.0",
-        "journeyTime":"73",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -86973,7 +87002,7 @@
             "DAFFF59B0718B464"
         ],
         "fullFare":"27.0",
-        "journeyTime":"73",
+        "journeyTime":"69",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -87299,7 +87328,7 @@
             "F6E65ED7BA637652"
         ],
         "fullFare":"27.9",
-        "journeyTime":"88",
+        "journeyTime":"71",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -87377,7 +87406,7 @@
             "5CB1BDF367F1989F"
         ],
         "fullFare":"27.9",
-        "journeyTime":"88",
+        "journeyTime":"71",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -98229,7 +98258,7 @@
             "F5D322119DCA0F5A"
         ],
         "fullFare":"21.8",
-        "journeyTime":"82",
+        "journeyTime":"79",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -98297,7 +98326,7 @@
             "67FC11E66080F9C2"
         ],
         "fullFare":"21.8",
-        "journeyTime":"82",
+        "journeyTime":"79",
         "gtfsRouteKey":[
             [
                 "KMB",
@@ -103237,7 +103266,7 @@
             "D74B67D55C63895F"
         ],
         "fullFare":"21.1",
-        "journeyTime":"44",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "LWB",
@@ -103268,7 +103297,7 @@
                 ],
                 "448":[
                     "1900",
-                    "2200"
+                    "2130"
                 ]
             }
         ]
@@ -103361,7 +103390,7 @@
             "FE235D7DCABCA944"
         ],
         "fullFare":"21.1",
-        "journeyTime":"44",
+        "journeyTime":"43",
         "gtfsRouteKey":[
             [
                 "LWB",
@@ -103486,7 +103515,7 @@
             "B49F719CC4A8BD7E"
         ],
         "fullFare":"23.5",
-        "journeyTime":"45",
+        "journeyTime":"41",
         "gtfsRouteKey":[
             [
                 "LWB",
@@ -103515,7 +103544,7 @@
                     "2130"
                 ],
                 "448":[
-                    "2200"
+                    "2130"
                 ]
             }
         ]
@@ -103546,7 +103575,7 @@
             "FE235D7DCABCA944"
         ],
         "fullFare":"23.5",
-        "journeyTime":"45",
+        "journeyTime":"41",
         "gtfsRouteKey":[
             [
                 "LWB",
@@ -104669,28 +104698,10 @@
             "414AD39F5040C30F",
             "3106E04BB81D74A8"
         ],
-        "fullFare":"28.4",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB+CTB",
-                "1000610",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "260":[
-                    "22:45:00|23:30:00|900"
-                ],
-                "272":[
-                    "22:45:00|23:30:00|900"
-                ],
-                "480":[
-                    "22:45:00|23:30:00|900"
-                ]
-            }
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"SP3",
