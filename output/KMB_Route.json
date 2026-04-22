@@ -96243,9 +96243,9 @@
         "orig_en":"Star Ferry",
         "orig_tc":"尖沙咀碼頭",
         "orig_sc":"尖沙咀码头",
-        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui,Mong Kok,Wong Tai Sin",
-        "dest_tc":"[九巴遊香港] 尖沙咀, 旺角及黃大仙",
-        "dest_sc":"[九巴游香港] 尖沙咀, 旺角及黄大仙",
+        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui, Mong Kok and Wong Tai",
+        "dest_tc":"[九巴遊香港] 尖沙咀、旺角及黃大仙",
+        "dest_sc":"[九巴游香港] 尖沙咀、旺角及黄大仙",
         "co":"KMB",
         "stops":[
             "F87373F646004131",
@@ -96290,7 +96290,7 @@
         "orig_en":"Star Ferry",
         "orig_tc":"尖沙咀碼頭",
         "orig_sc":"尖沙咀码头",
-        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui,Mong Kok",
+        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui and Mong Kok",
         "dest_tc":"[九巴遊香港] 尖沙咀及旺角",
         "dest_sc":"[九巴游香港] 尖沙咀及旺角",
         "co":"KMB",
@@ -96324,6 +96324,58 @@
                 ]
             }
         ]
+    },
+    {
+        "route":"HK2",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Kowloon Station",
+        "orig_tc":"九龍站",
+        "orig_sc":"九龙站",
+        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui and Tsing Ma Bridge",
+        "dest_tc":"[九巴遊香港] 尖沙咀及青馬大橋",
+        "dest_sc":"[九巴游香港] 尖沙咀及青马大桥",
+        "co":"KMB",
+        "stops":[
+            "24AA3CCF69A6572D",
+            "151F6BD0D37CA555",
+            "677BBB37FFCA0FAD",
+            "02B95C981F16C906",
+            "5612949E7487F309",
+            "24AD31E3F8DF42AE",
+            "55852875C9223A6C",
+            "D6D0F24D89C90323",
+            "1F170F80E7CB2C2E",
+            "24AA3CCF69A6572D"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "route":"HK2",
+        "bound":"O",
+        "service_type":"2",
+        "orig_en":"Canton Road",
+        "orig_tc":"廣東道",
+        "orig_sc":"广东道",
+        "dest_en":"Kowloon Station",
+        "dest_tc":"九龍站",
+        "dest_sc":"九龙站",
+        "co":"KMB",
+        "stops":[
+            "5612949E7487F309",
+            "24AD31E3F8DF42AE",
+            "55852875C9223A6C",
+            "D6D0F24D89C90323",
+            "1F170F80E7CB2C2E",
+            "24AA3CCF69A6572D"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
     },
     {
         "route":"N3D",
