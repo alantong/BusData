@@ -91042,63 +91042,6 @@
     {
         "route":"A41P",
         "bound":"O",
-        "service_type":"2",
-        "orig_en":"Wu Kai Sha Station",
-        "orig_tc":"烏溪沙站",
-        "orig_sc":"乌溪沙站",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
-        "co":"KMB",
-        "stops":[
-            "BA72214DFE48AA86",
-            "6E42FB38EBBE1C42",
-            "118212ABD14E1580",
-            "EEF73B5695D2AB0F",
-            "0AA7219BB2418438",
-            "844648D1EDB4A4CD",
-            "3DD89EF20A237A4C",
-            "24CD3B0F3389F822",
-            "5EDA0C1BE5CE95CF",
-            "424003F7939E9F01",
-            "4EFF1135BD93EE9E",
-            "F88D7720B4F389B0",
-            "FA141FB0FF048F32",
-            "FBE33E1EA7BA6051",
-            "DCDF76EA791EDED7",
-            "6E2A182F0DD98D48",
-            "51E6C8BD0176D660",
-            "E757600B79B0B2AC",
-            "673B33867260EBB7",
-            "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "9C9F817064169CE7",
-            "E48E4C46F64FFB0E",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
-        ],
-        "fullFare":"29.0",
-        "journeyTime":"94",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000023",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "0620",
-                    "0640",
-                    "0700"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A41P",
-        "bound":"O",
         "service_type":"3",
         "orig_en":"Sai Sha Residences Transport Interchange",
         "orig_tc":"西沙灣交通交匯處",
@@ -92140,56 +92083,6 @@
             {
                 "511":[
                     "0700"
-                ]
-            }
-        ]
-    },
-    {
-        "route":"A47X",
-        "bound":"O",
-        "service_type":"4",
-        "orig_en":"Tai Po (Tai Wo)",
-        "orig_tc":"大埔(太和)",
-        "orig_sc":"大埔(太和)",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
-        "co":"KMB",
-        "stops":[
-            "5B5C877D02DF4C31",
-            "442F0B8C94311306",
-            "7A47A23B960DD4FF",
-            "638851B5496C1765",
-            "8BF41341E058D6A6",
-            "17B30F17DCD149D3",
-            "DAB252A4BC687441",
-            "67CE6F9B4ACB8421",
-            "89240EC55B8818BC",
-            "259B42E9BB57199D",
-            "E39225003155E094",
-            "919C2FE90FDCAD6A",
-            "EE212E6FD5124813",
-            "673B33867260EBB7",
-            "412DEEF534E127AF",
-            "C552CE565E1F0C85",
-            "9C9F817064169CE7",
-            "E48E4C46F64FFB0E",
-            "0D5759F7A4B185FE",
-            "21466046C6868AA7"
-        ],
-        "fullFare":"29.0",
-        "journeyTime":"99",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8780",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "0600"
                 ]
             }
         ]
