@@ -1894,6 +1894,30 @@
     },
     {
         "co":"CTB",
+        "route":"104R",
+        "orig_tc":"中環碼頭",
+        "orig_en":"Central (Ferry Piers)",
+        "dest_tc":"旺角",
+        "dest_en":"Mong Kok",
+        "orig_sc":"中环码头",
+        "dest_sc":"旺角",
+        "stops":[
+            "001195",
+            "001475",
+            "001769",
+            "001547",
+            "001548",
+            "001552",
+            "001554"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[]
+    },
+    {
+        "co":"CTB",
         "route":"106",
         "orig_tc":"小西灣 (藍灣半島)",
         "orig_en":"Siu Sai Wan (Island Resort)",
