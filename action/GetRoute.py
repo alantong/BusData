@@ -59,7 +59,20 @@ async def async_get_with_retry(client, url, retries=5, retryTimeout=180, **kwarg
             response = await client.get(url, **kwargs)
             response.raise_for_status()
             return response
-        except (httpx.RequestError, httpx.HTTPStatusError) as e:
+        except httpx.HTTPStatusError as e:
+            # Retry on 403 (Forbidden) and 429 (Too Many Requests) errors
+            if e.response.status_code in (403, 429):
+                wait_time = retryTimeout * (2 ** attempt)  # Exponential backoff
+                print(f"Attempt {attempt+1} failed with status {e.response.status_code}: {e}. Retrying in {wait_time} seconds...")
+                if attempt < retries - 1:
+                    await asyncio.sleep(wait_time)
+                else:
+                    print(f"All {retries} attempts failed for {url}")
+                    raise e
+            else:
+                # Don't retry on other HTTP errors
+                raise e
+        except httpx.RequestError as e:
             print(f"Attempt {attempt+1} failed: {e}. Retrying in {retryTimeout} seconds...")
             if attempt < retries - 1:
                 await asyncio.sleep(retryTimeout)
