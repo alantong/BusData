@@ -3,17 +3,22 @@ import json
 import os
 import re
 import sys
+import shutil
 
 
-def extract_fare_attributes(raw_text):
+
+def extract_fare_attributes():
+    route_groups = {}
+
+    print(f"Extracting GTFS fare attributes...")
+    raw_text = open('gtfs/fare_attributes.txt', encoding="utf8").read()
     rows = list(csv.reader(raw_text.splitlines()))
     if not rows:
         return {}, {}
 
     header = rows[0]
     data_rows = rows[1:] if header and header[0].strip().lower() == "fare_id" else rows
-    route_groups = {}
-    route_currencies = {}
+
 
     for parts in data_rows:
         if len(parts) < 3:
@@ -28,7 +33,6 @@ def extract_fare_attributes(raw_text):
         except ValueError:
             continue
 
-        currency = parts[2].strip()
         route_id = "-".join(fare_id.split("-")[:2])
         match = re.search(r"-(\d+)-(\d+)$", fare_id)
         if not match:
@@ -39,10 +43,12 @@ def extract_fare_attributes(raw_text):
         if orig >= dest:
             continue
 
-        route_currencies.setdefault(route_id)
-        route_groups.setdefault(route_id, []).append((orig, dest, price))
+        #get the agency_id from the fare_id, which is the last part after the last '-'  
+        agency_id = parts[5]
+        
+        route_groups.setdefault(agency_id + '-' + route_id, []).append((orig, dest, price))
 
-    return route_groups, route_currencies
+    return route_groups
 
 
 def summarize_route_fares(pairs):
@@ -113,15 +119,15 @@ def summarize_route_fares(pairs):
 
 
 if __name__ == "__main__":
-    input_path = sys.argv[1] if len(sys.argv) > 1 else "gtfs/fare_attributes.txt"
-    with open(input_path, "r", encoding="utf-8", newline="") as f:
-        raw_text = f.read()
+    route_groups = extract_fare_attributes()
 
-    route_groups, route_currencies = extract_fare_attributes(raw_text)
+    # Clean up fare directory before writing new files
+    if os.path.exists("fare"):
+        shutil.rmtree("fare")
     os.makedirs("fare", exist_ok=True)
 
     for route_id, pairs in route_groups.items():
-        currency = route_currencies.get(route_id, "HKD")
+        #currency = route_currencies.get(route_id, "HKD")
         summary = summarize_route_fares(pairs)
         output_path = os.path.join("fare", f"{route_id}.json")
         with open(output_path, "w", encoding="utf-8") as out_file:
