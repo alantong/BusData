@@ -1,6 +1,7 @@
 import csv
 import requests
 import os 
+import re
 
 gtfs_url = "https://static.data.gov.hk/td/pt-headway-tc/gtfs.zip"
 output_zip = "gtfs/gtfs.zip"
@@ -8,6 +9,7 @@ output_zip = "gtfs/gtfs.zip"
 
 frequencies = {}
 trips = {}
+route_groups = {}
 
 def download_gtfs():
 
@@ -38,7 +40,7 @@ def download_gtfs():
 
 def extract_gtfs_frequency():
     # build a dictionary from gtfs/frequencies.txt
-
+    print(f"Extracting GTFS frequencies...")
     with open('gtfs/frequencies.txt', encoding="utf8") as csvfile:   
         reader = csv.reader(csvfile)
         headers = next(reader, None)
@@ -107,9 +109,130 @@ def get_freq(gtfsRouteKey):
             else:
                 freq.append(get_gtfs_trips(g[1]+ '-' + g[2]))  
     return freq
-# def main():
-#     download_gtfs()
-#     extract_gtfs_frequency()
 
-# if __name__=="__main__":
-#     main()
+
+def extract_fare_attributes():
+    print(f"Extracting GTFS fare attributes...")
+    raw_text = open('gtfs/fare_attributes.txt', encoding="utf8").read()
+    rows = list(csv.reader(raw_text.splitlines()))
+    if not rows:
+        return {}, {}
+
+    header = rows[0]
+    data_rows = rows[1:] if header and header[0].strip().lower() == "fare_id" else rows
+
+
+    for parts in data_rows:
+        if len(parts) < 3:
+            continue
+
+        fare_id = parts[0].strip()
+        if not fare_id or fare_id.strip().lower() == "fare_id":
+            continue
+
+        try:
+            price = float(parts[1])
+        except ValueError:
+            continue
+
+        route_id = "-".join(fare_id.split("-")[:2])
+        match = re.search(r"-(\d+)-(\d+)$", fare_id)
+        if not match:
+            continue
+
+        orig = int(match.group(1))
+        dest = int(match.group(2))
+        if orig >= dest:
+            continue
+
+        #get the agency_id from the fare_id, which is the last part after the last '-'  
+        agency_id = parts[5]
+        
+        route_groups.setdefault(agency_id + '-' + route_id, []).append((orig, dest, price))
+
+
+def summarize_route_fares(pairs):
+    if not pairs:
+        return []
+
+    pair_price = {(o, d): p for o, d, p in pairs}
+    min_stop = min(o for o, d, _ in pairs)
+    max_stop = max(d for o, d, _ in pairs)
+    full_price = pair_price.get((min_stop, max_stop), max(p for _, _, p in pairs))
+
+    full_section = {
+        "range": [min_stop, max_stop],
+        "price": full_price,
+    }
+
+    sections = []
+
+    # Sections to the route end where the final-stop fare changes
+    end_sections = {}
+    for start in sorted({o for o, d, _ in pairs}):
+        if start == min_stop:
+            continue
+        price = pair_price.get((start, max_stop))
+        if price is None or price == full_price:
+            continue
+        end_sections[price] = min(end_sections.get(price, start), start)
+
+    for price, start in sorted(end_sections.items(), key=lambda x: (x[1], x[0])):
+        sections.append({
+            "range": [start, max_stop],
+            "price": price,
+        })
+
+    # Prefix sections from the route start where the fare is constant up to an intermediate stop
+    current_price = None
+    current_end = None
+    prefix_sections = []
+
+    for end in range(min_stop + 1, max_stop + 1):
+        price = pair_price.get((min_stop, end))
+        if price is None:
+            break
+        if current_price is None:
+            current_price = price
+            current_end = end
+            continue
+        if price == current_price:
+            current_end = end
+            continue
+
+        if current_price != full_price or current_end != max_stop:
+            prefix_sections.append((min_stop, current_end, current_price))
+        current_price = price
+        current_end = end
+
+    if current_price is not None and (current_price != full_price or current_end != max_stop):
+        prefix_sections.append((min_stop, current_end, current_price))
+
+    for start, end, price in prefix_sections:
+        sections.append({
+            "range": [start, end],
+            "price": price,
+        })
+
+    sections.sort(key=lambda x: (x["range"][0], x["range"][1]))
+    return [full_section] + sections
+
+def get_route_fares(gtfsRouteKey):
+    sectionfare = []
+    for k in gtfsRouteKey:
+        #join all elements in k with "-" to form the route key, e.g. "KMB-1223-1"
+        route_key = "-".join(str(x) for x in k)
+        route_fares = route_groups.get(route_key, [])
+        if route_fares:
+            sectionfare.append(summarize_route_fares(route_fares))
+    return sectionfare
+
+def main():
+    download_gtfs()
+    extract_gtfs_frequency()
+    extract_fare_attributes()
+    #print(summarize_route_fares(route_groups.get("KMB-1223-1", [])))
+    #print(summarize_route_fares(route_groups.get("GMB-2005683-1", [])))
+    #print(get_route_fares([['GMB','2005683', '1']]))
+if __name__=="__main__":
+    main()

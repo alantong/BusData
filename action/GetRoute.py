@@ -24,6 +24,8 @@ def main() :
     GTFS.download_gtfs()  # Download GTFS data
     GTFS.extract_gtfs_frequency()  # Extract GTFS frequency data
     GTFS.extract_gtfs_trips()
+    GTFS.extract_fare_attributes()  # Parse fare attributes and group by route
+
 
     global busRoutes
     busRoutes = GeoJSON.getGeoJsonRoutes("BUS")

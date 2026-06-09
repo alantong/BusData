@@ -175,6 +175,11 @@ def main(routes):
 
                         # Get GTFS frequency data              
                         r['freq'] = GTFS.get_freq(gtfsRouteKey)
+                        
+                        # Get GTFS fare data
+                        r['sectionFare'] = GTFS.get_route_fares(gtfsRouteKey) if gtfsRouteKey else []
+
+                        
                         routeList.append(r)
 
                 """

@@ -1,0 +1,130 @@
+import csv
+import json
+import os
+import re
+import sys
+
+
+def extract_fare_attributes(raw_text):
+    rows = list(csv.reader(raw_text.splitlines()))
+    if not rows:
+        return {}, {}
+
+    header = rows[0]
+    data_rows = rows[1:] if header and header[0].strip().lower() == "fare_id" else rows
+    route_groups = {}
+    route_currencies = {}
+
+    for parts in data_rows:
+        if len(parts) < 3:
+            continue
+
+        fare_id = parts[0].strip()
+        if not fare_id or fare_id.strip().lower() == "fare_id":
+            continue
+
+        try:
+            price = float(parts[1])
+        except ValueError:
+            continue
+
+        currency = parts[2].strip()
+        route_id = "-".join(fare_id.split("-")[:2])
+        match = re.search(r"-(\d+)-(\d+)$", fare_id)
+        if not match:
+            continue
+
+        orig = int(match.group(1))
+        dest = int(match.group(2))
+        if orig >= dest:
+            continue
+
+        route_currencies.setdefault(route_id)
+        route_groups.setdefault(route_id, []).append((orig, dest, price))
+
+    return route_groups, route_currencies
+
+
+def summarize_route_fares(pairs):
+    if not pairs:
+        return []
+
+    pair_price = {(o, d): p for o, d, p in pairs}
+    min_stop = min(o for o, d, _ in pairs)
+    max_stop = max(d for o, d, _ in pairs)
+    full_price = pair_price.get((min_stop, max_stop), max(p for _, _, p in pairs))
+
+    full_section = {
+        "range": [min_stop, max_stop],
+        "price": full_price,
+    }
+
+    sections = []
+
+    # Sections to the route end where the final-stop fare changes
+    end_sections = {}
+    for start in sorted({o for o, d, _ in pairs}):
+        if start == min_stop:
+            continue
+        price = pair_price.get((start, max_stop))
+        if price is None or price == full_price:
+            continue
+        end_sections[price] = min(end_sections.get(price, start), start)
+
+    for price, start in sorted(end_sections.items(), key=lambda x: (x[1], x[0])):
+        sections.append({
+            "range": [start, max_stop],
+            "price": price,
+        })
+
+    # Prefix sections from the route start where the fare is constant up to an intermediate stop
+    current_price = None
+    current_end = None
+    prefix_sections = []
+
+    for end in range(min_stop + 1, max_stop + 1):
+        price = pair_price.get((min_stop, end))
+        if price is None:
+            break
+        if current_price is None:
+            current_price = price
+            current_end = end
+            continue
+        if price == current_price:
+            current_end = end
+            continue
+
+        if current_price != full_price or current_end != max_stop:
+            prefix_sections.append((min_stop, current_end, current_price))
+        current_price = price
+        current_end = end
+
+    if current_price is not None and (current_price != full_price or current_end != max_stop):
+        prefix_sections.append((min_stop, current_end, current_price))
+
+    for start, end, price in prefix_sections:
+        sections.append({
+            "range": [start, end],
+            "price": price
+        })
+
+    sections.sort(key=lambda x: (x["range"][0], x["range"][1]))
+    return [full_section] + sections
+
+
+if __name__ == "__main__":
+    input_path = sys.argv[1] if len(sys.argv) > 1 else "gtfs/fare_attributes.txt"
+    with open(input_path, "r", encoding="utf-8", newline="") as f:
+        raw_text = f.read()
+
+    route_groups, route_currencies = extract_fare_attributes(raw_text)
+    os.makedirs("fare", exist_ok=True)
+
+    for route_id, pairs in route_groups.items():
+        currency = route_currencies.get(route_id, "HKD")
+        summary = summarize_route_fares(pairs)
+        output_path = os.path.join("fare", f"{route_id}.json")
+        with open(output_path, "w", encoding="utf-8") as out_file:
+            json.dump(summary, out_file, indent=2)
+
+    print(f"Wrote {len(route_groups)} files to fare/")

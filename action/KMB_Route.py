@@ -171,6 +171,9 @@ def main(routes):
             
             # Get GTFS frequency data               
             r['freq'] = GTFS.get_freq(gtfsRouteKey)
+
+            # Get GTFS fare data
+            r['sectionFare'] = GTFS.get_route_fares(gtfsRouteKey) if gtfsRouteKey else []
             
             progress = int(50 * idx / total)
             print(f"\rProgress: [{'#' * progress}{'.' * (50 - progress)}] {idx}/{total}", end='', flush=True)
