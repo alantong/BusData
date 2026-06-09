@@ -66,56 +66,46 @@ def summarize_route_fares(pairs):
     }
 
     sections = []
-
-    # Sections to the route end where the final-stop fare changes
-    end_sections = {}
-    for start in sorted({o for o, d, _ in pairs}):
-        if start == min_stop:
-            continue
-        price = pair_price.get((start, max_stop))
-        if price is None or price == full_price:
-            continue
-        end_sections[price] = min(end_sections.get(price, start), start)
-
-    for price, start in sorted(end_sections.items(), key=lambda x: (x[1], x[0])):
+    
+    # Build a map of (start, price) -> [ends]
+    fare_map = {}
+    for (start, end), price in pair_price.items():
+        key = (start, price)
+        if key not in fare_map:
+            fare_map[key] = []
+        fare_map[key].append(end)
+    
+    # For each (start, price) combination, create a range [start, max_end]
+    for (start, price), ends in fare_map.items():
+        max_end = max(ends)
         sections.append({
-            "range": [start, max_stop],
+            "range": [start, max_end],
             "price": price,
         })
 
-    # Prefix sections from the route start where the fare is constant up to an intermediate stop
-    current_price = None
-    current_end = None
-    prefix_sections = []
-
-    for end in range(min_stop + 1, max_stop + 1):
-        price = pair_price.get((min_stop, end))
-        if price is None:
-            break
-        if current_price is None:
-            current_price = price
-            current_end = end
+    # Consolidate ranges with same end and price
+    consolidated = {}
+    for section in sections:
+        end, price = section["range"][1], section["price"]
+        key = (end, price)
+        if key not in consolidated:
+            consolidated[key] = []
+        consolidated[key].append(section["range"][0])
+    
+    # Rebuild sections with consolidated ranges
+    unique_sections = []
+    for (end, price), starts in consolidated.items():
+        min_start = min(starts)
+        # Skip if this matches the full_section
+        if min_start == full_section["range"][0] and end == full_section["range"][1] and price == full_section["price"]:
             continue
-        if price == current_price:
-            current_end = end
-            continue
-
-        if current_price != full_price or current_end != max_stop:
-            prefix_sections.append((min_stop, current_end, current_price))
-        current_price = price
-        current_end = end
-
-    if current_price is not None and (current_price != full_price or current_end != max_stop):
-        prefix_sections.append((min_stop, current_end, current_price))
-
-    for start, end, price in prefix_sections:
-        sections.append({
-            "range": [start, end],
-            "price": price
+        unique_sections.append({
+            "range": [min_start, end],
+            "price": price,
         })
 
-    sections.sort(key=lambda x: (x["range"][0], x["range"][1]))
-    return [full_section] + sections
+    unique_sections.sort(key=lambda x: (x["range"][0], x["range"][1]))
+    return [full_section] + unique_sections
 
 
 if __name__ == "__main__":
