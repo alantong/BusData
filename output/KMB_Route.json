@@ -131751,51 +131751,13 @@
             "88B9BE4ED93A3292",
             "7469F3B24F889F1B",
             "8DBA8FDF35CE7CC0",
-            "A4F1BEF1EEAD0910",
-            "FD27DF93530C7540"
+            "A4F1BEF1EEAD0910"
         ],
-        "fullFare":"34.6",
-        "journeyTime":"59",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000029",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "00:10:00|02:10:00|1800",
-                    "02:10:00|02:30:00|1200"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        20
-                    ],
-                    "price":34.6
-                },
-                {
-                    "range":[
-                        5,
-                        20
-                    ],
-                    "price":12.5
-                },
-                {
-                    "range":[
-                        8,
-                        20
-                    ],
-                    "price":8.9
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"NA36",
@@ -131809,7 +131771,6 @@
         "dest_sc":"国泰城",
         "co":"KMB",
         "stops":[
-            "FD27DF93530C7540",
             "C9C4CEEC13D20879",
             "9DD0D04123E70E56",
             "2CF4CFA22192E30A",
@@ -131832,41 +131793,11 @@
             "9A43D6FA1AC3D2EA",
             "AAC64BCDD5B55A86"
         ],
-        "fullFare":"34.6",
-        "journeyTime":"59",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000029",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "03:45:00|04:15:00|1800",
-                    "04:15:00|04:55:00|1200"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        22
-                    ],
-                    "price":34.6
-                },
-                {
-                    "range":[
-                        18,
-                        22
-                    ],
-                    "price":29.3
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"NA37",
