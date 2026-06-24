@@ -51247,9 +51247,9 @@
     },
     {
         "stop":"B4EBE05A59376062",
-        "name_en":"Central Government Offices (D1) (CW120)",
-        "name_tc":"政府總部 (D1) (CW120)",
-        "name_sc":"政府总部 (D1) (CW120)",
+        "name_en":"Central Government Offices (CW120)",
+        "name_tc":"政府總部 (CW120)",
+        "name_sc":"政府总部 (CW120)",
         "lat":"22.280310",
         "long":"114.164966",
         "co":"KMB"
@@ -52409,15 +52409,6 @@
     {
         "stop":"5E1FA939586B3FD1",
         "name_en":"Airport (GTC) Bus Terminus (CL915)",
-        "name_tc":"機場(地面運輸中心)巴士總站",
-        "name_sc":"机场(地面运输中心)巴士总站",
-        "lat":"22.313370",
-        "long":"113.937786",
-        "co":"KMB"
-    },
-    {
-        "stop":"7CB61EFB024D9025",
-        "name_en":"Airport (GTC) Bus Terminus (CL914)",
         "name_tc":"機場(地面運輸中心)巴士總站",
         "name_sc":"机场(地面运输中心)巴士总站",
         "lat":"22.313370",
@@ -57462,6 +57453,15 @@
         "name_sc":"屯门赤鱲角隧道转车站 (TM512)",
         "lat":"22.368636",
         "long":"113.948637",
+        "co":"KMB"
+    },
+    {
+        "stop":"7CB61EFB024D9025",
+        "name_en":"Airport (GTC) Bus Terminus (CL914)",
+        "name_tc":"機場(地面運輸中心)巴士總站",
+        "name_sc":"机场(地面运输中心)巴士总站",
+        "lat":"22.313370",
+        "long":"113.937786",
         "co":"KMB"
     },
     {
