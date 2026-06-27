@@ -10505,7 +10505,40 @@
             "70F41B968EA8E456",
             "9BABE6579EB241FA"
         ],
-        "gtfsRouteKey":[]
+        "fullFare":"5.2",
+        "journeyTime":"20",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1045",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "05:35:00|06:25:00|1500",
+                    "06:25:00|07:25:00|1200",
+                    "07:25:00|08:40:00|1500",
+                    "08:40:00|24:10:00|1800"
+                ],
+                "480":[
+                    "05:35:00|23:35:00|1800",
+                    "23:35:00|24:10:00|2100"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        15
+                    ],
+                    "price":5.2
+                }
+            ]
+        ]
     },
     {
         "route":"16P",
@@ -59564,7 +59597,7 @@
         "orig_en":"Kennedy Town",
         "orig_tc":"堅尼地城",
         "orig_sc":"坚尼地城",
-        "dest_en":"Kwun Tong (Yue Man Square)",
+        "dest_en":"Yue Man Square",
         "dest_tc":"觀塘(裕民坊)",
         "dest_sc":"观塘(裕民坊)",
         "co":"KMB",
@@ -59617,7 +59650,7 @@
         "orig_en":"Des Voeux Rd Central",
         "orig_tc":"德輔道中",
         "orig_sc":"德辅道中",
-        "dest_en":"Kwun Tong (Yue Man Square)",
+        "dest_en":"Yue Man Square",
         "dest_tc":"觀塘(裕民坊)",
         "dest_sc":"观塘(裕民坊)",
         "co":"KMB",
@@ -59834,7 +59867,7 @@
         "orig_en":"Kennedy Town",
         "orig_tc":"堅尼地城",
         "orig_sc":"坚尼地城",
-        "dest_en":"Kwun Tong (Yue Man Square)",
+        "dest_en":"Kwun Tong(Yue Man Square)",
         "dest_tc":"觀塘(裕民坊)",
         "dest_sc":"观塘(裕民坊)",
         "co":"KMB",
@@ -117903,7 +117936,11 @@
             "A90443FD0C19C4B1",
             "BA72214DFE48AA86"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A41P",
@@ -117942,7 +117979,11 @@
             "A90443FD0C19C4B1",
             "BA72214DFE48AA86"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A41P",
@@ -117987,7 +118028,11 @@
             "8AD4B244D6A50BDB",
             "74775F172FABD878"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A42",
@@ -118351,7 +118396,11 @@
             "BA2B81A1A81DB398",
             "D44F9DCC71251889"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A43P",
@@ -118526,7 +118575,11 @@
             "BA2B81A1A81DB398",
             "D44F9DCC71251889"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A43P",
@@ -118556,7 +118609,11 @@
             "BA2B81A1A81DB398",
             "D44F9DCC71251889"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A43P",
@@ -118591,7 +118648,11 @@
             "9381998EA6DC33CA",
             "886559B17A8D61EC"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A46",
@@ -119004,7 +119065,11 @@
             "F9AB54847EF884BB",
             "5B5C877D02DF4C31"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A47X",
@@ -119040,7 +119105,11 @@
             "F9AB54847EF884BB",
             "5B5C877D02DF4C31"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A47X",
@@ -119077,7 +119146,11 @@
             "F9AB54847EF884BB",
             "5B5C877D02DF4C31"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"A47X",
@@ -119107,7 +119180,11 @@
             "F9AB54847EF884BB",
             "5B5C877D02DF4C31"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"B1",
@@ -121203,7 +121280,11 @@
             "E1C5246F946E2D86",
             "07DDACD9B6D3CF79"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"E36A",
@@ -121897,7 +121978,11 @@
             "2AF3E35CE3563405",
             "621C6671C9A2EDD0"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"E37",
@@ -122214,7 +122299,11 @@
             "2C8B075910172B5A",
             "AA92A3F2775F4F69"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"E37C",
@@ -134145,7 +134234,11 @@
             "CC57C2DF592993CB",
             "833FF184B120B167"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"S64P",
@@ -134186,7 +134279,11 @@
             "CC57C2DF592993CB",
             "833FF184B120B167"
         ],
-        "gtfsRouteKey":[]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"S64X",
