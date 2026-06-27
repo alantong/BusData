@@ -133,7 +133,7 @@ def main(routes):
             firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
             lastStopCoordinates = GetRoute.getCoordinate(lastStop, allStopList)
             if firstStopCoordinates is None or lastStopCoordinates is None:
-                r['gtfsRouteKey'] += []
+                r['gtfsRouteKey'] = []
                 r['fullFare'] = ""
                 r['journeyTime'] = ""
                 r['freq'] = [] 
