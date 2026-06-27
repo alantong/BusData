@@ -133,18 +133,23 @@ def main(routes):
             firstStopCoordinates = GetRoute.getCoordinate(firstStop, allStopList)
             lastStopCoordinates = GetRoute.getCoordinate(lastStop, allStopList)
             if firstStopCoordinates is None or lastStopCoordinates is None:
-                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
-                kmb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
-                r['gtfsRouteKey'] = []
-                continue
-            gtfsRouteKey = []
-            gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB', r, firstStopCoordinates, lastStopCoordinates, routes))
-            gtfsRouteKey.extend(GeoJSON.matchRouteId('LWB', r, firstStopCoordinates, lastStopCoordinates, routes))
-            #gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB+CTB', r['route'], firstStopCoordinates, lastStopCoordinates))
-            #gtfsRouteKey.extend(GeoJSON.matchRouteId('LWB+CTB', r['route'], firstStopCoordinates, lastStopCoordinates))
+                r['gtfsRouteKey'] += []
+                #r['fullFare'] = ""
+                #r['journeyTime'] = ""
+                #r['freq'] = [] 
+                #r['sectionFare'] = []
+                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
+                kmb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
+                #continue
+            else:
+                gtfsRouteKey = []
+                gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB', r, firstStopCoordinates, lastStopCoordinates, routes))
+                gtfsRouteKey.extend(GeoJSON.matchRouteId('LWB', r, firstStopCoordinates, lastStopCoordinates, routes))
+                #gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB+CTB', r['route'], firstStopCoordinates, lastStopCoordinates))
+                #gtfsRouteKey.extend(GeoJSON.matchRouteId('LWB+CTB', r['route'], firstStopCoordinates, lastStopCoordinates))
 
-            # remove empty item from gtfsRouteKey   
-            gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
+                # remove empty item from gtfsRouteKey   
+                gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
 
             if len(gtfsRouteKey) == 0:
                  kmb_logger.info(f"Cannot find GTFS route for KMB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}")

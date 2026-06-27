@@ -143,15 +143,20 @@ async def main(routes):
             #print(f"{firstStopCoordinates}, {lastStopCoordinates}")
 
             if firstStopCoordinates is None or lastStopCoordinates is None:
-                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
-                nlb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop}")
                 r['gtfsRouteKey'] = []
+                r['fullFare'] = ""
+                r['journeyTime'] = ""
+                r['freq'] = [] 
+                r['sectionFare'] = []
+                print(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
+                nlb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
                 continue
-            gtfsRouteKey = []
-            gtfsRouteKey.extend(GeoJSON.matchRouteId('NLB', r, firstStopCoordinates, lastStopCoordinates, routes))
+            else:
+                gtfsRouteKey = []
+                gtfsRouteKey.extend(GeoJSON.matchRouteId('NLB', r, firstStopCoordinates, lastStopCoordinates, routes))
 
-            # remove empty item from gtfsRouteKey   
-            gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
+                # remove empty item from gtfsRouteKey   
+                gtfsRouteKey = [item for item in gtfsRouteKey if item is not None]
 
             if len(gtfsRouteKey) == 0:
                  nlb_logger.info(f"Cannot find GTFS route for NLB {r['route']} from {r['orig_tc'] } to {r['dest_tc']}|#stops:{len(r['stops'])}")
