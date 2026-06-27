@@ -134,13 +134,13 @@ def main(routes):
             lastStopCoordinates = GetRoute.getCoordinate(lastStop, allStopList)
             if firstStopCoordinates is None or lastStopCoordinates is None:
                 r['gtfsRouteKey'] += []
-                #r['fullFare'] = ""
-                #r['journeyTime'] = ""
-                #r['freq'] = [] 
-                #r['sectionFare'] = []
+                r['fullFare'] = ""
+                r['journeyTime'] = ""
+                r['freq'] = [] 
+                r['sectionFare'] = []
                 print(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
                 kmb_logger.error(f"Cannot find coordinates for stops: {firstStop}, {lastStop} {r['route']} {r['orig_tc']} - {r['dest_tc']}")
-                #continue
+                continue
             else:
                 gtfsRouteKey = []
                 gtfsRouteKey.extend(GeoJSON.matchRouteId('KMB', r, firstStopCoordinates, lastStopCoordinates, routes))
