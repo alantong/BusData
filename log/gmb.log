@@ -1,2 +1,24 @@
-03-Jul-26 20:21:29 | gmb - INFO - Start getting GMB route
-03-Jul-26 21:25:14 | gmb - INFO - Finish getting GMB route
+04-Jul-26 20:14:50 | gmb - INFO - Start getting GMB route
+04-Jul-26 20:39:22 | gmb - ERROR - Other error occurred: Client error '400 Bad Request' for url 'https://data.etagmb.gov.hk/stop/20000174'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+04-Jul-26 20:39:22 | gmb - ERROR - Client error '400 Bad Request' for url 'https://data.etagmb.gov.hk/stop/20000174'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+Traceback (most recent call last):
+  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 175, in main
+    gmbStopLoc += await asyncio.gather(*tasks)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 168, in limited_getStopLoc
+    return await getStopLoc(client, s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 69, in getStopLoc
+    stopLocResponse = await GetRoute.async_get_with_retry(client, stopLocUrl)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 76, in async_get_with_retry
+    raise e
+  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 62, in async_get_with_retry
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/hostedtoolcache/Python/3.13.14/x64/lib/python3.13/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://data.etagmb.gov.hk/stop/20000174'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
