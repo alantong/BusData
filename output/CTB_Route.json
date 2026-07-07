@@ -11650,12 +11650,12 @@
     {
         "co":"CTB",
         "route":"1P",
-        "orig_tc":"中環",
-        "orig_en":"Central",
-        "dest_tc":"黃泥涌道 (樂活道)",
-        "dest_en":"Wong Nai Chung Road (Broadwood Road)",
-        "orig_sc":"中环",
-        "dest_sc":"黄泥涌道 (乐活道)",
+        "orig_tc":"黃泥涌道 (樂活道)",
+        "orig_en":"Wong Nai Chung Road (Broadwood Road)",
+        "dest_tc":"中環",
+        "dest_en":"Central",
+        "orig_sc":"黄泥涌道 (乐活道)",
+        "dest_sc":"中环",
         "stops":[
             "002548",
             "002549",
@@ -11673,7 +11673,7 @@
             "001054",
             "001056"
         ],
-        "bound":"I",
+        "bound":"O",
         "fullFare":"4.8",
         "journeyTime":"24",
         "gtfsRouteKey":[
