@@ -21,7 +21,7 @@
             20001115
         ],
         "fullFare":"10.9",
-        "journeyTime":"24",
+        "journeyTime":"26",
         "freq":[
             {
                 "319":[
@@ -87,7 +87,7 @@
             20001112
         ],
         "fullFare":"10.9",
-        "journeyTime":"24",
+        "journeyTime":"26",
         "freq":[
             {
                 "319":[
@@ -1024,7 +1024,7 @@
             20001963
         ],
         "fullFare":"10.8",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -1432,7 +1432,7 @@
             20002597
         ],
         "fullFare":"10.8",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -1888,7 +1888,7 @@
             20001974
         ],
         "fullFare":"10.8",
-        "journeyTime":"29",
+        "journeyTime":"31",
         "freq":[
             {
                 "287":[
@@ -1971,7 +1971,7 @@
             20001963
         ],
         "fullFare":"12.9",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "511":[
@@ -2027,7 +2027,7 @@
             20002597
         ],
         "fullFare":"12.9",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "511":[
@@ -2965,7 +2965,7 @@
             20002027
         ],
         "fullFare":"11.4",
-        "journeyTime":"22",
+        "journeyTime":"25",
         "freq":[
             {
                 "287":[
@@ -3041,7 +3041,7 @@
             20001149
         ],
         "fullFare":"11.4",
-        "journeyTime":"22",
+        "journeyTime":"25",
         "freq":[
             {
                 "287":[
@@ -4104,7 +4104,7 @@
             20001963
         ],
         "fullFare":"10.8",
-        "journeyTime":"30",
+        "journeyTime":"40",
         "freq":[
             {
                 "511":[
@@ -4206,7 +4206,7 @@
             20001149
         ],
         "fullFare":"10.8",
-        "journeyTime":"30",
+        "journeyTime":"40",
         "freq":[
             {
                 "511":[
@@ -7301,7 +7301,7 @@
             20001149
         ],
         "fullFare":"8.4",
-        "journeyTime":"28",
+        "journeyTime":"36",
         "freq":[
             {
                 "287":[
@@ -7362,7 +7362,7 @@
             20001149
         ],
         "fullFare":"13.4",
-        "journeyTime":"32",
+        "journeyTime":"39",
         "freq":[
             {
                 "511":[
@@ -7435,7 +7435,7 @@
             20001112
         ],
         "fullFare":"13.4",
-        "journeyTime":"32",
+        "journeyTime":"39",
         "freq":[
             {
                 "511":[
@@ -7968,7 +7968,7 @@
             20015557
         ],
         "fullFare":"6.8",
-        "journeyTime":"17",
+        "journeyTime":"16",
         "freq":[
             {
                 "511":[
@@ -8025,7 +8025,7 @@
             20015586
         ],
         "fullFare":"6.8",
-        "journeyTime":"17",
+        "journeyTime":"16",
         "freq":[
             {
                 "511":[
@@ -10754,8 +10754,8 @@
             20020196,
             20012353
         ],
-        "fullFare":"3.8",
-        "journeyTime":"7",
+        "fullFare":"4.1",
+        "journeyTime":"8",
         "freq":[
             {
                 "319":[
@@ -10782,14 +10782,14 @@
                         1,
                         7
                     ],
-                    "price":3.8
+                    "price":4.1
                 },
                 {
                     "range":[
                         2,
                         7
                     ],
-                    "price":3.7
+                    "price":4.0
                 }
             ]
         ]
@@ -10936,8 +10936,8 @@
             20000568,
             20012356
         ],
-        "fullFare":"4.3",
-        "journeyTime":"9",
+        "fullFare":"4.6",
+        "journeyTime":"10",
         "freq":[
             {
                 "319":[
@@ -10964,14 +10964,14 @@
                         1,
                         8
                     ],
-                    "price":4.3
+                    "price":4.6
                 },
                 {
                     "range":[
                         2,
                         8
                     ],
-                    "price":3.7
+                    "price":4.0
                 }
             ]
         ]
@@ -10992,7 +10992,7 @@
             20000566,
             20012360
         ],
-        "fullFare":"4.3",
+        "fullFare":"4.6",
         "journeyTime":"3",
         "freq":[
             {
@@ -11012,14 +11012,14 @@
                         1,
                         3
                     ],
-                    "price":4.3
+                    "price":4.6
                 },
                 {
                     "range":[
                         2,
                         3
                     ],
-                    "price":3.7
+                    "price":4.0
                 }
             ]
         ]
@@ -11040,7 +11040,7 @@
             20012361,
             20012355
         ],
-        "fullFare":"4.3",
+        "fullFare":"4.6",
         "journeyTime":"3",
         "freq":[
             {
@@ -11060,14 +11060,14 @@
                         1,
                         3
                     ],
-                    "price":4.3
+                    "price":4.6
                 },
                 {
                     "range":[
                         2,
                         3
                     ],
-                    "price":3.7
+                    "price":4.0
                 }
             ]
         ]
@@ -11252,8 +11252,8 @@
             20012358,
             20012359
         ],
-        "fullFare":"4.3",
-        "journeyTime":"7",
+        "fullFare":"4.6",
+        "journeyTime":"9",
         "freq":[
             {
                 "511":[
@@ -11268,14 +11268,14 @@
                         1,
                         8
                     ],
-                    "price":4.3
+                    "price":4.6
                 },
                 {
                     "range":[
                         4,
                         8
                     ],
-                    "price":3.7
+                    "price":4.0
                 }
             ]
         ]
@@ -18352,7 +18352,7 @@
             20014354
         ],
         "fullFare":"6.6",
-        "journeyTime":"21",
+        "journeyTime":"19",
         "freq":[
             {
                 "319":[
@@ -18453,7 +18453,7 @@
             20014354
         ],
         "fullFare":"6.6",
-        "journeyTime":"26",
+        "journeyTime":"23",
         "freq":[
             {
                 "319":[
@@ -18607,7 +18607,7 @@
             20017290
         ],
         "fullFare":"5.0",
-        "journeyTime":"8",
+        "journeyTime":"5",
         "freq":[
             {
                 "511":[
@@ -18650,7 +18650,7 @@
             20013825
         ],
         "fullFare":"5.0",
-        "journeyTime":"8",
+        "journeyTime":"5",
         "freq":[
             {
                 "511":[
@@ -19302,7 +19302,7 @@
             20009733
         ],
         "fullFare":"7.1",
-        "journeyTime":"27",
+        "journeyTime":"24",
         "freq":[
             {
                 "319":[
@@ -20849,7 +20849,7 @@
             20014154
         ],
         "fullFare":"4.7",
-        "journeyTime":"26",
+        "journeyTime":"25",
         "freq":[
             {
                 "319":[
@@ -24338,7 +24338,7 @@
         "dest_tc":"旺角站",
         "orig_sc":"乐民新村(美善同道)",
         "dest_sc":"旺角站",
-        "orig_en":"Lok Man Sun Chuen (Maidstaone Road)",
+        "orig_en":"Lok Man Sun Chuen (Maidstone Road)",
         "dest_en":"Mong Kok Station",
         "stops":[
             20000704,
@@ -24456,7 +24456,7 @@
         "orig_sc":"旺角站",
         "dest_sc":"乐民新村(美善同道)",
         "orig_en":"Mong Kok Station",
-        "dest_en":"Lok Man Sun Chuen (Maidstaone Road)",
+        "dest_en":"Lok Man Sun Chuen (Maidstone Road)",
         "stops":[
             20000720,
             20000912,
@@ -24571,7 +24571,7 @@
         "dest_tc":"旺角站",
         "orig_sc":"乐民新村(美善同道)",
         "dest_sc":"旺角站",
-        "orig_en":"Lok Man Sun Chuen (Maidstaone Road)",
+        "orig_en":"Lok Man Sun Chuen (Maidstone Road)",
         "dest_en":"Mong Kok Station",
         "stops":[
             20000704,
@@ -24692,7 +24692,7 @@
         "dest_tc":"旺角站",
         "orig_sc":"乐民新村(美善同道)",
         "dest_sc":"旺角站",
-        "orig_en":"Lok Man Sun Chuen (Maidstaone Road)",
+        "orig_en":"Lok Man Sun Chuen (Maidstone Road)",
         "dest_en":"Mong Kok Station",
         "stops":[
             20000704,
@@ -27170,7 +27170,7 @@
             20013966
         ],
         "fullFare":"9.0",
-        "journeyTime":"16",
+        "journeyTime":"18",
         "freq":[
             {
                 "511":[
@@ -27308,7 +27308,7 @@
             20000418
         ],
         "fullFare":"9.0",
-        "journeyTime":"16",
+        "journeyTime":"18",
         "freq":[
             {
                 "511":[
@@ -31886,7 +31886,7 @@
             20014097
         ],
         "fullFare":"4.4",
-        "journeyTime":"11",
+        "journeyTime":"14",
         "freq":[
             {
                 "511":[
@@ -32043,7 +32043,7 @@
             20014093
         ],
         "fullFare":"4.4",
-        "journeyTime":"8",
+        "journeyTime":"10",
         "freq":[
             {
                 "287":[
@@ -33754,7 +33754,7 @@
             20012956
         ],
         "fullFare":"10.9",
-        "journeyTime":"20",
+        "journeyTime":"18",
         "freq":[
             {
                 "319":[
@@ -33832,7 +33832,7 @@
             20012944
         ],
         "fullFare":"10.9",
-        "journeyTime":"20",
+        "journeyTime":"18",
         "freq":[
             {
                 "319":[
@@ -36282,7 +36282,7 @@
             20000243
         ],
         "fullFare":"9.8",
-        "journeyTime":"15",
+        "journeyTime":"12",
         "freq":[
             {
                 "319":[
@@ -36346,7 +36346,7 @@
             20000238
         ],
         "fullFare":"9.8",
-        "journeyTime":"15",
+        "journeyTime":"12",
         "freq":[
             {
                 "319":[
@@ -45162,7 +45162,7 @@
             20015251
         ],
         "fullFare":"8.3",
-        "journeyTime":"22",
+        "journeyTime":"24",
         "freq":[
             {
                 "319":[
@@ -45248,7 +45248,7 @@
             20015244
         ],
         "fullFare":"8.3",
-        "journeyTime":"22",
+        "journeyTime":"24",
         "freq":[
             {
                 "319":[
@@ -45338,7 +45338,7 @@
             20015244
         ],
         "fullFare":"8.3",
-        "journeyTime":"18",
+        "journeyTime":"16",
         "freq":[
             {
                 "287":[
@@ -46382,7 +46382,7 @@
             20015145
         ],
         "fullFare":"7.8",
-        "journeyTime":"42",
+        "journeyTime":"29",
         "freq":[
             {
                 "511":[
@@ -46439,7 +46439,7 @@
             20015294
         ],
         "fullFare":"7.8",
-        "journeyTime":"18",
+        "journeyTime":"16",
         "freq":[
             {
                 "511":[
@@ -50570,7 +50570,7 @@
             20015057
         ],
         "fullFare":"3.7",
-        "journeyTime":"29",
+        "journeyTime":"19",
         "freq":[
             {
                 "511":[
@@ -50808,7 +50808,7 @@
             20022999
         ],
         "fullFare":"28.7",
-        "journeyTime":"75",
+        "journeyTime":"79",
         "freq":[
             {
                 "511":[
@@ -50908,7 +50908,7 @@
             20007525
         ],
         "fullFare":"28.7",
-        "journeyTime":"75",
+        "journeyTime":"79",
         "freq":[
             {
                 "511":[
@@ -54099,7 +54099,7 @@
             20000960
         ],
         "fullFare":"4.0",
-        "journeyTime":"15",
+        "journeyTime":"12",
         "freq":[
             {
                 "319":[
@@ -60658,7 +60658,7 @@
             20009733
         ],
         "fullFare":"7.5",
-        "journeyTime":"17",
+        "journeyTime":"18",
         "freq":[
             {
                 "287":[
@@ -60740,7 +60740,7 @@
             20000326
         ],
         "fullFare":"7.5",
-        "journeyTime":"17",
+        "journeyTime":"18",
         "freq":[
             {
                 "287":[
@@ -60869,7 +60869,7 @@
             20000326
         ],
         "fullFare":"7.5",
-        "journeyTime":"11",
+        "journeyTime":"10",
         "freq":[
             {
                 "287":[
@@ -61111,7 +61111,7 @@
             20009733
         ],
         "fullFare":"7.5",
-        "journeyTime":"11",
+        "journeyTime":"12",
         "freq":[
             {
                 "287":[
@@ -61170,7 +61170,7 @@
             20004115
         ],
         "fullFare":"7.5",
-        "journeyTime":"11",
+        "journeyTime":"12",
         "freq":[
             {
                 "287":[
@@ -61228,7 +61228,7 @@
             20000160
         ],
         "fullFare":"8.5",
-        "journeyTime":"22",
+        "journeyTime":"21",
         "freq":[
             {
                 "287":[
@@ -61308,7 +61308,7 @@
             20009733
         ],
         "fullFare":"8.5",
-        "journeyTime":"22",
+        "journeyTime":"21",
         "freq":[
             {
                 "287":[
@@ -62530,7 +62530,7 @@
             20007311
         ],
         "fullFare":"10.1",
-        "journeyTime":"11",
+        "journeyTime":"12",
         "freq":[
             {
                 "287":[
@@ -62904,7 +62904,7 @@
             20014128
         ],
         "fullFare":"6.1",
-        "journeyTime":"23",
+        "journeyTime":"25",
         "freq":[
             {
                 "511":[
@@ -67214,7 +67214,7 @@
             20019072
         ],
         "fullFare":"7.6",
-        "journeyTime":"19",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -67431,7 +67431,7 @@
             20000356
         ],
         "fullFare":"7.6",
-        "journeyTime":"19",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -67802,7 +67802,7 @@
             20000218
         ],
         "fullFare":"4.8",
-        "journeyTime":"12",
+        "journeyTime":"11",
         "freq":[
             {
                 "511":[
@@ -70189,7 +70189,7 @@
             20012361
         ],
         "fullFare":"13.2",
-        "journeyTime":"27",
+        "journeyTime":"28",
         "freq":[
             {
                 "287":[
@@ -70628,7 +70628,7 @@
             20003337
         ],
         "fullFare":"14.5",
-        "journeyTime":"53",
+        "journeyTime":"49",
         "freq":[
             {
                 "287":[
@@ -70803,7 +70803,7 @@
             20015022
         ],
         "fullFare":"9.8",
-        "journeyTime":"12",
+        "journeyTime":"13",
         "freq":[
             {
                 "287":[
@@ -70936,7 +70936,7 @@
             20011235
         ],
         "fullFare":"8.5",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -70992,7 +70992,7 @@
             20003337
         ],
         "fullFare":"8.5",
-        "journeyTime":"18",
+        "journeyTime":"17",
         "freq":[
             {
                 "287":[
@@ -71724,14 +71724,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        14
                     ],
                     "price":12.5
                 },
                 {
                     "range":[
                         9,
-                        15
+                        14
                     ],
                     "price":10.3
                 }
@@ -72201,14 +72201,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        14
                     ],
                     "price":12.5
                 },
                 {
                     "range":[
                         9,
-                        15
+                        14
                     ],
                     "price":10.3
                 }
@@ -73502,7 +73502,7 @@
             20016399
         ],
         "fullFare":"4.9",
-        "journeyTime":"12",
+        "journeyTime":"11",
         "freq":[
             {
                 "511":[
@@ -76451,7 +76451,7 @@
             20015046
         ],
         "fullFare":"7.2",
-        "journeyTime":"32",
+        "journeyTime":"28",
         "freq":[
             {
                 "511":[
@@ -76538,7 +76538,7 @@
             20013061
         ],
         "fullFare":"7.2",
-        "journeyTime":"25",
+        "journeyTime":"26",
         "freq":[
             {
                 "511":[
@@ -76608,7 +76608,7 @@
             20015079
         ],
         "fullFare":"7.2",
-        "journeyTime":"15",
+        "journeyTime":"17",
         "freq":[
             {
                 "511":[
@@ -76662,7 +76662,7 @@
             20019204
         ],
         "fullFare":"7.2",
-        "journeyTime":"15",
+        "journeyTime":"17",
         "freq":[
             {
                 "511":[
@@ -87736,7 +87736,7 @@
             20013000
         ],
         "fullFare":"7.1",
-        "journeyTime":"17",
+        "journeyTime":"20",
         "freq":[
             {
                 "319":[
@@ -92521,7 +92521,7 @@
             20007395
         ],
         "fullFare":"6.1",
-        "journeyTime":"25",
+        "journeyTime":"18",
         "freq":[
             {
                 "511":[
@@ -92654,7 +92654,7 @@
             20007864
         ],
         "fullFare":"6.1",
-        "journeyTime":"25",
+        "journeyTime":"18",
         "freq":[
             {
                 "511":[
@@ -92974,7 +92974,7 @@
             20007019
         ],
         "fullFare":"8.8",
-        "journeyTime":"24",
+        "journeyTime":"23",
         "freq":[
             {
                 "511":[
@@ -93091,7 +93091,7 @@
             20007864
         ],
         "fullFare":"8.8",
-        "journeyTime":"24",
+        "journeyTime":"23",
         "freq":[
             {
                 "511":[
@@ -93205,7 +93205,7 @@
             20007395
         ],
         "fullFare":"6.1",
-        "journeyTime":"15",
+        "journeyTime":"13",
         "freq":[
             {
                 "511":[
@@ -93340,7 +93340,7 @@
             20007879
         ],
         "fullFare":"6.1",
-        "journeyTime":"15",
+        "journeyTime":"13",
         "freq":[
             {
                 "511":[
@@ -94817,7 +94817,7 @@
             20017917
         ],
         "fullFare":"7.1",
-        "journeyTime":"16",
+        "journeyTime":"13",
         "freq":[
             {
                 "287":[
@@ -94877,7 +94877,7 @@
             20016402
         ],
         "fullFare":"7.1",
-        "journeyTime":"16",
+        "journeyTime":"13",
         "freq":[
             {
                 "287":[
@@ -95668,7 +95668,7 @@
             20003011
         ],
         "fullFare":"13.0",
-        "journeyTime":"28",
+        "journeyTime":"27",
         "freq":[
             {
                 "319":[
@@ -95686,14 +95686,14 @@
                 {
                     "range":[
                         1,
-                        27
+                        28
                     ],
                     "price":13.0
                 },
                 {
                     "range":[
                         26,
-                        27
+                        28
                     ],
                     "price":6.0
                 }
@@ -95740,7 +95740,7 @@
             20021316
         ],
         "fullFare":"13.0",
-        "journeyTime":"28",
+        "journeyTime":"27",
         "freq":[
             {
                 "319":[
@@ -95816,7 +95816,7 @@
             20021321
         ],
         "fullFare":"13.0",
-        "journeyTime":"24",
+        "journeyTime":"27",
         "freq":[
             {
                 "287":[
@@ -95829,14 +95829,14 @@
                 {
                     "range":[
                         1,
-                        28
+                        29
                     ],
                     "price":13.0
                 },
                 {
                     "range":[
                         26,
-                        28
+                        29
                     ],
                     "price":6.0
                 }
@@ -95899,7 +95899,7 @@
             20003011
         ],
         "fullFare":"13.0",
-        "journeyTime":"42",
+        "journeyTime":"47",
         "freq":[
             {
                 "319":[
@@ -95919,14 +95919,14 @@
                 {
                     "range":[
                         1,
-                        41
+                        42
                     ],
                     "price":13.0
                 },
                 {
                     "range":[
                         8,
-                        41
+                        42
                     ],
                     "price":6.0
                 }
