@@ -30963,70 +30963,6 @@
         ]
     },
     {
-        "route":"61A",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tuen Mun (Hoi Wing Road)",
-        "orig_tc":"屯門(海榮路)",
-        "orig_sc":"屯门(海荣路)",
-        "dest_en":"Tuen Mun Road BBI - Urban Bound",
-        "dest_tc":"屯門公路轉車站- 市區方向",
-        "dest_sc":"屯门公路转车站- 市区方向",
-        "co":"KMB",
-        "stops":[
-            "26A66C479A0278FC",
-            "F69B2B317BEB37A3",
-            "64312A5DFF11636C",
-            "CB2A65E69B2B71BE",
-            "F0536729876AA9D0",
-            "1E15CFA82F408124",
-            "01F91A12857E4531",
-            "630AA1866C5372B6",
-            "A2586669ADE21A28",
-            "C90375A74B02D2E8",
-            "EEC48EC880FC63CB",
-            "242418A9AB386596",
-            "A9D85812EAEE6C17",
-            "971554761E4413EF",
-            "7FB2AE7FA13EDB0F",
-            "4F64DA53415F3128",
-            "BF7FD3BC4994EBE5",
-            "9DC117C78DBDB1A7",
-            "BD52FF1BA0AC99BE",
-            "1F2376A52800A2CA",
-            "0B72FFAB7F7230E4",
-            "9955DA9311A76BA4",
-            "0CF05B00D82FECB2"
-        ],
-        "fullFare":"6.0",
-        "journeyTime":"35",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8732",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0650"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        23
-                    ],
-                    "price":6.0
-                }
-            ]
-        ]
-    },
-    {
         "route":"61M",
         "bound":"O",
         "service_type":"1",
@@ -77448,64 +77384,6 @@
                         30
                     ],
                     "price":5.1
-                }
-            ]
-        ]
-    },
-    {
-        "route":"259E",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tuen Mun (Lung Mun Oasis)",
-        "orig_tc":"屯門(龍門居)",
-        "orig_sc":"屯门(龙门居)",
-        "dest_en":"Tsuen Wan Station",
-        "dest_tc":"荃灣站",
-        "dest_sc":"荃湾站",
-        "co":"KMB",
-        "stops":[
-            "9FC91153A17CB656",
-            "1E990292ADEF23A2",
-            "83A02749D0CB2EE8",
-            "0C9D04F079377C44",
-            "F69B2B317BEB37A3",
-            "376C4835851621D4",
-            "2560149CE75EABA0",
-            "D893FD9E88E2A98D",
-            "81C7DC25FD107DD2",
-            "0653C07D043A0E97"
-        ],
-        "fullFare":"10.2",
-        "journeyTime":"34",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1095",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        10
-                    ],
-                    "price":10.2
-                },
-                {
-                    "range":[
-                        8,
-                        10
-                    ],
-                    "price":4.9
                 }
             ]
         ]
