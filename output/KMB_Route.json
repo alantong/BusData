@@ -87988,9 +87988,9 @@
         "route":"273A",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Sheung Shui (Choi Yuen)",
-        "orig_tc":"上水(彩園)",
-        "orig_sc":"上水(彩园)",
+        "orig_en":"Choi Shek Estate",
+        "orig_tc":"彩石邨",
+        "orig_sc":"彩石邨",
         "dest_en":"Wah Ming (Circular)",
         "dest_tc":"華明(循環線)",
         "dest_sc":"华明(循环线)",
@@ -88025,56 +88025,19 @@
             "4E655B25ABAE103A",
             "18785E68EAD3D9B8"
         ],
-        "fullFare":"5.1",
-        "journeyTime":"27",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1128",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:45:00|06:25:00|1200",
-                    "08:25:00|09:10:00|900",
-                    "09:10:00|14:50:00|1200",
-                    "17:10:00|18:10:00|720",
-                    "18:10:00|19:00:00|600",
-                    "19:00:00|19:30:00|900",
-                    "19:30:00|22:30:00|1200",
-                    "22:30:00|23:45:00|1500",
-                    "23:45:00|24:45:00|1800"
-                ],
-                "480":[
-                    "05:45:00|07:00:00|1500",
-                    "07:00:00|11:00:00|1200",
-                    "11:00:00|21:30:00|900",
-                    "21:30:00|22:45:00|1500",
-                    "22:45:00|24:45:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        28
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"273A",
         "bound":"O",
         "service_type":"2",
-        "orig_en":"Sheung Shui (Choi Yuen)",
-        "orig_tc":"上水(彩園)",
-        "orig_sc":"上水(彩园)",
+        "orig_en":"Choi Shek Estate",
+        "orig_tc":"彩石邨",
+        "orig_sc":"彩石邨",
         "dest_en":"Wah Ming (Circular)",
         "dest_tc":"華明(循環線)",
         "dest_sc":"华明(循环线)",
@@ -88111,46 +88074,22 @@
             "4E655B25ABAE103A",
             "18785E68EAD3D9B8"
         ],
-        "fullFare":"5.1",
-        "journeyTime":"32",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8167",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "06:45:00|07:55:00|600",
-                    "07:55:00|08:10:00|900",
-                    "15:10:00|16:55:00|900"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        30
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"273A",
         "bound":"O",
         "service_type":"3",
-        "orig_en":"Fanling (Wah Ming)",
-        "orig_tc":"粉嶺(華明)",
-        "orig_sc":"粉岭(华明)",
-        "dest_en":"Sheung Shui (Choi Yuen)",
-        "dest_tc":"上水(彩園)",
-        "dest_sc":"上水(彩园)",
+        "orig_en":"Choi Shek Estate",
+        "orig_tc":"彩石邨",
+        "orig_sc":"彩石邨",
+        "dest_en":"Wah Ming (Circular)",
+        "dest_tc":"華明(循環線)",
+        "dest_sc":"华明(循环线)",
         "co":"KMB",
         "stops":[
             "8237ED597A8A948B",
@@ -88169,61 +88108,24 @@
             "4E655B25ABAE103A",
             "18785E68EAD3D9B8"
         ],
-        "fullFare":"5.1",
-        "journeyTime":"29",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000149",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "0540"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        15
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"273A",
         "bound":"O",
         "service_type":"4",
-        "orig_en":"Choi Shek Estate",
-        "orig_tc":"彩石邨",
-        "orig_sc":"彩石邨",
-        "dest_en":"Wah Ming (Circular)",
-        "dest_tc":"華明(循環線)",
-        "dest_sc":"华明(循环线)",
+        "orig_en":"Fanling (Wah Ming)",
+        "orig_tc":"粉嶺(華明)",
+        "orig_sc":"粉岭(华明)",
+        "dest_en":"Choi Shek Estate",
+        "dest_tc":"彩石邨",
+        "dest_sc":"彩石邨",
         "co":"KMB",
         "stops":[
-            "80C387D87AFBCE3E",
-            "31005C82D70F6B09",
-            "26A1D2969A15C3AF",
-            "F8C20FE9111D486A",
-            "D97A36CE8D65B198",
-            "CF94083CB24CF4E5",
-            "4A76CDB32FA69BC6",
-            "6F11F73C749338DB",
-            "98EBAB9468C80DD2",
-            "CA1317F5A0B8A8B2",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "4C97BE87FBF959C4",
-            "FA52803E2628A212",
-            "3AD4DADA5B941CF2",
             "8237ED597A8A948B",
             "A4455CCA999A234C",
             "3C821C86ADED2B9D",
@@ -88241,313 +88143,11 @@
             "AD4E0E8DC8ACEFB6",
             "A4AA1D2CA4E92950"
         ],
-        "fullFare":"5.1",
-        "journeyTime":"31",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000676",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:25:00|05:55:00|1800",
-                    "08:35:00|14:55:00|1200",
-                    "17:15:00|17:35:00|1200",
-                    "17:35:00|18:35:00|900",
-                    "18:35:00|22:15:00|1200",
-                    "22:15:00|23:55:00|1500",
-                    "23:55:00|24:55:00|1800"
-                ],
-                "480":[
-                    "05:25:00|07:05:00|1500",
-                    "07:05:00|10:45:00|1200",
-                    "10:45:00|21:15:00|900",
-                    "21:15:00|22:55:00|1500",
-                    "22:55:00|24:55:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        31
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
-    },
-    {
-        "route":"273A",
-        "bound":"O",
-        "service_type":"5",
-        "orig_en":"Choi Shek Estate",
-        "orig_tc":"彩石邨",
-        "orig_sc":"彩石邨",
-        "dest_en":"Wah Ming (Circular)",
-        "dest_tc":"華明(循環線)",
-        "dest_sc":"华明(循环线)",
-        "co":"KMB",
-        "stops":[
-            "80C387D87AFBCE3E",
-            "31005C82D70F6B09",
-            "26A1D2969A15C3AF",
-            "F8C20FE9111D486A",
-            "D97A36CE8D65B198",
-            "CF94083CB24CF4E5",
-            "08A46530B241544D",
-            "4A76CDB32FA69BC6",
-            "6F11F73C749338DB",
-            "98EBAB9468C80DD2",
-            "CA1317F5A0B8A8B2",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "4C97BE87FBF959C4",
-            "FA52803E2628A212",
-            "3AD4DADA5B941CF2",
-            "8237ED597A8A948B",
-            "A4455CCA999A234C",
-            "3C821C86ADED2B9D",
-            "14BDB94A8F3ED3EC",
-            "FA7A3D77713061E9",
-            "C7120BD9A94B4F6A",
-            "825199DC3BC0C5A3",
-            "A8F178C255CF9783",
-            "ADB9356BBF06F7C7",
-            "8E3F5AE0A97053F9",
-            "68C7CBB4CAB9FE69",
-            "9CD9BFAE2BC91336",
-            "017BCFA7DC246519",
-            "E86A26B1A389C290",
-            "4E655B25ABAE103A",
-            "AD4E0E8DC8ACEFB6",
-            "A4AA1D2CA4E92950"
-        ],
-        "fullFare":"5.1",
-        "journeyTime":"32",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000677",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "06:25:00|07:55:00|900",
-                    "07:55:00|08:15:00|1200",
-                    "15:15:00|16:55:00|1200"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        33
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
-    },
-    {
-        "route":"273A",
-        "bound":"O",
-        "service_type":"6",
-        "orig_en":"Sheung Shui (Choi Yuen)",
-        "orig_tc":"上水(彩園)",
-        "orig_sc":"上水(彩园)",
-        "dest_en":"Wah Ming (Circular)",
-        "dest_tc":"華明(循環線)",
-        "dest_sc":"华明(循环线)",
-        "co":"KMB",
-        "stops":[
-            "26A1D2969A15C3AF",
-            "F8C20FE9111D486A",
-            "D97A36CE8D65B198",
-            "CF94083CB24CF4E5",
-            "08A46530B241544D",
-            "4A76CDB32FA69BC6",
-            "6F11F73C749338DB",
-            "98EBAB9468C80DD2",
-            "CA1317F5A0B8A8B2",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "4C97BE87FBF959C4",
-            "FA52803E2628A212",
-            "3AD4DADA5B941CF2",
-            "8237ED597A8A948B",
-            "A4455CCA999A234C",
-            "3C821C86ADED2B9D",
-            "14BDB94A8F3ED3EC",
-            "FA7A3D77713061E9",
-            "C7120BD9A94B4F6A",
-            "825199DC3BC0C5A3",
-            "A8F178C255CF9783",
-            "ADB9356BBF06F7C7",
-            "8E3F5AE0A97053F9",
-            "68C7CBB4CAB9FE69",
-            "9CD9BFAE2BC91336",
-            "E86A26B1A389C290",
-            "4E655B25ABAE103A",
-            "18785E68EAD3D9B8"
-        ],
-        "fullFare":"5.1|5.1",
-        "journeyTime":"27|32",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1128",
-                "1"
-            ],
-            [
-                "KMB",
-                "8167",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:45:00|06:25:00|1200",
-                    "08:25:00|09:10:00|900",
-                    "09:10:00|14:50:00|1200",
-                    "17:10:00|18:10:00|720",
-                    "18:10:00|19:00:00|600",
-                    "19:00:00|19:30:00|900",
-                    "19:30:00|22:30:00|1200",
-                    "22:30:00|23:45:00|1500",
-                    "23:45:00|24:45:00|1800"
-                ],
-                "480":[
-                    "05:45:00|07:00:00|1500",
-                    "07:00:00|11:00:00|1200",
-                    "11:00:00|21:30:00|900",
-                    "21:30:00|22:45:00|1500",
-                    "22:45:00|24:45:00|1800"
-                ]
-            },
-            {
-                "287":[
-                    "06:45:00|07:55:00|600",
-                    "07:55:00|08:10:00|900",
-                    "15:10:00|16:55:00|900"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        28
-                    ],
-                    "price":5.1
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
-                        30
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
-    },
-    {
-        "route":"273A",
-        "bound":"O",
-        "service_type":"7",
-        "orig_en":"Choi Shek Estate",
-        "orig_tc":"彩石邨",
-        "orig_sc":"彩石邨",
-        "dest_en":"Wah Ming (Circular)",
-        "dest_tc":"華明(循環線)",
-        "dest_sc":"华明(循环线)",
-        "co":"KMB",
-        "stops":[
-            "80C387D87AFBCE3E",
-            "31005C82D70F6B09",
-            "26A1D2969A15C3AF",
-            "F8C20FE9111D486A",
-            "CF94083CB24CF4E5",
-            "08A46530B241544D",
-            "4A76CDB32FA69BC6",
-            "6F11F73C749338DB",
-            "98EBAB9468C80DD2",
-            "CA1317F5A0B8A8B2",
-            "AFD29CB1A4F71AB9",
-            "65ECD19EFD09FB74",
-            "4C97BE87FBF959C4",
-            "FA52803E2628A212",
-            "3AD4DADA5B941CF2",
-            "8237ED597A8A948B",
-            "A4455CCA999A234C",
-            "3C821C86ADED2B9D",
-            "14BDB94A8F3ED3EC",
-            "FA7A3D77713061E9",
-            "C7120BD9A94B4F6A",
-            "825199DC3BC0C5A3",
-            "A8F178C255CF9783",
-            "ADB9356BBF06F7C7",
-            "8E3F5AE0A97053F9",
-            "68C7CBB4CAB9FE69",
-            "9CD9BFAE2BC91336",
-            "E86A26B1A389C290",
-            "4E655B25ABAE103A",
-            "AD4E0E8DC8ACEFB6",
-            "A4AA1D2CA4E92950"
-        ],
-        "fullFare":"5.1",
-        "journeyTime":"31",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000676",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:25:00|05:55:00|1800",
-                    "08:35:00|14:55:00|1200",
-                    "17:15:00|17:35:00|1200",
-                    "17:35:00|18:35:00|900",
-                    "18:35:00|22:15:00|1200",
-                    "22:15:00|23:55:00|1500",
-                    "23:55:00|24:55:00|1800"
-                ],
-                "480":[
-                    "05:25:00|07:05:00|1500",
-                    "07:05:00|10:45:00|1200",
-                    "10:45:00|21:15:00|900",
-                    "21:15:00|22:55:00|1500",
-                    "22:55:00|24:55:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        31
-                    ],
-                    "price":5.1
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"273B",
