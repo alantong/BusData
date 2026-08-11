@@ -3153,7 +3153,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7|14.7",
-        "journeyTime":"64|66",
+        "journeyTime":"66|69",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -3272,29 +3272,6 @@
                 {
                     "range":[
                         1,
-                        31
-                    ],
-                    "price":14.7
-                },
-                {
-                    "range":[
-                        11,
-                        31
-                    ],
-                    "price":12.2
-                },
-                {
-                    "range":[
-                        12,
-                        31
-                    ],
-                    "price":7.7
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
                         32
                     ],
                     "price":14.7
@@ -3310,6 +3287,29 @@
                     "range":[
                         13,
                         32
+                    ],
+                    "price":7.7
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        33
+                    ],
+                    "price":14.7
+                },
+                {
+                    "range":[
+                        13,
+                        33
+                    ],
+                    "price":12.2
+                },
+                {
+                    "range":[
+                        14,
+                        33
                     ],
                     "price":7.7
                 }
@@ -3363,7 +3363,7 @@
         ],
         "bound":"I",
         "fullFare":"14.7|14.7",
-        "journeyTime":"64|66",
+        "journeyTime":"66|69",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -3474,21 +3474,21 @@
                 {
                     "range":[
                         1,
-                        32
+                        33
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
                         18,
-                        32
+                        33
                     ],
                     "price":8.2
                 },
                 {
                     "range":[
                         19,
-                        32
+                        33
                     ],
                     "price":6.1
                 }
@@ -3497,21 +3497,21 @@
                 {
                     "range":[
                         1,
-                        33
+                        34
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
                         18,
-                        33
+                        34
                     ],
                     "price":8.2
                 },
                 {
                     "range":[
                         19,
-                        33
+                        34
                     ],
                     "price":6.1
                 }
@@ -3552,7 +3552,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7",
-        "journeyTime":"52",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -3578,21 +3578,21 @@
                 {
                     "range":[
                         1,
-                        20
+                        21
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
                         6,
-                        20
+                        21
                     ],
                     "price":8.2
                 },
                 {
                     "range":[
                         7,
-                        20
+                        21
                     ],
                     "price":6.1
                 }
@@ -3631,7 +3631,7 @@
         ],
         "bound":"I",
         "fullFare":"14.7",
-        "journeyTime":"52",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -3652,21 +3652,21 @@
                 {
                     "range":[
                         1,
-                        18
+                        19
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
-                        13,
-                        18
+                        14,
+                        19
                     ],
                     "price":12.2
                 },
                 {
                     "range":[
-                        14,
-                        18
+                        15,
+                        19
                     ],
                     "price":7.7
                 }
@@ -9644,7 +9644,7 @@
         ],
         "bound":"O",
         "fullFare":"20.8|20.8",
-        "journeyTime":"57|63",
+        "journeyTime":"58|62",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -9713,43 +9713,6 @@
                 {
                     "range":[
                         1,
-                        35
-                    ],
-                    "price":20.8
-                },
-                {
-                    "range":[
-                        11,
-                        35
-                    ],
-                    "price":19.6
-                },
-                {
-                    "range":[
-                        17,
-                        35
-                    ],
-                    "price":12.9
-                },
-                {
-                    "range":[
-                        23,
-                        35
-                    ],
-                    "price":8.2
-                },
-                {
-                    "range":[
-                        28,
-                        35
-                    ],
-                    "price":7.7
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
                         36
                     ],
                     "price":20.8
@@ -9779,6 +9742,43 @@
                     "range":[
                         29,
                         36
+                    ],
+                    "price":7.7
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        37
+                    ],
+                    "price":20.8
+                },
+                {
+                    "range":[
+                        13,
+                        37
+                    ],
+                    "price":19.6
+                },
+                {
+                    "range":[
+                        19,
+                        37
+                    ],
+                    "price":12.9
+                },
+                {
+                    "range":[
+                        25,
+                        37
+                    ],
+                    "price":8.2
+                },
+                {
+                    "range":[
+                        30,
+                        37
                     ],
                     "price":7.7
                 }
@@ -9829,7 +9829,7 @@
         ],
         "bound":"I",
         "fullFare":"20.8|20.8",
-        "journeyTime":"57|63",
+        "journeyTime":"58|62",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -9902,28 +9902,28 @@
                 {
                     "range":[
                         1,
-                        29
+                        30
                     ],
                     "price":20.8
                 },
                 {
                     "range":[
                         10,
-                        29
+                        30
                     ],
                     "price":18.4
                 },
                 {
                     "range":[
                         17,
-                        29
+                        30
                     ],
                     "price":10.8
                 },
                 {
                     "range":[
                         18,
-                        29
+                        30
                     ],
                     "price":6.1
                 }
@@ -9932,28 +9932,28 @@
                 {
                     "range":[
                         1,
-                        30
+                        31
                     ],
                     "price":20.8
                 },
                 {
                     "range":[
                         10,
-                        30
+                        31
                     ],
                     "price":18.4
                 },
                 {
                     "range":[
                         17,
-                        30
+                        31
                     ],
                     "price":10.8
                 },
                 {
                     "range":[
                         18,
-                        30
+                        31
                     ],
                     "price":6.1
                 }
@@ -10004,7 +10004,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7|14.7|14.7",
-        "journeyTime":"58|63|70",
+        "journeyTime":"79|66|72",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -10092,66 +10092,6 @@
                 {
                     "range":[
                         1,
-                        29
-                    ],
-                    "price":14.7
-                },
-                {
-                    "range":[
-                        13,
-                        29
-                    ],
-                    "price":12.2
-                },
-                {
-                    "range":[
-                        14,
-                        29
-                    ],
-                    "price":7.7
-                },
-                {
-                    "range":[
-                        23,
-                        29
-                    ],
-                    "price":6.8
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
-                        27
-                    ],
-                    "price":14.7
-                },
-                {
-                    "range":[
-                        11,
-                        27
-                    ],
-                    "price":12.2
-                },
-                {
-                    "range":[
-                        12,
-                        27
-                    ],
-                    "price":7.7
-                },
-                {
-                    "range":[
-                        21,
-                        27
-                    ],
-                    "price":6.8
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
                         30
                     ],
                     "price":14.7
@@ -10174,6 +10114,66 @@
                     "range":[
                         24,
                         30
+                    ],
+                    "price":6.8
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        28
+                    ],
+                    "price":14.7
+                },
+                {
+                    "range":[
+                        12,
+                        28
+                    ],
+                    "price":12.2
+                },
+                {
+                    "range":[
+                        13,
+                        28
+                    ],
+                    "price":7.7
+                },
+                {
+                    "range":[
+                        22,
+                        28
+                    ],
+                    "price":6.8
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        31
+                    ],
+                    "price":14.7
+                },
+                {
+                    "range":[
+                        15,
+                        31
+                    ],
+                    "price":12.2
+                },
+                {
+                    "range":[
+                        16,
+                        31
+                    ],
+                    "price":7.7
+                },
+                {
+                    "range":[
+                        25,
+                        31
                     ],
                     "price":6.8
                 }
@@ -10226,7 +10226,7 @@
         ],
         "bound":"I",
         "fullFare":"14.7|14.7|14.7",
-        "journeyTime":"58|63|70",
+        "journeyTime":"79|66|72",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -10321,38 +10321,6 @@
                 {
                     "range":[
                         1,
-                        31
-                    ],
-                    "price":14.7
-                },
-                {
-                    "range":[
-                        19,
-                        31
-                    ],
-                    "price":6.1
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
-                        29
-                    ],
-                    "price":14.7
-                },
-                {
-                    "range":[
-                        19,
-                        29
-                    ],
-                    "price":6.1
-                }
-            ],
-            [
-                {
-                    "range":[
-                        1,
                         32
                     ],
                     "price":14.7
@@ -10361,6 +10329,38 @@
                     "range":[
                         19,
                         32
+                    ],
+                    "price":6.1
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        30
+                    ],
+                    "price":14.7
+                },
+                {
+                    "range":[
+                        19,
+                        30
+                    ],
+                    "price":6.1
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        33
+                    ],
+                    "price":14.7
+                },
+                {
+                    "range":[
+                        19,
+                        33
                     ],
                     "price":6.1
                 }
@@ -10404,7 +10404,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7",
-        "journeyTime":"59",
+        "journeyTime":"58",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -10427,28 +10427,28 @@
                 {
                     "range":[
                         1,
-                        23
+                        24
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
-                        7,
-                        23
+                        8,
+                        24
                     ],
                     "price":12.2
                 },
                 {
                     "range":[
-                        8,
-                        23
+                        9,
+                        24
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        17,
-                        23
+                        18,
+                        24
                     ],
                     "price":6.8
                 }
@@ -10493,7 +10493,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7",
-        "journeyTime":"57",
+        "journeyTime":"73",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -10519,21 +10519,21 @@
                 {
                     "range":[
                         1,
-                        24
+                        25
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
-                        9,
-                        24
+                        10,
+                        25
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        18,
-                        24
+                        19,
+                        25
                     ],
                     "price":6.8
                 }
@@ -14501,7 +14501,7 @@
         ],
         "bound":"O",
         "fullFare":"15.1",
-        "journeyTime":"46",
+        "journeyTime":"47",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -14537,28 +14537,21 @@
                 {
                     "range":[
                         1,
-                        27
+                        28
                     ],
                     "price":15.1
                 },
                 {
                     "range":[
-                        1,
-                        11
+                        12,
+                        28
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
-                        11,
-                        27
-                    ],
-                    "price":9.4
-                },
-                {
-                    "range":[
-                        22,
-                        27
+                        23,
+                        28
                     ],
                     "price":3.8
                 }
@@ -14603,7 +14596,7 @@
         ],
         "bound":"I",
         "fullFare":"15.1|15.1",
-        "journeyTime":"46|49",
+        "journeyTime":"47|54",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -14667,21 +14660,28 @@
                 {
                     "range":[
                         1,
-                        22
+                        23
                     ],
                     "price":15.1
                 },
                 {
                     "range":[
+                        1,
+                        3
+                    ],
+                    "price":3.8
+                },
+                {
+                    "range":[
                         11,
-                        22
+                        23
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
-                        18,
-                        22
+                        19,
+                        23
                     ],
                     "price":4.8
                 }
@@ -14690,7 +14690,7 @@
                 {
                     "range":[
                         1,
-                        24
+                        25
                     ],
                     "price":15.1
                 },
@@ -14704,14 +14704,14 @@
                 {
                     "range":[
                         13,
-                        24
+                        25
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
-                        20,
-                        24
+                        21,
+                        25
                     ],
                     "price":4.8
                 }
@@ -16970,7 +16970,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6",
-        "journeyTime":"41",
+        "journeyTime":"63",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17034,14 +17034,14 @@
                 {
                     "range":[
                         1,
-                        41
+                        42
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        34,
-                        41
+                        35,
+                        42
                     ],
                     "price":5.5
                 }
@@ -17104,7 +17104,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6|6.6",
-        "journeyTime":"38|32",
+        "journeyTime":"46|32",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17171,21 +17171,21 @@
                 {
                     "range":[
                         1,
-                        42
+                        43
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         7,
-                        42
+                        43
                     ],
                     "price":5.9
                 },
                 {
                     "range":[
                         30,
-                        42
+                        43
                     ],
                     "price":4.2
                 }
@@ -17194,14 +17194,14 @@
                 {
                     "range":[
                         1,
-                        22
+                        23
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         10,
-                        22
+                        23
                     ],
                     "price":4.2
                 }
@@ -17257,7 +17257,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6",
-        "journeyTime":"30",
+        "journeyTime":"38",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17289,21 +17289,21 @@
                 {
                     "range":[
                         1,
-                        36
+                        37
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         7,
-                        36
+                        37
                     ],
                     "price":5.9
                 },
                 {
                     "range":[
                         24,
-                        36
+                        37
                     ],
                     "price":4.2
                 }
@@ -17350,7 +17350,7 @@
         ],
         "bound":"O",
         "fullFare":"9.4|9.4",
-        "journeyTime":"37|36",
+        "journeyTime":"36|35",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17422,28 +17422,28 @@
                 {
                     "range":[
                         1,
-                        18
+                        19
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         5,
-                        18
+                        19
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        9,
-                        18
+                        10,
+                        19
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        13,
-                        18
+                        14,
+                        19
                     ],
                     "price":5.2
                 }
@@ -17452,28 +17452,28 @@
                 {
                     "range":[
                         1,
-                        25
+                        26
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         9,
-                        25
+                        26
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        16,
-                        25
+                        17,
+                        26
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        20,
-                        25
+                        21,
+                        26
                     ],
                     "price":5.2
                 }
@@ -17520,8 +17520,8 @@
             "002186"
         ],
         "bound":"I",
-        "fullFare":"9.4|9.4|7.4",
-        "journeyTime":"37|36|22",
+        "fullFare":"9.4|9.4|7.7",
+        "journeyTime":"36|35|21",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -17605,21 +17605,21 @@
                 {
                     "range":[
                         1,
-                        22
+                        23
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         6,
-                        22
+                        23
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
                         10,
-                        22
+                        23
                     ],
                     "price":5.6
                 }
@@ -17628,21 +17628,21 @@
                 {
                     "range":[
                         1,
-                        26
+                        27
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         6,
-                        26
+                        27
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
                         10,
-                        26
+                        27
                     ],
                     "price":5.6
                 }
@@ -17651,14 +17651,14 @@
                 {
                     "range":[
                         1,
-                        21
+                        22
                     ],
-                    "price":7.4
+                    "price":7.7
                 },
                 {
                     "range":[
                         5,
-                        21
+                        22
                     ],
                     "price":5.6
                 }
@@ -19332,7 +19332,7 @@
         ],
         "bound":"O",
         "fullFare":"9.4|9.4",
-        "journeyTime":"38|33",
+        "journeyTime":"37|32",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -19369,28 +19369,28 @@
                 {
                     "range":[
                         1,
-                        20
+                        21
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         4,
-                        20
+                        21
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        11,
-                        20
+                        12,
+                        21
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        15,
-                        20
+                        16,
+                        21
                     ],
                     "price":5.2
                 }
@@ -19399,28 +19399,28 @@
                 {
                     "range":[
                         1,
-                        18
+                        19
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         4,
-                        18
+                        19
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
                         9,
-                        18
+                        19
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        13,
-                        18
+                        14,
+                        19
                     ],
                     "price":5.2
                 }
@@ -19462,7 +19462,7 @@
         ],
         "bound":"I",
         "fullFare":"9.4",
-        "journeyTime":"38",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -19490,21 +19490,21 @@
                 {
                     "range":[
                         1,
-                        21
+                        22
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         6,
-                        21
+                        22
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
                         10,
-                        21
+                        22
                     ],
                     "price":5.6
                 }
@@ -19550,7 +19550,7 @@
         ],
         "bound":"O",
         "fullFare":"9.4",
-        "journeyTime":"38",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -19571,28 +19571,28 @@
                 {
                     "range":[
                         1,
-                        25
+                        26
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
-                        8,
-                        25
+                        9,
+                        26
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        15,
-                        25
+                        17,
+                        26
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        19,
-                        25
+                        21,
+                        26
                     ],
                     "price":5.2
                 }
@@ -19637,7 +19637,7 @@
         ],
         "bound":"I",
         "fullFare":"9.4",
-        "journeyTime":"38",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -19658,21 +19658,21 @@
                 {
                     "range":[
                         1,
-                        24
+                        25
                     ],
                     "price":9.4
                 },
                 {
                     "range":[
                         6,
-                        24
+                        25
                     ],
                     "price":7.7
                 },
                 {
                     "range":[
-                        10,
-                        24
+                        11,
+                        25
                     ],
                     "price":5.6
                 }
@@ -20037,7 +20037,7 @@
         ],
         "bound":"O",
         "fullFare":"16.4",
-        "journeyTime":"89",
+        "journeyTime":"88",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -20057,14 +20057,14 @@
                 {
                     "range":[
                         1,
-                        33
+                        34
                     ],
                     "price":16.4
                 },
                 {
                     "range":[
                         19,
-                        33
+                        34
                     ],
                     "price":6.3
                 }
@@ -22180,7 +22180,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6|6.6",
-        "journeyTime":"31|25",
+        "journeyTime":"29|24",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -22239,14 +22239,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        11,
-                        15
+                        12,
+                        16
                     ],
                     "price":4.8
                 }
@@ -22255,14 +22255,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        10,
-                        14
+                        11,
+                        15
                     ],
                     "price":4.8
                 }
@@ -22297,7 +22297,7 @@
         ],
         "bound":"I",
         "fullFare":"6.6",
-        "journeyTime":"31",
+        "journeyTime":"29",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -22350,14 +22350,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         5,
-                        14
+                        15
                     ],
                     "price":4.2
                 }
@@ -26681,14 +26681,14 @@
                 {
                     "range":[
                         1,
-                        35
+                        36
                     ],
                     "price":12.8
                 },
                 {
                     "range":[
-                        21,
-                        35
+                        22,
+                        36
                     ],
                     "price":7.7
                 }
@@ -26766,28 +26766,28 @@
                 {
                     "range":[
                         1,
-                        33
+                        34
                     ],
                     "price":12.8
                 },
                 {
                     "range":[
                         17,
-                        33
+                        34
                     ],
                     "price":8.5
                 },
                 {
                     "range":[
-                        24,
-                        33
+                        25,
+                        34
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        28,
-                        33
+                        29,
+                        34
                     ],
                     "price":5.4
                 }
@@ -27026,7 +27026,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7",
-        "journeyTime":"75",
+        "journeyTime":"77",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -27064,21 +27064,21 @@
                 {
                     "range":[
                         1,
-                        38
+                        39
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
-                        16,
-                        38
+                        17,
+                        39
                     ],
                     "price":12.2
                 },
                 {
                     "range":[
-                        25,
-                        38
+                        26,
+                        39
                     ],
                     "price":7.7
                 }
@@ -27135,7 +27135,7 @@
         ],
         "bound":"I",
         "fullFare":"14.7",
-        "journeyTime":"75",
+        "journeyTime":"77",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -27170,21 +27170,21 @@
                 {
                     "range":[
                         1,
-                        36
+                        37
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
                         14,
-                        36
+                        37
                     ],
                     "price":10.8
                 },
                 {
                     "range":[
                         20,
-                        36
+                        37
                     ],
                     "price":6.1
                 }
@@ -27234,7 +27234,7 @@
         ],
         "bound":"O",
         "fullFare":"14.7",
-        "journeyTime":"67",
+        "journeyTime":"98",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -27255,14 +27255,14 @@
                 {
                     "range":[
                         1,
-                        29
+                        30
                     ],
                     "price":14.7
                 },
                 {
                     "range":[
-                        16,
-                        29
+                        17,
+                        30
                     ],
                     "price":7.7
                 }
@@ -30574,28 +30574,21 @@
                 {
                     "range":[
                         1,
-                        30
+                        31
                     ],
                     "price":11.7
                 },
                 {
                     "range":[
-                        1,
-                        15
-                    ],
-                    "price":7.5
-                },
-                {
-                    "range":[
-                        15,
-                        30
+                        16,
+                        31
                     ],
                     "price":6.4
                 },
                 {
                     "range":[
-                        26,
-                        30
+                        27,
+                        31
                     ],
                     "price":3.8
                 }
@@ -30650,7 +30643,7 @@
         ],
         "bound":"O",
         "fullFare":"11.7",
-        "journeyTime":"62",
+        "journeyTime":"64",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -30699,28 +30692,28 @@
                 {
                     "range":[
                         1,
-                        34
+                        35
                     ],
                     "price":11.7
                 },
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
-                        15,
-                        34
+                        16,
+                        35
                     ],
                     "price":6.4
                 },
                 {
                     "range":[
-                        29,
-                        34
+                        30,
+                        35
                     ],
                     "price":3.8
                 }
@@ -30780,7 +30773,7 @@
         ],
         "bound":"I",
         "fullFare":"11.7|11.7|11.7",
-        "journeyTime":"62|62|65",
+        "journeyTime":"64|63|66",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -30866,7 +30859,7 @@
                 {
                     "range":[
                         1,
-                        32
+                        33
                     ],
                     "price":11.7
                 },
@@ -30880,21 +30873,21 @@
                 {
                     "range":[
                         17,
-                        32
+                        33
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         21,
-                        32
+                        33
                     ],
                     "price":6.4
                 },
                 {
                     "range":[
-                        24,
-                        32
+                        25,
+                        33
                     ],
                     "price":4.8
                 }
@@ -30903,7 +30896,7 @@
                 {
                     "range":[
                         1,
-                        34
+                        35
                     ],
                     "price":11.7
                 },
@@ -30924,21 +30917,21 @@
                 {
                     "range":[
                         19,
-                        34
+                        35
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         23,
-                        34
+                        35
                     ],
                     "price":6.4
                 },
                 {
                     "range":[
-                        26,
-                        34
+                        27,
+                        35
                     ],
                     "price":4.8
                 }
@@ -30947,7 +30940,7 @@
                 {
                     "range":[
                         1,
-                        37
+                        38
                     ],
                     "price":11.7
                 },
@@ -30968,21 +30961,21 @@
                 {
                     "range":[
                         22,
-                        37
+                        38
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         26,
-                        37
+                        38
                     ],
                     "price":6.4
                 },
                 {
                     "range":[
-                        29,
-                        37
+                        30,
+                        38
                     ],
                     "price":4.8
                 }
@@ -31400,14 +31393,14 @@
                 {
                     "range":[
                         1,
-                        13
+                        14
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        10,
-                        13
+                        11,
+                        14
                     ],
                     "price":4.8
                 }
@@ -31416,14 +31409,14 @@
                 {
                     "range":[
                         1,
-                        16
+                        17
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        13,
-                        16
+                        14,
+                        17
                     ],
                     "price":4.8
                 }
@@ -31546,14 +31539,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         5,
-                        14
+                        15
                     ],
                     "price":4.2
                 }
@@ -32587,14 +32580,14 @@
                 {
                     "range":[
                         1,
-                        11
+                        12
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        8,
-                        11
+                        9,
+                        12
                     ],
                     "price":4.8
                 }
@@ -32659,14 +32652,14 @@
                 {
                     "range":[
                         1,
-                        17
+                        18
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         5,
-                        17
+                        18
                     ],
                     "price":4.2
                 }
@@ -32961,7 +32954,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6",
-        "journeyTime":"32",
+        "journeyTime":"31",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -33057,14 +33050,14 @@
                 {
                     "range":[
                         1,
-                        13
+                        14
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        9,
-                        13
+                        10,
+                        14
                     ],
                     "price":4.8
                 }
@@ -33099,7 +33092,7 @@
         ],
         "bound":"I",
         "fullFare":"6.6",
-        "journeyTime":"32",
+        "journeyTime":"31",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -33206,14 +33199,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         5,
-                        14
+                        15
                     ],
                     "price":4.2
                 }
@@ -34233,7 +34226,7 @@
         ],
         "bound":"O",
         "fullFare":"6.3",
-        "journeyTime":"21",
+        "journeyTime":"20",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -34264,14 +34257,14 @@
                 {
                     "range":[
                         1,
-                        10
+                        11
                     ],
                     "price":6.3
                 },
                 {
                     "range":[
-                        6,
-                        10
+                        7,
+                        11
                     ],
                     "price":4.8
                 }
@@ -34302,7 +34295,7 @@
         ],
         "bound":"I",
         "fullFare":"6.3",
-        "journeyTime":"21",
+        "journeyTime":"20",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -34332,14 +34325,14 @@
                 {
                     "range":[
                         1,
-                        10
+                        11
                     ],
                     "price":6.3
                 },
                 {
                     "range":[
                         5,
-                        10
+                        11
                     ],
                     "price":4.2
                 }
@@ -35043,7 +35036,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6",
-        "journeyTime":"29",
+        "journeyTime":"28",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35066,14 +35059,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        6,
-                        14
+                        7,
+                        15
                     ],
                     "price":4.8
                 }
@@ -35108,7 +35101,7 @@
         ],
         "bound":"I",
         "fullFare":"6.6",
-        "journeyTime":"29",
+        "journeyTime":"28",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35131,14 +35124,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         9,
-                        14
+                        15
                     ],
                     "price":4.2
                 }
@@ -35418,7 +35411,7 @@
         ],
         "bound":"O",
         "fullFare":"9.7",
-        "journeyTime":"61",
+        "journeyTime":"60",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35428,44 +35421,9 @@
         ],
         "freq":[
             {
-                "287":[
-                    "06:00:00|07:00:00|1200",
-                    "07:00:00|08:00:00|900",
-                    "08:00:00|11:00:00|1200",
-                    "11:00:00|18:00:00|900",
-                    "18:00:00|20:00:00|1200",
-                    "20:00:00|20:18:00|1080",
-                    "20:18:00|20:37:00|1140",
-                    "20:37:00|20:55:00|1080",
-                    "20:55:00|21:14:00|1140",
-                    "21:14:00|21:32:00|1080",
-                    "21:32:00|21:51:00|1140",
-                    "21:51:00|22:09:00|1080",
-                    "22:09:00|22:28:00|1140",
-                    "22:28:00|22:46:00|1080",
-                    "22:46:00|23:06:00|1200"
-                ],
-                "288":[
-                    "06:00:00|06:50:00|1500",
-                    "06:50:00|09:50:00|1200",
-                    "09:50:00|18:50:00|900",
-                    "18:50:00|19:50:00|1200",
-                    "19:50:00|20:05:00|900",
-                    "20:05:00|21:05:00|1200",
-                    "21:05:00|21:22:00|1020",
-                    "21:22:00|22:16:00|1080",
-                    "22:16:00|23:06:00|1500"
-                ],
-                "448":[
-                    "06:00:00|11:00:00|1200",
-                    "11:00:00|13:56:00|960",
-                    "13:56:00|14:44:00|720",
-                    "14:44:00|17:56:00|960",
-                    "17:56:00|18:44:00|720",
-                    "18:44:00|19:48:00|960",
-                    "19:48:00|21:48:00|1200",
-                    "21:48:00|22:38:00|1500",
-                    "22:38:00|23:06:00|1680"
+                "511":[
+                    "06:00:00|22:40:00|1200",
+                    "22:40:00|23:06:00|1560"
                 ]
             }
         ],
@@ -35474,35 +35432,35 @@
                 {
                     "range":[
                         1,
-                        37
+                        38
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
                         5,
-                        37
+                        38
                     ],
                     "price":8.8
                 },
                 {
                     "range":[
-                        9,
-                        37
+                        10,
+                        38
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        20,
-                        37
+                        21,
+                        38
                     ],
                     "price":4.3
                 },
                 {
                     "range":[
-                        27,
-                        37
+                        28,
+                        38
                     ],
                     "price":3.3
                 }
@@ -35563,7 +35521,7 @@
         ],
         "bound":"I",
         "fullFare":"9.7",
-        "journeyTime":"61",
+        "journeyTime":"60",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -35573,50 +35531,11 @@
         ],
         "freq":[
             {
-                "287":[
-                    "05:45:00|07:25:00|1200",
-                    "07:25:00|07:55:00|900",
-                    "07:55:00|08:12:00|1020",
-                    "08:12:00|08:30:00|1080",
-                    "08:30:00|11:50:00|1200",
-                    "11:50:00|12:50:00|900",
-                    "12:50:00|14:50:00|1200",
-                    "14:50:00|15:07:00|1020",
-                    "15:07:00|18:07:00|900",
-                    "18:07:00|18:29:00|660",
-                    "18:29:00|18:42:00|780",
-                    "18:42:00|18:54:00|720",
-                    "18:54:00|19:54:00|900",
-                    "19:54:00|20:05:00|660",
-                    "20:05:00|21:50:00|900",
-                    "21:50:00|22:07:00|1020",
-                    "22:07:00|22:25:00|1080",
-                    "22:25:00|23:25:00|1200",
-                    "23:25:00|24:15:00|1500"
-                ],
-                "288":[
-                    "05:45:00|07:00:00|1500",
-                    "07:00:00|09:20:00|1200",
-                    "09:20:00|09:50:00|900",
-                    "09:50:00|10:07:00|1020",
-                    "10:07:00|11:47:00|1200",
-                    "11:47:00|17:47:00|900",
-                    "17:47:00|17:58:00|660",
-                    "17:58:00|18:10:00|720",
-                    "18:10:00|23:10:00|900",
-                    "23:10:00|23:50:00|1200",
+                "511":[
+                    "05:40:00|10:00:00|1200",
+                    "10:00:00|10:30:00|900",
+                    "10:30:00|23:50:00|1200",
                     "23:50:00|24:15:00|1500"
-                ],
-                "448":[
-                    "05:45:00|07:00:00|1500",
-                    "07:00:00|08:00:00|1200",
-                    "08:00:00|08:15:00|900",
-                    "08:15:00|08:27:00|720",
-                    "08:27:00|08:40:00|780",
-                    "08:40:00|14:00:00|1200",
-                    "14:00:00|22:15:00|900",
-                    "22:15:00|23:15:00|1200",
-                    "23:15:00|24:15:00|1800"
                 ]
             }
         ],
@@ -35625,35 +35544,28 @@
                 {
                     "range":[
                         1,
-                        40
+                        41
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
-                        1,
-                        15
-                    ],
-                    "price":4.2
-                },
-                {
-                    "range":[
                         24,
-                        40
+                        41
                     ],
                     "price":8.8
                 },
                 {
                     "range":[
                         27,
-                        40
+                        41
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         32,
-                        40
+                        41
                     ],
                     "price":4.2
                 }
@@ -35705,11 +35617,47 @@
             "002591"
         ],
         "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"14.5",
+        "journeyTime":"92",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000700",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "07:20:00|08:20:00|1800",
+                    "08:20:00|08:45:00|1500",
+                    "08:45:00|22:45:00|1200",
+                    "22:45:00|23:10:00|1500"
+                ],
+                "480":[
+                    "07:05:00|10:45:00|1200",
+                    "10:45:00|23:10:00|1500"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        33
+                    ],
+                    "price":14.5
+                },
+                {
+                    "range":[
+                        12,
+                        33
+                    ],
+                    "price":8.9
+                }
+            ]
+        ]
     },
     {
         "co":"CTB",
@@ -35758,11 +35706,56 @@
             "002299"
         ],
         "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"14.5",
+        "journeyTime":"92",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "1000700",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "06:55:00|10:15:00|1200",
+                    "10:15:00|10:30:00|900",
+                    "10:30:00|22:30:00|1200",
+                    "22:30:00|22:55:00|1500"
+                ],
+                "480":[
+                    "06:55:00|10:15:00|1200",
+                    "10:15:00|10:30:00|900",
+                    "10:30:00|22:30:00|1200",
+                    "22:30:00|22:55:00|1500"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        35
+                    ],
+                    "price":14.5
+                },
+                {
+                    "range":[
+                        10,
+                        35
+                    ],
+                    "price":12.2
+                },
+                {
+                    "range":[
+                        23,
+                        35
+                    ],
+                    "price":4.2
+                }
+            ]
+        ]
     },
     {
         "co":"CTB",
@@ -35804,7 +35797,7 @@
         "freq":[
             {
                 "287":[
-                    "0745",
+                    "0740",
                     "0800"
                 ]
             }
@@ -35814,14 +35807,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
-                        10,
-                        15
+                        11,
+                        16
                     ],
                     "price":4.3
                 }
@@ -37520,19 +37513,36 @@
             "001540"
         ],
         "bound":"O",
-        "fullFare":"11.7",
-        "journeyTime":"50",
+        "fullFare":"11.7|11.7",
+        "journeyTime":"49|60",
         "gtfsRouteKey":[
             [
                 "CTB",
                 "1000312",
                 "1"
+            ],
+            [
+                "CTB",
+                "1000701",
+                "1"
             ]
         ],
         "freq":[
             {
-                "511":[
-                    "07:00:00|18:00:00|1200"
+                "287":[
+                    "06:40:00|18:00:00|1200",
+                    "19:30:00|20:00:00|1800"
+                ],
+                "480":[
+                    "06:40:00|18:00:00|1200",
+                    "18:00:00|20:00:00|1800"
+                ]
+            },
+            {
+                "287":[
+                    "1815",
+                    "1835",
+                    "1855"
                 ]
             }
         ],
@@ -37556,6 +37566,29 @@
                     "range":[
                         11,
                         17
+                    ],
+                    "price":6.3
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        24
+                    ],
+                    "price":11.7
+                },
+                {
+                    "range":[
+                        17,
+                        24
+                    ],
+                    "price":10.3
+                },
+                {
+                    "range":[
+                        18,
+                        24
                     ],
                     "price":6.3
                 }
@@ -37591,7 +37624,7 @@
         ],
         "bound":"I",
         "fullFare":"11.7",
-        "journeyTime":"50",
+        "journeyTime":"49",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -38533,7 +38566,7 @@
         ],
         "bound":"O",
         "fullFare":"10.3",
-        "journeyTime":"56",
+        "journeyTime":"54",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -38544,19 +38577,21 @@
         "freq":[
             {
                 "287":[
-                    "07:00:00|07:20:00|1200",
+                    "06:40:00|07:20:00|1200",
                     "07:20:00|07:45:00|1500",
                     "07:45:00|15:45:00|1800",
                     "15:45:00|17:00:00|1500"
                 ],
                 "288":[
-                    "07:00:00|08:15:00|1500",
-                    "08:15:00|15:45:00|1800",
+                    "06:40:00|07:20:00|1200",
+                    "07:20:00|07:45:00|1500",
+                    "07:45:00|15:45:00|1800",
                     "15:45:00|17:00:00|1500"
                 ],
                 "448":[
-                    "07:00:00|08:15:00|1500",
-                    "08:15:00|15:45:00|1800",
+                    "06:40:00|07:20:00|1200",
+                    "07:20:00|07:45:00|1500",
+                    "07:45:00|15:45:00|1800",
                     "15:45:00|17:00:00|1500"
                 ]
             }
@@ -38860,11 +38895,85 @@
             "002976"
         ],
         "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.3",
+        "journeyTime":"49",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "8090",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "05:25:00|05:45:00|1200",
+                    "05:45:00|06:15:00|900",
+                    "06:15:00|06:54:00|780",
+                    "06:54:00|07:54:00|720",
+                    "07:54:00|08:07:00|780",
+                    "08:07:00|08:25:00|1080",
+                    "08:25:00|09:45:00|1200",
+                    "09:45:00|14:15:00|1800",
+                    "14:15:00|15:55:00|1200",
+                    "15:55:00|16:55:00|720",
+                    "16:55:00|17:55:00|900",
+                    "17:55:00|19:55:00|1200",
+                    "19:55:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ],
+                "288":[
+                    "05:25:00|06:05:00|1200",
+                    "06:05:00|08:05:00|900",
+                    "08:05:00|20:25:00|1200",
+                    "20:25:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ],
+                "448":[
+                    "05:25:00|20:25:00|1200",
+                    "20:25:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        33
+                    ],
+                    "price":10.3
+                },
+                {
+                    "range":[
+                        1,
+                        11
+                    ],
+                    "price":10.0
+                },
+                {
+                    "range":[
+                        23,
+                        33
+                    ],
+                    "price":8.5
+                },
+                {
+                    "range":[
+                        24,
+                        33
+                    ],
+                    "price":4.7
+                }
+            ]
+        ]
     },
     {
         "co":"CTB",
@@ -38898,11 +39007,85 @@
             "003329"
         ],
         "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.3",
+        "journeyTime":"49",
+        "gtfsRouteKey":[
+            [
+                "CTB",
+                "8090",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "05:25:00|05:45:00|1200",
+                    "05:45:00|06:15:00|900",
+                    "06:15:00|06:54:00|780",
+                    "06:54:00|07:54:00|720",
+                    "07:54:00|08:07:00|780",
+                    "08:07:00|08:25:00|1080",
+                    "08:25:00|09:45:00|1200",
+                    "09:45:00|14:15:00|1800",
+                    "14:15:00|15:55:00|1200",
+                    "15:55:00|16:55:00|720",
+                    "16:55:00|17:55:00|900",
+                    "17:55:00|19:55:00|1200",
+                    "19:55:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ],
+                "288":[
+                    "05:25:00|06:05:00|1200",
+                    "06:05:00|08:05:00|900",
+                    "08:05:00|20:25:00|1200",
+                    "20:25:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ],
+                "448":[
+                    "05:25:00|20:25:00|1200",
+                    "20:25:00|20:55:00|900",
+                    "20:55:00|21:15:00|1200",
+                    "21:15:00|21:40:00|1500",
+                    "21:40:00|24:10:00|1800"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        33
+                    ],
+                    "price":10.3
+                },
+                {
+                    "range":[
+                        1,
+                        11
+                    ],
+                    "price":10.0
+                },
+                {
+                    "range":[
+                        23,
+                        33
+                    ],
+                    "price":8.5
+                },
+                {
+                    "range":[
+                        24,
+                        33
+                    ],
+                    "price":4.7
+                }
+            ]
+        ]
     },
     {
         "co":"CTB",
@@ -38952,7 +39135,7 @@
         ],
         "bound":"O",
         "fullFare":"10.3|10.3|10.3",
-        "journeyTime":"57|57|80",
+        "journeyTime":"59|105|80",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -39002,14 +39185,14 @@
                 {
                     "range":[
                         1,
-                        37
+                        39
                     ],
                     "price":10.3
                 },
                 {
                     "range":[
-                        30,
-                        37
+                        32,
+                        39
                     ],
                     "price":8.5
                 }
@@ -39018,14 +39201,14 @@
                 {
                     "range":[
                         1,
-                        37
+                        39
                     ],
                     "price":10.3
                 },
                 {
                     "range":[
-                        30,
-                        37
+                        32,
+                        39
                     ],
                     "price":8.5
                 }
@@ -39083,7 +39266,7 @@
         ],
         "bound":"I",
         "fullFare":"10.3",
-        "journeyTime":"57",
+        "journeyTime":"59",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -39112,14 +39295,14 @@
                 {
                     "range":[
                         1,
-                        37
+                        39
                     ],
                     "price":10.3
                 },
                 {
                     "range":[
-                        30,
-                        37
+                        32,
+                        39
                     ],
                     "price":8.5
                 }
@@ -43946,14 +44129,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        7,
-                        15
+                        8,
+                        16
                     ],
                     "price":4.8
                 }
@@ -43962,14 +44145,14 @@
                 {
                     "range":[
                         1,
-                        18
+                        19
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        10,
-                        18
+                        11,
+                        19
                     ],
                     "price":4.8
                 }
@@ -44060,14 +44243,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         9,
-                        15
+                        16
                     ],
                     "price":4.2
                 }
@@ -44076,14 +44259,14 @@
                 {
                     "range":[
                         1,
-                        18
+                        19
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         9,
-                        18
+                        19
                     ],
                     "price":4.2
                 }
@@ -45380,14 +45563,14 @@
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        7,
-                        15
+                        8,
+                        16
                     ],
                     "price":4.8
                 }
@@ -51869,7 +52052,7 @@
         ],
         "bound":"O",
         "fullFare":"6.6",
-        "journeyTime":"30",
+        "journeyTime":"32",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -51893,14 +52076,14 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        6,
-                        14
+                        7,
+                        15
                     ],
                     "price":4.8
                 }
@@ -51936,19 +52119,30 @@
             "002209"
         ],
         "bound":"I",
-        "fullFare":"6.6",
-        "journeyTime":"30",
+        "fullFare":"6.6|6.6",
+        "journeyTime":"32|29",
         "gtfsRouteKey":[
             [
                 "CTB",
                 "1664",
                 "2"
+            ],
+            [
+                "CTB",
+                "1000051",
+                "1"
             ]
         ],
         "freq":[
             {
                 "287":[
                     "09:20:00|09:45:00|1500"
+                ]
+            },
+            {
+                "287":[
+                    "06:20:00|06:50:00|1800",
+                    "06:50:00|08:55:00|1500"
                 ]
             }
         ],
@@ -51957,14 +52151,30 @@
                 {
                     "range":[
                         1,
-                        14
+                        15
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         9,
-                        14
+                        15
+                    ],
+                    "price":4.2
+                }
+            ],
+            [
+                {
+                    "range":[
+                        1,
+                        11
+                    ],
+                    "price":6.6
+                },
+                {
+                    "range":[
+                        5,
+                        11
                     ],
                     "price":4.2
                 }
@@ -55505,7 +55715,7 @@
         ],
         "bound":"O",
         "fullFare":"9.7|9.7",
-        "journeyTime":"68|64",
+        "journeyTime":"71|68",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -55585,35 +55795,35 @@
                 {
                     "range":[
                         1,
-                        42
+                        43
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
                         1,
-                        17
+                        18
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        15,
-                        42
+                        16,
+                        43
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        25,
-                        42
+                        26,
+                        43
                     ],
                     "price":4.3
                 },
                 {
                     "range":[
-                        32,
-                        42
+                        33,
+                        43
                     ],
                     "price":3.3
                 }
@@ -55622,35 +55832,35 @@
                 {
                     "range":[
                         1,
-                        40
+                        41
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
                         1,
-                        15
+                        16
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
-                        13,
-                        40
+                        14,
+                        41
                     ],
                     "price":5.5
                 },
                 {
                     "range":[
-                        23,
-                        40
+                        24,
+                        41
                     ],
                     "price":4.3
                 },
                 {
                     "range":[
-                        30,
-                        40
+                        31,
+                        41
                     ],
                     "price":3.3
                 }
@@ -55712,7 +55922,7 @@
         ],
         "bound":"I",
         "fullFare":"9.7|9.7",
-        "journeyTime":"68|64",
+        "journeyTime":"71|68",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -55777,7 +55987,7 @@
                 {
                     "range":[
                         1,
-                        41
+                        42
                     ],
                     "price":9.7
                 },
@@ -55791,28 +56001,28 @@
                 {
                     "range":[
                         24,
-                        41
+                        42
                     ],
                     "price":8.8
                 },
                 {
                     "range":[
                         27,
-                        41
+                        42
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         28,
-                        41
+                        42
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         29,
-                        41
+                        42
                     ],
                     "price":4.2
                 }
@@ -55821,7 +56031,7 @@
                 {
                     "range":[
                         1,
-                        39
+                        40
                     ],
                     "price":9.7
                 },
@@ -55835,28 +56045,28 @@
                 {
                     "range":[
                         24,
-                        39
+                        40
                     ],
                     "price":8.8
                 },
                 {
                     "range":[
                         27,
-                        39
+                        40
                     ],
                     "price":7.5
                 },
                 {
                     "range":[
                         28,
-                        39
+                        40
                     ],
                     "price":6.6
                 },
                 {
                     "range":[
                         29,
-                        39
+                        40
                     ],
                     "price":4.2
                 }
@@ -55894,7 +56104,7 @@
         ],
         "bound":"O",
         "fullFare":"9.7|9.7",
-        "journeyTime":"50|53",
+        "journeyTime":"62|65",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -55926,14 +56136,14 @@
                 {
                     "range":[
                         1,
-                        13
+                        14
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
-                        8,
-                        13
+                        9,
+                        14
                     ],
                     "price":4.3
                 }
@@ -55942,14 +56152,14 @@
                 {
                     "range":[
                         1,
-                        13
+                        14
                     ],
                     "price":9.7
                 },
                 {
                     "range":[
-                        8,
-                        13
+                        9,
+                        14
                     ],
                     "price":4.3
                 }
@@ -56965,10 +57175,10 @@
         "route":"A20",
         "orig_tc":"何文田",
         "orig_en":"Ho Man Tin",
-        "dest_tc":"機場",
-        "dest_en":"Airport",
+        "dest_tc":"機場 (經港珠澳大橋香港口岸)",
+        "dest_en":"Airport (via HZMB Hong Kong Port)",
         "orig_sc":"何文田",
-        "dest_sc":"机场",
+        "dest_sc":"机场 (经港珠澳大桥香港口岸)",
         "stops":[
             "002994",
             "003055",
@@ -57000,7 +57210,7 @@
         ],
         "bound":"O",
         "fullFare":"34.6",
-        "journeyTime":"106",
+        "journeyTime":"112",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -57011,12 +57221,12 @@
         "freq":[
             {
                 "511":[
-                    "0630",
-                    "0730",
-                    "0830",
-                    "1030",
-                    "1230",
-                    "1430"
+                    "0635",
+                    "0735",
+                    "0835",
+                    "1035",
+                    "1235",
+                    "1435"
                 ]
             }
         ],
@@ -57025,16 +57235,23 @@
                 {
                     "range":[
                         1,
-                        34
+                        27
                     ],
                     "price":34.6
                 },
                 {
                     "range":[
-                        31,
-                        34
+                        23,
+                        27
                     ],
                     "price":17.8
+                },
+                {
+                    "range":[
+                        24,
+                        27
+                    ],
+                    "price":4.2
                 }
             ]
         ]
@@ -57042,11 +57259,11 @@
     {
         "co":"CTB",
         "route":"A20",
-        "orig_tc":"機場",
-        "orig_en":"Airport",
+        "orig_tc":"機場 (經港珠澳大橋香港口岸)",
+        "orig_en":"Airport (via HZMB Hong Kong Port)",
         "dest_tc":"何文田",
         "dest_en":"Ho Man Tin",
-        "orig_sc":"机场",
+        "orig_sc":"机场 (经港珠澳大桥香港口岸)",
         "dest_sc":"何文田",
         "stops":[
             "001837",
@@ -57086,7 +57303,7 @@
         ],
         "bound":"I",
         "fullFare":"34.6",
-        "journeyTime":"106",
+        "journeyTime":"112",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -57113,21 +57330,21 @@
                 {
                     "range":[
                         1,
-                        29
+                        34
                     ],
                     "price":34.6
                 },
                 {
                     "range":[
-                        2,
-                        29
+                        3,
+                        34
                     ],
                     "price":27.3
                 },
                 {
                     "range":[
-                        3,
-                        29
+                        4,
+                        34
                     ],
                     "price":8.4
                 }
@@ -65274,7 +65491,7 @@
         ],
         "bound":"O",
         "fullFare":"31.2",
-        "journeyTime":"60",
+        "journeyTime":"61",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -65294,28 +65511,28 @@
                 {
                     "range":[
                         1,
-                        38
+                        39
                     ],
                     "price":31.2
                 },
                 {
                     "range":[
-                        14,
-                        38
+                        15,
+                        39
                     ],
                     "price":29.8
                 },
                 {
                     "range":[
-                        21,
-                        38
+                        22,
+                        39
                     ],
                     "price":24.5
                 },
                 {
                     "range":[
-                        29,
-                        38
+                        30,
+                        39
                     ],
                     "price":12.2
                 }
@@ -65370,7 +65587,7 @@
         ],
         "bound":"I",
         "fullFare":"31.2",
-        "journeyTime":"60",
+        "journeyTime":"61",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -65392,28 +65609,28 @@
                 {
                     "range":[
                         1,
-                        34
+                        35
                     ],
                     "price":31.2
                 },
                 {
                     "range":[
                         11,
-                        34
+                        35
                     ],
                     "price":29.8
                 },
                 {
                     "range":[
                         18,
-                        34
+                        35
                     ],
                     "price":13.5
                 },
                 {
                     "range":[
                         22,
-                        34
+                        35
                     ],
                     "price":10.2
                 }
@@ -65465,7 +65682,7 @@
         ],
         "bound":"O",
         "fullFare":"21.7",
-        "journeyTime":"58",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -65485,21 +65702,21 @@
                 {
                     "range":[
                         1,
-                        31
+                        32
                     ],
                     "price":21.7
                 },
                 {
                     "range":[
-                        12,
-                        31
+                        13,
+                        32
                     ],
                     "price":17.8
                 },
                 {
                     "range":[
-                        14,
-                        31
+                        15,
+                        32
                     ],
                     "price":9.8
                 }
@@ -65551,7 +65768,7 @@
         ],
         "bound":"I",
         "fullFare":"21.7",
-        "journeyTime":"58",
+        "journeyTime":"67",
         "gtfsRouteKey":[
             [
                 "KMB+CTB",
@@ -65571,21 +65788,21 @@
                 {
                     "range":[
                         1,
-                        31
+                        32
                     ],
                     "price":21.7
                 },
                 {
                     "range":[
                         20,
-                        31
+                        32
                     ],
                     "price":12.2
                 },
                 {
                     "range":[
                         21,
-                        31
+                        32
                     ],
                     "price":10.2
                 }
@@ -67137,7 +67354,7 @@
         ],
         "bound":"O",
         "fullFare":"32.4",
-        "journeyTime":"82",
+        "journeyTime":"99",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -67148,8 +67365,8 @@
         "freq":[
             {
                 "511":[
-                    "0435",
-                    "0505"
+                    "0433",
+                    "0503"
                 ]
             }
         ],
@@ -67158,7 +67375,7 @@
                 {
                     "range":[
                         1,
-                        25
+                        32
                     ],
                     "price":32.4
                 },
@@ -67172,14 +67389,14 @@
                 {
                     "range":[
                         13,
-                        25
+                        32
                     ],
                     "price":12.2
                 },
                 {
                     "range":[
-                        14,
-                        25
+                        21,
+                        32
                     ],
                     "price":10.8
                 }
@@ -67236,7 +67453,7 @@
         ],
         "bound":"I",
         "fullFare":"32.4",
-        "journeyTime":"82",
+        "journeyTime":"99",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -67257,28 +67474,28 @@
                 {
                     "range":[
                         1,
-                        29
+                        37
                     ],
                     "price":32.4
                 },
                 {
                     "range":[
-                        18,
-                        29
+                        26,
+                        37
                     ],
                     "price":14.6
                 },
                 {
                     "range":[
-                        19,
-                        29
+                        27,
+                        37
                     ],
                     "price":9.1
                 },
                 {
                     "range":[
-                        25,
-                        29
+                        33,
+                        37
                     ],
                     "price":8.1
                 }
@@ -67866,7 +68083,7 @@
         ],
         "bound":"O",
         "fullFare":"11.0",
-        "journeyTime":"38",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -67887,14 +68104,14 @@
                 {
                     "range":[
                         1,
-                        26
+                        27
                     ],
                     "price":11.0
                 },
                 {
                     "range":[
                         14,
-                        26
+                        27
                     ],
                     "price":8.1
                 }
@@ -67943,7 +68160,7 @@
         ],
         "bound":"I",
         "fullFare":"11.0",
-        "journeyTime":"38",
+        "journeyTime":"45",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -67964,21 +68181,21 @@
                 {
                     "range":[
                         1,
-                        28
+                        29
                     ],
                     "price":11.0
                 },
                 {
                     "range":[
                         13,
-                        28
+                        29
                     ],
                     "price":9.9
                 },
                 {
                     "range":[
                         16,
-                        28
+                        29
                     ],
                     "price":8.1
                 }
@@ -68906,7 +69123,7 @@
         ],
         "bound":"O",
         "fullFare":"11.0",
-        "journeyTime":"34",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -68927,14 +69144,14 @@
                 {
                     "range":[
                         1,
-                        27
+                        28
                     ],
                     "price":11.0
                 },
                 {
                     "range":[
-                        14,
-                        27
+                        15,
+                        28
                     ],
                     "price":8.1
                 }
@@ -68980,7 +69197,7 @@
         ],
         "bound":"I",
         "fullFare":"11.0",
-        "journeyTime":"34",
+        "journeyTime":"37",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -69001,21 +69218,21 @@
                 {
                     "range":[
                         1,
-                        25
+                        26
                     ],
                     "price":11.0
                 },
                 {
                     "range":[
                         9,
-                        25
+                        26
                     ],
                     "price":9.9
                 },
                 {
                     "range":[
                         14,
-                        25
+                        26
                     ],
                     "price":8.1
                 }
@@ -70330,7 +70547,7 @@
         ],
         "bound":"I",
         "fullFare":"60.7",
-        "journeyTime":"124",
+        "journeyTime":"118",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -70350,14 +70567,14 @@
                 {
                     "range":[
                         1,
-                        37
+                        39
                     ],
                     "price":60.7
                 },
                 {
                     "range":[
                         5,
-                        37
+                        39
                     ],
                     "price":29.3
                 }
@@ -70534,7 +70751,7 @@
         ],
         "bound":"O",
         "fullFare":"39.3",
-        "journeyTime":"50",
+        "journeyTime":"64",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -70554,7 +70771,7 @@
                 {
                     "range":[
                         1,
-                        14
+                        31
                     ],
                     "price":39.3
                 }
@@ -70599,7 +70816,7 @@
         ],
         "bound":"I",
         "fullFare":"39.3",
-        "journeyTime":"50",
+        "journeyTime":"64",
         "gtfsRouteKey":[
             [
                 "CTB",
@@ -70619,7 +70836,7 @@
                 {
                     "range":[
                         1,
-                        14
+                        31
                     ],
                     "price":39.3
                 }
