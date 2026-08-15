@@ -76990,6 +76990,56 @@
     {
         "co":"GMB",
         "route":"78",
+        "routeId":2011655,
+        "routeSeq":1,
+        "orig_tc":"落馬洲(新田)公共交通交匯處",
+        "dest_tc":"八鄉路(近大欖隧道轉車站)",
+        "orig_sc":"落马洲(新田)公共交通交汇处",
+        "dest_sc":"八乡路(近大榄隧道转车站)",
+        "orig_en":"Lok Ma Chau (San Tin) Public Transport Interchange",
+        "dest_en":"Pat Heung Road (near Tai Lam Bus-Bus Interchange)",
+        "stops":[
+            20017719,
+            20002578,
+            20020527,
+            20023032,
+            20016482,
+            20017720
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
+        "route":"78",
+        "routeId":2011655,
+        "routeSeq":2,
+        "orig_tc":"八鄉路(近大欖隧道轉車站)",
+        "dest_tc":"落馬洲(新田)公共交通交匯處",
+        "orig_sc":"八乡路(近大榄隧道转车站)",
+        "dest_sc":"落马洲(新田)公共交通交汇处",
+        "orig_en":"Pat Heung Road (near Tai Lam Bus-Bus Interchange)",
+        "dest_en":"Lok Ma Chau (San Tin) Public Transport Interchange",
+        "stops":[
+            20017720,
+            20016477,
+            20023032,
+            20020528,
+            20017488,
+            20007107,
+            20017489,
+            20017719
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
+        "route":"78",
         "routeId":2003438,
         "routeSeq":1,
         "orig_tc":"大角咀(維港灣)公共運輸交匯處",
@@ -77182,6 +77232,46 @@
                 }
             ]
         ]
+    },
+    {
+        "co":"GMB",
+        "route":"78A",
+        "routeId":2011656,
+        "routeSeq":1,
+        "orig_tc":"錦上路站",
+        "dest_tc":"八鄉路(近大欖隧道轉車站)",
+        "orig_sc":"锦上路站",
+        "dest_sc":"八乡路(近大榄隧道转车站)",
+        "orig_en":"Kam Sheung Road Station",
+        "dest_en":"Pat Heung Road (near Tai Lam Bus-Bus Interchange)",
+        "stops":[
+            20023032,
+            20017720
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
+        "route":"78A",
+        "routeId":2011656,
+        "routeSeq":2,
+        "orig_tc":"八鄉路(近大欖隧道轉車站)",
+        "dest_tc":"錦上路站",
+        "orig_sc":"八乡路(近大榄隧道转车站)",
+        "dest_sc":"锦上路站",
+        "orig_en":"Pat Heung Road (near Tai Lam Bus-Bus Interchange)",
+        "dest_en":"Kam Sheung Road Station",
+        "stops":[
+            20017720,
+            20023032
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
     },
     {
         "co":"GMB",
