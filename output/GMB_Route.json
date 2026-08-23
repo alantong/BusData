@@ -21599,6 +21599,32 @@
     },
     {
         "co":"GMB",
+        "route":"24S",
+        "routeId":2011622,
+        "routeSeq":1,
+        "orig_tc":"油塘 (東源街)",
+        "dest_tc":"油塘 (高超道)(循環線)",
+        "orig_sc":"油塘 (东源街)",
+        "dest_sc":"油塘 (高超道)(循环线)",
+        "orig_en":"Yau Tong (Tung Yuen Street)",
+        "dest_en":"Yau Tong (Ko Chiu Road)(Circular)",
+        "stops":[
+            20023131,
+            20023132,
+            20016543,
+            20020168,
+            20023133,
+            20023134,
+            20023135,
+            20023136
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
         "route":"25",
         "routeId":2002020,
         "routeSeq":1,
