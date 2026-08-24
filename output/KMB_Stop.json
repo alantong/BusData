@@ -586,9 +586,9 @@
     },
     {
         "stop":"D625B0997C3DBCFE",
-        "name_en":"The Latitude (WT698)",
-        "name_tc":"譽．港灣 (WT698)",
-        "name_sc":"誉．港湾 (WT698)",
+        "name_en":"The Latitude, San Po Kong (WT698)",
+        "name_tc":"新蒲崗譽．港灣 (WT698)",
+        "name_sc":"新蒲岗誉．港湾 (WT698)",
         "lat":"22.332000",
         "long":"114.196917",
         "co":"KMB"
@@ -667,9 +667,9 @@
     },
     {
         "stop":"7210357910C44570",
-        "name_en":"The Latitude (WT297)",
-        "name_tc":"譽．港灣 (WT297)",
-        "name_sc":"誉．港湾 (WT297)",
+        "name_en":"The Latitude, San Po Kong (WT297)",
+        "name_tc":"新蒲崗譽．港灣 (WT297)",
+        "name_sc":"新蒲岗誉．港湾 (WT297)",
         "lat":"22.333055",
         "long":"114.196691",
         "co":"KMB"
@@ -4213,9 +4213,9 @@
     },
     {
         "stop":"C80FB453C9F53569",
-        "name_en":"The Latitude (WT697)",
-        "name_tc":"譽．港灣 (WT697)",
-        "name_sc":"誉．港湾 (WT697)",
+        "name_en":"The Latitude, San Po Kong (WT697)",
+        "name_tc":"新蒲崗譽．港灣 (WT697)",
+        "name_sc":"新蒲岗誉．港湾 (WT697)",
         "lat":"22.332000",
         "long":"114.196917",
         "co":"KMB"
@@ -4294,9 +4294,9 @@
     },
     {
         "stop":"D7A05B5BAF07A89B",
-        "name_en":"The Latitude (WT295)",
-        "name_tc":"譽．港灣 (WT295)",
-        "name_sc":"誉．港湾 (WT295)",
+        "name_en":"The Latitude, San Po Kong (WT295)",
+        "name_tc":"新蒲崗譽．港灣 (WT295)",
+        "name_sc":"新蒲岗誉．港湾 (WT295)",
         "lat":"22.332960",
         "long":"114.196532",
         "co":"KMB"
@@ -6939,15 +6939,6 @@
         "co":"KMB"
     },
     {
-        "stop":"6F817E994CAF7928",
-        "name_en":"Diamond Hill Station Bus Terminus (WT967)",
-        "name_tc":"鑽石山站巴士總站 (WT967)",
-        "name_sc":"钻石山站巴士总站 (WT967)",
-        "lat":"22.340830",
-        "long":"114.201718",
-        "co":"KMB"
-    },
-    {
         "stop":"262578A9C404DCD6",
         "name_en":"Wong Tai Sin Bus Terminus (WT925)",
         "name_tc":"黃大仙總站 (WT925)",
@@ -6999,6 +6990,15 @@
         "name_sc":"九龙站,高铁站 (YT948)",
         "lat":"22.305079",
         "long":"114.162604",
+        "co":"KMB"
+    },
+    {
+        "stop":"6F817E994CAF7928",
+        "name_en":"Diamond Hill Station Bus Terminus (WT967)",
+        "name_tc":"鑽石山站巴士總站 (WT967)",
+        "name_sc":"钻石山站巴士总站 (WT967)",
+        "lat":"22.340830",
+        "long":"114.201718",
         "co":"KMB"
     },
     {
@@ -9910,9 +9910,9 @@
     },
     {
         "stop":"A0EFE3E68568F194",
-        "name_en":"The Latitude (WT296)",
-        "name_tc":"譽．港灣 (WT296)",
-        "name_sc":"誉．港湾 (WT296)",
+        "name_en":"The Latitude, San Po Kong (WT296)",
+        "name_tc":"新蒲崗譽．港灣 (WT296)",
+        "name_sc":"新蒲岗誉．港湾 (WT296)",
         "lat":"22.333136",
         "long":"114.196760",
         "co":"KMB"
@@ -35361,15 +35361,6 @@
         "co":"KMB"
     },
     {
-        "stop":"C1AAFE0EB8BD89C7",
-        "name_en":"H.K.U.S.T. (North) (SK930)",
-        "name_tc":"香港科技大學(北) (SK930)",
-        "name_sc":"香港科技大学(北) (SK930)",
-        "lat":"22.338616",
-        "long":"114.261997",
-        "co":"KMB"
-    },
-    {
         "stop":"E9018F8A7E096544",
         "name_en":"H.K.U.S.T. (South) (SK951)",
         "name_tc":"香港科技大學(南) (SK951)",
@@ -35928,48 +35919,21 @@
         "co":"KMB"
     },
     {
-        "stop":"C8DFFC6DB50F5F86",
-        "name_en":"Po Lam Bus Terminus (TK929)",
-        "name_tc":"寶林總站 (TK929)",
-        "name_sc":"宝林总站 (TK929)",
-        "lat":"22.323418",
-        "long":"114.257250",
+        "stop":"2973FA26FC035FE7",
+        "name_en":"Tsui Lam Bus Terminus (TK909)",
+        "name_tc":"翠林總站 (TK909)",
+        "name_sc":"翠林总站 (TK909)",
+        "lat":"22.322834",
+        "long":"114.249125",
         "co":"KMB"
     },
     {
-        "stop":"B97A24623DDD2129",
-        "name_en":"Yan Ming Court (TK437)",
-        "name_tc":"欣明苑 (TK437)",
-        "name_sc":"欣明苑 (TK437)",
-        "lat":"22.323705",
-        "long":"114.259830",
-        "co":"KMB"
-    },
-    {
-        "stop":"3BE0B584549B365D",
-        "name_en":"Ying Ming Court (TK443)",
-        "name_tc":"英明苑 (TK443)",
-        "name_sc":"英明苑 (TK443)",
-        "lat":"22.327016",
-        "long":"114.256218",
-        "co":"KMB"
-    },
-    {
-        "stop":"E86C2ACAFC72D243",
-        "name_en":"Po Yan House (TK446)",
-        "name_tc":"寶仁樓 (TK446)",
-        "name_sc":"宝仁楼 (TK446)",
-        "lat":"22.326295",
-        "long":"114.252315",
-        "co":"KMB"
-    },
-    {
-        "stop":"5F1FC8AAD0B020D7",
-        "name_en":"Tsui Lam Estate (TK448)",
-        "name_tc":"翠林邨 (TK448)",
-        "name_sc":"翠林邨 (TK448)",
-        "lat":"22.321609",
-        "long":"114.250331",
+        "stop":"A5B328EAF882C44B",
+        "name_en":"Hong Sing Garden Bus Terminus (TK900)",
+        "name_tc":"康盛花園巴士總站 (TK900)",
+        "name_sc":"康盛花园巴士总站 (TK900)",
+        "lat":"22.318619",
+        "long":"114.253883",
         "co":"KMB"
     },
     {
@@ -36027,6 +35991,24 @@
         "co":"KMB"
     },
     {
+        "stop":"072046BF00257739",
+        "name_en":"Wo Lok Estate (KT259)",
+        "name_tc":"和樂邨 (KT259)",
+        "name_sc":"和乐邨 (KT259)",
+        "lat":"22.317107",
+        "long":"114.226525",
+        "co":"KMB"
+    },
+    {
+        "stop":"6882248B39345F28",
+        "name_en":"Ning Po No. 2 College (KT296)",
+        "name_tc":"寧波第二中學 (KT296)",
+        "name_sc":"宁波第二中学 (KT296)",
+        "lat":"22.324091",
+        "long":"114.228401",
+        "co":"KMB"
+    },
+    {
         "stop":"1EF9F54185151A2F",
         "name_en":"Kin Ming Estate (TK100)",
         "name_tc":"健明邨 (TK100)",
@@ -36081,6 +36063,24 @@
         "co":"KMB"
     },
     {
+        "stop":"3BE0B584549B365D",
+        "name_en":"Ying Ming Court (TK443)",
+        "name_tc":"英明苑 (TK443)",
+        "name_sc":"英明苑 (TK443)",
+        "lat":"22.327016",
+        "long":"114.256218",
+        "co":"KMB"
+    },
+    {
+        "stop":"E86C2ACAFC72D243",
+        "name_en":"Po Yan House (TK446)",
+        "name_tc":"寶仁樓 (TK446)",
+        "name_sc":"宝仁楼 (TK446)",
+        "lat":"22.326295",
+        "long":"114.252315",
+        "co":"KMB"
+    },
+    {
         "stop":"68799FD9ECBF50B1",
         "name_en":"Tsui Lam Estate (TK450)",
         "name_tc":"翠林邨 (TK450)",
@@ -36090,12 +36090,30 @@
         "co":"KMB"
     },
     {
-        "stop":"6882248B39345F28",
-        "name_en":"Ning Po No. 2 College (KT296)",
-        "name_tc":"寧波第二中學 (KT296)",
-        "name_sc":"宁波第二中学 (KT296)",
-        "lat":"22.324091",
-        "long":"114.228401",
+        "stop":"C8DFFC6DB50F5F86",
+        "name_en":"Po Lam Bus Terminus (TK929)",
+        "name_tc":"寶林總站 (TK929)",
+        "name_sc":"宝林总站 (TK929)",
+        "lat":"22.323418",
+        "long":"114.257250",
+        "co":"KMB"
+    },
+    {
+        "stop":"B97A24623DDD2129",
+        "name_en":"Yan Ming Court (TK437)",
+        "name_tc":"欣明苑 (TK437)",
+        "name_sc":"欣明苑 (TK437)",
+        "lat":"22.323705",
+        "long":"114.259830",
+        "co":"KMB"
+    },
+    {
+        "stop":"5F1FC8AAD0B020D7",
+        "name_en":"Tsui Lam Estate (TK448)",
+        "name_tc":"翠林邨 (TK448)",
+        "name_sc":"翠林邨 (TK448)",
+        "lat":"22.321609",
+        "long":"114.250331",
         "co":"KMB"
     },
     {
@@ -36378,15 +36396,6 @@
         "co":"KMB"
     },
     {
-        "stop":"A5B328EAF882C44B",
-        "name_en":"Hong Sing Garden Bus Terminus (TK900)",
-        "name_tc":"康盛花園巴士總站 (TK900)",
-        "name_sc":"康盛花园巴士总站 (TK900)",
-        "lat":"22.318619",
-        "long":"114.253883",
-        "co":"KMB"
-    },
-    {
         "stop":"BA68A40274B99650",
         "name_en":"Shun Lee Tsuen Park (KT440)",
         "name_tc":"順利邨公園 (KT440)",
@@ -36420,33 +36429,6 @@
         "name_sc":"九龙医院 (KC379)",
         "lat":"22.322695",
         "long":"114.180355",
-        "co":"KMB"
-    },
-    {
-        "stop":"2973FA26FC035FE7",
-        "name_en":"Tsui Lam Bus Terminus (TK909)",
-        "name_tc":"翠林總站 (TK909)",
-        "name_sc":"翠林总站 (TK909)",
-        "lat":"22.322834",
-        "long":"114.249125",
-        "co":"KMB"
-    },
-    {
-        "stop":"00A529823BEBABA7",
-        "name_en":"Kwun Tong (Elegance Rd) Bus Terminus (KT915)",
-        "name_tc":"觀塘（雅麗道）總站 (KT915)",
-        "name_sc":"观塘（雅丽道）总站 (KT915)",
-        "lat":"22.315072",
-        "long":"114.219890",
-        "co":"KMB"
-    },
-    {
-        "stop":"072046BF00257739",
-        "name_en":"Wo Lok Estate (KT259)",
-        "name_tc":"和樂邨 (KT259)",
-        "name_sc":"和乐邨 (KT259)",
-        "lat":"22.317107",
-        "long":"114.226525",
         "co":"KMB"
     },
     {

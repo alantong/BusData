@@ -6264,6 +6264,51 @@
         "route":"11",
         "bound":"O",
         "service_type":"1",
+        "orig_en":"Tsz Wan Shan (Central)",
+        "orig_tc":"慈雲山(中)",
+        "orig_sc":"慈云山(中)",
+        "dest_en":"Kowloon Station",
+        "dest_tc":"九龍站",
+        "dest_sc":"九龙站",
+        "co":"KMB",
+        "stops":[
+            "CA866CBB3EC92B9F",
+            "31317843D8BA833F",
+            "FDFC87BC94515900",
+            "E778E67CBC095B0C",
+            "43EE0C39CD39BA06",
+            "EF01999C9F909553",
+            "B337148DB333E5C4",
+            "711A39D02DB2B4D8",
+            "AFB03B10416E2199",
+            "4B9D547F0F450784",
+            "7BDF3895E0BCE33B",
+            "262578A9C404DCD6",
+            "87154BA98253B43D",
+            "1C79BF0732EDBD9C",
+            "F6E296480D3481A2",
+            "225F00F550C301AE",
+            "3331EE733A2A3EBB",
+            "F5795A904B483F33",
+            "57DFE7792042405B",
+            "7CC8FC8889FF1596",
+            "DF4F6B54816F5172",
+            "190F209646059000",
+            "2F165341B07CBDB9",
+            "FD1B403FD4EC3E8D",
+            "FB9FA7AAA17E9E9D",
+            "593DE4298B444E66"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"11",
+        "bound":"O",
+        "service_type":"2",
         "orig_en":"Diamond Hill Station",
         "orig_tc":"鑽石山站",
         "orig_sc":"钻石山站",
@@ -6278,6 +6323,7 @@
             "262578A9C404DCD6",
             "87154BA98253B43D",
             "1C79BF0732EDBD9C",
+            "F6E296480D3481A2",
             "225F00F550C301AE",
             "3331EE733A2A3EBB",
             "F5795A904B483F33",
@@ -6344,9 +6390,9 @@
         "orig_en":"Kowloon Station",
         "orig_tc":"九龍站",
         "orig_sc":"九龙站",
-        "dest_en":"Diamond Hill Station",
-        "dest_tc":"鑽石山站",
-        "dest_sc":"钻石山站",
+        "dest_en":"Tsz Wan Shan (Central)",
+        "dest_tc":"慈雲山(中)",
+        "dest_sc":"慈云山(中)",
         "co":"KMB",
         "stops":[
             "593DE4298B444E66",
@@ -6368,58 +6414,21 @@
             "EB3A1D751C96E053",
             "F0AC02C6C94078C4",
             "A0FDF34B2D278750",
-            "6F817E994CAF7928"
+            "951CE3B3EB98BA3A",
+            "DB6981B82045B45C",
+            "ACE23D880D07ABB1",
+            "1DA57A1376E99AC6",
+            "964AA1DCAAD06512",
+            "D237B30F94B6065D",
+            "7D025E77F4B35266",
+            "EE3B5ABCB87027E7",
+            "CA866CBB3EC92B9F"
         ],
-        "fullFare":"5.8",
-        "journeyTime":"47",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1016",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "06:10:00|14:55:00|1500",
-                    "14:55:00|15:35:00|1200",
-                    "15:35:00|16:50:00|900",
-                    "16:50:00|18:50:00|720",
-                    "18:50:00|19:20:00|900",
-                    "19:20:00|20:40:00|1200",
-                    "20:40:00|24:00:00|1500",
-                    "24:00:00|24:30:00|1800"
-                ],
-                "288":[
-                    "06:10:00|10:20:00|1500",
-                    "10:20:00|15:00:00|1200",
-                    "15:00:00|16:00:00|900",
-                    "16:00:00|18:00:00|720",
-                    "18:00:00|19:15:00|900",
-                    "19:15:00|19:55:00|1200",
-                    "19:55:00|24:30:00|1500"
-                ],
-                "448":[
-                    "06:10:00|07:10:00|1200",
-                    "07:10:00|13:00:00|1500",
-                    "13:00:00|18:40:00|1200",
-                    "18:40:00|22:00:00|1500",
-                    "22:00:00|24:30:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        20
-                    ],
-                    "price":5.8
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"11B",
@@ -54941,9 +54950,9 @@
         "orig_en":"Diamond Hill Station",
         "orig_tc":"鑽石山站",
         "orig_sc":"钻石山站",
-        "dest_en":"H.K.U.S.T (North)",
-        "dest_tc":"香港科技大學(北)",
-        "dest_sc":"香港科技大学(北)",
+        "dest_en":"Hong Kong University of Science and Tehnology",
+        "dest_tc":"香港科技大學",
+        "dest_sc":"香港科技大学",
         "co":"KMB",
         "stops":[
             "53889000AA9C33E2",
@@ -54957,42 +54966,14 @@
             "427116D2E76AFFFD",
             "4568080E28FB1E56",
             "DDC689F8C5161065",
-            "C1AAFE0EB8BD89C7"
+            "9183F3104902B748",
+            "68DF1DA183CDFCF2"
         ],
-        "fullFare":"7.1",
-        "journeyTime":"23",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8093",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "31":[
-                    "0755",
-                    "0805",
-                    "0815",
-                    "0830",
-                    "0850",
-                    "0920",
-                    "0930",
-                    "0950"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        12
-                    ],
-                    "price":7.1
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"91P",
@@ -55743,24 +55724,26 @@
         "route":"93K",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Po Lam",
-        "orig_tc":"寶林",
-        "orig_sc":"宝林",
+        "orig_en":"Tsui Lam",
+        "orig_tc":"翠林",
+        "orig_sc":"翠林",
         "dest_en":"Mong Kok East Station",
         "dest_tc":"旺角東站",
         "dest_sc":"旺角东站",
         "co":"KMB",
         "stops":[
-            "C8DFFC6DB50F5F86",
-            "B97A24623DDD2129",
-            "3BE0B584549B365D",
-            "E86C2ACAFC72D243",
-            "5F1FC8AAD0B020D7",
+            "2973FA26FC035FE7",
+            "A5B328EAF882C44B",
             "4A84482F3A54E4CC",
             "5D034EAC6A8853A3",
             "70A7D4C9EDA6D50A",
             "AE0DC8745DFCA0FA",
-            "25863CD2A364E72F",
+            "3C0AF6BA82588E2F",
+            "F8DEE1D5F9A349AD",
+            "6765DD696FA8BF8D",
+            "CE097C48CCAE22C9",
+            "6CF34EF02CDBE26B",
+            "AE2A9F719AB5E353",
             "3D40B78AACF268D7",
             "015AD27DAC83E698",
             "5E12682DB792D6DA",
@@ -55784,60 +55767,11 @@
             "4EB50AEDC57BF889",
             "BDC22C0C76E16BD3"
         ],
-        "fullFare":"10.2",
-        "journeyTime":"62",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1403",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:10:00|06:00:00|1500",
-                    "06:00:00|06:17:00|1020",
-                    "06:17:00|06:35:00|1080",
-                    "06:35:00|07:00:00|1500",
-                    "07:00:00|08:30:00|1800",
-                    "08:30:00|11:00:00|1500",
-                    "11:00:00|24:00:00|1800"
-                ],
-                "288":[
-                    "05:10:00|16:00:00|1500",
-                    "16:00:00|24:00:00|1800"
-                ],
-                "448":[
-                    "05:30:00|24:00:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        32
-                    ],
-                    "price":10.2
-                },
-                {
-                    "range":[
-                        1,
-                        8
-                    ],
-                    "price":5.8
-                },
-                {
-                    "range":[
-                        9,
-                        32
-                    ],
-                    "price":8.2
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"93K",
@@ -55846,9 +55780,9 @@
         "orig_en":"Mong Kok East Station",
         "orig_tc":"旺角東站",
         "orig_sc":"旺角东站",
-        "dest_en":"Po Lam",
-        "dest_tc":"寶林",
-        "dest_sc":"宝林",
+        "dest_en":"Tsui Lam",
+        "dest_tc":"翠林",
+        "dest_sc":"翠林",
         "co":"KMB",
         "stops":[
             "BDC22C0C76E16BD3",
@@ -56572,117 +56506,6 @@
                         35
                     ],
                     "price":5.8
-                }
-            ]
-        ]
-    },
-    {
-        "route":"95M",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tsui Lam",
-        "orig_tc":"翠林",
-        "orig_sc":"翠林",
-        "dest_en":"Kwun Tong (Elegance Road)",
-        "dest_tc":"觀塘(雅麗道)",
-        "dest_sc":"观塘(雅丽道)",
-        "co":"KMB",
-        "stops":[
-            "2973FA26FC035FE7",
-            "A5B328EAF882C44B",
-            "4A84482F3A54E4CC",
-            "70A7D4C9EDA6D50A",
-            "EA2CFF27310EAEC3",
-            "3C0AF6BA82588E2F",
-            "F8DEE1D5F9A349AD",
-            "6765DD696FA8BF8D",
-            "DD5B5646768C5F09",
-            "6CF34EF02CDBE26B",
-            "073C44CE5FF431BC",
-            "42B4DEF46BB30887",
-            "00A529823BEBABA7"
-        ],
-        "fullFare":"5.6",
-        "journeyTime":"30",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1409",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "06:05:00|06:30:00|1500",
-                    "06:30:00|24:00:00|1800",
-                    "24:00:00|24:35:00|2100"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        13
-                    ],
-                    "price":5.6
-                }
-            ]
-        ]
-    },
-    {
-        "route":"95M",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Kwun Tong (Elegance Road)",
-        "orig_tc":"觀塘(雅麗道)",
-        "orig_sc":"观塘(雅丽道)",
-        "dest_en":"Tsui Lam",
-        "dest_tc":"翠林",
-        "dest_sc":"翠林",
-        "co":"KMB",
-        "stops":[
-            "00A529823BEBABA7",
-            "5FD7848A339751B6",
-            "072046BF00257739",
-            "BFF2560B1C1687B2",
-            "6882248B39345F28",
-            "B809C24DC8C87767",
-            "3BA4DBB4520188DF",
-            "03C3F537C41E4986",
-            "2FFC93C766E566B5",
-            "F5A61D37E2DDA9D8",
-            "31079A9B244C679B",
-            "ABC15E2110BF7A49",
-            "2973FA26FC035FE7"
-        ],
-        "fullFare":"5.6",
-        "journeyTime":"30",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1409",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "06:15:00|23:45:00|1800",
-                    "23:45:00|24:35:00|1500"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        13
-                    ],
-                    "price":5.6
                 }
             ]
         ]
@@ -95326,7 +95149,8 @@
             "07ADFF84F3502690",
             "3F6F5DC1DDA5F68E",
             "66B8F73D3F4E91C9",
-            "8EE5AC5D519C140E"
+            "8EE5AC5D519C140E",
+            "81E82A4D2A0D9BD3"
         ],
         "fullFare":"8.1",
         "journeyTime":"56",
