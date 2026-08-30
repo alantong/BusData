@@ -42517,6 +42517,82 @@
         ]
     },
     {
+        "route":"75F",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tai Po Market Station",
+        "orig_tc":"大埔墟站",
+        "orig_sc":"大埔墟站",
+        "dest_en":"Education University of Hong Kong",
+        "dest_tc":"香港教育大學",
+        "dest_sc":"香港教育大学",
+        "co":"KMB",
+        "stops":[
+            "8581908CE476D2CF",
+            "11B658F68A9F577C",
+            "BBFADA4889A61FCC",
+            "32C1F605CAAD7861",
+            "DA9843B8F12ED700"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"75F",
+        "bound":"O",
+        "service_type":"2",
+        "orig_en":"Tai Po Market Station",
+        "orig_tc":"大埔墟站",
+        "orig_sc":"大埔墟站",
+        "dest_en":"Education University of Hong Kong",
+        "dest_tc":"香港教育大學",
+        "dest_sc":"香港教育大学",
+        "co":"KMB",
+        "stops":[
+            "8581908CE476D2CF",
+            "11B658F68A9F577C",
+            "BBFADA4889A61FCC",
+            "32C1F605CAAD7861",
+            "4705F639E370A9AD",
+            "CAB927254C5D8892",
+            "ADF5445FF5059D45",
+            "BB33B8049C297ADD",
+            "DA9843B8F12ED700"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"75F",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Education University of Hong Kong",
+        "orig_tc":"香港教育大學",
+        "orig_sc":"香港教育大学",
+        "dest_en":"Tai Po Market Station",
+        "dest_tc":"大埔墟站",
+        "dest_sc":"大埔墟站",
+        "co":"KMB",
+        "stops":[
+            "DA9843B8F12ED700",
+            "DB241439B4E2785A",
+            "ACDCC9E65172243D",
+            "12E4BAFA2B73435B",
+            "46604706EE6CC765"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"75K",
         "bound":"O",
         "service_type":"1",
@@ -46387,7 +46463,8 @@
             "CCC5BAA6257BBDAA",
             "D9111A160E3787AB",
             "EEDFC5EC1DD36179",
-            "458D2C951A759CAD"
+            "458D2C951A759CAD",
+            "9096776C02070F8E"
         ],
         "fullFare":"7.8",
         "journeyTime":"53",
@@ -124246,13 +124323,52 @@
             "D7AAC19538A45549",
             "22A8C801A98F9B7D",
             "DBA1D592108DBA72",
-            "B1790A47B8FFEF37"
+            "B1790A47B8FFEF37",
+            "FAC118A395652466",
+            "1A74AE460E7BEA16"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"14.4",
+        "journeyTime":"75",
+        "gtfsRouteKey":[
+            [
+                "LWB",
+                "1815",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "319":[
+                    "1810",
+                    "1830"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        24
+                    ],
+                    "price":14.4
+                },
+                {
+                    "range":[
+                        14,
+                        24
+                    ],
+                    "price":11.2
+                },
+                {
+                    "range":[
+                        17,
+                        24
+                    ],
+                    "price":3.8
+                }
+            ]
+        ]
     },
     {
         "route":"E42P",
@@ -124272,7 +124388,11 @@
             "DBB8E01BBE8C66ED",
             "7DF092F3A5418694",
             "364754E2273129B7",
-            "FE6D5955F777E39C",
+            "CC57C2DF592993CB",
+            "C9479F7A9B2C43CE",
+            "92E674C6961B07CA",
+            "D153D63F650C1D36",
+            "D62C524F32F472E6",
             "0879D399E5B5FE0C",
             "6118B186F901485A",
             "6246D82DAB57582A",
@@ -137160,13 +137280,38 @@
             "B8B71BC8E2DDCA8D",
             "62AB7611613EF561",
             "C9081B14523D8898",
-            "BB5DEEAB7F39ECD9"
+            "BB5DEEAB7F39ECD9",
+            "3856383C8A22904A"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"7.8",
+        "journeyTime":"52",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000059",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "08:15:00|16:15:00|1800",
+                    "16:15:00|18:45:00|1500",
+                    "18:45:00|21:15:00|1800"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        23
+                    ],
+                    "price":7.8
+                }
+            ]
+        ]
     },
     {
         "route":"X89D",
