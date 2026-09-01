@@ -42517,82 +42517,6 @@
         ]
     },
     {
-        "route":"75F",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tai Po Market Station",
-        "orig_tc":"大埔墟站",
-        "orig_sc":"大埔墟站",
-        "dest_en":"Education University of Hong Kong",
-        "dest_tc":"香港教育大學",
-        "dest_sc":"香港教育大学",
-        "co":"KMB",
-        "stops":[
-            "8581908CE476D2CF",
-            "11B658F68A9F577C",
-            "BBFADA4889A61FCC",
-            "32C1F605CAAD7861",
-            "DA9843B8F12ED700"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"75F",
-        "bound":"O",
-        "service_type":"2",
-        "orig_en":"Tai Po Market Station",
-        "orig_tc":"大埔墟站",
-        "orig_sc":"大埔墟站",
-        "dest_en":"Education University of Hong Kong",
-        "dest_tc":"香港教育大學",
-        "dest_sc":"香港教育大学",
-        "co":"KMB",
-        "stops":[
-            "8581908CE476D2CF",
-            "11B658F68A9F577C",
-            "BBFADA4889A61FCC",
-            "32C1F605CAAD7861",
-            "4705F639E370A9AD",
-            "CAB927254C5D8892",
-            "ADF5445FF5059D45",
-            "BB33B8049C297ADD",
-            "DA9843B8F12ED700"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"75F",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Education University of Hong Kong",
-        "orig_tc":"香港教育大學",
-        "orig_sc":"香港教育大学",
-        "dest_en":"Tai Po Market Station",
-        "dest_tc":"大埔墟站",
-        "dest_sc":"大埔墟站",
-        "co":"KMB",
-        "stops":[
-            "DA9843B8F12ED700",
-            "DB241439B4E2785A",
-            "ACDCC9E65172243D",
-            "12E4BAFA2B73435B",
-            "46604706EE6CC765"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"75K",
         "bound":"O",
         "service_type":"1",
@@ -95596,6 +95520,7 @@
             "5221837D08C7B586",
             "F99B2D48663A322E",
             "38CCA601583A5C55",
+            "6AEE9093F4E070AD",
             "6953AEF8B3921959",
             "537168ECCA2CE578",
             "A23337DAF4A8B168",
@@ -124725,57 +124650,6 @@
                         12
                     ],
                     "price":40.0
-                }
-            ]
-        ]
-    },
-    {
-        "route":"HK2",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Kowloon Station",
-        "orig_tc":"九龍站",
-        "orig_sc":"九龙站",
-        "dest_en":"[Kmb Tour HK] Tsim Sha Tsui and Tsing Ma Bridge",
-        "dest_tc":"[九巴遊香港] 尖沙咀及青馬大橋",
-        "dest_sc":"[九巴游香港] 尖沙咀及青马大桥",
-        "co":"KMB",
-        "stops":[
-            "24AA3CCF69A6572D",
-            "151F6BD0D37CA555",
-            "677BBB37FFCA0FAD",
-            "02B95C981F16C906",
-            "5612949E7487F309",
-            "24AD31E3F8DF42AE",
-            "55852875C9223A6C",
-            "D6D0F24D89C90323",
-            "1F170F80E7CB2C2E",
-            "24AA3CCF69A6572D"
-        ],
-        "fullFare":"58.4",
-        "journeyTime":"110",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000689",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "511":[
-                    "10:15:00|21:15:00|3600"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        10
-                    ],
-                    "price":58.4
                 }
             ]
         ]
