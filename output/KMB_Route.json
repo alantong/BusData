@@ -23811,7 +23811,7 @@
         "dest_sc":"葵涌邨",
         "co":"KMB",
         "stops":[
-            "83D9B6BE39530EEF",
+            "68CD99B45DDE014B",
             "79A623A558FB5CC6",
             "4E870B220826BEE0",
             "5AD2A4D21C226335",
@@ -26523,7 +26523,7 @@
             "143D7489C808BD46",
             "F4FC91D18962C4D0",
             "624D05A1E7A5A045",
-            "68CD99B45DDE014B",
+            "716E50EBD1CD72B4",
             "68DE9CB8E6AE046C",
             "5BDACC01F1655F27",
             "21A1859E80CD542A",
@@ -34573,7 +34573,7 @@
         "dest_sc":"朗屏邨",
         "co":"KMB",
         "stops":[
-            "A39682B5A68D668F",
+            "83D9B6BE39530EEF",
             "AFC36FC71B4E124E",
             "F3432DFEDE7E7AA0",
             "87668BC629020844",
@@ -34783,7 +34783,7 @@
         "dest_sc":"元朗公园",
         "co":"KMB",
         "stops":[
-            "83D9B6BE39530EEF",
+            "A39682B5A68D668F",
             "AFC36FC71B4E124E",
             "CA1C0FB0345F9675",
             "A5E559178C9F5182",
@@ -45041,7 +45041,6 @@
         "co":"KMB",
         "stops":[
             "80C387D87AFBCE3E",
-            "89D8AA4F45165FB6",
             "60AEF6D3AA7AAC41",
             "FC6CB9607D36FBD7",
             "A67D189D438E1534",
@@ -45240,7 +45239,6 @@
             "45924F2D86BEC3B4",
             "89D8AA4F45165FB6",
             "647CBF3FE0DF2FAE",
-            "FC6CB9607D36FBD7",
             "A4AA1D2CA4E92950"
         ],
         "fullFare":"6.9",
@@ -69736,68 +69734,25 @@
         "co":"KMB",
         "stops":[
             "7B0BAF8C626CDF2D",
+            "D456864A2E0933B2",
             "FA9F1DB955870000",
             "1DB8D58C023AFD4D",
             "21F97AD41821FC73",
             "EA2CFF27310EAEC3",
             "25863CD2A364E72F",
+            "8C67C373BC19EDF5",
+            "179C182ADEF1070D",
             "B568727F49CD11A3",
             "558599642E78BB9B",
             "BEEBDDB542A7E709",
             "48184733EFE9D3E3",
-            "6265ADC5B1D37D6C",
-            "2EEB9CB69FB6A58D",
-            "0CC0B21EFF42EE19",
-            "FF46CB6182028AC6"
+            "6265ADC5B1D37D6C"
         ],
-        "fullFare":"8.3",
-        "journeyTime":"37",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000633",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        14
-                    ],
-                    "price":8.3
-                },
-                {
-                    "range":[
-                        7,
-                        14
-                    ],
-                    "price":7.8
-                },
-                {
-                    "range":[
-                        8,
-                        14
-                    ],
-                    "price":7.4
-                },
-                {
-                    "range":[
-                        11,
-                        14
-                    ],
-                    "price":5.6
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"213E",
@@ -69822,54 +69777,18 @@
             "E45CFAB2E6E4C8FE",
             "AA97FFC49AE957A5",
             "BE27F066CF40DF7D",
+            "5FD7848A339751B6",
+            "2A5B424322D35B0A",
+            "ED8812E232F6958A",
             "1FBAAE29AF1CA50E",
             "466BC4C1908A1A06",
-            "5996115DCAE8C603",
-            "0BACBE7BF15833EC",
-            "CABB1AAE412C6049",
-            "7B0BAF8C626CDF2D"
+            "5996115DCAE8C603"
         ],
-        "fullFare":"8.3",
-        "journeyTime":"37",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000633",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        17
-                    ],
-                    "price":8.3
-                },
-                {
-                    "range":[
-                        11,
-                        17
-                    ],
-                    "price":7.4
-                },
-                {
-                    "range":[
-                        13,
-                        17
-                    ],
-                    "price":3.3
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"213M",
@@ -74509,7 +74428,7 @@
         "dest_sc":"博康",
         "co":"KMB",
         "stops":[
-            "9E42D981C59B5762",
+            "A39682B5A68D668F",
             "AFC36FC71B4E124E",
             "CA1C0FB0345F9675",
             "CC2886532E162A85",
@@ -74592,7 +74511,7 @@
         "dest_sc":"大围站",
         "co":"KMB",
         "stops":[
-            "9E42D981C59B5762",
+            "A39682B5A68D668F",
             "AFC36FC71B4E124E",
             "CA1C0FB0345F9675",
             "CC2886532E162A85",
@@ -110278,7 +110197,7 @@
         "dest_sc":"太古(康怡广场)",
         "co":"KMB",
         "stops":[
-            "9E42D981C59B5762",
+            "716E50EBD1CD72B4",
             "AFC36FC71B4E124E",
             "79842A7E2FC0844F",
             "FF5CF18C5510B901",
@@ -110371,7 +110290,7 @@
             "CC6B75E6D60B4C57",
             "26AC2D471648CA0C",
             "6E22023A7DF1B381",
-            "9E42D981C59B5762"
+            "E45E7DB1786B6324"
         ],
         "fullFare":"24.4",
         "journeyTime":"67",
@@ -136925,7 +136844,7 @@
         "dest_sc":"蓝田站",
         "co":"KMB",
         "stops":[
-            "A39682B5A68D668F",
+            "716E50EBD1CD72B4",
             "28725EBEC5C8EC40",
             "C9E264A3F9D4CEB3",
             "094D2EBC017EE61A",
