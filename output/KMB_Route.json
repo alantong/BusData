@@ -23811,7 +23811,7 @@
         "dest_sc":"葵涌邨",
         "co":"KMB",
         "stops":[
-            "68CD99B45DDE014B",
+            "E45E7DB1786B6324",
             "79A623A558FB5CC6",
             "4E870B220826BEE0",
             "5AD2A4D21C226335",
@@ -23961,7 +23961,7 @@
             "8D7CB6C3D48258D6",
             "36880B47F043D519",
             "6E22023A7DF1B381",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"5.4",
         "journeyTime":"30",
@@ -28464,7 +28464,7 @@
         "dest_sc":"葵芳站",
         "co":"KMB",
         "stops":[
-            "9F5B57C2FE7E786D",
+            "315BE0CA231DCD4F",
             "EDF4C2EAFDBD4693",
             "5AB4B6D054B4B8D3",
             "8C32D9DDB85891A6",
@@ -34466,7 +34466,7 @@
             "2D33D39F61B74C5D",
             "C9E264A3F9D4CEB3",
             "6E22023A7DF1B381",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"12.6",
         "journeyTime":"66",
@@ -34710,7 +34710,7 @@
             "8AF7B7AE967EA97D",
             "7E50BA0974C3B983",
             "6E22023A7DF1B381",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"12.5",
         "journeyTime":"51",
@@ -35041,7 +35041,7 @@
         "co":"KMB",
         "stops":[
             "E62FE9EC6A0D8E35",
-            "2FB355A2C89B7922",
+            "D54B0CA58FE5559D",
             "FEE97828AB584E76",
             "5CE91F113D08B843",
             "AB0F79ED382081D0",
@@ -69746,13 +69746,59 @@
             "558599642E78BB9B",
             "BEEBDDB542A7E709",
             "48184733EFE9D3E3",
-            "6265ADC5B1D37D6C"
+            "6265ADC5B1D37D6C",
+            "2EEB9CB69FB6A58D",
+            "0CC0B21EFF42EE19",
+            "FF46CB6182028AC6"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"8.3",
+        "journeyTime":"37",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000633",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0800"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        14
+                    ],
+                    "price":8.3
+                },
+                {
+                    "range":[
+                        7,
+                        14
+                    ],
+                    "price":7.8
+                },
+                {
+                    "range":[
+                        8,
+                        14
+                    ],
+                    "price":7.4
+                },
+                {
+                    "range":[
+                        11,
+                        14
+                    ],
+                    "price":5.6
+                }
+            ]
+        ]
     },
     {
         "route":"213E",
@@ -69782,13 +69828,53 @@
             "ED8812E232F6958A",
             "1FBAAE29AF1CA50E",
             "466BC4C1908A1A06",
-            "5996115DCAE8C603"
+            "5996115DCAE8C603",
+            "0BACBE7BF15833EC",
+            "CABB1AAE412C6049",
+            "3F64427262A691C1",
+            "7B0BAF8C626CDF2D"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"8.3",
+        "journeyTime":"37",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000633",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1800"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        17
+                    ],
+                    "price":8.3
+                },
+                {
+                    "range":[
+                        11,
+                        17
+                    ],
+                    "price":7.4
+                },
+                {
+                    "range":[
+                        13,
+                        17
+                    ],
+                    "price":3.3
+                }
+            ]
+        ]
     },
     {
         "route":"213M",
@@ -74102,7 +74188,7 @@
             "79842A7E2FC0844F",
             "FF5CF18C5510B901",
             "6E22023A7DF1B381",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"4.8",
         "journeyTime":"9",
@@ -74229,7 +74315,7 @@
             "143D7489C808BD46",
             "F4FC91D18962C4D0",
             "624D05A1E7A5A045",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"4.8",
         "journeyTime":"17",
@@ -110290,7 +110376,7 @@
             "CC6B75E6D60B4C57",
             "26AC2D471648CA0C",
             "6E22023A7DF1B381",
-            "E45E7DB1786B6324"
+            "A2882A0EE6B8AF9B"
         ],
         "fullFare":"24.4",
         "journeyTime":"67",
