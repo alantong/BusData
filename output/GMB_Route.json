@@ -30515,6 +30515,47 @@
     },
     {
         "co":"GMB",
+        "route":"313S",
+        "routeId":2011688,
+        "routeSeq":1,
+        "orig_tc":"葵涌醫院",
+        "dest_tc":"荔景山路 (荔景站)",
+        "orig_sc":"葵涌医院",
+        "dest_sc":"荔景山路 (荔景站)",
+        "orig_en":"Kwai Chung Hospital",
+        "dest_en":"Lai King Hill Road (Lai King Station)",
+        "stops":[
+            20022834,
+            20023296
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
+        "route":"313S",
+        "routeId":2011688,
+        "routeSeq":2,
+        "orig_tc":"荔景山路 (荔景站)",
+        "dest_tc":"葵涌醫院",
+        "orig_sc":"荔景山路 (荔景站)",
+        "dest_sc":"葵涌医院",
+        "orig_en":"Lai King Hill Road (Lai King Station)",
+        "dest_en":"Kwai Chung Hospital",
+        "stops":[
+            20023296,
+            20002102,
+            20022834
+        ],
+        "freq":[
+            {}
+        ],
+        "sectionFare":[]
+    },
+    {
+        "co":"GMB",
         "route":"31A",
         "routeId":2006576,
         "routeSeq":1,
