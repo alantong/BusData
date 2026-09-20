@@ -38837,6 +38837,36 @@
         ]
     },
     {
+        "route":"73B",
+        "bound":"O",
+        "service_type":"4",
+        "orig_en":"Education University of Hong Kong",
+        "orig_tc":"香港教育大學",
+        "orig_sc":"香港教育大学",
+        "dest_en":"Sheung Shui Station",
+        "dest_tc":"上水站",
+        "dest_sc":"上水站",
+        "co":"KMB",
+        "stops":[
+            "A1A1CE1BACE1973D",
+            "43531EDD45A4B0C1",
+            "1A0BF02F827F6A20",
+            "9FDEEC09AD1B601B",
+            "0F3FA9B7D07A91F3",
+            "C837C3C549793472",
+            "9BE3D659E4C144D2",
+            "650809D260BC7C6E",
+            "F81DACC5F39E6D53",
+            "D417A444017171C6",
+            "D876A83244ECB838"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"73D",
         "bound":"O",
         "service_type":"1",
@@ -120850,7 +120880,7 @@
         "stops":[
             "822B02BAED2961FC",
             "0D98A0E934584FD0",
-            "B02B0B9F73E50D93",
+            "6E85D42922E5A10C",
             "2FB355A2C89B7922",
             "52656E6A7D0EB9E4",
             "4E2EC89B41600D7E",
@@ -133368,7 +133398,7 @@
         "stops":[
             "FB45B8223CB9312F",
             "F05E718C02104BAC",
-            "B02B0B9F73E50D93",
+            "6E85D42922E5A10C",
             "C296D9B3313C1F77",
             "AD4CB5E1CAAF8063",
             "723EF8D7809D3ADB",
