@@ -1,24 +1,2 @@
-24-Sep-26 22:01:38 | gmb - INFO - Start getting GMB route
-24-Sep-26 23:29:36 | gmb - ERROR - Other error occurred: Client error '429 Too Many Requests' for url 'https://data.etagmb.gov.hk/stop/20010064'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-24-Sep-26 23:29:36 | gmb - ERROR - Client error '429 Too Many Requests' for url 'https://data.etagmb.gov.hk/stop/20010064'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-Traceback (most recent call last):
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 175, in main
-    gmbStopLoc += await asyncio.gather(*tasks)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 168, in limited_getStopLoc
-    return await getStopLoc(client, s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GMB_Route.py", line 69, in getStopLoc
-    stopLocResponse = await GetRoute.async_get_with_retry(client, stopLocUrl)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 73, in async_get_with_retry
-    raise e
-  File "/home/runner/work/BusData/BusData/action/GetRoute.py", line 62, in async_get_with_retry
-    response.raise_for_status()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "/opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/httpx/_models.py", line 829, in raise_for_status
-    raise HTTPStatusError(message, request=request, response=self)
-httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://data.etagmb.gov.hk/stop/20010064'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+25-Sep-26 22:00:48 | gmb - INFO - Start getting GMB route
+25-Sep-26 23:16:19 | gmb - INFO - Finish getting GMB route

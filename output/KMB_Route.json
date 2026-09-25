@@ -3997,6 +3997,7 @@
             "AA28557D2EE2F8D0",
             "F573BDBB62023031",
             "B83FDB494B1E7E31",
+            "2BC21AC371639FC3",
             "600158E293C9354E",
             "BA0B05CA62C32007",
             "C057639478BE0168",
@@ -4004,46 +4005,16 @@
             "83BB162ED5F1355F",
             "D39533060940818A",
             "14894C859FDFE8C3",
-            "DBB2582C87F91983",
+            "36A5F6842C55126E",
+            "8D82E683FA753CC8",
             "5C54889CFC1ACE5B",
-            "1094B993AA8409D0",
-            "2F9C6EBE1A9AA07E",
-            "5F1C669F444A0556"
+            "1094B993AA8409D0"
         ],
-        "fullFare":"8.1",
-        "journeyTime":"18",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8169",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "319":[
-                    "07:00:00|09:00:00|1200",
-                    "09:00:00|17:00:00|1800",
-                    "17:00:00|17:30:00|900",
-                    "17:30:00|19:30:00|1200",
-                    "19:30:00|22:00:00|1800"
-                ],
-                "448":[
-                    "07:00:00|22:00:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        16
-                    ],
-                    "price":8.1
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"5R",
@@ -4061,38 +4032,16 @@
             "AA28557D2EE2F8D0",
             "F573BDBB62023031",
             "B83FDB494B1E7E31",
+            "2BC21AC371639FC3",
             "600158E293C9354E",
             "BA0B05CA62C32007",
-            "C057639478BE0168",
-            "1E3A342DF7D5B8B5"
+            "C057639478BE0168"
         ],
-        "fullFare":"8.1",
-        "journeyTime":"18",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000095",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "319":[
-                    "1740"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        8
-                    ],
-                    "price":8.1
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"5R",
@@ -4111,39 +4060,17 @@
             "83BB162ED5F1355F",
             "D39533060940818A",
             "14894C859FDFE8C3",
-            "DBB2582C87F91983",
+            "36A5F6842C55126E",
+            "8D82E683FA753CC8",
             "5C54889CFC1ACE5B",
             "1094B993AA8409D0",
-            "2F9C6EBE1A9AA07E",
-            "5F1C669F444A0556"
+            "2F9C6EBE1A9AA07E"
         ],
-        "fullFare":"8.1",
-        "journeyTime":"18",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000201",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "319":[
-                    "0700"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        10
-                    ],
-                    "price":8.1
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"6",
@@ -17062,7 +16989,7 @@
             "30000427BD163F84",
             "03A5552B84E8214B",
             "0B4807A5C0DAF24A",
-            "4C7927148D79A446",
+            "8C6EF1266E4EE05B",
             "CA4777DC41555D2C",
             "A958EF1ECDA5CC4A",
             "2BDB51D5618D546F",
@@ -17150,7 +17077,7 @@
             "30000427BD163F84",
             "03A5552B84E8214B",
             "0B4807A5C0DAF24A",
-            "4C7927148D79A446",
+            "8C6EF1266E4EE05B",
             "CA4777DC41555D2C",
             "A958EF1ECDA5CC4A",
             "2BDB51D5618D546F",
@@ -27097,6 +27024,7 @@
             "D77779E531F14725",
             "4F64DA53415F3128",
             "BF7FD3BC4994EBE5",
+            "D3071E4C5434ADE7",
             "9DC117C78DBDB1A7",
             "BD52FF1BA0AC99BE",
             "1F2376A52800A2CA",
@@ -27123,8 +27051,7 @@
             "30B08A7B2B2B623F",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
-            "835DE31CDA7EBEC9"
+            "145515B1D2C60CAF"
         ],
         "fullFare":"14.6",
         "journeyTime":"70",
@@ -72402,9 +72329,9 @@
         "route":"234C",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Sham Tseng",
-        "orig_tc":"深井",
-        "orig_sc":"深井",
+        "orig_en":"Tsing Lung Tau",
+        "orig_tc":"青龍頭",
+        "orig_sc":"青龙头",
         "dest_en":"Kwun Tong (Tsui Ping North Estate)",
         "dest_tc":"觀塘(翠屏北邨)",
         "dest_sc":"观塘(翠屏北邨)",
@@ -72500,9 +72427,9 @@
         "orig_en":"Kwun Tong (Tsui Ping North Estate)",
         "orig_tc":"觀塘(翠屏北邨",
         "orig_sc":"观塘(翠屏北邨",
-        "dest_en":"Sham Tseng",
-        "dest_tc":"深井",
-        "dest_sc":"深井",
+        "dest_en":"Tsing Lung Tau",
+        "dest_tc":"青龍頭",
+        "dest_sc":"青龙头",
         "co":"KMB",
         "stops":[
             "71B7CB659DF54E28",
@@ -76031,6 +75958,39 @@
         ]
     },
     {
+        "route":"253",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tsing Fat Street Light Public Housing",
+        "orig_tc":"青發街簡約公屋",
+        "orig_sc":"青发街简约公屋",
+        "dest_en":"Tuen Mun Road BBI (Circular)",
+        "dest_tc":"屯門公路轉車站(循環線)",
+        "dest_sc":"屯门公路转车站(循环线)",
+        "co":"KMB",
+        "stops":[
+            "C51FDD82B9A3576E",
+            "9DC117C78DBDB1A7",
+            "BD52FF1BA0AC99BE",
+            "1F2376A52800A2CA",
+            "0B72FFAB7F7230E4",
+            "212BFF5737D0116C",
+            "E3E5521CAFDD5DCE",
+            "C1590716F6FABC50",
+            "3CCF4F6EA48CF505",
+            "7AECAF57AF679EE7",
+            "116624D40FDE852C",
+            "DA8B258D68133BDD",
+            "75DEBB78067301B8",
+            "C51FDD82B9A3576E"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"258A",
         "bound":"O",
         "service_type":"1",
@@ -76440,7 +76400,6 @@
             "B64EEA7F564C7853",
             "46D1A9FD1F84CA5C",
             "2B354AE312900DF1",
-            "406864EDEB186C9A",
             "AA5DA45828958EAE",
             "876057D899CE09C9",
             "50DC968C90CE7CF4",
@@ -78908,9 +78867,9 @@
         "route":"261X",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"So Kwun Wat",
-        "orig_tc":"掃管笏",
-        "orig_sc":"扫管笏",
+        "orig_en":"Tsing Fat Street Light Public Housing",
+        "orig_tc":"青發街簡約公屋",
+        "orig_sc":"青发街简约公屋",
         "dest_en":"Fanling (Cheung Wah)",
         "dest_tc":"粉嶺(祥華)",
         "dest_sc":"粉岭(祥华)",
@@ -79000,9 +78959,9 @@
         "orig_en":"Fanling (Cheung Wah)",
         "orig_tc":"粉嶺(祥華)",
         "orig_sc":"粉岭(祥华)",
-        "dest_en":"So Kwun Wat",
-        "dest_tc":"掃管笏",
-        "dest_sc":"扫管笏",
+        "dest_en":"Tsing Fat Street Light Public Housing",
+        "dest_tc":"青發街簡約公屋",
+        "dest_sc":"青发街简约公屋",
         "co":"KMB",
         "stops":[
             "C1210CE431B3BB88",
@@ -117327,78 +117286,6 @@
     },
     {
         "route":"A36",
-        "bound":"O",
-        "service_type":"5",
-        "orig_en":"Kam Sheung Road Station",
-        "orig_tc":"錦上路站",
-        "orig_sc":"锦上路站",
-        "dest_en":"Airport (Ground Transportation Centre)",
-        "dest_tc":"機場(地面運輸中心)",
-        "dest_sc":"机场(地面运输中心)",
-        "co":"KMB",
-        "stops":[
-            "A7156FD2BD44D128",
-            "C9C4CEEC13D20879",
-            "9DD0D04123E70E56",
-            "2CF4CFA22192E30A",
-            "45B57C063BB57D07",
-            "69CFE96E38AD1D50",
-            "2E73B26A07205432",
-            "7B93AB79165E79E6",
-            "B802C4681F58E3E2",
-            "F8DED1E04A074504",
-            "8BE58FAD7E9C94C7",
-            "1DBADE3376C4149E",
-            "61130BDD0AFFBA86",
-            "147195048B687121",
-            "210978D525EEDF4F",
-            "C70342BF7C6A4732",
-            "0D5759F7A4B185FE",
-            "C552CE565E1F0C85",
-            "9A43D6FA1AC3D2EA",
-            "9C9F817064169CE7",
-            "21466046C6868AA7"
-        ],
-        "fullFare":"19.8",
-        "journeyTime":"65",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8369",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0740"
-                ],
-                "480":[
-                    "0730"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        21
-                    ],
-                    "price":19.8
-                },
-                {
-                    "range":[
-                        16,
-                        21
-                    ],
-                    "price":15.7
-                }
-            ]
-        ]
-    },
-    {
-        "route":"A36",
         "bound":"I",
         "service_type":"1",
         "orig_en":"Airport (Ground Transportation Centre)",
@@ -137517,9 +137404,9 @@
         "orig_en":"Mei Foo",
         "orig_tc":"美孚",
         "orig_sc":"美孚",
-        "dest_en":"HK Children's Hospital",
-        "dest_tc":"香港兒童醫院",
-        "dest_sc":"香港儿童医院",
+        "dest_en":"Kai Tak Hospital",
+        "dest_tc":"啟德醫院",
+        "dest_sc":"启德医院",
         "co":"KMB",
         "stops":[
             "3856383C8A22904A",
@@ -137544,7 +137431,7 @@
             "327E4BC13954EA86",
             "81C6D8E74259157E",
             "36A5F6842C55126E",
-            "0513406BAC1F8881"
+            "DBB2582C87F91983"
         ],
         "fullFare":"7.8",
         "journeyTime":"53",
@@ -137588,6 +137475,7 @@
         "dest_sc":"美孚",
         "co":"KMB",
         "stops":[
+            "8D82E683FA753CC8",
             "0513406BAC1F8881",
             "A1C35E976ACF46FD",
             "2F1F9CF16B9E65AF",
@@ -137609,38 +137497,13 @@
             "B8B71BC8E2DDCA8D",
             "62AB7611613EF561",
             "C9081B14523D8898",
-            "BB5DEEAB7F39ECD9",
-            "3856383C8A22904A"
+            "BB5DEEAB7F39ECD9"
         ],
-        "fullFare":"7.8",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000059",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "08:15:00|16:15:00|1800",
-                    "16:15:00|18:45:00|1500",
-                    "18:45:00|21:15:00|1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        23
-                    ],
-                    "price":7.8
-                }
-            ]
-        ]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"X89D",
