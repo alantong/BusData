@@ -72337,6 +72337,11 @@
         "dest_sc":"观塘(翠屏北邨)",
         "co":"KMB",
         "stops":[
+            "1064E673770C38BC",
+            "2DFE2D85D53C1114",
+            "C4E03BB27317AF35",
+            "30DD3451F8D64883",
+            "8AFF8B43EC3E547F",
             "83C4F756489484B5",
             "ED9E5ACF98190E5C",
             "D7D5410F2F97D682",
@@ -72362,6 +72367,8 @@
             "34FBE7E973FE5EF5",
             "F5A44B89EFBC0B4F",
             "99EF4CA10B3E1F17",
+            "96A6FE5F07BDF203",
+            "9DE875FD17C67097",
             "BC7C325EE59235E4",
             "E5E15C5F7F0344AB",
             "598F766175BE3EF3",
@@ -72370,55 +72377,11 @@
             "CED060CB0E89E2B3",
             "71B7CB659DF54E28"
         ],
-        "fullFare":"11.5",
-        "journeyTime":"69",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8163",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0715",
-                    "0720",
-                    "0725",
-                    "0735",
-                    "0745"
-                ],
-                "288":[
-                    "0725",
-                    "0735"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        32
-                    ],
-                    "price":11.5
-                },
-                {
-                    "range":[
-                        12,
-                        32
-                    ],
-                    "price":11.0
-                },
-                {
-                    "range":[
-                        15,
-                        32
-                    ],
-                    "price":10.0
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"234C",
@@ -72440,6 +72403,7 @@
             "266A4CDA19461A42",
             "E4DC4C1162E302AE",
             "26A996F589C84844",
+            "62A1C8EFAC876BDB",
             "29A62A8FE112766B",
             "9751EE79B103C9B8",
             "EBF4EB34B96BC242",
@@ -72465,43 +72429,19 @@
             "62AA23787294A36E",
             "7550FEE23DA5615D",
             "B47C12A965D7B481",
-            "5564CE644A0D7DBE"
+            "5564CE644A0D7DBE",
+            "1E4E9FB5763C3436",
+            "B5BB97F8CB889AB7",
+            "9E4653BA0F25F731",
+            "6A93E2E9F1A3F421",
+            "3F41CA34634CC20C",
+            "2E1127BAF33B34F7"
         ],
-        "fullFare":"11.5",
-        "journeyTime":"69",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8163",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1800",
-                    "1900"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        34
-                    ],
-                    "price":11.5
-                },
-                {
-                    "range":[
-                        13,
-                        34
-                    ],
-                    "price":9.6
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"234D",
