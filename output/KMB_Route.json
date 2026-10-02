@@ -6551,6 +6551,39 @@
         ]
     },
     {
+        "route":"11A",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Chuk Yuen Estate",
+        "orig_tc":"竹園邨",
+        "orig_sc":"竹园邨",
+        "dest_en":"Kai Tak Hospital",
+        "dest_tc":"啟德醫院",
+        "dest_sc":"启德医院",
+        "co":"KMB",
+        "stops":[
+            "272546A2E2F4FCEF",
+            "2C1366DA10099003",
+            "1F189CEB915C191D",
+            "9FD865B00B2D54A1",
+            "A15FFC3149FB92A0",
+            "A0FDF34B2D278750",
+            "951CE3B3EB98BA3A",
+            "3BB1407BA61E0A9B",
+            "75957EA713E84A37",
+            "9A0959AB68FA5E1F",
+            "94358F5481BAE505",
+            "07521BB848913F74",
+            "36A5F6842C55126E",
+            "DBB2582C87F91983"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"11B",
         "bound":"O",
         "service_type":"1",
@@ -11337,6 +11370,46 @@
                 }
             ]
         ]
+    },
+    {
+        "route":"17A",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Ho Man Tin (Oi Man Estate)",
+        "orig_tc":"何文田(愛民邨)",
+        "orig_sc":"何文田(爱民邨)",
+        "dest_en":"Kai Tak Hospital",
+        "dest_tc":"啟德醫院",
+        "dest_sc":"启德医院",
+        "co":"KMB",
+        "stops":[
+            "F78B61532972282D",
+            "FACE6E102E2171B3",
+            "A0F2A2C5182526AA",
+            "75E163C6EB446CF2",
+            "32C7B8C7F75D2A47",
+            "7E4F1063E27B47E9",
+            "1924C09B20B8787A",
+            "2C1D3DD666AA001F",
+            "72387FDE57DCCED4",
+            "D28AA79AF38D1601",
+            "6F357BC5B6EF7647",
+            "47B6BE5FC95C2042",
+            "EBE826ABDCE44F0C",
+            "7210357910C44570",
+            "A1C65E46464147A0",
+            "100E6F60BAC1BDEB",
+            "9A0959AB68FA5E1F",
+            "94358F5481BAE505",
+            "07521BB848913F74",
+            "36A5F6842C55126E",
+            "DBB2582C87F91983"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"17P",
@@ -43265,6 +43338,31 @@
                 }
             ]
         ]
+    },
+    {
+        "route":"76A",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Sheung Shui Station",
+        "orig_tc":"上水站",
+        "orig_sc":"上水站",
+        "dest_en":"Sheung Shui Station",
+        "dest_tc":"上水站",
+        "dest_sc":"上水站",
+        "co":"KMB",
+        "stops":[
+            "D876A83244ECB838",
+            "F19EA5A24A38C94C",
+            "82949C393C421088",
+            "55E8DA01E30C4C44",
+            "A5CCD492A487E458",
+            "D876A83244ECB838"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"76K",

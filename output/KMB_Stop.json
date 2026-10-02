@@ -7056,6 +7056,69 @@
         "co":"KMB"
     },
     {
+        "stop":"272546A2E2F4FCEF",
+        "name_en":"Chuk Yuen Estate Bus Terminus (WT915)",
+        "name_tc":"竹園邨總站 (WT915)",
+        "name_sc":"竹园邨总站 (WT915)",
+        "lat":"22.345455",
+        "long":"114.192858",
+        "co":"KMB"
+    },
+    {
+        "stop":"1F189CEB915C191D",
+        "name_en":"Ma Chai Hang Recreation Ground (WT425)",
+        "name_tc":"馬仔坑遊樂場 (WT425)",
+        "name_sc":"马仔坑游乐场 (WT425)",
+        "lat":"22.344459",
+        "long":"114.187732",
+        "co":"KMB"
+    },
+    {
+        "stop":"9FD865B00B2D54A1",
+        "name_en":"Wong Tai Sin BBI-Wong Tai Sin Temple (WT204)",
+        "name_tc":"黃大仙轉車站-黃大仙廟 (WT204)",
+        "name_sc":"黄大仙转车站-黄大仙庙 (WT204)",
+        "lat":"22.341855",
+        "long":"114.192100",
+        "co":"KMB"
+    },
+    {
+        "stop":"9A0959AB68FA5E1F",
+        "name_en":"Lam Wah Street, Kowloon Bay (KT123)",
+        "name_tc":"九龍灣臨華街 (KT123)",
+        "name_sc":"九龙湾临华街 (KT123)",
+        "lat":"22.323512",
+        "long":"114.208973",
+        "co":"KMB"
+    },
+    {
+        "stop":"94358F5481BAE505",
+        "name_en":"Sheung Yuet Road, Enterprise Square (KT130)",
+        "name_tc":"常悅道 企業廣場 (KT130)",
+        "name_sc":"常悦道 企业广场 (KT130)",
+        "lat":"22.321438",
+        "long":"114.207948",
+        "co":"KMB"
+    },
+    {
+        "stop":"07521BB848913F74",
+        "name_en":"Wang Tung Street, Kowloon Bay (KT101)",
+        "name_tc":"九龍灣宏通街 (KT101)",
+        "name_sc":"九龙湾宏通街 (KT101)",
+        "lat":"22.319534",
+        "long":"114.207613",
+        "co":"KMB"
+    },
+    {
+        "stop":"DBB2582C87F91983",
+        "name_en":"Kai Tak Hospital (Alighting Stop) (KA531)",
+        "name_tc":"啟德醫院(落客站) (KA531)",
+        "name_sc":"启德医院(落客站) (KA531)",
+        "lat":"22.317594",
+        "long":"114.207422",
+        "co":"KMB"
+    },
+    {
         "stop":"ACF18512CA2861EC",
         "name_en":"Kwun Tong (Tsui Ping Road) Bus Terminus (KT948)",
         "name_tc":"觀塘(翠屏道)總站 (KT948)",
@@ -7251,33 +7314,6 @@
         "name_sc":"翠屏北邨翠桉楼 (KT272)",
         "lat":"22.315232",
         "long":"114.229331",
-        "co":"KMB"
-    },
-    {
-        "stop":"272546A2E2F4FCEF",
-        "name_en":"Chuk Yuen Estate Bus Terminus (WT915)",
-        "name_tc":"竹園邨總站 (WT915)",
-        "name_sc":"竹园邨总站 (WT915)",
-        "lat":"22.345455",
-        "long":"114.192858",
-        "co":"KMB"
-    },
-    {
-        "stop":"1F189CEB915C191D",
-        "name_en":"Ma Chai Hang Recreation Ground (WT425)",
-        "name_tc":"馬仔坑遊樂場 (WT425)",
-        "name_sc":"马仔坑游乐场 (WT425)",
-        "lat":"22.344459",
-        "long":"114.187732",
-        "co":"KMB"
-    },
-    {
-        "stop":"9FD865B00B2D54A1",
-        "name_en":"Wong Tai Sin BBI-Wong Tai Sin Temple (WT204)",
-        "name_tc":"黃大仙轉車站-黃大仙廟 (WT204)",
-        "name_sc":"黄大仙转车站-黄大仙庙 (WT204)",
-        "lat":"22.341855",
-        "long":"114.192100",
         "co":"KMB"
     },
     {
@@ -9504,15 +9540,6 @@
         "co":"KMB"
     },
     {
-        "stop":"07521BB848913F74",
-        "name_en":"Wang Tung Street, Kowloon Bay (KT101)",
-        "name_tc":"九龍灣宏通街 (KT101)",
-        "name_sc":"九龙湾宏通街 (KT101)",
-        "lat":"22.319534",
-        "long":"114.207613",
-        "co":"KMB"
-    },
-    {
         "stop":"BEFAD7DB0A750CDF",
         "name_en":"Ka Wing Street (LT393)",
         "name_tc":"嘉榮街 (LT393)",
@@ -9726,24 +9753,6 @@
         "name_sc":"九龙湾运动场 (KT482)",
         "lat":"22.326651",
         "long":"114.208393",
-        "co":"KMB"
-    },
-    {
-        "stop":"9A0959AB68FA5E1F",
-        "name_en":"Lam Wah Street, Kowloon Bay (KT123)",
-        "name_tc":"九龍灣臨華街 (KT123)",
-        "name_sc":"九龙湾临华街 (KT123)",
-        "lat":"22.323512",
-        "long":"114.208973",
-        "co":"KMB"
-    },
-    {
-        "stop":"94358F5481BAE505",
-        "name_en":"Sheung Yuet Road, Enterprise Square (KT130)",
-        "name_tc":"常悅道 企業廣場 (KT130)",
-        "name_sc":"常悦道 企业广场 (KT130)",
-        "lat":"22.321438",
-        "long":"114.207948",
         "co":"KMB"
     },
     {
@@ -10095,6 +10104,15 @@
         "name_sc":"农圃道 (KC188)",
         "lat":"22.320757",
         "long":"114.187457",
+        "co":"KMB"
+    },
+    {
+        "stop":"F78B61532972282D",
+        "name_en":"Ho Man Tin (Oi Man Estate) Bus Terminus (KC902)",
+        "name_tc":"何文田(愛民邨)巴士總站 (KC902)",
+        "name_sc":"何文田(爱民邨)巴士总站 (KC902)",
+        "lat":"22.312407",
+        "long":"114.178045",
         "co":"KMB"
     },
     {
@@ -29583,6 +29601,33 @@
         "co":"KMB"
     },
     {
+        "stop":"82949C393C421088",
+        "name_en":"Pak Sau Road (Kwu Tung North Complex) (ND620)",
+        "name_tc":"柏壽路(古洞北綜合大樓) (ND620)",
+        "name_sc":"柏寿路(古洞北综合大楼) (ND620)",
+        "lat":"22.504378",
+        "long":"114.096273",
+        "co":"KMB"
+    },
+    {
+        "stop":"55E8DA01E30C4C44",
+        "name_en":"Heung Tsz Road (ND630)",
+        "name_tc":"鄉梓路 (ND630)",
+        "name_sc":"乡梓路 (ND630)",
+        "lat":"22.505990",
+        "long":"114.095166",
+        "co":"KMB"
+    },
+    {
+        "stop":"A5CCD492A487E458",
+        "name_en":"Kwu Tung North (ND700)",
+        "name_tc":"古洞北 (ND700)",
+        "name_sc":"古洞北 (ND700)",
+        "lat":"22.505689",
+        "long":"114.098421",
+        "co":"KMB"
+    },
+    {
         "stop":"B32FA6CD250F0F6B",
         "name_en":"Ching Ho Estate Bus Terminus (ND936)",
         "name_tc":"清河邨總站 (ND936)",
@@ -40200,15 +40245,6 @@
         "name_sc":"何文田巴士总站 (KC911)",
         "lat":"22.317495",
         "long":"114.181418",
-        "co":"KMB"
-    },
-    {
-        "stop":"F78B61532972282D",
-        "name_en":"Ho Man Tin (Oi Man Estate) Bus Terminus (KC902)",
-        "name_tc":"何文田(愛民邨)巴士總站 (KC902)",
-        "name_sc":"何文田(爱民邨)巴士总站 (KC902)",
-        "lat":"22.312407",
-        "long":"114.178045",
         "co":"KMB"
     },
     {
@@ -60738,15 +60774,6 @@
         "name_sc":"上水广场",
         "lat":"22.502562",
         "long":"114.127682",
-        "co":"KMB"
-    },
-    {
-        "stop":"DBB2582C87F91983",
-        "name_en":"Kai Tak Hospital (Alighting Stop) (KA531)",
-        "name_tc":"啟德醫院(落客站) (KA531)",
-        "name_sc":"启德医院(落客站) (KA531)",
-        "lat":"22.317594",
-        "long":"114.207422",
         "co":"KMB"
     }
 ]
