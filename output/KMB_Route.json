@@ -43603,66 +43603,6 @@
     },
     {
         "route":"76K",
-        "bound":"O",
-        "service_type":"3",
-        "orig_en":"Sheung Shui (Ching Ho)",
-        "orig_tc":"上水(清河)",
-        "orig_sc":"上水(清河)",
-        "dest_en":"Pak Shek Au",
-        "dest_tc":"白石凹",
-        "dest_sc":"白石凹",
-        "co":"KMB",
-        "stops":[
-            "B32FA6CD250F0F6B",
-            "FF50570BA54BCA0B",
-            "4E655B25ABAE103A",
-            "AD4E0E8DC8ACEFB6",
-            "DF8F6AA868615D47",
-            "BCD8ECF368228B0B",
-            "FB073A84B18E9339",
-            "7B0FD0608D0C1A49",
-            "86916B1ED459ED05",
-            "2504CBB82DE653FB",
-            "7C6DEBE9645872B0",
-            "948262F591F8E064"
-        ],
-        "fullFare":"9.6",
-        "journeyTime":"19",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "1000717",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0730"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        12
-                    ],
-                    "price":9.6
-                },
-                {
-                    "range":[
-                        3,
-                        12
-                    ],
-                    "price":6.7
-                }
-            ]
-        ]
-    },
-    {
-        "route":"76K",
         "bound":"I",
         "service_type":"1",
         "orig_en":"Long Ping Estate",
@@ -43789,41 +43729,6 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"76K",
-        "bound":"I",
-        "service_type":"2",
-        "orig_en":"San Tin Pti",
-        "orig_tc":"新田運輸交匯處",
-        "orig_sc":"新田运输交汇处",
-        "dest_en":"Sheung Shui (Ching Ho)",
-        "dest_tc":"上水(清河)",
-        "dest_sc":"上水(清河)",
-        "co":"KMB",
-        "stops":[
-            "103661C9BABD79FD",
-            "11D6E70354E28F88",
-            "BD1949B34937A7C6",
-            "99F59D7A7A5260CB",
-            "77164E6DC3A2EBE1",
-            "F2F54463FF00568C",
-            "C86D1451F0C108D7",
-            "BA7CB63D61CF127B",
-            "92E4DADD37500B0F",
-            "4AF915B7D3A005F8",
-            "F7A51A70730660CB",
-            "8717C0140C940AE3",
-            "093289C2E4F6F408",
-            "3FAC6C2592812331",
-            "396DD38F2E41E117",
-            "B32FA6CD250F0F6B"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "route":"76S",
