@@ -51618,52 +51618,23 @@
             "1E471172708B5C5D",
             "2479788748627B65",
             "0CB1F7979192FBB2",
+            "8337F935242C5CC3",
+            "013F884CBCB1CBE4",
+            "41E806B7927291BE",
+            "496BF5ECB5F376CB",
+            "A07D2012213FC19D",
             "DF9E89A391CAC245",
             "657E5836BC932790",
             "7A1C43F91CF8A6FC",
             "60F1DDDCB555E319",
             "F7CAA2D4FF9D61F7",
-            "14F176D358D65A8B",
-            "8E3A5C15E42020BB",
-            "96442B84082D4DF5",
-            "508D99EBC9AB3A9B",
-            "FE56DD70DEDE0395",
-            "D2217D7746597D10"
+            "14F176D358D65A8B"
         ],
-        "fullFare":"14.3",
-        "journeyTime":"56",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8318",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0740"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        16
-                    ],
-                    "price":14.3
-                },
-                {
-                    "range":[
-                        6,
-                        16
-                    ],
-                    "price":7.4
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"87E",
@@ -78976,71 +78947,6 @@
         ]
     },
     {
-        "route":"261P",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Sheung Shui (Tin Ping)",
-        "orig_tc":"上水(天平)",
-        "orig_sc":"上水(天平)",
-        "dest_en":"Tuen Mun (Siu Hong Court)",
-        "dest_tc":"屯門(兆康苑)",
-        "dest_sc":"屯门(兆康苑)",
-        "co":"KMB",
-        "stops":[
-            "DF0C4F9561000773",
-            "EE775A73D626A46E",
-            "D417A444017171C6",
-            "53966A66C3108F4C",
-            "A856593C105D479B",
-            "EF43A73D4C0CC508",
-            "BB4F24A4C6A9B222",
-            "F61DB78CF72DB387",
-            "92A09EC9B712A1ED",
-            "4885700825A72F51",
-            "A1541789F09C89BA",
-            "D073CC71A1B4F79C",
-            "B64EEA7F564C7853",
-            "46D1A9FD1F84CA5C",
-            "E01BD8E1BEC29EA6",
-            "E16D49ECA536ECC6",
-            "896148008606A47A"
-        ],
-        "fullFare":"15.4",
-        "journeyTime":"65",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8608",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "31":[
-                    "1640"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        17
-                    ],
-                    "price":15.4
-                },
-                {
-                    "range":[
-                        5,
-                        17
-                    ],
-                    "price":5.7
-                }
-            ]
-        ]
-    },
-    {
         "route":"261S",
         "bound":"O",
         "service_type":"1",
@@ -79052,53 +78958,24 @@
         "dest_sc":"上水(天平)",
         "co":"KMB",
         "stops":[
-            "9F5B57C2FE7E786D",
-            "594A765BE3A43C73",
-            "16F5EB4168069F73",
-            "1F6BFDF34BABCE6A",
-            "19B569A51034271F",
-            "1AD9C759A42F9003",
-            "EB64718829DFC071",
-            "92A8D40E66E76F6B",
+            "E7DB3542B4676A88",
+            "B3B160F8F8017035",
+            "6AE148CA74FC4D53",
+            "C192BEF2264E0CC6",
+            "542CC0EC83BAEA01",
+            "840532B7C95DF870",
+            "33173A78A66E9FB9",
+            "F7BE579A89615965",
             "57E8A522E2C638FD",
             "9170FC8FFFD12204",
             "D2C1DACCC74B69C5",
             "4442A9A5E7FABAB8"
         ],
-        "fullFare":"16.9",
-        "journeyTime":"53",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8717",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0700"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        12
-                    ],
-                    "price":16.9
-                },
-                {
-                    "range":[
-                        9,
-                        12
-                    ],
-                    "price":4.3
-                }
-            ]
-        ]
+        "gtfsRouteKey":[],
+        "fullFare":"",
+        "journeyTime":"",
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"261X",
@@ -90540,11 +90417,57 @@
             "3FAC6C2592812331",
             "26A1D2969A15C3AF"
         ],
-        "gtfsRouteKey":[],
-        "fullFare":"",
-        "journeyTime":"",
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.5",
+        "journeyTime":"46",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1139",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "05:10:00|05:30:00|1200",
+                    "05:30:00|07:45:00|900",
+                    "07:45:00|16:25:00|1200",
+                    "16:25:00|16:40:00|900",
+                    "16:40:00|24:00:00|1200"
+                ],
+                "288":[
+                    "05:15:00|11:35:00|1200",
+                    "11:35:00|17:50:00|900",
+                    "17:50:00|19:10:00|1200",
+                    "19:10:00|19:40:00|900",
+                    "19:40:00|24:00:00|1200"
+                ],
+                "448":[
+                    "05:15:00|11:15:00|1200",
+                    "11:15:00|17:15:00|900",
+                    "17:15:00|23:35:00|1200",
+                    "23:35:00|24:00:00|1500"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        13
+                    ],
+                    "price":10.5
+                },
+                {
+                    "range":[
+                        1,
+                        9
+                    ],
+                    "price":5.1
+                }
+            ]
+        ]
     },
     {
         "route":"276B",
@@ -90573,11 +90496,60 @@
             "8D56DB404D264D5A",
             "744409C92DEBB74D"
         ],
-        "gtfsRouteKey":[],
-        "fullFare":"",
-        "journeyTime":"",
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.5",
+        "journeyTime":"46",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1139",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "06:10:00|06:35:00|1500",
+                    "06:35:00|06:55:00|1200",
+                    "06:55:00|07:25:00|900",
+                    "07:25:00|09:05:00|1200",
+                    "09:05:00|09:35:00|900",
+                    "09:35:00|17:15:00|1200",
+                    "17:15:00|18:30:00|900",
+                    "18:30:00|24:50:00|1200"
+                ],
+                "288":[
+                    "06:10:00|06:25:00|900",
+                    "06:25:00|12:45:00|1200",
+                    "12:45:00|18:45:00|900",
+                    "18:45:00|21:05:00|1200",
+                    "21:05:00|21:50:00|900",
+                    "21:50:00|24:50:00|1200"
+                ],
+                "448":[
+                    "06:10:00|12:10:00|1200",
+                    "12:10:00|18:10:00|900",
+                    "18:10:00|24:50:00|1200"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        14
+                    ],
+                    "price":10.5
+                },
+                {
+                    "range":[
+                        6,
+                        14
+                    ],
+                    "price":5.1
+                }
+            ]
+        ]
     },
     {
         "route":"276C",
@@ -120727,6 +120699,175 @@
                 }
             ]
         ]
+    },
+    {
+        "route":"B10",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Kwai Fong (Kwai Tsui Estate)",
+        "orig_tc":"葵芳(葵翠邨)",
+        "orig_sc":"葵芳(葵翠邨)",
+        "dest_en":"Huanggang Port",
+        "dest_tc":"皇崗口岸",
+        "dest_sc":"皇岗口岸",
+        "co":"KMB",
+        "stops":[
+            "376B94FDBA371A25",
+            "9E42D981C59B5762",
+            "E16B85415973C1A2",
+            "C9A6689E84F83D1A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"B10",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Huanggang Port",
+        "orig_tc":"皇崗口岸",
+        "orig_sc":"皇岗口岸",
+        "dest_en":"Kwai Fong (Kwai Tsui Estate)",
+        "dest_tc":"葵芳(葵翠邨)",
+        "dest_sc":"葵芳(葵翠邨)",
+        "co":"KMB",
+        "stops":[
+            "D7E9208A2B3A457A",
+            "3ECEF3B735084236",
+            "E45E7DB1786B6324",
+            "376B94FDBA371A25"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"B11",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Tin Fu",
+        "orig_tc":"天富",
+        "orig_sc":"天富",
+        "dest_en":"Huanggang Port",
+        "dest_tc":"皇崗口岸",
+        "dest_sc":"皇岗口岸",
+        "co":"KMB",
+        "stops":[
+            "D834EE67780F47CD",
+            "95BF1D17F9384903",
+            "8B1F380BC39C296A",
+            "86994D888EA44362",
+            "53009E652261F274",
+            "C5C4CC54C2C0A086",
+            "195C77D59929A348",
+            "A17734ECA4DFAC93",
+            "E01BA1321937DA5A",
+            "3BA8C0F8CA5D4DB0",
+            "0D98A0E934584FD0",
+            "B02B0B9F73E50D93",
+            "2FB355A2C89B7922",
+            "52656E6A7D0EB9E4",
+            "08594543968C22E3",
+            "176E8545D9036753",
+            "90EB316DB1182D86",
+            "C9A6689E84F83D1A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"B11",
+        "bound":"O",
+        "service_type":"3",
+        "orig_en":"Yuen Long Plaza",
+        "orig_tc":"元朗廣場",
+        "orig_sc":"元朗广场",
+        "dest_en":"Huanggang Port",
+        "dest_tc":"皇崗口岸",
+        "dest_sc":"皇岗口岸",
+        "co":"KMB",
+        "stops":[
+            "B02B0B9F73E50D93",
+            "2FB355A2C89B7922",
+            "52656E6A7D0EB9E4",
+            "08594543968C22E3",
+            "176E8545D9036753",
+            "90EB316DB1182D86",
+            "C9A6689E84F83D1A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"B11",
+        "bound":"I",
+        "service_type":"1",
+        "orig_en":"Huanggang Port",
+        "orig_tc":"皇崗口岸",
+        "orig_sc":"皇岗口岸",
+        "dest_en":"Tin Fu",
+        "dest_tc":"天富",
+        "dest_sc":"天富",
+        "co":"KMB",
+        "stops":[
+            "0E38C53383FCAC6C",
+            "BBDE4A93A0A5D7D3",
+            "14157BA5C06B0B6B",
+            "F63C4B8B958E9830",
+            "78AD2432201EF5EE",
+            "1B0FD9C27F5FE0BE",
+            "A010FE2C473103A8",
+            "70FEB409760C77EE",
+            "1D202282C0A82F12",
+            "D813C93D9AD1C45B",
+            "7BB395B6FE66E102",
+            "6D4E7B9D5F9584E7",
+            "47AB1894215AECEE",
+            "42AEF6365E78DA56",
+            "8753A8442C2FFF53",
+            "8D56DB404D264D5A",
+            "D834EE67780F47CD"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "route":"B11",
+        "bound":"I",
+        "service_type":"4",
+        "orig_en":"Huanggang Port",
+        "orig_tc":"皇崗口岸",
+        "orig_sc":"皇岗口岸",
+        "dest_en":"Yuen Long Tai Tong Road",
+        "dest_tc":"元朗大棠路",
+        "dest_sc":"元朗大棠路",
+        "co":"KMB",
+        "stops":[
+            "0E38C53383FCAC6C",
+            "BBDE4A93A0A5D7D3",
+            "14157BA5C06B0B6B",
+            "F63C4B8B958E9830",
+            "78AD2432201EF5EE"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"B9",
