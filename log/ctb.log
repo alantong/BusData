@@ -1,6 +1,6 @@
-10-Oct-26 22:15:17 | ctb - INFO - Start getting CTB routes
-10-Oct-26 22:16:14 | ctb - ERROR - Other error occurred: 'dest_sc'
-10-Oct-26 22:16:14 | ctb - ERROR - 'dest_sc'
+11-Oct-26 22:41:28 | ctb - INFO - Start getting CTB routes
+11-Oct-26 22:42:23 | ctb - ERROR - Other error occurred: 'dest_sc'
+11-Oct-26 22:42:23 | ctb - ERROR - 'dest_sc'
 Traceback (most recent call last):
   File "/home/runner/work/BusData/BusData/action/CTB_Route.py", line 103, in main
     ctbList += await asyncio.gather(*tasks)

@@ -39039,6 +39039,36 @@
         ]
     },
     {
+        "route":"73B",
+        "bound":"O",
+        "service_type":"4",
+        "orig_en":"Education University of Hong Kong",
+        "orig_tc":"香港教育大學",
+        "orig_sc":"香港教育大学",
+        "dest_en":"Sheung Shui Station",
+        "dest_tc":"上水站",
+        "dest_sc":"上水站",
+        "co":"KMB",
+        "stops":[
+            "A1A1CE1BACE1973D",
+            "43531EDD45A4B0C1",
+            "1A0BF02F827F6A20",
+            "9FDEEC09AD1B601B",
+            "0F3FA9B7D07A91F3",
+            "C837C3C549793472",
+            "9BE3D659E4C144D2",
+            "650809D260BC7C6E",
+            "F81DACC5F39E6D53",
+            "D417A444017171C6",
+            "D876A83244ECB838"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"73D",
         "bound":"O",
         "service_type":"1",
@@ -51628,13 +51658,47 @@
             "7A1C43F91CF8A6FC",
             "60F1DDDCB555E319",
             "F7CAA2D4FF9D61F7",
-            "14F176D358D65A8B"
+            "14F176D358D65A8B",
+            "8E3A5C15E42020BB",
+            "96442B84082D4DF5",
+            "508D99EBC9AB3A9B",
+            "FE56DD70DEDE0395",
+            "D2217D7746597D10"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"14.3",
+        "journeyTime":"56",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "8318",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0740"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        16
+                    ],
+                    "price":14.3
+                },
+                {
+                    "range":[
+                        6,
+                        16
+                    ],
+                    "price":7.4
+                }
+            ]
+        ]
     },
     {
         "route":"87E",
@@ -78950,9 +79014,9 @@
         "route":"261S",
         "bound":"O",
         "service_type":"1",
-        "orig_en":"Tuen Mun (Po Tin Estate)",
-        "orig_tc":"屯門(寶田邨)",
-        "orig_sc":"屯门(宝田邨)",
+        "orig_en":"Yip Wong Estate",
+        "orig_tc":"業旺邨",
+        "orig_sc":"业旺邨",
         "dest_en":"Sheung Shui (Tin Ping)",
         "dest_tc":"上水(天平)",
         "dest_sc":"上水(天平)",
@@ -78971,11 +79035,40 @@
             "D2C1DACCC74B69C5",
             "4442A9A5E7FABAB8"
         ],
-        "gtfsRouteKey":[],
-        "fullFare":"",
-        "journeyTime":"",
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"16.9",
+        "journeyTime":"53",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "8717",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0700"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        12
+                    ],
+                    "price":16.9
+                },
+                {
+                    "range":[
+                        9,
+                        12
+                    ],
+                    "price":4.3
+                }
+            ]
+        ]
     },
     {
         "route":"261X",
