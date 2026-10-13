@@ -13266,12 +13266,12 @@
         "co":"KMB"
     },
     {
-        "stop":"09A156B1A802D093",
-        "name_en":"Lai Chi Kok Station (SS467)",
-        "name_tc":"荔枝角站 (SS467)",
-        "name_sc":"荔枝角站 (SS467)",
-        "lat":"22.337617",
-        "long":"114.148799",
+        "stop":"33C03E27FEC4342F",
+        "name_en":"Lai Chi Kok Station (Ss467A)",
+        "name_tc":"荔枝角站 (SS467a)",
+        "name_sc":"荔枝角站 (SS467a)",
+        "lat":"22.338005",
+        "long":"114.149930",
         "co":"KMB"
     },
     {
@@ -21744,6 +21744,15 @@
         "co":"KMB"
     },
     {
+        "stop":"09A156B1A802D093",
+        "name_en":"Lai Chi Kok Station (SS467)",
+        "name_tc":"荔枝角站 (SS467)",
+        "name_sc":"荔枝角站 (SS467)",
+        "lat":"22.337617",
+        "long":"114.148799",
+        "co":"KMB"
+    },
+    {
         "stop":"E5EBA1D47BA06FCC",
         "name_en":"Pei Ho Street Sham Shui Po (SS492)",
         "name_tc":"深水埗北河街 (SS492)",
@@ -24840,15 +24849,6 @@
         "co":"KMB"
     },
     {
-        "stop":"EC19750840FFEDDC",
-        "name_en":"Mong Kok (Park Avenue) Bus Terminus (MK912)",
-        "name_tc":"旺角(柏景灣)總站 (MK912)",
-        "name_sc":"旺角(柏景湾)总站 (MK912)",
-        "lat":"22.315830",
-        "long":"114.163112",
-        "co":"KMB"
-    },
-    {
         "stop":"1EB0804A03908237",
         "name_en":"Yuen Long (West) Bus Terminus (YL943)",
         "name_tc":"元朗（西）總站 (YL943)",
@@ -24891,6 +24891,15 @@
         "name_sc":"尚豪庭 (YL211)",
         "lat":"22.449239",
         "long":"114.030961",
+        "co":"KMB"
+    },
+    {
+        "stop":"EC19750840FFEDDC",
+        "name_en":"Mong Kok (Park Avenue) Bus Terminus (MK912)",
+        "name_tc":"旺角(柏景灣)總站 (MK912)",
+        "name_sc":"旺角(柏景湾)总站 (MK912)",
+        "lat":"22.315830",
+        "long":"114.163112",
         "co":"KMB"
     },
     {
@@ -60104,8 +60113,8 @@
     {
         "stop":"06CC6423AA236B72",
         "name_en":"Popwalk",
-        "name_tc":"天晉滙",
-        "name_sc":"天晋滙",
+        "name_tc":"PopWalk 天晉滙",
+        "name_sc":"PopWalk 天晋滙",
         "lat":"22.303002",
         "long":"114.261429",
         "co":"KMB"
