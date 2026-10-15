@@ -4933,11 +4933,11 @@
     },
     {
         "stop":"001572",
-        "name_tc":"富豪東方酒店, 太子道東",
-        "name_en":"Regal Oriental Hotel, Prince Edward Road East",
+        "name_tc":"九龍城–衙前圍道, 太子道東",
+        "name_en":"Kowloon City - Nga Tsin Wai Road, Prince Edward Road East",
         "lat":"22.328494832091",
         "long":"114.19184067053",
-        "name_sc":"富豪东方酒店, 太子道东",
+        "name_sc":"九龙城–衙前围道, 太子道东",
         "co":"CTB"
     },
     {
@@ -4978,11 +4978,11 @@
     },
     {
         "stop":"001577",
-        "name_tc":"富豪東方酒店, 太子道東",
-        "name_en":"Regal Oriental Hotel, Prince Edward Road East",
+        "name_tc":"九龍城–宋皇臺遊樂場, 太子道東",
+        "name_en":"Kowloon City - Sung Wong Toi Playground, Prince Edward Road East",
         "lat":"22.327146622091",
         "long":"114.19053280053",
-        "name_sc":"富豪东方酒店, 太子道东",
+        "name_sc":"九龙城–宋皇台游乐场, 太子道东",
         "co":"CTB"
     },
     {
@@ -7525,10 +7525,19 @@
     },
     {
         "stop":"001876",
-        "name_tc":"海堤灣畔, 惠東路",
-        "name_en":"Seaview Crescent, Wai Tung Road",
+        "name_tc":"水藍‧天岸, 惠東路",
+        "name_en":"Le Bleu Deux, Wai Tung Road",
         "lat":"22.292406372091",
         "long":"113.94346964053",
+        "name_sc":"水蓝‧天岸, 惠东路",
+        "co":"CTB"
+    },
+    {
+        "stop":"001877",
+        "name_tc":"海堤灣畔, 惠東路",
+        "name_en":"Seaview Crescent, Wai Tung Road",
+        "lat":"22.292649352091",
+        "long":"113.94333097053",
         "name_sc":"海堤湾畔, 惠东路",
         "co":"CTB"
     },
@@ -7539,6 +7548,15 @@
         "lat":"22.290875862091",
         "long":"113.94592407053",
         "name_sc":"蓝天海岸, 文东路",
+        "co":"CTB"
+    },
+    {
+        "stop":"001879",
+        "name_tc":"東涌市政大樓, 文東路",
+        "name_en":"Tung Chung Municipal Services Building, Man Tung Road",
+        "lat":"22.290861262091",
+        "long":"113.94468508053",
+        "name_sc":"东涌市政大楼, 文东路",
         "co":"CTB"
     },
     {
@@ -7557,6 +7575,15 @@
         "lat":"22.293375402091",
         "long":"113.95181383053",
         "name_sc":"映湾园一期, 文东路",
+        "co":"CTB"
+    },
+    {
+        "stop":"001883",
+        "name_tc":"映灣園二期, 文東路",
+        "name_en":"Caribbean Coast Phase 2, Man Tung Road",
+        "lat":"22.292015762091",
+        "long":"113.95057658053",
+        "name_sc":"映湾园二期, 文东路",
         "co":"CTB"
     },
     {
@@ -9642,8 +9669,8 @@
         "stop":"002154",
         "name_tc":"天水圍站 - 聚星樓, 天福路",
         "name_en":"Tin Shui Wai Station - Tsui Sing Lau, Tin Fuk Road",
-        "lat":"22.449227892091",
-        "long":"114.00552973053",
+        "lat":"22.449265272091",
+        "long":"114.00547263053",
         "name_sc":"天水围站 - 聚星楼, 天福路",
         "co":"CTB"
     },
@@ -10593,15 +10620,6 @@
         "co":"CTB"
     },
     {
-        "stop":"002265",
-        "name_tc":"赤柱正灘, 赤柱灘道",
-        "name_en":"Stanley Main Beach, Stanley Beach Road",
-        "lat":"22.220708302091",
-        "long":"114.21366406053",
-        "name_sc":"赤柱正滩, 赤柱滩道",
-        "co":"CTB"
-    },
-    {
         "stop":"002266",
         "name_tc":"赤柱峽道交匯處, 赤柱峽道",
         "name_en":"Stanley Gap Road Interchange, Stanley Gap Road",
@@ -10776,8 +10794,8 @@
         "stop":"002285",
         "name_tc":"美國會所, 大潭道",
         "name_en":"The American Club, Tai Tam Road",
-        "lat":"22.227573492091",
-        "long":"114.21743192053",
+        "lat":"22.227604522091",
+        "long":"114.21744399053",
         "name_sc":"美国会所, 大潭道",
         "co":"CTB"
     },
@@ -10821,8 +10839,8 @@
         "stop":"002290",
         "name_tc":"大潭郊野公園, 大潭道",
         "name_en":"Tai Tam Country Park, Tai Tam Road",
-        "lat":"22.239578832091",
-        "long":"114.22141702053",
+        "lat":"22.239590912091",
+        "long":"114.22141999053",
         "name_sc":"大潭郊野公园, 大潭道",
         "co":"CTB"
     },
@@ -10839,8 +10857,8 @@
         "stop":"002292",
         "name_tc":"龜背灣, 大潭道",
         "name_en":"Turtle Cove, Tai Tam Road",
-        "lat":"22.235392072091",
-        "long":"114.22299117053",
+        "lat":"22.235417572091",
+        "long":"114.22298762053",
         "name_sc":"龟背湾, 大潭道",
         "co":"CTB"
     },
@@ -10848,8 +10866,8 @@
         "stop":"002293",
         "name_tc":"大潭水塘 (北), 大潭道",
         "name_en":"Tai Tam Reservoir (North), Tai Tam Road",
-        "lat":"22.246572512091",
-        "long":"114.22116928053",
+        "lat":"22.246545802091",
+        "long":"114.22117045053",
         "name_sc":"大潭水塘 (北), 大潭道",
         "co":"CTB"
     },
@@ -11658,8 +11676,8 @@
         "stop":"002392",
         "name_tc":"數碼港",
         "name_en":"Cyberport",
-        "lat":"22.261996412091",
-        "long":"114.13067455053",
+        "lat":"22.261985192091",
+        "long":"114.13067185053",
         "name_sc":"数码港",
         "co":"CTB"
     },
@@ -14067,6 +14085,15 @@
         "co":"CTB"
     },
     {
+        "stop":"002710",
+        "name_tc":"映灣園四期, 文東路",
+        "name_en":"Caribbean Coast Phase 4, Man Tung Road",
+        "lat":"22.290886472091",
+        "long":"113.94789905053",
+        "name_sc":"映湾园四期, 文东路",
+        "co":"CTB"
+    },
+    {
         "stop":"002711",
         "name_tc":"荷里活廣場, 上元街",
         "name_en":"Plaza Hollywood, Sheung Yuen Street",
@@ -15636,8 +15663,8 @@
         "stop":"002920",
         "name_tc":"MEGA Plus 數據中心, 環保大道",
         "name_en":"MEGA Plus Data Centre, Wan Po Road",
-        "lat":"22.295046272091",
-        "long":"114.27357326053",
+        "lat":"22.294330742091",
+        "long":"114.27361222053",
         "name_sc":"MEGA Plus 数据中心, 环保大道",
         "co":"CTB"
     },
@@ -16687,11 +16714,11 @@
     },
     {
         "stop":"003044",
-        "name_tc":"曉光街遊樂場, 曉光街",
-        "name_en":"Hiu Kwong Street Recreation Ground, Hiu Kwong Street",
+        "name_tc":"曉茵邨, 曉光街",
+        "name_en":"Hiu Yan Estate, Hiu Kwong Street",
         "lat":"22.316994862091",
         "long":"114.23157810053",
-        "name_sc":"晓光街游乐场, 晓光街",
+        "name_sc":"晓茵邨, 晓光街",
         "co":"CTB"
     },
     {
@@ -17889,6 +17916,15 @@
         "lat":"22.394995922091",
         "long":"113.97002599053",
         "name_sc":"屯门消防局, 杯渡路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003218",
+        "name_tc":"屯門站-德政圍, 屯門鄉事會路",
+        "name_en":"Tuen Mun Station - Tak Ching Court, Tuen Mun Heung Sze Wui Road",
+        "lat":"22.394877512091",
+        "long":"113.97465955053",
+        "name_sc":"屯门站-德政围, 屯门乡事会路",
         "co":"CTB"
     },
     {
@@ -20901,8 +20937,8 @@
         "stop":"003623",
         "name_tc":"新田",
         "name_en":"San Tin",
-        "lat":"22.503013232091",
-        "long":"114.08237315053",
+        "lat":"22.503090932091",
+        "long":"114.08205956053",
         "name_sc":"新田",
         "co":"CTB"
     },
@@ -20991,8 +21027,8 @@
         "stop":"003633",
         "name_tc":"大圍站",
         "name_en":"Tai Wai Station",
-        "lat":"22.373308812091",
-        "long":"114.18015964053",
+        "lat":"22.373117182091",
+        "long":"114.18056626053",
         "name_sc":"大围站",
         "co":"CTB"
     },
@@ -22134,8 +22170,8 @@
         "stop":"003785",
         "name_tc":"日出康城晉海, 環澳路",
         "name_en":"Wings At Sea LOHAS Park, Wan O Road",
-        "lat":"22.291945652091",
-        "long":"114.27221086053",
+        "lat":"22.291941162091",
+        "long":"114.27204328053",
         "name_sc":"日出康城晋海, 环澳路",
         "co":"CTB"
     },
@@ -22915,11 +22951,11 @@
     },
     {
         "stop":"003891",
-        "name_tc":"啟德橋道",
-        "name_en":"Kai Tak Bridge Road",
+        "name_tc":"啟德海灣, 啟德橋道",
+        "name_en":"KT Marina, Kai Tak Bridge Road",
         "lat":"22.315110132091",
         "long":"114.20584970053",
-        "name_sc":"启德桥道",
+        "name_sc":"启德海湾, 启德桥道",
         "co":"CTB"
     },
     {
@@ -22960,20 +22996,20 @@
     },
     {
         "stop":"003901",
-        "name_tc":"啟德橋道",
-        "name_en":"Kai Tak Bridge Road",
+        "name_tc":"Double Coast, 啟德橋道",
+        "name_en":"Double Coast, Kai Tak Bridge Road",
         "lat":"22.314973322091",
         "long":"114.20599249053",
-        "name_sc":"启德桥道",
+        "name_sc":"Double Coast, 启德桥道",
         "co":"CTB"
     },
     {
         "stop":"003907",
-        "name_tc":"承景街, 承豐道",
-        "name_en":"Shing King Street, Shing Fung Road",
+        "name_tc":"柏蔚森, 承豐道",
+        "name_en":"The Pavilia Forest, Shing Fung Road",
         "lat":"22.309001612091",
         "long":"114.21109520053",
-        "name_sc":"承景街, 承丰道",
+        "name_sc":"柏蔚森, 承丰道",
         "co":"CTB"
     },
     {
@@ -22983,6 +23019,15 @@
         "lat":"22.322983052091",
         "long":"114.21160891053",
         "name_sc":"德福广场, 伟业街",
+        "co":"CTB"
+    },
+    {
+        "stop":"003909",
+        "name_tc":"裕雅苑雅昌閣, 迎禧路",
+        "name_en":"Nga Cheong House Yu Nga Court, Ying Hei Road",
+        "lat":"22.294270732091",
+        "long":"113.94783425053",
+        "name_sc":"裕雅苑雅昌阁, 迎禧路",
         "co":"CTB"
     },
     {
@@ -23050,11 +23095,11 @@
     },
     {
         "stop":"003932",
-        "name_tc":"宋皇臺站, 世運道",
-        "name_en":"Sung Wong Toi Station, Olympic Avenue",
-        "lat":"22.326877152091",
-        "long":"114.19056909053",
-        "name_sc":"宋皇台站, 世运道",
+        "name_tc":"宋皇臺站 - D出口, 世運道",
+        "name_en":"Sung Wong Toi Station - Exit D, Olympic Avenue",
+        "lat":"22.326644792091",
+        "long":"114.19040360053",
+        "name_sc":"宋皇台站 - D出口, 世运道",
         "co":"CTB"
     },
     {
@@ -23068,20 +23113,20 @@
     },
     {
         "stop":"003934",
-        "name_tc":"啟德簡約公屋, 世運道",
-        "name_en":"Kai Tak Light Public Housing, Olympic Avenue",
-        "lat":"22.330079012091",
-        "long":"114.19453594053",
-        "name_sc":"启德简约公屋, 世运道",
+        "name_tc":"啟德(世運道)",
+        "name_en":"Kai Tak (Olympic Avenue)",
+        "lat":"22.330305552091",
+        "long":"114.19478573053",
+        "name_sc":"启德(世运道)",
         "co":"CTB"
     },
     {
         "stop":"003935",
-        "name_tc":"宋皇臺站, 世運道",
-        "name_en":"Sung Wong Toi Station, Olympic Avenue",
+        "name_tc":"宋皇臺站 - D出口, 世運道",
+        "name_en":"Sung Wong Toi Station - Exit D, Olympic Avenue",
         "lat":"22.326008552091",
         "long":"114.19027220053",
-        "name_sc":"宋皇台站, 世运道",
+        "name_sc":"宋皇台站 - D出口, 世运道",
         "co":"CTB"
     },
     {
@@ -23094,11 +23139,20 @@
         "co":"CTB"
     },
     {
+        "stop":"003939",
+        "name_tc":"皇崗口岸",
+        "name_en":"Huanggang Port",
+        "lat":"22.523333752091",
+        "long":"114.06741380053",
+        "name_sc":"皇岗口岸",
+        "co":"CTB"
+    },
+    {
         "stop":"003943",
         "name_tc":"翔東邨",
         "name_en":"Cheung Tung Estate",
-        "lat":"22.297482882091",
-        "long":"113.95219196053",
+        "lat":"22.297419642091",
+        "long":"113.95197065053",
         "name_sc":"翔东邨",
         "co":"CTB"
     },
@@ -23109,6 +23163,33 @@
         "lat":"22.298947352091",
         "long":"113.95154865053",
         "name_sc":"裕丰苑, 汇东街",
+        "co":"CTB"
+    },
+    {
+        "stop":"003945",
+        "name_tc":"裕豐苑, 匯東街",
+        "name_en":"Yu Fung Court, Wui Tung Street",
+        "lat":"22.299172552091",
+        "long":"113.95173863053",
+        "name_sc":"裕丰苑, 汇东街",
+        "co":"CTB"
+    },
+    {
+        "stop":"003949",
+        "name_tc":"東環, 迎禧路",
+        "name_en":"Century Link, Ying Hei Road",
+        "lat":"22.294561672091",
+        "long":"113.95044356053",
+        "name_sc":"东环, 迎禧路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003950",
+        "name_tc":"迎東邨, 迎東路",
+        "name_en":"Ying Tung Estate, Ying Tung Road",
+        "lat":"22.297138412091",
+        "long":"113.95326942053",
+        "name_sc":"迎东邨, 迎东路",
         "co":"CTB"
     },
     {
@@ -23163,6 +23244,105 @@
         "lat":"22.314080342091",
         "long":"114.18160314053",
         "name_sc":"冠晖苑, 佛光街",
+        "co":"CTB"
+    },
+    {
+        "stop":"003973",
+        "name_tc":"安定邨, 屯門鄉事會路",
+        "name_en":"On Ting Estate, Tuen Mun Heung Sze Wui Road",
+        "lat":"22.387587812091",
+        "long":"113.97531957053",
+        "name_sc":"安定邨, 屯门乡事会路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003974",
+        "name_tc":"兆麟苑, 屯門鄉事會路",
+        "name_en":"Siu Lun Court, Tuen Mun Heung Sze Wui Road",
+        "lat":"22.384762162091",
+        "long":"113.97532158053",
+        "name_sc":"兆麟苑, 屯门乡事会路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003975",
+        "name_tc":"友愛邨, 屯門鄉事會路",
+        "name_en":"Yau Oi Estate, Tuen Mun Heung Sze Wui Road",
+        "lat":"22.387626122091",
+        "long":"113.97513788053",
+        "name_sc":"友爱邨, 屯门乡事会路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003976",
+        "name_tc":"屯門(青山灣)",
+        "name_en":"Tuen Mun (Castle Peak Bay)",
+        "lat":"22.379724452091",
+        "long":"113.98056903053",
+        "name_sc":"屯门(青山湾)",
+        "co":"CTB"
+    },
+    {
+        "stop":"003977",
+        "name_tc":"洪福邨, 洪天路",
+        "name_en":"Hung Fuk Estate, Hung Tin Road",
+        "lat":"22.437582932091",
+        "long":"113.99892201053",
+        "name_sc":"洪福邨, 洪天路",
+        "co":"CTB"
+    },
+    {
+        "stop":"003978",
+        "name_tc":"曉茵邨, 曉光街",
+        "name_en":"Hiu Yan Estate, Hiu Kwong Street",
+        "lat":"22.316528042091",
+        "long":"114.23171714053",
+        "name_sc":"晓茵邨, 晓光街",
+        "co":"CTB"
+    },
+    {
+        "stop":"003988",
+        "name_tc":"顯發邨, 青山公路 - 青山灣段",
+        "name_en":"Hin Fat Estate, Castle Peak Road - Castle Peak Bay",
+        "lat":"22.389337462091",
+        "long":"113.98031782053",
+        "name_sc":"显发邨, 青山公路 - 青山湾段",
+        "co":"CTB"
+    },
+    {
+        "stop":"003989",
+        "name_tc":"青發街簡約公屋",
+        "name_en":"Tsing Fat Street Light Public Housing",
+        "lat":"22.363659902091",
+        "long":"113.99984147053",
+        "name_sc":"青发街简约公屋",
+        "co":"CTB"
+    },
+    {
+        "stop":"003999",
+        "name_tc":"啟德醫院專科門診大樓, 承昌道",
+        "name_en":"Kai Tak Hospital SOP Clinic Block, Shing Cheong Road",
+        "lat":"22.318320402091",
+        "long":"114.20665734053",
+        "name_sc":"启德医院专科门诊大楼, 承昌道",
+        "co":"CTB"
+    },
+    {
+        "stop":"004000",
+        "name_tc":"啟德醫院腫瘤科大樓, 承昌道",
+        "name_en":"Kai Tak Hospital Oncology Block, Shing Cheong Road",
+        "lat":"22.317605992091",
+        "long":"114.20737372053",
+        "name_sc":"启德医院肿瘤科大楼, 承昌道",
+        "co":"CTB"
+    },
+    {
+        "stop":"004004",
+        "name_tc":"菁田邨",
+        "name_en":"Ching Tin Estate",
+        "lat":"22.413090922091",
+        "long":"113.97230630053",
+        "name_sc":"菁田邨",
         "co":"CTB"
     }
 ]
