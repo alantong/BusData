@@ -52,10 +52,14 @@ async def getStopList(client, route, bound):
     stopList = []
     stopListUrl = f"{stopListBaseUrl}{route['route']}/{bound}"
     newRoute = route.copy()
-    if(bound == 'inbound') :
-        newRoute['orig_tc'], newRoute['dest_tc'] = newRoute['dest_tc'], newRoute['orig_tc']
-        newRoute['orig_en'], newRoute['dest_en'] = newRoute['dest_en'], newRoute['orig_en']
-        newRoute['orig_sc'], newRoute['dest_sc'] = newRoute['dest_sc'], newRoute['orig_sc']
+    
+    if bound == 'inbound':
+        if 'orig_tc' in newRoute and 'dest_tc' in newRoute:
+            newRoute['orig_tc'], newRoute['dest_tc'] = newRoute['dest_tc'], newRoute['orig_tc']
+        if 'orig_en' in newRoute and 'dest_en' in newRoute:
+            newRoute['orig_en'], newRoute['dest_en'] = newRoute['dest_en'], newRoute['orig_en']
+        if 'orig_sc' in newRoute and 'dest_sc' in newRoute:
+            newRoute['orig_sc'], newRoute['dest_sc'] = newRoute['dest_sc'], newRoute['orig_sc']
 
     stopListResponse = await GetRoute.async_get_with_retry(client, stopListUrl, timeout=30.0)
     stopListObject = stopListResponse.json()
