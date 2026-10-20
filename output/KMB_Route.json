@@ -49601,13 +49601,60 @@
             "5396072459507B7F",
             "C048D4CF6ED36C7A",
             "68A8F08ABC5C90F0",
-            "91929D42214F3D7F"
+            "91929D42214F3D7F",
+            "97B7EC0354E020B7",
+            "ED03E689B88CE0E8",
+            "B122FA4A77BABF24",
+            "B452F1514B4FEE40"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.9",
+        "journeyTime":"64",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000533",
+                "1"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "0715"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        24
+                    ],
+                    "price":10.9
+                },
+                {
+                    "range":[
+                        10,
+                        24
+                    ],
+                    "price":8.6
+                },
+                {
+                    "range":[
+                        11,
+                        24
+                    ],
+                    "price":7.4
+                },
+                {
+                    "range":[
+                        23,
+                        24
+                    ],
+                    "price":5.6
+                }
+            ]
+        ]
     },
     {
         "route":"85P",
@@ -49644,13 +49691,53 @@
             "4B5F39DBC6671C81",
             "4CC126E0B1E42F14",
             "A90443FD0C19C4B1",
-            "9AD30F8EDBC3F139"
+            "9AD30F8EDBC3F139",
+            "1E471172708B5C5D",
+            "2479788748627B65",
+            "2C5CA5F47FB6EB3F",
+            "B493CF03406C0B5E"
         ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
+        "fullFare":"10.9",
+        "journeyTime":"64",
+        "gtfsRouteKey":[
+            [
+                "KMB",
+                "1000533",
+                "2"
+            ]
+        ],
+        "freq":[
+            {
+                "287":[
+                    "1745"
+                ]
+            }
+        ],
+        "sectionFare":[
+            [
+                {
+                    "range":[
+                        1,
+                        24
+                    ],
+                    "price":10.9
+                },
+                {
+                    "range":[
+                        15,
+                        24
+                    ],
+                    "price":7.4
+                },
+                {
+                    "range":[
+                        16,
+                        24
+                    ],
+                    "price":5.1
+                }
+            ]
+        ]
     },
     {
         "route":"85S",
