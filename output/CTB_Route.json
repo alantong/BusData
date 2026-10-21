@@ -72031,6 +72031,47 @@
     },
     {
         "co":"CTB",
+        "route":"SP12",
+        "orig_tc":"啟德體育園",
+        "orig_en":"Kai Tak Sports Park",
+        "dest_tc":"皇崗口岸",
+        "dest_en":"Huanggang Port",
+        "orig_sc":"启德体育园",
+        "dest_sc":"皇岗口岸",
+        "stops":[
+            "003874",
+            "003939"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "co":"CTB",
+        "route":"SP2",
+        "orig_tc":"啟德體育園",
+        "orig_en":"Kai Tak Sports Park",
+        "dest_tc":"旺角",
+        "dest_en":"Mong Kok",
+        "orig_sc":"启德体育园",
+        "dest_sc":"旺角",
+        "stops":[
+            "003874",
+            "003692",
+            "001559"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
+        "co":"CTB",
         "route":"SP2A",
         "orig_tc":"啟德體育園",
         "orig_en":"Kai Tak Sports Park",
