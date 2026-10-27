@@ -27275,7 +27275,6 @@
             "30B08A7B2B2B623F",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
             "835DE31CDA7EBEC9"
         ],
         "fullFare":"14.6",
@@ -27335,50 +27334,6 @@
         ]
     },
     {
-        "route":"52S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tuen Mun Road BBI",
-        "orig_tc":"屯門公路轉車站",
-        "orig_sc":"屯门公路转车站",
-        "dest_en":"Tsang Tsui",
-        "dest_tc":"曾咀",
-        "dest_sc":"曾咀",
-        "co":"KMB",
-        "stops":[
-            "D0937674DF369B23",
-            "09A5D5C90F15C08C",
-            "D6001B758148778A"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"52S",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Tsang Tsui",
-        "orig_tc":"曾咀",
-        "orig_sc":"曾咀",
-        "dest_en":"Tuen Mun Road BBI",
-        "dest_tc":"屯門公路轉車站",
-        "dest_sc":"屯门公路转车站",
-        "co":"KMB",
-        "stops":[
-            "D6001B758148778A",
-            "76441824D4E31948",
-            "212BFF5737D0116C"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"52X",
         "bound":"O",
         "service_type":"1",
@@ -27429,7 +27384,6 @@
             "996EC6B4E40A2E4A",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
             "835DE31CDA7EBEC9"
         ],
         "fullFare":"14.6",
@@ -28120,52 +28074,6 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"56S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tuen Mun Station",
-        "orig_tc":"屯門站",
-        "orig_sc":"屯门站",
-        "dest_en":"Tsang Tsui",
-        "dest_tc":"曾咀",
-        "dest_sc":"曾咀",
-        "co":"KMB",
-        "stops":[
-            "584E6744385F6463",
-            "C1BF4509359B0895",
-            "09A5D5C90F15C08C",
-            "F64076F7E14E38D4"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"56S",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Tsang Tsui",
-        "orig_tc":"曾咀",
-        "orig_sc":"曾咀",
-        "dest_en":"Tuen Mun Station",
-        "dest_tc":"屯門站",
-        "dest_sc":"屯门站",
-        "co":"KMB",
-        "stops":[
-            "F64076F7E14E38D4",
-            "76441824D4E31948",
-            "5D14B75687F60509",
-            "584E6744385F6463"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "route":"57M",
@@ -35352,7 +35260,6 @@
             "30B08A7B2B2B623F",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
             "EC19750840FFEDDC"
         ],
         "fullFare":"16.2",
@@ -35467,7 +35374,6 @@
             "30B08A7B2B2B623F",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
             "EC19750840FFEDDC"
         ],
         "fullFare":"16.2",
@@ -35553,7 +35459,6 @@
             "30B08A7B2B2B623F",
             "7ADC6D521E6BECE6",
             "E02E10C9135624F9",
-            "145515B1D2C60CAF",
             "EC19750840FFEDDC"
         ],
         "fullFare":"16.2",
@@ -35824,7 +35729,7 @@
             "C480A2E59BC05FB0",
             "71D916F7E97D18A3",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "63DF37D89C356A04",
             "1A52AD7D8F64311F"
@@ -72748,8 +72653,8 @@
         "bound":"I",
         "service_type":"1",
         "orig_en":"Kwun Tong (Tsui Ping North Estate)",
-        "orig_tc":"觀塘(翠屏北邨",
-        "orig_sc":"观塘(翠屏北邨",
+        "orig_tc":"觀塘(翠屏北邨)",
+        "orig_sc":"观塘(翠屏北邨)",
         "dest_en":"Tsing Lung Tau",
         "dest_tc":"青龍頭",
         "dest_sc":"青龙头",
@@ -80076,7 +79981,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "A00D00FC2F4F8400",
             "C052B4D46E1F48EA",
@@ -80244,7 +80149,6 @@
             "5CA7841E84D52C8A",
             "22138E6C8051FDBD",
             "405DE12B9200AD9F",
-            "145515B1D2C60CAF",
             "FC3C8F9B155E41DE"
         ],
         "fullFare":"17.2",
@@ -84076,7 +83980,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "498C8934EAACBE51"
         ],
@@ -90675,7 +90579,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "744409C92DEBB74D"
         ],
@@ -120719,7 +120623,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "A00D00FC2F4F8400",
             "080EF1BEA737A5D3",
@@ -121190,7 +121094,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "D834EE67780F47CD"
         ],
@@ -128147,7 +128051,7 @@
             "6D4E7B9D5F9584E7",
             "47AB1894215AECEE",
             "42AEF6365E78DA56",
-            "BA9166F11C8D446E",
+            "8753A8442C2FFF53",
             "8D56DB404D264D5A",
             "67D80F37744E1277",
             "080EF1BEA737A5D3",
