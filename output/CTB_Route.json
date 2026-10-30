@@ -13061,7 +13061,11 @@
             "003534",
             "003535",
             "003907",
-            "003519"
+            "003519",
+            "003790",
+            "003520",
+            "003890",
+            "003877"
         ],
         "bound":"O",
         "fullFare":"7.3|7.3",
@@ -59076,6 +59080,29 @@
                 }
             ]
         ]
+    },
+    {
+        "co":"CTB",
+        "route":"B13S",
+        "orig_tc":"中環(皇后像廣場)",
+        "orig_en":"Central (Statue Square)",
+        "dest_tc":"皇崗口岸",
+        "dest_en":"Huanggang Port",
+        "orig_sc":"中环(皇后像广场)",
+        "dest_sc":"皇岗口岸",
+        "stops":[
+            "001034",
+            "001036",
+            "001038",
+            "001628",
+            "003939"
+        ],
+        "bound":"O",
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "co":"CTB",
