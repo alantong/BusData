@@ -120963,6 +120963,29 @@
         ]
     },
     {
+        "route":"B10S",
+        "bound":"O",
+        "service_type":"1",
+        "orig_en":"Kwai Fong (Kwai Tsui Estate)",
+        "orig_tc":"葵芳(葵翠邨)",
+        "orig_sc":"葵芳(葵翠邨)",
+        "dest_en":"Huanggang Port",
+        "dest_tc":"皇崗口岸",
+        "dest_sc":"皇岗口岸",
+        "co":"KMB",
+        "stops":[
+            "376B94FDBA371A25",
+            "9E42D981C59B5762",
+            "E16B85415973C1A2",
+            "C9A6689E84F83D1A"
+        ],
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
+    },
+    {
         "route":"B11",
         "bound":"O",
         "service_type":"1",
