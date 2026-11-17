@@ -2822,31 +2822,6 @@
         ]
     },
     {
-        "route":"3S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Diamond Hill Station",
-        "orig_tc":"鑽石山站",
-        "orig_sc":"钻石山站",
-        "dest_en":"Diamond Hill Cemetery (Circular)",
-        "dest_tc":"鑽石山墳場(循環線)",
-        "dest_sc":"钻石山坟场(循环线)",
-        "co":"KMB",
-        "stops":[
-            "046E0C931956561B",
-            "88E23CD2F1AB7AF9",
-            "63E6DD5119A301AD",
-            "0E418F17EB45AC02",
-            "AFB03B10416E2199",
-            "046E0C931956561B"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"3X",
         "bound":"O",
         "service_type":"1",
@@ -9715,28 +9690,6 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"14S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Yau Tong (Lei Yue Mun Road)",
-        "orig_tc":"油塘(鯉魚門道)",
-        "orig_sc":"油塘(鲤鱼门道)",
-        "dest_en":"Tseung Kwan O Chinese Permanent Cemetery(Circular)",
-        "dest_tc":"將軍澳墳場(循環線)",
-        "dest_sc":"将军澳坟场(循环线)",
-        "co":"KMB",
-        "stops":[
-            "74CBD919F18ACF61",
-            "2F7B146C55B013F8",
-            "E0EEA7891A0FCD50"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "route":"14X",
@@ -41866,85 +41819,6 @@
         ]
     },
     {
-        "route":"74S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Ping Tin",
-        "orig_tc":"平田",
-        "orig_sc":"平田",
-        "dest_en":"Wo Hop Shek",
-        "dest_tc":"和合石",
-        "dest_sc":"和合石",
-        "co":"KMB",
-        "stops":[
-            "657899B3C4E4F4A5",
-            "9D676B8892807F9D",
-            "6491C7B3E4DAD76D",
-            "1107CC28F2631CCB",
-            "3EF537320681EE89",
-            "2EF9764BE18FC290",
-            "5B04604E989BBDF0",
-            "F36DEB05146E271D",
-            "3CA81FA2944B754D",
-            "C9A46DDC082BAEE0",
-            "ABF9301D1E5B52ED",
-            "266A4CDA19461A42",
-            "8C79BE154468AE21",
-            "26A996F589C84844",
-            "F374B56E275194D8",
-            "AD0B5EFA2471962C",
-            "E47CD422B33E5BE7",
-            "7917BB962CCB11C0",
-            "BE4DB8D578A94BEF",
-            "EFED59E880B693F5",
-            "AA5CBDB0758443A9"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"74S",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Wo Hop Shek",
-        "orig_tc":"和合石",
-        "orig_sc":"和合石",
-        "dest_en":"Ping Tin",
-        "dest_tc":"平田",
-        "dest_sc":"平田",
-        "co":"KMB",
-        "stops":[
-            "AA5CBDB0758443A9",
-            "326199D24220A42B",
-            "C847B9021C407731",
-            "5536C9E3A0CE1228",
-            "96A6FE5F07BDF203",
-            "5D1E6432755E4F5F",
-            "4A8AAC7402C3F60F",
-            "BA03816A38B9DA7F",
-            "4BD5CE5106BB0697",
-            "6465DE9EE57F6C94",
-            "3E73B73B12E25DCF",
-            "CF579AAA2A4E506C",
-            "0B8C52E4C34E3B64",
-            "144E9479168069DD",
-            "7459D3AB11AFD6B5",
-            "3CB982FBC9E50AAA",
-            "F49FA120DE5E6582",
-            "23727783D2D3E994",
-            "EF17FDCDDF170D38",
-            "657899B3C4E4F4A5"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"74X",
         "bound":"O",
         "service_type":"1",
@@ -55218,77 +55092,6 @@
                         11
                     ],
                     "price":7.1
-                }
-            ]
-        ]
-    },
-    {
-        "route":"91R",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Clear Water Bay",
-        "orig_tc":"清水灣",
-        "orig_sc":"清水湾",
-        "dest_en":"Tseung Kwan O (Choi Ming)",
-        "dest_tc":"將軍澳(彩明)",
-        "dest_sc":"将军澳(彩明)",
-        "co":"KMB",
-        "stops":[
-            "440AEE375A242B6D",
-            "55950D2113A80E72",
-            "31C7E8E4A4626178",
-            "F7EE3594526686DB",
-            "80D6E715DA51CA02",
-            "225FBE9D52AD0ED2",
-            "2A62A6244F598604",
-            "0CF0429A4BEE8F4C",
-            "F937BECF8C53EEF3",
-            "EA5AF653CB5975F8",
-            "7BFE214AF3036D86",
-            "5B4EE863B18FED7D",
-            "8353D95EF9733231",
-            "511D1F0A4F2B25C0",
-            "C9E33E7E7EDAA459",
-            "5016E25156D72ADA",
-            "10590D40479607E8",
-            "54FCA9F5D8F3587E",
-            "711927A9FAEF1158",
-            "F09FF6C6349030C6",
-            "D13C7436B13B4A4B",
-            "C37E7CF06680272D",
-            "26F23B1B4A5AB703",
-            "938667F4F953DFCA"
-        ],
-        "fullFare":"12.5",
-        "journeyTime":"30",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8263",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0815"
-                ],
-                "448":[
-                    "1700",
-                    "1740",
-                    "1820",
-                    "1900"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        24
-                    ],
-                    "price":12.5
                 }
             ]
         ]
@@ -93255,79 +93058,6 @@
         ]
     },
     {
-        "route":"279S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tsing Yi (Cheung Ching Estate)",
-        "orig_tc":"青衣(長青邨)",
-        "orig_sc":"青衣(长青邨)",
-        "dest_en":"Wo Hop Shek",
-        "dest_tc":"和合石",
-        "dest_sc":"和合石",
-        "co":"KMB",
-        "stops":[
-            "5C0F112F92069F2B",
-            "1A37A52F97A04C81",
-            "196A1E44C305C174",
-            "13458794A52910B0",
-            "67DFAB691BECE339",
-            "6D016EBFA090D535",
-            "04D3244DD2B38746",
-            "59B81980AC8F7878",
-            "1FEDF7B1A82A432A",
-            "143D7489C808BD46",
-            "F4FC91D18962C4D0",
-            "624D05A1E7A5A045",
-            "716E50EBD1CD72B4",
-            "40339B0E8404A2B9",
-            "A7E87E8D797D1A52",
-            "132584D5CB2235BC",
-            "A60AE774B09A5E44",
-            "03D5CB9EBB6602B2",
-            "C8276DF869656712",
-            "777B5D8A34B8F690"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"279S",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Wo Hop Shek",
-        "orig_tc":"和合石",
-        "orig_sc":"和合石",
-        "dest_en":"Tsing Yi (Cheung Ching Estate)",
-        "dest_tc":"青衣(長青邨)",
-        "dest_sc":"青衣(长青邨)",
-        "co":"KMB",
-        "stops":[
-            "777B5D8A34B8F690",
-            "0E61C7B5C90B8CAF",
-            "CE2E93A0D850F21F",
-            "8F3D9EAD0B849330",
-            "7F8529494720703C",
-            "6E22023A7DF1B381",
-            "68DE9CB8E6AE046C",
-            "D6E7412666B1175B",
-            "AB87BD2749FFEACA",
-            "43398296F1D1BD48",
-            "65D1B50CC2E45985",
-            "67F3E54FF145BA65",
-            "F93448A5F1168FB1",
-            "DFB7FD5832A4BA4E",
-            "5C0F112F92069F2B"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"279X",
         "bound":"O",
         "service_type":"1",
@@ -101619,7 +101349,7 @@
         "stops":[
             "E30B8672A91A50B9",
             "E74202351AF7F37D",
-            "9DA98A5E3914E2E3",
+            "16CE9E8D17681839",
             "92C62E07455F7C6C",
             "1FFFFBAE28F48D03",
             "CCBCD7F613287BC8",
@@ -101968,7 +101698,7 @@
             "50C82DFB0AC97FC8",
             "B7EE8C907E1E50C0",
             "E74202351AF7F37D",
-            "9DA98A5E3914E2E3",
+            "16CE9E8D17681839",
             "92C62E07455F7C6C",
             "1FFFFBAE28F48D03",
             "CCBCD7F613287BC8",
@@ -104490,7 +104220,7 @@
             "CDA6257743B1D479",
             "3007D34FB91FB27E",
             "60012869923EEE68",
-            "16CE9E8D17681839",
+            "9DA98A5E3914E2E3",
             "A71457854D13E9DE",
             "AC1E2BBDC663717F",
             "A07CC0A6D462A579",
@@ -107118,7 +106848,7 @@
             "A9069A17B1474D76",
             "3007D34FB91FB27E",
             "E74202351AF7F37D",
-            "16CE9E8D17681839",
+            "9DA98A5E3914E2E3",
             "A71457854D13E9DE",
             "2B9DA1FE14596F2E",
             "A07CC0A6D462A579",
@@ -107381,7 +107111,7 @@
             "A9069A17B1474D76",
             "3007D34FB91FB27E",
             "E74202351AF7F37D",
-            "16CE9E8D17681839",
+            "9DA98A5E3914E2E3",
             "A71457854D13E9DE",
             "2B9DA1FE14596F2E",
             "A07CC0A6D462A579",
@@ -108896,7 +108626,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839",
+            "85D7313CCE53D396",
             "E727E56EF8937CD1"
         ],
         "fullFare":"27.3",
@@ -109059,7 +108789,7 @@
             "77D08D8DF5A80932",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -110614,7 +110344,7 @@
             "D0C67A916767F79B",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -110790,7 +110520,7 @@
             "D0C67A916767F79B",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -110881,7 +110611,7 @@
             "D0C67A916767F79B",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -111100,7 +110830,7 @@
             "77D08D8DF5A80932",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -111174,7 +110904,7 @@
             "77D08D8DF5A80932",
             "04601C2FB7201CAA",
             "D28CA51749C67A3D",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "1F3870BB293E9DAF",
             "DB3C788ACBB6668D",
@@ -114454,7 +114184,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839"
+            "85D7313CCE53D396"
         ],
         "fullFare":"24.4",
         "journeyTime":"63",
@@ -114534,7 +114264,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839"
+            "85D7313CCE53D396"
         ],
         "fullFare":"24.4",
         "journeyTime":"70",
@@ -114764,7 +114494,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839"
+            "85D7313CCE53D396"
         ],
         "fullFare":"24.4",
         "journeyTime":"81",
@@ -114924,7 +114654,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839"
+            "85D7313CCE53D396"
         ],
         "fullFare":"20.8",
         "journeyTime":"53",
@@ -115000,7 +114730,7 @@
             "AE6FE615893E8C89",
             "3007D34FB91FB27E",
             "1AB934EFE0E1470A",
-            "16CE9E8D17681839"
+            "85D7313CCE53D396"
         ],
         "fullFare":"20.8",
         "journeyTime":"49",
@@ -115154,7 +114884,7 @@
             "3219906E32C16E0A",
             "B7EE8C907E1E50C0",
             "1AB934EFE0E1470A",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "CCBCD7F613287BC8"
         ],
@@ -115302,7 +115032,7 @@
             "3219906E32C16E0A",
             "B7EE8C907E1E50C0",
             "1AB934EFE0E1470A",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "CCBCD7F613287BC8"
         ],
@@ -115378,7 +115108,7 @@
             "3219906E32C16E0A",
             "B7EE8C907E1E50C0",
             "1AB934EFE0E1470A",
-            "85D7313CCE53D396",
+            "963B3D16A641736E",
             "36904A9AD2C13B32",
             "CCBCD7F613287BC8"
         ],
@@ -116824,88 +116554,6 @@
         ]
     },
     {
-        "route":"A33X",
-        "bound":"I",
-        "service_type":"4",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Tuen Mun (Fu Tai Estate)",
-        "dest_tc":"屯門(富泰邨)",
-        "dest_sc":"屯门(富泰邨)",
-        "co":"KMB",
-        "stops":[
-            "86218AD69549D7B2",
-            "9C9F817064169CE7",
-            "09C223E13435C61D",
-            "4B5144408E60BF11",
-            "4566E35B3D2C20B5",
-            "5055F6D68F0DD49D",
-            "4D02E857ADDE8AAF",
-            "818F12340BA8CA4B",
-            "571FE1F0FBB26545",
-            "C18A68BBD21DC5A6",
-            "EE1D84187D47C96C",
-            "A8B141D2ED68F7E1",
-            "5A781879E83B56A6",
-            "6B3EF5D982B399E6",
-            "CDE9BBBDE0226995",
-            "CBCE32D56C5263A9"
-        ],
-        "fullFare":"15.7",
-        "journeyTime":"54",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "8372",
-                "2"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "05:45:00|07:45:00|3600",
-                    "07:45:00|08:10:00|1500",
-                    "08:10:00|14:10:00|1800",
-                    "14:10:00|14:35:00|1500",
-                    "14:35:00|17:15:00|1200",
-                    "17:15:00|17:55:00|2400",
-                    "17:55:00|18:55:00|900",
-                    "18:55:00|23:15:00|1200",
-                    "23:15:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
-                ],
-                "480":[
-                    "05:45:00|07:45:00|3600",
-                    "07:45:00|08:10:00|1500",
-                    "08:10:00|14:10:00|1800",
-                    "14:10:00|14:35:00|1500",
-                    "14:35:00|23:15:00|1200",
-                    "23:15:00|23:40:00|1500",
-                    "23:40:00|24:00:00|1200"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        15
-                    ],
-                    "price":15.7
-                },
-                {
-                    "range":[
-                        4,
-                        15
-                    ],
-                    "price":6.8
-                }
-            ]
-        ]
-    },
-    {
         "route":"A34",
         "bound":"O",
         "service_type":"1",
@@ -117765,80 +117413,6 @@
         ]
     },
     {
-        "route":"A36",
-        "bound":"I",
-        "service_type":"5",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Kam Sheung Road Station",
-        "dest_tc":"錦上路站",
-        "dest_sc":"锦上路站",
-        "co":"KMB",
-        "stops":[
-            "B8BAF95E90D6E16E",
-            "9C9F817064169CE7",
-            "883451BFA586E00E",
-            "80818BFC3FE76A5B",
-            "D9B82EE66AFF2975",
-            "ADD19B88AA8E99DC",
-            "00115688D89603F9",
-            "6E85D42922E5A10C",
-            "D54B0CA58FE5559D",
-            "3D566753F149907F",
-            "9FB710B737A32C3A",
-            "591FA32FB4B53682",
-            "C59B16415222709D",
-            "88B9BE4ED93A3292",
-            "7469F3B24F889F1B",
-            "8DBA8FDF35CE7CC0",
-            "A4F1BEF1EEAD0910",
-            "A7156FD2BD44D128"
-        ],
-        "fullFare":"19.8",
-        "journeyTime":"69",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000221",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1725",
-                    "1755"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        18
-                    ],
-                    "price":19.8
-                },
-                {
-                    "range":[
-                        5,
-                        18
-                    ],
-                    "price":8.4
-                },
-                {
-                    "range":[
-                        6,
-                        18
-                    ],
-                    "price":6.5
-                }
-            ]
-        ]
-    },
-    {
         "route":"A37",
         "bound":"O",
         "service_type":"1",
@@ -118567,84 +118141,6 @@
         "stops":[
             "5E1FA939586B3FD1",
             "D3B54388E91DAB57",
-            "B0851FD6C20D738D",
-            "0879D399E5B5FE0C",
-            "897B26110ECE76B3",
-            "AB52CEC256B299BE",
-            "156FFE36D7D42EFE",
-            "65F5585B72A99D7F",
-            "94BA372E9FDC87C4",
-            "A6631CAD2E2DE2A6",
-            "84FC122EC64D8885",
-            "04EA3349BDD260C8",
-            "225D34B4D891AFB1",
-            "5F80607D7F73A18B",
-            "179D40F1BB78ACDC",
-            "467BDDF7A510D52D",
-            "1319087BC40F4003",
-            "A76720B899F88D03",
-            "73F1F8AA0F9077D2",
-            "CB0585244877B9B9",
-            "02CF8D1FE31E9A09",
-            "24F7097D1D913EC5"
-        ],
-        "fullFare":"23.4",
-        "journeyTime":"79",
-        "gtfsRouteKey":[
-            [
-                "LWB",
-                "1000446",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "1720",
-                    "1800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        22
-                    ],
-                    "price":23.4
-                },
-                {
-                    "range":[
-                        5,
-                        22
-                    ],
-                    "price":13.9
-                },
-                {
-                    "range":[
-                        6,
-                        22
-                    ],
-                    "price":6.4
-                }
-            ]
-        ]
-    },
-    {
-        "route":"A41",
-        "bound":"I",
-        "service_type":"5",
-        "orig_en":"Airport (Ground Transportation Centre)",
-        "orig_tc":"機場(地面運輸中心)",
-        "orig_sc":"机场(地面运输中心)",
-        "dest_en":"Shek Mun Estate",
-        "dest_tc":"碩門邨",
-        "dest_sc":"硕门邨",
-        "co":"KMB",
-        "stops":[
-            "5E1FA939586B3FD1",
-            "9C9F817064169CE7",
             "B0851FD6C20D738D",
             "0879D399E5B5FE0C",
             "897B26110ECE76B3",
@@ -121076,29 +120572,6 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"B10S",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Kwai Fong (Kwai Tsui Estate)",
-        "orig_tc":"葵芳(葵翠邨)",
-        "orig_sc":"葵芳(葵翠邨)",
-        "dest_en":"Huanggang Port",
-        "dest_tc":"皇崗口岸",
-        "dest_sc":"皇岗口岸",
-        "co":"KMB",
-        "stops":[
-            "376B94FDBA371A25",
-            "9E42D981C59B5762",
-            "E16B85415973C1A2",
-            "C9A6689E84F83D1A"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "route":"B11",
@@ -126033,53 +125506,6 @@
         ]
     },
     {
-        "route":"N116",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"North Point",
-        "orig_tc":"北角",
-        "orig_sc":"北角",
-        "dest_en":"Tsz Wan Shan (Central)",
-        "dest_tc":"慈雲山(中)",
-        "dest_sc":"慈云山(中)",
-        "co":"KMB",
-        "stops":[
-            "616738F21326814A",
-            "38D2BF58A38ADCA0",
-            "F8365ACAC0B85C65",
-            "A3B9F3D6B2668DE3",
-            "6CAA11E0FD871B20",
-            "3E29AD52CE8C9255",
-            "184C33F0F1EF7379",
-            "469644E45027A992",
-            "11B2034DDF30617A",
-            "33033960343A57A8",
-            "F6A446C66F7F805E",
-            "35CD2E3911AEA038",
-            "C847FC07707BC068",
-            "AA62C03711F778F2",
-            "2F7C67769B9FB896",
-            "7F25B423230F5BEE",
-            "CFCA63CAF4C25D2B",
-            "D446D1EA79502BF2",
-            "E7A17EFD6E7435AF",
-            "138A71694F5A3451",
-            "DB6981B82045B45C",
-            "ACE23D880D07ABB1",
-            "1DA57A1376E99AC6",
-            "964AA1DCAAD06512",
-            "D237B30F94B6065D",
-            "7D025E77F4B35266",
-            "EE3B5ABCB87027E7",
-            "57C138647A7F8CEF"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"N118",
         "bound":"O",
         "service_type":"1",
@@ -130703,46 +130129,6 @@
         ]
     },
     {
-        "route":"N43",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Tsuen Wan Station",
-        "orig_tc":"荃灣站",
-        "orig_sc":"荃湾站",
-        "dest_en":"Tsing Yi (Cheung Wang Estate)",
-        "dest_tc":"青衣(長宏邨)",
-        "dest_sc":"青衣(长宏邨)",
-        "co":"KMB",
-        "stops":[
-            "520D0D5DB7FAB41C",
-            "92A8281D80524F78",
-            "CDEB07C7C0841D5B",
-            "F9F75324B8F1D7E3",
-            "FE90421D0B82E691",
-            "F9F4E00007242BED",
-            "4E870B220826BEE0",
-            "5AD2A4D21C226335",
-            "A454170B2B59B587",
-            "D6E7412666B1175B",
-            "21A1859E80CD542A",
-            "6DF1AF2871D4B7D9",
-            "5B5107DB7CE969DE",
-            "333E9F98EEB84849",
-            "196A1E44C305C174",
-            "BDE0F1679E1C8ABF",
-            "13458794A52910B0",
-            "3F13933D0157CFCF",
-            "A2BE47AFF20CD4F6",
-            "CC6B75E6D60B4C57",
-            "79842A7E2FC0844F"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"N48",
         "bound":"O",
         "service_type":"1",
@@ -134331,97 +133717,6 @@
         "sectionFare":[]
     },
     {
-        "route":"R108",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Kai Yip",
-        "orig_tc":"啟業",
-        "orig_sc":"启业",
-        "dest_en":"Causeway Bay (Victoria Park)",
-        "dest_tc":"銅鑼灣(維多利亞公園)",
-        "dest_sc":"铜锣湾(维多利亚公园)",
-        "co":"KMB",
-        "stops":[
-            "0718DE53C1C84496",
-            "AC4EEE801BB9133C",
-            "5CD6A0A0CE6B53B6",
-            "32A2D05A195364DC",
-            "C1C31D615DAA97F4",
-            "A4601C77EB896E30",
-            "E207DBF95EA7DE26",
-            "C71093B5185DF735",
-            "C80FB453C9F53569",
-            "8BB1DE68DB8316D3",
-            "AE4D7869B643DAA2",
-            "AE2A53D953B640BE",
-            "E798CB4E2C777782",
-            "6E8CB58283AF3CB1",
-            "9CFB5F7232818FFA",
-            "A06590AD808DC9A9",
-            "06C9926B2E2B304F",
-            "76B4054F2E1F00B0",
-            "DF901EF2F9A46F7B"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"R215",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Lam Tin (Kwong Tin Estate)",
-        "orig_tc":"藍田(廣田邨)",
-        "orig_sc":"蓝田(广田邨)",
-        "dest_en":"Tsim Sha Tsui East (Mody Road)",
-        "dest_tc":"尖東麼地道",
-        "dest_sc":"尖东么地道",
-        "co":"KMB",
-        "stops":[
-            "215D99B3E2A5F8DD",
-            "736E84A8060D2AB9",
-            "CB4B52222877C32F",
-            "6B9496267BEFF02A",
-            "5ACB622335DF5AE7",
-            "B7082198F517B1E8",
-            "1FBAAE29AF1CA50E",
-            "AA52228890817D12",
-            "6410DDEFBBD17426",
-            "A6A1C99BF11EE56C",
-            "EC1E1868D370F3D9",
-            "057B2DCE8BE58FFA",
-            "8CA39D263F36C070",
-            "EA2CFF27310EAEC3",
-            "93084A14AE624C6F",
-            "D17050E8964504BB",
-            "04DDF4F7F1C74876",
-            "D6F16850DA906373",
-            "2BB6115BF9346B34",
-            "6765DD696FA8BF8D",
-            "0CA3C6C38D2F3F75",
-            "FAF9EF8853A3B65E",
-            "EDFC39232C98E301",
-            "9D431DF484149B75",
-            "3E54E8AF4083B065",
-            "3F4B54625D1F9E48",
-            "F663E12DC37F3C5A",
-            "D2B43459063F53DB",
-            "7995F69FE44D0DB3",
-            "F90ED764C7A95649",
-            "041DFA7A1729D20C",
-            "558599642E78BB9B",
-            "BEEBDDB542A7E709",
-            "48184733EFE9D3E3"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"R298",
         "bound":"O",
         "service_type":"1",
@@ -134864,57 +134159,6 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"R603",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"On Tai (West)",
-        "orig_tc":"安泰(西)",
-        "orig_sc":"安泰(西)",
-        "dest_en":"Causeway Bay (Victoria Park)",
-        "dest_tc":"銅鑼灣(維多利亞公園)",
-        "dest_sc":"铜锣湾(维多利亚公园)",
-        "co":"KMB",
-        "stops":[
-            "FBE07247C3FDB904",
-            "EC1E1868D370F3D9",
-            "057B2DCE8BE58FFA",
-            "4A91A327C9FC745E",
-            "EA2CFF27310EAEC3",
-            "3C0AF6BA82588E2F",
-            "F8DEE1D5F9A349AD",
-            "4A14A012710E80B1",
-            "3216F11DA45B80D7",
-            "6F106FD26B684372",
-            "26305AF62FBEE2BC",
-            "D83C4CC1305E35E9",
-            "13A8D09F9E444BF3",
-            "EF17FDCDDF170D38",
-            "FDB7C76323B22686",
-            "9D676B8892807F9D",
-            "1472CA699A47EE46",
-            "3144CE950CE29C80",
-            "543FD8B6C65D1C4C",
-            "316BB2C947568585",
-            "3E862B92873F5811",
-            "57A0D4D6D4D57497",
-            "0F9D050D4229C0F7",
-            "19171A194D7507D5",
-            "F60CC440E22B0BD9",
-            "3C6DAB7267F9E54F",
-            "73E85E88E124EF2C",
-            "6C6B36F7550907CE",
-            "FF6E49051D6D9A8C",
-            "06C9926B2E2B304F",
-            "76B4054F2E1F00B0",
-            "DF901EF2F9A46F7B"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "route":"R8",
@@ -138105,54 +137349,5 @@
                 }
             ]
         ]
-    },
-    {
-        "route":"X90",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Fire and Ambulance Services Academy",
-        "orig_tc":"消防及救護學院",
-        "orig_sc":"消防及救护学院",
-        "dest_en":"Hung Ngok House",
-        "dest_tc":"紅萼樓",
-        "dest_sc":"红萼楼",
-        "co":"KMB",
-        "stops":[
-            "CC2353289CD0EE66",
-            "E0BAA3364D0CE860",
-            "179C182ADEF1070D",
-            "D45CEDE6A9DFA30B",
-            "58584BC1AC41723C"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"X90",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Wong Tai Sin Station",
-        "orig_tc":"黃大仙站",
-        "orig_sc":"黄大仙站",
-        "dest_en":"Fire and Ambulance Services Academy",
-        "dest_tc":"消防及救護學院",
-        "dest_sc":"消防及救护学院",
-        "co":"KMB",
-        "stops":[
-            "5536C9E3A0CE1228",
-            "D0F8772D043C207E",
-            "C057639478BE0168",
-            "14CF94DF66FCD0C8",
-            "97D1981DE7ECBCE7",
-            "CC2353289CD0EE66"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     }
 ]
