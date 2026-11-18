@@ -36982,8 +36982,6 @@
             "ACDCC9E65172243D",
             "597CE200C2824BEE",
             "363A9BD5A7BE81D0",
-            "53C49B85EBFF8AAE",
-            "D055CA5BAD9EEF5E",
             "403CF34C7A6517DF",
             "D81F71DD9C66DB40",
             "7734D36599C82057",
@@ -37060,7 +37058,6 @@
             "F19B835289BCF961",
             "F7DD5A5E7E4D41C9",
             "3FD481FB9B9DC36C",
-            "B631B9B1C61F6DAA",
             "1806B9A56B481DBA",
             "55D37B4406A049FB",
             "BBFADA4889A61FCC",
@@ -37176,10 +37173,6 @@
             "ACDCC9E65172243D",
             "597CE200C2824BEE",
             "7AC279608B65128C",
-            "46604706EE6CC765",
-            "B4721B39CC29C634",
-            "D7D25DCF873DAE7A",
-            "53C49B85EBFF8AAE",
             "46604706EE6CC765",
             "375591F774538709",
             "FB5500F0D32629B2",
@@ -38922,8 +38915,7 @@
         "dest_sc":"荃湾(如心广场)",
         "co":"KMB",
         "stops":[
-            "5FA8B50329B85F1A",
-            "53C49B85EBFF8AAE",
+            "12E4BAFA2B73435B",
             "74648B92E0E80E2E",
             "4DD5EC5516B360D7",
             "33ABA49F0E91A247",
@@ -38945,52 +38937,11 @@
             "01642BC44DCFDB3C",
             "E0908A8C2459FA0F"
         ],
-        "fullFare":"11.5",
-        "journeyTime":"52",
-        "gtfsRouteKey":[
-            [
-                "KMB",
-                "8768",
-                "1"
-            ]
-        ],
-        "freq":[
-            {
-                "287":[
-                    "0720",
-                    "0745",
-                    "0810"
-                ],
-                "288":[
-                    "0800"
-                ]
-            }
-        ],
-        "sectionFare":[
-            [
-                {
-                    "range":[
-                        1,
-                        22
-                    ],
-                    "price":11.5
-                },
-                {
-                    "range":[
-                        13,
-                        22
-                    ],
-                    "price":0.0
-                },
-                {
-                    "range":[
-                        14,
-                        22
-                    ],
-                    "price":6.7
-                }
-            ]
-        ]
+        "fullFare":"",
+        "journeyTime":"",
+        "gtfsRouteKey":[],
+        "freq":[],
+        "sectionFare":[]
     },
     {
         "route":"73F",
@@ -39515,8 +39466,7 @@
             "6E1E84A8BAF508AC",
             "DB241439B4E2785A",
             "ACDCC9E65172243D",
-            "5FA8B50329B85F1A",
-            "53C49B85EBFF8AAE",
+            "12E4BAFA2B73435B",
             "620E14F31DA31490",
             "32F5F33FA68B77D6",
             "0A1DAEAFFDFF0B66",
@@ -39905,8 +39855,7 @@
             "4249ED0CD65130CC",
             "CB7FA5CF40D4413A",
             "3FD481FB9B9DC36C",
-            "5FA8B50329B85F1A",
-            "53C49B85EBFF8AAE",
+            "12E4BAFA2B73435B",
             "620E14F31DA31490",
             "09B4297CB90AF3EC",
             "97BB9CE7A058E809",
@@ -42698,8 +42647,7 @@
             "8C21D2D96DA6D045",
             "5D6FB6C3F67A70DC",
             "A47A663F7AF92B77",
-            "D7D25DCF873DAE7A",
-            "53C49B85EBFF8AAE",
+            "12E4BAFA2B73435B",
             "3114213F8975F536",
             "90B75A8D2983AC20",
             "AA2D8DCDD78651B0",
@@ -89538,8 +89486,7 @@
             "8C21D2D96DA6D045",
             "5D6FB6C3F67A70DC",
             "A47A663F7AF92B77",
-            "D7D25DCF873DAE7A",
-            "53C49B85EBFF8AAE",
+            "12E4BAFA2B73435B",
             "3114213F8975F536",
             "D1AAD1771F3FA9A0",
             "C80FB453C9F53569",
@@ -130129,87 +130076,6 @@
         ]
     },
     {
-        "route":"N48",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Yu Chui Court",
-        "orig_tc":"愉翠苑",
-        "orig_sc":"愉翠苑",
-        "dest_en":"Tsuen Wan (Bayview Garden)",
-        "dest_tc":"荃灣(灣景花園)",
-        "dest_sc":"荃湾(湾景花园)",
-        "co":"KMB",
-        "stops":[
-            "8F6FD66CC20690DC",
-            "CF75BC81CDF3D411",
-            "F1FAD83F14FE22F6",
-            "0ABE48106C953AC9",
-            "9D3BCB233237C32C",
-            "4E56DD827C1F571A",
-            "05D5B529DB497B99",
-            "620E14F31DA31490",
-            "0A1DAEAFFDFF0B66",
-            "9FD6AAFA1318E3D9",
-            "066AA1A504714A20",
-            "0B4807A5C0DAF24A",
-            "40A8EA2850B0979B",
-            "B943DBEE65B0B18F",
-            "7019D5AE9C63EE72",
-            "4E224310C4B46C9A",
-            "3F545756160D7BEA",
-            "BFA3460955AC820C",
-            "5FB1FCAF80F3D97D",
-            "FF4785270078B487",
-            "90A65F742FE7D728"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"N48",
-        "bound":"I",
-        "service_type":"1",
-        "orig_en":"Tsuen Wan (Bayview Garden)",
-        "orig_tc":"荃灣(灣景花園)",
-        "orig_sc":"荃湾(湾景花园)",
-        "dest_en":"Yu Chui Court",
-        "dest_tc":"愉翠苑",
-        "dest_sc":"愉翠苑",
-        "co":"KMB",
-        "stops":[
-            "90A65F742FE7D728",
-            "B8B04CD1E568B8F6",
-            "939FE9A08B99174C",
-            "CAEEAD91F339D3DA",
-            "20E8B4520A802912",
-            "E368E68412AB685C",
-            "CA793BE80FF68AE2",
-            "C9E264A3F9D4CEB3",
-            "094D2EBC017EE61A",
-            "8C6EF1266E4EE05B",
-            "257A6E19DD7F156C",
-            "28A57C043C111604",
-            "E00E92F19002ED3E",
-            "DEDD6247441C8C05",
-            "81B719F7DC3F0FAD",
-            "05EE261A65F9B7ED",
-            "142BE7225B0BB745",
-            "AFC5E64568DBB2D5",
-            "ABFB3F43ECB908B2",
-            "C1E9F8237EDBBAD2",
-            "4BFB5F2D496CDA56",
-            "8F6FD66CC20690DC"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
         "route":"N619",
         "bound":"O",
         "service_type":"1",
@@ -133709,38 +133575,6 @@
             "A31DD8C4FD6740D4",
             "045FB4EAE4FE52D6",
             "F050648C108571ED"
-        ],
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "route":"R298",
-        "bound":"O",
-        "service_type":"1",
-        "orig_en":"Hong Sing Garden",
-        "orig_tc":"康盛花園",
-        "orig_sc":"康盛花园",
-        "dest_en":"Tsim Sha Tsui East (Mody Road)",
-        "dest_tc":"尖沙咀東(麼地道)",
-        "dest_sc":"尖沙咀东(么地道)",
-        "co":"KMB",
-        "stops":[
-            "D4D418BAEAC719B0",
-            "ABC15E2110BF7A49",
-            "932D83E09BF6ADE6",
-            "848CA90EB0DB1146",
-            "7486D53F341F1AAC",
-            "FC42DCBDC3AB0B6F",
-            "22E2678081E88368",
-            "ECD84D5B8C52642B",
-            "9B0382206D441221",
-            "54FCA9F5D8F3587E",
-            "9762FC524B26C4A7",
-            "BEEBDDB542A7E709",
-            "0DB55CC5E4533F4E"
         ],
         "fullFare":"",
         "journeyTime":"",
