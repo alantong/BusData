@@ -12369,26 +12369,6 @@
     },
     {
         "co":"CTB",
-        "route":"20R",
-        "orig_tc":"尖沙咀／高鐵西九龍站",
-        "orig_en":"Tsim Sha Tsui / High Speed Rail West Kowloon Station",
-        "dest_tc":"啟德郵輪碼頭",
-        "dest_en":"Kai Tak Cruise Terminal",
-        "orig_sc":"尖沙咀／高铁西九龙站",
-        "dest_sc":"启德邮轮码头",
-        "stops":[
-            "001588",
-            "003519"
-        ],
-        "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "co":"CTB",
         "route":"20X",
         "orig_tc":"啟德郵輪碼頭",
         "orig_en":"Kai Tak Cruise Terminal",
@@ -12998,26 +12978,6 @@
                 }
             ]
         ]
-    },
-    {
-        "co":"CTB",
-        "route":"22R",
-        "orig_tc":"啟德站",
-        "orig_en":"Kai Tak Station",
-        "dest_tc":"啟德郵輪碼頭",
-        "dest_en":"Kai Tak Cruise Terminal",
-        "orig_sc":"启德站",
-        "dest_sc":"启德邮轮码头",
-        "stops":[
-            "003587",
-            "003519"
-        ],
-        "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "co":"CTB",
@@ -72346,46 +72306,6 @@
                 }
             ]
         ]
-    },
-    {
-        "co":"CTB",
-        "route":"X797",
-        "orig_tc":"調景嶺站",
-        "orig_en":"Tiu Keng Leng Station",
-        "dest_tc":"消防及救護學院",
-        "dest_en":"Fire and Ambulance Services Academy",
-        "orig_sc":"调景岭站",
-        "dest_sc":"消防及救护学院",
-        "stops":[
-            "002917",
-            "003444"
-        ],
-        "bound":"O",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
-    },
-    {
-        "co":"CTB",
-        "route":"X797",
-        "orig_tc":"消防及救護學院",
-        "orig_en":"Fire and Ambulance Services Academy",
-        "dest_tc":"調景嶺站",
-        "dest_en":"Tiu Keng Leng Station",
-        "orig_sc":"消防及救护学院",
-        "dest_sc":"调景岭站",
-        "stops":[
-            "003444",
-            "002917"
-        ],
-        "bound":"I",
-        "fullFare":"",
-        "journeyTime":"",
-        "gtfsRouteKey":[],
-        "freq":[],
-        "sectionFare":[]
     },
     {
         "co":"CTB",
